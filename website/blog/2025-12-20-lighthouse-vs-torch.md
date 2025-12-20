@@ -25,3 +25,4 @@ tags: [philosophy, strategy, open-source]
 
 [原文链接参考](https://x.com/nake13)
 
+
