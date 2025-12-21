@@ -27,3 +27,23 @@ tags: [philosophy, strategy, open-source]
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
