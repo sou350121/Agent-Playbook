@@ -23,3 +23,12 @@ slorber:
     linkedin: sebastienlorber
     github: slorber
     newsletter: https://thisweekinreact.com
+
+sou350121:
+  name: sou350121
+  title: Agent 经验库维护者
+  url: https://github.com/sou350121
+  image_url: https://github.com/sou350121.png
+  page: true
+  socials:
+    github: sou350121
