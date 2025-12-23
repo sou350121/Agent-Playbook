@@ -1,41 +1,39 @@
 # Agent 经验库 (Agent Experience Library)
 
-> 这是一个专门记录 Agent 使用心得、模型对比、工具方法论与 UI/UX Prompt 的知识库。内容每日更新，旨在沉淀可复用的 Agent 工程实践。
+> 记录 Agent 使用心得、模型对比、工具方法论与 Prompt（含截图）的知识库。面向 **GitHub 直读**：目录即导航，文件即事实。
 
-## 📌 阅读方式
-- **推荐**：直接在 GitHub 浏览本仓库（按目录组织，便于检索和 PR）。
+## 📌 怎么读（推荐顺序）
+- 先看总览：
+  - `docs/planning/hybrid-docops-agentops-best-practices.mdx`
+- 再按兴趣深入：
+  - `docs/planning/`（心智模型/范式）
+  - `docs/tools/`（工具链/工作流）
+  - `docs/model-comparisons/`（模型对比）
+  - `docs/prompt-library/`（Prompt 卡片）
+  - `docs/case-studies/`（案例复盘）
+  - `docs/capabilities/`（关键概念/能力边界）
 
----
+## 🧭 目录导航
+- **文档**：[`docs/`](./docs/)
+- **日更动态**：[`blog/`](./blog/)
+- **截图/图片**：[`static/img/`](./static/img/)
+- **可复制脚手架（DocOps+AgentOps）**：[`starter-kits/docops-agentops/`](./starter-kits/docops-agentops/)
+- **给编码代理的说明**：[`AGENT.md`](./AGENT.md)
 
-## 📂 快速导航 (GitHub 直接阅读)
+## ⭐ 精选入口（少而精）
+- **DocOps/AgentOps**
+  - [Hybrid DocOps + AgentOps 最佳实践](./docs/planning/hybrid-docops-agentops-best-practices.mdx)
+  - [Agentic Coding 的本质：文档工程（DocOps）](./docs/planning/agentic-coding-doc-engineering.mdx)
+  - [《A Year Of Vibes》读后：Prompt VCS、协作界面与责任归属](./docs/planning/a-year-of-vibes-prompt-vcs-and-agency.mdx)
+- **工具工作流**
+  - [DNA 级交付标准（结论→分析→方案→里程碑→PR）](./docs/tools/agent-dna-workflow.mdx)
+  - [多 Agent 闭环：PM/架构师 + Coder + Reviewer](./docs/tools/multi-agent-coding-workflow.mdx)
+- **模型对比**
+  - [GPT-5.2 vs Opus 4.5：SSE 重构案例对比](./docs/model-comparisons/gpt5-vs-opus45-sse-case.mdx)
 
-你可以直接在 GitHub 浏览器中点击以下链接阅读核心内容：
-
-### 1. 计划与心智模型 (Planning & Mental Models)
-- [Agent 心智模型：从“做题家”到“管理者”](./docs/planning/agent-mental-model.mdx)
-- [选型框架：灯塔 vs 火把](./docs/planning/lighthouse-vs-torch-framework.mdx)
-
-### 2. 模型对比 (Model Comparisons)
-- [GPT-5.2 vs Opus 4.5：SSE 重构案例对比](./docs/model-comparisons/gpt5-vs-opus45-sse-case.mdx)
-- [GPT-5.2 vs Claude 4.5 规划能力分析](./docs/model-comparisons/gpt5-vs-claude45.mdx)
-
-### 3. 工具与方法论 (Tools & Methodology)
-- [Cursor 与 Claude Code 高效协作方法论](./docs/tools/cursor-methodology.mdx)
-
-### 4. Prompt 库 (Prompt Library)
-- [UI/UX 设计稿转 Tailwind 组件](./docs/prompt-library/ui-ux-design-prompt.mdx)
-
----
-
-## 📅 最近动态 (Daily Blog)
-- [2025-12-20: GPT-5.2 vs Opus 4.5 复杂工程“速度陷阱”](./blog/2025-12-20-gpt5-vs-opus45-engineering.md)
-- [2025-12-20: 灯塔与火把：重新定义 AI 的分配权](./blog/2025-12-20-lighthouse-vs-torch.md)
-- [2025-12-20: Agent 入门第一课（心智模型）](./blog/2025-12-20-agent-mental-model.md)
-
----
-
-## 🛠️ 参与贡献
-欢迎通过 Issue 或 PR 分享你的 Agent 使用经验。请参考 [CONTRIBUTING.md](./CONTRIBUTING.md)。
+## ✍️ 如何贡献
+- 贡献规范：[`CONTRIBUTING.md`](./CONTRIBUTING.md)
+- 写作模板：[`docs/_templates/`](./docs/_templates/)
 
 ## ⚖️ 许可协议
 内容采用 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh) 许可协议，代码采用 MIT 协议。
