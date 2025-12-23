@@ -1,0 +1,17 @@
+name: DocOps Validation
+
+on:
+  pull_request:
+  push:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validate DocOps evidence chain
+        run: |
+          chmod +x scripts/validate-docops.sh
+          scripts/validate-docops.sh
