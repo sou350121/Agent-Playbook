@@ -44,8 +44,27 @@
 - `workflow.mdx`
 - `prompt-card.mdx`
 - `case-study.mdx`
+- `prompt-vcs.mdx`（Prompt 版本控制模板）
+- `failure-log.mdx`（失败路径记录模板）
 
 模板说明：`website/docs/_templates/README.md`
+
+### 2.4 Prompt 版本控制 (VCS)
+为了解决“只看代码 diff 无法理解 AI 意图”的问题，建议在进行复杂任务时采用以下目录结构：
+
+```text
+stories/         # 需求故事单元
+  S-xxxx-title.md
+prompts/         # 核心提示词库
+  S-xxxx.md
+sessions/        # 过程记录与失败路径
+  S-xxxx/
+    2025-xx-xx-model-name.md
+    failures.md
+```
+
+- **`prompts/S-xxxx.md`**：记录最终生效的提示词、关键上下文和模型配置。
+- **`sessions/S-xxxx/failures.md`**：记录“此路不通”的尝试，防止 AI 重蹈覆辙。
 
 ## 3. 图片/截图怎么放？
 
