@@ -29,6 +29,7 @@
 
 - **心法与范式**
     - [一人 CEO 范式：Agent 时代的个体组织力](./planning/one-person-ceo-paradigm.mdx)
+    - [智力套利策略：利用平权智力寻找利基机会](./planning/intelligence-arbitrage-strategy.mdx)
     - [提示词工程的底层逻辑：从指令到“公式”](./prompt-library/prompt-engineering-philosophy.mdx)
     - [研究品味：作为决策中的“值函数”](./planning/research-taste-as-value-function.mdx)
 - **底层架构与能力**
