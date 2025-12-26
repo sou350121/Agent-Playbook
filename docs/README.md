@@ -25,6 +25,19 @@
 7. **关键概念与能力边界**
    - `capabilities/`
 
+## ⭐ 必读精选 (Top Picks)
+
+- **心法与范式**
+    - [一人 CEO 范式：Agent 时代的个体组织力](./planning/one-person-ceo-paradigm.mdx)
+    - [提示词工程的底层逻辑：从指令到“公式”](./prompt-library/prompt-engineering-philosophy.mdx)
+    - [研究品味：作为决策中的“值函数”](./planning/research-taste-as-value-function.mdx)
+- **底层架构与能力**
+    - [推理编排与元系统：榨干 LLM 的潜力](./capabilities/agentic-orchestration-meta-system.mdx)
+    - [知识平权与智力成本的扁平化](./capabilities/knowledge-equality-and-flat-cost.mdx)
+    - [智能作为一种资源：可编织与可协作的未来](./capabilities/intelligence-as-a-resource.mdx)
+- **案例复盘**
+    - [AI 创业 180 天失败录](./case-studies/ai-startup-180-days-failure.mdx)
+
 ## 写作模板
 
 - 模板目录：`_templates/`
