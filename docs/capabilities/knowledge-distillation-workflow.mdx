@@ -1,0 +1,36 @@
+# 知识蒸馏：让 Agent 拥有万级文件的“上帝视角”
+
+在 [架构治理](../architecture-governance/README.mdx) 中，我们面临的最大挑战是 **“上下文爆炸”**。当项目变成屎山，Agent 很难一次性读懂。
+
+## 1. 核心流程：蒸馏三部曲
+
+1.  **扫描 (Indexing)**：
+    利用 `Qoder` 或 `Zread` 生成项目的结构化 Wiki。这一步是将“代码”转化为“结构化文本”。
+2.  **蒸馏 (Distillation)**：
+    使用 **Skill Seekers** 工具，将数万字的 Wiki 内容提炼成一组特定的 **Tools** 和 **Context** 定义。
+3.  **注入 (Injection)**：
+    将生成的 `.zip` 技能包安装到 **Claude Code**。此时，Agent 不再需要逐行读代码，它只需调用“技能”就能知道某个模块的职责。
+
+## 2. 工具：Skill Seekers
+
+- **本质**：针对文档的“精简爬虫 + AI 封装器”。
+- **价值**：它解决了“手动创建 Claude Skill 太累”的痛点。
+- **最佳实践**：
+  ```bash
+  # 自动为某个开源库生成 Claude 技能包
+  skill-seekers github --repo [User]/[Repo] --name project-master-skill
+  ```
+
+## 3. 为什么这一步不可或缺？
+
+如 Boris Cherny 所言，软件工程正在发生根本变化。
+- **旧思维**：人工写文档给新同事看。
+- **新思维**：AI 生成文档给 **另一个 AI** 看（作为它的工作流）。
+
+这种 **“AI-to-AI”** 的文档传递，才是跨越 10 倍战力鸿沟的关键。
+
+---
+
+**关联阅读：**
+- [Boris 范式：消失的 IDE](../../blog/2025-12-25-boris-cherny-claude-code-father-retro.md)
+- [架构治理：ADR 记忆宫殿](../architecture-governance/05-adr-mind-palace.mdx)

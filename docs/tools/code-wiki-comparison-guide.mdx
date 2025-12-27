@@ -1,0 +1,32 @@
+# 代码智能：Code Wiki 工具深度对比指南
+
+当项目规模超过 1000 个文件，靠人工阅读理解已经不现实。你需要“代码智能”工具来生成项目的 **“数字地图”**。
+
+## 1. 工具横向测评 (2025 版)
+
+| 工具 | 优势 | 劣势 | 推荐场景 |
+| :--- | :--- | :--- | :--- |
+| **Qoder (Repo Wiki)** | **质量最好**，支持 Mermaid 绘图，自动同步 Git 变更。 | 收费 (Credits 制)，1 万文件上限。 | **公司级项目维护**、核心业务破解。 |
+| **Zread (智谱)** | **中文原生**，逻辑分层清晰，GLM-4.7 驱动。 | 无法导出文档，无法内网部署。 | **开源库深度学习**、个人项目梳理。 |
+| **DeepWiki-Open** | **开源免费**，支持本地代码路径，可私有化部署。 | 部署门槛高，对 Embedding 模型质量敏感。 | **敏感代码内网分析**。 |
+| **Code Wiki (Google)** | 继承 Gemini 问答，热门项目直接阅读。 | 不支持私有仓，中文支持差，无法导出。 | 快速浏览 GitHub 热门库。 |
+
+## 2. 什么是“知识蒸馏”？
+
+博主提到的 **Skill Seekers** 揭示了一个核心概念：**知识蒸馏 (Knowledge Distillation)**。
+- **痛点**：直接把万级文件丢给 Agent，上下文会爆掉，AI 会变蠢。
+- **解法**：通过 `Skill Seekers` 将冗长的 Wiki 或 GitHub 文档“蒸馏”成一个即插即用的 `.zip` 技能包（Claude Skill）。
+- **效果**：Agent 只需加载几 KB 的技能定义，就能拥有对整个万级文件项目的“上帝视角”。
+
+## 3. 部署实践：Docker + DeepWiki-Open
+
+如果你有私密代码，可以尝试以下链路：
+1.  使用 **Skill Seekers** 获取部署指南。
+2.  利用 **Claude Code** (Bypass 模式) 自动化执行 Docker Compose。
+3.  通过 **GLM-4.7 API** 作为后端动力，生成本地代码的 Wiki。
+
+---
+
+**关联阅读：**
+- [Claude Skill 进阶指南](./claude-skills-guide.mdx)
+- [架构治理：物理层治理](../architecture-governance/01-physical-rails.mdx)
