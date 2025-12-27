@@ -1,0 +1,50 @@
+# 数字化工作室：设计你的代理组织架构 (Agentic Org Chart)
+
+Hayes 提供的 `.claude/agents/` 目录结构，为我们展示了 [一人公司 (One-Person CEO)](./one-person-ceo-paradigm.mdx) 范式的终极落地形态。
+
+## 1. 核心设计哲学：粒度即战力
+
+很多人觉得一个“全能 Agent”最强，但在复杂工程中，**高度细分**才是王道。
+
+- **职责解耦**：当 `legal-compliance-checker.md` 只负责合规时，它的提示词（System Prompt）可以写得极其深入，而不会被无关信息干扰。
+- **并行编排**：不同的 Agent 可以通过不同的 [Skill 或 MCP](../capabilities/skill-vs-mcp-architecture.mdx) 独立运作，形成协作流。
+
+## 2. 目录结构拆解 (参考 Hayes 范式)
+
+```bash
+.claude/agents/
+├── engineering/          # 技术实现层
+│   ├── ai-engineer.md    # 负责模型调用与优化
+│   └── devops-automator.md # 负责 CI/CD 与部署
+├── marketing/            # 增长与流量层
+│   ├── tiktok-strategist.md
+│   └── growth-hacker.md
+├── studio-operations/    # 支撑与风控层
+│   ├── legal-compliance.md
+│   └── finance-tracker.md
+└── testing/              # 质量保障层
+    └── workflow-optimizer.md
+```
+
+## 3. 每一个 `.md` 文件里该写什么？
+
+这些 Agent 文件本质上是它的**“数字入职合同”**，建议包含：
+- **Role (角色)**：明确它在这个组织里的唯一身份。
+- **Capabilities (能力)**：它被允许调用的 [MCP 节点](../docs/tools/cc-switch-guide.mdx) 列表。
+- **Constraints (约束)**：它绝对不能做的事情（例如：未经审计不得修改财务文件）。
+- **Output Standards (交付标准)**：它的产出必须符合什么格式。
+
+## 4. 进化：从“静态文件”到“动态编排”
+
+这种架构最强的地方在于：当你发现某个环节变弱了（比如 Reddit 运营效果不好），你只需要修改 `marketing/reddit-community-builder.md` 这一个文件，而不需要动整个系统。
+
+---
+
+## 5. 结论：你不是在编程，你是在经营
+
+正如 [Vibe Coding](./vibe-coding-paradigm.mdx) 提到的，代码正在变得廉价。
+**真正的护城河，是你对这套“代理组织架构”的编排能力。**
+
+> **行动建议**：
+> 1. 在你的项目根目录创建 `.claude/agents/`（或自定义目录）。
+> 2. 从你每天重复最多的三个任务开始，先写三个“数字员工”文件。
