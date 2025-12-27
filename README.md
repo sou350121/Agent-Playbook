@@ -2,9 +2,13 @@
 
 > 记录 Agent 使用心得、模型对比、工具方法论与 Prompt（含截图）的知识库。面向 **GitHub 直读**：目录即导航，文件即事实。
 
+## 🏗️ 核心专项
+- **[架构治理 (Architectural Governance)](./docs/architecture-governance/README.mdx)**：针对大型项目的物理导轨、逻辑契约与流程治理框架。
+
 ## 📌 怎么读（推荐顺序）
 - 先看总览：
   - `docs/planning/hybrid-docops-agentops-best-practices.mdx`
+  - `docs/architecture-governance/README.mdx` (大型项目必看)
 - 再按兴趣深入：
   - `docs/planning/`（心智模型/范式）
   - `docs/tools/`（工具链/工作流）
