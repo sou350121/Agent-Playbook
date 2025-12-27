@@ -1,0 +1,47 @@
+# Agentic 数据分析实战：从积灰数据到商业洞察
+
+六叔 (@nake13) 的 Apple Health 分析案例，为我们提供了一套通用的 **“Agentic Data Analysis”** 标准工作流。
+
+## 1. 核心工作流：递归闭环 (The Recursive Loop)
+
+不同于传统的“写一个 SQL 跑一下”，Agentic 模式是**意图驱动**的：
+
+1.  **资产探知 (Discovery)**：
+    - **指令**：“这是一个 3GB 的压缩包，请你解压并告诉我它的目录结构和关键 XML 标签。”
+    - **Agent 动作**：自主运行 `ls`, `grep`, `head` 等命令。
+2.  **原型脚本 (Prototyping)**：
+    - **指令**：“我想计算‘静息心率’与‘环境噪音’的相关性，请写一个 Python 脚本。”
+3.  **递归修正 (Self-Correction)**：
+    - **场景**：脚本因为 XML 格式不规范报错。
+    - **Agent 动作**：捕捉 Error，重新读取数据片段，修正解析逻辑，再次运行。
+4.  **洞察提取 (Insight Extraction)**：
+    - **指令**：“基于清洗后的数据，给我 10 个我意想不到的趋势。”
+
+## 2. 核心原则：验证机制 (The Verification Pillars)
+
+正如 [Agent 宪法](../../AGENT_CONSTITUTION_UNIVERSAL.md) 中强调的，可验证性是底线：
+
+- **中间数据审计**：要求 Agent 输出每个阶段的计数（Count）和样本（Sample）。
+- **人工抽样核对**：从 Agent 处理后的 CSV 中随机挑出 5 条，与原始数据比对。
+- **多 Agent 交叉对比**：让 Claude Code 写脚本，让 Codex 审查逻辑，让 Gemini 分析结果。
+
+## 3. 为什么必须使用 CLI Agent？
+
+Web UI (ChatGPT/Claude App) 有三个天然缺陷：
+1.  **文件大小限制**：无法处理 GB 级数据。
+2.  **环境隔离**：无法直接调用本地复杂的 Python 库或外部工具。
+3.  **计算超时**：长任务会被强制断流。
+
+**解决方案**：[Claude Code](../tools/claude-skills-guide.mdx) 或 [CC Switch](../tools/cc-switch-guide.mdx) 管理下的本地环境。
+
+## 4. 结论：数据资产的“零门槛”时代
+
+技术门槛已经被 Agent 彻底抹平。现在的核心竞争力是：
+- **提问的质量**：你能想到哪些交叉分析维度？
+- **验证的严谨性**：你如何确保 AI 给你的 5.2 倍相关性不是编出来的？
+
+---
+
+**关联阅读：**
+- [架构治理：小白词典](../architecture-governance/00-glossary-for-beginners.mdx)
+- [后端全景图：数据建模部分](../planning/backend-engineer-roadmap-evolution.mdx)
