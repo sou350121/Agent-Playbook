@@ -1,0 +1,104 @@
+# Docker 深度讲解：从集装箱到 Agent 编排
+
+> **前言：** 很多开发者觉得 Docker 只是“轻量级虚拟机”。但在 10x 工程师眼中，Docker 是**“可编程的基础设施”**。
+
+---
+
+## 1. 核心概念：三位一体
+
+理解 Docker 只需记住这三个词：
+
+### 1.1 镜像 (Image) —— “光盘/安装包”
+- **本质**：一个只读的模板。它包含了运行软件所需的一切（代码、库、环境变量、配置文件）。
+- **类比**：就像是一张《暗黑破坏神》的安装光盘。光盘本身不能玩，但它是启动游戏的前提。
+
+### 1.2 容器 (Container) —— “运行中的游戏”
+- **本质**：镜像的运行实例。它是一个隔离的进程。
+- **类比**：你用光盘安装并启动了游戏。你可以玩、可以存档（写入数据），但不会损坏原来的光盘。
+
+### 1.3 仓库 (Registry/Hub) —— “应用商店”
+- **本质**：存放镜像的地方。
+- **类比**：Docker Hub 就像是镜像的 GitHub。你可以一键 `docker pull python` 把别人配好的环境拉下来。
+
+---
+
+## 2. 为什么 Docker 优于虚拟机 (VM)？
+
+| 特性 | 虚拟机 (VM) | Docker 容器 |
+| :--- | :--- | :--- |
+| **架构** | 虚拟化硬件 (Hypervisor) | 直接利用宿主机内核 |
+| **启动速度** | 分钟级 (需要启动整个 OS) | **秒级** (本质是一个进程) |
+| **资源占用** | 几个 GB 内存起步 | **MB 级** |
+| **密度** | 一台电脑跑 5 个就卡了 | 一台电脑能跑 **100 个** |
+
+---
+
+## 3. Dockerfile：环境的“代码化”
+
+这是 10x 工程师最爱的部分。你不再需要写“环境配置文档”，你直接写代码：
+
+```dockerfile
+# 1. 基础镜像：我要一个 Python 3.10 的环境
+FROM python:3.10-slim
+
+# 2. 设置工作目录
+WORKDIR /app
+
+# 3. 把依赖清单复制进去并安装
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# 4. 把我的 Agent 代码复制进去
+COPY . .
+
+# 5. 启动命令
+CMD ["python", "main.py"]
+```
+**治理效果**：这份 Dockerfile 就是 **SSOT (单一事实源)**。Agent 看到它就知道该怎么搭建舞台。
+
+---
+
+## 4. Docker Compose：多 Agent 的“乐团指挥”
+
+当你需要一个数据库、一个 Redis 缓存和一个 Python Agent 协同工作时，`docker-compose.yml` 闪亮登场：
+
+```yaml
+version: '3.8'
+services:
+  db:
+    image: postgres:15
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+  
+  redis:
+    image: redis:alpine
+
+  my-agent:
+    build: .
+    depends_on:
+      - db
+      - redis
+```
+**一键启动所有服务**：`docker compose up -d`。这就是 Boris 提到的“并行编排”的底层基石。
+
+---
+
+## 5. Agent 场景下的“危险模式”与“持久化”
+
+### 5.1 持久化卷 (Volumes)
+容器销毁后数据会丢失。如果你需要保留 Agent 采集的数据，必须挂载卷：
+`docker run -v /host/path:/container/path my-agent`
+
+### 5.2 资源限制 (Resource Limits)
+防止 Agent 失控吃光 CPU：
+`docker run --cpus="1.5" --memory="1g" my-agent`
+
+---
+
+## 6. 结论：Docker 是 Agent 的“防护服”
+
+正如 [Agent 宪法](../../AGENT_CONSTITUTION_UNIVERSAL.md) 中提到的，我们追求的是“可验证、鲁棒”的系统。
+- **安全性**：在容器里跑 Agent，防止它意外删除你的个人文档。
+- **标准化**：无论你的同事用的是 Windows 还是 Linux，你们的 Agent 环境永远一致。
+
+> **下一站**：[如何配置你的第一个 Dockerized Agent？](../planning/hybrid-docops-agentops-best-practices.mdx)
