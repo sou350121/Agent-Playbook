@@ -8,6 +8,7 @@
 ## 📌 怎么读（推荐顺序）
 - 先看总览：
   - `docs/planning/hybrid-docops-agentops-best-practices.mdx`
+  - `docs/planning/10x-tactical-integrated-workflow.mdx` (集成战术链路必看)
   - `docs/architecture-governance/README.mdx` (大型项目必看)
 - 再按兴趣深入：
   - `docs/planning/`（心智模型/范式）
