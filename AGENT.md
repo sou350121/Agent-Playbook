@@ -1,5 +1,7 @@
 # AGENT.md（给 Claude Code / Codex / Cursor 等编码代理）
 
+> **最高准则：** 在开始任何工作前，务必阅读并严格遵守 [AGENT_CONSTITUTION.md](./AGENT_CONSTITUTION.md)。
+
 > 目标：让“编码代理”在这个仓库里能**快速理解项目结构**、**按规范产出内容**、并**正确构建/部署** GitHub Pages。
 
 ## 1. 这个项目是什么？
@@ -14,6 +16,7 @@
 仓库入口：
 - **文档**：`docs/`
 - **博客（日更动态）**：`blog/`
+- **小白手册**：`docs/beginner-guide/`
 - **静态资源（截图/图片）**：`static/img/`
 
 ## 2. 内容写到哪里？
@@ -21,22 +24,20 @@
 ### 2.1 日更动态（Blog）
 - **目录**：`blog/`
 - **命名**：`YYYY-MM-DD-title.md`
-- **用途**：把 X（Twitter）看到的内容做“快速提炼”，附上来源链接。
-
-建议结构：
-- 3~6 条要点（高信息密度）
-- 1~2 条“给实践者的启示”
-- 原推/原文链接
+- **用途**：记录 X（Twitter）看到的瞬间动态、技术快讯或碎片化观察。
+- **约束**：Blog 是“动态”，不是“真相”。
 
 ### 2.2 深度文档（Docs）
 - **目录**：`docs/`
 - **分类**：
+  - `beginner-guide/`：小白通关手册（降维版入门知识）
   - `planning/`：框架、心智模型、方法论
   - `model-comparisons/`：模型对比（按模板写）
-  - `tools/`：工具链/工作流（Cursor、Claude Code、Codex、MCP、CC Switch…）
+  - `tools/`：工具链/工作流（Cursor、MCP、Claude Code...）
   - `prompt-library/`：Prompt 卡片（可复用）
   - `case-studies/`：案例复盘（有证据、可复现）
-  - `capabilities/`：能力边界、关键概念（RAG、Hypernetwork、RLVR…）
+  - `capabilities/`：能力边界、关键概念架构（RAG、zkML...）
+  - `architecture-governance/`：架构治理、物理导轨与契约
 
 ### 2.3 模板（强烈建议使用）
 模板在：`docs/_templates/`
@@ -89,10 +90,10 @@ sessions/        # 过程记录与失败路径
 - 对比/结论尽量可复现：模型版本、Prompt、关键输入、截图证据
 - 避免“空泛结论”，写清楚：适用条件、失败模式、替代方案
 
-### 7.2 产出模式（推荐）
-当用户给一段 X 内容：
-- 先产出 **Blog**（快、短、可转发）
-- 再产出 **Docs**（深、结构化、可复用）
+### 7.2 产出模式：方法论提纯
+- **Blog 记录动态**：快速响应 X/Twitter 的技术快讯。
+- **Docs 沉淀方法论**：严禁只发 Blog 而不更新 Docs。必须将动态中的规律提纯为 `docs/` 下的结构化文档。
+- **Spec-driven 执行**：涉及复杂改动或新功能，必须遵循“先 Proposal，后施工”的原则。
 
 ### 7.3 提交规范
 - 小步提交，commit message 参考：
