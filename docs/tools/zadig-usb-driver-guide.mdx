@@ -19,21 +19,56 @@ Zadig 是一个轻量级的 Windows 开源应用，专门用于安装 **通用 U
 
 ---
 
-## 2. 核心使用场景
+## 2. 核心使用场景与深度应用
 
-### 2.1 硬件黑客与无线电 (SDR)
-- 连接 RTL-SDR 接收机，让 Agent 实时分析无线电频谱。
-- 调试未经认证的廉价 USB 传感器。
+### 2.1 案例一：让 Agent 变成无线电监听员 (SDR)
+**场景**：你买了一个 $20 的 RTL-SDR 电视棒，想让 Agent 自动识别家附近的对讲机频率。
+- **障碍**：Windows 会默认安装“电视卡”驱动，只能看电视。
+- **Zadig 应用**：将驱动替换为 `WinUSB`。
+- **结果**：Agent 现在可以使用 Python 的 `pyrtlsdr` 库，直接读取原始信号（IQ Data），并进行傅里叶变换（FFT）分析。
 
-### 2.2 嵌入式开发自动化
-- 当官方的驱动（如某型串口芯片）导致 Agent 无法正确识别时，强制切换到 WinUSB 以获得一致的访问接口。
+### 2.2 案例二：强制救砖与固件刷写 (Firmware Flashing)
+**场景**：你在开发一个基于 ESP32 或 STM32 的硬件，但官方串口驱动（CH340/CP2102）在某个波特率下死活连不上。
+- **Zadig 应用**：将对应的 USB Serial 接口替换为 `libusbK` 或 `WinUSB`。
+- **结果**：你可以让 Agent 调用 `OpenOCD` 或 `esptool` 的低级模式，绕过操作系统的串口抽象层，直接进行位操作级别的固件烧录。
 
-### 2.3 物理 Agent 实验
-- 想要 Agent 直接控制一个 USB 继电器、步进电机控制器或自定义的 HID 设备。
+### 2.3 案例三：自定义物理外设 (Custom HID)
+**场景**：你 DIY 了一个只有三个按键的“一键 Vibe”小键盘，想让它触发复杂的 Agent 工作流。
+- **Zadig 应用**：如果不走标准 HID 键盘协议（受系统拦截），可以将其驱动设为 `WinUSB`。
+- **结果**：Agent 可以通过 WebUSB API (浏览器中) 或 `node-usb` (本地) 实时读取每个按键的压力值（Raw Buffer），而不仅仅是开关信号。
 
 ---
 
-## 3. 实照指南 (Usage)
+## 3. 技术闭环：从 Zadig 到代码
+
+只有在 Zadig 替换驱动后，以下代码才可能运行成功。
+
+### 示例：使用 Python 检测并开启硬件（伪代码）
+
+```python
+import usb.core
+import usb.util
+
+# 1. 寻找设备 (通过 Vendor ID 和 Product ID)
+# 只有在 WinUSB 驱动下，该函数才能跨过系统限制找到设备
+dev = usb.core.find(idVendor=0x1234, idProduct=0x5678)
+
+if dev is None:
+    raise ValueError("设备未找到。请确认是否已使用 Zadig 替换驱动为 WinUSB！")
+
+# 2. 配置设备
+dev.set_configuration()
+
+# 3. 发送控制指令 (例如开启继电器)
+# 这一步直接向物理地址写入原始字节
+dev.write(1, [0x01, 0xFF, 0x00]) 
+
+print("Agent 指令已下达，物理开关已开启。")
+```
+
+---
+
+## 4. 实照指南 (Usage)
 
 1.  **启动**：下载后直接运行（免安装）。
 2.  **显示所有设备**：点击菜单栏 `Options` -> `List All Devices`。
