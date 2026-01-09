@@ -13,13 +13,13 @@
   - `docs/planning/10x-tactical-integrated-workflow.mdx` (集成战术链路必看)
   - `docs/architecture-governance/README.mdx` (大型项目必看)
 - 再按兴趣深入：
-  - `docs/planning/`（心智模型/范式）
-    - `docs/tools/`（如：CC Switch, Tmux, Docker, Code Wiki 等工具指南）
-    - `docs/resources/`（资源名录/影响力图谱）
-    - `docs/model-comparisons/`（模型对比）
-  - `docs/prompt-library/`（Prompt 卡片）
-  - `docs/case-studies/`（案例复盘）
-  - `docs/capabilities/`（关键概念/能力边界）
+  - **[计划与范式](./docs/planning/README.md)**（心智模型/范式/心法）
+  - **[工具链](./docs/tools/README.md)**（CC Switch, Tmux, Docker, Aliyun 等）
+  - **[能力边界](./docs/capabilities/README.md)**（底层逻辑/风险/模型限制）
+  - **[Prompt 库](./docs/prompt-library/README.md)**（高精度模板/设计哲学）
+  - **[模型对比](./docs/model-comparisons/README.md)**（硬核实测/工程对比）
+  - **[案例复盘](./docs/case-studies/README.md)**（血泪教训/成功路径）
+  - **[资源名录](./docs/resources/README.md)**（情报源/影响力图谱）
 
 ## 🧭 目录导航
 - **文档**：[`docs/`](./docs/)（索引见 `docs/README.md`）

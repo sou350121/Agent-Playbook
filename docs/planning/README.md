@@ -1,0 +1,38 @@
+# 计划与范式 (Planning & Paradigm)
+
+> **核心使命：** 探讨在 AI 时代，人类如何从“代码生产者”转型为“架构规划师”与“意图决策者”。本专项沉淀了关于 Agent 任务規劃、分解策略与执行范式的核心心法。
+
+---
+
+## 🧭 推荐阅读顺序
+
+1. **[Vibe Coding 范式：AI 时代的编程新常态](./vibe-coding-paradigm.mdx)**
+   - 理解为什么“表达力”和“直觉”正在取代“记忆语法”。
+2. **[Agent 心智模型：如何与你的数字分身协作](./agent-mental-model.mdx)**
+   - 建立正确的 Agent 协作预期：它不是工具，是合夥人。
+3. **[Hybrid DocOps + AgentOps 最佳实践](./hybrid-docops-agentops-best-practices.mdx)**
+   - **必看！** 掌握文档驱动与代理驱动结合的核心工作流。
+4. **[一人 CEO 范式：Agent 时代的个体组织力](./one-person-ceo-paradigm.mdx)**
+   - 探索个体如何利用 Agent 杠杆撬动 10x 生产力。
+5. **[架构导轨：AI 时代的生存之道](./architectural-rails-for-ai-coding.mdx)**
+   - 理解物理导轨与逻辑契约在大型项目中的重要性。
+
+---
+
+## ⭐ 精选 Top Picks
+
+- **[研究品味：作为决策中的“值函数”](./research-taste-as-value-function.mdx)**
+  - 为什么在 AI 时代，“审美”和“判断力”是最稀缺的资源。
+- **[10x 战术集成链路：从意图到交付的闭环](./10x-tactical-integrated-workflow.mdx)**
+  - 实战级别的工具鏈接與任務拆解方法論。
+- **[给工程师与 Agent 的 PRD 编写指南](./prd-for-engineers-and-agents.mdx)**
+  - 如何写出既能让人看懂，又能让 Agent 完美执行的需求文档。
+- **[智力套利策略：利用平权智力寻找利基机会](./intelligence-arbitrage-strategy.mdx)**
+  - 商业视角：如何在智力成本趋于零的时代获利。
+
+---
+
+## 🔗 关联章节
+- **[小白通关手册](../beginner-guide/README.md)**：如果你还在犹豫如何起步。
+- **[架构治理](../architecture-governance/README.mdx)**：当你准备接手或规划大型项目。
+- **[工具链](../tools/README.md)**：查看这些范式在具体工具（如 Cursor/vLLM）中如何落地。
