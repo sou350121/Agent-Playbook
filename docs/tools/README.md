@@ -32,7 +32,7 @@
 
 ---
 
-## 🧠 核心洞见与智慧升华 (Insights & Sublimation)
+## 🧠 核心洞见
 
 1️⃣ **工具是“超级工厂”而非“手持器械”**
 - **逻辑思考**：IDE（如 Cursor）不只是一个编辑器，它是你与 Agent 的协同协议（Protocol）。Docker 与 Tmux 不只是运行环境，它们是 Agent 的“生存沙盒”与“记忆堡垒”。
