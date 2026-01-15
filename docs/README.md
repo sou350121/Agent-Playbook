@@ -23,6 +23,7 @@
 - [AI 协作 DNA 工作流：交付标准定义](./tools/agent-dna-workflow.mdx)
 - [vLLM 语义路由：多模型管理艺术](./capabilities/vllm-semantic-routing-deep-dive.mdx)
 - [6 步 PRD 产出法：从意图到需求闭环](../blog/2026-01-08-ai-driven-pm-workflow.md)
+- [NotebookLM-py：自動化研究管道實踐](./tools/notebooklm-py.mdx)
 
 ### 3. 🏛️ 架构治理专项 (Governance Track)
 *适合负责中大型项目，担心代码“越写越乱”的架构师。*
@@ -54,7 +55,8 @@
 
 - **想提炼方法论？** 查看 [写作模板](./_templates/README.md)。
 - **怕项目崩盘？** 阅读 [架构导轨：AI 时代的生存之道](./planning/architectural-rails-for-ai-coding.mdx)。
-- **寻找商业灵感？** 阅读 [智力套利策略](./planning/intelligence-arbitrage-strategy.mdx)。
+- **想要模擬未來？** 查看 [MiroFish：平行世界預測引擎](./capabilities/social-simulation-and-multi-agent-systems.mdx)。
+- **尋找商業靈感？** 閱讀 [智力套利策略](./planning/intelligence-arbitrage-strategy.mdx)。
 - **拒绝 AI 廢話？** 學習 [真實性 vs 生成噪音](./capabilities/authenticity-vs-generated-noise.mdx)。
 
 ---
@@ -69,4 +71,4 @@
 
 ---
 
-*最后更新：2026.01.09*
+*最后更新：2026.01.15*
