@@ -10,13 +10,15 @@
    - 理解三位一体的交互架构，搞清谁在下达意图，谁在执行动作。
 2. **[Agent 执行环境：云端沙箱 vs 本地受控](./agent-execution-environment-cloud-vs-local.mdx)**
    - 决策指南：你的 Agent 应该关在云端纸杯里，还是跑在本地导轨上？
-3. **[vLLM 语义路由深度解析](./vllm-semantic-routing-deep-dive.mdx)**
+3. **[1X World Model：具身智能的「想象力」範式](./1x-world-model-paradigm.mdx)**
+   - 探索機器人如何通過視頻生成模型學習物理規律。
+4. **[vLLM 语义路由深度解析](./vllm-semantic-routing-deep-dive.mdx)**
    - 进阶：如何像管理 API 网关一样管理你的模型调用。
-4. **[社会模拟与多智能体预测系统](./social-simulation-and-multi-agent-systems.mdx)**
+5. **[社会模拟与多智能体预测系统](./social-simulation-and-multi-agent-systems.mdx)**
    - 探索 Agent 如何从单体助手进化为社会群体，实现平行世界推演。
-5. **[知識平權與智力成本的扁平化](./knowledge-equality-and-flat-cost.mdx)**
+6. **[知識平權與智力成本的扁平化](./knowledge-equality-and-flat-cost.mdx)**
    - 理解 2025 年最重要的社会经济变革：智力作为一种廉价资源。
-6. **[真實性 vs 生成噪音：如何對抗生成的熵增](./authenticity-vs-generated-noise.mdx)**
+7. **[真實性 vs 生成噪音：如何對抗生成的熵增](./authenticity-vs-generated-noise.mdx)**
    - **宪法基石**：为什么我们要坚持减少无意义的 AI 廢話。
 
 ---
@@ -29,6 +31,8 @@
   - 当暴力美学失效，研究者与 Builder 该往哪走？
 - **[具身 AI 经济学：从执行单元到经济代理](./embodied-ai-economic-agents.mdx)**
   - 探索 AI 如何走出屏幕，在物理世界构建 aGDP。
+- **[MiroFish：平行世界模擬與多智能體推演](./social-simulation-and-multi-agent-systems.mdx)**
+  - 揭秘如何構建擁有數千個人格 Agent 的數字雙生世界。
 - **[RLVR 与锯齿状智能：理解模型的短板](./jagged-intelligence-rlvr.mdx)**
   - 为什么 AI 能写复杂算法却算不准 9.11 vs 9.8。
 
@@ -44,11 +48,15 @@
 - **邏輯思考**：MiroFish 等項目的價值在於：它不是在計算數學概率，而是在模擬人類行為。當我們能大規模模擬 Agent 的社會交互時，我們就在構建一個具備因果推演能力的平行世界。
 - **啟發**：決策不再依賴直覺，而是依賴於高保真模擬後的群體情緒反饋。
 
-3️⃣ **理解“锯齿状智能” (Jagged Frontier)**
+3️⃣ **「脑子会了」是「手学会」的前提**
+- **邏輯思考**：1XWM 證明了物理先驗可以從視頻中學習，而不必全部依賴昂貴的實體示教。Agent 需要「想象力」來對沖物理執行中的隨機性。
+- **啟發**：具身智能的突破口可能不在機械結構，而在於對物理世界的「世界模型」建模。
+
+4️⃣ **理解“锯齿状智能” (Jagged Frontier)**
 - **逻辑思考**：AI 的能力是不均衡的，它能写复杂算法却可能算错小学数学。了解它的“边界”比赞美它的“奇迹”更重要。
 - **启发**：在 AI 强大的领域授权，在 AI 脆弱的领域（如 9.11 vs 9.8 这种逻辑陷阱）建立硬审计逻辑。
 
-4️⃣ **一次性软体 (Disposable Software) 范式**
+5️⃣ **一次性软体 (Disposable Software) 范式**
 - **逻辑思考**：利用无限的虚拟执行空间，换取对单一任务的极致优化与隔离。软体不再是安装的，而是“流式加载”的。
 - **启发**：压力最终会流入推理引擎。一切功能的终局，都是在为一个更强的“推理调用”付费。
 
