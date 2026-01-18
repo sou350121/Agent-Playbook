@@ -1,0 +1,41 @@
+# Vibe Coding 时代的发布摩擦力：国内 vs 海外
+
+在「Vibe Coding」時代，我們可以在一天內開發數個網站。然而，分發的速度如果跟不上創造的速度，「Vibe」就會被基礎設施的摩擦力消磨殆盡。
+
+## 🧠 核心洞见
+> **分發效率必須與創造效率匹配。**
+> 當 AI 讓開發成本趨於零時，真正限制生產力的是「行政成本」與「配置冗餘」。在 Vibe Coding 時代，如果你不能在 5 分鐘內將代碼變成可訪問的 URL，你就在扼殺靈魂。
+
+## 📊 流程对比：分發的兩種速度
+
+| 步驟 | 傳統重型流程 (國內典型) | Vibe/Serverless 流程 (海外典型) |
+| :--- | :--- | :--- |
+| **開發** | Vibe Coding 網站項目代碼 | Vibe Coding 網站項目代碼 |
+| **託管** | 阿里雲買服務器 (ECS) | 上傳至 GitHub |
+| **身份** | 阿里雲買域名 + **域名備案 (耗時長)** | Vercel 點擊導入，自動 Deploy |
+| **解析** | 付費買 DNS 解析 | Cloudflare/Vercel 自動處理 |
+| **安全** | 買證書 + 手動配置 Nginx HTTPS | 自動配發免費 SSL 證書 |
+| **合規** | 備案號更新至網頁底座 | N/A |
+| **運維** | 手動維護、環境部署 (Dev/Build) | 自動化 CI/CD 閉環 |
+
+## 🚀 對 Agent 時代的啟示
+
+1.  **物理導軌的優勢**：
+    Vercel/Cloudflare 這種「代碼即部署」的模式，為 Agent 提供了一條完美的 **「物理導軌」**。Agent 只需完成 Git Push，剩下的事情交給基礎設施。
+
+2.  **減少人工干預**：
+    在國內流程中，第 3、7、8 步（備案、配置 Nginx、更新備案號）通常需要人工介入或複雜的權限審批，這使得 Agent 無法獨立完成「從創意到上線」的閉環。
+
+3.  **基礎設施的「消失」**：
+    最優秀的工具應該是「隱形」的。Vibe Coding 的極致體驗是讓開發者感覺不到服務器的存在，只關注於 Product Vibe 產出。
+
+## 💡 建議與規避
+
+- **如果你追求速度**：優先選擇 Vercel + GitHub + Cloudflare 組合，這是目前最契合 Agent 戰力的生產力組合。
+- **如果你必須在國內部署**：預先準備好備案域名與自動化部署腳本，盡可能將 Nginx 配置與證書更新流程「腳本化」，減少 Agent 執行的摩擦力。
+
+---
+
+## 🔗 相關資源
+- [Hybrid DocOps + AgentOps 最佳實踐](./hybrid-docops-agentops-best-practices.mdx)
+- [一次性軟體 (Disposable Software) 範式](../capabilities/agent-execution-environment-cloud-vs-local.mdx)
