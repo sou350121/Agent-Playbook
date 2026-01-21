@@ -22,6 +22,9 @@ Eigent 的爆火再次證實了開發者對隱私與控制權的渴望。支持 
 ### 3. MCP 協議：Agent 的通用感官
 Eigent 深度集成 MCP（Model Context Protocol），這使其能夠無縫連接 Notion, Slack, Google Suite 等外部工具。MCP 正在成為 Agent 生態的「USB 接口」。
 
+### 4. 人機協同 (Human-in-the-loop)
+Eigent 引入了主動請求人工輸入的機制。當任務遇到模糊邊界或不確定性時，系統會暫停並尋求人類指令，這確保了自主性與安全性的動態平衡。
+
 ---
 
 ## 💡 給實踐者的啟示

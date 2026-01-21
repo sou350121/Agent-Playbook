@@ -41,23 +41,47 @@ Eigent 預定義了四大核心 Agent，支持並行任務處理：
 
 ---
 
-## 3. 快速部署 (Self-Hosted)
+## 3. 快速部署與架構 (Deployment & Architecture)
 
+Eigent 採用前後端分離架構，支持雲端、社區自托管與企業版。
+
+### 3.1 快速啟動 (社區版)
 ```bash
-# 複製倉庫
+# 1. 複製倉庫
 git clone https://github.com/eigent-ai/eigent.git
 cd eigent
 
-# 安裝依賴
+# 2. 安裝前端依賴
 npm install
 
-# 啟動開發環境
+# 3. 啟動開發環境
 npm run dev
 ```
 
+### 3.2 後端與依賴更新
+對於本地開發，需要獨立處理 Python 依賴（推薦使用 `uv`）：
+```bash
+# 進入後端目錄
+cd backend
+uv sync
+```
+*註：拉取代碼更新後，建議分別執行 `npm install` 與 `uv sync` 以確保環境一致性。*
+
 ---
 
-## 4. 管理學實踐啟發
+## 4. 進階功能：人機協同與企業級治理
+
+### 4.1 人工介入 (Human-in-the-loop)
+當任務遇到不確定性或卡點時，Eigent 不會盲目執行，而是會主動請求人工輸入。這解決了自主 Agent 在關鍵決策點的「脫軌」風險。
+
+### 4.2 版本選型決策
+- **雲版本 (Cloud)**：即開即用，由官方託管模型與算力，適合快速體驗。
+- **社區版 (Community)**：100% 開源，數據留在本地，適合隱私敏感的個人開發者。
+- **企業版 (Enterprise)**：支持 SSO、訪問控制、定制化開發與 SLA 保證。
+
+---
+
+## 5. 管理學實踐啟發
 
 Eigent 的設計完美契合了我們在 **[Agent 管理學](../agent-management/README.md)** 中提出的原則：
 - **角色解耦**：開發、搜索、文檔職責明確。
