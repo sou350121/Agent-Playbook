@@ -42,6 +42,7 @@
 - **工具与案例**
   - [NotebookLM-py：研究 Agent 的最強能力組件](./docs/tools/notebooklm-py.mdx)
   - [Eigent：開源多智能體工作流桌面應用](./docs/tools/eigent-open-source-cowork.mdx)
+  - [麥肯錫：智能體型組織五大支柱](./blog/2026-01-22-mckinsey-agentic-organizations.md)
   - [DNA 级交付标准（结论→分析→方案→里程碑→PR）](./docs/tools/agent-dna-workflow.mdx)
   - [AI 创业 180 天失败录](./docs/case-studies/ai-startup-180-days-failure.mdx)
 

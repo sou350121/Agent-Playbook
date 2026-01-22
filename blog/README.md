@@ -7,6 +7,7 @@
 - 想深入沉淀：每条动态通常会对应或演化为 `docs/` 中的结构化文档。
 
 ## 最近文章
+- [2026-01-22 麥肯錫報告：智能體型組織（Agentic Organizations）的五大支柱與 1:20 管理法](2026-01-22-mckinsey-agentic-organizations.md)
 - [2026-01-21 開源版 Claude Cowork 降臨：Eigent 的 90 度增長與多智能體協同](2026-01-21-eigent-open-source-cowork-trending.md)
 - [2026-01-21 從 ReAct 到 Ralph Loop：解決 AI 助手「半途而廢」的持續迭代範式](2026-01-21-ralph-loop-ai-agent-iteration.md)
 - [2026-01-19 智慧提純：Agent 管理學的興起——從指令到治理的範式遷移](2026-01-19-the-rise-of-agent-management.md)
