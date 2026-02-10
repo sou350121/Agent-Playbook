@@ -6,6 +6,11 @@
 - 想快速跟进：按日期从新到旧浏览。
 - 想深入沉淀：每条动态通常会对应或演化为 `docs/` 中的结构化文档。
 
+
+## AI Agent 每日精選（自動歸檔）
+- 索引：[`blog/ai-daily-pick/README.md`](./ai-daily-pick/README.md)
+- 每日歸檔：`blog/ai-daily-pick/YYYY-MM-DD.md`
+
 ## 最近文章
 - [2026-01-23 講透最強參數估計：貝葉斯估計（Bayesian Estimation）深度解析](2026-01-23-bayesian-estimation-parameter-uncertainty.md)
 - [2026-01-22 麥肯錫報告：智能體型組織（Agentic Organizations）的五大支柱與 1:20 管理法](2026-01-22-mckinsey-agentic-organizations.md)
