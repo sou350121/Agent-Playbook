@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "last_updated": "2026-02-11",
+  "focus_areas": {
+    "primary": "agent-ui",
+    "team": ["RAG", "multi-modal", "evaluation"]
+  },
+  "keywords": {
+    "A_tier": [
+      "claude api",
+      "agent framework",
+      "langchain",
+      "rag",
+      "vector database"
+    ],
+    "B_tier": [
+      "streaming",
+      "real-time",
+      "ui components",
+      "chat interface",
+      "prompt management"
+    ]
+  },
+  "data_sources": {
+    "product_hunt": {
+      "enabled": true,
+      "categories": ["AI", "Developer Tools"]
+    },
+    "github_trending": {
+      "enabled": true,
+      "languages": ["Python", "TypeScript", "JavaScript"]
+    },
+    "hacker_news": {
+      "enabled": true,
+      "min_score": 50
+    }
+  },
+  "filtering_rules": {
+    "primary_direction_threshold": "low",
+    "team_direction_threshold": "high",
+    "max_apps_per_day": 8,
+    "always_include_priorities": true
+  }
+}

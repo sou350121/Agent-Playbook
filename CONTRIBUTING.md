@@ -1,57 +1,53 @@
-# 贡献指南
+# 贡献指南（AI 应用开发监控系统）
 
-感谢你对 **Agent 经验库** 的关注！我们欢迎任何形式的贡献，包括但不限于：
+感谢你对本项目的贡献。
 
-- 提交新的模型对比实测。
-- 分享高效的 Agent 工作流或 Prompt。
-- 记录真实的案例复盘。
-- 修正现有文档的错误。
+本仓库的定位不是“写更多内容”，而是把信息流变成长期可复利的知识资产。
 
-## 如何贡献
+---
 
-### 1. 提交新内容
-1. 在 `docs/_templates/` 中找到对应的模板。
-2. 将模板复制到 `docs/` 下对应的分类目录中。
-3. 按照模板要求填写内容（请确保使用简体中文）。
-4. 如果有截图，请放入 `static/img/` 下对应的子目录，并在文档中引用。
-5. 提交 Pull Request。
+## 你可以贡献什么？
 
-### 2. 日更动态 (Blog)
-如果你在 X (Twitter) 上看到了好的内容并想分享：
-1. 在 `blog/` 下创建一个新的文件，命名格式为 `YYYY-MM-DD-title.md`。
-2. 简要概括内容要点，并附上原文链接。
+- **新增应用/工具条目**（结构化索引）
+- **深度分析/实作笔记**（可复现、可迁移的 SOP）
+- **案例复盘**（证据链 + 可复现）
+- **修正错误**（链接、事实、步骤、代码）
 
-## 内容标准
-- **真实性**：所有对比和案例必须基于真实操作。
-- **可复现性**：尽量提供模型版本、Prompt 以及必要的上下文。
-- **结构化**：遵循提供的模板格式。
+---
+
+## 贡献落点（写到哪里）
+
+- **应用/工具索引（高频入口）**：[`stack/app_index.md`](./stack/app_index.md)
+- **技术分析（人写深度）**：`stack/tools/`、`stack/frameworks/`、`stack/methodology/`
+- **实作与 SOP**：`implementation/`
+- **场景复盘**：`use-cases/`
+- **产品/公司分析**：`products/`
+- **双周报告**：`reports/biweekly/`（通常由 Moltbot 生成）
+
+---
+
+## 写入安全规则（必须遵守）
+
+- `stack/app_index.md`：**只能追加**，不得重排表格/改列/覆盖旧行；人工条目备注栏标 `✍️`。
+- `monitoring-system/daily-stats/` 与 `monitoring-system/change-log/`：默认不改（自动化生成）。
+- 不要提交任何密钥/Token。
+
+---
 
 ## 命名规范
-- 文件名请使用全英文小写，单词间用 `-` 连接。
-- 图片引用请使用相对路径。
 
+- 文件名：英文小写 + 连字符，例如 `text-to-sql-guardrails.md`
+- 日期：`YYYY-MM-DD-title.md`
+- 图片：统一放在 `static/img/<topic>/...` 并用相对路径引用
 
+---
 
+## 模板
 
+历史模板暂时仍放在 `docs/_templates/`（迁移中）：
 
+- `docs/_templates/workflow.mdx`
+- `docs/_templates/case-study.mdx`
+- `docs/_templates/prompt-card.mdx`
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+后续会迁移到 `implementation/` 下。
