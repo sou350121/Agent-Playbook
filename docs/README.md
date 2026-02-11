@@ -25,5 +25,6 @@
 - `docs/agent-management/` → `stack/methodology/agent-management/`
 - `docs/model-comparisons/` → `stack/model-comparisons/`
 - `docs/case-studies/` → `use-cases/case-studies/`
+- `docs/_templates/` → `implementation/templates/`
 
 执行细节见：[`cursor_repo_restructure_prompt.md`](../cursor_repo_restructure_prompt.md)
