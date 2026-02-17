@@ -22,9 +22,9 @@
 
 ## 2) 目录拓扑（新结构优先）
 
-- `stack/`：技术层（索引/地图/工具/框架/方法论）
+- `stack/`：技术层（索引/地图/工具/框架/方法论/资源）
   - `stack/app_index.md`：**核心索引（高频写入点）**
-- `implementation/`：实作层（SOP、集成、部署、提示词）
+- `implementation/`：实作层（SOP、集成、部署、提示词、脚手架）
 - `reports/biweekly/`：双周推理报告
 - `use-cases/`：可复现应用场景
 - `products/`：产品/公司分析

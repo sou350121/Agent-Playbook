@@ -8,7 +8,7 @@
 - **Handbook（本 repo）**：累积者（结构化、版本控制、可搜索）
 - **你**：消费者 + 深度生产者（查、读、写深度笔记）
 
-系统设计文档：[`ai_app_handbook_design.md`](./ai_app_handbook_design.md)
+系统设计文档：[`implementation/architecture/ai_app_handbook_design.md`](./implementation/architecture/ai_app_handbook_design.md)
 ---
 
 ## 快速开始（3 个入口）
@@ -25,15 +25,14 @@
 
 | 目录 | 说明 | 更新频率 |
 |---|---|---|
-| `stack/` | 技术层：索引、工具/框架/方法论分析 | 每日 + 不定期 |
-| `implementation/` | 实作层：集成、部署、提示词与 SOP | 不定期 |
+| `stack/` | 技术层：索引、工具/框架/方法论分析、资源 | 每日 + 不定期 |
+| `implementation/` | 实作层：集成、部署、提示词、脚手架与 SOP | 不定期 |
 | `reports/` | 时间层：双周报告等推理产物 | 每两周 |
 | `use-cases/` | 场景层：可复现案例与解决方案 | 不定期 |
 | `products/` | 产品层：公司/产品拆解 | 不定期 |
 | `monitoring-system/` | 监控系统配置（动态参数、统计、进化记录） | 自动 |
 | `blog/` | 信号层：日更动态/运行日志（可丢弃但可追溯） | 每日 |
 | `static/img/` | 图片/截图资源 | 随内容 |
-| `starter-kits/` | 可复制脚手架 | 低频 |
 
 ---
 
