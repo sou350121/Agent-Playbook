@@ -49,6 +49,7 @@
 | GLM-5 | Z.AI | 2026-02-16 | agent, agentic, open-weight | https://www.producthunt.com/products/z-ai | ⚡ daily 2026-02-16 — 开源长周期智能体工程模型，754B参数规模 |
 | Microsoft Agent Framework adds AG-UI compatibility | Microsoft | 2026-02-17 | agent-framework, ag-ui, enterprise | https://www.copilotkit.ai/blog/microsoft-agent-framework-is-now-ag-ui-compatible | 🎯 agent-ui | ⚡ daily 2026-02-17 — 微软官方框架支持 AG-UI 协议，推动前端标准化 |
 | LangChainJS v1.2.0 发布 | LangChain | 2026-02-17 | langchain, structured-outputs, tools | https://github.com/langchain-ai/langchainjs/releases/tag/v1.2.0 | 🔧 daily 2026-02-17 |
+| Tiny Agents | Hugging Face | 2026-02-18 | agent, mcp, minimal | https://huggingface.co/blog/tiny-agents | 🎯 agent-ui | 📖 daily 2026-02-18 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
@@ -77,6 +78,7 @@
 | llama_index v0.14.13 | — | 2026-02-11 |  | https://github.com/run-llama/llama_index/releases/tag/v0.14.13 | 🔧 daily 2026-02-11 |
 | Introducing RTEB: A New Standard for Retrieval Evaluation | Hugging Face | 2026-02-12 | retrieval, evaluation, benchmark | https://huggingface.co/blog/rteb | [RAG] | ⚡ daily 2026-02-12 — RTEB：检索评估新标准 |
 | Dify v1.12.0 - Introducing Summary Index: Smarter Retrieval with AI Summarization | langgenius | 2026-02-12 | retrieval, vector, embedding, summary | https://github.com/langgenius/dify/releases/tag/1.12.0 | [RAG] | ⚡ daily 2026-02-12 — 引入摘要索引，通过 AI 摘要提升检索准确性 |
+| ScreenSuite | Hugging Face | 2026-02-18 | agent, evaluation, gui | https://github.com/huggingface/screensuite | [evaluation] | 🔧 daily 2026-02-18 |
 
 ## API 包装器（Model API / Gateway / SDK）
 
@@ -110,9 +112,12 @@
 | Promptfoo 0.120.24 | promptfoo | 2026-02-13 | evaluation, mcp, filtering | https://github.com/promptfoo/promptfoo/releases/tag/0.120.24 | [evaluation] | 🔧 daily 2026-02-13 |
 | ZenMux | ZenMux | 2026-02-16 | gateway, llmops | https://www.producthunt.com/products/zenmux-2 | ⚡ daily 2026-02-16 — 企业级LLM网关，支持自动补偿机制 |
 | Langfuse 推出实验数据集版本控制 | Langfuse | 2026-02-17 | llmops, observability, evaluation | https://langfuse.com/docs/roadmap | [evaluation] | 🔧 daily 2026-02-17 |
+| HERETIC | p-e-w | 2026-02-18 | llm, guardrail, alignment | https://github.com/p-e-w/heretic | [evaluation] | 📖 daily 2026-02-18 |
 
 ## 其他（Misc）
 
 | 应用/工具 | 开发者 | 日期 | 标签 | 链接 | 备注 |
 |---|---:|---:|---|---|---|
 | （占位） |  |  |  |  | ✍️ seed |
+| Qwen3.5 | Alibaba | 2026-02-18 | multimodal, agent, reasoning | https://qwen.ai/blog?id=qwen3.5 | ⚡ daily 2026-02-18 — 阿里发布原生多模态智能体模型，397B参数开源 |
+| Claude Sonnet 4.6 | Anthropic | 2026-02-18 | agent, coding, computer-use | https://www.anthropic.com/news/claude-sonnet-4-6 | ⚡ daily 2026-02-18 — Anthropic发布新中端模型，支持1M上下文和增强编码能力 |
