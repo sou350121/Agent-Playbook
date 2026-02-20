@@ -2,4 +2,4 @@
 
 | 日期 | 报告 | 摘要 |
 |------|------|------|
-| 2026-02-18 | [本期報告](./2026-02-18.md) | AG-UI 协议成 Agent-UI 标准化赢家：Microsoft/Google 推动，LangGraph/CrewAI/Mastra 采用 |
+| 2026-02-18 | [本期報告](./reflection_2026-02-18.md) | > 🤔 基于 AI App Biweekly Report 生成 | 不含答案，请独立思考 |
