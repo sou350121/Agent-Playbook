@@ -116,7 +116,6 @@
 | Langfuse 推出实验数据集版本控制 |  | Langfuse | 2026-02-17 | llmops, observability, evaluation | [evaluation] 🔧 daily 2026-02-17 | [🔗 Link](https://langfuse.com/docs/roadmap) |
 | HERETIC |  | p-e-w | 2026-02-18 | llm, guardrail, alignment | [evaluation] 📖 daily 2026-02-18 | [🔗 Link](https://github.com/p-e-w/heretic) |
 | Synra |  | — | 2026-02-20 | mcp, database, integration | 🔧 daily 2026-02-20 | [🔗 Link](https://www.producthunt.com/products/synra-managed-mcp-server) |
-| OpenAI Frontier | OpenAI企业级Agent平台，支持共享上下文和执行 | OpenAI | 2026-02-21 | agent, enterprise, platform | ⚡ daily 2026-02-21 | [🔗 Link](https://openai.com/index/introducing-openai-frontier/) |
 
 ## 其他（Misc）
 
@@ -128,8 +127,3 @@
 | Claude Opus 4.6 and Sonnet 4.6 | Anthropic最新旗舰模型，1M token上下文，增强代理任务能力 | Anthropic | 2026-02-20 | llm, model-release, agent | ⚡ daily 2026-02-20 | [🔗 Link](https://www.anthropic.com/news/claude-opus-4-6) |
 | DeepSeek V4 | 面向代码的V4模型，1M+ token上下文，推理稳定性提升 | DeepSeek | 2026-02-20 | llm, model-release, coding | ⚡ daily 2026-02-20 | [🔗 Link](https://www.deepseek.com/en) |
 | Don't Trust the Salt: AI Summarization, Multilingual Safety, and LLM Guardrails |  | — | 2026-02-20 | guardrail, llm, safety | [evaluation] 📖 daily 2026-02-20 | [🔗 Link](https://royapakzad.substack.com/p/multilingual-llm-evaluation-to-guardrails) |
-| GPT-5.3-Codex-Spark | 基于Cerebras芯片的轻量级Codex，实时编码协作 | OpenAI | 2026-02-21 | coding, realtime, low-latency | 🔧 daily 2026-02-21 | [🔗 Link](https://techcrunch.com/2026/02/12/a-new-version-of-openais-codex-is-powered-by-a-new-dedicated-chip/) |
-| DeepSeek V4 (即将发布) | 预计2月17日发布，超百万token上下文，专注编码 | DeepSeek | 2026-02-21 | llm, coding, long-context | ⚡ daily 2026-02-21 | [🔗 Link](https://introl.com/blog/deepseek-v4-february-2026-coding-model-release) |
-| Llama 4 Scout & Maverick | Meta原生多模态模型，10M token上下文 | Meta | 2026-02-21 | llm, multimodal, open-source | ⚡ daily 2026-02-21 | [🔗 Link](https://blog.unitlab.ai/top-multimodal-models/) |
-| GLM-4.6V | 智谱最新视觉模型，原生工具使用能力 | Zhipu AI | 2026-02-21 | multimodal, visual-agent, tool-use | 🔧 daily 2026-02-21 | [🔗 Link](https://www.siliconflow.com/articles/en/best-open-source-multimodal-models-2025) |
-| Gemma 3 | 谷歌开源多语言多模态模型，1-27B参数可选 | Google | 2026-02-21 | llm, multilingual, open-weight | 🔧 daily 2026-02-21 | [🔗 Link](https://blog.unitlab.ai/top-multimodal-models/) |
