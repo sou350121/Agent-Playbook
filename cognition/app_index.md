@@ -79,6 +79,7 @@
 | Introducing RTEB: A New Standard for Retrieval Evaluation | Hugging Face | 2026-02-12 | retrieval, evaluation, benchmark | https://huggingface.co/blog/rteb | [RAG] | ⚡ daily 2026-02-12 — RTEB：检索评估新标准 |
 | Dify v1.12.0 - Introducing Summary Index: Smarter Retrieval with AI Summarization | langgenius | 2026-02-12 | retrieval, vector, embedding, summary | https://github.com/langgenius/dify/releases/tag/1.12.0 | [RAG] | ⚡ daily 2026-02-12 — 引入摘要索引，通过 AI 摘要提升检索准确性 |
 | ScreenSuite | Hugging Face | 2026-02-18 | agent, evaluation, gui | https://github.com/huggingface/screensuite | [evaluation] | 🔧 daily 2026-02-18 |
+| TextWeb | — | 2026-02-20 | rag, mcp, web-scraping | https://www.reddit.com/r/LocalLLaMA/comments/1r90b3a/textweb_render_web_pages_as_25kb_text_grids/ | [RAG] | 🔧 daily 2026-02-20 |
 
 ## API 包装器（Model API / Gateway / SDK）
 
@@ -97,6 +98,7 @@
 | Aider | Aider-AI | 2026-02-11 | coding | https://github.com/Aider-AI/aider | ✍️ seed |
 | Open Interpreter | OpenInterpreter | 2026-02-11 | local-exec | https://github.com/OpenInterpreter/open-interpreter | ✍️ seed |
 | Plus AI Presentation Agent | Plus AI | 2026-02-16 | agent, presentation | https://www.producthunt.com/products/plus-ai-presentation-agent | 🔧 daily 2026-02-16 |
+| Ningenie | — | 2026-02-20 | agent, agentic, productivity | https://www.producthunt.com/products/ningenie | 📖 daily 2026-02-20 |
 
 ## 基础设施（Deployment / Observability / Evals / Security）
 
@@ -113,6 +115,7 @@
 | ZenMux | ZenMux | 2026-02-16 | gateway, llmops | https://www.producthunt.com/products/zenmux-2 | ⚡ daily 2026-02-16 — 企业级LLM网关，支持自动补偿机制 |
 | Langfuse 推出实验数据集版本控制 | Langfuse | 2026-02-17 | llmops, observability, evaluation | https://langfuse.com/docs/roadmap | [evaluation] | 🔧 daily 2026-02-17 |
 | HERETIC | p-e-w | 2026-02-18 | llm, guardrail, alignment | https://github.com/p-e-w/heretic | [evaluation] | 📖 daily 2026-02-18 |
+| Synra | — | 2026-02-20 | mcp, database, integration | https://www.producthunt.com/products/synra-managed-mcp-server | 🔧 daily 2026-02-20 |
 
 ## 其他（Misc）
 
@@ -121,3 +124,6 @@
 | （占位） |  |  |  |  | ✍️ seed |
 | Qwen3.5 | Alibaba | 2026-02-18 | multimodal, agent, reasoning | https://qwen.ai/blog?id=qwen3.5 | ⚡ daily 2026-02-18 — 阿里发布原生多模态智能体模型，397B参数开源 |
 | Claude Sonnet 4.6 | Anthropic | 2026-02-18 | agent, coding, computer-use | https://www.anthropic.com/news/claude-sonnet-4-6 | ⚡ daily 2026-02-18 — Anthropic发布新中端模型，支持1M上下文和增强编码能力 |
+| Claude Opus 4.6 and Sonnet 4.6 | Anthropic | 2026-02-20 | llm, model-release, agent | https://www.anthropic.com/news/claude-opus-4-6 | ⚡ daily 2026-02-20 — Anthropic最新旗舰模型，1M token上下文，增强代理任务能力 |
+| DeepSeek V4 | DeepSeek | 2026-02-20 | llm, model-release, coding | https://www.deepseek.com/en | ⚡ daily 2026-02-20 — 面向代码的V4模型，1M+ token上下文，推理稳定性提升 |
+| Don't Trust the Salt: AI Summarization, Multilingual Safety, and LLM Guardrails | — | 2026-02-20 | guardrail, llm, safety | https://royapakzad.substack.com/p/multilingual-llm-evaluation-to-guardrails | [evaluation] | 📖 daily 2026-02-20 |
