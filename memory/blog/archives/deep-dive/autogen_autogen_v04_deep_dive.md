@@ -1,7 +1,7 @@
 ---
 auto_generated: true
-generated_at: "2026-02-21T07:31:33Z"
-source_url: "https://devblogs.microsoft.com/autogen/autogen-reimagined-launching-autogen-0-4/"
+generated_at: "2026-02-21T07:31:54Z"
+source_url: "https://microsoft.github.io/autogen/"
 signal_type: "product_release"
 ---
 # AutoGen v0.4：微软全面重构的多智能体框架 (AutoGen v0.4: Microsoft's Complete Multi-Agent Framework Redesign)
