@@ -1,44 +1,68 @@
 {
-  "version": 1,
-  "last_updated": "2026-02-11",
+  "version": 2,
+  "last_updated": "2026-02-23",
   "focus_areas": {
-    "primary": "agent-ui",
-    "team": ["RAG", "multi-modal", "evaluation"]
+    "primary": "agentic-coding",
+    "team": ["MCP", "AG-UI", "multi-agent", "evaluation"]
   },
   "keywords": {
     "A_tier": [
-      "claude api",
+      "MCP",
+      "model context protocol",
+      "AG-UI",
+      "openai agents sdk",
+      "claude sdk",
+      "agentic coding",
+      "tool use",
+      "multi-agent",
       "agent framework",
-      "langchain",
-      "rag",
-      "vector database"
+      "computer use"
     ],
     "B_tier": [
+      "langchain",
+      "langgraph",
+      "autogen",
+      "crewai",
+      "rag",
+      "vector database",
+      "function calling",
+      "structured output",
+      "evals",
+      "prompt management"
+    ],
+    "C_tier": [
       "streaming",
       "real-time",
       "ui components",
       "chat interface",
-      "prompt management"
+      "vibe coding"
     ]
   },
   "data_sources": {
     "product_hunt": {
       "enabled": true,
-      "categories": ["AI", "Developer Tools"]
+      "categories": ["AI", "Developer Tools", "Productivity"]
     },
     "github_trending": {
       "enabled": true,
-      "languages": ["Python", "TypeScript", "JavaScript"]
+      "languages": ["Python", "TypeScript", "JavaScript", "Rust"]
     },
     "hacker_news": {
       "enabled": true,
       "min_score": 50
+    },
+    "x_twitter": {
+      "enabled": true,
+      "accounts": ["@AnthropicAI", "@OpenAI", "@LangChainAI", "@microsoft"]
     }
   },
   "filtering_rules": {
     "primary_direction_threshold": "low",
     "team_direction_threshold": "high",
     "max_apps_per_day": 8,
-    "always_include_priorities": true
-  }
+    "always_include_priorities": true,
+    "min_github_stars": 200,
+    "require_source_link": true
+  },
+  "_notes": "Updated 2026-02-23: primary focus shifted from agent-ui to agentic-coding; added MCP/AG-UI/OpenAI Agents SDK to A_tier; added x_twitter source; bumped min_github_stars; added require_source_link."
 }
