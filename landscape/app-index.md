@@ -135,6 +135,16 @@
 | Playground by Natoma | Natoma | 2026-03-01 | mcp, discovery, developer-tool | https://www.producthunt.com/products/playground-by-natoma |  | 🔧 daily 2026-03-01 |
 | DeltaMemory | DeltaMemory | 2026-03-01 | agent-memory, performance | https://www.producthunt.com/products/deltamemory |  | 🔧 daily 2026-03-01 |
 | Refly.AI | Refly.AI | 2026-03-01 | workflow, no-code, agent-builder | http://www.geekpark.net/news/357942 |  | 🔧 daily 2026-03-01 |
+| When does MCP make sense vs CLI? | ejholmes | 2026-03-02 | mcp, agent | https://ejholmes.github.io/2026/02/28/mcp-is-dead-long-live-the-cli.html |  | 📖 daily 2026-03-02 — MCP 与 CLI 路线之争的技术深度分析 |
+| 驯服"龙虾"，Agent 也要服从基本法 | — | 2026-03-02 | agent | https://www.36kr.com/p/3702844633936256 |  | 📖 daily 2026-03-02 — Agent 工程化落地的核心原则讨论 |
+| 我高中辍学，跟 AI 学习，逆袭成为 OpenAI 研究员 | — | 2026-03-02 | vibe-coding | http://www.geekpark.net/news/358072 |  | 📖 daily 2026-03-02 — AI 编程范式转变的典型案例 |
+| AI 时代，如何定义电商营销新范式？ | — | 2026-03-02 | workflow, mcp | http://www.geekpark.net/news/358075 |  | 📖 daily 2026-03-02 — AI 重构电商工作流的实践案例 |
+| Why XML tags are so fundamental to Claude | — | 2026-03-02 | agent | https://glthr.com/XML-fundamental-to-Claude |  | 📖 daily 2026-03-02 — Claude prompt 工程的核心技术细节 |
+| 告别知识库时代，印象笔记如何打造你的「第二大脑」？ | — | 2026-03-02 | agent | http://www.geekpark.net/news/358235 |  | 📖 daily 2026-03-02 — 传统知识管理工具的 AI 转型探索 |
+| 深聊豆包手机：该关注这场「技术核试验」的什么？ | 字节跳动 | 2026-03-02 | agent | http://www.geekpark.net/news/357996 |  | 📖 daily 2026-03-02 — AI 与硬件深度整合的早期实验 |
+| 我看 MiniMax 闫俊杰：「心舟」已过万重山 | MiniMax | 2026-03-02 | agent | http://www.geekpark.net/news/357970 |  | 📖 daily 2026-03-02 — 中国大模型创业公司的产品化路径 |
+| LLM 是初级程序员的外挂，却让高级工程师无感？解析 LLM 的影响曲线！ | — | 2026-03-02 | agent | https://blog.csdn.net/csdnnews/article/details/146167863 |  | 📖 daily 2026-03-02 — LLM 对不同层级开发者影响的实证分析 |
+| 英特尔，下一个 AI 时代的「卖铲人」 | 英特尔 | 2026-03-02 | rag, agent | http://www.geekpark.net/news/358085 |  | 📖 daily 2026-03-02 — 个人 AI 记忆基础设施的新方向 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
