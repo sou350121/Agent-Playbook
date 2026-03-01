@@ -37,6 +37,7 @@ playbooks（执行手册）
 | `theory/frameworks/*.mdx` | 新建 / 编辑 | 遵守 §6 写作规范 |
 | `theory/architecture/*.mdx` | 新建 / 编辑 | 遵守 §6 写作规范 |
 | `theory/methodology/**` | 新建 / 编辑 | 遵守 §6 写作规范 |
+| `theory/deep-dive/*.md` | **Pulsar 自动写入** | 周二/四/六自动生成；同 slug 同天允许覆盖；不得手动删除 |
 | `playbooks/tools/*.md` | 新建 / 编辑 | 保持 playbook 模板格式 |
 | `playbooks/prompts/*.mdx` | 新建 / 编辑 | 包含示例输入输出 |
 | `playbooks/use-cases/*.md` | 新建 / 编辑 | 附真实场景和结果 |
