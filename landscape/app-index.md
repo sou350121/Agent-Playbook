@@ -144,6 +144,8 @@
 | 我看 MiniMax 闫俊杰：「心舟」已过万重山 | MiniMax | 2026-03-02 | agent | http://www.geekpark.net/news/357970 |  | 📖 daily 2026-03-02 — 中国大模型创业公司的产品化路径 |
 | LLM 是初级程序员的外挂，却让高级工程师无感？解析 LLM 的影响曲线！ | — | 2026-03-02 | agent | https://blog.csdn.net/csdnnews/article/details/146167863 |  | 📖 daily 2026-03-02 — LLM 对不同层级开发者影响的实证分析 |
 | 英特尔，下一个 AI 时代的「卖铲人」 | 英特尔 | 2026-03-02 | rag, agent | http://www.geekpark.net/news/358085 |  | 📖 daily 2026-03-02 — 个人 AI 记忆基础设施的新方向 |
+| CtrlAI | — | 2026-03-03 | agent, guardrail, security | https://www.producthunt.com/products/ctrlai |  | 🔧 daily 2026-03-03 |
+| Aura | — | 2026-03-03 | agent, coding, version-control | https://www.producthunt.com/products/aura-28 |  | 🔧 daily 2026-03-03 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
