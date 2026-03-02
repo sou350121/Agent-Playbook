@@ -67,5 +67,5 @@
 ---
 
 ## 🔗 关联章节
-- **[小白通关手册](../playbooks/onboarding/README.md)**：查看工具的基础安装与上手路径。
+- **[小白通关手册](../onboarding/README.md)**：查看工具的基础安装与上手路径。
 - **[案例复盘](../use-cases/README.md)**：看这些工具组合在真实项目中如何发挥威力。

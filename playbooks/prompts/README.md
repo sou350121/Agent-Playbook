@@ -46,4 +46,4 @@
 
 ## 🔗 关联章节
 - **[工具链](../tools/README.md)**：看这些 Prompt 如何在 Cursor 的 `.cursorrules` 或 Claude 的 `System Prompt` 中生效。
-- **[写作模板](../_templates/README.md)**：如果你想贡献新的 Prompt 到本仓库。
+- **[写作模板](../templates/README.md)**：如果你想贡献新的 Prompt 到本仓库。

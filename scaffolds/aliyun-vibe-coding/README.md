@@ -325,8 +325,8 @@ aliyun ecs DescribeInstances --output json | \
 
 ### 初学者指南
 
-- [小白通关手册](../playbooks/onboarding/README.md)
-- [工具栈入门](../playbooks/onboarding/02-tool-stack.md)
+- [小白通关手册](../../playbooks/onboarding/README.md)
+- [工具栈入门](../../playbooks/onboarding/02-tool-stack.md)
 
 ---
 

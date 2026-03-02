@@ -49,4 +49,4 @@
 ---
 
 ## 🔗 关联章节
-- **[小白通关手册](../playbooks/onboarding/README.md)**：查看这些案例中用到的基础招式。
+- **[小白通关手册](../onboarding/README.md)**：查看这些案例中用到的基础招式。

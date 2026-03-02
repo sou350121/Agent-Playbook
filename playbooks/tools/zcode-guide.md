@@ -42,4 +42,4 @@ Z Code 是目前 **“一人 CEO”** 范式的最佳硬件选型之一。它通
 
 **关联阅读：**
 - [CC Switch: AI CLI 配置快速切换工具](./cc-switch-guide.md)
-- [推理编排与元系统：榨干 LLM 的潜力](../frameworks/agentic-orchestration-meta-system.md)
+- [推理编排与元系统：榨干 LLM 的潜力](../../theory/02-agent-design/agentic-orchestration-meta-system.md)
