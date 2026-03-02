@@ -52,16 +52,16 @@ theory/ 六模块结构：
 |------|------|---------|
 | `landscape/app-index.md` | **仅追加** | 禁止删除条目、禁止重排顺序、禁止批量重写 |
 | `landscape/technology-landscape.md` | 完整编辑 | 可自由增改，保持 section 结构一致 |
-| `landscape/influencers.mdx` | 完整编辑 | 可自由增改，保持人物卡片格式 |
-| `theory/01-principles/*.mdx` | 新建 / 编辑 | 遵守 §6 写作规范；底层原理类内容 |
-| `theory/02-agent-design/*.mdx` | 新建 / 编辑 | 遵守 §6 写作规范；Agent 设计类内容 |
-| `theory/03-engineering/*.mdx` | 新建 / 编辑 | 遵守 §6 写作规范；Agentic 工程实战类内容 |
-| `theory/04-paradigm/*.mdx` | 新建 / 编辑 | 遵守 §6 写作规范；范式转变类内容 |
-| `theory/05-strategy/*.mdx` | 新建 / 编辑 | 遵守 §6 写作规范；战略定位类内容 |
-| `theory/06-frontier/*.mdx` | 新建 / 编辑 | 遵守 §6 写作规范；前沿研究类内容 |
+| `landscape/influencers.md` | 完整编辑 | 可自由增改，保持人物卡片格式 |
+| `theory/01-principles/*.md` | 新建 / 编辑 | 遵守 §6 写作规范；底层原理类内容 |
+| `theory/02-agent-design/*.md` | 新建 / 编辑 | 遵守 §6 写作规范；Agent 设计类内容 |
+| `theory/03-engineering/*.md` | 新建 / 编辑 | 遵守 §6 写作规范；Agentic 工程实战类内容 |
+| `theory/04-paradigm/*.md` | 新建 / 编辑 | 遵守 §6 写作规范；范式转变类内容 |
+| `theory/05-strategy/*.md` | 新建 / 编辑 | 遵守 §6 写作规范；战略定位类内容 |
+| `theory/06-frontier/*.md` | 新建 / 编辑 | 遵守 §6 写作规范；前沿研究类内容 |
 | `theory/**/*_deep_dive.md` | **Pulsar 自动写入** | 见 §6b Deep Dive 分配规则；同 slug 同天允许覆盖；不得手动删除 |
 | `playbooks/tools/*.md` | 新建 / 编辑 | 保持 playbook 模板格式 |
-| `playbooks/prompts/*.mdx` | 新建 / 编辑 | 包含示例输入输出 |
+| `playbooks/prompts/*.md` | 新建 / 编辑 | 包含示例输入输出 |
 | `playbooks/use-cases/*.md` | 新建 / 编辑 | 附真实场景和结果 |
 | `playbooks/onboarding/*.md` | 新建 / 编辑 | 面向新成员，步骤清晰 |
 | `playbooks/security/**` | 新建 / 编辑 | 安全相关，需注明风险等级 |
@@ -269,7 +269,7 @@ theory/{module}/{slug}_deep_dive.md
 | 我想知道… | 去哪里找 |
 |---------|---------|
 | 某类 AI 工具有哪些？ | `landscape/app-index.md` |
-| 谁在主导 AI App 方向？ | `landscape/influencers.mdx` |
+| 谁在主导 AI App 方向？ | `landscape/influencers.md` |
 | 某个工具怎么用？ | `playbooks/tools/` |
 | 有没有现成模板？ | `playbooks/templates/` 或 `scaffolds/` |
 | 某个场景的完整案例？ | `playbooks/use-cases/` |
@@ -279,43 +279,43 @@ theory/{module}/{slug}_deep_dive.md
 | 我想知道… | 去哪里找 |
 |---------|---------|
 | 模型底层是如何工作的？ | `theory/01-principles/` |
-| 工程师应如何「想」Agent 系统？ | `theory/01-principles/agent-mental-model.mdx` |
+| 工程师应如何「想」Agent 系统？ | `theory/01-principles/agent-mental-model.md` |
 | 如何设计稳定的 Agent 架构？ | `theory/02-agent-design/` |
-| 如何为 Agent 消费者设计 API？ | `theory/02-agent-design/agent-ui-api-design-patterns.mdx` |
-| 委派给 Agent 的任务如何组织分工？ | `theory/02-agent-design/01-operating-model-and-roles.mdx` |
+| 如何为 Agent 消费者设计 API？ | `theory/02-agent-design/agent-ui-api-design-patterns.md` |
+| 委派给 Agent 的任务如何组织分工？ | `theory/02-agent-design/01-operating-model-and-roles.md` |
 
 ### 支柱 A — 护欄与安全
 
 | 我想知道… | 去哪里找 |
 |---------|---------|
-| Agentic 系统护欄怎么设计？（总览）| `theory/03-engineering/architectural-rails-for-ai-coding.mdx` |
-| 物理/逻辑/流程/自动化 四层护欄怎么实现？ | `theory/03-engineering/01-physical-rails.mdx` ～ `04-automated-enforcement.mdx` |
-| Agent 失效了怎么分类和处理？ | `theory/03-engineering/agent-failure-taxonomy.mdx` ⭐ |
-| 哪些 Agent 动作需要人工审查？ | `theory/03-engineering/trust-tier-design.mdx` ⭐ |
-| 控制平面的六个维度怎么设计？ | `theory/03-engineering/agentic-control-plane-design.mdx` ⭐ |
-| 出问题了怎么回滚？ | `theory/03-engineering/04-playbook-risk-and-rollback.mdx` |
+| Agentic 系统护欄怎么设计？（总览）| `theory/03-engineering/architectural-rails-for-ai-coding.md` |
+| 物理/逻辑/流程/自动化 四层护欄怎么实现？ | `theory/03-engineering/01-physical-rails.md` ～ `04-automated-enforcement.md` |
+| Agent 失效了怎么分类和处理？ | `theory/03-engineering/agent-failure-taxonomy.md` ⭐ |
+| 哪些 Agent 动作需要人工审查？ | `theory/03-engineering/trust-tier-design.md` ⭐ |
+| 控制平面的六个维度怎么设计？ | `theory/03-engineering/agentic-control-plane-design.md` ⭐ |
+| 出问题了怎么回滚？ | `theory/03-engineering/04-playbook-risk-and-rollback.md` |
 
 ### 支柱 B — Context 工程
 
 | 我想知道… | 去哪里找 |
 |---------|---------|
-| 怎么给 Agent 注入上下文？（全面）| `theory/03-engineering/context-engineering-field-guide.mdx` ⭐ |
-| Task Packet 怎么写？ | `theory/03-engineering/context-engineering-field-guide.mdx` §Task Packet |
-| AGENT_CONSTITUTION 怎么设计？ | `theory/03-engineering/context-engineering-field-guide.mdx` §AGENT_CONSTITUTION |
-| 委派 vs 自动化怎么区分和设计？ | `theory/03-engineering/delegation-not-automation-engineering-principles.mdx` ⭐ |
-| Spec → PR 的完整流程是什么？ | `theory/03-engineering/02-playbook-spec-to-pr.mdx` |
-| PRD 怎么写让 Agent 也能读？ | `theory/03-engineering/prd-for-engineers-and-agents.mdx` |
-| 为什么要 diff-based 交付？ | `theory/03-engineering/diff-based-workflow-production-pattern.mdx` |
-| ADR 怎么让 Agent 继承历史决策？ | `theory/03-engineering/05-adr-mind-palace.mdx` |
+| 怎么给 Agent 注入上下文？（全面）| `theory/03-engineering/context-engineering-field-guide.md` ⭐ |
+| Task Packet 怎么写？ | `theory/03-engineering/context-engineering-field-guide.md` §Task Packet |
+| AGENT_CONSTITUTION 怎么设计？ | `theory/03-engineering/context-engineering-field-guide.md` §AGENT_CONSTITUTION |
+| 委派 vs 自动化怎么区分和设计？ | `theory/03-engineering/delegation-not-automation-engineering-principles.md` ⭐ |
+| Spec → PR 的完整流程是什么？ | `theory/03-engineering/02-playbook-spec-to-pr.md` |
+| PRD 怎么写让 Agent 也能读？ | `theory/03-engineering/prd-for-engineers-and-agents.md` |
+| 为什么要 diff-based 交付？ | `theory/03-engineering/diff-based-workflow-production-pattern.md` |
+| ADR 怎么让 Agent 继承历史决策？ | `theory/03-engineering/05-adr-mind-palace.md` |
 
 ### 支柱 C — 评估与迭代
 
 | 我想知道… | 去哪里找 |
 |---------|---------|
-| 怎么构建 Agent Eval 体系？ | `theory/03-engineering/06-agent-evals-playbook.mdx` |
-| Eval 怎么接入 CI、持续监控？ | `theory/03-engineering/eval-loop-as-production-practice.mdx` ⭐ |
-| Prompt 改了会不会造成回归？ | `theory/03-engineering/eval-loop-as-production-practice.mdx` §回归检测 |
-| 任务迭代的元框架是什么？ | `theory/03-engineering/05-ralph-loop-iteration-paradigm.mdx` |
+| 怎么构建 Agent Eval 体系？ | `theory/03-engineering/06-agent-evals-playbook.md` |
+| Eval 怎么接入 CI、持续监控？ | `theory/03-engineering/eval-loop-as-production-practice.md` ⭐ |
+| Prompt 改了会不会造成回归？ | `theory/03-engineering/eval-loop-as-production-practice.md` §回归检测 |
+| 任务迭代的元框架是什么？ | `theory/03-engineering/05-ralph-loop-iteration-paradigm.md` |
 
 ### 范式与战略
 
@@ -323,7 +323,7 @@ theory/{module}/{slug}_deep_dive.md
 |---------|---------|
 | AI 正在改变哪些开发范式？ | `theory/04-paradigm/` |
 | 工程师如何在 AI 时代定位和变现？ | `theory/05-strategy/` |
-| 团队需要哪些新角色？ | `theory/05-strategy/agent-native-org-roles.mdx` ⭐ |
+| 团队需要哪些新角色？ | `theory/05-strategy/agent-native-org-roles.md` ⭐ |
 | 前沿论文对工程有什么影响？ | `theory/06-frontier/` |
 | 本周最强工程分析？ | `find theory/ -name "*_deep_dive.md" \| sort -r \| head -5` |
 
