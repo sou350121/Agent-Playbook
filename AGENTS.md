@@ -18,9 +18,20 @@
 landscape（生态地图）
     ↓ 知道有什么工具、谁在主导方向
 theory（知识骨架）
-    ↓ 理解底层架构、框架、方法论
+    ↓ 理解底层原理、设计方法、工程实践
 playbooks（执行手册）
     ↓ 知道怎么做、有哪些模板和用例
+```
+
+theory/ 六模块结构：
+
+```
+01-principles/   底层原理     — 机器如何「想」
+02-agent-design/ Agent 设计   — 记忆/角色/工具/多 Agent
+03-engineering/  工程实战 ★  — Agentic 系统生产交付全链路
+04-paradigm/     范式转变     — 识别不可逆的思维方式切换
+05-strategy/     战略生存     — 工程师定位、变现、进化路径
+06-frontier/     前沿研究     — 与工程最近的前沿突破
 ```
 
 **memory/ 目录由 Pulsar 流水线自动写入，智能体绝对不得触碰。**
@@ -34,10 +45,13 @@ playbooks（执行手册）
 | `landscape/app-index.md` | **仅追加** | 禁止删除条目、禁止重排顺序、禁止批量重写 |
 | `landscape/technology-landscape.md` | 完整编辑 | 可自由增改，保持 section 结构一致 |
 | `landscape/influencers.mdx` | 完整编辑 | 可自由增改，保持人物卡片格式 |
-| `theory/frameworks/*.mdx` | 新建 / 编辑 | 遵守 §6 写作规范 |
-| `theory/architecture/*.mdx` | 新建 / 编辑 | 遵守 §6 写作规范 |
-| `theory/methodology/**` | 新建 / 编辑 | 遵守 §6 写作规范 |
-| `theory/deep-dive/*.md` | **Pulsar 自动写入** | 周二/四/六自动生成；同 slug 同天允许覆盖；不得手动删除 |
+| `theory/01-principles/*.mdx` | 新建 / 编辑 | 遵守 §6 写作规范；底层原理类内容 |
+| `theory/02-agent-design/*.mdx` | 新建 / 编辑 | 遵守 §6 写作规范；Agent 设计类内容 |
+| `theory/03-engineering/*.mdx` | 新建 / 编辑 | 遵守 §6 写作规范；Agentic 工程实战类内容 |
+| `theory/04-paradigm/*.mdx` | 新建 / 编辑 | 遵守 §6 写作规范；范式转变类内容 |
+| `theory/05-strategy/*.mdx` | 新建 / 编辑 | 遵守 §6 写作规范；战略定位类内容 |
+| `theory/06-frontier/*.mdx` | 新建 / 编辑 | 遵守 §6 写作规范；前沿研究类内容 |
+| `theory/**/*_deep_dive.md` | **Pulsar 自动写入** | 见 §6b Deep Dive 分配规则；同 slug 同天允许覆盖；不得手动删除 |
 | `playbooks/tools/*.md` | 新建 / 编辑 | 保持 playbook 模板格式 |
 | `playbooks/prompts/*.mdx` | 新建 / 编辑 | 包含示例输入输出 |
 | `playbooks/use-cases/*.md` | 新建 / 编辑 | 附真实场景和结果 |
@@ -59,10 +73,10 @@ playbooks（执行手册）
 | 场景 | 格式 | 示例 |
 |------|------|------|
 | 每日精选 | `📄 daily pick: YYYY-MM-DD (+N apps)` | `📄 daily pick: 2026-03-02 (+3 apps)` |
-| 架构深潜 | `📝 deep dive: {slug}` | `📝 deep dive: mcp-tool-use-patterns` |
+| 深潜文章 | `📝 deep dive: {module}/{slug}` | `📝 deep dive: 03-engineering/mcp-tool-use-patterns` |
 | 工具注册 | `🔧 app index: add {tool-name}` | `🔧 app index: add Cursor` |
 | 双周报告 | `📈 report: YYYY-MM-DD ~ YYYY-MM-DD` | `📈 report: 2026-02-17 ~ 2026-03-02` |
-| 理论新增 | `📚 theory: add {framework-name}` | `📚 theory: add ReAct-framework` |
+| 理论新增 | `📚 theory: add {module}/{name}` | `📚 theory: add 03-engineering/agent-evals` |
 | Playbook 更新 | `🛠️ playbook: update {guide-name}` | `🛠️ playbook: update prompt-chaining` |
 | Scaffold 新增 | `🗂️ scaffold: add {template-name}` | `🗂️ scaffold: add agent-eval-template` |
 
@@ -115,7 +129,20 @@ playbooks（执行手册）
 
 ## 6. theory/ 写作规范
 
-适用于 `theory/frameworks/`、`theory/architecture/`、`theory/methodology/` 下的新文件。
+适用于 `theory/01-principles/` 至 `theory/06-frontier/` 下的新文件。
+
+### 模块选择
+
+新增文章前，根据内容类型选择目标模块：
+
+| 内容类型 | 目标模块 |
+|---------|---------|
+| 模型底层机制、推理逻辑、数学原理 | `theory/01-principles/` |
+| Agent 记忆、角色设计、工具接入、多 Agent 协作 | `theory/02-agent-design/` |
+| 工程流程、交付规范、评估体系、护欄设计 | `theory/03-engineering/` |
+| 开发范式、行业转变、新的工作方式 | `theory/04-paradigm/` |
+| 个人定位、商业变现、职业路径 | `theory/05-strategy/` |
+| 前沿论文、尚未工程化的突破性研究 | `theory/06-frontier/` |
 
 ### 文件头部
 
@@ -150,6 +177,38 @@ playbooks（执行手册）
 - **主语言**：中文；专有名词保留英文原文
 - **引用**：每篇至少一个外部链接，指向原始论文或官方文档
 - **长度**：超过 800 行时考虑拆分子文件
+
+---
+
+## 6b. Deep Dive 分配规则（Pulsar 自动写入）
+
+Pulsar 流水线每周二/四/六从当日 ⚡/🔧 信号中自动生成深潜文章，文件写入对应 theory 模块（不再集中到单一目录）。
+
+### 命名规则
+
+```
+theory/{module}/{slug}_deep_dive.md
+```
+
+示例：`theory/03-engineering/mcp-tool-use-patterns_deep_dive.md`
+
+### 话题 → 模块分配表
+
+| 话题类型 | 目标模块 | 判断关键词 |
+|---------|---------|-----------|
+| 模型架构、推理机制、训练方法、数学突破 | `theory/01-principles/` | transformer, attention, RLVR, scaling, fine-tuning |
+| Agent 记忆、工具调用、多 Agent、编排框架 | `theory/02-agent-design/` | agent, memory, MCP, orchestration, multi-agent, tool use |
+| 工程流程、评估、护欄、交付、DevOps | `theory/03-engineering/` | engineering, eval, CI/CD, guardrail, spec, PR, deploy |
+| 开发范式、行业洞察、工作方式变革 | `theory/04-paradigm/` | paradigm, vibe coding, software 3.0, intent-driven |
+| 创业策略、变现、职业路径、个人成长 | `theory/05-strategy/` | startup, monetize, career, solo developer |
+| 具身AI、世界模型、机器人、生物分子 | `theory/06-frontier/` | embodied, world model, robotics, multimodal frontier |
+
+### 分配规则说明
+
+- 同一篇文章只写入**一个**模块（主话题优先）
+- 若话题横跨多模块，优先写入最具「工程可操作性」的模块
+- 写入后同 slug 同天允许覆盖；跨天不得覆盖已有文章
+- **不得手动删除**已自动生成的 `*_deep_dive.md` 文件
 
 ---
 
@@ -195,8 +254,13 @@ playbooks（执行手册）
 | 我想知道… | 去哪里找 |
 |---------|---------|
 | 某类工具有哪些？ | `landscape/app-index.md` |
-| 某个架构模式的原理？ | `theory/frameworks/` 或 `theory/architecture/` |
-| 某种方法论如何落地？ | `theory/methodology/` |
+| 模型底层是如何工作的？ | `theory/01-principles/` |
+| 如何设计稳定的 Agent 系统？ | `theory/02-agent-design/` |
+| Agentic 系统怎么交付和评估？ | `theory/03-engineering/` ★ |
+| AI 正在改变哪些开发范式？ | `theory/04-paradigm/` |
+| 工程师如何在 AI 时代定位？ | `theory/05-strategy/` |
+| 前沿论文对工程有什么影响？ | `theory/06-frontier/` |
+| 本周最强工程分析？ | 搜索 `theory/**/*_deep_dive.md` — 找最新日期 |
 | 某个工具怎么用？ | `playbooks/tools/` |
 | 如何写高质量 Prompt？ | `playbooks/prompts/` |
 | 有没有现成模板？ | `playbooks/templates/` 或 `scaffolds/` |
@@ -216,6 +280,7 @@ playbooks（执行手册）
 | `401 / 403` | `GITHUB_TOKEN` 缺失或过期 | 检查环境变量；需 `contents:write` 权限 |
 | `app-index.md` 格式异常 | 历史条目格式不一致 | 保留现有内容，在最后一个合法条目之后追加 |
 | `reports/biweekly/` 文件已存在 | 同日重复运行 | 同一天内允许覆盖；跨天不得覆盖已有报告 |
+| Deep dive 模块分类不确定 | 话题横跨多领域 | 优先选工程可操作性最高的模块（通常是 03-engineering） |
 | `memory/` 写入被拒 | 流水线保护 | 预期行为；停止写入，记录日志 |
 
 ---
@@ -224,8 +289,10 @@ playbooks（执行手册）
 
 提交前确认：
 
-- [ ] commit 消息格式符合 §3 表格
+- [ ] commit 消息格式符合 §3 表格（deep dive 含模块路径）
 - [ ] `landscape/app-index.md` 若有改动，是追加而非修改现有行
+- [ ] theory 新文章放入正确模块（参考 §6 模块选择表）
+- [ ] Deep dive 文件命名为 `{slug}_deep_dive.md`，放入正确模块（参考 §6b）
 - [ ] `memory/` 目录未被触碰
 - [ ] `monitoring/` 目录未被触碰
 - [ ] theory 文档包含 X-Ray 开场（§6）
