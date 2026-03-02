@@ -16,8 +16,6 @@ tags: [bionic-design, industrial-design, workflow, prompt-engineering, creative-
 5.  **场景应用**：商业大片，验证美学与实用性。
 
 ### 为什么这很重要？
-在 [10x 集成战术链路](../cognition/methodology/planning/10x-tactical-integrated-workflow.md) 中，我们强调“编排胜过手写”。这份提示词就是将**“设计思维”**编排进了 AI 模型。它能帮助设计师在几分钟内生成几十套高质量的仿生提案，这在以前需要一个团队工作数周。
 
 <!-- truncate -->
 
-> 完整模板见：[仿生设计全流程展示提示词模板](../action/prompts/bionic-design-workflow-template.md)

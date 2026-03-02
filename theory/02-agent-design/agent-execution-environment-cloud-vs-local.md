@@ -264,9 +264,7 @@
 ### 7.7 参考资源
 
 - **完整指南**：[阿里云 + Vibe Coding 实战指南](../tools/aliyun-vibe-coding-practical-guide.md)
-- **实战案例**：[三个渐进式部署案例](../../use-cases/case-studies/aliyun-vibe-coding-deployment.md)
-- **启动脚本**：[starter-kits/aliyun-vibe-coding](../../starter-kits/aliyun-vibe-coding/)
-- **zcode 集成**：[zcode + 阿里云配置指南](../../starter-kits/aliyun-vibe-coding/zcode-integration-guide.md)
+- **实战案例**：[三个渐进式部署案例](../use-cases/aliyun-vibe-coding-deployment.md)
 
 ---
 

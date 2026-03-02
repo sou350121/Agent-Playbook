@@ -67,6 +67,5 @@
 ---
 
 ## 🔗 关联章节
-- **[能力边界](../frameworks/README.md)**：了解这些工具背后的模型能力（如语义路由）。
-- **[小白通关手册](../../action/onboarding/README.md)**：查看工具的基础安装与上手路径。
-- **[案例复盘](../../use-cases/case-studies/README.md)**：看这些工具组合在真实项目中如何发挥威力。
+- **[小白通关手册](../playbooks/onboarding/README.md)**：查看工具的基础安装与上手路径。
+- **[案例复盘](../use-cases/README.md)**：看这些工具组合在真实项目中如何发挥威力。

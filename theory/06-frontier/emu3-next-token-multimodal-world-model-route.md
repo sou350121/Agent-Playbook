@@ -81,5 +81,4 @@ NTP 的统一序列建模天然提供了一条连续主干：
 
 ## 5. 关联阅读
 
-- 1X World Model（扩散式世界模型范式）：`cognition/frameworks/1x-world-model-paradigm.md`
 

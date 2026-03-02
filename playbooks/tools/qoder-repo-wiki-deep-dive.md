@@ -45,4 +45,3 @@ Qoder 单个项目最多处理 10,000 个文件。面对超级项目，你需要
 
 **关联阅读：**
 - [屎山代码救星：Code Wiki 工具大比拼](./code-wiki-comparison-guide.md)
-- [架构治理：ADR 记忆宫殿](../../cognition/architecture/05-adr-mind-palace.md)

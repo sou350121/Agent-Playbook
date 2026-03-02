@@ -425,8 +425,8 @@ echo "✅ 清理完成！"
 
 2. **推荐阅读**：
    - [Docker Mastery for Agents](./docker-mastery-for-agents.md)
-   - [Agent Execution Environment: Cloud vs Local](../frameworks/agent-execution-environment-cloud-vs-local.md)
-   - [实战案例：阿里云部署](../../use-cases/case-studies/aliyun-vibe-coding-deployment.md)
+   - [Agent Execution Environment: Cloud vs Local](../02-agent-design/agent-execution-environment-cloud-vs-local.md)
+   - [实战案例：阿里云部署](../use-cases/aliyun-vibe-coding-deployment.md)
 
 3. **加入社区**：
    - 提交你的实战案例到本仓库

@@ -17,4 +17,3 @@ Z Code 的逻辑与我们推崇的 **Orchestration（编排）** 高度契合。
 
 <!-- truncate -->
 
-> 详细功能清单与实操见：[Z Code 工具指南](../action/tools/zcode-guide.md)

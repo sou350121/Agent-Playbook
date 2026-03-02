@@ -56,6 +56,6 @@ DeepSeek 的解決方案是利用 **Sinkhorn-Knopp 算法**。
 ---
 
 ## 🔗 关联章节
-- **[機器人引導程序理論](./robotics-bootstrap-theory.md)**
-- **[瓶頸數據選取範式](./bottleneck-data-selection-paradigm.md)**
+- **[機器人引導程序理論](../06-frontier/robotics-bootstrap-theory.md)**
+- **[瓶頸數據選取範式](../06-frontier/bottleneck-data-selection-paradigm.md)**
 - **[04 Playbook：风险治理与回滚](../agent-management/04-playbook-risk-and-rollback.md)**

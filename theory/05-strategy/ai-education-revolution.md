@@ -28,5 +28,5 @@
 ---
 
 **关联阅读：**
-- [一人 CEO 范式：Agent 时代的个体组织力](./one-person-ceo-paradigm.md)
+- [一人 CEO 范式：Agent 时代的个体组织力](../04-paradigm/one-person-ceo-paradigm.md)
 - [智力套利策略：利用平权智力寻找利基机会](./intelligence-arbitrage-strategy.md)

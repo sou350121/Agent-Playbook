@@ -9,11 +9,9 @@ tags: [career, backend, roadmap, engineering, mindset, basics]
 
 ### 为什么在 Vibe Coding 时代还要看这个？
 - **AI 的“预训练”边界**：AI 懂得这些所有知识，但它需要一个**懂行**的人来告诉它：“现在的场景需要用分布式锁，而不是简单的本地变量”。
-- **架构治理的“原材料”**：我们在 [架构治理专项](../cognition/architecture/README.md) 中聊到的所有“导轨”和“契约”，其核心逻辑就藏在这份清单里。
 - **判断力即战力**：AI 能在 2 分钟内写完代码，但它不能在 2 分钟内告诉你“为什么这个系统需要引入 Kafka 而不是简单的异步任务”。
 
 这份清单不是让你去死记硬背语法，而是让你建立起**对复杂系统的掌控感**。
 
 <!-- truncate -->
 
-> 深度拆解：[后端路线图：如何将其转化为 Agent 的编排能力](../cognition/methodology/planning/backend-engineer-roadmap-evolution.md)

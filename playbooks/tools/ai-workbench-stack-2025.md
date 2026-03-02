@@ -61,8 +61,6 @@ flowchart TD
 ## 4. 与本库 DocOps 的连接：把工具使用也写成可追溯文档
 
 推荐你把“工具选择与配置”也纳入文档工程：
-- 把你的工作台配置写成 `action/tools/<tool>.md`
-- 把关键提示词写进 `action/templates/prompt-vcs.md` 风格的 Prompt VCS
 - 遇到坑就写 `failure-log`，避免未来重蹈覆辙
 
 ## 5. 参考来源

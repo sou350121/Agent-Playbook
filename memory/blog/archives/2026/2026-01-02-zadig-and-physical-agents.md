@@ -31,4 +31,3 @@ Windows 的驱动体系是一个巨大的“黑盒”。当你插上一个廉价
 Zadig 是那种“平时想不起来，关键时刻救命”的工具。它是 Agent 体系中 **“感知与执行层（Perception & Action Layer）”** 的底层基石。
 
 ---
-*详细工具指南：[Zadig USB 驱动指南](../action/tools/zadig-usb-driver-guide.md)*

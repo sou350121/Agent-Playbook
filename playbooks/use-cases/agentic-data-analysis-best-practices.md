@@ -43,5 +43,4 @@ Web UI (ChatGPT/Claude App) 有三个天然缺陷：
 ---
 
 **关联阅读：**
-- [架构治理：小白词典](../../cognition/architecture/00-glossary-for-beginners.md)
 - [后端全景图：数据建模部分](../methodology/planning/backend-engineer-roadmap-evolution.md)

@@ -1,6 +1,5 @@
 # 模型对比模板
 
-> 复制此模板到 `cognition/model-comparisons/` 目录下开始编写。
 
 ---
 

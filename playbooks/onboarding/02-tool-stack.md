@@ -60,7 +60,6 @@
 > - **墙外（Prompt）**：是随机、不可控的（Unsafe）。
 > 我们的目标是：让这堵“确定性”的墙越来越厚，让 AI 在既定的轨道上干活，而不是乱跑。
 
-- **怎么用**：在本仓库的 `action/prompts/` 中有很多类似的逻辑，你可以直接复制这些 Skill 的“内核”给 AI。
 
 ## 4. 为什么你需要这套“组合拳”？
 如果没有这套组合，你只是在用网页版 ChatGPT：
@@ -98,11 +97,9 @@
 ### 6.1 从官网开始（新手最省心）
 - vLLM 官网：`https://vllm.ai/`
 - 官网提供更友好的安装/硬件选择路径（CPU/GPU 等），建议新手从这里进入。
-- 快速理解：[`vLLM 是什么？为什么叫 vLLM？`](../../action/tools/vllm-basics-and-naming.md)
 
 ### 6.2 语义路由（进阶）
 当你有多个模型并存时，引入“语义路由”能把模型选择、安全过滤（脱狱/PII）、语义缓存、幻觉门控统一到同一层决策。
-- 深度文档：[`vLLM 语义路由深度解析`](../../cognition/frameworks/vllm-semantic-routing-deep-dive.md)
 
 ---
 
@@ -181,7 +178,6 @@ aliyun ecs DescribeRegions
 ```bash
 # 1. 安装阿里云 CLI（见上方）
 # 2. 使用本仓库的启动脚本
-cd starter-kits/aliyun-vibe-coding
 ./install-aliyun-cli.sh  # 或 Windows PowerShell 版本
 
 # 3. 部署第一个应用
@@ -199,9 +195,6 @@ terraform destroy
 
 ### 7.7 推荐资源
 
-- **完整指南**：[阿里云 + Vibe Coding 实战指南](../../action/tools/aliyun-vibe-coding-practical-guide.md)
-- **实战案例**：[三个渐进式部署案例](../../use-cases/case-studies/aliyun-vibe-coding-deployment.md)
-- **启动脚本**：[starter-kits/aliyun-vibe-coding](../../starter-kits/aliyun-vibe-coding/)
-- **zcode 集成**：[zcode + 阿里云配置指南](../../starter-kits/aliyun-vibe-coding/zcode-integration-guide.md)
+- **实战案例**：[三个渐进式部署案例](../use-cases/aliyun-vibe-coding-deployment.md)
 
 > **Vibe Coding 第一定律实践**：所有云部署都追求"工业级、标准、鲁棒"，而非"最快速完成"。让 AI 承担繁琐的云配置工作，人类专注业务意图。

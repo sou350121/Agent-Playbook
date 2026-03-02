@@ -47,5 +47,5 @@
 | **Agent 效率** | 现场现教 | **Skill 技能直接注入** |
 
 > **关联文档：**
-> - [架构治理专项](../../../cognition/architecture/README.md)
+> - [架构治理专项](../../theory/03-engineering/README.md)
 > - [Agent 宪法 V2](../../AGENT_CONSTITUTION_UNIVERSAL.md)

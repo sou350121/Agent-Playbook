@@ -2,7 +2,6 @@
 
 > **维护方式**：人写、低频更新。
 >
-> 目的不是"写得长"，而是提供一张稳定的地图：帮助你在 `cognition/app_index.md` 的高频条目之上，形成对生态的分层理解。
 >
 > **最后更新：** 2026-02-23
 
@@ -10,9 +9,6 @@
 
 ## 1. 怎么用这张图？
 
-- **快速查工具/应用**：看 [`cognition/app_index.md`](./app_index.md)
-- **读深度分析**：看 `action/tools/`、`cognition/frameworks/`、`cognition/methodology/`
-- **要落地做事**：看 `action/` 与 `use-cases/`
 - **要看趋势推理**：看 `memory/reports/`
 
 ---
@@ -63,7 +59,6 @@
 | 输入过滤 | Rebuff, Guardrails AI | Prompt injection |
 | 输出验证 | promptfoo evals, custom validators | 幻觉 / 格式错误 |
 | 审计 | Langfuse, Helicone | token 泄漏 / 成本失控 |
-| IDE 安全 | 见 `action/security/` | 配置文件自动执行风险 |
 
 ---
 
@@ -78,9 +73,6 @@
           ↓ (每双周)
   memory/reports/                        ← 趋势推理
           ↓ (提炼后)
-  cognition/app_index.md                ← 工具索引（append-only）
-  cognition/frameworks/                 ← 框架/范式深度文章
-  action/tools/                         ← 落地实作指南
 ```
 
 ---

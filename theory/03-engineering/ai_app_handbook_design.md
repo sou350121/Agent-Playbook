@@ -166,13 +166,11 @@ Task 4 不讀 Telegram 歷史,不讀 Moltbot memory。它讀 Handbook 的 Git di
 ```
 AI-App-Handbook/
 │
-├── cognition/                        技術層:「怎麼實現」
 │   ├── app_index.md              ← Moltbot 每日追加(唯一的高頻寫入點)
 │   ├── technology_landscape.md   ← 技術全景圖(人寫,低頻更新)
 │   ├── {topic}.md                ← 深度筆記(人寫)
 │   └── code-notes/               ← 代碼分析速記(Moltbot 創建)
 │
-├── action/               實作層:「怎麼做」
 │   └── {topic}.md                ← 人寫
 │
 ├── memory/reports/             時間層:「最近發生了什麼」
@@ -190,8 +188,6 @@ AI-App-Handbook/
 **設計邏輯**:目錄名即分類,README 即索引,文件名即主題。不需要資料庫,目錄結構本身就是查詢介面。
 
 **Moltbot 只碰三個地方**:
-1. `cognition/app_index.md`(每日追加行)
-2. `cognition/code-notes/`(代碼分析時創建新文件)
 3. `memory/reports/`(每兩週創建文件 + 更新 README 索引)
 
 其餘全是人的領地。

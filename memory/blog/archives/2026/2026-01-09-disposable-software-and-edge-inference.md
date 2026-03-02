@@ -18,5 +18,4 @@
 ---
 
 ### 下一步動作
-1. 更新 [Agent 執行環境指南](../../cognition/frameworks/agent-execution-environment-cloud-vs-local.md)。
 2. 實驗基於 Kiro Hook 的一次性 Sandbox 轉帳流程。

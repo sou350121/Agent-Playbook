@@ -56,7 +56,6 @@ Agentic 系統的五層護欄，防止 AI 自主執行造成破壞。
 | 文件 | 核心問題 |
 |------|----------|
 | `context-engineering-field-guide.md` 🆕 | Context 工程完整指南：repo map 構建、AGENT_CONSTITUTION 設計、Context Packet 格式、長會話衰減對策 |
-| `diff-based-workflow-production-pattern.md` 🆕 | Diff-based 交付：為什麼這是 Agentic 系統唯一安全的生產模式 |
 | `05-adr-mind-palace.md` | ADR 作為 Agent 的長期記憶（與支柱 A 共享）|
 
 ### Spec 驅動開發流程

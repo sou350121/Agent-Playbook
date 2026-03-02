@@ -137,7 +137,6 @@ terraform destroy
 
 ### 核心指南
 
-- **[阿里云 + Vibe Coding 实战指南](../../action/tools/aliyun-vibe-coding-practical-guide.md)**
   - 核心服务速览
   - Docker 化部署完整流程
   - 成本优化策略
@@ -145,7 +144,7 @@ terraform destroy
 
 ### 实战案例
 
-- **[三个渐进式部署案例](../../use-cases/case-studies/aliyun-vibe-coding-deployment.md)**
+- **[三个渐进式部署案例](../use-cases/aliyun-vibe-coding-deployment.md)**
   - 案例 A：Flask + ECS（入门，30 分钟）
   - 案例 B：定时爬虫 + 函数计算（进阶，1 小时）
   - 案例 C：多 Agent + ACK（高级，3 小时）
@@ -167,7 +166,6 @@ terraform destroy
 
 **任务清单**：
 - [ ] 安装 Docker 和阿里云 CLI
-- [ ] 阅读 [Vibe Coding 范式](../../cognition/methodology/planning/vibe-coding-paradigm.md)
 - [ ] 本地运行一个 Docker 容器
 
 **验证标准**：
@@ -321,18 +319,14 @@ aliyun ecs DescribeInstances --output json | \
 ### Vibe Coding 理念
 
 - [Vibe Coding 第一定律](../../blog/2026-01-02-vibe-coding-first-law.md)
-- [Vibe Coding 范式](../../cognition/methodology/planning/vibe-coding-paradigm.md)
-- [Agent 编排架构](../../cognition/frameworks/ai-coding-agent-architecture.md)
 
 ### 云服务对比
 
-- [云端 vs 本地执行](../../cognition/frameworks/agent-execution-environment-cloud-vs-local.md)
-- [Docker Mastery for Agents](../../action/tools/docker-mastery-for-agents.md)
 
 ### 初学者指南
 
-- [小白通关手册](../../action/onboarding/README.md)
-- [工具栈入门](../../action/onboarding/02-tool-stack.md)
+- [小白通关手册](../playbooks/onboarding/README.md)
+- [工具栈入门](../playbooks/onboarding/02-tool-stack.md)
 
 ---
 

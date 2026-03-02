@@ -62,7 +62,6 @@ Unwanted behavior:
 ### 2.2 Acceptance Criteria（必须可验证）
 
 示例：
-- [ ] 新增文档 `cognition/methodology/agent-management/...` 并在 `cognition/methodology/agent-management/README.md` 可导航
 - [ ] `blog/README.md` 不包含死链接
 - [ ] 所有更改已 commit 并 push 到 main
 

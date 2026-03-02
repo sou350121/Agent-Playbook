@@ -32,7 +32,3 @@
 ---
 
 詳細管理學手冊見：
-- **[Agent 管理學總覽](../../cognition/methodology/agent-management/README.md)**
-- **[01 組織模型與角色分工](../../cognition/methodology/agent-management/01-operating-model-and-roles.md)**
-- **[03 多 Agent 編隊協作](../../cognition/methodology/agent-management/03-playbook-multi-agent-squad.md)**
-- **[04 風險治理與回滾預案](../../cognition/methodology/agent-management/04-playbook-risk-and-rollback.md)**

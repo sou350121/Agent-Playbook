@@ -15,4 +15,3 @@
 **「基礎設施必須隱形」**。當 AI 讓開發變得廉價，分發的速度就成了新的競爭力。我們不僅要追求 Vibe Coding，更要追求 **Vibe Deployment**。
 
 ---
-詳細對比見庫中文檔：[Vibe Coding 時代的發布摩擦力](../cognition/methodology/planning/vibe-coding-deployment-friction.md)

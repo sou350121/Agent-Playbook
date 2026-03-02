@@ -1,4 +1,3 @@
-# 监控系统配置（action/monitoring/）
 
 这里存放监控系统的可变参数与自动生成输出。完整 pipeline 脚本参考见 [`SCRIPTS.md`](./SCRIPTS.md)。
 

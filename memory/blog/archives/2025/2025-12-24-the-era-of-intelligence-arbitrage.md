@@ -25,4 +25,3 @@ tags: [intelligence-arbitrage, knowledge-equality, strategy, entrepreneurship]
 
 <!-- truncate -->
 
-> 详细实操建议见：[智力套利策略：利用平权智力寻找利基机会](../cognition/methodology/planning/intelligence-arbitrage-strategy.md)

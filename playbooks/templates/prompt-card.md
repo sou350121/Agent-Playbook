@@ -1,6 +1,5 @@
 # Prompt 卡片模板
 
-> 复制此模板到 `action/prompts/` 目录下开始编写。
 
 ---
 

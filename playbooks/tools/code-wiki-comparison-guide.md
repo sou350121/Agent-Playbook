@@ -29,4 +29,3 @@
 
 **关联阅读：**
 - [Claude Skill 进阶指南](./claude-skills-guide.md)
-- [架构治理：物理层治理](../../cognition/architecture/01-physical-rails.md)

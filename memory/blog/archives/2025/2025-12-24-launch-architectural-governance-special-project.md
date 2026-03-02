@@ -14,12 +14,8 @@ tags: [architecture, governance, large-projects, project-management, mindset]
 - **确立架构师主权**：在 Vibe Coding 中，人类的终极价值是设计“骨架”并监督“导轨”。
 
 ### 专项内容概览
-- **[物理层治理](../cognition/architecture/01-physical-rails.md)**：如何为 AI 划定文件系统的“禁区”与“导轨”。
-- **[逻辑层治理](../cognition/architecture/02-logical-contracts.md)**：如何通过 SSOT 定义强契约，约束 AI 的副作用。
-- **[流程层治理](../cognition/architecture/03-process-governance.md)**：如何利用 Plan Mode 构建架构审查闭环。
 
 从现在起，做一个不仅仅会写代码，更会规划“数字城市”的架构师。
 
 <!-- truncate -->
 
-> 立即进入专项：[架构治理专项主页](../cognition/architecture/README.md)

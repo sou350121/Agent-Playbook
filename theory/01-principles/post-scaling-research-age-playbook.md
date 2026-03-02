@@ -67,14 +67,12 @@
 - 把模型选择 + 安全过滤（脱狱/PII）+ 语义缓存 + 幻觉门控收口到工程层
 
 参考：
-- `cognition/frameworks/vllm-semantic-routing-deep-dive.md`
 
 ### 3.2 幂等安全墙（可靠性交付）
 - **墙内**：可审计脚本/工具（确定逻辑）
 - **墙外**：模型推理（非幂等）
 
 参考：
-- `cognition/frameworks/ai-coding-agent-architecture.md`
 
 ---
 

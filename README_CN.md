@@ -28,9 +28,9 @@ Agent-Playbook 記錄 AI 工具與 Agent 領域的工程級洞察：哪些值得
 | 目錄 | 聚焦 | 更新頻率 |
 |------|------|---------|
 | `landscape/` | AI 生態圖譜：工具索引、技術全景、關鍵人物 | 月度 |
-| `theory/01-principles/` | 底層原理：Transformer、RLVR、Scaling Law 等（10 篇） | 按需 |
-| `theory/02-agent-design/` | Agent 設計：架構、記憶、工具、UI/API 設計（16 篇） | 按需 |
-| `theory/03-engineering/` | Agentic 工程實戰：護欄 / Context 工程 / 評估迭代（28 篇）★ | 按需 |
+| `theory/01-principles/` | 底層原理：Transformer、RLVR、Scaling Law 等（11 篇） | 按需 |
+| `theory/02-agent-design/` | Agent 設計：架構、記憶、工具、UI/API 設計（17 篇） | 按需 |
+| `theory/03-engineering/` | Agentic 工程實戰：護欄 / Context 工程 / 評估迭代（35 篇）★ | 按需 |
 | `theory/04-paradigm/` | 範式轉變：Vibe Coding、Software 3.0、Intent-Driven（11 篇） | 按需 |
 | `theory/05-strategy/` | 戰略生存：工程師定位、變現、組織角色（13 篇） | 按需 |
 | `theory/06-frontier/` | 前沿研究：具身智能、世界模型、生物分子（7 篇） | 按需 |

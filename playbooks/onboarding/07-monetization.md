@@ -53,7 +53,6 @@
 ## 4. 平台分发现实：X 的“基础设施税”
 
 如果你把获客强依赖在 X（Twitter）上，要理解一个现实：平台可能把订阅变成“分发权/变现资格”的入场费。
-- 可执行清单：`cognition/methodology/planning/x-distribution-and-monetization-playbook.md`
 
 ## 5. 最小练习（10 分钟）
 

@@ -36,8 +36,6 @@
 
 ## 🚀 为什么我们需要这个专项？
 
-根据 [Randy Lu 的三大理解](../../cognition/methodology/planning/the-three-understandings-of-ai-coding.md)，架构理解是决定项目寿命的关键。随着 AI 编码能力的增强，人类的价值已经从“如何实现功能”转向了“如何确保功能是在正确的架构下实现的”。
 
 **立即开始：**
-- 阅读 [架构导轨：AI 时代的生存之道](../../cognition/methodology/planning/architectural-rails-for-ai-coding.md) 获取背景知识。
 - 参考 [《Agent 宪法》](../../AGENT_CONSTITUTION_UNIVERSAL.md) 作为你的治理大纲。

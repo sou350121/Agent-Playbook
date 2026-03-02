@@ -38,5 +38,5 @@ aGDP 指的是由 AI 代理自主产生的 economic 总值。
 
 > **关联思考：**
 > - [1X World Model 範式解析](./1x-world-model-paradigm.md)
-> - [Agent 组织架构设计](../../planning/agentic-org-chart-design.md)
-> - [智能即资源：未来经济的底色](./intelligence-as-a-resource.md)
+> - [Agent 组织架构设计](../03-engineering/agentic-org-chart-design.md)
+> - [智能即资源：未来经济的底色](../04-paradigm/intelligence-as-a-resource.md)

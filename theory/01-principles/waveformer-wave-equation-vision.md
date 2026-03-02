@@ -65,6 +65,4 @@ WaveFormer / WPO 这类“PDE inductive bias”路线值得优先阅读。
 
 ## 6. 关联阅读（本仓库）
 
-- 1X World Model（视频生成式世界模型范式）：`cognition/frameworks/1x-world-model-paradigm.md`
-- Emu3（统一 token prediction 的多模态主干）：`cognition/frameworks/emu3-next-token-multimodal-world-model-route.md`
 

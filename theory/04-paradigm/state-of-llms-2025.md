@@ -83,7 +83,5 @@
 
 ## 4. 与本仓库的关系（建议落点）
 
-- 如果你要写“系统方法论”：放在 `cognition/frameworks/` 或 `cognition/methodology/planning/`
-- 如果你要写“工具链与实现细节”：放在 `action/tools/`
 - 如果你要写“动态观察与快讯”：放在 `blog/`
 

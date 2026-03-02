@@ -11,7 +11,6 @@
 - `run-ai-app-workflow-two-phase.py`: added expert curation step (qwen3.5-plus scoring ≥4/5)
 - `prep-ai-app-workflow.py`: increased max_queries 2→3; fixed `site:` + boolean timeout issue
 - `prep-ai-deep-dive.py`: added `_platform_penalty()` and `_arch_bonus()` scoring
-- `post-ai-deep-dive.py`: fixed `_extract_summary/action/trap()` undefined bug; added quality gate
 - Biweekly prediction reflection: fixed hardcoded `{}` schema — LLM now evaluates ✅/❌/⏳
 - AI App biweekly: added social-intel + prev reflection as data sources; improved TG formatting
 
@@ -19,7 +18,6 @@
 - All qwen-max calls migrated to qwen3.5-plus (better quality AND faster)
 
 ### Docs
-- Added `action/monitoring/SCRIPTS.md`: full pipeline reference with naming conventions and DAG
 - Added `README.md`: complete repo navigation guide with pipeline DAG and quick-start table
 - Cleaned up `reports/biweekly/`: removed test/draft files
 

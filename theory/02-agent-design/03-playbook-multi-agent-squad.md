@@ -41,7 +41,6 @@
 - **规划官输出**：
   - `tasks.md`：拆分为原子任务。
   - `dependency_graph.md`：标识任务间的依赖关系。
-  - **分配策略**：Agent A 处理 `action/tools/`，Agent B 处理 `cognition/frameworks/`。
 
 ### 第二阶段：执行隔离（Sandbox Execution）
 - 每个 Agent 在独立的分支或受控目录下执行。
@@ -77,4 +76,4 @@
 
 ## 🔗 关联章节
 - **[01 组织模型与角色分工](./01-operating-model-and-roles.md)**
-- **[02 Playbook：从 Spec 到 PR](./02-playbook-spec-to-pr.md)**
+- **[02 Playbook：从 Spec 到 PR](../03-engineering/02-playbook-spec-to-pr.md)**

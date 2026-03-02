@@ -18,5 +18,4 @@ RLinf 的出現，意味著我們正在經歷從「Prompt Engineering」到「Mo
 ---
 
 ### 下一步動作
-1. 深入研究其 [VLA-RL 訓練流](../../cognition/frameworks/embodied-ai-economic-agents.md)。
 2. 在本地環境嘗試部署其 7B 模型進行推理對比。

@@ -17,4 +17,3 @@ tags: [career, engineering, paradigm-shift, mindset, karpathy]
 
 <!-- truncate -->
 
-> 深度分析见：[重构工程心智：如何跨越 10 倍效率差](../cognition/methodology/planning/reconstructing-engineering-mindset.md)

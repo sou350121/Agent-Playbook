@@ -28,5 +28,4 @@ AI 不只是能写代码，它能**“读懂”**系统的运行状态。
 ---
 
 **关联阅读：**
-- [架构治理专项](../../cognition/architecture/README.md)
 - [Agent 宪法 V3：Boris 范式强化](../../AGENT_CONSTITUTION_UNIVERSAL.md)

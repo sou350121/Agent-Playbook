@@ -15,8 +15,6 @@ tags: [ecommerce, prompt-engineering, visual-design, automation, kv-system]
 4.  **10 张海报连发**：一次性生成从主视觉到细节特写、品牌故事、参数表的全套提示词。
 
 ### 为什么这是 10x 战力？
-在 [10x 战术链路](../cognition/methodology/planning/10x-tactical-integrated-workflow.md) 中，我们强调“编排胜过手写”。这份提示词就是典型的“视觉编排器”——它把设计师 3 天的工作量，压缩到了 3 分钟的对话中。
 
 <!-- truncate -->
 
-> 完整系统见：[电商 KV 视觉系统元提示词模板](../action/prompts/ecommerce-kv-meta-prompt-system.md)

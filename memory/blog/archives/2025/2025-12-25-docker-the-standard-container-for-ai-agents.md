@@ -21,4 +21,3 @@ tags: [docker, devops, agents, infrastructure, virtualization]
 
 <!-- truncate -->
 
-> 深度技术架构与实战指南见：[Docker 大师课：从集装箱到 Agent 编排](../action/tools/docker-mastery-for-agents.md)

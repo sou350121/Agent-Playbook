@@ -14,4 +14,3 @@ tags: [philosophy, design, human-centered, agency, fei-fei-li]
 
 <!-- truncate -->
 
-> 深度设计指南见：[以人为中心的 Agent 设计：主体性、氛围感与空间化](../cognition/methodology/planning/human-centric-agent-design.md)

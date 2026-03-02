@@ -60,7 +60,6 @@ uipro init --ai claude      # 如果你主要用 Claude Code
 
 ## 5. 资源链接
 - **GitHub**: [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)
-- **相关文档**: [像素级还原指南](../../cognition/architecture/00-glossary-for-beginners.md)
 
 ---
 
