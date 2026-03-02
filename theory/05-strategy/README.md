@@ -42,6 +42,7 @@
 |------|---------|
 | `human-centric-agent-design.mdx` | 以人為中心的 Agent 設計：人機協作的正確姿勢 |
 | `ai-education-revolution.mdx` | AI 教育革命：自我迭代的學習系統設計 |
+| `agent-native-org-roles.mdx` 🆕 | Agent-Native 組織的四個新角色：Agent Architect / AI QA Engineer / Context Engineer / Automation PM |
 
 ---
 

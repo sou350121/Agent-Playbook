@@ -25,7 +25,11 @@
 9. **[多 Agent 协作流：从单兵作战到小队编排](./multi-agent-coding-workflow.mdx)**
    - 探索让不同的模型（Claude/GPT）在同一个项目中各司其职。
 10. **[用纯 NumPy 吃透 30 篇论文复现：从 forward 到 backward](./sutskever-30-implementations-numpy.mdx)**
-   - 拒绝调包，手写梯度与注意力；把“会用框架”升级为“会推导 + 会实现”。
+   - 拒绝调包，手写梯度与注意力；把”会用框架”升级为”会推导 + 会实现”。
+11. **[用 CLI 壓低 MCP 成本：讓 Agent 工具調用不破產](./making_mcp_cheaper_via_cli_deep_dive.md)**
+   - MCP 的 token 成本來自 schema 和 tool-call roundtrip；CLI 代理模式如何把成本降一個數量級。
+12. **[AI-Native 語言：不是寫給人看的代碼](./ai-native-languages.mdx)**
+   - DSL、結構化 Prompt、Spec 語言——為什麼 Agent 需要一套自己的「語言」而非自然語言。
 
 ---
 

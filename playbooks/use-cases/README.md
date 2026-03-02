@@ -16,6 +16,8 @@
    - 數據科學場景：如何用 1/10 的時間完成 10x 深度的宏觀分析。
 5. **[阿里雲部署實戰：從 ECS 到函數計算](./aliyun-vibe-coding-deployment.mdx)**
    - 將本倉庫的工具鏈應用於真實雲端環境的完整記錄。
+6. **[Agentic 數據分析最佳實踐](./agentic-data-analysis-best-practices.mdx)**
+   - Agent 做數據分析的陷阱與正確姿勢：從「跑出結果」到「可審計的分析管線」。
 
 ---
 

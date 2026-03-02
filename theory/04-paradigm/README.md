@@ -30,6 +30,7 @@
 | `authenticity-vs-generated-noise.mdx` | 「生成內容 = 低質量」 | 真實性成為差異化競爭力 |
 | `agdp-for-humans.mdx` | 「GDP 衡量人類生產力」 | AGDP（AI 生成 GDP）——重新定義生產力基線 |
 | `state-of-llms-2025.mdx` | 「LLM 是黑盒」 | 系統性理解 LLM 能力邊界的工程方法 |
+| `reflyai_vibe_workflow_deep_dive.md` | 「Vibe Coding 只是玩具」 | Refly AI 展示了從意圖到產品的完整工業化路徑 |
 
 ---
 
