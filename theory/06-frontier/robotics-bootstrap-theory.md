@@ -28,5 +28,5 @@
 ---
 
 ## 🔗 相關資源
-- [具身 AI 經濟學](./embodied-ai-economic-agents.mdx)
-- [1X World Model 範式解析](./1x-world-model-paradigm.mdx)
+- [具身 AI 經濟學](./embodied-ai-economic-agents.md)
+- [1X World Model 範式解析](./1x-world-model-paradigm.md)

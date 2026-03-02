@@ -20,16 +20,16 @@
 
 | 文件 | 打破的假設 | 新的命題 |
 |------|-----------|---------|
-| `anthropic-agentic-coding-trends-2026.mdx` | 「AI 只是工具」 | AI 是協作者，Agentic 編碼是主流開發模式 |
-| `vibe-coding-paradigm.mdx` | 「需要懂語法才能寫代碼」 | 自然語言意圖驅動全棧生成 |
-| `not-designing-for-humans-paradigm.mdx` | 「軟件只為人類設計」 | Agent 也是一等公民用戶 |
-| `one-person-ceo-paradigm.mdx` | 「公司需要規模才能運作」 | 一個人 + Agent 小隊 = 完整的商業機器 |
-| `a-year-of-vibes-prompt-vcs-and-agency.mdx` | 「版本控制管理代碼」 | Prompt 也需要版本控制和持續集成 |
-| `intelligence-as-a-resource.mdx` | 「智能是稀缺的」 | 智能成為基礎設施，像電力一樣可調用 |
-| `knowledge-equality-and-flat-cost.mdx` | 「專業知識有稀缺溢價」 | 知識民主化：邊際成本趨零 |
-| `authenticity-vs-generated-noise.mdx` | 「生成內容 = 低質量」 | 真實性成為差異化競爭力 |
-| `agdp-for-humans.mdx` | 「GDP 衡量人類生產力」 | AGDP（AI 生成 GDP）——重新定義生產力基線 |
-| `state-of-llms-2025.mdx` | 「LLM 是黑盒」 | 系統性理解 LLM 能力邊界的工程方法 |
+| `anthropic-agentic-coding-trends-2026.md` | 「AI 只是工具」 | AI 是協作者，Agentic 編碼是主流開發模式 |
+| `vibe-coding-paradigm.md` | 「需要懂語法才能寫代碼」 | 自然語言意圖驅動全棧生成 |
+| `not-designing-for-humans-paradigm.md` | 「軟件只為人類設計」 | Agent 也是一等公民用戶 |
+| `one-person-ceo-paradigm.md` | 「公司需要規模才能運作」 | 一個人 + Agent 小隊 = 完整的商業機器 |
+| `a-year-of-vibes-prompt-vcs-and-agency.md` | 「版本控制管理代碼」 | Prompt 也需要版本控制和持續集成 |
+| `intelligence-as-a-resource.md` | 「智能是稀缺的」 | 智能成為基礎設施，像電力一樣可調用 |
+| `knowledge-equality-and-flat-cost.md` | 「專業知識有稀缺溢價」 | 知識民主化：邊際成本趨零 |
+| `authenticity-vs-generated-noise.md` | 「生成內容 = 低質量」 | 真實性成為差異化競爭力 |
+| `agdp-for-humans.md` | 「GDP 衡量人類生產力」 | AGDP（AI 生成 GDP）——重新定義生產力基線 |
+| `state-of-llms-2025.md` | 「LLM 是黑盒」 | 系統性理解 LLM 能力邊界的工程方法 |
 | `reflyai_vibe_workflow_deep_dive.md` | 「Vibe Coding 只是玩具」 | Refly AI 展示了從意圖到產品的完整工業化路徑 |
 
 ---

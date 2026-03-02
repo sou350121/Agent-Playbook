@@ -101,4 +101,4 @@ services:
 - **安全性**：在容器里跑 Agent，防止它意外删除你的个人文档。
 - **标准化**：无论你的同事用的是 Windows 还是 Linux，你们的 Agent 环境永远一致。
 
-> **下一站**：[如何配置你的第一个 Dockerized Agent？](../methodology/planning/hybrid-docops-agentops-best-practices.mdx)
+> **下一站**：[如何配置你的第一个 Dockerized Agent？](../methodology/planning/hybrid-docops-agentops-best-practices.md)

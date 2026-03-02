@@ -115,5 +115,5 @@ CVX 的 atom 文档（遇到报错先查这里）：
 - CVX atom library：`https://cvxr.com/cvx/doc/funcref.html`
 - CVXPY：`https://github.com/cvxpy/cvxpy`
 
-> 我把这篇整理成可复用的“报错→重构”手册，放到 Docs：`docs/tools/dcp-convexity-checking-rules.mdx`。
+> 我把这篇整理成可复用的“报错→重构”手册，放到 Docs：`docs/tools/dcp-convexity-checking-rules.md`。
 

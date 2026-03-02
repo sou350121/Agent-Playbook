@@ -18,4 +18,4 @@ tags: [case-study, entrepreneurship, product-market-fit, startup]
 
 <!-- truncate -->
 
-> 详细案例拆解与底层逻辑见：[AI 创业 180 天失败复盘](../use-cases/case-studies/ai-startup-180-days-failure.mdx)
+> 详细案例拆解与底层逻辑见：[AI 创业 180 天失败复盘](../use-cases/case-studies/ai-startup-180-days-failure.md)

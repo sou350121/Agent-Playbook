@@ -83,7 +83,7 @@
    - 这里的规则就是你给 AI 定义的“轨道”。
 
 更多黑话解释见：
-- [小白版黑话词典：单行道与围栏](../architecture/00-glossary-for-beginners.mdx)
+- [小白版黑话词典：单行道与围栏](../architecture/00-glossary-for-beginners.md)
 
 ---
 
@@ -98,11 +98,11 @@
 ### 6.1 从官网开始（新手最省心）
 - vLLM 官网：`https://vllm.ai/`
 - 官网提供更友好的安装/硬件选择路径（CPU/GPU 等），建议新手从这里进入。
-- 快速理解：[`vLLM 是什么？为什么叫 vLLM？`](../../action/tools/vllm-basics-and-naming.mdx)
+- 快速理解：[`vLLM 是什么？为什么叫 vLLM？`](../../action/tools/vllm-basics-and-naming.md)
 
 ### 6.2 语义路由（进阶）
 当你有多个模型并存时，引入“语义路由”能把模型选择、安全过滤（脱狱/PII）、语义缓存、幻觉门控统一到同一层决策。
-- 深度文档：[`vLLM 语义路由深度解析`](../../cognition/frameworks/vllm-semantic-routing-deep-dive.mdx)
+- 深度文档：[`vLLM 语义路由深度解析`](../../cognition/frameworks/vllm-semantic-routing-deep-dive.md)
 
 ---
 
@@ -160,11 +160,11 @@ aliyun ecs DescribeRegions
 ### 7.4 学习路径
 
 1. **第 1-2 周**：本地 Docker 化应用
-   - 阅读：[Docker Mastery for Agents](../tools/docker-mastery-for-agents.mdx)
+   - 阅读：[Docker Mastery for Agents](../tools/docker-mastery-for-agents.md)
    - 实践：在本地跑一个 Python Flask 容器
 
 2. **第 3-4 周**：部署到阿里云 ECS
-   - 阅读：[阿里云 + Vibe Coding 实战指南](../tools/aliyun-vibe-coding-practical-guide.mdx)
+   - 阅读：[阿里云 + Vibe Coding 实战指南](../tools/aliyun-vibe-coding-practical-guide.md)
    - 实践：完成案例 A（Flask + ECS）
 
 3. **第 5-6 周**：Serverless 进阶
@@ -199,8 +199,8 @@ terraform destroy
 
 ### 7.7 推荐资源
 
-- **完整指南**：[阿里云 + Vibe Coding 实战指南](../../action/tools/aliyun-vibe-coding-practical-guide.mdx)
-- **实战案例**：[三个渐进式部署案例](../../use-cases/case-studies/aliyun-vibe-coding-deployment.mdx)
+- **完整指南**：[阿里云 + Vibe Coding 实战指南](../../action/tools/aliyun-vibe-coding-practical-guide.md)
+- **实战案例**：[三个渐进式部署案例](../../use-cases/case-studies/aliyun-vibe-coding-deployment.md)
 - **启动脚本**：[starter-kits/aliyun-vibe-coding](../../starter-kits/aliyun-vibe-coding/)
 - **zcode 集成**：[zcode + 阿里云配置指南](../../starter-kits/aliyun-vibe-coding/zcode-integration-guide.md)
 

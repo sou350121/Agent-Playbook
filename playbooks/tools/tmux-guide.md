@@ -46,4 +46,4 @@ tmux new -s shop-refactor
 
 **关联阅读：**
 - [3.5GB 数据分析案例](../../blog/2025-12-25-agentic-data-mining-apple-health-3gb.md)
-- [CC Switch: 切换 CLI 配置工具](./cc-switch-guide.mdx)
+- [CC Switch: 切换 CLI 配置工具](./cc-switch-guide.md)

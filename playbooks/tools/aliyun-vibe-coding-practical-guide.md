@@ -424,9 +424,9 @@ echo "✅ 清理完成！"
    - [ ] 用 zcode 完成第一个"意图 → 云端"部署
 
 2. **推荐阅读**：
-   - [Docker Mastery for Agents](./docker-mastery-for-agents.mdx)
-   - [Agent Execution Environment: Cloud vs Local](../frameworks/agent-execution-environment-cloud-vs-local.mdx)
-   - [实战案例：阿里云部署](../../use-cases/case-studies/aliyun-vibe-coding-deployment.mdx)
+   - [Docker Mastery for Agents](./docker-mastery-for-agents.md)
+   - [Agent Execution Environment: Cloud vs Local](../frameworks/agent-execution-environment-cloud-vs-local.md)
+   - [实战案例：阿里云部署](../../use-cases/case-studies/aliyun-vibe-coding-deployment.md)
 
 3. **加入社区**：
    - 提交你的实战案例到本仓库

@@ -6,11 +6,11 @@
 
 ## 🧭 推荐阅读顺序
 
-1. **[GPT-5 vs Claude-4.5：2026 旗舰之战](./gpt-5-vs-claude-4.5.mdx)**
+1. **[GPT-5 vs Claude-4.5：2026 旗舰之战](./gpt-5-vs-claude-4.5.md)**
    - 谁才是真正的“工程之王”？从多轮对话一致性到长上下文召回。
-2. **[GPT-5 vs Opus-4.5：SSE 长序列流式工程案例对比](./gpt-5-vs-opus-4.5-sse-case.mdx)**
+2. **[GPT-5 vs Opus-4.5：SSE 长序列流式工程案例对比](./gpt-5-vs-opus-4.5-sse-case.md)**
    - 硬核场景：在处理复杂的流式数据交互时，不同模型的逻辑稳定性。
-3. **[GLM-4.7 实测：国产 Agent 首选模型的进化](./glm-4.7-review.mdx)**
+3. **[GLM-4.7 实测：国产 Agent 首选模型的进化](./glm-4.7-review.md)**
    - 关注中文语境、内網工具調用與性價比的選型建議。
 
 ---

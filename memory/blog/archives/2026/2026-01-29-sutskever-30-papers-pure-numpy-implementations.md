@@ -108,5 +108,5 @@ jupyter notebook 02_char_rnn_karpathy.ipynb
 
 我把“怎么用它学到东西、怎么避免走偏、怎么为面试做一条训练路径”整理到 Docs：
 
-- `docs/tools/sutskever-30-implementations-numpy.mdx`
+- `docs/tools/sutskever-30-implementations-numpy.md`
 

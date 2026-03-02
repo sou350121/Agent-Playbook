@@ -46,6 +46,6 @@
 
 实作与分析模板位于 `action/templates/`：
 
-- `action/templates/workflow.mdx`
-- `action/templates/case-study.mdx`
-- `action/templates/prompt-card.mdx`
+- `action/templates/workflow.md`
+- `action/templates/case-study.md`
+- `action/templates/prompt-card.md`

@@ -45,5 +45,5 @@
 ---
 
 **关联阅读：**
-- [UI/UX 设计 Prompt 卡片](./ui-ux-design-prompt.mdx)
-- [DNA 级交付工作流](../tools/agent-dna-workflow.mdx)
+- [UI/UX 设计 Prompt 卡片](./ui-ux-design-prompt.md)
+- [DNA 级交付工作流](../tools/agent-dna-workflow.md)

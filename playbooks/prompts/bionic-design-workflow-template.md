@@ -53,10 +53,10 @@
 2. **多 Agent 协作**：
    - 使用 **Claude Code** 帮你分析某种生物的机械特性。
    - 使用 **Midjourney** 结合此提示词生成视觉全案。
-   - 使用 **[Qoder](../../action/tools/qoder-repo-wiki-deep-dive.mdx)** 来记录这个设计的架构逻辑。
+   - 使用 **[Qoder](../../action/tools/qoder-repo-wiki-deep-dive.md)** 来记录这个设计的架构逻辑。
 
 ---
 
 **关联阅读：**
-- [极简百科信息卡片模板](./minimalist-encyclopedia-card-template.mdx)
-- [电商 KV 视觉系统元提示词](./ecommerce-kv-meta-prompt-system.mdx)
+- [极简百科信息卡片模板](./minimalist-encyclopedia-card-template.md)
+- [电商 KV 视觉系统元提示词](./ecommerce-kv-meta-prompt-system.md)

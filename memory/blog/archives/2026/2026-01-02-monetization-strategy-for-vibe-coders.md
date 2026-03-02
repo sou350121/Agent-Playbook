@@ -30,4 +30,4 @@ tags: [Monetization, Global Business, Stripe, Solo Entrepreneur]
 **“收贵一点，服务好那批懒人。”** 独立开发者的精力不适合打价格战。
 
 ---
-*详细操作指南请参考：[独立开发者收款与出海实操指南](../cognition/methodology/planning/monetization-strategy-for-solo-developers.mdx)*
+*详细操作指南请参考：[独立开发者收款与出海实操指南](../cognition/methodology/planning/monetization-strategy-for-solo-developers.md)*

@@ -53,4 +53,4 @@
 
 **关联阅读：**
 - [Boris 范式：AI 原生 UI 的未来](../../blog/2025-12-25-boris-cherny-claude-code-father-retro.md)
-- [架构治理：小白词典](../architecture/00-glossary-for-beginners.mdx)
+- [架构治理：小白词典](../architecture/00-glossary-for-beginners.md)

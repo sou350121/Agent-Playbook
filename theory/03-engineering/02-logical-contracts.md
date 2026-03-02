@@ -26,4 +26,4 @@ AI 默认的 `try-catch` 往往是平庸且混乱的。
 
 ---
 
-**下一步：** [03-process-governance.mdx](./03-process-governance.mdx)
+**下一步：** [03-process-governance.md](./03-process-governance.md)

@@ -29,5 +29,5 @@
 ---
 
 ## 🔗 相關資源
-- [Kiro 進階指南](../tools/kiro-mastery-guide.mdx)
-- [MiroFish：平行世界模擬與多智能體推演](./social-simulation-and-multi-agent-systems.mdx)
+- [Kiro 進階指南](../tools/kiro-mastery-guide.md)
+- [MiroFish：平行世界模擬與多智能體推演](./social-simulation-and-multi-agent-systems.md)

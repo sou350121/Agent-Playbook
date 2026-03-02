@@ -27,6 +27,6 @@
 
 詳細治理方案見庫中新模組：
 - **[Agent 管理學總覽](../../cognition/methodology/agent-management/README.md)**
-- **[01 組織模型與角色分工](../../cognition/methodology/agent-management/01-operating-model-and-roles.mdx)**
-- **[02 Playbook：從 Spec 到 PR](../../cognition/methodology/agent-management/02-playbook-spec-to-pr.mdx)**
-- **[04 Playbook：風險治理與回滾](../../cognition/methodology/agent-management/04-playbook-risk-and-rollback.mdx)**
+- **[01 組織模型與角色分工](../../cognition/methodology/agent-management/01-operating-model-and-roles.md)**
+- **[02 Playbook：從 Spec 到 PR](../../cognition/methodology/agent-management/02-playbook-spec-to-pr.md)**
+- **[04 Playbook：風險治理與回滾](../../cognition/methodology/agent-management/04-playbook-risk-and-rollback.md)**

@@ -18,7 +18,7 @@
 
 ## 🧭 推薦閱讀順序
 
-1. **[警報：IDE 自動執行配置導致的私鑰外洩](./ide-auto-execution-risks.mdx)**
+1. **[警報：IDE 自動執行配置導致的私鑰外洩](./ide-auto-execution-risks.md)**
    - 必看！理解為什麼僅僅「打開項目」就可能讓你丟掉所有 SSH Key。
 2. **[隔離開發範式：從 VM 到 Docker Remote]** (規劃中)
    - 如何構建一套既快速又防彈的開發環境。
@@ -26,5 +26,5 @@
 ---
 
 ## 🔗 關聯章節
-- **[架構治理](../architecture/README.mdx)**：物理導軌不僅是為了整潔，更是為了安全。
+- **[架構治理](../architecture/README.md)**：物理導軌不僅是為了整潔，更是為了安全。
 - **[工具鏈](../../action/tools/README.md)**：查看 Docker 與一次性沙箱的选型建议。

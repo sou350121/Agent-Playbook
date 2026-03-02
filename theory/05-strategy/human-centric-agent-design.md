@@ -13,7 +13,7 @@
 
 **“像人”意味着能够捕捉到语言背后的细微情绪和未竟之意。**
 - **上下文共情**：不仅仅记录代码变更，还要记录开发者的“心情”和“纠结”。
-- **自然交互**：减少生硬的 CLI 参数，增加具有“领域专家气质”的回复风格（参考 [Skill 编写指南](../../frameworks/skill-vs-mcp-architecture.mdx)）。
+- **自然交互**：减少生硬的 CLI 参数，增加具有“领域专家气质”的回复风格（参考 [Skill 编写指南](../../frameworks/skill-vs-mcp-architecture.md)）。
 - **容错与宽容**：允许模糊的表达，通过对话引导用户补齐需求，而不是生硬地报错。
 
 ## 3. 空间化 (Spatial)：回归人类的进化直觉
@@ -21,7 +21,7 @@
 **人类是视觉和空间动物，而非纯文本动物。**
 - **GUI 的回归**：如 Karpathy 所言，文本是 AI 喜欢的，但视觉是人喜欢的。Agent 应当输出图表、流程图、UI 预览。
 - **空间隐喻**：将代码库视为一个三维的“建筑”，Agent 应当具备带你在其中“导航”的能力，而不仅仅是搜索关键词。
-- **环境感知**：利用 [MCP](../../frameworks/skill-vs-mcp-architecture.mdx) 感知用户的本地环境（打开的文件、当前的系统负载），表现出“它就在你身边”的即时性。
+- **环境感知**：利用 [MCP](../../frameworks/skill-vs-mcp-architecture.md) 感知用户的本地环境（打开的文件、当前的系统负载），表现出“它就在你身边”的即时性。
 
 ---
 
@@ -29,8 +29,8 @@
 
 正如李飞飞所言，我们信仰的是“人”。
 一个“像人”的 Agent，应当是能够释放人类好奇心、保护人类创造力的增幅器。
-当我们用 [Vibe Coding](./vibe-coding-paradigm.mdx) 构建系统时，我们不是在放弃编程，而是在用更高级的“人类语言”去征服“思维本身”。
+当我们用 [Vibe Coding](./vibe-coding-paradigm.md) 构建系统时，我们不是在放弃编程，而是在用更高级的“人类语言”去征服“思维本身”。
 
 > **行动指南**：
 > - 在你的 [AGENT_CONSTITUTION.md](../../../starter-kits/docops-agentops/AGENT_CONSTITUTION.md) 中加入“人性化交互规范”。
-> - 尝试使用 [Z Code](../../tools/zcode-guide.mdx) 等可视化工具，感受空间化交互带来的心智负担降低。
+> - 尝试使用 [Z Code](../../tools/zcode-guide.md) 等可视化工具，感受空间化交互带来的心智负担降低。

@@ -17,4 +17,4 @@
 未來的 Agent 不僅要會寫代碼、會聊天，還要具備「世界模型」。在數字世界中模擬，在物理世界中閉環。
 
 ---
-更多細節見庫中文檔：[1X World Model 範式解析](../cognition/frameworks/1x-world-model-paradigm.mdx)
+更多細節見庫中文檔：[1X World Model 範式解析](../cognition/frameworks/1x-world-model-paradigm.md)

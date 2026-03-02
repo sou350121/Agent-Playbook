@@ -120,4 +120,4 @@ print(f"Sklearn Alpha (權重精度): {br_model.named_steps['bayes'].alpha_}")
 3.  **參數相關性**：後驗協方差矩陣揭示了參數間的協作關係，幫你識別哪些特徵是「危險」或不穩定的。
 
 詳細理論與層級模型推導，請參閱：
-- **[不確定性處理與貝葉斯估計](../../cognition/frameworks/bayesian-estimation-and-uncertainty.mdx)**
+- **[不確定性處理與貝葉斯估計](../../cognition/frameworks/bayesian-estimation-and-uncertainty.md)**

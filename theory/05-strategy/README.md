@@ -20,29 +20,29 @@
 
 | 文件 | 核心洞察 |
 |------|---------|
-| `intelligence-arbitrage-strategy.mdx` | 利用人機認知差做套利：找到 AI 系統的系統性盲點 |
-| `research-taste-as-value-function.mdx` | 品味即價值函數：工程師的判斷力如何在 AI 時代增值 |
-| `reconstructing-engineering-mindset.mdx` | 重建工程師心智模型：從「執行者」到「決策者 + 驗證者」 |
-| `backend-engineer-roadmap-evolution.mdx` | 後端工程師的進化路徑：Agentic 基礎設施工程師 |
-| `the-three-understandings-of-ai-coding.mdx` | AI 編碼的三重理解：工具 / 協作者 / 系統組件 |
+| `intelligence-arbitrage-strategy.md` | 利用人機認知差做套利：找到 AI 系統的系統性盲點 |
+| `research-taste-as-value-function.md` | 品味即價值函數：工程師的判斷力如何在 AI 時代增值 |
+| `reconstructing-engineering-mindset.md` | 重建工程師心智模型：從「執行者」到「決策者 + 驗證者」 |
+| `backend-engineer-roadmap-evolution.md` | 後端工程師的進化路徑：Agentic 基礎設施工程師 |
+| `the-three-understandings-of-ai-coding.md` | AI 編碼的三重理解：工具 / 協作者 / 系統組件 |
 
 ### 商業變現
 
 | 文件 | 核心洞察 |
 |------|---------|
-| `monetization-strategy-for-solo-developers.mdx` | 獨立開發者的 Agentic 變現路徑：從 0 到 PMF |
-| `global-ai-startup-structuring-and-exit-checklist.mdx` | AI 創業公司的全球化結構與退出清單 |
-| `x-distribution-and-monetization-playbook.mdx` | X（Twitter）分發 + 變現的 Playbook |
-| `vibe-coding-deployment-friction.mdx` | Vibe Coding 的部署摩擦：從「能跑」到「能賣」的距離 |
-| `gradient-descent-life-strategy.mdx` | 人生梯度下降：用優化思維設計個人成長路徑 |
+| `monetization-strategy-for-solo-developers.md` | 獨立開發者的 Agentic 變現路徑：從 0 到 PMF |
+| `global-ai-startup-structuring-and-exit-checklist.md` | AI 創業公司的全球化結構與退出清單 |
+| `x-distribution-and-monetization-playbook.md` | X（Twitter）分發 + 變現的 Playbook |
+| `vibe-coding-deployment-friction.md` | Vibe Coding 的部署摩擦：從「能跑」到「能賣」的距離 |
+| `gradient-descent-life-strategy.md` | 人生梯度下降：用優化思維設計個人成長路徑 |
 
 ### 工程師演進
 
 | 文件 | 核心洞察 |
 |------|---------|
-| `human-centric-agent-design.mdx` | 以人為中心的 Agent 設計：人機協作的正確姿勢 |
-| `ai-education-revolution.mdx` | AI 教育革命：自我迭代的學習系統設計 |
-| `agent-native-org-roles.mdx` 🆕 | Agent-Native 組織的四個新角色：Agent Architect / AI QA Engineer / Context Engineer / Automation PM |
+| `human-centric-agent-design.md` | 以人為中心的 Agent 設計：人機協作的正確姿勢 |
+| `ai-education-revolution.md` | AI 教育革命：自我迭代的學習系統設計 |
+| `agent-native-org-roles.md` 🆕 | Agent-Native 組織的四個新角色：Agent Architect / AI QA Engineer / Context Engineer / Automation PM |
 
 ---
 

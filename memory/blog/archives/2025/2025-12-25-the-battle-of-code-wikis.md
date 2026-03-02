@@ -19,4 +19,4 @@ tags: [tools, documentation, code-intelligence, legacy-code, zread, qoder]
 
 <!-- truncate -->
 
-> 详细工具对比见：[代码智能与文档生成指南](../action/tools/code-wiki-comparison-guide.mdx)
+> 详细工具对比见：[代码智能与文档生成指南](../action/tools/code-wiki-comparison-guide.md)

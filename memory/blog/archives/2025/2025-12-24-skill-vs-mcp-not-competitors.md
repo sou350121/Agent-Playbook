@@ -18,4 +18,4 @@ WquGuru🦀 (@wquguru) 分享了一个非常有代表性的内部分享选择题
 
 <!-- truncate -->
 
-> 深度对比见：[架构分析：Skill 与 MCP 的边界与配合](../cognition/frameworks/skill-vs-mcp-architecture.mdx)
+> 深度对比见：[架构分析：Skill 与 MCP 的边界与配合](../cognition/frameworks/skill-vs-mcp-architecture.md)

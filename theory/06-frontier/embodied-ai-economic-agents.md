@@ -37,6 +37,6 @@ aGDP 指的是由 AI 代理自主产生的 economic 总值。
 如果说 2024 年我们还在感叹 LLM 的文案能力，那么 2025 年我们将见证这些“数字幽灵”如何通过具身智能和经济协议，在真实世界里构建自己的 GDP。
 
 > **关联思考：**
-> - [1X World Model 範式解析](./1x-world-model-paradigm.mdx)
-> - [Agent 组织架构设计](../../planning/agentic-org-chart-design.mdx)
-> - [智能即资源：未来经济的底色](./intelligence-as-a-resource.mdx)
+> - [1X World Model 範式解析](./1x-world-model-paradigm.md)
+> - [Agent 组织架构设计](../../planning/agentic-org-chart-design.md)
+> - [智能即资源：未来经济的底色](./intelligence-as-a-resource.md)

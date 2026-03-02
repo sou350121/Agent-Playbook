@@ -1,6 +1,6 @@
 # 知识蒸馏：让 Agent 拥有万级文件的“上帝视角”
 
-在 [架构治理](../../cognition/architecture/README.mdx) 中，我们面临的最大挑战是 **“上下文爆炸”**。当项目变成屎山，Agent 很难一次性读懂。
+在 [架构治理](../../cognition/architecture/README.md) 中，我们面临的最大挑战是 **“上下文爆炸”**。当项目变成屎山，Agent 很难一次性读懂。
 
 ## 1. 核心流程：蒸馏三部曲
 
@@ -33,4 +33,4 @@
 
 **关联阅读：**
 - [Boris 范式：消失的 IDE](../../blog/2025-12-25-boris-cherny-claude-code-father-retro.md)
-- [架构治理：ADR 记忆宫殿](../../cognition/architecture/05-adr-mind-palace.mdx)
+- [架构治理：ADR 记忆宫殿](../../cognition/architecture/05-adr-mind-palace.md)

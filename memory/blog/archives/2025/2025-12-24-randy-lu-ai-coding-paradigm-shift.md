@@ -17,4 +17,4 @@ Randy Lu (@randyloop) 最近分享了他利用 AI 承接外包项目的真实体
 
 <!-- truncate -->
 
-> 深度拆解：[AI 编码的三大理解心法](../cognition/methodology/planning/the-three-understandings-of-ai-coding.mdx)
+> 深度拆解：[AI 编码的三大理解心法](../cognition/methodology/planning/the-three-understandings-of-ai-coding.md)

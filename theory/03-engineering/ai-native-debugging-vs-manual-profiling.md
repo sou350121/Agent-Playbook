@@ -22,11 +22,11 @@ AI 不只是能写代码，它能**“读懂”**系统的运行状态。
 
 ## 4. 给开发者的建议
 - **不要急着打开 Profiler**：先问问 Agent，“我遇到了 X 问题，你能帮我生成并分析一下 Dump 吗？”
-- **构建诊断 Skill**：将这类调试流程固化为你的 [Claude Skill](../tools/claude-skills-guide.mdx)。
-- **赋予权限**：通过 [MCP](./skill-vs-mcp-architecture.mdx) 让 Agent 拥有读取日志、执行调试命令的真实权力。
+- **构建诊断 Skill**：将这类调试流程固化为你的 [Claude Skill](../tools/claude-skills-guide.md)。
+- **赋予权限**：通过 [MCP](./skill-vs-mcp-architecture.md) 让 Agent 拥有读取日志、执行调试命令的真实权力。
 
 ---
 
 **关联阅读：**
-- [架构治理专项](../../cognition/architecture/README.mdx)
+- [架构治理专项](../../cognition/architecture/README.md)
 - [Agent 宪法 V3：Boris 范式强化](../../AGENT_CONSTITUTION_UNIVERSAL.md)

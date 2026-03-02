@@ -30,5 +30,5 @@
 ---
 
 **关联阅读：**
-- [推理编排与元系统：榨干 LLM 的潜力](./agentic-orchestration-meta-system.mdx)
-- [一人 CEO 范式：Agent 时代的个体组织力](../methodology/planning/one-person-ceo-paradigm.mdx)
+- [推理编排与元系统：榨干 LLM 的潜力](./agentic-orchestration-meta-system.md)
+- [一人 CEO 范式：Agent 时代的个体组织力](../methodology/planning/one-person-ceo-paradigm.md)

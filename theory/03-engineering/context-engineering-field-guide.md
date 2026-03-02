@@ -126,7 +126,7 @@ Task Packet 是人類向 Agent 委派任務的標準化格式。沒有 Task Pack
 
 ## 相關項目
 
-- `03-engineering/05-adr-mind-palace.mdx` — ADR 作為 Agent 長期記憶
-- `03-engineering/02-playbook-spec-to-pr.mdx` — Task Packet 在 Spec-to-PR 流程中的位置
-- `03-engineering/delegation-not-automation-engineering-principles.mdx` — 為什麼 Task Packet 是委派的必要條件
-- `02-agent-design/agent-memory-system-short-to-long.mdx` — 記憶系統的 Retrieve/Inject/Act/Record 循環
+- `03-engineering/05-adr-mind-palace.md` — ADR 作為 Agent 長期記憶
+- `03-engineering/02-playbook-spec-to-pr.md` — Task Packet 在 Spec-to-PR 流程中的位置
+- `03-engineering/delegation-not-automation-engineering-principles.md` — 為什麼 Task Packet 是委派的必要條件
+- `02-agent-design/agent-memory-system-short-to-long.md` — 記憶系統的 Retrieve/Inject/Act/Record 循環

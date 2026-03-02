@@ -43,5 +43,5 @@ Hooks 讓你的開發環境具備「自動反應」能力：
 
 ## 🔗 相關資源
 - [Kiro 官方文檔](https://kiro.dev) (假設路徑)
-- [DNA 級交付標準](./agent-dna-workflow.mdx)
-- [Vibe Coding 範式](../methodology/planning/vibe-coding-paradigm.mdx)
+- [DNA 級交付標準](./agent-dna-workflow.md)
+- [Vibe Coding 範式](../methodology/planning/vibe-coding-paradigm.md)

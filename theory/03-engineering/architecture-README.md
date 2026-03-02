@@ -5,30 +5,30 @@
 ---
 
 ## 🐣 快速入门
-- **[小白版黑话词典：从城市规划聊到餐厅后厨](./00-glossary-for-beginners.mdx)** （建议首看！）
+- **[小白版黑话词典：从城市规划聊到餐厅后厨](./00-glossary-for-beginners.md)** （建议首看！）
 
 ## 🏛️ 治理三支柱
 
-### 1. [物理层：项目组织与边界](./01-physical-rails.mdx)
+### 1. [物理层：项目组织与边界](./01-physical-rails.md)
 - 文件夹结构的强约束（决定了 AI 怎么分类）。
 - 模块边界与循环依赖的防御。
 - `AGENT.md` 中的目录拓扑定义。
 
-### 2. [逻辑层：编码规范与契约](./02-logical-contracts.mdx)
+### 2. [逻辑层：编码规范与契约](./02-logical-contracts.md)
 - 接口定义（API Contracts）的 SSOT。
 - 状态管理与副作用的隔离。
 - 错误处理与日志记录的全局契约。
 
-### 3. [流程层：审查与演进](./03-process-governance.mdx)
+### 3. [流程层：审查与演进](./03-process-governance.md)
 - **Plan Mode 治理**：如何审查 AI 的执行计划。
 - **证据链管理**：Story 与实现的双向追溯。
 - **Re-Vibe 策略**：如何处理架构腐烂后的局部重刷。
 
-### 4. [工具层：自动化执法](./04-automated-enforcement.mdx)
+### 4. [工具层：自动化执法](./04-automated-enforcement.md)
 - 电子警察：利用 Lint 规则强制分层。
 - 架构快照：通过测试脚本验证目录规范。
 
-### 5. [知识层：架构决策记录 (ADR)](./05-adr-mind-palace.mdx)
+### 5. [知识层：架构决策记录 (ADR)](./05-adr-mind-palace.md)
 - 给 AI 建一座“记忆宫殿”。
 - 防止架构决策在多次迭代中“反复横跳”。
 
@@ -36,8 +36,8 @@
 
 ## 🚀 为什么我们需要这个专项？
 
-根据 [Randy Lu 的三大理解](../../cognition/methodology/planning/the-three-understandings-of-ai-coding.mdx)，架构理解是决定项目寿命的关键。随着 AI 编码能力的增强，人类的价值已经从“如何实现功能”转向了“如何确保功能是在正确的架构下实现的”。
+根据 [Randy Lu 的三大理解](../../cognition/methodology/planning/the-three-understandings-of-ai-coding.md)，架构理解是决定项目寿命的关键。随着 AI 编码能力的增强，人类的价值已经从“如何实现功能”转向了“如何确保功能是在正确的架构下实现的”。
 
 **立即开始：**
-- 阅读 [架构导轨：AI 时代的生存之道](../../cognition/methodology/planning/architectural-rails-for-ai-coding.mdx) 获取背景知识。
+- 阅读 [架构导轨：AI 时代的生存之道](../../cognition/methodology/planning/architectural-rails-for-ai-coding.md) 获取背景知识。
 - 参考 [《Agent 宪法》](../../AGENT_CONSTITUTION_UNIVERSAL.md) 作为你的治理大纲。

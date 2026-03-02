@@ -68,7 +68,7 @@
 ## 下一步：提纯成可执行方法论
 
 这条动态会被提纯为一份可执行的“X 平台生存与分发策略清单”，用于避免无效努力：
-- `docs/planning/x-distribution-and-monetization-playbook.mdx`
+- `docs/planning/x-distribution-and-monetization-playbook.md`
 
 ---
 

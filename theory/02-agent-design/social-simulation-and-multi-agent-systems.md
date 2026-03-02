@@ -19,4 +19,4 @@
 
 ## 💡 相關資源
 - [MiroFish GitHub](https://github.com/666ghj/MiroFish)
-- [Multi-Agent Systems (MAS) 概論](../../cognition/architecture/README.mdx)
+- [Multi-Agent Systems (MAS) 概論](../../cognition/architecture/README.md)

@@ -16,4 +16,4 @@ tags: [philosophy, economy-of-intelligence, mental-model]
 
 <!-- truncate -->
 
-> 深度探讨见：[知识平权与智力成本的扁平化](../cognition/frameworks/knowledge-equality-and-flat-cost.mdx)
+> 深度探讨见：[知识平权与智力成本的扁平化](../cognition/frameworks/knowledge-equality-and-flat-cost.md)

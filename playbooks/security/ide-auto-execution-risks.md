@@ -58,4 +58,4 @@
 
 ## 🔗 關聯閱讀
 - [一次性軟體與邊緣推理範式](../../blog/2026-01-09-disposable-software-and-edge-inference.md)
-- [Docker 專家級指南](../tools/docker-mastery-for-agents.mdx)
+- [Docker 專家級指南](../tools/docker-mastery-for-agents.md)

@@ -248,11 +248,11 @@
 ### 7.6 推荐学习路径
 
 1. **第 1-2 周**：本地 Docker 化
-   - 阅读：[Docker Mastery for Agents](../tools/docker-mastery-for-agents.mdx)
+   - 阅读：[Docker Mastery for Agents](../tools/docker-mastery-for-agents.md)
    - 实践：在本地跑一个 Flask 容器
 
 2. **第 3-4 周**：部署到阿里云 ECS
-   - 阅读：[阿里云 + Vibe Coding 实战指南](../tools/aliyun-vibe-coding-practical-guide.mdx)
+   - 阅读：[阿里云 + Vibe Coding 实战指南](../tools/aliyun-vibe-coding-practical-guide.md)
    - 实践：完成案例 A（Flask + ECS）
 
 3. **第 5-6 周**：Serverless 进阶
@@ -263,8 +263,8 @@
 
 ### 7.7 参考资源
 
-- **完整指南**：[阿里云 + Vibe Coding 实战指南](../tools/aliyun-vibe-coding-practical-guide.mdx)
-- **实战案例**：[三个渐进式部署案例](../../use-cases/case-studies/aliyun-vibe-coding-deployment.mdx)
+- **完整指南**：[阿里云 + Vibe Coding 实战指南](../tools/aliyun-vibe-coding-practical-guide.md)
+- **实战案例**：[三个渐进式部署案例](../../use-cases/case-studies/aliyun-vibe-coding-deployment.md)
 - **启动脚本**：[starter-kits/aliyun-vibe-coding](../../starter-kits/aliyun-vibe-coding/)
 - **zcode 集成**：[zcode + 阿里云配置指南](../../starter-kits/aliyun-vibe-coding/zcode-integration-guide.md)
 

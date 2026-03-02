@@ -36,5 +36,5 @@ $$V(s) = \text{Taste}(s)$$
 ---
 
 **关联阅读：**
-- [一人 CEO 范式](./one-person-ceo-paradigm.mdx)
-- [Prompt 工程心法：从指令到公式](../../../action/prompts/prompt-engineering-philosophy.mdx)
+- [一人 CEO 范式](./one-person-ceo-paradigm.md)
+- [Prompt 工程心法：从指令到公式](../../../action/prompts/prompt-engineering-philosophy.md)

@@ -13,7 +13,7 @@
 
 参考：
 - [vLLM 巨大里程碑：语义路由 v0.1 与“小号 vLLM”生态](./2026-01-06-vllm-milestone-semantic-routing.md)
-- [vLLM 语义路由深度解析](../cognition/frameworks/vllm-semantic-routing-deep-dive.mdx)
+- [vLLM 语义路由深度解析](../cognition/frameworks/vllm-semantic-routing-deep-dive.md)
 
 ### 1.2 “小号 vLLM”生态涌现：推理内核开始可教学、可定制
 - `nano-vllm / MinivLLM / tiny-llm` 的意义不是替代 vLLM 本体，而是把关键抽象缩小到“可读、可改、可嵌入”的规模。
@@ -23,8 +23,8 @@
 - 你需要的不只是一个更聪明的模型，而是一套能把不确定性关起来的工程结构。
 
 参考：
-- [AI Coding 智能体架构设计模式](../cognition/frameworks/ai-coding-agent-architecture.mdx)
-- [Agent 执行环境：云端沙箱 vs 本地受控执行](../cognition/frameworks/agent-execution-environment-cloud-vs-local.mdx)
+- [AI Coding 智能体架构设计模式](../cognition/frameworks/ai-coding-agent-architecture.md)
+- [Agent 执行环境：云端沙箱 vs 本地受控执行](../cognition/frameworks/agent-execution-environment-cloud-vs-local.md)
 
 ---
 

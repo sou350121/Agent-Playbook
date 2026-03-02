@@ -17,4 +17,4 @@ Hayes (@hayesdev_) 分享了一张 `.claude/agents/` 的目录结构图，瞬间
 
 <!-- truncate -->
 
-> 深度拆解：[如何设计你的数字员工组织架构](../cognition/methodology/planning/agentic-org-chart-design.mdx)
+> 深度拆解：[如何设计你的数字员工组织架构](../cognition/methodology/planning/agentic-org-chart-design.md)

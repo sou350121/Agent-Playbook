@@ -29,7 +29,7 @@
 - **路由不止选模型**：把模型选择、安全过滤（脱狱/PII）、语义缓存、幻觉门控纳入同一层决策。
 - **策略可治理**：把这些规则从 prompt 里迁移到可审计的工程层（像 API Gateway 一样治理）。
 
-参考：[`vLLM 语义路由深度解析`](./vllm-semantic-routing-deep-dive.mdx)。
+参考：[`vLLM 语义路由深度解析`](./vllm-semantic-routing-deep-dive.md)。
 
 ---
 

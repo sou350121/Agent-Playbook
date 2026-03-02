@@ -36,5 +36,5 @@
 ---
 
 **关联阅读：**
-- [Jagged Intelligence 与 RLVR](./jagged-intelligence-rlvr.mdx)
-- [Scaling Law 之后的效率跃迁](./post-scaling-research-age-playbook.mdx)
+- [Jagged Intelligence 与 RLVR](./jagged-intelligence-rlvr.md)
+- [Scaling Law 之后的效率跃迁](./post-scaling-research-age-playbook.md)

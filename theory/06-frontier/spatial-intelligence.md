@@ -31,5 +31,5 @@
 ---
 
 **关联阅读：**
-- [智能作为一种资源：可编织与可协作的未来](./intelligence-as-a-resource.mdx)
-- [隐空间推理：Coconut 与连续思维链](./latent-space-reasoning.mdx)
+- [智能作为一种资源：可编织与可协作的未来](./intelligence-as-a-resource.md)
+- [隐空间推理：Coconut 与连续思维链](./latent-space-reasoning.md)

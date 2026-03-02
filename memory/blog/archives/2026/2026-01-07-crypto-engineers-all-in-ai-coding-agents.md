@@ -50,7 +50,7 @@ Coding Agent 让你在同一个 IDE 里完成能力升级：
 ## 3) 下一步：从动态提纯成方法论
 
 这条动态会被提纯为一份“AI 参与编码的检测/度量/治理”清单：
-- `docs/planning/ai-assisted-coding-adoption-metrics-and-governance.mdx`
+- `docs/planning/ai-assisted-coding-adoption-metrics-and-governance.md`
 
 ---
 

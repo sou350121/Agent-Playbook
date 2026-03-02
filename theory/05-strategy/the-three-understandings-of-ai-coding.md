@@ -22,7 +22,7 @@
 - **写入指令**：将这些设计写在 `AGENT.md` 或 `CLAUDE.md` 中。
 - **Plan Mode 确认**：在 AI 动手前，利用 Plan Mode（计划模式）二次确认它是否按照你的架构组织代码。
 
-> **深度专项建议：** 针对大型项目，请查阅 [《架构导轨：防止 AI 在大型项目中失控的治理艺术》](./architectural-rails-for-ai-coding.mdx)。
+> **深度专项建议：** 针对大型项目，请查阅 [《架构导轨：防止 AI 在大型项目中失控的治理艺术》](./architectural-rails-for-ai-coding.md)。
 
 ## 4. 结论：信任不是盲目的，而是基于约束的
 
@@ -34,5 +34,5 @@
 
 **关联阅读：**
 - [AGENT.md 编写指南](../../AGENT.md)
-- [Vibe Coding：信任交付与包袱清理](./vibe-coding-paradigm.mdx)
-- [Agentic Coding 文档工程](./agentic-coding-doc-engineering.mdx)
+- [Vibe Coding：信任交付与包袱清理](./vibe-coding-paradigm.md)
+- [Agentic Coding 文档工程](./agentic-coding-doc-engineering.md)

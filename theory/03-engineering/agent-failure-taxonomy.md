@@ -211,8 +211,8 @@
 
 ## 相關文章
 
-- `03-engineering/01-physical-rails.mdx` — T1 的物理層預防
-- `03-engineering/02-logical-contracts.mdx` — T3/T6 的邏輯層預防
-- `03-engineering/04-playbook-risk-and-rollback.mdx` — 各類型的回滾策略
-- `03-engineering/06-agent-evals-playbook.mdx` — T5 語義回歸的 Model-based eval
-- `03-engineering/context-engineering-field-guide.mdx` — T2 Context 漂移的預防
+- `03-engineering/01-physical-rails.md` — T1 的物理層預防
+- `03-engineering/02-logical-contracts.md` — T3/T6 的邏輯層預防
+- `03-engineering/04-playbook-risk-and-rollback.md` — 各類型的回滾策略
+- `03-engineering/06-agent-evals-playbook.md` — T5 語義回歸的 Model-based eval
+- `03-engineering/context-engineering-field-guide.md` — T2 Context 漂移的預防

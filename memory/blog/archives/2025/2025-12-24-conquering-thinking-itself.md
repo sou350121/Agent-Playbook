@@ -20,4 +20,4 @@ tags: [philosophy, intelligence-resource, future-economy, mental-model]
 
 <!-- truncate -->
 
-> 深度探讨见：[智能作为一种资源：可编织与可协作的未来](../cognition/frameworks/intelligence-as-a-resource.mdx)
+> 深度探讨见：[智能作为一种资源：可编织与可协作的未来](../cognition/frameworks/intelligence-as-a-resource.md)

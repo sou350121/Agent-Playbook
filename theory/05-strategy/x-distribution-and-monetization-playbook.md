@@ -92,4 +92,4 @@ X 已把订阅从“可选会员”升级为“生态内基础设施税”。
 ## 6. 关联阅读
 
 - 动态来源（Blog）：`blog/2026-01-07-x-paid-empire-infra-tax.md`
-- 独立开发者商业化：`./monetization-strategy-for-solo-developers.mdx`
+- 独立开发者商业化：`./monetization-strategy-for-solo-developers.md`

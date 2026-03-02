@@ -20,6 +20,6 @@
 ---
 
 ### 下一步動作
-1. 閱讀 [安全專項：IDE 自動執行風險](../../action/security/ide-auto-execution-risks.mdx)。
+1. 閱讀 [安全專項：IDE 自動執行風險](../../action/security/ide-auto-execution-risks.md)。
 2. 檢查你的 VS Code/Cursor 是否默認信任所有 Workspace。
 3. 嘗試搭建一個 Docker 基礎的隔離開發環境。

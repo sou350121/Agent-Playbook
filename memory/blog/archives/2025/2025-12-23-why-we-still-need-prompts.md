@@ -31,4 +31,4 @@ tags: [prompt-engineering, methodology, productivity]
 - **YouTube 字幕提取**：自动标注发言人、分章节，而非纯文本。
 - **信息图生成**：将文章直接转化为专业视觉内容。
 
-> 详细的心法总结已整理至：[提示词工程的底层逻辑](../action/prompts/prompt-engineering-philosophy.mdx)
+> 详细的心法总结已整理至：[提示词工程的底层逻辑](../action/prompts/prompt-engineering-philosophy.md)

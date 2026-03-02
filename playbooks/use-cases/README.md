@@ -6,26 +6,26 @@
 
 ## 🧭 推荐阅读顺序
 
-1. **[AI 创业 180 天失败录：从虚假繁荣到硬着陆](./ai-startup-180-days-failure.mdx)**
+1. **[AI 创业 180 天失败录：从虚假繁荣到硬着陆](./ai-startup-180-days-failure.md)**
    - **必看！** 避坑指南：为什么只靠 Prompt 做不出護城河。
-2. **[Manus 工作原理与增长工程心法](./manus-growth-engineering-mindset.mdx)**
+2. **[Manus 工作原理与增长工程心法](./manus-growth-engineering-mindset.md)**
    - 深度解析 2026 年爆火的 Agent 產品背後的系統設計。
-3. **[算法套利飞轮：从注意力的捕獲到價值轉化](./algorithm-arbitrage-flywheel.mdx)**
+3. **[算法套利飞轮：从注意力的捕獲到價值轉化](./algorithm-arbitrage-flywheel.md)**
    - 如何利用 Agent 規模化生產內容並獲取商業紅利。
-4. **[Vibe Coding 在 CPI 數據分析中的實戰](./vibe-coding-us-cpi.mdx)**
+4. **[Vibe Coding 在 CPI 數據分析中的實戰](./vibe-coding-us-cpi.md)**
    - 數據科學場景：如何用 1/10 的時間完成 10x 深度的宏觀分析。
-5. **[阿里雲部署實戰：從 ECS 到函數計算](./aliyun-vibe-coding-deployment.mdx)**
+5. **[阿里雲部署實戰：從 ECS 到函數計算](./aliyun-vibe-coding-deployment.md)**
    - 將本倉庫的工具鏈應用於真實雲端環境的完整記錄。
-6. **[Agentic 數據分析最佳實踐](./agentic-data-analysis-best-practices.mdx)**
+6. **[Agentic 數據分析最佳實踐](./agentic-data-analysis-best-practices.md)**
    - Agent 做數據分析的陷阱與正確姿勢：從「跑出結果」到「可審計的分析管線」。
 
 ---
 
 ## ⭐ 关键洞察
 
-- **[Codex 机器学习自动化案例](./codex-ml-automation-case.mdx)**
+- **[Codex 机器学习自动化案例](./codex-ml-automation-case.md)**
   - 探索當 Agent 開始編寫訓練腳本時，生產力邊界在哪。
-- **[麦当劳中国 SCND：大规模 MIP 落地复盘](./mcdonalds-china-scnd-mip.mdx)**
+- **[麦当劳中国 SCND：大规模 MIP 落地复盘](./mcdonalds-china-scnd-mip.md)**
   - 聚合/剪枝/去维/分解把 5,250 万变量压进 10 分钟；GUI 让最优解能被管理层接受。
 - **[失败模式总结]**：
   - 過度工程化、上下文污染、忽略物理導軌帶來的代碼腐爛。

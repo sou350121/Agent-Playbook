@@ -40,5 +40,5 @@
 ---
 
 **关联阅读：**
-- [Agentic Coding 的本质：文档工程 (DocOps)](./agentic-coding-doc-engineering.mdx)
-- [研究品味：决策中的值函数](./research-taste-as-value-function.mdx)
+- [Agentic Coding 的本质：文档工程 (DocOps)](./agentic-coding-doc-engineering.md)
+- [研究品味：决策中的值函数](./research-taste-as-value-function.md)

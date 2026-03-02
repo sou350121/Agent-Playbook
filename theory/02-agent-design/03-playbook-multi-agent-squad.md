@@ -70,11 +70,11 @@
 ## 4. 實戰建議：避免“多頭指揮”
 
 - **單點輸入**：雖然有隊伍，但對外只暴露一個 `Main Agent`（指揮官）的對話口，由它內部調度其他子 Agent。
-- **工具化支撐**：推薦關注 **[Eigent](../tools/eigent-open-source-cowork.mdx)** 這樣的開源多智能體框架，它原生支持開發、搜索、文檔等角色的并行協同。
+- **工具化支撐**：推薦關注 **[Eigent](../tools/eigent-open-source-cowork.md)** 這樣的開源多智能體框架，它原生支持開發、搜索、文檔等角色的并行協同。
 - **日誌追蹤**：要求每個 Agent 在 `agent_runs/` 下記錄自己的執行日誌，便於追蹤是誰引入了錯誤。
 
 ---
 
 ## 🔗 关联章节
-- **[01 组织模型与角色分工](./01-operating-model-and-roles.mdx)**
-- **[02 Playbook：从 Spec 到 PR](./02-playbook-spec-to-pr.mdx)**
+- **[01 组织模型与角色分工](./01-operating-model-and-roles.md)**
+- **[02 Playbook：从 Spec 到 PR](./02-playbook-spec-to-pr.md)**

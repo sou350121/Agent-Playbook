@@ -16,4 +16,4 @@ tags: [vibe-coding, career, mindset, young-generation, learning]
 
 <!-- truncate -->
 
-> 深度分析见：[Vibe Coding 范式：信任交付与包袱清理](../cognition/methodology/planning/vibe-coding-paradigm.mdx)
+> 深度分析见：[Vibe Coding 范式：信任交付与包袱清理](../cognition/methodology/planning/vibe-coding-paradigm.md)

@@ -8,7 +8,7 @@
 
 人類用戶可以理解模糊的錯誤信息、適應不一致的響應格式、並在出錯時重試。Agent 不行——它依賴結構化、可預測、冪等的介面。把為人類設計的 API 直接暴露給 Agent，是大多數 Agentic 系統集成失敗的根本原因。本文定義 Agent-friendly API 的設計模式，讓 Agent 作為一等消費者被服務。
 
-> **哲學基礎**：`04-paradigm/not-designing-for-humans-paradigm.mdx` 提供範式討論。
+> **哲學基礎**：`04-paradigm/not-designing-for-humans-paradigm.md` 提供範式討論。
 > 本文提供工程落地：如何把「Agent 是一等用戶」這個信念翻譯成具體 API 設計決策。
 
 ---
@@ -192,7 +192,7 @@ Agent     → Agent API（JSON、冪等、結構化錯誤）
 
 ## 相關文章
 
-- `04-paradigm/not-designing-for-humans-paradigm.mdx` — 哲學基礎：Agent 是一等用戶
-- `02-agent-design/skill-vs-mcp-architecture.mdx` — 工具接入架構的更高層決策
-- `03-engineering/02-logical-contracts.mdx` — API schema 約束作為邏輯護欄
-- `03-engineering/agent-failure-taxonomy.mdx` — T3 API 契約誤讀的根本原因
+- `04-paradigm/not-designing-for-humans-paradigm.md` — 哲學基礎：Agent 是一等用戶
+- `02-agent-design/skill-vs-mcp-architecture.md` — 工具接入架構的更高層決策
+- `03-engineering/02-logical-contracts.md` — API schema 約束作為邏輯護欄
+- `03-engineering/agent-failure-taxonomy.md` — T3 API 契約誤讀的根本原因

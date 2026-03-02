@@ -106,7 +106,7 @@
 - **RAG**：更偏“外部知识库”（事实/文档），强调“查询→检索→生成”
 - **长期记忆**：更偏“个性化 + 持续更新”（用户画像、偏好、历史状态、经验），强调“写入→巩固→遗忘→检索”
 
-本仓库已有一篇 RAG 作为外部长期记忆的入门：[`cognition/methodology/planning/rag-agent-memory.mdx`](../cognition/methodology/planning/rag-agent-memory.mdx)。
+本仓库已有一篇 RAG 作为外部长期记忆的入门：[`cognition/methodology/planning/rag-agent-memory.md`](../cognition/methodology/planning/rag-agent-memory.md)。
 
 ---
 

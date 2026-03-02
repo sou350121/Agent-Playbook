@@ -6,42 +6,42 @@
 
 ## 🧭 推荐阅读顺序
 
-1. **[AI 协作 DNA 工作流：从结论到 PR 的闭环](./agent-dna-workflow.mdx)**
+1. **[AI 协作 DNA 工作流：从结论到 PR 的闭环](./agent-dna-workflow.md)**
    - 定义每一行代码的交付标准，让 Agent 像资深工程师一样工作。
-2. **[Kiro 進階指南：從「會寫」到「交付」](./kiro-mastery-guide.mdx)**
+2. **[Kiro 進階指南：從「會寫」到「交付」](./kiro-mastery-guide.md)**
    - 掌握 Spec-Driven 開發，利用 Powers 與 Hooks 構建自動化交付流水線。
-3. **[Cursor 深度方法论：从入门到 10x 提效](./cursor-methodology.mdx)**
+3. **[Cursor 深度方法论：从入门到 10x 提效](./cursor-methodology.md)**
    - 核心 IDE 生产力工具的深度实战经验。
-4. **[Docker 专家级指南：给 Agent 的标准容器](./docker-mastery-for-agents.mdx)**
+4. **[Docker 专家级指南：给 Agent 的标准容器](./docker-mastery-for-agents.md)**
    - 为什么 Docker 是 Agent 运行环境的唯一真理。
-5. **[Tmux：Agent 的任务会话堡垒](./tmux-guide.mdx)**
+5. **[Tmux：Agent 的任务会话堡垒](./tmux-guide.md)**
    - 如何在多任务并发下保持优雅的会话管理。
-6. **[手机远程遥控 Agent：把 Claude Code 装进口袋](./mobile-remote-agent.mdx)**
+6. **[手机远程遥控 Agent：把 Claude Code 装进口袋](./mobile-remote-agent.md)**
    - SSH + tmux + Tailscale：随时接管家里的终端与会话，移动端 1:1 还原体验。
-7. **[DCP：凸性检测规则速查（CVX/CVXPY 的“为什么不让写？”）](./dcp-convexity-checking-rules.mdx)**
+7. **[DCP：凸性检测规则速查（CVX/CVXPY 的“为什么不让写？”）](./dcp-convexity-checking-rules.md)**
    - DCP 是充分非必要；给“报错→重构”的工程套路清单。
-8. **[Text-to-SQL 的真实解法：从“写 SQL”到“可审计的取数系统”](./text-to-sql-reliable-architecture.mdx)**
+8. **[Text-to-SQL 的真实解法：从“写 SQL”到“可审计的取数系统”](./text-to-sql-reliable-architecture.md)**
    - 语义层 + schema linking + guardrails + 可追溯：把大模型关进取数系统的轨道。
-9. **[多 Agent 协作流：从单兵作战到小队编排](./multi-agent-coding-workflow.mdx)**
+9. **[多 Agent 协作流：从单兵作战到小队编排](./multi-agent-coding-workflow.md)**
    - 探索让不同的模型（Claude/GPT）在同一个项目中各司其职。
-10. **[用纯 NumPy 吃透 30 篇论文复现：从 forward 到 backward](./sutskever-30-implementations-numpy.mdx)**
+10. **[用纯 NumPy 吃透 30 篇论文复现：从 forward 到 backward](./sutskever-30-implementations-numpy.md)**
    - 拒绝调包，手写梯度与注意力；把”会用框架”升级为”会推导 + 会实现”。
 11. **[用 CLI 壓低 MCP 成本：讓 Agent 工具調用不破產](./making_mcp_cheaper_via_cli_deep_dive.md)**
    - MCP 的 token 成本來自 schema 和 tool-call roundtrip；CLI 代理模式如何把成本降一個數量級。
-12. **[AI-Native 語言：不是寫給人看的代碼](./ai-native-languages.mdx)**
+12. **[AI-Native 語言：不是寫給人看的代碼](./ai-native-languages.md)**
    - DSL、結構化 Prompt、Spec 語言——為什麼 Agent 需要一套自己的「語言」而非自然語言。
 
 ---
 
 ## ⭐ 精选 Top Picks
 
-- **[2025 AI 工作站全家桶：Builder 的武器库](./ai-workbench-stack-2025.mdx)**
+- **[2025 AI 工作站全家桶：Builder 的武器库](./ai-workbench-stack-2025.md)**
   - 从 IDE 到推理引擎，从沙箱到监控，一站式选型建议。
-- **[Kiro mastery：Spec、Powers 與 Hooks 的藝術](./kiro-mastery-guide.mdx)**
+- **[Kiro mastery：Spec、Powers 與 Hooks 的藝術](./kiro-mastery-guide.md)**
   - 揭秘如何將 Agent 開發轉化為工業級的生產流水線。
-- **[NotebookLM-py：研究 Agent 的最強能力組件](./notebooklm-py.mdx)**
+- **[NotebookLM-py：研究 Agent 的最強能力組件](./notebooklm-py.md)**
   - 揭秘如何將 Google 的最強 RAG 搬進命令行，實現知識的自動化流轉。
-- **[阿里雲 Vibe Coding 实战指南](./aliyun-vibe-coding-practical-guide.mdx)**
+- **[阿里雲 Vibe Coding 实战指南](./aliyun-vibe-coding-practical-guide.md)**
   - 将你的 Agent 部署到云端，实现真正的“意图 -> 基础设施”自动化。
 
 ---

@@ -91,6 +91,6 @@ Eigent 的設計完美契合了我們在 **[Agent 管理學](../agent-management
 ---
 
 ## 🔗 关联章节
-- **[03 Playbook：多 Agent 編隊協作](../agent-management/03-playbook-multi-agent-squad.mdx)**
-- **[NotebookLM-py：自動化研究組件](./notebooklm-py.mdx)**
-- **[MCP 協議深度指南](./mcp-protocol-guide.mdx)**
+- **[03 Playbook：多 Agent 編隊協作](../agent-management/03-playbook-multi-agent-squad.md)**
+- **[NotebookLM-py：自動化研究組件](./notebooklm-py.md)**
+- **[MCP 協議深度指南](./mcp-protocol-guide.md)**

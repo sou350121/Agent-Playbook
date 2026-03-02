@@ -21,7 +21,7 @@
   - **调度、工具链、上下文投喂、执行闭环（ReAct）** 会直接决定最终效果。
 
 延伸阅读（可执行清单）：
-- `./post-scaling-research-age-playbook.mdx`
+- `./post-scaling-research-age-playbook.md`
 
 ### 1.3 Benchmaxxing：基准刷榜与真实价值脱钩风险
 - **工程含义**：

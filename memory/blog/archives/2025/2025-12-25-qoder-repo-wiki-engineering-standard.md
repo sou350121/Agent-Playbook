@@ -17,4 +17,4 @@ tags: [tools, qoder, documentation, reverse-engineering, architecture]
 
 <!-- truncate -->
 
-> 深度技术规格见：[Qoder Repo Wiki 深度拆解指南](../action/tools/qoder-repo-wiki-deep-dive.mdx)
+> 深度技术规格见：[Qoder Repo Wiki 深度拆解指南](../action/tools/qoder-repo-wiki-deep-dive.md)

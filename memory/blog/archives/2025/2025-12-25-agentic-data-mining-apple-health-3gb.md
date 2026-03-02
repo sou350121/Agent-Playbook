@@ -19,4 +19,4 @@ tags: [data-analysis, apple-health, claude-code, codex, agentic-workflow, quanti
 
 <!-- truncate -->
 
-> 深度方法论：[Agentic 数据分析实战指南](../cognition/frameworks/agentic-data-analysis-best-practices.mdx)
+> 深度方法论：[Agentic 数据分析实战指南](../cognition/frameworks/agentic-data-analysis-best-practices.md)

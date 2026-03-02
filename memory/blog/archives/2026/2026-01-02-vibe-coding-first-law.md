@@ -28,4 +28,4 @@ tags: [Vibe Coding, Mindset, Efficiency, Quality]
 **一句话总结：反正累的又不是我，让 AI 卷起来！**
 
 ---
-*更多关于 Vibe Coding 的思考，请参考文档：[Vibe Coding 范式](../cognition/methodology/planning/vibe-coding-paradigm.mdx)*
+*更多关于 Vibe Coding 的思考，请参考文档：[Vibe Coding 范式](../cognition/methodology/planning/vibe-coding-paradigm.md)*

@@ -18,4 +18,4 @@
 
 ## 🔗 相關資源
 - [1X 官方：World Model Self-Learning](https://www.1x.tech/discover/world-model-self-learning)
-- [具身 AI 經濟學](./embodied-ai-economic-agents.mdx)
+- [具身 AI 經濟學](./embodied-ai-economic-agents.md)

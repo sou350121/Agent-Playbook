@@ -14,8 +14,8 @@ tags: [prompt-engineering, info-viz, minimalism, aesthetics, design-philosophy]
 - **苹果/Google 设计语言**（高度一致的图标与排版）。
 
 ### 给 10x 工程师的启示
-在 [Vibe Coding](../cognition/methodology/planning/vibe-coding-paradigm.mdx) 时代，我们不仅要让 AI 产出正确的结果，更要让结果具备 **“空间感”** 和 **“高信噪比”**。正如 Karpathy 提到的 **LLM GUI**，这种“信息卡片”正是未来 AI 与人类交互的核心形态。
+在 [Vibe Coding](../cognition/methodology/planning/vibe-coding-paradigm.md) 时代，我们不仅要让 AI 产出正确的结果，更要让结果具备 **“空间感”** 和 **“高信噪比”**。正如 Karpathy 提到的 **LLM GUI**，这种“信息卡片”正是未来 AI 与人类交互的核心形态。
 
 <!-- truncate -->
 
-> 通用模板见：[极简百科信息卡片提示词模板](../action/prompts/minimalist-encyclopedia-card-template.mdx)
+> 通用模板见：[极简百科信息卡片提示词模板](../action/prompts/minimalist-encyclopedia-card-template.md)

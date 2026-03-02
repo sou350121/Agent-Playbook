@@ -30,4 +30,4 @@
 ---
 
 詳細技術實現與 Playbook 見：
-- **[05 Playbook：Ralph Loop 迭代範式與 AFK 指揮](../../cognition/methodology/agent-management/05-ralph-loop-iteration-paradigm.mdx)**
+- **[05 Playbook：Ralph Loop 迭代範式與 AFK 指揮](../../cognition/methodology/agent-management/05-ralph-loop-iteration-paradigm.md)**

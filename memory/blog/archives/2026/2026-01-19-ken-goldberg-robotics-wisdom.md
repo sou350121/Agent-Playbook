@@ -26,5 +26,5 @@
 
 ---
 詳細分析見庫中文檔：
-- [機器人引導程序理論](../cognition/frameworks/robotics-bootstrap-theory.mdx)
-- [瓶頸數據選取範式](../cognition/frameworks/bottleneck-data-selection-paradigm.mdx)
+- [機器人引導程序理論](../cognition/frameworks/robotics-bootstrap-theory.md)
+- [瓶頸數據選取範式](../cognition/frameworks/bottleneck-data-selection-paradigm.md)

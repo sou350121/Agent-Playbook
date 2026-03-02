@@ -169,7 +169,7 @@ T3 → T4：  ≥50 次 T3 零升級 + Eval pass rate ≥ 95% + Agent Architect 
 
 ## 與現有框架的關係
 
-`02-agent-design/01-operating-model-and-roles.mdx` 的四個門控（Spec Gate / Diff Gate / Exec Gate / Release Gate）是**流程**層面的人工介入點。
+`02-agent-design/01-operating-model-and-roles.md` 的四個門控（Spec Gate / Diff Gate / Exec Gate / Release Gate）是**流程**層面的人工介入點。
 
 信任層級框架是**授權**層面的決策框架——它決定哪些操作需要觸發哪個門控，以及如何隨時間演進。
 
@@ -191,8 +191,8 @@ T3 → T4：  ≥50 次 T3 零升級 + Eval pass rate ≥ 95% + Agent Architect 
 
 ## 相關文章
 
-- `02-agent-design/01-operating-model-and-roles.mdx` — 六角色模型與四個流程門控
-- `03-engineering/agent-failure-taxonomy.mdx` — 各層級的失效模式分布
-- `03-engineering/agentic-control-plane-design.mdx` — 信任層級是控制平面第 5 維度
-- `03-engineering/04-playbook-risk-and-rollback.mdx` — 各層級的回滾策略
-- `05-strategy/agent-native-org-roles.mdx` — 誰有權批准信任層級晉升（Agent Architect）
+- `02-agent-design/01-operating-model-and-roles.md` — 六角色模型與四個流程門控
+- `03-engineering/agent-failure-taxonomy.md` — 各層級的失效模式分布
+- `03-engineering/agentic-control-plane-design.md` — 信任層級是控制平面第 5 維度
+- `03-engineering/04-playbook-risk-and-rollback.md` — 各層級的回滾策略
+- `05-strategy/agent-native-org-roles.md` — 誰有權批准信任層級晉升（Agent Architect）

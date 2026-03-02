@@ -31,5 +31,5 @@
 ---
 
 ## 🔗 相關資源
-- [一人 CEO 範式](./one-person-ceo-paradigm.mdx)
-- [Vibe Coding 範式](./vibe-coding-paradigm.mdx)
+- [一人 CEO 範式](./one-person-ceo-paradigm.md)
+- [Vibe Coding 範式](./vibe-coding-paradigm.md)

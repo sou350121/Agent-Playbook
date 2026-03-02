@@ -8,7 +8,7 @@
 
 「把 AI 工具導入工程團隊」是下0的思路。下2步的思路是：當 Agent 作為一等公民持續執行工程工作，人類的組織結構必須相應演化。Karpathy 描述的轉變——工程師從「寫代碼」到「設計讓 Agent 安全工作的系統」——在組織層面意味著四個新角色的出現。這不是遠期猜測：這些職能在今天的前沿工程團隊中已有雛形，只是還沒有統一的名字。
 
-> **注意**：`03-engineering/agentic-org-chart-design.mdx` 描述的是如何組織你的 Agent（Agent 拓撲設計）。
+> **注意**：`03-engineering/agentic-org-chart-design.md` 描述的是如何組織你的 Agent（Agent 拓撲設計）。
 > 本文描述的是如何組織你的**人**（圍繞 Agent 的人員職能設計）。
 
 ---
@@ -176,8 +176,8 @@ Level 4 — 完全自動：Agent 自動執行，僅記錄日誌
 
 ## 相關文章
 
-- `03-engineering/agentic-control-plane-design.mdx` — Agent Architect 的主要設計工具
-- `03-engineering/context-engineering-field-guide.mdx` — Context Engineer 的操作手冊
-- `03-engineering/eval-loop-as-production-practice.mdx` — AI QA Engineer 的核心實踐
-- `03-engineering/agent-failure-taxonomy.mdx` — 四個角色共同使用的失效框架
-- `05-strategy/reconstructing-engineering-mindset.mdx` — 個人如何從執行者轉型為決策者（本文的個人層面版本）
+- `03-engineering/agentic-control-plane-design.md` — Agent Architect 的主要設計工具
+- `03-engineering/context-engineering-field-guide.md` — Context Engineer 的操作手冊
+- `03-engineering/eval-loop-as-production-practice.md` — AI QA Engineer 的核心實踐
+- `03-engineering/agent-failure-taxonomy.md` — 四個角色共同使用的失效框架
+- `05-strategy/reconstructing-engineering-mindset.md` — 個人如何從執行者轉型為決策者（本文的個人層面版本）

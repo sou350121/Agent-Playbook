@@ -38,4 +38,4 @@ vLLM 的命名通常被理解为 **Virtual Large Language Model**（虚拟大模
 ## 5. 进一步阅读
 
 - vLLM 官网：`https://vllm.ai/`
-- vLLM 语义路由（Semantic Routing）深度解析：`../capabilities/vllm-semantic-routing-deep-dive.mdx`
+- vLLM 语义路由（Semantic Routing）深度解析：`../capabilities/vllm-semantic-routing-deep-dive.md`

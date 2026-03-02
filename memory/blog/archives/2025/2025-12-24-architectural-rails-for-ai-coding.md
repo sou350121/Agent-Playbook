@@ -18,4 +18,4 @@ tags: [architecture, vibe-coding, governance, mindset, large-projects]
 
 <!-- truncate -->
 
-> 深度专项文档：[架构导轨：防止 AI 在大型项目中失控的治理艺术](../cognition/methodology/planning/architectural-rails-for-ai-coding.mdx)
+> 深度专项文档：[架构导轨：防止 AI 在大型项目中失控的治理艺术](../cognition/methodology/planning/architectural-rails-for-ai-coding.md)

@@ -32,7 +32,7 @@ Web UI (ChatGPT/Claude App) 有三个天然缺陷：
 2.  **环境隔离**：无法直接调用本地复杂的 Python 库或外部工具。
 3.  **计算超时**：长任务会被强制断流。
 
-**解决方案**：[Claude Code](../tools/claude-skills-guide.mdx) 或 [CC Switch](../tools/cc-switch-guide.mdx) 管理下的本地环境。
+**解决方案**：[Claude Code](../tools/claude-skills-guide.md) 或 [CC Switch](../tools/cc-switch-guide.md) 管理下的本地环境。
 
 ## 4. 结论：数据资产的“零门槛”时代
 
@@ -43,5 +43,5 @@ Web UI (ChatGPT/Claude App) 有三个天然缺陷：
 ---
 
 **关联阅读：**
-- [架构治理：小白词典](../../cognition/architecture/00-glossary-for-beginners.mdx)
-- [后端全景图：数据建模部分](../methodology/planning/backend-engineer-roadmap-evolution.mdx)
+- [架构治理：小白词典](../../cognition/architecture/00-glossary-for-beginners.md)
+- [后端全景图：数据建模部分](../methodology/planning/backend-engineer-roadmap-evolution.md)

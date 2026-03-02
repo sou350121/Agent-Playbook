@@ -201,8 +201,8 @@ Acceptance Criteria（Task Packet 中定義）：
 
 ## 相關文章
 
-- `03-engineering/context-engineering-field-guide.mdx` — Task Packet 的完整格式設計
-- `03-engineering/trust-tier-design.mdx` — 委派範圍與信任層級的關係
-- `03-engineering/agent-failure-taxonomy.mdx` — T1 範圍洩漏 = 委派邊界設計失敗
-- `02-agent-design/01-operating-model-and-roles.mdx` — 委派人（Commander）與執行者（Implementer）的角色分工
-- `05-strategy/agent-native-org-roles.mdx` — Automation PM 負責定義哪些流程用委派，哪些用自動化
+- `03-engineering/context-engineering-field-guide.md` — Task Packet 的完整格式設計
+- `03-engineering/trust-tier-design.md` — 委派範圍與信任層級的關係
+- `03-engineering/agent-failure-taxonomy.md` — T1 範圍洩漏 = 委派邊界設計失敗
+- `02-agent-design/01-operating-model-and-roles.md` — 委派人（Commander）與執行者（Implementer）的角色分工
+- `05-strategy/agent-native-org-roles.md` — Automation PM 負責定義哪些流程用委派，哪些用自動化

@@ -6,7 +6,7 @@
 
 **X-Ray 開場**
 
-`06-agent-evals-playbook.mdx` 解決的是「如何構建評估體系」。本文解決的是不同的問題：**評估體系構建好之後，如何讓它持續運行、自動門控部署、並在 Prompt 或模型變化時及時告警**。Eval 不只是發布前跑一次的測試——它是 Agentic 系統的生產監控基礎設施。
+`06-agent-evals-playbook.md` 解決的是「如何構建評估體系」。本文解決的是不同的問題：**評估體系構建好之後，如何讓它持續運行、自動門控部署、並在 Prompt 或模型變化時及時告警**。Eval 不只是發布前跑一次的測試——它是 Agentic 系統的生產監控基礎設施。
 
 ---
 
@@ -213,7 +213,7 @@ Eval Loop（本文）是系統級監控框架。
 
 ## 相關文章
 
-- `03-engineering/06-agent-evals-playbook.mdx` — Eval 體系構建（本文的前提）
-- `03-engineering/agent-failure-taxonomy.mdx` — Eval 失效對應的失效類型分類
-- `03-engineering/05-ralph-loop-iteration-paradigm.mdx` — 任務級迭代框架
-- `03-engineering/04-automated-enforcement.mdx` — CI/CD 自動化 gate 的底層機制
+- `03-engineering/06-agent-evals-playbook.md` — Eval 體系構建（本文的前提）
+- `03-engineering/agent-failure-taxonomy.md` — Eval 失效對應的失效類型分類
+- `03-engineering/05-ralph-loop-iteration-paradigm.md` — 任務級迭代框架
+- `03-engineering/04-automated-enforcement.md` — CI/CD 自動化 gate 的底層機制

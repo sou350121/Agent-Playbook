@@ -77,6 +77,6 @@
 ---
 
 ## 🔗 关联章节
-- **[02 Playbook：从 Spec 到 PR](./02-playbook-spec-to-pr.mdx)**
+- **[02 Playbook：从 Spec 到 PR](./02-playbook-spec-to-pr.md)**
 - **[安全与防御](../../../action/security/README.md)**
 - **[DeepSeek mHC 複現分析：防止信號爆炸](../../../blog/2026-01-19-ken-goldberg-robotics-wisdom.md)**

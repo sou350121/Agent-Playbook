@@ -18,13 +18,13 @@
 
 | 文件 | 領域 | 工程相關性 | 核心突破 |
 |------|------|-----------|---------|
-| `1x-world-model-paradigm.mdx` | Embodied AI | High | 世界模型作為 Agent 規劃基礎的可行性 |
-| `emu3-next-token-multimodal-world-model-route.mdx` | 多模態 | High | 統一 next-token 架構的世界模型路線 |
-| `embodied-ai-economic-agents.mdx` | Embodied AI | High | 具身 AI 的經濟 Agent 設計框架 |
-| `spatial-intelligence.mdx` | 多模態 | Medium | 空間智能：理解三維世界的下一步 |
-| `bottleneck-data-selection-paradigm.mdx` | 訓練效率 | Medium | 瓶頸數據選擇：用更少數據達到更好效果 |
-| `robotics-bootstrap-theory.mdx` | Robotics | Medium | 機器人自舉學習理論：從零到靈巧操作 |
-| `intellifold2-open-source-biomolecular-foundation-model.mdx` | 生物分子 | Low* | 開源生物分子基礎模型的工程架構 |
+| `1x-world-model-paradigm.md` | Embodied AI | High | 世界模型作為 Agent 規劃基礎的可行性 |
+| `emu3-next-token-multimodal-world-model-route.md` | 多模態 | High | 統一 next-token 架構的世界模型路線 |
+| `embodied-ai-economic-agents.md` | Embodied AI | High | 具身 AI 的經濟 Agent 設計框架 |
+| `spatial-intelligence.md` | 多模態 | Medium | 空間智能：理解三維世界的下一步 |
+| `bottleneck-data-selection-paradigm.md` | 訓練效率 | Medium | 瓶頸數據選擇：用更少數據達到更好效果 |
+| `robotics-bootstrap-theory.md` | Robotics | Medium | 機器人自舉學習理論：從零到靈巧操作 |
+| `intellifold2-open-source-biomolecular-foundation-model.md` | 生物分子 | Low* | 開源生物分子基礎模型的工程架構 |
 
 \* _Low 不代表不重要，而是短期工程應用路徑不明確。_
 

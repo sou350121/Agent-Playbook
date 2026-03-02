@@ -38,6 +38,6 @@
 ---
 
 **关联阅读：**
-- [知识平权与智力成本的扁平化](../../frameworks/knowledge-equality-and-flat-cost.mdx)
-- [一人 CEO 范式：Agent 时代的个体组织力](./one-person-ceo-paradigm.mdx)
-- [智能作为一种资源：可编织与可协作的未来](../../frameworks/intelligence-as-a-resource.mdx)
+- [知识平权与智力成本的扁平化](../../frameworks/knowledge-equality-and-flat-cost.md)
+- [一人 CEO 范式：Agent 时代的个体组织力](./one-person-ceo-paradigm.md)
+- [智能作为一种资源：可编织与可协作的未来](../../frameworks/intelligence-as-a-resource.md)

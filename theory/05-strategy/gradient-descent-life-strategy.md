@@ -29,5 +29,5 @@
 ---
 
 **关联阅读：**
-- [研究品味：作为决策中的“值函数”](./research-taste-as-value-function.mdx)
-- [AI 创业 180 天失败录：闭门造车的代价](../../../use-cases/case-studies/ai-startup-180-days-failure.mdx)
+- [研究品味：作为决策中的“值函数”](./research-taste-as-value-function.md)
+- [AI 创业 180 天失败录：闭门造车的代价](../../../use-cases/case-studies/ai-startup-180-days-failure.md)

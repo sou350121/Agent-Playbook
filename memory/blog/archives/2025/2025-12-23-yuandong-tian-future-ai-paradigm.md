@@ -30,4 +30,4 @@ Meta FAIR 研究科学家总监田渊栋在年末长谈中，对 AI 的现状与
 - **AI 辅助研究**：通过与 AI 脑暴，研究效率可提升 4-5 倍。AI 负责提供候选想法（候选人），人负责筛选与判断（法官）。
 - **强者越强**：聪明且有见地的人，使用 AI 后的效能提升远高于新手。
 
-> 详细深度分析见文档：[一人 CEO 范式](../cognition/methodology/planning/one-person-ceo-paradigm.mdx) 与 [隐空间推理：Coconut 框架](../cognition/frameworks/latent-space-reasoning.mdx)
+> 详细深度分析见文档：[一人 CEO 范式](../cognition/methodology/planning/one-person-ceo-paradigm.md) 与 [隐空间推理：Coconut 框架](../cognition/frameworks/latent-space-reasoning.md)

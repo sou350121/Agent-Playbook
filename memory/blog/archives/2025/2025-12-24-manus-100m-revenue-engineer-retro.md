@@ -16,4 +16,4 @@ tags: [career, engineering, manus, growth, mindset, startup]
 
 <!-- truncate -->
 
-> 深度分析：[Manus 范式：如何成为一个“达成效果”的工程师](../use-cases/case-studies/manus-growth-engineering-mindset.mdx)
+> 深度分析：[Manus 范式：如何成为一个“达成效果”的工程师](../use-cases/case-studies/manus-growth-engineering-mindset.md)

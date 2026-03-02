@@ -59,7 +59,7 @@
 - `sessions/`：过程记录与失败路径
 
 参考：
-- `./hybrid-docops-agentops-best-practices.mdx`
+- `./hybrid-docops-agentops-best-practices.md`
 
 ---
 

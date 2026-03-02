@@ -17,4 +17,4 @@ tags: [workflow, integrated-stack, tmux, docker, qoder, 10x-engineering]
 
 <!-- truncate -->
 
-> 详细战术手册见：[10x 开发者集成战术链路手册](../cognition/methodology/planning/10x-tactical-integrated-workflow.mdx)
+> 详细战术手册见：[10x 开发者集成战术链路手册](../cognition/methodology/planning/10x-tactical-integrated-workflow.md)

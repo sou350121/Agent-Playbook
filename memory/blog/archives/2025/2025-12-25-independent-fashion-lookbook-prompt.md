@@ -18,4 +18,4 @@ tags: [fashion, lookbook, prompt-engineering, minimalism, aesthetic, design]
 
 <!-- truncate -->
 
-> 完整模板见：[独立女装品牌 Lookbook 提示词模板](../action/prompts/independent-fashion-lookbook-template.mdx)
+> 完整模板见：[独立女装品牌 Lookbook 提示词模板](../action/prompts/independent-fashion-lookbook-template.md)

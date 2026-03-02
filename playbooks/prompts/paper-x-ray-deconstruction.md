@@ -79,6 +79,6 @@
 ---
 
 ## 4. 延伸阅读
-- [Agent 架构治理：逻辑契约](../architecture/00-glossary-for-beginners.mdx)
-- [Prompt 工程哲学](./prompt-engineering-philosophy.mdx)
+- [Agent 架构治理：逻辑契约](../architecture/00-glossary-for-beginners.md)
+- [Prompt 工程哲学](./prompt-engineering-philosophy.md)
 

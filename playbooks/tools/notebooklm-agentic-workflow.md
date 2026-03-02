@@ -44,5 +44,5 @@ graph LR
 ---
 
 **关联阅读：**
-- [Claude Skill 进阶指南：利用 skillsmp 打造全能 Agent](./claude-skills-guide.mdx)
-- [Vibe Coding：意图驱动的终极形态](../methodology/planning/vibe-coding-paradigm.mdx)
+- [Claude Skill 进阶指南：利用 skillsmp 打造全能 Agent](./claude-skills-guide.md)
+- [Vibe Coding：意图驱动的终极形态](../methodology/planning/vibe-coding-paradigm.md)

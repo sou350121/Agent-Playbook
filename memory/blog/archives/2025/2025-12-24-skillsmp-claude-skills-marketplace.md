@@ -17,4 +17,4 @@ tags: [tools, claude-code, skills, marketplace, automation]
 
 <!-- truncate -->
 
-> 详细安装教程与推荐 Skill 见：[Claude Skill 进阶指南](../action/tools/claude-skills-guide.mdx)
+> 详细安装教程与推荐 Skill 见：[Claude Skill 进阶指南](../action/tools/claude-skills-guide.md)

@@ -16,4 +16,4 @@ Tmux (Terminal Multiplexer) 的核心价值在于**“解绑”**：它让会话
 
 <!-- truncate -->
 
-> 快速上手指南：[Tmux 进阶指南：打造不间断的 Agent 工作流](../action/tools/tmux-guide.mdx)
+> 快速上手指南：[Tmux 进阶指南：打造不间断的 Agent 工作流](../action/tools/tmux-guide.md)

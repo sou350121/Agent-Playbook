@@ -77,7 +77,7 @@
 - 平台可能把订阅从“可选会员”升级为“分发与变现资格的入场费”。
 
 建议阅读（可执行清单）：
-- `./x-distribution-and-monetization-playbook.mdx`
+- `./x-distribution-and-monetization-playbook.md`
 
 ---
 

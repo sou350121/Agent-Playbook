@@ -88,6 +88,6 @@ exit 1
 ---
 
 ## 🔗 关联章节
-- **[02 Playbook：从 Spec 到 PR](./02-playbook-spec-to-pr.mdx)**
-- **[04 Playbook：风险治理与回滚](./04-playbook-risk-and-rollback.mdx)**
-- **[架構治理：物理導軌](../../../cognition/architecture/01-physical-rails.mdx)**
+- **[02 Playbook：从 Spec 到 PR](./02-playbook-spec-to-pr.md)**
+- **[04 Playbook：风险治理与回滚](./04-playbook-risk-and-rollback.md)**
+- **[架構治理：物理導軌](../../../cognition/architecture/01-physical-rails.md)**

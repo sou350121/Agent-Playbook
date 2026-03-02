@@ -76,6 +76,6 @@ Role: Essence_Architect
 ---
 
 ## 4. 延伸阅读
-- [论文 X 光机：学术解构](./paper-x-ray-deconstruction.mdx)
-- [Prompt 工程哲学](./prompt-engineering-philosophy.mdx)
+- [论文 X 光机：学术解构](./paper-x-ray-deconstruction.md)
+- [Prompt 工程哲学](./prompt-engineering-philosophy.md)
 

@@ -18,4 +18,4 @@ tags: [tools, workflow, chrome, mac, isolation]
 
 <!-- truncate -->
 
-> 详细配置命令与自动化脚本见：[Mac 多开 Chrome 物理隔离指南](../action/tools/mac-multi-chrome-isolation-guide.mdx)
+> 详细配置命令与自动化脚本见：[Mac 多开 Chrome 物理隔离指南](../action/tools/mac-multi-chrome-isolation-guide.md)

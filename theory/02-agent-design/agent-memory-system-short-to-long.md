@@ -129,7 +129,7 @@
 
 技术上，长期记忆常用 RAG 组件实现；概念上，长期记忆更强调“个性化 + 可演化 + 可治理”。
 
-本仓库的 RAG 入门（偏知识库角度）：[`rag-agent-memory.mdx`](../methodology/planning/rag-agent-memory.mdx)
+本仓库的 RAG 入门（偏知识库角度）：[`rag-agent-memory.md`](../methodology/planning/rag-agent-memory.md)
 
 ---
 

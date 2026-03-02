@@ -40,5 +40,5 @@
 如果说 Vibe Coding 让编程变得廉价，那么 aGDP 将让“物理劳动力”变得高度可编程。这才是 2025 年最硬核的“地震”。
 
 > **关联阅读：**
-> - [具身 AI 经济学：从执行单元到经济代理](./embodied-ai-economic-agents.mdx)
-> - [Agent 组织架构设计](../methodology/planning/agentic-org-chart-design.mdx)
+> - [具身 AI 经济学：从执行单元到经济代理](./embodied-ai-economic-agents.md)
+> - [Agent 组织架构设计](../methodology/planning/agentic-org-chart-design.md)

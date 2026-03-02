@@ -12,7 +12,7 @@
 - **模式**: [如 Thinking / Reasoning High]
 - **核心上下文**: 
   - [ ] 关联文件1: `path/to/file`
-  - [ ] 关联文档: `planning/xxx.mdx`
+  - [ ] 关联文档: `planning/xxx.md`
 
 ## 3. 迭代策略 (Iteration Strategy)
 - **输入要求**: [需要用户提供哪些额外信息？]

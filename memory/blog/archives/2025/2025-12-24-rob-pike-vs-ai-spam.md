@@ -16,4 +16,4 @@ tags: [ethics, rob-pike, ai-noise, authenticity, hallucinations]
 
 <!-- truncate -->
 
-> 深度分析：[算力民主化后的“垃圾场”危机](../cognition/frameworks/authenticity-vs-generated-noise.mdx)
+> 深度分析：[算力民主化后的“垃圾场”危机](../cognition/frameworks/authenticity-vs-generated-noise.md)

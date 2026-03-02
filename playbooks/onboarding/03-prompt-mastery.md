@@ -17,7 +17,7 @@
     +---------------------------------------+
 ```
 
-以 [仿生设计模板](../prompts/bionic-design-workflow-template.mdx) 为例，你会发现它由四部分组成：
+以 [仿生设计模板](../prompts/bionic-design-workflow-template.md) 为例，你会发现它由四部分组成：
 
 1. **角色定义**：定义 AI 是什么专家（比如：工业设计专家）。
 2. **任务结构**：把大任务拆成几个小块（比如：从自然观察到场景应用）。
@@ -36,7 +36,7 @@
 ### 第一步：复制“核心结构”
 不要试图自己写复杂的 Prompt。直接去 `action/prompts/` 找一个接近的模板。
 比如你想做个电子产品海报，可以参考：
-- [电商 KV 视觉系统](../prompts/ecommerce-kv-meta-prompt-system.mdx)
+- [电商 KV 视觉系统](../prompts/ecommerce-kv-meta-prompt-system.md)
 
 ### 第二步：改写“业务变量”
 保留模板里的“规范（轨道）”，只改掉“主体（内容）”。
@@ -51,18 +51,18 @@
 ## 3. 为什么“负向约束”是你的救命稻草？
 AI 有一种“讨好型人格”，它喜欢把画面塞得很满、颜色弄得很艳。
 作为小白，你想要的高级感通常来自**“克制”**。
-- [独立女装 Lookbook 模板](../prompts/independent-fashion-lookbook-template.mdx) 里的负向约束就是最好的例子：
+- [独立女装 Lookbook 模板](../prompts/independent-fashion-lookbook-template.md) 里的负向约束就是最好的例子：
   > “不要广告风、不要夸张标语、不要 T 台背景...”
 
 **记住：删掉不需要的，比增加需要的更能提升美感。**
 
 ## 4. 最小练习（10 分钟）
-1. 打开 [仿生设计全流程展示提示词模板](../prompts/bionic-design-workflow-template.mdx)。
+1. 打开 [仿生设计全流程展示提示词模板](../prompts/bionic-design-workflow-template.md)。
 2. 将其中的主体【莲蓬】改为【蜻蜓翅膀】。
 3. 把这段提示词发给 AI（Cursor 或 Claude 均可），观察它如何为你编排一个从蜻蜓翅膀到“超轻型飞行器”或“无人机风扇”的设计全流程。
 
 ## 5. 进阶：如何创建自己的模板？
 如果你发现某类需求你经常要用，请参考 `action/templates/` 目录下的：
-- `prompt-card.mdx`
+- `prompt-card.md`
 
 把自己好用的提示词也记录下来，这就是你的“资产”。

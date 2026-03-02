@@ -33,6 +33,6 @@
 ---
 
 **关联阅读：**
-- [一人 CEO 范式：Agent 时代的个体组织力](../methodology/planning/one-person-ceo-paradigm.mdx)
-- [DNA 级交付标准：结论→分析→方案→里程碑→PR](../tools/agent-dna-workflow.mdx)
-- [隐空间推理：Coconut 与连续思维链](./latent-space-reasoning.mdx)
+- [一人 CEO 范式：Agent 时代的个体组织力](../methodology/planning/one-person-ceo-paradigm.md)
+- [DNA 级交付标准：结论→分析→方案→里程碑→PR](../tools/agent-dna-workflow.md)
+- [隐空间推理：Coconut 与连续思维链](./latent-space-reasoning.md)

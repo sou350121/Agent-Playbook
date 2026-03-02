@@ -52,5 +52,5 @@ tags: [LLM, Reasoning, RLVR, GRPO, MCP, Agents, RAG, 2025]
 
 ## 关联阅读（仓库内）
 
-- `docs/capabilities/ai-coding-agent-architecture.mdx`（Agent/RAG/LangChain 与治理）
+- `docs/capabilities/ai-coding-agent-architecture.md`（Agent/RAG/LangChain 与治理）
 - `docs/beginner-guide/02-tool-stack.md`（MCP/Skills 入门）

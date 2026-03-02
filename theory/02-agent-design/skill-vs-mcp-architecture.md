@@ -38,4 +38,4 @@ MCP 的强大在于它的**标准化**。
 
 **关联阅读：**
 - [Claude Skill 市场：skillsmp 发现](../../blog/2025-12-24-skillsmp-claude-skills-marketplace.md)
-- [CC Switch: 同时管理 Skill 与 MCP 的神器](../tools/cc-switch-guide.mdx)
+- [CC Switch: 同时管理 Skill 与 MCP 的神器](../tools/cc-switch-guide.md)

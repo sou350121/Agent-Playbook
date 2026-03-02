@@ -85,5 +85,5 @@ intellifold predict your_input.yaml --out_dir ./results --model v2
 - FoldBench 论文：`https://www.nature.com/articles/s41467-025-67127-3`
 - IntelliFold Server：`https://server.intfold.com/`
 
-> 我把这条信号提炼成“可复用的评估与落地清单”，放到 Docs：`docs/capabilities/intellifold2-open-source-biomolecular-foundation-model.mdx`。
+> 我把这条信号提炼成“可复用的评估与落地清单”，放到 Docs：`docs/capabilities/intellifold2-open-source-biomolecular-foundation-model.md`。
 

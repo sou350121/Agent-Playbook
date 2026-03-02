@@ -37,5 +37,5 @@
 ---
 
 ## 🔗 相關資源
-- [Hybrid DocOps + AgentOps 最佳實踐](./hybrid-docops-agentops-best-practices.mdx)
-- [一次性軟體 (Disposable Software) 範式](../../frameworks/agent-execution-environment-cloud-vs-local.mdx)
+- [Hybrid DocOps + AgentOps 最佳實踐](./hybrid-docops-agentops-best-practices.md)
+- [一次性軟體 (Disposable Software) 範式](../../frameworks/agent-execution-environment-cloud-vs-local.md)

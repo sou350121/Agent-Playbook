@@ -168,8 +168,8 @@
 
 ## 相關文章
 
-- `03-engineering/context-engineering-field-guide.mdx` — 維度 2 的詳細實現
-- `03-engineering/agent-failure-taxonomy.mdx` — 維度 4 回滾設計的失效分類基礎
-- `03-engineering/trust-tier-design.mdx` — 維度 5 審查門控的信任框架
-- `02-agent-design/01-operating-model-and-roles.mdx` — 六角色模型（控制平面的人員映射）
-- `05-strategy/agent-native-org-roles.mdx` — 誰負責控制平面的每個維度
+- `03-engineering/context-engineering-field-guide.md` — 維度 2 的詳細實現
+- `03-engineering/agent-failure-taxonomy.md` — 維度 4 回滾設計的失效分類基礎
+- `03-engineering/trust-tier-design.md` — 維度 5 審查門控的信任框架
+- `02-agent-design/01-operating-model-and-roles.md` — 六角色模型（控制平面的人員映射）
+- `05-strategy/agent-native-org-roles.md` — 誰負責控制平面的每個維度

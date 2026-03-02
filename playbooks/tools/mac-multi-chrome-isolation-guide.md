@@ -53,5 +53,5 @@ chmod +x $HOME/Documents/ChromeProfiles/Profile001.command
 ---
 
 **关联阅读：**
-- [智力套利策略：利用平权智力寻找利基机会](../methodology/planning/intelligence-arbitrage-strategy.mdx)
-- [CC Switch: AI CLI 配置快速切换工具](./cc-switch-guide.mdx)
+- [智力套利策略：利用平权智力寻找利基机会](../methodology/planning/intelligence-arbitrage-strategy.md)
+- [CC Switch: AI CLI 配置快速切换工具](./cc-switch-guide.md)

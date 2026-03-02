@@ -41,5 +41,5 @@
 ---
 
 **关联阅读：**
-- [极简百科信息卡片模板](./minimalist-encyclopedia-card-template.mdx)
+- [极简百科信息卡片模板](./minimalist-encyclopedia-card-template.md)
 - [Boris 范式：AI 原生 UI 的未来](../../blog/2025-12-25-boris-cherny-claude-code-father-retro.md)

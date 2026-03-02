@@ -15,7 +15,7 @@
 - **API 设计 (REST/gRPC/OpenAPI)**
 - **分层与 DDD/模块化**
 - **数据库建模与 Migrations**
-- **AI 时代的意义**：这正是我们 [架构治理专项](../../../cognition/architecture/README.mdx) 强调的“导轨”。你对业务的理解最终通过这些工具转化成给 AI 的“镣铐”。
+- **AI 时代的意义**：这正是我们 [架构治理专项](../../../cognition/architecture/README.md) 强调的“导轨”。你对业务的理解最终通过这些工具转化成给 AI 的“镣铐”。
 
 ### 1.3 肌肉层 (The Power)
 - **缓存 (Redis)**、**消息队列 (Kafka)**、**并发异步**
@@ -30,10 +30,10 @@
 
 ## 2. 范式转移：如何利用这份清单？
 
-在 [Vibe Coding](./vibe-coding-paradigm.mdx) 范式下，你不再需要手写所有的 ORM 或消息队列模板。
+在 [Vibe Coding](./vibe-coding-paradigm.md) 范式下，你不再需要手写所有的 ORM 或消息队列模板。
 1.  **定义轨道**：将清单中的特定技术点（如：使用 JWT 鉴权）写入你的 `AGENT.md`。
 2.  **验证契约**：利用 OpenAPI 或测试用例（清单中的测试项）来约束 AI 的产出。
-3.  **决策 ADR**：当涉及分布式选型（如 CAP 的权衡）时，将其记录在 [ADR](../../../cognition/architecture/05-adr-mind-palace.mdx) 中，作为 Agent 的长效记忆。
+3.  **决策 ADR**：当涉及分布式选型（如 CAP 的权衡）时，将其记录在 [ADR](../../../cognition/architecture/05-adr-mind-palace.md) 中，作为 Agent 的长效记忆。
 
 ---
 
@@ -43,5 +43,5 @@
 如果你学会了清单里的**“权衡（Trade-offs）”**，你就是 AI 时代不可替代的 **10x 架构师**。
 
 > **关联文档：**
-> - [架构治理专项](../../../cognition/architecture/README.mdx)
-> - [AI 编码的三大理解心法](./the-three-understandings-of-ai-coding.mdx)
+> - [架构治理专项](../../../cognition/architecture/README.md)
+> - [AI 编码的三大理解心法](./the-three-understandings-of-ai-coding.md)

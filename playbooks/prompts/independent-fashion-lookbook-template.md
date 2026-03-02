@@ -39,10 +39,10 @@
 
 1. **面料描述注入**：在描述服装时，务必包含具体的面料（如：`Mohair`, `Cashmere`, `Raw Silk`），这能直接提升画面的“金钱感”。
 2. **比例协调检查**：如果生成的人物比例失调，可以加入 `Perfect human proportions`, `Rule of thirds` 等辅助词。
-3. **结合 [电商 KV 系统](./ecommerce-kv-meta-prompt-system.mdx)**：可以将此型录海报作为整套电商视觉系统的“品牌故事”或“搭配手册”部分。
+3. **结合 [电商 KV 系统](./ecommerce-kv-meta-prompt-system.md)**：可以将此型录海报作为整套电商视觉系统的“品牌故事”或“搭配手册”部分。
 
 ---
 
 **关联阅读：**
-- [极简百科信息卡片模板](./minimalist-encyclopedia-card-template.mdx)
-- [电商 KV 视觉系统元提示词](./ecommerce-kv-meta-prompt-system.mdx)
+- [极简百科信息卡片模板](./minimalist-encyclopedia-card-template.md)
+- [电商 KV 视觉系统元提示词](./ecommerce-kv-meta-prompt-system.md)

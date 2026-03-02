@@ -16,4 +16,4 @@ Rick & Morty 的「故事推進器」理念在 AI 時代有了低成本實現的
 - **啟發**：從 **HCI (Human-Computer Interaction)** 到 **ACI (Agent-Computer/Agent-Agent Interaction)** 的轉向。
 
 ---
-詳細分析見庫中文檔：[不再為人設計：新文明的軟體範式](../cognition/methodology/planning/not-designing-for-humans-paradigm.mdx)
+詳細分析見庫中文檔：[不再為人設計：新文明的軟體範式](../cognition/methodology/planning/not-designing-for-humans-paradigm.md)

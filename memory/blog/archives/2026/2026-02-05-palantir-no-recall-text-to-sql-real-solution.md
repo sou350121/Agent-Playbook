@@ -143,5 +143,5 @@ AI 问数的未来，不是“模型更会背数据”，而是：
 - Palantir Foundry：Ontology-augmented generation：`https://www.palantir.com/docs/foundry/ontology/ontology-augmented-generation`
 - Palantir Foundry：Explore data lineage：`https://palantir.com/docs/foundry/data-lineage/explore-lineage/`
 
-> 我把这篇的“可复制架构”和“落地清单”抽成了 Docs：`docs/tools/text-to-sql-reliable-architecture.mdx`。
+> 我把这篇的“可复制架构”和“落地清单”抽成了 Docs：`docs/tools/text-to-sql-reliable-architecture.md`。
 

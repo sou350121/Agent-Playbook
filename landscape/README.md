@@ -12,7 +12,7 @@ Pulsar 自动化系统每日扫描、分类、评级 AI 应用生态中的工具
 |------|------|----------|
 | `app-index.md` | 125+ AI 工具注册表 | Pulsar 自动追加，禁止删改现有条目 |
 | `technology-landscape.md` | Q1 2026 技术生态导览（5 层架构图） | 手动季度更新 |
-| `influencers.mdx` | 中文 AI 圈关键人物目录 | 手动维护 |
+| `influencers.md` | 中文 AI 圈关键人物目录 | 手动维护 |
 
 ### app-index.md
 
@@ -30,7 +30,7 @@ Pulsar 自动化系统每日扫描、分类、评级 AI 应用生态中的工具
 
 每层标注代表性工具与 2026 Q1 的移动方向。
 
-### influencers.mdx
+### influencers.md
 
 追踪对中文 AI 圈有实质影响力的人物：研究方向、核心观点、近期信号。
 配合 Pulsar 社交情报模块使用效果最佳。
@@ -51,4 +51,4 @@ Pulsar 自动化系统每日扫描、分类、评级 AI 应用生态中的工具
 
 - **找工具**：搜索 `app-index.md`，按类别或标签过滤。
 - **看趋势**：读 `technology-landscape.md`，每季度更新一次。
-- **追人物**：查 `influencers.mdx`，结合社交情报档案使用。
+- **追人物**：查 `influencers.md`，结合社交情报档案使用。

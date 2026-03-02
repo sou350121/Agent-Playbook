@@ -116,4 +116,4 @@
 
 - INFORMS（Free access）：[`https://pubsonline.informs.org/doi/10.1287/inte.2024.0179`](https://pubsonline.informs.org/doi/10.1287/inte.2024.0179)
 
-> 我把这套“SCND 大规模 MIP 怎么落地”的可复用 checklist 与模型缩减套路，沉淀到 Docs：`docs/case-studies/mcdonalds-china-scnd-mip.mdx`。
+> 我把这套“SCND 大规模 MIP 怎么落地”的可复用 checklist 与模型缩减套路，沉淀到 Docs：`docs/case-studies/mcdonalds-china-scnd-mip.md`。
