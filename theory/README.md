@@ -1,66 +1,113 @@
-# 知识骨架
+# 知識骨架 (Theory)
 
-> 理解"为什么"——在动手之前建立认知骨架。
-
-工具会过时，框架会迭代，但底层的设计逻辑和认知模型是持久的。本目录不是操作手册，而是帮你建立判断力的基础文献库。
-
----
-
-## 目录结构
-
-### `architecture/` — 系统设计模式
-
-8 篇文档，覆盖从术语定义到架构决策记录（ADR）的完整链路：
-
-- 从零建立 AI Agent 系统的概念地图
-- 常见架构陷阱与权衡分析
-- 关键设计决策的 ADR 存档
-
-关键文档：`ai_app_handbook_design.md`（完整 Holograph 设计蓝图）
-
-### `frameworks/` — 概念深潜
-
-47 个概念的深度解析，分为四个认知域：
-
-| 域 | 内容 |
-|----|------|
-| 记忆 | 上下文管理、长期记忆、向量存储策略 |
-| 推理 | CoT、ReAct、规划与反思机制 |
-| 执行 | 工具调用、多 Agent 协作、错误恢复 |
-| 范式转变 | Intent-Driven Development、Software 3.0、Vibe Coding |
-
-关键文档：`anthropic-agentic-coding-trends-2026.mdx`（2026 年 Agent 编码全景）
-
-### `methodology/` — 执行方法论
-
-37 篇，分两个方向：
-
-- **agent-management/**：提示词工程、评估体系、成本控制（7 篇）
-- **planning/**：路线图制定、假设追踪、能力演进路径（30 篇）
+> 工具會過時，框架會迭代，但底層的設計邏輯和認知模型是持久的。
+> 本目錄不是操作手册，而是幫你建立**工程判斷力**的基礎文獻庫。
 
 ---
 
-## 推荐阅读顺序
-
-**新手入口（建立基础认知）**：
+## 六個認知模塊
 
 ```
-architecture/00-glossary-for-beginners.mdx   # 先建立术语共识
-    ↓
-architecture/ 其余 7 篇                       # 系统化设计认知
-    ↓
-frameworks/ 按需深潜                          # 按当前问题选读
-    ↓
-methodology/ 结合实践使用                     # 有具体项目后再读
+01-principles/      底層原理     — 機器是如何「想」的
+02-agent-design/    Agent 設計   — 如何設計穩定自主運行的 Agent
+03-engineering/     工程實戰 ★  — Agentic 系統的生產交付全鏈路
+04-paradigm/        範式轉變     — 識別正在發生的不可逆轉變
+05-strategy/        戰略生存     — 工程師如何在 AI 時代定位與變現
+06-frontier/        前沿研究     — 與工程最近的前沿突破
+deep-dive/          深潛週報     — Pulsar 每週自動生成的工程分析
 ```
+
+★ `03-engineering/` 是本目錄的**工程核心**，建議所有人重點閱讀。
 
 ---
 
-## 写作规范
+## 三條閱讀路徑
 
-新增 theory/ 文档须遵循 [AGENTS.md](../AGENTS.md) §6 规范：
+### 路徑 A — 新手入門（建立基礎認知）
 
-- 双语标题：`# 中文标题 (English Title)`
-- 必须包含 **X-Ray 开场**（2-3 句，回答：什么问题 / 什么发现 / 为何重要）
-- 引用需链接原始来源（论文 / 官方文档优先）
-- 推荐包含：系统对比表、工程实战示例、失效模式分析
+```
+01-principles/README → 01-principles/latent-space-reasoning
+    ↓
+01-principles/lofa-vs-rag-comparison
+    ↓
+02-agent-design/agent-mental-model
+    ↓
+03-engineering/00-glossary-for-beginners
+    ↓
+03-engineering/01-physical-rails ～ 05-adr-mind-palace（護欄系列）
+```
+
+目標：建立正確的 Agent 系統直覺，避免最常見的設計錯誤。
+
+---
+
+### 路徑 B — 工程師（Agentic 系統落地）
+
+```
+03-engineering/prd-for-engineers-and-agents
+    ↓
+03-engineering/02-playbook-spec-to-pr
+    ↓
+03-engineering/05-ralph-loop-iteration-paradigm
+    ↓
+03-engineering/06-agent-evals-playbook
+    ↓
+02-agent-design/agentic-orchestration-meta-system
+    ↓
+02-agent-design/03-playbook-multi-agent-squad
+```
+
+目標：能夠設計、交付並持續迭代一個生產級 Agentic 系統。
+
+---
+
+### 路徑 C — 研究者 / 決策者（判斷方向）
+
+```
+04-paradigm/anthropic-agentic-coding-trends-2026
+    ↓
+04-paradigm/vibe-coding-paradigm
+    ↓
+01-principles/post-scaling-research-age-playbook
+    ↓
+06-frontier/1x-world-model-paradigm
+    ↓
+05-strategy/intelligence-arbitrage-strategy
+```
+
+目標：判斷下一個技術轉折點在哪裡，提前佈局。
+
+---
+
+## Agentic Engineering — 本庫的核心主題
+
+Agent-Playbook 的理論核心是 **Agentic Engineering**：
+讓 AI Agent 在真實生產環境中**可靠、可測、可迭代**地自主工作。
+
+這不是「讓 AI 更聰明」，而是「設計讓 AI 安全工作的系統」。
+
+關鍵工程命題：
+- **護欄優先** — 沒有護欄的自主性是風險，不是能力（→ 03-engineering/護欄系列）
+- **評估驅動** — 沒有評估體系的 Agent 是盲飛（→ 03-engineering/06-agent-evals-playbook）
+- **Ralph Loop** — 持續迭代的元框架（→ 03-engineering/05-ralph-loop-iteration-paradigm）
+- **記憶分層** — 上下文管理是 Agent 可靠性的關鍵（→ 02-agent-design/）
+
+---
+
+## 寫作規範（新增文章）
+
+新增 theory/ 文檔須遵循 [AGENTS.md](../AGENTS.md) §6 規範：
+
+- 雙語標題：`# 中文標題 (English Title)`
+- 必須包含 **X-Ray 開場**（2-3 句，回答：什麼問題 / 什麼發現 / 為何重要）
+- 引用需鏈接原始來源（論文 / 官方文檔優先）
+- 推薦包含：系統對比表、工程實戰示例、失效模式分析
+
+---
+
+## deep-dive/ 的位置
+
+`deep-dive/` 與 `01-06` 模塊並列，不屬於任何一個分類。
+它是 Pulsar 每週（周二/四/六）從當週 ⚡/🔧 信號中自動生成的工程分析，時效性最強。
+
+**推薦組合閱讀**：先讀 `01-06` 建立骨架，再用 `deep-dive/` 追蹤最新工程實踐。
