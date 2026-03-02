@@ -28,9 +28,12 @@ Agent-Playbook 记录 AI 工具与 Agent 领域的工程级洞察：哪些值得
 | 目录 | 聚焦 | 更新频率 |
 |------|------|---------|
 | `landscape/` | AI 生态图谱：工具索引、技术全景、关键人物 | 月度 |
-| `theory/architecture/` | 系统设计模式，8 个核心架构主题 | 按需 |
-| `theory/frameworks/` | 47 个概念深潜：范式、原则、权衡 | 按需 |
-| `theory/methodology/` | Agent 管理与规划方法论，37 篇 | 按需 |
+| `theory/01-principles/` | 底层原理：Transformer、RLVR、Scaling Law 等（10 篇） | 按需 |
+| `theory/02-agent-design/` | Agent 设计：架构、记忆、工具、UI/API 设计（16 篇） | 按需 |
+| `theory/03-engineering/` | Agentic 工程实战：护欄 / Context 工程 / 评估迭代（28 篇）★ | 按需 |
+| `theory/04-paradigm/` | 范式转变：Vibe Coding、Software 3.0、Intent-Driven（11 篇） | 按需 |
+| `theory/05-strategy/` | 战略生存：工程师定位、变现、组织角色（13 篇） | 按需 |
+| `theory/06-frontier/` | 前沿研究：具身智能、世界模型、生物分子（7 篇） | 按需 |
 | `playbooks/onboarding/` | 8 阶段学习路径（思维 → 商业化） | 稳定 |
 | `playbooks/tools/` | 30+ 工具集成指南 | 工具发布后 |
 | `playbooks/prompts/` | 12 个生产级 Prompt 模板 | 按需 |
@@ -38,7 +41,6 @@ Agent-Playbook 记录 AI 工具与 Agent 领域的工程级洞察：哪些值得
 | `playbooks/security/` | IDE 自动执行风险、权限边界 | 按需 |
 | `scaffolds/` | 生产就绪项目模板（阿里云、DocOps） | 按需 |
 | `reports/` | 双周情报报告 + 预测验证 | 每两周 |
-| `monitoring/` | Pulsar 流水线脚本索引与监控配置 | 运维更新 |
 | `memory/blog/archives/` | 日报精选、社交情报归档 | 每日（自动） |
 
 ---
