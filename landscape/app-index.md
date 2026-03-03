@@ -155,6 +155,11 @@
 | OpenAI 已讨论以约 7500 亿美元的估值筹集数百亿美元资金 | OpenAI | 2026-03-03 | openai, funding, valuation | http://www.geekpark.net/news/358151 |  | ⚡ daily 2026-03-03 — OpenAI 新一轮融资估值达 7500 亿美元，较上轮高出 50% |
 | CtrlAI | CtrlAI | 2026-03-03 | agent, guardrail, security | https://www.producthunt.com/products/ctrlai |  | 🔧 daily 2026-03-03 |
 | Aura | Aura | 2026-03-03 | coding-agent, version-control, git | https://www.producthunt.com/products/aura-28 |  | 🔧 daily 2026-03-03 |
+| GPT‑5.3 Instant | OpenAI | 2026-03-04 | gpt-5.3, instant, model-release | https://openai.com/index/gpt-5-3-instant/ |  | 📖 daily 2026-03-04 |
+| Gemini 3.1 Flash-LITE | Google | 2026-03-04 | gemini, flash-lite, lightweight | https://readhub.cn/topic/8rCj9hV3M60 |  | 📖 daily 2026-03-04 |
+| Qwen3.5 Small | Alibaba | 2026-03-04 | qwen, open-source, multimodal | https://www.producthunt.com/products/qwen3 |  | 📖 daily 2026-03-04 |
+| Cekura – AI Agent 测试与监控平台 | Cekura | 2026-03-04 | agent-testing, monitoring, yc | https://www.cekura.ai |  | 📖 daily 2026-03-04 |
+| AI Agent Skills Refiner | Unknown | 2026-03-04 | agent, skills, benchmark | https://www.producthunt.com/products/ai-agent-skills-refiner |  | 📖 daily 2026-03-04 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
