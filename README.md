@@ -4,6 +4,8 @@
 [![VLA-Handbook](https://img.shields.io/badge/VLA_Handbook-配套-0EA5E9.svg?logo=github&logoColor=white)](https://github.com/sou350121/VLA-Handbook)
 ![Auto-updated](https://img.shields.io/badge/内容-每日自动更新-blue)
 
+📊 实时情报 → **[PULSAR 照见](https://sou350121.github.io/pulsar-web/)** — `sou350121.github.io/pulsar-web`
+
 **AI App 工程监控手册** — Pulsar 系统的 AI 工具与 Agent 情报臂，每日自动过滤 50+ 发布，提炼工程关键信号，持续追踪生产级架构模式与预测验证记录。
 
 ---
