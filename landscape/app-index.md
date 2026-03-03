@@ -146,6 +146,13 @@
 | 英特尔，下一个 AI 时代的「卖铲人」 | 英特尔 | 2026-03-02 | rag, agent | http://www.geekpark.net/news/358085 |  | 📖 daily 2026-03-02 — 个人 AI 记忆基础设施的新方向 |
 | CtrlAI | — | 2026-03-03 | agent, guardrail, security | https://www.producthunt.com/products/ctrlai |  | 🔧 daily 2026-03-03 |
 | Aura | — | 2026-03-03 | agent, coding, version-control | https://www.producthunt.com/products/aura-28 |  | 🔧 daily 2026-03-03 |
+| Anthropic Cowork feature creates 10GB VM bundle on macOS without warning | Anthropic | 2026-03-03 | claude-code, macos, bug | https://github.com/anthropics/claude-code/issues/22543 |  | ⚡ daily 2026-03-03 — HN 344 分热议：Cowork 功能在 macOS 上静默创建 10GB VM，引发资源占用争议 |
+| Govbase – Follow a bill from source text to news bias to social posts | — | 2026-03-03 | rag, policy-tracking, ai-pipeline | https://govbase.com | [RAG] | 🔧 daily 2026-03-03 — AI 管道追踪法案从原文到新闻偏见的全链路，RAG 在政策分析领域的落地 |
+| Higress-RAG: A Holistic Optimization Framework for Enterprise RAG | — | 2026-03-03 | rag, enterprise, hybrid-retrieval | https://arxiv.org/abs/2602.23374 | [RAG] | 🔧 daily 2026-03-03 — 企业级 RAG 全链路优化框架，双混合检索 + 自适应路由（arXiv） |
+| Democratizing GraphRAG: Linear, CPU-Only Graph Retrieval for Multi-Hop QA | — | 2026-03-03 | graphrag, cpu-only, multi-hop | https://arxiv.org/abs/2602.23372 | [RAG] | 🔧 daily 2026-03-03 — 线性复杂度、仅 CPU 的 GraphRAG 方案，降低多跳问答门槛（arXiv） |
+| 特朗普禁令下 Claude 登顶 App Store | Anthropic | 2026-03-03 | anthropic, market-reaction, policy | https://www.36kr.com/p/3705066721276290 |  | ⚡ daily 2026-03-03 — 特朗普禁令反而推动 Claude 下载量激增，市场反应与政策意图背离 |
+| 群核科技，摸着李飞飞过河 | 群核科技 | 2026-03-03 | spatial-intelligence, china-followup | http://www.geekpark.net/news/358069 |  | 📖 daily 2026-03-03 — 中国公司跟进李飞飞空间智能方向，3D 理解或成下一轮竞争焦点（续报） |
+| OpenAI 已讨论以约 7500 亿美元的估值筹集数百亿美元资金 | OpenAI | 2026-03-03 | openai, funding, valuation | http://www.geekpark.net/news/358151 |  | ⚡ daily 2026-03-03 — OpenAI 新一轮融资估值达 7500 亿美元，较上轮高出 50% |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
