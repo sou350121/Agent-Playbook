@@ -1,16 +1,10 @@
 # Agent-Playbook
 
-<p align="center"><em>AI App 工程监控手册 — Pulsar 系统的 AI 工具与 Agent 情报臂</em><br/>每日自动过滤 50+ 发布 · 提炼工程关键信号 · 追踪生产级架构模式与预测验证记录</p>
+[![PULSAR 照见](https://img.shields.io/badge/PULSAR_照见-实时情报-FF6B35.svg)](https://sou350121.github.io/pulsar-web/)
+[![VLA-Handbook](https://img.shields.io/badge/VLA_Handbook-配套-0EA5E9.svg?logo=github&logoColor=white)](https://github.com/sou350121/VLA-Handbook)
+![Auto-updated](https://img.shields.io/badge/内容-每日自动更新-blue)
 
-<p align="center">
-  <a href="https://sou350121.github.io/pulsar-web/"><img src="https://img.shields.io/badge/PULSAR_%E7%85%A7%E8%A6%8B-%E5%8D%B3%E6%99%82_LLM_%E6%83%85%E5%A0%B1%E5%B9%B3%E5%8F%B0-FF6B35?style=for-the-badge" alt="PULSAR 照見 — 即時 LLM 情報平台"/></a><br/>
-  <sub>注意力比訊息更稀缺 &nbsp;·&nbsp; LLM 每日訊號評級：⚡ 突破 &nbsp;·&nbsp; 🔧 技術 &nbsp;·&nbsp; 📖 觀點 &nbsp;·&nbsp; VLA 機器人前沿 × AI 應用趨勢雙域覆蓋</sub>
-</p>
-<p align="center">
-  <a href="https://github.com/sou350121/VLA-Handbook"><img src="https://img.shields.io/badge/VLA_Handbook-Companion_Handbook-0EA5E9?style=for-the-badge&logo=github&logoColor=white" alt="VLA-Handbook"/></a>
-  &nbsp;&nbsp;
-  <img src="https://img.shields.io/badge/内容-每日自动更新-blue?style=flat-square"/>
-</p>
+**AI App 工程监控手册** — Pulsar 系统的 AI 工具与 Agent 情报臂，每日自动过滤 50+ 发布，提炼工程关键信号，持续追踪生产级架构模式与预测验证记录。
 
 ---
 
