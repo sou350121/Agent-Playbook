@@ -160,6 +160,13 @@
 | Qwen3.5 Small | Alibaba | 2026-03-04 | qwen, open-source, multimodal | https://www.producthunt.com/products/qwen3 |  | 📖 daily 2026-03-04 |
 | Cekura – AI Agent 测试与监控平台 | Cekura | 2026-03-04 | agent-testing, monitoring, yc | https://www.cekura.ai |  | 📖 daily 2026-03-04 |
 | AI Agent Skills Refiner | Unknown | 2026-03-04 | agent, skills, benchmark | https://www.producthunt.com/products/ai-agent-skills-refiner |  | 📖 daily 2026-03-04 |
+| LangChain Skills + LangSmith CLI: AI 编程助手生态工具包 | LangChain | 2026-03-05 | agent, coding-agent, tracing | https://blog.langchain.com/langchain-skills/ |  | ⚡ daily 2026-03-05 |
+| Simon Willison: Agentic Engineering 反模式指南 | Simon Willison | 2026-03-05 | agentic, engineering, best-practices | https://simonwillison.net/guides/agentic-engineering-patterns/anti-patterns/ |  | 🔧 daily 2026-03-05 |
+| AWS: 企业应用嵌入 Quick Suite Chat Agents SDK | AWS | 2026-03-05 | agent, sdk, enterprise, deployment | https://aws.amazon.com/blogs/machine-learning/embed-amazon-quick-suite-chat-agents-in-enterprise-applications/ |  | 🔧 daily 2026-03-05 |
+| Google Research: 教 LLM 像贝叶斯主义者一样推理 | Google Research | 2026-03-05 | llm, reasoning, bayesian | https://research.google/blog/teaching-llms-to-reason-like-bayesians/ |  | 📖 daily 2026-03-05 |
+| OpenAI Case Study: Axios 用 AI 规模化本地新闻工作流 | OpenAI / Axios | 2026-03-05 | workflow, journalism, case-study | https://openai.com/index/axios-allison-murphy |  | 📖 daily 2026-03-05 |
+| AWS Case Study: Lendi 12 周用 Bedrock 构建 Agentic AI 房贷系统 | AWS / Lendi | 2026-03-05 | agentic, fintech, bedrock | https://aws.amazon.com/blogs/machine-learning/how-lendi-revamped-the-refinance-journey-for-its-customers-using-agentic-ai-in-12-weeks-using-amazon-bedrock/ |  | 🔧 daily 2026-03-05 |
+| Fix in Cursor: GitHub PR 评论一键转 Cursor 提示 | Independent | 2026-03-05 | cursor, github, developer-tool | https://www.producthunt.com/products/fix-in-cursor |  | 🔧 daily 2026-03-05 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
