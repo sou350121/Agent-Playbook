@@ -169,6 +169,9 @@
 | Fix in Cursor: GitHub PR 评论一键转 Cursor 提示 | Independent | 2026-03-05 | cursor, github, developer-tool | https://www.producthunt.com/products/fix-in-cursor |  | 🔧 daily 2026-03-05 |
 | PageAgent | Alibaba | 2026-03-06 | agent-ui, gui-agent, open-source | https://alibaba.github.io/page-agent/ |  | 📖 daily 2026-03-06 |
 | Jido 2.0 | Jido | 2026-03-06 | agent, elixir, multi-agent, mcp | https://jido.run/blog/jido-2-0-is-here |  | 📖 daily 2026-03-06 |
+| Codex Security | OpenAI | 2026-03-07 | agent, security, vulnerability-detection | https://openai.com/index/codex-security-now-in-research-preview |  | ⚡ daily 2026-03-07 |
+| OBLITERATUS | elder-plinius | 2026-03-07 | llm, uncensor, open-weight | https://github.com/elder-plinius/OBLITERATUS |  | 🔧 daily 2026-03-07 |
+| NVIDIA NeMo Evaluator Agent Skills | NVIDIA | 2026-03-07 | evaluation, agent-skill, nemo | https://huggingface.co/blog/nvidia/model-evaluation-skill |  | 🔧 daily 2026-03-07 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
