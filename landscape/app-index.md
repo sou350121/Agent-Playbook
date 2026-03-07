@@ -172,6 +172,13 @@
 | Codex Security | OpenAI | 2026-03-07 | agent, security, vulnerability-detection | https://openai.com/index/codex-security-now-in-research-preview |  | ⚡ daily 2026-03-07 |
 | OBLITERATUS | elder-plinius | 2026-03-07 | llm, uncensor, open-weight | https://github.com/elder-plinius/OBLITERATUS |  | 🔧 daily 2026-03-07 |
 | NVIDIA NeMo Evaluator Agent Skills | NVIDIA | 2026-03-07 | evaluation, agent-skill, nemo | https://huggingface.co/blog/nvidia/model-evaluation-skill |  | 🔧 daily 2026-03-07 |
+| OpenAI GPT-5.4 正式发布：迄今最强大且高效的前沿模型 | OpenAI | 2026-03-08 | model-release, gpt-5.4 | https://openai.com/index/introducing-gpt-5-4 |  | ⚡ daily 2026-03-08 — OpenAI 最新旗舰模型，事实性更强、效率更高，支持更长上下文保留 |
+| Anthropic 研究报告：先拥抱 AI 的行业或许会先被 AI 吃掉 | Anthropic | 2026-03-08 | research, workforce | https://readhub.cn/topic/8rICRmXZdJN |  | 📖 daily 2026-03-08 — 揭示 AI 颠覆职场规律：越早深度拥抱 AI 的行业，越先面临被重构风险 |
+| Verification debt: AI 生成代码的隐藏成本 | — | 2026-03-08 | agentic-coding, verification | https://fazy.medium.com/agentic-coding-ais-adolescence-b0d13452f981 |  | 🔧 daily 2026-03-08 — 深入分析 AI 生成代码带来的验证债务问题，提醒开发者注意审查成本 |
+| Codex for Open Source：OpenAI 向开源维护者提供 6 个月免费 Claude Max | OpenAI | 2026-03-08 | open-source, codex | https://simonwillison.net/2026/Mar/7/codex-for-open-source/ |  | 🔧 daily 2026-03-08 — OpenAI 跟进 Anthropic，向 5000+ 星或 1M+ NPM 下载的开源项目提供 6 个月免费额度 |
+| 🎯 再见 Openclaw，桌面端 Agent 起飞了！ | — | 2026-03-08 | agent-ui, desktop | https://juejin.cn/post/7613680097548795919 | 🎯 agent-ui | 🔧 daily 2026-03-08 — 国内开发者对桌面端 Agent 工具的深度体验与优化建议 |
+| 21st Agents SDK：为应用添加 Claude Code AI 代理 | 21st | 2026-03-08 | sdk, agent | https://www.producthunt.com/products/21st-dev-the-npm-for-design-engineers |  | 🔧 daily 2026-03-08 — 让开发者轻松为应用集成 Claude Code AI 代理能力的 SDK 工具 |
+| How Balyasny Asset Management 构建 AI 研究引擎 | OpenAI | 2026-03-08 | finance, agent-workflow | https://openai.com/index/balyasny-asset-management |  | 🔧 daily 2026-03-08 — 用 GPT-5.4 + 严格模型评估 + agent 工作流规模化投资分析的实战案例 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
