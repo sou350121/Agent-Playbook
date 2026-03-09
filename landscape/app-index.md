@@ -179,6 +179,8 @@
 | 🎯 再见 Openclaw，桌面端 Agent 起飞了！ | — | 2026-03-08 | agent-ui, desktop | https://juejin.cn/post/7613680097548795919 | 🎯 agent-ui | 🔧 daily 2026-03-08 — 国内开发者对桌面端 Agent 工具的深度体验与优化建议 |
 | 21st Agents SDK：为应用添加 Claude Code AI 代理 | 21st | 2026-03-08 | sdk, agent | https://www.producthunt.com/products/21st-dev-the-npm-for-design-engineers |  | 🔧 daily 2026-03-08 — 让开发者轻松为应用集成 Claude Code AI 代理能力的 SDK 工具 |
 | How Balyasny Asset Management 构建 AI 研究引擎 | OpenAI | 2026-03-08 | finance, agent-workflow | https://openai.com/index/balyasny-asset-management |  | 🔧 daily 2026-03-08 — 用 GPT-5.4 + 严格模型评估 + agent 工作流规模化投资分析的实战案例 |
+| Agent Safehouse – macOS-native sandboxing for local agents | eugene1g | 2026-03-09 | agent-security, sandbox, macos | https://agent-safehouse.dev/ |  | ⚡ daily 2026-03-09 — 解决本地 Agent 权限过大的核心安全问题，deny-first 模型防止 rm -rf ~ 类事故 |
+| Mac mini ANE 被破解：Claude 协助实现 NPU 训练 | Manjeet Singh | 2026-03-09 | local-training, NPU, apple-silicon | https://github.com/maderix/ANE |  | ⚡ daily 2026-03-09 — 绕过 CoreML 直接操控 ANE 实现训练，能效比 H100 高 50 倍，开启设备端训练可能 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
