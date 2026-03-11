@@ -186,6 +186,16 @@
 | LeRobot v0.5.0 | — | 2026-03-10 | robotics, rl | https://huggingface.co/blog/lerobot-release-v050 |  | 📖 daily 2026-03-10 |
 | LangChain GTM Agent | — | 2026-03-10 | agent, sales | https://blog.langchain.com/how-we-built-langchains-gtm-agent/ |  | 📖 daily 2026-03-10 |
 | MetaNovas Agentic AI 新药研发 | — | 2026-03-10 | agentic, biotech | https://readhub.cn/topic/8rLX2xnukva |  | 📖 daily 2026-03-10 |
+| Agents that run while I sleep | — | 2026-03-11 | agent, automation | https://www.claudecodecamp.com/p/i-m-building-agents-that-run-while-i-sleep |  | 🔧 daily 2026-03-11 |
+| AI should help us produce better code | Simon Willison | 2026-03-11 | agentic-engineering | https://simonwillison.net/guides/agentic-engineering-patterns/better-code/ |  | ⚡ daily 2026-03-11 |
+| How Coding Agents Are Reshaping EPD | LangChain | 2026-03-11 | coding-agent, workflow | https://blog.langchain.com/how-coding-agents-are-reshaping-engineering-product-and-design/ |  | ⚡ daily 2026-03-11 |
+| RunAnywhere (YC W26) | RunanywhereAI | 2026-03-11 | inference, apple-silicon | https://github.com/RunanywhereAI/rcli |  | 🔧 daily 2026-03-11 |
+| Storage Buckets on HF Hub | Hugging Face | 2026-03-11 | storage, rag | https://huggingface.co/blog/storage-buckets |  | 🔧 daily 2026-03-11 |
+| Together GPU Clusters Update | Together AI | 2026-03-11 | observability, gpu | https://www.together.ai/blog/new-in-together-gpu-clusters-autoscaling-observability-self-healing |  | 🔧 daily 2026-03-11 |
+| Meta acquires Moltbook | Meta | 2026-03-11 | acquisition, agent | https://www.axios.com/2026/03/10/meta-facebook-moltbook-agent-social-network |  | ⚡ daily 2026-03-11 |
+| Instruction Hierarchy Challenge | OpenAI | 2026-03-11 | safety, alignment | https://openai.com/index/instruction-hierarchy-challenge |  | 🔧 daily 2026-03-11 |
+| 微软支持 Anthropic 诉讼 | 微软/Anthropic | 2026-03-11 | policy, legal | https://readhub.cn/topic/8rOfIZexOGA |  | ⚡ daily 2026-03-11 |
+| 腾讯 CodeBuddy MCP | 腾讯 | 2026-03-11 | mcp, china | https://readhub.cn/topic/8rNGGMYYjhR |  | 🔧 daily 2026-03-11 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
