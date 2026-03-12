@@ -196,6 +196,16 @@
 | Instruction Hierarchy Challenge | OpenAI | 2026-03-11 | safety, alignment | https://openai.com/index/instruction-hierarchy-challenge |  | 🔧 daily 2026-03-11 |
 | 微软支持 Anthropic 诉讼 | 微软/Anthropic | 2026-03-11 | policy, legal | https://readhub.cn/topic/8rOfIZexOGA |  | ⚡ daily 2026-03-11 |
 | 腾讯 CodeBuddy MCP | 腾讯 | 2026-03-11 | mcp, china | https://readhub.cn/topic/8rNGGMYYjhR |  | 🔧 daily 2026-03-11 |
+| Rakuten fixes issues twice as fast with Codex | OpenAI | 2026-03-12 | coding-agent, enterprise, case-study | https://openai.com/index/rakuten |  | ⚡ daily 2026-03-12 |
+| Designing AI agents to resist prompt injection | OpenAI | 2026-03-12 | security, agent, prompt-injection | https://openai.com/index/designing-agents-to-resist-prompt-injection |  | 🔧 daily 2026-03-12 |
+| From model to agent: Equipping the Responses API with a computer environment | OpenAI | 2026-03-12 | agent-runtime, api, container | https://openai.com/index/equip-responses-api-computer-environment |  | ⚡ daily 2026-03-12 |
+| Operationalizing Agentic AI Part 1: A Stakeholder's Guide | AWS | 2026-03-12 | enterprise, operations, guide | https://aws.amazon.com/blogs/machine-learning/operationalizing-agentic-ai-part-1-a-stakeholders-guide/ |  | ⚡ daily 2026-03-12 |
+| One-Eval: An Agentic System for Automated and Traceable LLM Evaluation | — | 2026-03-12 | evaluation, agent, traceability | https://arxiv.org/abs/2603.09821 |  | 🔧 daily 2026-03-12 |
+| Autonomous context compression | LangChain | 2026-03-12 | context, sdk, optimization | https://blog.langchain.com/autonomous-context-compression/ |  | 🔧 daily 2026-03-12 |
+| The Anatomy of an Agent Harness | LangChain | 2026-03-12 | architecture, agent-design | https://blog.langchain.com/the-anatomy-of-an-agent-harness/ |  | 📖 daily 2026-03-12 |
+| Together AI Brings NVIDIA Nemotron 3 to Developers on Day 0 | NVIDIA / Together AI | 2026-03-12 | nemotron, multi-agent, 1m-context | https://www.together.ai/blog/nvidia-nemotron-3-super |  | ⚡ daily 2026-03-12 |
+| 黄仁勋：未来几年传统的软件和 App 形态或将消失，AI 智能体极可能成为主流 | NVIDIA | 2026-03-12 | trend, agent, industry-view | https://readhub.cn/topic/8rP2DkMuodI |  | ⚡ daily 2026-03-12 |
+| 微信把超级 Agent 之战一把拉进了自己的舒适圈 | 腾讯 | 2026-03-12 | wechat, china, agent-platform | https://www.36kr.com/p/3718128476664320 |  | ⚡ daily 2026-03-12 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
