@@ -206,6 +206,11 @@
 | Together AI Brings NVIDIA Nemotron 3 to Developers on Day 0 | NVIDIA / Together AI | 2026-03-12 | nemotron, multi-agent, 1m-context | https://www.together.ai/blog/nvidia-nemotron-3-super |  | ⚡ daily 2026-03-12 |
 | 黄仁勋：未来几年传统的软件和 App 形态或将消失，AI 智能体极可能成为主流 | NVIDIA | 2026-03-12 | trend, agent, industry-view | https://readhub.cn/topic/8rP2DkMuodI |  | ⚡ daily 2026-03-12 |
 | 微信把超级 Agent 之战一把拉进了自己的舒适圈 | 腾讯 | 2026-03-12 | wechat, china, agent-platform | https://www.36kr.com/p/3718128476664320 |  | ⚡ daily 2026-03-12 |
+| Understudy | understudy-ai | 2026-03-13 | agent-ui, desktop, demonstration | https://github.com/understudy-ai/understudy |  | 🔧 daily 2026-03-13 |
+| OneCLI | onecli | 2026-03-13 | security, mcp, secrets | https://github.com/onecli/onecli |  | 🔧 daily 2026-03-13 |
+| Together Voice Agents | Together AI | 2026-03-13 | voice, realtime | https://www.together.ai/blog/build-real-time-voice-agents-on-together-ai |  | 🔧 daily 2026-03-13 |
+| Bedrock AgentCore Policy | AWS | 2026-03-13 | security, policy, enterprise | https://aws.amazon.com/blogs/machine-learning/secure-ai-agents-with-policy-in-amazon-bedrock-agentcore/ |  | 🔧 daily 2026-03-13 |
+| Claude Visual Output | Anthropic | 2026-03-13 | claude, visualization | https://claude.com/blog/claude-builds-visuals |  | 🔧 daily 2026-03-13 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
