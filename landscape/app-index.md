@@ -214,6 +214,10 @@
 | Spine Swarm | Spine AI | 2026-03-14 | multi-agent, workflow, visual-canvas | https://www.getspine.ai/ |  | ⚡ daily 2026-03-14 |
 | Context Gateway | Compresr AI | 2026-03-14 | context-compression, gateway, opensource | https://github.com/Compresr-ai/Context-Gateway |  | 🔧 daily 2026-03-14 |
 | NVIDIA NeMo Retriever Agentic Retrieval | NVIDIA | 2026-03-14 | rag, agentic, retrieval | https://huggingface.co/blog/nvidia/nemo-retriever-agentic-retrieval |  | 🔧 daily 2026-03-14 |
+| MCP is dead; long live MCP | — | 2026-03-15 | mcp, protocol, agent | https://chrlschn.dev/blog/2026/03/mcp-is-dead-long-live-mcp/ |  | ⚡ daily 2026-03-15 — MCP 协议演进讨论，社区反思标准化与碎片化平衡 |
+| Simon Willison: Agentic Engineering fireside chat @ Pragmatic Summit | — | 2026-03-15 | agentic, engineering, best-practices | https://simonwillison.net/2026/Mar/14/pragmatic-summit/#atom-everything |  | 📖 daily 2026-03-15 — Simon 分享 agentic engineering 实战经验与工程模式 |
+| Claude March 2026 usage promotion | Anthropic | 2026-03-15 | claude, pricing, promotion | https://support.claude.com/en/articles/14063676-claude-march-2026-usage-promotion |  | 📖 daily 2026-03-15 — Anthropic 官方用量促销，降低 Claude API 使用成本 |
+| DeepSeek V4、腾讯混元新模型下月发布 | DeepSeek / Tencent | 2026-03-15 | deepseek, hunyuan, china-model | https://m.ithome.com/html/929040.htm |  | ⚡ daily 2026-03-15 — 两大国产 AI 巨头同期发布新模型，竞争加剧 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
