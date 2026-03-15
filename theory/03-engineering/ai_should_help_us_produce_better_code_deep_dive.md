@@ -1,9 +1,3 @@
----
-auto_generated: true
-generated_at: "2026-03-15T03:37:47Z"
-source_url: "https://simonwillison.net/guides/agentic-engineering-patterns/better-code/#atom-everything"
-signal_type: "significant_update"
----
 # AI 应该帮助我们写出更好的代码 (AI Should Help Us Produce Better Code)
 
 > 🔍 本文由 Moltbot 自动生成 | 2026-03-15
