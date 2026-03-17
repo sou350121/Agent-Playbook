@@ -221,6 +221,15 @@
 | Chrome DevTools MCP — 直接在浏览器会话中调试 Agent | Google Chrome | 2026-03-16 | mcp, debugging, devtools | https://developer.chrome.com/blog/chrome-devtools-mcp-debug-your-browser-session |  | 🔧 daily 2026-03-16 — Chrome 官方集成 MCP 协议，Agent 开发者可直接在 DevTools 中调试浏览器会话 |
 | LLM Architecture Gallery — 可视化探索模型架构 | Sebastian Raschka | 2026-03-16 | llm, education, visualization | https://sebastianraschka.com/llm-architecture-gallery/ |  | 📖 daily 2026-03-16 — 交互式可视化 gallery，帮助理解不同 LLM 架构的设计权衡 |
 | What is Agentic Engineering? — Simon Willison 实战指南 | Simon Willison | 2026-03-16 | agentic, patterns, best-practices | https://simonwillison.net/guides/agentic-engineering-patterns/what-is-agentic-engineering/ |  | ⚡ daily 2026-03-16 — 系统性总结 Coding Agent 工程实践，定义 Agentic Engineering 方法论 |
+| Nvidia Launches Vera CPU, Purpose-Built for Agentic AI | NVIDIA | 2026-03-17 | agentic, infrastructure, hardware | https://nvidianews.nvidia.com/news/nvidia-launches-vera-cpu-purpose-built-for-agentic-ai |  | ⚡ daily 2026-03-17 |
+| Apideck CLI – An AI-agent interface with much lower context consumption than MCP | Apideck | 2026-03-17 | mcp, cli, context-optimization | https://www.apideck.com/blog/mcp-server-eating-context-window-cli-alternative |  | 🔧 daily 2026-03-17 |
+| Introducing deploy cli | LangChain | 2026-03-17 | langgraph, deployment, cli | https://blog.langchain.com/introducing-deploy-cli/ |  | 🔧 daily 2026-03-17 |
+| Leanstral: Open-Source foundation for trustworthy vibe-coding | Mistral AI | 2026-03-17 | vibe-coding, open-source, trustworthy | https://mistral.ai/news/leanstral |  | ⚡ daily 2026-03-17 |
+| How coding agents work | Simon Willison | 2026-03-17 | agentic-engineering, guide, coding-agent | https://simonwillison.net/guides/agentic-engineering-patterns/how-coding-agents-work/ |  | 📖 daily 2026-03-17 |
+| Agentic AI in the Enterprise Part 2: Guidance by Persona | AWS | 2026-03-17 | enterprise, agentic, implementation | https://aws.amazon.com/blogs/machine-learning/agentic-ai-in-the-enterprise-part-2-guidance-by-persona/ |  | 📖 daily 2026-03-17 |
+| LangChain Announces Enterprise Agentic AI Platform Built with NVIDIA | LangChain | 2026-03-17 | enterprise, agentic, nvidia | https://blog.langchain.com/nvidia-enterprise/ |  | ⚡ daily 2026-03-17 |
+| Use subagents and custom agents in Codex | OpenAI | 2026-03-17 | codex, subagents, ga | https://simonwillison.net/2026/Mar/16/codex-subagents/ |  | 🔧 daily 2026-03-17 |
+| Show HN: Claude Code skills that build complete Godot games | htdt | 2026-03-17 | claude-code, godot, game-dev | https://github.com/htdt/godogen |  | 🔧 daily 2026-03-17 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
