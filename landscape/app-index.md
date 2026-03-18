@@ -230,6 +230,14 @@
 | LangChain Announces Enterprise Agentic AI Platform Built with NVIDIA | LangChain | 2026-03-17 | enterprise, agentic, nvidia | https://blog.langchain.com/nvidia-enterprise/ |  | ⚡ daily 2026-03-17 |
 | Use subagents and custom agents in Codex | OpenAI | 2026-03-17 | codex, subagents, ga | https://simonwillison.net/2026/Mar/16/codex-subagents/ |  | 🔧 daily 2026-03-17 |
 | Show HN: Claude Code skills that build complete Godot games | htdt | 2026-03-17 | claude-code, godot, game-dev | https://github.com/htdt/godogen |  | 🔧 daily 2026-03-17 |
+| GPT‑5.4 Mini and Nano | OpenAI | 2026-03-18 | model-release, gpt, tiered-inference | https://openai.com/index/introducing-gpt-5-4-mini-and-nano |  | ⚡ daily 2026-03-18 |
+| Get Shit Done: A Meta-Prompting, Context Engineering and Spec-Driven Dev System | gsd-build | 2026-03-18 | context-engineering, spec-driven, meta-prompting | https://github.com/gsd-build/get-shit-done |  | 📖 daily 2026-03-18 |
+| Introducing LangSmith Sandboxes: Secure Code Execution for Agents | LangChain | 2026-03-18 | agent, sandbox, security | https://blog.langchain.com/introducing-langsmith-sandboxes-secure-code-execution-for-agents/ |  | 🔧 daily 2026-03-18 |
+| Edge.js: Run Node apps inside a WebAssembly sandbox | Wasmer | 2026-03-18 | sandbox, wasm, security | https://wasmer.io/posts/edgejs-safe-nodejs-using-wasm-sandbox |  | 🔧 daily 2026-03-18 |
+| Open SWE: An Open-Source Framework for Internal Coding Agents | LangChain | 2026-03-18 | coding-agent, langgraph, open-source | https://blog.langchain.com/open-swe-an-open-source-framework-for-internal-coding-agents/ |  | 🔧 daily 2026-03-18 |
+| Holotron-12B - High Throughput Computer Use Agent | Hcompany | 2026-03-18 | computer-use, vision-agent, 12B | https://huggingface.co/blog/Hcompany/holotron-12b |  | 🔧 daily 2026-03-18 |
+| Antfly: Distributed, Multimodal Search and Memory and Graphs in Go | antflydb | 2026-03-18 | vector-search, graph-search, distributed | https://github.com/antflydb/antfly |  | 🔧 daily 2026-03-18 |
+| 小米罗福莉 AI 团队自研 Agent 效率系统，算力成本直降 71.2% | 小米 | 2026-03-18 | agent-optimization, cost-reduction, enterprise | https://m.ithome.com/html/929767.htm |  | 📖 daily 2026-03-18 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
