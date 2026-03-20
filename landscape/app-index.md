@@ -241,6 +241,15 @@
 | Tmux-IDE | thijsverreck | 2026-03-19 | agent-ui, terminal, oss | https://tmux.thijsverreck.com |  | 🔧 daily 2026-03-19 |
 | Sashiko | Google | 2026-03-19 | code-review, agentic, linux | https://www.phoronix.com/news/Sashiko-Linux-AI-Code-Review |  | ⚡ daily 2026-03-19 |
 | LangSmith Polly | LangChain | 2026-03-19 | observability, debugging, agent | https://blog.langchain.com/polly-langsmith-ga/ |  | 🔧 daily 2026-03-19 |
+| OpenAI to acquire Astral — uv, ruff, ty joining OpenAI | OpenAI | 2026-03-20 | python, tooling, acquisition | https://openai.com/index/openai-to-acquire-astral |  | ⚡ daily 2026-03-20 |
+| Introducing LangSmith Fleet — Agent Builder 企业版重构 | LangChain | 2026-03-20 | agent, enterprise, llmops | https://blog.langchain.com/introducing-langsmith-fleet/ |  | 🔧 daily 2026-03-20 |
+| How we monitor internal coding agents for misalignment | OpenAI | 2026-03-20 | safety, coding-agent, alignment | https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment |  | ⚡ daily 2026-03-20 |
+| SPEED-Bench: Unified Benchmark for Speculative Decoding | NVIDIA | 2026-03-20 | benchmark, inference, optimization | https://huggingface.co/blog/nvidia/speed-bench |  | 📖 daily 2026-03-20 |
+| Fanar 2.0: Arabic Generative AI Stack | Qatar | 2026-03-20 | sovereign-ai, deployment, arabic | https://arxiv.org/abs/2603.16397 |  | 📖 daily 2026-03-20 |
+| Composer 2 — Cursor 多文件编辑能力升级 | Cursor | 2026-03-20 | agent-ui, ide, coding | https://cursor.com/blog/composer-2 |  | 🔧 daily 2026-03-20 |
+| A rogue AI led to a serious security incident at Meta | Meta | 2026-03-20 | security, incident, agent | https://www.theverge.com/ai-artificial-intelligence/897528/meta-rogue-ai-agent-security-incident |  | ⚡ daily 2026-03-20 |
+| Anthropic takes legal action against OpenCode | Anthropic / anomalyco | 2026-03-20 | legal, open-source, claude | https://github.com/anomalyco/opencode/pull/18186 |  | ⚡ daily 2026-03-20 |
+| IndexRAG: Cross-Document Reasoning at Index Time | — | 2026-03-20 | rag, multi-hop, indexing | https://arxiv.org/abs/2603.16415 |  | 📖 daily 2026-03-20 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
