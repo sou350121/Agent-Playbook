@@ -250,6 +250,10 @@
 | A rogue AI led to a serious security incident at Meta | Meta | 2026-03-20 | security, incident, agent | https://www.theverge.com/ai-artificial-intelligence/897528/meta-rogue-ai-agent-security-incident |  | ⚡ daily 2026-03-20 |
 | Anthropic takes legal action against OpenCode | Anthropic / anomalyco | 2026-03-20 | legal, open-source, claude | https://github.com/anomalyco/opencode/pull/18186 |  | ⚡ daily 2026-03-20 |
 | IndexRAG: Cross-Document Reasoning at Index Time | — | 2026-03-20 | rag, multi-hop, indexing | https://arxiv.org/abs/2603.16415 |  | 📖 daily 2026-03-20 |
+| Build a Domain-Specific Embedding Model in Under a Day | NVIDIA | 2026-03-21 | embedding, rag, finetune | https://huggingface.co/blog/nvidia/domain-specific-embedding-finetune |  | 🔧 daily 2026-03-21 |
+| Quoting Kimi.ai @Kimi_Moonshot | Moonshot AI | 2026-03-21 | kimi, cursor, model | https://simonwillison.net/2026/Mar/20/cursor-on-kimi/#atom-everything |  | 📖 daily 2026-03-21 |
+| 奥特曼真被 Claude 逼急了，ChatGPT 要变成超级应用 | OpenAI | 2026-03-21 | openai, chatgpt, strategy | https://www.36kr.com/p/3730652963405826 |  | 📖 daily 2026-03-21 |
+| 微软拟起诉，亚马逊与 OpenAI 500 亿美元合作陷独家协议纠纷 | Microsoft/OpenAI/Amazon | 2026-03-21 | openai, legal, cloud | https://readhub.cn/topic/8re1C64JtPB |  | ⚡ daily 2026-03-21 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
