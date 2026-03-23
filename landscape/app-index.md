@@ -257,6 +257,9 @@
 | Using Git with coding agents — Simon Willison 实战指南 | simonw | 2026-03-22 | agentic-engineering, git, coding-agent | https://simonwillison.net/guides/agentic-engineering-patterns/using-git-with-coding-agents/ |  | 🔧 daily 2026-03-22 — Agentic Engineering Patterns 系列新增 Git 工作流指南，教你用 Git 记录/回滚 Agent 代码变更 |
 | 小米 MiMo 大模型联合 OpenClaw/OpenCode/KiloCode 等 Agent 框架，首周限免开放 | 小米/Xiaomi | 2026-03-22 | model-release, agent-integration, china | https://platform.xiaomimimo.com |  | 🔧 daily 2026-03-22 — MiMo-V2-Pro/Omni/TTS 发布，联合 5 大 Agent 框架开放免费 API，国产模型生态扩展 |
 | 月之暗面回应 Cursor Composer 2 使用 Kimi K2.5 底座（续报） | 月之暗面/Moonshot | 2026-03-22 | cursor, kimi, partnership | https://m.ithome.com/html/931246.htm |  | 📖 daily 2026-03-22 — 官方确认 Composer 2 基于 Kimi K2.5，通过 Fireworks AI 托管推理接入，属授权商业合作 |
+| OpenClaw security critique sparks HN debate (274 pts) | Composio | 2026-03-23 | security, agent-framework, debate | https://composio.dev/content/openclaw-security-and-vulnerabilities |  | ⚡ daily 2026-03-23 |
+| Teaching Claude to QA a mobile app | — | 2026-03-23 | claude, mobile-qa, workflow | https://christophermeiklejohn.com/ai/zabriskie/development/android/ios/2026/03/22/teaching-claude-to-qa-a-mobile-app.html |  | 🔧 daily 2026-03-23 |
+| 小米电脑版 miclaw Agent 开发中（续报） | Xiaomi | 2026-03-23 | agent, chinese, followup | https://readhub.cn/topic/8rhu0OkWSW9 |  | 📖 daily 2026-03-23 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
