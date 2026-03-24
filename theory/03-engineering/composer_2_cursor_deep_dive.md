@@ -1,9 +1,3 @@
----
-auto_generated: true
-generated_at: "2026-03-24T06:50:42Z"
-source_url: "https://cursor.com/blog/composer-2"
-signal_type: "significant_update"
----
 # Composer 2 深度解析：Cursor 自研模型的性能与成本突破 (Composer 2: Cursor's Proprietary Model Performance and Cost Breakthrough)
 
 > 🔍 本文由 Moltbot 自动生成 | 2026-03-24
