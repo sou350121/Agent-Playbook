@@ -260,6 +260,14 @@
 | OpenClaw security critique sparks HN debate (274 pts) | Composio | 2026-03-23 | security, agent-framework, debate | https://composio.dev/content/openclaw-security-and-vulnerabilities |  | ⚡ daily 2026-03-23 |
 | Teaching Claude to QA a mobile app | — | 2026-03-23 | claude, mobile-qa, workflow | https://christophermeiklejohn.com/ai/zabriskie/development/android/ios/2026/03/22/teaching-claude-to-qa-a-mobile-app.html |  | 🔧 daily 2026-03-23 |
 | 小米电脑版 miclaw Agent 开发中（续报） | Xiaomi | 2026-03-23 | agent, chinese, followup | https://readhub.cn/topic/8rhu0OkWSW9 |  | 📖 daily 2026-03-23 |
+| LangSmith Fleet 推出两种 Agent 授权模式 | — | 2026-03-24 | agent, security, enterprise | https://blog.langchain.com/two-different-types-of-agent-authorization/ |  | 📖 daily 2026-03-24 |
+| AWS Bedrock AgentCore 与 Slack 集成教程 | — | 2026-03-24 | agent, integration, slack | https://aws.amazon.com/blogs/machine-learning/integrating-amazon-bedrock-agentcore-with-slack/ |  | 📖 daily 2026-03-24 |
+| AWS: 用确定性模型克服 LLM 幻觉（医疗/金融场景） | — | 2026-03-24 | hallucination, enterprise, compliance | https://aws.amazon.com/blogs/machine-learning/overcoming-llm-hallucinations-in-regulated-industries-artificial-geniuss-deterministic-models-on-amazon-nova/ |  | 📖 daily 2026-03-24 |
+| Claude Code 生态爆发：5 个必知新工具 | — | 2026-03-24 | claude-code, ecosystem, tools | https://juejin.cn/post/7619279067029209128 |  | 📖 daily 2026-03-24 |
+| Claude Code Cheat Sheet | — | 2026-03-24 | claude-code, cheatsheet, reference | https://cc.storyfox.cz |  | 📖 daily 2026-03-24 |
+| iPhone 17 Pro 本地运行 400B 参数 LLM | — | 2026-03-24 | on-device, llm, mobile | https://twitter.com/anemll/status/2035901335984611412 |  | 📖 daily 2026-03-24 |
+| Simon Willison：AI 内容「slop」定义引发共鸣 | — | 2026-03-24 | opinion, quality, community | https://simonwillison.net/2026/Mar/23/neurotica/#atom-everything |  | 📖 daily 2026-03-24 |
+| 苹果 WWDC26 前瞻：Gemini 底座 Siri + CoreAI 框架 | — | 2026-03-24 | siri, gemini, mobile-ai | https://readhub.cn/topic/8rkKpHdsBgX |  | 📖 daily 2026-03-24 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
