@@ -268,6 +268,9 @@
 | iPhone 17 Pro 本地运行 400B 参数 LLM | — | 2026-03-24 | on-device, llm, mobile | https://twitter.com/anemll/status/2035901335984611412 |  | 📖 daily 2026-03-24 |
 | Simon Willison：AI 内容「slop」定义引发共鸣 | — | 2026-03-24 | opinion, quality, community | https://simonwillison.net/2026/Mar/23/neurotica/#atom-everything |  | 📖 daily 2026-03-24 |
 | 苹果 WWDC26 前瞻：Gemini 底座 Siri + CoreAI 框架 | — | 2026-03-24 | siri, gemini, mobile-ai | https://readhub.cn/topic/8rkKpHdsBgX |  | 📖 daily 2026-03-24 |
+| FastMCP | — | 2026-03-25 | mcp, sdk, tool-calling | https://gofastmcp.com |  | 📖 daily 2026-03-25 |
+| Hypura | — | 2026-03-25 | inference, apple-silicon, memory | https://github.com/t8/hypura |  | 📖 daily 2026-03-25 |
+| skls-mgr | — | 2026-03-25 | agent, cli, skills | https://juejin.cn/post/7619254214456213530 |  | 📖 daily 2026-03-25 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
