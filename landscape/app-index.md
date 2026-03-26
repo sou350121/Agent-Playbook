@@ -271,6 +271,12 @@
 | FastMCP | — | 2026-03-25 | mcp, sdk, tool-calling | https://gofastmcp.com |  | 📖 daily 2026-03-25 |
 | Hypura | — | 2026-03-25 | inference, apple-silicon, memory | https://github.com/t8/hypura |  | 📖 daily 2026-03-25 |
 | skls-mgr | — | 2026-03-25 | agent, cli, skills | https://juejin.cn/post/7619254214456213530 |  | 📖 daily 2026-03-25 |
+| OpenAI Safety Bug Bounty: 奖励发现 Agent 漏洞的研究者 | OpenAI | 2026-03-26 | safety, agentic, security | https://openai.com/index/safety-bug-bounty |  | ⚡ daily 2026-03-26 |
+| datasette-llm 0.1a1：LLM 能力接入 Datasette 插件生态 | Simon Willison | 2026-03-26 | llm, plugin, datasette | https://simonwillison.net/2026/Mar/25/datasette-llm/ |  | 🔧 daily 2026-03-26 |
+| LangSmith Fleet 推出可共享 Skills，团队 Agent 知识复用 | LangChain | 2026-03-26 | agent, collaboration | https://blog.langchain.com/skills-in-langsmith-fleet/ |  | 🔧 daily 2026-03-26 |
+| AWS Bedrock + Pipecat：部署流式语音 Agent 实战教程 | AWS/Pipecat | 2026-03-26 | voice, streaming, deployment | https://aws.amazon.com/blogs/machine-learning/deploy-voice-agents-with-pipecat-and-amazon-bedrock-agentcore-runtime-part-1/ |  | 🔧 daily 2026-03-26 |
+| Google Vibe Coding XR：用 XR Blocks + Gemini 加速 AI+XR 原型 | Google Research | 2026-03-26 | vibe-coding, XR, multimodal | https://research.google/blog/vibe-coding-xr-accelerating-ai-xr-prototyping-with-xr-blocks-and-gemini/ |  | 🔧 daily 2026-03-26 |
+| Simon Willison：当前 Agentic Engineering 走得太快，应慢下来 | — | 2026-03-26 | agentic, critique | https://simonwillison.net/2026/Mar/25/thoughts-on-slowing-the-fuck-down/ |  | ⚡ daily 2026-03-26 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
