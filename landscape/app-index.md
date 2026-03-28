@@ -277,6 +277,9 @@
 | AWS Bedrock + Pipecat：部署流式语音 Agent 实战教程 | AWS/Pipecat | 2026-03-26 | voice, streaming, deployment | https://aws.amazon.com/blogs/machine-learning/deploy-voice-agents-with-pipecat-and-amazon-bedrock-agentcore-runtime-part-1/ |  | 🔧 daily 2026-03-26 |
 | Google Vibe Coding XR：用 XR Blocks + Gemini 加速 AI+XR 原型 | Google Research | 2026-03-26 | vibe-coding, XR, multimodal | https://research.google/blog/vibe-coding-xr-accelerating-ai-xr-prototyping-with-xr-blocks-and-gemini/ |  | 🔧 daily 2026-03-26 |
 | Simon Willison：当前 Agentic Engineering 走得太快，应慢下来 | — | 2026-03-26 | agentic, critique | https://simonwillison.net/2026/Mar/25/thoughts-on-slowing-the-fuck-down/ |  | ⚡ daily 2026-03-26 |
+| Agent Evaluation Readiness Checklist | — | 2026-03-28 | evaluation, agent, checklist | https://blog.langchain.com/agent-evaluation-readiness-checklist/ |  | 🔧 daily 2026-03-28 |
+| Vibe coding SwiftUI apps | — | 2026-03-28 | vibe-coding, local-llm | https://simonwillison.net/2026/Mar/27/vibe-coding-swiftui/ |  | 📖 daily 2026-03-28 |
+| We Rewrote JSONata with AI in a Day | — | 2026-03-28 | vibe-porting, case-study | https://simonwillison.net/2026/Mar/27/vine-porting-jsonata/ |  | 📖 daily 2026-03-28 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
