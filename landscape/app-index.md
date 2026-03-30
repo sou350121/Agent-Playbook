@@ -280,6 +280,13 @@
 | Agent Evaluation Readiness Checklist | — | 2026-03-28 | evaluation, agent, checklist | https://blog.langchain.com/agent-evaluation-readiness-checklist/ |  | 🔧 daily 2026-03-28 |
 | Vibe coding SwiftUI apps | — | 2026-03-28 | vibe-coding, local-llm | https://simonwillison.net/2026/Mar/27/vibe-coding-swiftui/ |  | 📖 daily 2026-03-28 |
 | We Rewrote JSONata with AI in a Day | — | 2026-03-28 | vibe-porting, case-study | https://simonwillison.net/2026/Mar/27/vine-porting-jsonata/ |  | 📖 daily 2026-03-28 |
+| Coding Agents Could Make Free Software Matter Again | George London | 2026-03-30 | agent, open-source, philosophy | https://www.gjlondon.com/blog/ai-agents-could-make-free-software-matter-again/ |  | ⚡ daily 2026-03-30 — AI agents 让源代码访问从象征性权利变为实际能力，自由软件重新重要 |
+| The Vibe Coding Wall of Shame | Crackr AI | 2026-03-30 | vibe-coding, failures, reference | https://crackr.dev/vibe-coding-failures |  | 🔧 daily 2026-03-30 — 32 个 AI 编程失败案例汇编，含 6.3M+ 受影响记录，开发者警示资源 |
+| Python Vulnerability Lookup (Claude Code 构建) | Simon Willison | 2026-03-30 | security, python, claude-code | https://simonwillison.net/2026/Mar/29/python-vulnerability-lookup/ |  | 🔧 daily 2026-03-30 — 用 Claude Code 构建的 OSV.dev 漏洞查询工具，粘贴 requirements.txt 即可检测 |
+| Pretext: 高性能文本布局浏览器库 | Cheng Lou (ex-React core) | 2026-03-30 | browser, text-layout, performance | https://simonwillison.net/2026/Mar/29/pretext/ | 🎯 agent-ui | 🔧 daily 2026-03-30 — React 前核心开发者新作，无需触碰 DOM 即可计算文本布局，性能大幅提升 |
+| ChatGPT 隐私争议：Cloudflare 读取 React 状态 | — | 2026-03-30 | privacy, security, chatgpt | https://www.buchodi.com/chatgpt-wont-let-you-type-until-cloudflare-reads-your-react-state-i-decrypted-the-program-that-does-it/ |  | 📖 daily 2026-03-30 — 安全研究者解密 ChatGPT 的 Cloudflare 验证程序，引发用户输入状态读取争议 |
+| Claude Code 严重 Bug：每 10 分钟执行 git reset –hard | Anthropic | 2026-03-30 | bug, claude-code, git | https://github.com/anthropics/claude-code/issues/40710 |  | 📖 daily 2026-03-30 — GitHub Issue 报告：Claude Code 会定期覆盖用户代码，使用者需警惕 |
+| DeepSeek 服务中断后恢复 | DeepSeek | 2026-03-30 | outage, service, china | https://m.ithome.com/html/933898.htm |  | 📖 daily 2026-03-30 — DeepSeek 今日早间无法加载内容，已恢复；API 用户需注意服务稳定性 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
