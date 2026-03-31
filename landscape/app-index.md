@@ -287,6 +287,13 @@
 | ChatGPT 隐私争议：Cloudflare 读取 React 状态 | — | 2026-03-30 | privacy, security, chatgpt | https://www.buchodi.com/chatgpt-wont-let-you-type-until-cloudflare-reads-your-react-state-i-decrypted-the-program-that-does-it/ |  | 📖 daily 2026-03-30 — 安全研究者解密 ChatGPT 的 Cloudflare 验证程序，引发用户输入状态读取争议 |
 | Claude Code 严重 Bug：每 10 分钟执行 git reset –hard | Anthropic | 2026-03-30 | bug, claude-code, git | https://github.com/anthropics/claude-code/issues/40710 |  | 📖 daily 2026-03-30 — GitHub Issue 报告：Claude Code 会定期覆盖用户代码，使用者需警惕 |
 | DeepSeek 服务中断后恢复 | DeepSeek | 2026-03-30 | outage, service, china | https://m.ithome.com/html/933898.htm |  | 📖 daily 2026-03-30 — DeepSeek 今日早间无法加载内容，已恢复；API 用户需注意服务稳定性 |
+| Bitwarden integrates with OneCLI agent vault | OneCLI | 2026-03-31 | agent, security, sdk | https://www.onecli.sh/blog/bitwarden-agent-access-sdk-onecli |  | 🔧 daily 2026-03-31 |
+| Deliver hyper-personalized viewer experiences with an agentic AI movie assistant using Amazon Bedrock AgentCore | AWS | 2026-03-31 | agent, multimodal, bedrock | https://aws.amazon.com/blogs/machine-learning/deliver-hyper-personalized-viewer-experiences-with-an-agentic-ai-movie-assistant-using-amazon-bedrock-agentcore-and-amazon-nova-sonic-2-0/ |  | 🔧 daily 2026-03-31 |
+| How Ring scales global customer support with Amazon Bedrock Knowledge Bases | AWS/Ring | 2026-03-31 | rag, evaluation, production | https://aws.amazon.com/blogs/machine-learning/how-ring-scales-global-customer-support-with-amazon-bedrock-knowledge-bases/ |  | 🔧 daily 2026-03-31 |
+| 苹果 AI 国行正式上线 | Apple | 2026-03-31 | model-release, china, multimodal | https://readhub.cn/topic/8rvirYegNvX |  | ⚡ daily 2026-03-31 |
+| Learn Claude Code by doing, not reading | Community | 2026-03-31 | claude, tutorial, coding-agent | https://claude.nagdy.me/ |  | 📖 daily 2026-03-31 |
+| Quoting Georgi Gerganov | Simon Willison | 2026-03-31 | local-llm, inference, debugging | https://simonwillison.net/2026/Mar/30/georgi-gerganov/#atom-everything |  | 📖 daily 2026-03-31 |
+| datasette-llm 0.1a3 | Simon Willison | 2026-03-31 | llm, datasette, plugin | https://simonwillison.net/2026/Mar/30/datasette-llm/#atom-everything |  | 📖 daily 2026-03-31 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
