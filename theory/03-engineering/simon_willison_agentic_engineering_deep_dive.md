@@ -1,180 +1,281 @@
 ---
 auto_generated: true
-generated_at: "2026-03-05T07:31:59Z"
-source_url: "https://simonwillison.net/guides/agentic-engineering-patterns/anti-patterns/"
-signal_type: "blog_post"
+generated_at: "2026-03-31T05:46:23Z"
+source_url: "https://simonwillison.net/2026/Mar/25/thoughts-on-slowing-the-fuck-down/"
+signal_type: "significant_update"
 ---
-# Simon Willison：Agentic Engineering 反模式指南 (Agentic Engineering Anti-Patterns Guide)
+# Simon Willison：当前 Agentic Engineering 走得太快，应慢下来 (Thoughts on Slowing the Fuck Down)
 
-> 🔍 本文由 Moltbot 自动生成 | 2026-03-05
+> 🔍 本文由 Moltbot 自动生成 | 2026-03-31
 >
-> **项目/工具**: Agentic Engineering Patterns (Simon Willison)
-> **链接**: https://simonwillison.net/guides/agentic-engineering-patterns/anti-patterns/
-> **核心定位**: 系统性总结 AI 编程助手时代的工程反模式——尤其是「把未审查的代码丢给协作者」这一高频痛点
+> **项目/工具**: Simon Willison 博客 / Mario Zechner (Pi 框架作者) 观点
+> **链接**: https://simonwillison.net/2026/Mar/25/thoughts-on-slowing-the-fuck-down/
+> **核心定位**: 对当前 Agent 工程盲目追求自动化速度的批判性反思，提出「认知债务」概念与降速建议
 
-## ⚡ 快速判斷（30 秒讀完這段就夠了）
+---
 
-- **一句話定位**：Simon Willison 的 Agentic Engineering Patterns 指南中的「反模式」章节，专门讲 AI 编程时代不该做什么
-- **現在值得用嗎**：是——如果你在用 Claude Code/Copilot/Cursor 等工具且需要和他人协作
-- **適合場景**：团队开发、开源项目、任何需要 PR review 的场景
-- **不適合場景**：纯个人项目、无协作需求的脚本编写
-- **與 [競品/前版] 核心差異**：这是第一份系统性总结「AI 编程协作礼仪」的指南，而非工具教程
+## ⚡ 快速判断（30 秒读完这段就够了）
+
+- **一句话定位**: Pi 框架作者 Mario Zechner 批判当前 Agent 工程放弃纪律追求速度，Simon Willison 引申提出「认知债务」警告
+- **现在值得用吗**: 这是观点文章而非工具更新——**值得读**，尤其是正在用 Agent 写代码的开发者
+- **适合场景**: 团队引入 Agent 辅助编程、个人使用 Cursor/Claude Code 等工具、担心代码质量失控
+- **不适合场景**: 纯理论学习、不实际写代码的研究者
+- **与 [竞品/前版] 核心差异**: 这是少数从「工程风险」而非「效率提升」角度讨论 Agent 编程的声音
+
+---
 
 ## 是什么 / 解决什么问题
 
-Simon Willison（Datasette 作者、Python 社区资深开发者）在 2026 年 2 月启动了一个名为「Agentic Engineering Patterns」的项目，系统性记录使用 AI 编程助手（如 Claude Code、OpenAI Codex）时的最佳实践和反模式。
+2026 年 3 月 25 日，知名开发者博客作者 Simon Willison 发表了一篇链接博文，引用了 Pi Agent 框架创作者 Mario Zechner 对当前 Agentic Engineering 趋势的尖锐批评。
 
-**核心痛点**：AI 让生成代码变得极其便宜，但「生成」不等于「可用」。当开发者用 agent 生成几百行代码后直接开 PR，实际上是把审查工作转嫁给协作者——这是一种新型的技术债务转嫁。
+**背景痛点**：
 
-**这次变化的核心**：反模式章节明确定义了什么是「好的 agent PR」：
-1. 代码能工作，且你有信心它能工作
-2. 变更足够小，便于高效审查
-3. PR 包含额外上下文解释变更目的高层目标
-4. 包含你手动测试的证据（笔记、截图、视频）
+当前 AI 辅助编程工具（Cursor、Claude Code、OpenCode 等）和 Agent 框架（Pi、LangGraph、AutoGen 等）的核心卖点都是「更快写出更多代码」。营销话术通常是「10x 工程师」、「几分钟生成整个应用」、「让 AI 处理繁琐部分」。
 
-这不仅仅是「代码审查礼仪」——这是 AI 编程时代协作者之间信任机制的重建。
+但 Mario Zechner 提出了一个被忽视的问题：**当代码生成速度远超人类理解速度时，会发生什么？**
+
+**这次讨论的核心**：
+
+不是某个具体工具的更新，而是对整个 Agentic Engineering 发展方向的反思。Mario 指出：
+
+> We have basically given up all discipline and agency for a sort of addiction, where your highest goal is to produce the largest amount of code in the shortest amount of time. Consequences be damned.
+
+Simon Willison 在此基础上提出了「**Cognitive Debt**（认知债务）」概念——当代码库的演化速度超过开发者心智建模能力时，积累的隐性技术债务。
+
+这篇文章解决的不是技术问题，而是**工程哲学问题**：在 AI 让代码生成变得极其便宜的时代，什么才是值得追求的工程目标？
+
+---
 
 ## 技术架构拆解
 
 ### 核心设计决策
 
-Simon 的指南采用「模式语言」(Pattern Language) 风格组织，而非传统教程：
+Mario 和 Simon 的观点可以拆解为以下几个关键设计决策：
 
-| 设计选择 | 理由 |
-|----------|------|
-| 按场景分类（Principles / Testing / Understanding） | 开发者通常在特定场景下查阅，而非从头读 |
-| 每个模式独立成页 | 便于引用和分享，也便于后续更新 |
-| 包含「我用的 Prompts」附录 | 提供可复用的具体实践，而非空泛建议 |
-| 明确区分「模式」和「反模式」 | 正向引导 + 负向警示双轨并行 |
+| 决策点 | 当前主流做法 | Mario/Simon 建议 |
+|--------|-------------|-----------------|
+| 代码生成速度 | 越快越好，无上限 | 设置每日生成上限，匹配审查能力 |
+| 人类参与度 | 最小化人类干预 | 保持人类在环路中 (human-in-the-loop) |
+| 架构/API 设计 | 可用 AI 生成 | **必须手写** (write it by hand) |
+| 成功指标 | 产出代码行数/功能数 | 代码可理解性/可维护性 |
+| 错误处理 | 依赖 AI 修复 | 人类主动审查 + 限制错误积累速度 |
 
 ### 与前版/竞品的关键差异
 
-| 维度 | 传统编程指南 | AI 编程指南（旧） | Agentic Engineering Patterns |
-|------|-------------|-----------------|------------------------------|
-| 审查责任 | 作者写代码，审查者检查 | agent 写代码，作者直接提交 | **作者必须先审查 agent 输出** |
-| PR 大小 | 适中即可 | 越大越好（反正不是人写的） | **小 PR 优先**，agent 可以轻松拆分 commit |
-| 上下文 | 代码注释 + commit message | 依赖 agent 生成的 PR 描述 | **人工验证 PR 描述**，补充测试证据 |
-| 信任基础 | 作者技术能力 | 工具可靠性 | **作者对 agent 输出的信心** |
+当前 Agent 工程话语体系 vs Mario/Simon 的批判视角：
 
-### 信息流图
+| 维度 | 主流 Agent 工程叙事 | Mario/Simon 批判视角 |
+|------|-------------------|---------------------|
+| 瓶颈假设 | 人类打字慢是瓶颈 | 人类理解力才是瓶颈 |
+| 错误成本 | 错误可以快速修复 | 错误会复合积累 (compound) |
+| 速度价值 | 速度 = 生产力 | 无纪律的速度 = 技术债务加速器 |
+| 人类角色 | 人类是拖慢速度的环节 | 人类是质量控制的最后防线 |
+| 代码所有权 | AI 生成的代码也是代码 | 不理解代码 = 失去对代码的掌控 |
+
+### 核心问题链条（ASCII 图）
 
 ```
-传统 PR 流程:
-开发者 → 写代码 → 开 PR → 审查者审查 → 合并
+┌─────────────────────────────────────────────────────────────┐
+│  当前 Agent 工程的危险循环                                    │
+└─────────────────────────────────────────────────────────────┘
 
-AI 反模式流程（❌ 不该做）:
-开发者 → prompt agent → 直接开 PR → 审查者被迫审查未验证代码 → 信任损耗
+[AI 生成代码] → [人类来不及审查] → [代码合并]
+      ↑                                  │
+      │                                  ↓
+      │                          [认知债务积累]
+      │                                  │
+      │                                  ↓
+      │                          [代码库超出理解范围]
+      │                                  │
+      └──────────────────────────[问题爆发时已太晚]←┘
 
-AI 正确流程（✅ 应该做）:
-开发者 → prompt agent → 人工审查 + 手动测试 → 补充证据 → 开 PR → 审查者高效审查 → 合并
+┌─────────────────────────────────────────────────────────────┐
+│  Mario 建议的降速循环                                        │
+└─────────────────────────────────────────────────────────────┘
+
+[设置每日代码生成上限] → [人类审查每行生成代码]
+         ↓                        │
+         │                        ↓
+   [架构/API 手写] ←─────── [保持理解力同步]
+         ↓
+   [可持续的代码库演化]
 ```
+
+---
 
 ## 实用评估
 
 ### 什么场景值得用
 
-1. **团队协作项目**：尤其是开源项目或跨团队项目，审查者时间宝贵
-2. **大型重构**：agent 生成的重构代码必须人工验证逻辑等价性
-3. **新人 onboarding**：用这份指南作为团队 AI 编程规范的基础
-4. **技术负责人**：需要制定团队 AI 使用规范时，这是现成的参考框架
+**1. 团队引入 Agent 辅助编程初期**
+
+如果团队刚开始用 Cursor/Claude Code 等工具，这篇文章是必读的「预防针」。在建立工程规范时就纳入「降速」原则，比后期修复认知债务成本低得多。
+
+**2. 个人开发者感到「代码失控」**
+
+如果你发现自己经常合并 AI 生成的代码但不完全理解其实现，或者代码库变得难以调试——这是认知债务的早期信号。Mario 的建议可以直接应用：
+
+- 设置每日 AI 生成代码审查上限（例如 500 行/天）
+- 核心架构代码坚持手写
+- 每次合并前强制自己解释代码逻辑
+
+**3. Agent 框架设计者**
+
+如果你在设计 Agent 协作系统（如多 Agent 编排），Mario 的警告尤其重要：**多 Agent 系统的错误复合速度远超单 Agent**。需要在框架层面设计「降速机制」，例如：
+
+- 强制人类确认关键决策点
+- 限制并行 Agent 数量
+- 自动生成代码变更摘要供审查
 
 ### 什么场景不值得用
 
-1. **纯个人项目**：没有协作者，审查责任完全在自己
-2. **探索性/一次性脚本**：代码生命周期短，审查成本高于收益
-3. **已有严格 CI/CD 且测试覆盖率高**：自动化测试可替代部分人工审查（但仍需审查逻辑）
+**1. 原型/一次性脚本**
+
+如果是快速验证想法的原型代码（预期寿命<1 周），认知债务不是问题。速度优先是合理选择。
+
+**2. 纯数据/配置生成**
+
+如果 AI 生成的是数据文件、配置文件、样板代码（boilerplate），而非核心业务逻辑，审查成本较低，可以放宽限制。
+
+**3. 已有严格 Code Review 流程的团队**
+
+如果团队已有强制 Code Review 且审查质量高，AI 生成代码会经过人类审查，认知债务风险已得到控制。但仍需注意审查者是否真正理解 AI 生成的代码。
 
 ### 迁移成本
 
-从「agent 直接提交」迁移到「人工审查后提交」：
+从「无限制 AI 生成」迁移到「降速模式」的成本：
 
 | 变更项 | 工作量 | 说明 |
 |--------|--------|------|
-| 建立审查习惯 | 1-2 周 | 需要刻意练习，形成肌肉记忆 |
-| 学习手动测试方法 | 2-4 小时 | 针对不同类型代码的验证策略 |
-| 补充 PR 证据 | 每 PR +5-10 分钟 | 截图、测试笔记、录屏等 |
-| 拆分大 PR | 依赖 agent | 可用 agent 辅助拆分 commit |
+| 设置每日代码生成上限 | 低 | 团队约定或工具配置 |
+| 架构代码手写政策 | 中 | 需明确定义什么是「架构代码」 |
+| 强制审查流程 | 中 - 高 | 取决于当前流程成熟度 |
+| 代码理解文档 | 中 | 要求 AI 生成代码附带解释文档 |
 
-**总体评估**：行为改变成本中等，但收益显著（协作者信任、代码质量、个人技术成长）。
+**预估迁移时间**：小团队 1-2 周建立规范，大团队 1-2 月落地。
+
+---
 
 ## 对你的意义
 
-对 Ken 的 Agent-Playbook 项目而言，这份指南有直接参考价值：
+### 对 Ken 的 Agent-Playbook 项目的启示
 
-1. **Handbook 内容补充**：可在 `theory/03-engineering/` 下收录此指南的核心模式
-2. **团队协作规范**：如果你的 VLA 研究项目有协作者，可直接采用这套 PR 标准
-3. **Agent 设计启发**：未来的 agent 工具应该内置「审查提示」——在生成 PR 前提醒用户验证
+你正在构建的 Agent-Playbook 是记录 Agent 工程最佳实践的知识库。这篇文章提出了一个**元问题**：最佳实践应该包含「何时不用 Agent」和「如何限制 Agent」的指南。
 
 **具体建议**：
-- ✅ **立即行动**：把这份指南加入书签，下次开 PR 前对照检查清单
-- ✅ **本周内**：在 Agent-Playbook 的 engineering 分类下收录核心反模式
-- ⏳ **观望**：等待指南其他章节（Testing and QA、Understanding code）更新完成后再做深度整合
+
+1. **在 Handbook 中新增「降速模式」章节**
+   - 记录认知债务的早期信号
+   - 提供可操作的降速策略模板
+   - 收录类似 Mario 的批判性观点
+
+2. **重新审视现有的 Agent 模式**
+   - 检查是否有模式鼓励无限制代码生成
+   - 为高风险模式（如多 Agent 并行）添加警告标签
+
+3. **在 AI Daily Pick 中纳入批判性声音**
+   - 当前信息流偏向「新工具/新功能」
+   - 应平衡纳入「反思/警告」类内容
+
+### 对 VLA 研究的间接启示
+
+虽然这是 Agent 工程领域的讨论，但对 VLA（Vision-Language-Action）系统有相似启示：
+
+- VLA 训练中是否也存在「训练速度 > 理解速度」的问题？
+- 当模型生成动作序列时，是否有机制防止错误复合？
+- 「认知债务」概念是否可以迁移到「模型行为可解释性」领域？
+
+**建议**：在 VLA Handbook 的 theory 部分记录这个跨领域类比。
+
+### 个人行动建议
+
+| 行动 | 优先级 | 时间投入 |
+|------|--------|----------|
+| 阅读 Mario 原文（Pi 框架 GitHub） | 高 | 30 分钟 |
+| 在 Agent-Playbook 创建「降速工程」条目 | 高 | 1 小时 |
+| 审查当前项目中的 AI 生成代码比例 | 中 | 2 小时 |
+| 设计个人代码生成上限规则 | 中 | 30 分钟 |
+| 在下次 AI Deep Dive 中追踪相关讨论 | 低 | - |
+
+**总体判断**：这篇文章的价值不在于具体技术方案，而在于**提供了一个被忽视的视角**。在所有人都鼓吹「更快」时，有人提醒「慢下来」——这种声音值得认真对待。
+
+---
 
 ## 关键代码/配置片段
 
-Simon 在指南中给出了「好 PR」的具体特征（非代码，但可操作）：
+Mario 在原文中没有提供具体代码，但提出了可操作的原则。以下是基于其建议的**伪代码实现示例**：
+
+```python
+# 示例：在 Agent 编程工作流中实施「降速」限制
+
+class SlowingDownAgent:
+    def __init__(self, daily_code_limit=500):
+        self.daily_limit = daily_code_limit
+        self.daily_generated = 0
+        self.architecture_paths = ['src/arch/', 'src/api/', 'src/core/']
+    
+    def can_generate(self, file_path, estimated_lines):
+        # 规则 1: 架构代码禁止 AI 生成
+        if any(path in file_path for path in self.architecture_paths):
+            return False, "架构代码必须手写"
+        
+        # 规则 2: 检查每日额度
+        if self.daily_generated + estimated_lines > self.daily_limit:
+            return False, f"超出每日限制 (已用{self.daily_generated}/{self.daily_limit})"
+        
+        return True, "允许生成"
+    
+    def after_generation(self, code_lines):
+        self.daily_generated += len(code_lines)
+        # 强制记录：要求 AI 生成代码解释
+        return self.generate_explanation(code_lines)
+```
 
 ```markdown
-一个好 PR 应该包含：
+# 示例：Code Review 清单（AI 生成代码专用）
 
-1. 代码能工作，且你有信心
-   - 手动运行过关键路径
-   - 边界条件已测试
+## AI 生成代码审查清单
 
-2. 变更足够小
-   - 单一职责
-   - 审查者可在 15 分钟内理解
+- [ ] 我理解这段代码的核心逻辑吗？
+- [ ] 我能向同事解释为什么这样实现吗？
+- [ ] 这段代码引入了新的依赖吗？是否必要？
+- [ ] 错误处理是否充分？
+- [ ] 是否有隐藏的边界情况？
+- [ ] 如果 AI 错了，调试成本有多高？
 
-3. 额外上下文
-   - 高层目标说明
-   - 关联 issue/spec 链接
-   - 实现选择的权衡说明
-
-4. 验证证据
-   - 手动测试笔记
-   - 截图或录屏
-   - 特定实现选择的注释
-```
-
-以及他推荐的工作流：
-
-```bash
-# 用 agent 生成代码后
-1. 人工阅读每一行变更
-2. 运行测试套件
-3. 手动验证关键功能
-4. 记录测试笔记
-5. 用 agent 辅助拆分 commit（如需）
-6. 编写 PR 描述（人工验证 agent 生成的描述）
-7. 附加测试证据（截图/录屏）
-8. 提交 PR
+**规则**：任一问题回答「否」→ 拒绝合并，要求重写或人工实现
 ```
 
 ---
 
-## 指南完整结构
+## 📌 AI Agent 假设追踪
 
-Simon 的 Agentic Engineering Patterns 包含以下章节（截至 2026-03-05）：
+> 本文不直接关联当前追踪的假设列表（A-001 至 A-006）。但提出了一个**元假设**值得记录：
 
-**Principles**
-- Writing code is cheap now
-- Hoard things you know how to do
-- Anti-patterns: things to avoid
-
-**Testing and QA**
-- Red/green TDD
-- First run the tests
-
-**Understanding code**
-- Linear walkthroughs
-- Interactive explanations
-
-**Annotated prompts**
-- GIF optimization tool using WebAssembly and Gifsicle
-
-**Appendix**
-- Prompts I use
+| 假设 | 方向 | 关联说明 |
+|------|------|----------|
+| A-007 (新): 无约束的 Agent 代码生成会导致认知债务积累 | 挑战 | Mario/Simon 的观点直接挑战「Agent 总是提升生产力」的默认假设，提示需要工程约束 |
 
 ---
 
+## 参考资源
+
+- [原文：Thoughts on slowing the fuck down - Simon Willison](https://simonwillison.net/2026/Mar/25/thoughts-on-slowing-the-fuck-down/)
+- [Pi Agent Framework - GitHub](https://github.com/badlogic/pi-mono)
+- [Cognitive Debt 标签 - Simon Willison](https://simonwillison.net/tags/cognitive-debt/)
+- [Hacker News 讨论串](https://news.ycombinator.com/item?id=47517539)
+
+---
+
+## 结语
+
+这篇文章的价值不在于提供答案，而在于**提出正确的问题**。
+
+当整个行业都在问「如何让 Agent 写得更快」时，Mario 和 Simon 问的是：「写快了之后，代价是什么？」
+
+这个问题值得每个使用 AI 辅助编程的开发者思考——包括你，包括 Ken，包括正在构建 Agent 框架的每一个人。
+
+慢下来，不是拒绝进步。是为了走得更远。
+
+---
 [← Back to Deep Dives](./README.md)
