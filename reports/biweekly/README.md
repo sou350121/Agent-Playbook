@@ -6,7 +6,7 @@
 
 | 期数 | 覆盖周期 | 链接 | 重点 |
 |---|---|---|---|
-| 2026-04-01 | [本期報告](./2026-04-01.md) | > 基于 Agent-Playbook 过去 14 天的系统数据 + 全域分析上下文 | 2026-04-01 |
+| 2026-04-01 | [本期報告](./reflection_2026-04-01.md) | 🤔 *AI 应用双周反思* | 2026-04-01 |
 | 2026-03-29 | [本期報告](./2026-03-29.md) | HTTP 401: Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error |
 | 2026-03-27 | [本期報告](./2026-03-27.md) | HTTP 401: Incorrect API key provided. For details, see: https://help.aliyun.com/zh/model-studio/error-code#apikey-error |
 | 2026-03-20 | [本期報告](./2026-03-20.md) | > 基於 Agent-Playbook 7 天系統數據 |
