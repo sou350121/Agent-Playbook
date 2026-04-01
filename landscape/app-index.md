@@ -294,6 +294,14 @@
 | Learn Claude Code by doing, not reading | Community | 2026-03-31 | claude, tutorial, coding-agent | https://claude.nagdy.me/ |  | 📖 daily 2026-03-31 |
 | Quoting Georgi Gerganov | Simon Willison | 2026-03-31 | local-llm, inference, debugging | https://simonwillison.net/2026/Mar/30/georgi-gerganov/#atom-everything |  | 📖 daily 2026-03-31 |
 | datasette-llm 0.1a3 | Simon Willison | 2026-03-31 | llm, datasette, plugin | https://simonwillison.net/2026/Mar/30/datasette-llm/#atom-everything |  | 📖 daily 2026-03-31 |
+| OpenAI 完成 8520 亿美元估值融资，加速下一阶段 AI 发展 | OpenAI | 2026-04-01 | funding, frontier-model | https://openai.com/index/accelerating-the-next-phase-ai |  | ⚡ daily 2026-04-01 |
+| Claude Code 源码通过 npm map 文件泄露，社区逆向分析架构细节 | Anthropic | 2026-04-01 | security, source-leak | https://alex000kim.com/posts/2026-03-31-claude-code-source-leak/ |  | ⚡ daily 2026-04-01 |
+| Claude Code 用户用量消耗速度远超预期，Anthropic 调整限流策略 | Anthropic | 2026-04-01 | usage-limit, pricing | https://www.theregister.com/2026/03/31/anthropic_claude_code_limits/ |  | 🔧 daily 2026-04-01 |
+| AWS 推出 Bedrock AgentCore Evaluations，全托管 AI Agent 性能评估服务 | AWS | 2026-04-01 | evaluation, agent-ops | https://aws.amazon.com/blogs/machine-learning/build-reliable-ai-agents-with-amazon-bedrock-agentcore-evaluations/ |  | 🔧 daily 2026-04-01 |
+| Axios 遭供应链攻击，恶意依赖包通过 npm 分发 | axios | 2026-04-01 | security, supply-chain | https://simonwillison.net/2026/Mar/31/supply-chain-attack-on-axios/#atom-everything |  | ⚡ daily 2026-04-01 |
+| llm 0.30：Simon Willison 的 LLM 命令行工具更新 | Simon Willison | 2026-04-01 | llm, cli, plugin | https://simonwillison.net/2026/Mar/31/llm/#atom-everything |  | 📖 daily 2026-04-01 |
+| LangChain × MongoDB 合作：在 Atlas 上构建生产级 AI Agent | LangChain + MongoDB | 2026-04-01 | vector, memory, observability | https://blog.langchain.com/announcing-the-langchain-mongodb-partnership-the-ai-agent-stack-that-runs-on-the-database-you-already-trust/ |  | 🔧 daily 2026-04-01 |
+| pg_textsearch：Postgres BM25 相关性排序全文搜索扩展 | Timescale | 2026-04-01 | vector, search, postgres | https://github.com/timescale/pg_textsearch |  | 🔧 daily 2026-04-01 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
