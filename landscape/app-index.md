@@ -310,6 +310,11 @@
 | MaxKB4J v2.6.0: Open Source LLMOps Platform Update | MaxKB4J | 2026-04-02 | llmops, open-source, deployment | https://www.oschina.net/news/416782 |  | 🔧 daily 2026-04-02 — 开源 LLMOps 平台 v2.6.0 发布，支持企业级 LLM 应用部署与管理 |
 | tama96: Tamagotchi for Terminal + AI Agents | Unknown | 2026-04-02 | agent-ui, desktop, gamification | https://www.producthunt.com/products/tama96-desktop-terminal-ai-pet | 🎯 agent-ui | 📖 daily 2026-04-02 — 🎯 终端 AI 宠物伴侣，将 agent 状态可视化 + 游戏化，探索 agent UI 新形态 |
 | GLM-5V-Turbo: Vision-to-Code Foundation Model for GUI Automation | Z-AI | 2026-04-02 | foundation-model, vision, gui-automation | https://www.producthunt.com/products/z-ai |  | ⚡ daily 2026-04-02 — 视觉到代码基础模型，专为 GUI 自动化设计，多模态 agent 基础设施新进展 |
+| Gradient Labs | OpenAI | 2026-04-02 | agent, workflow, banking | https://openai.com/index/gradient-labs |  | 📖 daily 2026-04-02 |
+| LangSmith Fleet | LangChain | 2026-04-02 | agent-ui, llmops, nvidia | https://blog.langchain.com/march-2026-langchain-newsletter/ |  | 📖 daily 2026-04-02 |
+| GLM-5V-Turbo | Z-AI | 2026-04-02 | foundation-model, gui-automation, vision-to-code | https://www.producthunt.com/products/z-ai |  | 📖 daily 2026-04-02 |
+| tama96 | Unknown | 2026-04-02 | agent-ui, desktop, terminal | https://www.producthunt.com/products/tama96-desktop-terminal-ai-pet |  | 📖 daily 2026-04-02 |
+| WP Copilot | Unknown | 2026-04-02 | agent, wordpress, cms | https://www.producthunt.com/products/wp-copilot |  | 📖 daily 2026-04-02 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
