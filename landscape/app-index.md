@@ -315,6 +315,13 @@
 | GLM-5V-Turbo | Z-AI | 2026-04-02 | foundation-model, gui-automation, vision-to-code | https://www.producthunt.com/products/z-ai |  | 📖 daily 2026-04-02 |
 | tama96 | Unknown | 2026-04-02 | agent-ui, desktop, terminal | https://www.producthunt.com/products/tama96-desktop-terminal-ai-pet |  | 📖 daily 2026-04-02 |
 | WP Copilot | Unknown | 2026-04-02 | agent, wordpress, cms | https://www.producthunt.com/products/wp-copilot |  | 📖 daily 2026-04-02 |
+| GLM-5V-Turbo: Vision-to-code foundation model for real GUI automation | Zhipu AI | 2026-04-02 | foundation-model, gui-agent, vision-to-code | https://www.producthunt.com/products/z-ai |  | ⚡ daily 2026-04-02 — 智谱发布视觉到代码基础模型，专攻 GUI 自动化，代表 VLA 技术向应用层延伸 |
+| r/programming bans all discussion of LLM programming | — | 2026-04-02 | community, signal | https://old.reddit.com/r/programming/comments/1s9jkzi/announcement_temporary_llm_content_ban/ |  | 📖 daily 2026-04-02 — 主流编程社区临时禁止 LLM 内容讨论，反映开发者群体对 AI 编程内容的疲劳与反弹 |
+| 你的工作，能被一个 Agent 跑完吗？ | — | 2026-04-02 | career, agentic | https://www.woshipm.com/?p=6368829 |  | 📖 daily 2026-04-02 — 深度分析 AI 时代职业生存法则：默会知识与情绪交付是 AI 无法逾越的护城河 |
+| March 2026: LangChain Newsletter - LangSmith Fleet (formerly Agent Builder) | LangChain | 2026-04-02 | agent-builder, llmops, observability | https://blog.langchain.com/march-2026-langchain-newsletter/ |  | 🔧 daily 2026-04-02 — LangSmith Fleet 正式发布，Agent Builder 更名升级，提供可视化 Agent 构建与监控能力 |
+| Maxkb4j v2.6.0 已经发布，开源 LLMOps 平台 | Maxkb4j Team | 2026-04-02 | llmops, open-source, deployment | https://www.oschina.net/news/416782 |  | 🔧 daily 2026-04-02 — 国产开源 LLMOps 平台更新，提供模型部署、监控、评估一体化能力 |
+| Gradient Labs gives every bank customer an AI account manager | Gradient Labs / OpenAI | 2026-04-02 | agent, workflow, banking | https://openai.com/index/gradient-labs |  | 🔧 daily 2026-04-02 — OpenAI 官方案例：Gradient Labs 用 GPT-4.1/5.4 构建银行 AI 客服 Agent，低延迟高可靠 |
+| tama96: A Tamagotchi for your terminal, desktop, and AI agents | tama96 Team | 2026-04-02 | agent-ui, developer-tool, fun | https://www.producthunt.com/products/tama96-desktop-terminal-ai-pet | 🎯 agent-ui | 🔧 daily 2026-04-02 — 终端 AI 宠物，为开发者提供有趣的 Agent 交互界面，Product Hunt 新品 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
