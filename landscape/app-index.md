@@ -302,6 +302,14 @@
 | llm 0.30：Simon Willison 的 LLM 命令行工具更新 | Simon Willison | 2026-04-01 | llm, cli, plugin | https://simonwillison.net/2026/Mar/31/llm/#atom-everything |  | 📖 daily 2026-04-01 |
 | LangChain × MongoDB 合作：在 Atlas 上构建生产级 AI Agent | LangChain + MongoDB | 2026-04-01 | vector, memory, observability | https://blog.langchain.com/announcing-the-langchain-mongodb-partnership-the-ai-agent-stack-that-runs-on-the-database-you-already-trust/ |  | 🔧 daily 2026-04-01 |
 | pg_textsearch：Postgres BM25 相关性排序全文搜索扩展 | Timescale | 2026-04-01 | vector, search, postgres | https://github.com/timescale/pg_textsearch |  | 🔧 daily 2026-04-01 |
+| OpenAI Gradient Labs: AI Agents for Banking Support Workflows | OpenAI | 2026-04-02 | agent, workflow, enterprise | https://openai.com/index/gradient-labs |  | ⚡ daily 2026-04-02 — GPT-4.1/5.4 mini/nano 驱动银行客服 Agent，低延迟高可靠，代表 frontier agent 落地新案例 |
+| Automating Competitive Price Intelligence with Amazon Nova Act | AWS | 2026-04-02 | workflow, automation, nova | https://aws.amazon.com/blogs/machine-learning/automating-competitive-price-intelligence-with-amazon-nova-act/ |  | 🔧 daily 2026-04-02 — AWS 官方教程：用 Nova Act 构建自动化价格情报系统，实时市场洞察驱动定价决策 |
+| WP Copilot: Agentic AI Copilot for WordPress | Unknown | 2026-04-02 | agent, wordpress, cms | https://www.producthunt.com/products/wp-copilot |  | 📖 daily 2026-04-02 — WordPress 专属 agentic copilot，垂直 CMS 场景的 agent 落地尝试 |
+| LangChain March 2026: LangSmith Fleet (Agent Builder) + NVIDIA Integration | LangChain | 2026-04-02 | agent, observability, nvidia | https://blog.langchain.com/march-2026-langchain-newsletter/ |  | 🔧 daily 2026-04-02 — LangSmith Fleet 正式更名 Agent Builder，新增 NVIDIA 集成，Agent 开发工具链持续成熟 |
+| Simon Willison March 2026 Newsletter: Agentic Engineering Patterns | Simon Willison | 2026-04-02 | agentic, patterns, streaming | https://simonwillison.net/2026/Apr/2/march-newsletter/#atom-everything |  | ⚡ daily 2026-04-02 — 月度精华：agentic engineering 模式 + streaming experts with MoE，实战经验沉淀 |
+| MaxKB4J v2.6.0: Open Source LLMOps Platform Update | MaxKB4J | 2026-04-02 | llmops, open-source, deployment | https://www.oschina.net/news/416782 |  | 🔧 daily 2026-04-02 — 开源 LLMOps 平台 v2.6.0 发布，支持企业级 LLM 应用部署与管理 |
+| tama96: Tamagotchi for Terminal + AI Agents | Unknown | 2026-04-02 | agent-ui, desktop, gamification | https://www.producthunt.com/products/tama96-desktop-terminal-ai-pet | 🎯 agent-ui | 📖 daily 2026-04-02 — 🎯 终端 AI 宠物伴侣，将 agent 状态可视化 + 游戏化，探索 agent UI 新形态 |
+| GLM-5V-Turbo: Vision-to-Code Foundation Model for GUI Automation | Z-AI | 2026-04-02 | foundation-model, vision, gui-automation | https://www.producthunt.com/products/z-ai |  | ⚡ daily 2026-04-02 — 视觉到代码基础模型，专为 GUI 自动化设计，多模态 agent 基础设施新进展 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
