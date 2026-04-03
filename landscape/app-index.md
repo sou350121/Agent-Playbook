@@ -322,6 +322,11 @@
 | Maxkb4j v2.6.0 已经发布，开源 LLMOps 平台 | Maxkb4j Team | 2026-04-02 | llmops, open-source, deployment | https://www.oschina.net/news/416782 |  | 🔧 daily 2026-04-02 — 国产开源 LLMOps 平台更新，提供模型部署、监控、评估一体化能力 |
 | Gradient Labs gives every bank customer an AI account manager | Gradient Labs / OpenAI | 2026-04-02 | agent, workflow, banking | https://openai.com/index/gradient-labs |  | 🔧 daily 2026-04-02 — OpenAI 官方案例：Gradient Labs 用 GPT-4.1/5.4 构建银行 AI 客服 Agent，低延迟高可靠 |
 | tama96: A Tamagotchi for your terminal, desktop, and AI agents | tama96 Team | 2026-04-02 | agent-ui, developer-tool, fun | https://www.producthunt.com/products/tama96-desktop-terminal-ai-pet | 🎯 agent-ui | 🔧 daily 2026-04-02 — 终端 AI 宠物，为开发者提供有趣的 Agent 交互界面，Product Hunt 新品 |
+| Cursor 3 | Cursor | 2026-04-03 | agent-ui, coding-agent, ide | https://cursor.com/blog/cursor-3 |  | ⚡ daily 2026-04-03 — AI IDE 重大版本更新，代表 vibe coding 工具链成熟度里程碑 |
+| OpenAI 收购科技播客 TBPN | OpenAI | 2026-04-03 | openai, media, ecosystem | https://openai.com/index/openai-acquires-tbpn/ |  | ⚡ daily 2026-04-03 — OpenAI 首次收购媒体资产，标志 AI 公司开始布局叙事话语权 |
+| Gemma 4 开源四连发 | Google DeepMind | 2026-04-03 | gemma, open-model, multimodal | https://simonwillison.net/2026/Apr/2/gemma-4/#atom-everything |  | ⚡ daily 2026-04-03 — 2B/4B/31B/MoE 四款 Apache 2.0 视觉模型，开源 frontier 能力新基准 |
+| LangChain 开源模型阈值报告 | LangChain | 2026-04-03 | open-model, agent, cost | https://blog.langchain.com/open-models-have-crossed-a-threshold/ |  | 🔧 daily 2026-04-03 — GLM-5/MiniMax M2.7 在核心 Agent 任务上匹敌闭源 frontier，成本延迟大幅降低 |
+| AWS Strands Evals ActorSimulator | AWS | 2026-04-03 | evaluation, agent, sdk | https://aws.amazon.com/blogs/machine-learning/simulate-realistic-users-to-evaluate-multi-turn-ai-agents-in-strands-evals/ |  | 🔧 daily 2026-04-03 — 结构化用户模拟集成到评估流水线，解决多轮 Agent 测试难题 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
