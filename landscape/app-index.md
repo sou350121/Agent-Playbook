@@ -327,6 +327,14 @@
 | Gemma 4 开源四连发 | Google DeepMind | 2026-04-03 | gemma, open-model, multimodal | https://simonwillison.net/2026/Apr/2/gemma-4/#atom-everything |  | ⚡ daily 2026-04-03 — 2B/4B/31B/MoE 四款 Apache 2.0 视觉模型，开源 frontier 能力新基准 |
 | LangChain 开源模型阈值报告 | LangChain | 2026-04-03 | open-model, agent, cost | https://blog.langchain.com/open-models-have-crossed-a-threshold/ |  | 🔧 daily 2026-04-03 — GLM-5/MiniMax M2.7 在核心 Agent 任务上匹敌闭源 frontier，成本延迟大幅降低 |
 | AWS Strands Evals ActorSimulator | AWS | 2026-04-03 | evaluation, agent, sdk | https://aws.amazon.com/blogs/machine-learning/simulate-realistic-users-to-evaluate-multi-turn-ai-agents-in-strands-evals/ |  | 🔧 daily 2026-04-03 — 结构化用户模拟集成到评估流水线，解决多轮 Agent 测试难题 |
+| Vulnerability Research Is Cooked — Coding Agents 正在重塑安全研究 | Simon Willison | 2026-04-04 | security, coding-agent, vulnerability | https://simonwillison.net/2026/Apr/3/vulnerability-research-is-cooked/ |  | ⚡ daily 2026-04-04 |
+| How My Agents Self-Heal in Production — 生产环境 Agent 自愈管道 | LangChain | 2026-04-04 | agent, deployment, llmops | https://blog.langchain.com/production-agents-self-heal/ |  | 🔧 daily 2026-04-04 |
+| Evaluating alignment of behavioral dispositions in LLMs | Google Research | 2026-04-04 | alignment, evaluation, safety | https://research.google/blog/evaluating-alignment-of-behavioral-dispositions-in-llms/ |  | 📖 daily 2026-04-04 |
+| Oblivion: Self-Adaptive Agentic Memory Control — 遗忘驱动的 Agent 记忆控制 | arXiv authors | 2026-04-04 | agent, memory, rag | https://arxiv.org/abs/2604.00131 |  | 📖 daily 2026-04-04 |
+| Agentic Tool Use in Large Language Models — LLM 工具使用综述 | arXiv authors | 2026-04-04 | agent, tool-use, survey | https://arxiv.org/abs/2604.00835 |  | 📖 daily 2026-04-04 |
+| The cognitive impact of coding agents — 编程代理的认知成本 | Simon Willison | 2026-04-04 | coding-agent, developer-experience | https://simonwillison.net/2026/Apr/3/cognitive-cost/ |  | 📖 daily 2026-04-04 |
+| Anthropic 禁止 Claude Code 订阅用于 OpenClaw 等第三方 harness | Anthropic | 2026-04-04 | claude, policy, third-party | https://news.ycombinator.com/item?id=47633396 |  | ⚡ daily 2026-04-04 |
+| Wan 2.7 now available on Together AI — 四模型视频生成套件 | Together AI / Wan | 2026-04-04 | video, generation, multimodal | https://www.together.ai/blog/wan-2-7-now-available-on-together-ai |  | 🔧 daily 2026-04-04 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
