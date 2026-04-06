@@ -335,6 +335,12 @@
 | The cognitive impact of coding agents — 编程代理的认知成本 | Simon Willison | 2026-04-04 | coding-agent, developer-experience | https://simonwillison.net/2026/Apr/3/cognitive-cost/ |  | 📖 daily 2026-04-04 |
 | Anthropic 禁止 Claude Code 订阅用于 OpenClaw 等第三方 harness | Anthropic | 2026-04-04 | claude, policy, third-party | https://news.ycombinator.com/item?id=47633396 |  | ⚡ daily 2026-04-04 |
 | Wan 2.7 now available on Together AI — 四模型视频生成套件 | Together AI / Wan | 2026-04-04 | video, generation, multimodal | https://www.together.ai/blog/wan-2-7-now-available-on-together-ai |  | 🔧 daily 2026-04-04 |
+| Codex pricing to align with API token usage, instead of per-message | OpenAI | 2026-04-06 | pricing, codex, api | https://help.openai.com/en/articles/20001106-codex-rate-card |  | ⚡ daily 2026-04-06 |
+| Running Gemma 4 locally with LM Studio's new headless CLI and Claude Code | George Liu | 2026-04-06 | local-llm, gemma, cli | https://ai.georgeliu.com/p/running-google-gemma-4-locally-with |  | 🔧 daily 2026-04-06 |
+| scan-for-secrets 0.1 | Simon Willison | 2026-04-06 | security, claude-code, tool | https://simonwillison.net/2026/Apr/5/scan-for-secrets-3/#atom-everything |  | 🔧 daily 2026-04-06 |
+| Nanocode: The best Claude Code that $200 can buy in pure JAX on TPUs | salmanmohammadi | 2026-04-06 | training, jax, tpu, agentic | https://github.com/salmanmohammadi/nanocode/discussions/1 |  | 🔧 daily 2026-04-06 |
+| Continual learning for AI agents | LangChain | 2026-04-06 | learning, architecture, concept | https://blog.langchain.com/continual-learning-for-ai-agents/ |  | 📖 daily 2026-04-06 |
+| Quoting Chengpeng Mou | — | 2026-04-06 | healthcare, usage-data, insight | https://simonwillison.net/2026/Apr/5/chengpeng-mou/#atom-everything |  | 📖 daily 2026-04-06 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
