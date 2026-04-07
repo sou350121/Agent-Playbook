@@ -341,6 +341,14 @@
 | Nanocode: The best Claude Code that $200 can buy in pure JAX on TPUs | salmanmohammadi | 2026-04-06 | training, jax, tpu, agentic | https://github.com/salmanmohammadi/nanocode/discussions/1 |  | 🔧 daily 2026-04-06 |
 | Continual learning for AI agents | LangChain | 2026-04-06 | learning, architecture, concept | https://blog.langchain.com/continual-learning-for-ai-agents/ |  | 📖 daily 2026-04-06 |
 | Quoting Chengpeng Mou | — | 2026-04-06 | healthcare, usage-data, insight | https://simonwillison.net/2026/Apr/5/chengpeng-mou/#atom-everything |  | 📖 daily 2026-04-06 |
+| Launch HN: Freestyle – Sandboxes for Coding Agents | Freestyle | 2026-04-07 | coding-agent, sandbox, infrastructure | https://www.freestyle.sh/ |  | ⚡ daily 2026-04-07 — 专为 coding agents 设计的云沙箱基础设施，解决 agent 执行安全问题 |
+| Accelerate agentic tool calling with serverless model customization in Amazon SageMaker AI | AWS | 2026-04-07 | tool-calling, fine-tuning, RLVR | https://aws.amazon.com/blogs/machine-learning/accelerate-agentic-tool-calling-with-serverless-model-customization-in-amazon-sagemaker-ai/ |  | 🔧 daily 2026-04-07 — 使用 RLVR 微调 Qwen 2.5 7B 提升 agent 工具调用性能的完整实践 |
+| Announcing the OpenAI Safety Fellowship | OpenAI | 2026-04-07 | safety, alignment, research | https://openai.com/index/introducing-openai-safety-fellowship |  | ⚡ daily 2026-04-07 — OpenAI 试点项目支持独立安全与对齐研究，培养下一代人才 |
+| Google AI Edge Gallery | Google | 2026-04-07 | on-device, gemma, mobile | https://simonwillison.net/2026/Apr/6/google-ai-edge-gallery/ |  | 🔧 daily 2026-04-07 — Google 官方 iPhone 应用，本地运行 Gemma 4 模型，性能出色 |
+| SWAY: A Counterfactual Computational Linguistic Approach to Measuring and Mitigating Sycophancy | — | 2026-04-07 | alignment, sycophancy, evaluation | https://arxiv.org/abs/2604.02423 |  | 🔧 daily 2026-04-07 — LLM 谄媚倾向的测量与缓解新方法，对评估系统有参考价值（arXiv） |
+| Using LLM-as-a-Judge/Jury to Advance Scalable, Clinically-Validated Safety Evaluations of Model Responses to Users Demonstrating Psychosis | — | 2026-04-07 | safety, evaluation, mental-health | https://arxiv.org/abs/2604.02359 |  | 🔧 daily 2026-04-07 — 使用 LLM-as-a-Jury 进行心理健康场景的安全评估，临床验证方法（arXiv） |
+| Build AI-powered employee onboarding agents with Amazon Quick | AWS | 2026-04-07 | agent, hr, tutorial | https://aws.amazon.com/blogs/machine-learning/build-ai-powered-employee-onboarding-agents-with-amazon-quick/ |  | 📖 daily 2026-04-07 — AWS Quick 构建 HR onboarding agent 的完整教程，连接 HR 系统自动化任务 |
+| Show HN: Ghost Pepper – Local hold-to-talk speech-to-text for macOS | matthartman | 2026-04-07 | speech-to-text, local, macos | https://github.com/matthartman/ghost-pepper |  | 🔧 daily 2026-04-07 — 100% 本地语音转文字 macOS 应用，数据不出设备，适合编码和邮件场景 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
