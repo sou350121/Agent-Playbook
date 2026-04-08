@@ -349,6 +349,11 @@
 | Using LLM-as-a-Judge/Jury to Advance Scalable, Clinically-Validated Safety Evaluations of Model Responses to Users Demonstrating Psychosis | — | 2026-04-07 | safety, evaluation, mental-health | https://arxiv.org/abs/2604.02359 |  | 🔧 daily 2026-04-07 — 使用 LLM-as-a-Jury 进行心理健康场景的安全评估，临床验证方法（arXiv） |
 | Build AI-powered employee onboarding agents with Amazon Quick | AWS | 2026-04-07 | agent, hr, tutorial | https://aws.amazon.com/blogs/machine-learning/build-ai-powered-employee-onboarding-agents-with-amazon-quick/ |  | 📖 daily 2026-04-07 — AWS Quick 构建 HR onboarding agent 的完整教程，连接 HR 系统自动化任务 |
 | Show HN: Ghost Pepper – Local hold-to-talk speech-to-text for macOS | matthartman | 2026-04-07 | speech-to-text, local, macos | https://github.com/matthartman/ghost-pepper |  | 🔧 daily 2026-04-07 — 100% 本地语音转文字 macOS 应用，数据不出设备，适合编码和邮件场景 |
+| Anthropic Project Glasswing：限制 Claude Mythos 仅供安全研究人员 | Anthropic | 2026-04-08 | safety, frontier-model, security | https://www.anthropic.com/glasswing |  | ⚡ daily 2026-04-08 |
+| GLM-5.1：Z.ai 开源 754B 参数长程任务模型 | Z.ai | 2026-04-08 | open-source, long-context, foundation-model | https://simonwillison.net/2026/Apr/7/glm-51/ |  | ⚡ daily 2026-04-08 |
+| LangChain Deep Agents v0.5：异步子代理 + 多模态文件系统 | LangChain | 2026-04-08 | agent, async, multimodal | https://blog.langchain.com/deep-agents-v0-5/ |  | 🔧 daily 2026-04-08 |
+| Arcade.dev MCP 工具集集成 LangSmith Fleet | Arcade + LangChain | 2026-04-08 | mcp, tools, governance | https://blog.langchain.com/arcade-dev-tools-now-in-langsmith-fleet/ |  | 🔧 daily 2026-04-08 |
+| Gemma 4 Multimodal Fine-Tuner：Apple Silicon 本地微调工具 | mattmireles | 2026-04-08 | fine-tuning, apple-silicon, multimodal | https://github.com/mattmireles/gemma-tuner-multimodal |  | 🔧 daily 2026-04-08 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
