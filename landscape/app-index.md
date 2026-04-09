@@ -354,6 +354,14 @@
 | LangChain Deep Agents v0.5：异步子代理 + 多模态文件系统 | LangChain | 2026-04-08 | agent, async, multimodal | https://blog.langchain.com/deep-agents-v0-5/ |  | 🔧 daily 2026-04-08 |
 | Arcade.dev MCP 工具集集成 LangSmith Fleet | Arcade + LangChain | 2026-04-08 | mcp, tools, governance | https://blog.langchain.com/arcade-dev-tools-now-in-langsmith-fleet/ |  | 🔧 daily 2026-04-08 |
 | Gemma 4 Multimodal Fine-Tuner：Apple Silicon 本地微调工具 | mattmireles | 2026-04-08 | fine-tuning, apple-silicon, multimodal | https://github.com/mattmireles/gemma-tuner-multimodal |  | 🔧 daily 2026-04-08 |
+| Claude Managed Agents 正式发布 | Anthropic | 2026-04-09 | agent, managed-service, enterprise | https://claude.com/blog/claude-managed-agents |  | ⚡ daily 2026-04-09 — Anthropic 推出托管 Agent 服务，企业可直接部署无需自建基础设施 |
+| ALTK-Evolve：IBM 研发 Agent 在职学习框架 | IBM Research | 2026-04-09 | agent, online-learning, ibm | https://huggingface.co/blog/ibm-research/altk-evolve |  | 🔧 daily 2026-04-09 — IBM 提出 Agent 在职学习新方法，无需离线训练即可适应新任务 |
+| OpenAI 企业 AI 下一阶段：Frontier + Codex + 公司级 Agent | OpenAI | 2026-04-09 | enterprise, agent, codex | https://openai.com/index/next-phase-of-enterprise-ai |  | ⚡ daily 2026-04-09 — OpenAI 定义企业 AI 采用加速路径，整合 Frontier/Codex/公司级 Agent 产品线 |
+| LangChain Better Harness：用 Eval 信号驱动 Agent 自优化 | LangChain | 2026-04-09 | eval, agent, optimization | https://blog.langchain.com/better-harness-a-recipe-for-harness-hill-climbing-with-evals/ | [evaluation] | 🔧 daily 2026-04-09 — LangChain 提出用强评估信号驱动 Agent harness 自动迭代优化 |
+| Google Research 发布两个学术 AI Agent：图表优化 + 同行评审辅助 | Google Research | 2026-04-09 | agent, academic, workflow | https://research.google/blog/improving-the-academic-workflow-introducing-two-ai-agents-for-better-figures-and-peer-review/ |  | 🔧 daily 2026-04-09 — Google 针对学术工作流推出专用 Agent，辅助图表制作与论文评审 |
+| 医疗领域 Agent 工作流的人机协同设计模式 | AWS | 2026-04-09 | healthcare, agent, compliance | https://aws.amazon.com/blogs/machine-learning/human-in-the-loop-constructs-for-agentic-workflows-in-healthcare-and-life-sciences/ |  | 📖 daily 2026-04-09 — AWS 总结医疗/生命科学领域 Agent 的人机协同合规设计模式 |
+| Meta Muse Spark 发布：Llama 4 后首个模型，meta.ai 集成新工具 | Meta | 2026-04-09 | model-release, meta, muse | https://simonwillison.net/2026/Apr/8/muse-spark/#atom-everything |  | ⚡ daily 2026-04-09 — Meta 发布 Llama 4 后首个模型 Muse Spark，托管服务 + meta.ai 新工具链 |
+| AWS Nova Embeddings：语义音频搜索实战教程 | AWS | 2026-04-09 | embedding, audio, rag | https://aws.amazon.com/blogs/machine-learning/building-intelligent-audio-search-with-amazon-nova-embeddings-a-deep-dive-into-semantic-audio-understanding/ | [RAG] | 📖 daily 2026-04-09 — AWS 详解 Nova 多模态 Embedding 在音频搜索场景的落地实践 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
