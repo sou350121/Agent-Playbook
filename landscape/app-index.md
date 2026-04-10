@@ -362,6 +362,12 @@
 | 医疗领域 Agent 工作流的人机协同设计模式 | AWS | 2026-04-09 | healthcare, agent, compliance | https://aws.amazon.com/blogs/machine-learning/human-in-the-loop-constructs-for-agentic-workflows-in-healthcare-and-life-sciences/ |  | 📖 daily 2026-04-09 — AWS 总结医疗/生命科学领域 Agent 的人机协同合规设计模式 |
 | Meta Muse Spark 发布：Llama 4 后首个模型，meta.ai 集成新工具 | Meta | 2026-04-09 | model-release, meta, muse | https://simonwillison.net/2026/Apr/8/muse-spark/#atom-everything |  | ⚡ daily 2026-04-09 — Meta 发布 Llama 4 后首个模型 Muse Spark，托管服务 + meta.ai 新工具链 |
 | AWS Nova Embeddings：语义音频搜索实战教程 | AWS | 2026-04-09 | embedding, audio, rag | https://aws.amazon.com/blogs/machine-learning/building-intelligent-audio-search-with-amazon-nova-embeddings-a-deep-dive-into-semantic-audio-understanding/ | [RAG] | 📖 daily 2026-04-09 — AWS 详解 Nova 多模态 Embedding 在音频搜索场景的落地实践 |
+| Multimodal Embedding & Reranker Models with Sentence Transformers | Hugging Face | 2026-04-10 | embedding, reranker, multimodal | https://huggingface.co/blog/multimodal-sentence-transformers |  | 🔧 daily 2026-04-10 |
+| The future of managing agents at scale: AWS Agent Registry now in preview | AWS | 2026-04-10 | agent, infrastructure, enterprise | https://aws.amazon.com/blogs/machine-learning/the-future-of-managing-agents-at-scale-aws-agent-registry-now-in-preview/ |  | ⚡ daily 2026-04-10 |
+| Human judgment in the agent improvement loop | LangChain | 2026-04-10 | evaluation, agent, human-in-loop | https://blog.langchain.com/human-judgment-in-the-agent-improvement-loop/ |  | 📖 daily 2026-04-10 |
+| Deep Agents Deploy: an open alternative to Claude Managed Agents | LangChain | 2026-04-10 | agent, deployment, open-source | https://blog.langchain.com/deep-agents-deploy-an-open-alternative-to-claude-managed-agents/ |  | ⚡ daily 2026-04-10 |
+| 即梦上线首个 Vibe Create 工具小章鱼支持多模态同屏共创 | 即梦 AI | 2026-04-10 | agent-ui, multimodal, china | https://readhub.cn/topic/8sBGEJjLfoB |  | 🔧 daily 2026-04-10 |
+| CyberAgent moves faster with ChatGPT Enterprise and Codex | OpenAI | 2026-04-10 | case-study, enterprise, codex | https://openai.com/index/cyberagent |  | 📖 daily 2026-04-10 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
