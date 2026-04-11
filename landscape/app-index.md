@@ -368,6 +368,8 @@
 | Deep Agents Deploy: an open alternative to Claude Managed Agents | LangChain | 2026-04-10 | agent, deployment, open-source | https://blog.langchain.com/deep-agents-deploy-an-open-alternative-to-claude-managed-agents/ |  | ⚡ daily 2026-04-10 |
 | 即梦上线首个 Vibe Create 工具小章鱼支持多模态同屏共创 | 即梦 AI | 2026-04-10 | agent-ui, multimodal, china | https://readhub.cn/topic/8sBGEJjLfoB |  | 🔧 daily 2026-04-10 |
 | CyberAgent moves faster with ChatGPT Enterprise and Codex | OpenAI | 2026-04-10 | case-study, enterprise, codex | https://openai.com/index/cyberagent |  | 📖 daily 2026-04-10 |
+| DeepSeek V4 | DeepSeek | 2026-04-11 | foundation-model, china-ai | https://m.ithome.com/html/937682.htm |  | 📖 daily 2026-04-11 |
+| FluidCAD | independent | 2026-04-11 | cad, workflow, javascript | https://fluidcad.io/ |  | 📖 daily 2026-04-11 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
