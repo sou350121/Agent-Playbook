@@ -370,6 +370,9 @@
 | CyberAgent moves faster with ChatGPT Enterprise and Codex | OpenAI | 2026-04-10 | case-study, enterprise, codex | https://openai.com/index/cyberagent |  | 📖 daily 2026-04-10 |
 | DeepSeek V4 | DeepSeek | 2026-04-11 | foundation-model, china-ai | https://m.ithome.com/html/937682.htm |  | 📖 daily 2026-04-11 |
 | FluidCAD | independent | 2026-04-11 | cad, workflow, javascript | https://fluidcad.io/ |  | 📖 daily 2026-04-11 |
+| How We Broke Top AI Agent Benchmarks: And What Comes Next | Berkeley RDI | 2026-04-12 | benchmark, evaluation, agent | https://rdi.berkeley.edu/blog/trustworthy-benchmarks-cont/ | [evaluation] | ⚡ daily 2026-04-12 — Berkeley 团队揭示主流 Agent 基准测试缺陷，提出更可靠评估框架 |
+| Cirrus Labs to join OpenAI | Cirrus Labs → OpenAI | 2026-04-12 | acquisition, openai, ci/cd | https://cirruslabs.org/ |  | 🔧 daily 2026-04-12 — Cirrus Labs 加入 OpenAI，可能增强 Codex/Agent 基础设施能力 |
+| Your harness, your memory | LangChain | 2026-04-12 | agent, memory, harness | https://blog.langchain.com/your-harness-your-memory/ | 🎯 agent-ui | ⚡ daily 2026-04-12 — LangChain 详解 Agent Harness 与记忆系统的耦合关系，警告闭源 API 依赖风险 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
