@@ -373,6 +373,11 @@
 | How We Broke Top AI Agent Benchmarks: And What Comes Next | Berkeley RDI | 2026-04-12 | benchmark, evaluation, agent | https://rdi.berkeley.edu/blog/trustworthy-benchmarks-cont/ | [evaluation] | ⚡ daily 2026-04-12 — Berkeley 团队揭示主流 Agent 基准测试缺陷，提出更可靠评估框架 |
 | Cirrus Labs to join OpenAI | Cirrus Labs → OpenAI | 2026-04-12 | acquisition, openai, ci/cd | https://cirruslabs.org/ |  | 🔧 daily 2026-04-12 — Cirrus Labs 加入 OpenAI，可能增强 Codex/Agent 基础设施能力 |
 | Your harness, your memory | LangChain | 2026-04-12 | agent, memory, harness | https://blog.langchain.com/your-harness-your-memory/ | 🎯 agent-ui | ⚡ daily 2026-04-12 — LangChain 详解 Agent Harness 与记忆系统的耦合关系，警告闭源 API 依赖风险 |
+| Show HN: Claudraband – Claude Code for the Power User | halfwhey | 2026-04-13 | workflow, claude-code, terminal | https://github.com/halfwhey/claudraband |  | 🔧 daily 2026-04-13 — 为 Claude Code 用户提供扩展工作流支持，通过 tmux/xterm.js 实现可控会话管理 |
+| European AI. A playbook to own it | Mistral AI | 2026-04-13 | mistral, european-ai, sovereignty | https://europe.mistral.ai/ |  | ⚡ daily 2026-04-13 — Mistral 发布欧洲 AI 自主发展路线图，反映地缘技术竞争新态势 |
+| MiniMax 开源 M2.7 模型，海内外多家厂商完成适配 | MiniMax | 2026-04-13 | open-source, model-release, inference | http://tech.hexun.com/2026-04-13/223976873.html |  | 🔧 daily 2026-04-13 — M2.7 全球开源，华为昇腾/NVIDIA 等芯片厂商及推理平台首日完成适配 |
+| OpenAI 星门项目遭遇人才地震：三名核心成员跳槽 Meta | OpenAI | 2026-04-13 | talent, infrastructure, meta | https://readhub.cn/topic/8sGOm7uLIDZ |  | 📖 daily 2026-04-13 — OpenAI 5000 亿美元数据中心项目三名核心人员加盟 Meta，反映基础设施人才竞争加剧 |
+| 基于 Ghostty 带有分割标签页和为 Claude 编程设计的通知终端 | - | 2026-04-13 | terminal, claude-code, productivity | https://juejin.cn/post/7626946285019529250 | 🎯 agent-ui | 🔧 daily 2026-04-13 — 为 Claude Code 用户优化终端体验，支持分割标签页和通知系统，提升多会话管理效率 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
