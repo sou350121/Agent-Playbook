@@ -378,6 +378,10 @@
 | MiniMax 开源 M2.7 模型，海内外多家厂商完成适配 | MiniMax | 2026-04-13 | open-source, model-release, inference | http://tech.hexun.com/2026-04-13/223976873.html |  | 🔧 daily 2026-04-13 — M2.7 全球开源，华为昇腾/NVIDIA 等芯片厂商及推理平台首日完成适配 |
 | OpenAI 星门项目遭遇人才地震：三名核心成员跳槽 Meta | OpenAI | 2026-04-13 | talent, infrastructure, meta | https://readhub.cn/topic/8sGOm7uLIDZ |  | 📖 daily 2026-04-13 — OpenAI 5000 亿美元数据中心项目三名核心人员加盟 Meta，反映基础设施人才竞争加剧 |
 | 基于 Ghostty 带有分割标签页和为 Claude 编程设计的通知终端 | - | 2026-04-13 | terminal, claude-code, productivity | https://juejin.cn/post/7626946285019529250 | 🎯 agent-ui | 🔧 daily 2026-04-13 — 为 Claude Code 用户优化终端体验，支持分割标签页和通知系统，提升多会话管理效率 |
+| Cloudflare Agent Cloud 集成 OpenAI GPT-5.4 与 Codex | Cloudflare + OpenAI | 2026-04-14 | agent, enterprise, deployment | https://openai.com/index/cloudflare-openai-agent-cloud |  | ⚡ daily 2026-04-14 |
+| EinsteinArena：AI Agent 协作科学发现平台 | Together AI | 2026-04-14 | agent, collaboration, science | https://www.together.ai/blog/einsteinarena |  | 🔧 daily 2026-04-14 |
+| AWS Lambda + Amazon Nova：可扩展奖励函数构建教程 | AWS | 2026-04-14 | evaluation, RL, deployment | https://aws.amazon.com/blogs/machine-learning/how-to-build-effective-reward-functions-with-aws-lambda-for-amazon-nova-model-customization/ |  | 🔧 daily 2026-04-14 |
+| Hermes Agent v0.8.0：4.8 万星的自学习开源 Agent 框架 | Nous Research | 2026-04-14 | agent, open-source, learning-loop | https://hermes-agent.nousresearch.com |  | ⚡ daily 2026-04-14 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
