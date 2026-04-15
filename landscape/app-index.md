@@ -382,6 +382,8 @@
 | EinsteinArena：AI Agent 协作科学发现平台 | Together AI | 2026-04-14 | agent, collaboration, science | https://www.together.ai/blog/einsteinarena |  | 🔧 daily 2026-04-14 |
 | AWS Lambda + Amazon Nova：可扩展奖励函数构建教程 | AWS | 2026-04-14 | evaluation, RL, deployment | https://aws.amazon.com/blogs/machine-learning/how-to-build-effective-reward-functions-with-aws-lambda-for-amazon-nova-model-customization/ |  | 🔧 daily 2026-04-14 |
 | Hermes Agent v0.8.0：4.8 万星的自学习开源 Agent 框架 | Nous Research | 2026-04-14 | agent, open-source, learning-loop | https://hermes-agent.nousresearch.com |  | ⚡ daily 2026-04-14 |
+| Plain | dropseed | 2026-04-15 | agent, python, framework | https://github.com/dropseed/plain |  | 🔧 daily 2026-04-15 |
+| LangAlpha | ginlix-ai | 2026-04-15 | finance, mcp, agent | https://github.com/ginlix-ai/langalpha |  | ⚡ daily 2026-04-15 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
