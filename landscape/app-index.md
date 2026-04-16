@@ -384,6 +384,10 @@
 | Hermes Agent v0.8.0：4.8 万星的自学习开源 Agent 框架 | Nous Research | 2026-04-14 | agent, open-source, learning-loop | https://hermes-agent.nousresearch.com |  | ⚡ daily 2026-04-14 |
 | Plain | dropseed | 2026-04-15 | agent, python, framework | https://github.com/dropseed/plain |  | 🔧 daily 2026-04-15 |
 | LangAlpha | ginlix-ai | 2026-04-15 | finance, mcp, agent | https://github.com/ginlix-ai/langalpha |  | ⚡ daily 2026-04-15 |
+| The next evolution of the Agents SDK | OpenAI | 2026-04-16 | agent, sdk, sandbox | https://openai.com/index/the-next-evolution-of-the-agents-sdk |  | 📖 daily 2026-04-16 |
+| Libretto | Saffron Health | 2026-04-16 | browser-automation, agent, deterministic | https://github.com/saffron-health/libretto |  | 📖 daily 2026-04-16 |
+| Gemini 3.1 Flash TTS | Google | 2026-04-16 | tts, gemini, multimodal | https://simonwillison.net/2026/Apr/15/gemini-31-flash-tts/ |  | 📖 daily 2026-04-16 |
+| ChatGPT for Excel | OpenAI | 2026-04-16 | chatgpt, productivity, integration | https://chatgpt.com/apps/spreadsheets/ |  | 📖 daily 2026-04-16 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
