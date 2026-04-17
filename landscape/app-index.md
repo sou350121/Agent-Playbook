@@ -388,6 +388,12 @@
 | Libretto | Saffron Health | 2026-04-16 | browser-automation, agent, deterministic | https://github.com/saffron-health/libretto |  | 📖 daily 2026-04-16 |
 | Gemini 3.1 Flash TTS | Google | 2026-04-16 | tts, gemini, multimodal | https://simonwillison.net/2026/Apr/15/gemini-31-flash-tts/ |  | 📖 daily 2026-04-16 |
 | ChatGPT for Excel | OpenAI | 2026-04-16 | chatgpt, productivity, integration | https://chatgpt.com/apps/spreadsheets/ |  | 📖 daily 2026-04-16 |
+| Android CLI: Build Android apps 3x faster using any agent | Google | 2026-04-17 | agent-ui, android, cli | https://android-developers.googleblog.com/2026/04/build-android-apps-3x-faster-using-any-agent.html |  | 🔧 daily 2026-04-17 |
+| 要做电商 Agent OS，前钉钉最年轻副总裁创立的「攀峰智能」完成数千万天使轮 | 攀峰智能 | 2026-04-17 | agent, ecommerce, funding | https://www.36kr.com/p/3768320373441281 |  | ⚡ daily 2026-04-17 |
+| Launch HN: Kampala (YC W26) – Reverse-Engineer Apps into APIs | Kampala/YC W26 | 2026-04-17 | agent, api, reverse-engineer | https://www.zatanna.ai/kampala |  | ⚡ daily 2026-04-17 |
+| Laravel raised money and now injects ads directly into your agent | Laravel | 2026-04-17 | agent, monetization, warning | https://techstackups.com/articles/laravel-raised-money-and-now-injects-ads-directly-into-your-agent/ |  | 🔧 daily 2026-04-17 |
+| Introducing GPT-Rosalind for life sciences research | OpenAI | 2026-04-17 | reasoning-model, life-sciences, drug-discovery | https://openai.com/index/introducing-gpt-rosalind |  | ⚡ daily 2026-04-17 |
+| MiniMax M2.7 开源协议引争议：严禁商业用途 | MiniMax | 2026-04-17 | open-source, license, controversy | https://www.oschina.net/news/421258 |  | 🔧 daily 2026-04-17 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
