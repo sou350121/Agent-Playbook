@@ -394,6 +394,10 @@
 | Laravel raised money and now injects ads directly into your agent | Laravel | 2026-04-17 | agent, monetization, warning | https://techstackups.com/articles/laravel-raised-money-and-now-injects-ads-directly-into-your-agent/ |  | 🔧 daily 2026-04-17 |
 | Introducing GPT-Rosalind for life sciences research | OpenAI | 2026-04-17 | reasoning-model, life-sciences, drug-discovery | https://openai.com/index/introducing-gpt-rosalind |  | ⚡ daily 2026-04-17 |
 | MiniMax M2.7 开源协议引争议：严禁商业用途 | MiniMax | 2026-04-17 | open-source, license, controversy | https://www.oschina.net/news/421258 |  | 🔧 daily 2026-04-17 |
+| Anthropic 推出 Claude Design：由 Anthropic Labs 开发的新产品线 | Anthropic | 2026-04-18 | claude, anthropic-labs, product-launch | https://www.anthropic.com/news/claude-design-anthropic-labs |  | ⚡ daily 2026-04-18 — Anthropic Labs 首次推出独立产品线，标志从单一模型向产品化转型 |
+| Claude 4.7 Tokenizer 成本实测：新分词器如何影响你的账单 | — | 2026-04-18 | claude, tokenizer, cost-optimization | https://www.claudecodecamp.com/p/i-measured-claude-4-7-s-new-tokenizer-here-s-what-it-costs-you |  | 🔧 daily 2026-04-18 — HN 515 分热议，实测数据帮助开发者预估 Claude 4.7 迁移成本 |
+| Vidoc Security 复现 Anthropic Mythos 发现：用公开模型验证安全研究 | Vidoc Security | 2026-04-18 | security, mythos, independent-verification | https://blog.vidocsecurity.com/blog/we-reproduced-anthropics-mythos-findings-with-public-models |  | 🔧 daily 2026-04-18 — 独立团队用公开模型复现 Mythos 安全发现，验证方法论可迁移性 |
+| AWS Bedrock 推出 Nova Multimodal Embeddings：视频语义搜索新基元 | Amazon | 2026-04-18 | embedding, multimodal, video-search | https://aws.amazon.com/blogs/machine-learning/power-video-semantic-search-with-amazon-nova-multimodal-embeddings/ | [RAG] | 📖 daily 2026-04-18 — Nova 多模态嵌入支持视频内容理解，扩展 RAG 到视频检索场景 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
