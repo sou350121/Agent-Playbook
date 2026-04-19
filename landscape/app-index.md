@@ -398,6 +398,8 @@
 | Claude 4.7 Tokenizer 成本实测：新分词器如何影响你的账单 | — | 2026-04-18 | claude, tokenizer, cost-optimization | https://www.claudecodecamp.com/p/i-measured-claude-4-7-s-new-tokenizer-here-s-what-it-costs-you |  | 🔧 daily 2026-04-18 — HN 515 分热议，实测数据帮助开发者预估 Claude 4.7 迁移成本 |
 | Vidoc Security 复现 Anthropic Mythos 发现：用公开模型验证安全研究 | Vidoc Security | 2026-04-18 | security, mythos, independent-verification | https://blog.vidocsecurity.com/blog/we-reproduced-anthropics-mythos-findings-with-public-models |  | 🔧 daily 2026-04-18 — 独立团队用公开模型复现 Mythos 安全发现，验证方法论可迁移性 |
 | AWS Bedrock 推出 Nova Multimodal Embeddings：视频语义搜索新基元 | Amazon | 2026-04-18 | embedding, multimodal, video-search | https://aws.amazon.com/blogs/machine-learning/power-video-semantic-search-with-amazon-nova-multimodal-embeddings/ | [RAG] | 📖 daily 2026-04-18 — Nova 多模态嵌入支持视频内容理解，扩展 RAG 到视频检索场景 |
+| Claude system prompts as a git timeline | simonw | 2026-04-19 | claude, prompt-engineering, research-tool | https://simonwillison.net/2026/Apr/18/extract-system-prompts/ |  | 🔧 daily 2026-04-19 — Anthropic 公开 Claude 系统提示历史，Simon 用 git 时间线工具化便于研究演进 |
+| Adding a new content type to my blog-to-newsletter tool | simonw | 2026-04-19 | agentic-engineering, claude-code, workflow | https://simonwillison.net/guides/agentic-engineering-patterns/adding-a-new-content-type/ |  | 🔧 daily 2026-04-19 — 展示如何用单条 prompt 让 Claude Code 完成跨仓库代码修改的实战模式 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
