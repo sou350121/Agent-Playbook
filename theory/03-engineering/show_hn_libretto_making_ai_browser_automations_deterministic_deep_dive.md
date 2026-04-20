@@ -1,6 +1,6 @@
 ---
 auto_generated: true
-generated_at: "2026-04-20T05:48:08Z"
+generated_at: "2026-04-20T05:48:55Z"
 source_url: "https://github.com/saffron-health/libretto/releases/tag/v0.6.6"
 signal_type: "significant_update"
 ---
