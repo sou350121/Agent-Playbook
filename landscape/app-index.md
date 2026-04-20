@@ -400,6 +400,7 @@
 | AWS Bedrock 推出 Nova Multimodal Embeddings：视频语义搜索新基元 | Amazon | 2026-04-18 | embedding, multimodal, video-search | https://aws.amazon.com/blogs/machine-learning/power-video-semantic-search-with-amazon-nova-multimodal-embeddings/ | [RAG] | 📖 daily 2026-04-18 — Nova 多模态嵌入支持视频内容理解，扩展 RAG 到视频检索场景 |
 | Claude system prompts as a git timeline | simonw | 2026-04-19 | claude, prompt-engineering, research-tool | https://simonwillison.net/2026/Apr/18/extract-system-prompts/ |  | 🔧 daily 2026-04-19 — Anthropic 公开 Claude 系统提示历史，Simon 用 git 时间线工具化便于研究演进 |
 | Adding a new content type to my blog-to-newsletter tool | simonw | 2026-04-19 | agentic-engineering, claude-code, workflow | https://simonwillison.net/guides/agentic-engineering-patterns/adding-a-new-content-type/ |  | 🔧 daily 2026-04-19 — 展示如何用单条 prompt 让 Claude Code 完成跨仓库代码修改的实战模式 |
+| Headless everything for personal AI | Simon Willison | 2026-04-20 | agent, headless, personal-ai | https://simonwillison.net/2026/Apr/19/headless-everything/#atom-everything |  | ⚡ daily 2026-04-20 — 提出 headless 服务 + 个人 AI 的新范式，可能改变应用交互方式 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
