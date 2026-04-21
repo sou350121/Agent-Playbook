@@ -401,6 +401,14 @@
 | Claude system prompts as a git timeline | simonw | 2026-04-19 | claude, prompt-engineering, research-tool | https://simonwillison.net/2026/Apr/18/extract-system-prompts/ |  | 🔧 daily 2026-04-19 — Anthropic 公开 Claude 系统提示历史，Simon 用 git 时间线工具化便于研究演进 |
 | Adding a new content type to my blog-to-newsletter tool | simonw | 2026-04-19 | agentic-engineering, claude-code, workflow | https://simonwillison.net/guides/agentic-engineering-patterns/adding-a-new-content-type/ |  | 🔧 daily 2026-04-19 — 展示如何用单条 prompt 让 Claude Code 完成跨仓库代码修改的实战模式 |
 | Headless everything for personal AI | Simon Willison | 2026-04-20 | agent, headless, personal-ai | https://simonwillison.net/2026/Apr/19/headless-everything/#atom-everything |  | ⚡ daily 2026-04-20 — 提出 headless 服务 + 个人 AI 的新范式，可能改变应用交互方式 |
+| OpenAI ad partner now selling ChatGPT ad placements based on "prompt relevance" | OpenAI / StackAdapt | 2026-04-21 | monetization, chatgpt, ads | https://www.adweek.com/media/exclusive-leaked-deck-reveals-stackadapts-playbook-for-chatgpt-ads/ |  | ⚡ daily 2026-04-21 — ChatGPT 广告生态启动，agent 经济新变现路径 |
+| 亚马逊将向 Anthropic 追加投资 50 亿美元 | Amazon / Anthropic | 2026-04-21 | investment, partnership | https://readhub.cn/topic/8sUk7iyYTzD |  | ⚡ daily 2026-04-21 — 亚马逊追加 50 亿，生态绑定加深 |
+| Gradient-based Planning for World Models at Longer Horizons | BAIR (UC Berkeley) | 2026-04-21 | world-model, planning | http://bair.berkeley.edu/blog/2026/04/20/grasp/ |  | 📖 daily 2026-04-21 — 长视野规划新方法，agent 决策参考 |
+| We got 207 tok/s with Qwen3.5-27B on an RTX 3090 | Luce-Org | 2026-04-21 | inference, optimization, qwen | https://github.com/Luce-Org/lucebox-hub |  | 🔧 daily 2026-04-21 — 消费级 GPU 实现高吞吐推理，降低部署门槛 |
+| Accelerate Generative AI Inference on Amazon SageMaker AI with G7e Instances | AWS / NVIDIA | 2026-04-21 | inference, GPU, sagemaker | https://aws.amazon.com/blogs/machine-learning/accelerate-generative-ai-inference-on-amazon-sagemaker-ai-with-g7e-instances/ |  | 🔧 daily 2026-04-21 — RTX 6000 Blackwell 实例，推理加速 |
+| Claude Token Counter, now with model comparisons | Simon Willison | 2026-04-21 | token, eval, cost | https://simonwillison.net/2026/Apr/20/claude-token-counts/#atom-everything | [evaluation] | 🔧 daily 2026-04-21 — 多模型 token 成本对比，优化推理支出 |
+| ToolSimulator: scalable tool testing for AI agents | AWS | 2026-04-21 | agent, testing, evals | https://aws.amazon.com/blogs/machine-learning/toolsimulator-scalable-tool-testing-for-ai-agents/ | [evaluation] | 🔧 daily 2026-04-21 — 大规模 agent 工具测试框架，安全验证 |
+| OpenAI helps Hyatt advance AI among colleagues | OpenAI | 2026-04-21 | enterprise, casestudy | https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise |  | 📖 daily 2026-04-21 — 酒店业 AI 落地案例，GPT-5.4+Codex |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
