@@ -409,6 +409,14 @@
 | Claude Token Counter, now with model comparisons | Simon Willison | 2026-04-21 | token, eval, cost | https://simonwillison.net/2026/Apr/20/claude-token-counts/#atom-everything | [evaluation] | 🔧 daily 2026-04-21 — 多模型 token 成本对比，优化推理支出 |
 | ToolSimulator: scalable tool testing for AI agents | AWS | 2026-04-21 | agent, testing, evals | https://aws.amazon.com/blogs/machine-learning/toolsimulator-scalable-tool-testing-for-ai-agents/ | [evaluation] | 🔧 daily 2026-04-21 — 大规模 agent 工具测试框架，安全验证 |
 | OpenAI helps Hyatt advance AI among colleagues | OpenAI | 2026-04-21 | enterprise, casestudy | https://openai.com/index/hyatt-advances-ai-with-chatgpt-enterprise |  | 📖 daily 2026-04-21 — 酒店业 AI 落地案例，GPT-5.4+Codex |
+| SpaceX 宣布以 600 亿美元收购 AI 编程工具 Cursor | Cursor (AI Inc.) | 2026-04-22 | agent, coding-agent, m&a | https://www.bloomberg.com/news/articles/2026-04-21/spacex-says-has-agreement-to-acquire-cursor-for-60-billion |  | ⚡ daily 2026-04-22 — SpaceX 以 600 亿美元收购 Cursor，标志 AI 编程工具进入巨头整合阶段 |
+| Claude Code 从 Anthropic Pro 套餐中移除 | Anthropic | 2026-04-22 | claude, pricing, coding-agent | https://claude.com/pricing |  | ⚡ daily 2026-04-22 — Claude Code 不再包含在 Pro tier，仅保留给 Team/Enterprise，定价策略收紧 |
+| OpenAI Codex 达 400 万周活，联合 Accenture/PwC 等企业级推广 | OpenAI | 2026-04-22 | coding-agent, enterprise, llmops | https://openai.com/index/scaling-codex-to-enterprises-worldwide |  | 🔧 daily 2026-04-22 — Codex WAU 达 400 万，推出 Codex Labs 并联手 7 家全球系统集成商 |
+| CrabTrap：Brex 开源 LLM-as-judge Agent 安全代理 | Brex | 2026-04-22 | agent, security, guardrail | https://www.brex.com/journal/building-crabtrap-open-source |  | 🔧 daily 2026-04-22 — HTTP 代理层用 LLM 实时审查 Agent 外发请求，解决生产环境 Agent 安全痛点 |
+| Google ReasoningBank：让 Agent 从成败经验中学习推理模式 | Google Research | 2026-04-22 | agent, memory, reasoning | https://research.google/blog/reasoningbank-enabling-agents-to-learn-from-experience/ |  | 📖 daily 2026-04-22 — 从成功和失败轨迹中提炼高层推理模式，ICLR 论文 + GitHub 开源 |
+| Claude Cowork 登陆 Amazon Bedrock，知识工作者全面接入 | Anthropic / AWS | 2026-04-22 | agent, enterprise, gateway | https://aws.amazon.com/blogs/machine-learning/from-developer-desks-to-the-whole-organization-running-claude-cowork-in-amazon-bedrock/ |  | 🔧 daily 2026-04-22 — Claude Cowork 桌面应用通过 Bedrock 部署，按用量计费无 seat 授权费 |
+| Kimi K2.6 开源发布：300 Agent 集群 + SWE-Bench Pro 领先 | Moonshot AI | 2026-04-22 | agent, coding-agent, open-source | https://huggingface.co/moonshotai/Kimi-K2.6 |  | ⚡ daily 2026-04-22 — K2.6 开源，支持 300 子 Agent 并行 4000 协作步骤，SWE-Bench Pro 超所有闭源模型 |
+| OpenAI 发布 ChatGPT Images 2.0 | OpenAI | 2026-04-22 | multimodal, image-generation | https://openai.com/index/introducing-chatgpt-images-2-0/ |  | 🔧 daily 2026-04-22 — OpenAI 推出新一代图像生成模型，集成于 ChatGPT |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
