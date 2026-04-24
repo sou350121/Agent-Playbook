@@ -424,6 +424,15 @@
 | Speeding up agentic workflows with WebSockets in the Responses API | OpenAI | 2026-04-23 | agent, workflow, websocket | https://openai.com/index/speeding-up-agentic-workflows-with-websockets/ | 🎯 agent-ui | 🔧 daily 2026-04-23 — OpenAI Responses API 新增 WebSocket 支持 + 连接级缓存，显著降低 Codex agent loop 的 API 开销和延迟 |
 | Introducing workspace agents in ChatGPT | OpenAI | 2026-04-23 | agent, workspace, multi-agent | https://openai.com/index/introducing-workspace-agents-in-chatgpt/ | 🎯 agent-ui | ⚡ daily 2026-04-23 — ChatGPT 引入 Codex 驱动的 workspace agents——云端运行、自动化复杂工作流、团队级工具集成，Agent 从个人走向组织 |
 | Get to your first working agent in minutes: Announcing new features in Amazon Bedrock AgentCore | AWS | 2026-04-23 | agent, bedrock, deployment | https://aws.amazon.com/blogs/machine-learning/get-to-your-first-working-agent-in-minutes-announcing-new-features-in-amazon-bedrock-agentcore/ |  | 🔧 daily 2026-04-23 — AWS Bedrock AgentCore 大幅简化 Agent 开发流程，从原型到生产部署的基建障碍持续消除 |
+| OpenAI 发布 GPT-5.5：智能与效率同步跃升，Terminal-Bench 82.7% | OpenAI | 2026-04-24 | gpt-5.5, agentic-coding, computer-use | https://openai.com/index/introducing-gpt-5-5/ |  | ⚡ daily 2026-04-24 — GPT-5.5 在 agentic coding/computer use 上大幅领先，同时保持与 GPT-5.4 相同的 per-token 延迟，效率不妥协 |
+| Anthropic 二级估值逼近 1 万亿美元，首次超越 OpenAI | Anthropic | 2026-04-24 | valuation, anthropic, market | https://www.36kr.com/p/3778903190639617 |  | ⚡ daily 2026-04-24 — 二级市场报价反超 OpenAI，资本逻辑从模型排名转向入口控制和商业兑现 |
+| 腾讯混元 Hy3 preview 发布，壁仞科技 Day0 适配国产 GPU | 腾讯/壁仞科技 | 2026-04-24 | tencent, hy3, domestic-gpu | https://readhub.cn/topic/8sZBeCdgvdJ |  | 📖 daily 2026-04-24 — 混元 Hy3 preview 开源，vLLM Day0 适配壁砺 166 系列，国模+国芯落地验证 |
+| Anthropic 发布 Claude Code 质量事故复盘：三个独立问题叠加 | Anthropic | 2026-04-24 | claude-code, postmortem, quality | https://www.anthropic.com/engineering/april-23-postmortem |  | 🔧 daily 2026-04-24 — reasoning effort 变更 + thinking 清除 bug + verbosity 指令叠加导致质量下降，已重置用户额度 |
+| Claude Desktop App 被曝私自安装未授权浏览器桥接扩展 | Anthropic | 2026-04-24 | claude-desktop, security, browser-extension | https://letsdatascience.com/news/claude-desktop-installs-preauthorized-browser-extension-mani-4064fb1a |  | 🔧 daily 2026-04-24 — 桌面端静默安装原生消息桥接扩展，引发安全与透明度担忧 |
+| SuperHQ：用 microVM 沙箱隔离运行 AI 编程 Agent | superhq-ai | 2026-04-24 | sandbox, coding-agent, microVM | https://github.com/superhq-ai/superhq |  | 🔧 daily 2026-04-24 — Rust+GPUI 构建，Claude Code/Codex 各自独立 VM，Auth Gateway 保护 API Key 不外泄 |
+| 大厂抛弃 MCP 转向 CLI？Perplexity CTO 和 YC CEO 公开质疑 | — | 2026-04-24 | mcp, cli, protocol-debate | https://juejin.cn/post/7630841596041478171 |  | 📖 daily 2026-04-24 — Perplexity CTO 宣布放弃 MCP，YC CEO 直言「MCP sucks」，协议标准之争白热化 |
+| Anthropic Mythos Preview 遭未授权访问，第三方承包商环境泄露 | Anthropic | 2026-04-24 | mythos, security-breach, supply-chain | https://readhub.cn/topic/8sXRNjBG6Gl |  | 📖 daily 2026-04-24 — 高危模型通过第三方承包商环境被未授权访问，供应链安全再敲警钟 |
+| Weaviate 1.37：内置 MCP Server，向量库变 Agent 长期记忆 | Weaviate | 2026-04-24 | mcp, vector-db, weaviate | https://weaviate.io/blog/weaviate-1-37-release |  | 🔧 daily 2026-04-24 — 内置 MCP Server 让 LLM 直接查询/写入向量库，无需胶水代码，MMR 多样性搜索同步上线 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
