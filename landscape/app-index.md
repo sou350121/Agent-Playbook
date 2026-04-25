@@ -433,6 +433,12 @@
 | 大厂抛弃 MCP 转向 CLI？Perplexity CTO 和 YC CEO 公开质疑 | — | 2026-04-24 | mcp, cli, protocol-debate | https://juejin.cn/post/7630841596041478171 |  | 📖 daily 2026-04-24 — Perplexity CTO 宣布放弃 MCP，YC CEO 直言「MCP sucks」，协议标准之争白热化 |
 | Anthropic Mythos Preview 遭未授权访问，第三方承包商环境泄露 | Anthropic | 2026-04-24 | mythos, security-breach, supply-chain | https://readhub.cn/topic/8sXRNjBG6Gl |  | 📖 daily 2026-04-24 — 高危模型通过第三方承包商环境被未授权访问，供应链安全再敲警钟 |
 | Weaviate 1.37：内置 MCP Server，向量库变 Agent 长期记忆 | Weaviate | 2026-04-24 | mcp, vector-db, weaviate | https://weaviate.io/blog/weaviate-1-37-release |  | 🔧 daily 2026-04-24 — 内置 MCP Server 让 LLM 直接查询/写入向量库，无需胶水代码，MMR 多样性搜索同步上线 |
+| Google 计划向 Anthropic 投资至多 400 亿美元 | Google / Anthropic | 2026-04-25 | anthropic, google-cloud, investment | https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute/ |  | ⚡ daily 2026-04-25 — Google 以 3500 亿估值先投 100 亿、未来追加 300 亿，Anthropic 今年累计融资已超 800 亿，模型厂商与云厂商深度绑定加速 |
+| Claude 4.7 被曝忽略 stop hooks，工作流确定性遭破坏 | Anthropic | 2026-04-25 | claude, workflow, hook | https://news.ycombinator.com/item?id=47895029 |  | 🔧 daily 2026-04-25 — Claude 4.7 模型不再可靠执行 stop hooks，依赖 hook 注入确定性的 Agent 工作流需立即检查并降级或加 workaround |
+| DeepSeek-V4 预览版发布：百万上下文专为 Agent 设计 | DeepSeek | 2026-04-25 | deepseek, agent, context-window | https://huggingface.co/blog/deepseekv4 |  | ⚡ daily 2026-04-25 — DeepSeek-V4-Pro 和 V4-Flash 双模型预览上线，100 万 token 上下文专为多步 Agent 任务优化，价格仅为 frontier 模型的零头 |
+| 用户公开退出 Claude：token 计费异常、质量下降、客服缺失 | Anthropic | 2026-04-25 | claude, community-sentiment, reliability | https://nickyreinert.de/en/2026/2026-04-24-claude-critics/ |  | 📖 daily 2026-04-25 — HN 738 分热议，反映单平台依赖风险与 AI 服务透明度问题，与本周 Claude Code 从 Pro 套餐剥离形成共振 |
+| Nilay Patel：大众并不渴望 AI 自动化 | The Verge | 2026-04-25 | automation, public-perception, ai-adoption | https://simonwillison.net/2026/Apr/24/the-people-do-not-yearn-for-automation/#atom-everything |  | 📖 daily 2026-04-25 — ChatGPT 使用量飙升但公众对 AI 自动化普遍抵触，揭示 AI 工具从开发者向大众市场扩展的核心矛盾 |
+| AWS 教程：用 Visier + Bedrock AgentCore + MCP 构建人力分析 Agent | AWS / Visier | 2026-04-25 | agent, mcp, workforce-analytics | https://aws.amazon.com/blogs/machine-learning/building-workforce-ai-agents-with-visier-and-amazon-quick/ | [RAG] | 🔧 daily 2026-04-25 — 生产级 Agent 架构实战：通过 MCP 协议连接 Visier 人力数据平台与 Amazon Quick，展示知识工作者统一 Agent 工作空间范式 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
