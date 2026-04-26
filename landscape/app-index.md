@@ -439,6 +439,12 @@
 | 用户公开退出 Claude：token 计费异常、质量下降、客服缺失 | Anthropic | 2026-04-25 | claude, community-sentiment, reliability | https://nickyreinert.de/en/2026/2026-04-24-claude-critics/ |  | 📖 daily 2026-04-25 — HN 738 分热议，反映单平台依赖风险与 AI 服务透明度问题，与本周 Claude Code 从 Pro 套餐剥离形成共振 |
 | Nilay Patel：大众并不渴望 AI 自动化 | The Verge | 2026-04-25 | automation, public-perception, ai-adoption | https://simonwillison.net/2026/Apr/24/the-people-do-not-yearn-for-automation/#atom-everything |  | 📖 daily 2026-04-25 — ChatGPT 使用量飙升但公众对 AI 自动化普遍抵触，揭示 AI 工具从开发者向大众市场扩展的核心矛盾 |
 | AWS 教程：用 Visier + Bedrock AgentCore + MCP 构建人力分析 Agent | AWS / Visier | 2026-04-25 | agent, mcp, workforce-analytics | https://aws.amazon.com/blogs/machine-learning/building-workforce-ai-agents-with-visier-and-amazon-quick/ | [RAG] | 🔧 daily 2026-04-25 — 生产级 Agent 架构实战：通过 MCP 协议连接 Visier 人力数据平台与 Amazon Quick，展示知识工作者统一 Agent 工作空间范式 |
+| What's missing in the 'agentic' story: a well-defined user agent role | — | 2026-04-26 | agent, agentic, architecture | https://www.mnot.net/blog/2026/04/24/agents_as_collective_bargains | 🎯 agent-ui | ⚡ daily 2026-04-26 — IETF 编辑从互联网标准视角审视 agentic 架构中用户代理角色的缺失 |
+| GPT-5.5 Bio Bug Bounty | OpenAI | 2026-04-26 | gpt, safety, security | https://openai.com/index/gpt-5-5-bio-bug-bounty/ |  | ⚡ daily 2026-04-26 — OpenAI 为 GPT-5.5 生物安全漏洞设立专项赏金计划，安全投入持续加码 |
+| GPT-5.5 prompting guide | OpenAI | 2026-04-26 | gpt, prompting, coding agent | https://simonwillison.net/2026/Apr/25/gpt-5-5-prompting-guide/#atom-everything |  | 🔧 daily 2026-04-26 — OpenAI 发布 GPT-5.5 官方提示指南，含 thinking 时间控制等实用技巧 |
+| 英伟达适配 DeepSeek-V4 AI模型（續報） | NVIDIA / DeepSeek | 2026-04-26 | deepseek, nvidia, inference | https://readhub.cn/topic/8sc4xEqkavq |  | 🔧 daily 2026-04-26 — NVIDIA Blackwell 平台适配 DeepSeek-V4-Pro/Flash，开箱性能超 150 tok/s/user |
+| Lambda Calculus Benchmark for AI | Victor Taelin | 2026-04-26 | benchmark, reasoning | https://victortaelin.github.io/lambench/ |  | 📖 daily 2026-04-26 — Lambda 演算基准测试获 HN 社区高度关注，反映推理能力评估新方向 |
+| Quoting Romain Huet: GPT-5.5 unified system gains | OpenAI | 2026-04-26 | gpt, agent, unified | https://simonwillison.net/2026/Apr/25/romain-huet/#atom-everything |  | 🔧 daily 2026-04-26 — GPT-5.5 统一 Codex 与主模型，agentic coding 和 computer use 大幅提升 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
