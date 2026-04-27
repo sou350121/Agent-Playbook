@@ -1,10 +1,19 @@
 # Agent-Playbook
 
+[![CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![PULSAR 照见](https://img.shields.io/badge/PULSAR_照见-每日精选-FF6B35.svg)](https://sou350121.github.io/pulsar-web/)
 [![VLA-Handbook](https://img.shields.io/badge/VLA_Handbook-配套-0EA5E9.svg?logo=github&logoColor=white)](https://github.com/sou350121/VLA-Handbook)
+[![RSS 订阅](https://img.shields.io/badge/RSS-订阅-FFA500.svg?logo=rss&logoColor=white)](https://sou350121.github.io/pulsar-web/subscribe)
+[![Daily Pulse](https://img.shields.io/badge/📊_Daily_Pulse-12方法族趋势-8B5CF6.svg)](PULSE.md)
 ![Auto-updated](https://img.shields.io/badge/内容-每日自动更新-blue)
 
 📊 **[PULSAR 照见](https://sou350121.github.io/pulsar-web/)** · 每日北京时间 12:00 更新，减少信息焦虑 — `sou350121.github.io/pulsar-web`
+
+📈 **[Daily Pulse](PULSE.md)** · 12 个 AI Agent 方法族 + 3 大竞争对（SINGLE vs SWARM / ACT vs THINK / OPEN vs CLOSED）· 每日自动生成
+
+📡 **[RSS 订阅](https://sou350121.github.io/pulsar-web/subscribe)** · AI 每日 + 周报直达你的阅读器 · [完整使用说明](docs/SUBSCRIBE.md)
+
+🎯 **[速查表 (Cheat Sheet)](cheat-sheet/)** · Agent 框架对比 · Prompt 模式 · 评测体系 · 失效模式 T1-T6
 
 **AI App 工程监控手册** — Pulsar 系统的 AI 工具与 Agent 情报臂，每日自动过滤 50+ 发布，提炼工程关键信号，持续追踪生产级架构模式与预测验证记录。
 
