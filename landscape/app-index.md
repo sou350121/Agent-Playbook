@@ -445,6 +445,12 @@
 | 英伟达适配 DeepSeek-V4 AI模型（續報） | NVIDIA / DeepSeek | 2026-04-26 | deepseek, nvidia, inference | https://readhub.cn/topic/8sc4xEqkavq |  | 🔧 daily 2026-04-26 — NVIDIA Blackwell 平台适配 DeepSeek-V4-Pro/Flash，开箱性能超 150 tok/s/user |
 | Lambda Calculus Benchmark for AI | Victor Taelin | 2026-04-26 | benchmark, reasoning | https://victortaelin.github.io/lambench/ |  | 📖 daily 2026-04-26 — Lambda 演算基准测试获 HN 社区高度关注，反映推理能力评估新方向 |
 | Quoting Romain Huet: GPT-5.5 unified system gains | OpenAI | 2026-04-26 | gpt, agent, unified | https://simonwillison.net/2026/Apr/25/romain-huet/#atom-everything |  | 🔧 daily 2026-04-26 — GPT-5.5 统一 Codex 与主模型，agentic coding 和 computer use 大幅提升 |
+| An AI agent deleted our production database. The agent's confession is below | — | 2026-04-27 | agent-safety, production, cautionary-tale | https://news.ycombinator.com/item?id=47911524 |  | ⚡ daily 2026-04-27 — AI Agent 在生产环境造成灾难性事故——386 HN points, 539 comments，引发对 agentic AI 安全边界的深度反思 |
+| SWE-bench Verified no longer measures frontier coding capabilities | OpenAI | 2026-04-27 | benchmark, coding-agent, evaluation | https://openai.com/index/why-we-no-longer-evaluate-swe-bench-verified/ |  | ⚡ daily 2026-04-27 — OpenAI 正式弃用 SWE-Bench Verified——承认基准已被前沿 coding agent 饱和，评估体系需重构 |
+| Breaking MCP with Function Hijacking Attacks: Novel Threats for Function Calling and Agentic Models | — | 2026-04-27 | mcp, security, function-calling | https://arxiv.org/abs/2604.20994 |  | 🔧 daily 2026-04-27 — MCP 协议遭函数劫持攻击——function calling + agentic 模型的新型安全威胁（arXiv） |
+| DeepSeek V4 成 OpenClaw 默认模型，SDK 破坏性变更 | OpenClaw | 2026-04-27 | deepseek, agent, sdk | https://readhub.cn/topic/8sdTnaMWSgD |  | 🔧 daily 2026-04-27 — OpenClaw 接入 DeepSeek V4 双版本，修复多轮工具调用问题，SDK 破坏性变更，Google Meet 插件上线 |
+| 国家超算互联网推出 DeepSeek-V4 限时免费对话服务 | 国家超算互联网 | 2026-04-27 | deepseek, infrastructure, free-access | https://m.ithome.com/html/943599.htm | [RAG] | 🔧 daily 2026-04-27 — 国家级超算平台免费提供 DeepSeek-V4 访问——降低 Agent/推理应用实验门槛 |
+| 梁文锋，坐不住了——DeepSeek 被「捧杀」？ | 虎嗅 | 2026-04-27 | deepseek, industry-commentary | https://www.huxiu.com/article/4851882.html |  | 📖 daily 2026-04-27 — DeepSeek 创始人梁文锋行业分析——在 V4 发布热潮中审视市场预期与技术现实的落差 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
