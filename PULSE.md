@@ -1,7 +1,6 @@
 # 📊 AI Agent Daily Pulse
 
 > AI Agent 生态 12 个方法家族 + 竞争对的**每日节拍器** —— Pulsar 照見每日自动统计提取
-> 配套：[VLA 同款 PULSE](https://github.com/sou350121/VLA-Handbook/blob/main/PULSE.md) · 两域并行追踪
 
 &nbsp;
 
@@ -67,7 +66,6 @@
 | **看完整数据明细** | 📋 [ai-method-trends.md](assets/ai-method-trends.md) |
 | **理解 12 家族的定义** | 📖 [theory/ 知识体系](theory/README.md) |
 | **看本周/本双周深度报告** | 📊 [Pulsar Reports](https://sou350121.github.io/pulsar-web/reports/) |
-| **VLA 配套版本** | 🤖 [VLA-Handbook PULSE](https://github.com/sou350121/VLA-Handbook/blob/main/PULSE.md) |
 
 &nbsp;
 
