@@ -6,7 +6,6 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 ![Auto-updated](https://img.shields.io/badge/内容-每日自动更新-blue)
 [![PULSAR 照见](https://img.shields.io/badge/PULSAR_照见-每日精选-FF6B35.svg)](https://sou350121.github.io/pulsar-web/)
-[![VLA-Handbook](https://img.shields.io/badge/VLA_Handbook-配套-0EA5E9.svg?logo=github&logoColor=white)](https://github.com/sou350121/VLA-Handbook)
 [![RSS 订阅](https://img.shields.io/badge/RSS-订阅-FFA500.svg?logo=rss&logoColor=white)](https://sou350121.github.io/pulsar-web/subscribe)
 [![Daily Pulse](https://img.shields.io/badge/📊_Daily_Pulse-12方法族趋势-8B5CF6.svg)](PULSE.md)
 
@@ -31,7 +30,7 @@ AI Agent 领域每天 50+ 工具 / 论文 / 公告，95% 是噪音。
 
 1. **不是新闻流，是过滤器**：50+ 原始信号 → qwen3.5-plus 评级（⚡战略 / 🔧可操作 / 📖参考 / ❌噪音）→ 每日 5-10 条精选 + **一条独立反驳**（Devil's Advocate）
 2. **预测可追责**：12 期双周报告**公开**了每一条预测的 ✅准确 / ❌偏差。判断错了不藏起来——错的方式比"只发对的"更值得读
-3. **跨域感知**：与 [VLA-Handbook](https://github.com/sou350121/VLA-Handbook) 共享跨域规则引擎——具身智能突破影响 Agent 架构选型 / Agent 范式涌入机器人时，自动触发关联洞察
+3. **假设可校准**：维护 19 条领域假设 + 月度置信度浮动（±0.08）。当 Karpathy / Altman / LeCun 等观点与现有假设冲突，自动标注需重新评估的假设序号
 
 ---
 
@@ -61,19 +60,15 @@ AI Agent 领域每天 50+ 工具 / 论文 / 公告，95% 是噪音。
 
 📎 完整记录：[reports/](reports/) · 12 期预测 · 公开置信度浮动 ±0.08/月
 
-### 🌉 Cross-Domain Engine · VLA × AI Agent 跨域
+### 🎯 Hypothesis Tracking · 假设动态校准
 
-跨域规则引擎在两个仓库的信号间建立连接——这是单一垂直社区**看不到**的视角：
+维护 **19 条 AI App 领域假设**，置信度每月自动浮动（上限 ±0.08）：
 
-```
-[AI App 域]                              [VLA 机器人域]
-   ↓                                          ↓
-agentic_coding 加速  ◀── 触发 ──▶  flow_matching 加速
-mcp_protocol 普及   ◀── R007 ──▶  VLA tool calling 出现
-context_eng 兴起    ◀── R002 ──▶  人类视频预训练（EgoScale）
-   ↓                                          ↓
-[跨域洞察自动写入 → reports/cross-domain/]
-```
+- 日常信号触发时**实时**比对假设清单
+- 大佬观点（Karpathy / Altman / LeCun 等）与现有假设冲突 → 自动标注假设序号
+- 月度汇总更新 watch-list · 校准记录归档于 `memory/`，可通过 MCP `get_predictions` 接口查询
+
+**为什么重要**：单纯收集信息会让人**越读越确信自己已有的判断**（确认偏误）。维护可校准的假设是把"信号 → 判断 → 偏差 → 修正"做成显式循环，而不是隐式凭感觉。
 
 ---
 
@@ -85,8 +80,6 @@ context_eng 兴起    ◀── R002 ──▶  人类视频预训练（EgoScale
 |------|------|------|
 | 📘 **AI 每日** | 每日 5-10 条 ⚡🔧 精选 + 深度解读 | [ai-daily.xml](https://sou350121.github.io/pulsar-web/rss/ai-daily.xml) |
 | 📚 **周/双周报告** | 前瞻侦察 + 回顾分析（含预测验证） | [weekly.xml](https://sou350121.github.io/pulsar-web/rss/weekly.xml) |
-| 🧠 **VLA 新文章**（配套）| theory 每日新增深度解读 | [vla-theory.xml](https://sou350121.github.io/pulsar-web/rss/vla-theory.xml) |
-| ⚡ **VLA 每日信号**（配套）| ⚡🔧 论文 + SOTA 榜变动 | [vla-daily.xml](https://sou350121.github.io/pulsar-web/rss/vla-daily.xml) |
 
 **🎁 一键全订阅**：[OPML 导入文件](https://sou350121.github.io/pulsar-web/rss/opml.xml)（Feedly / Inoreader / NetNewsWire 都支持）
 
@@ -112,7 +105,7 @@ context_eng 兴起    ◀── R002 ──▶  人类视频预训练（EgoScale
 | **失效分析** | ❌ | ❌ | ⚠️ 极少 | ⚠️ 偶尔 | ❌ | ✅ **架构深潜** |
 | **独立质疑** | ❌ | ❌ | ❌ | ⚠️ comments 有 | ❌ | ✅ **Devil's Advocate** |
 | **预测追责** | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ **双周 ✅/❌ 历史** |
-| **跨域信号** | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ **VLA × AI 引擎** |
+| **假设校准** | ❌ | ❌ | ❌ | ❌ | ❌ | ✅ **19 假设 + 月度置信度浮动** |
 | **历史可检索** | ❌ 算法埋没 | ✅ 静态 | ❌ 90d 失效 | ✅ 但散乱 | ⚠️ Discord 失效 | ✅ **Git 永久 grep** |
 
 ---
@@ -220,18 +213,6 @@ context_eng 兴起    ◀── R002 ──▶  人类视频预训练（EgoScale
 
 ---
 
-## 假设追踪与月度校准
-
-流水线维护 **19 条 AI App 领域假设**，置信度每月自动校准：
-
-- 日常信号触发时**实时**比对假设清单
-- 大佬观点（Karpathy / Altman / LeCun 等）与假设冲突时标注假设序号
-- 月度汇总：置信度上下浮动上限 **±0.08**，更新 watch-list
-
-校准记录归档于 `memory/`，可通过 MCP `get_predictions` 接口查询。
-
----
-
 ## 背后的系统：照见 Pulsar
 
 本仓库内容由 **Pulsar 照见** 驱动生成：
@@ -242,21 +223,6 @@ context_eng 兴起    ◀── R002 ──▶  人类视频预训练（EgoScale
 - 🌐 **可视化前端**：[Pulsar 照见 网站](https://sou350121.github.io/pulsar-web/) · Astro 5 + Tailwind v4
 
 如需复用本系统监控其他领域（量化交易 / 法律科技 / 游戏行业等），参考 Pulsar-KenVersion 的 `setup.sh` 一键部署流程。
-
----
-
-## 姊妹仓库
-
-**[VLA-Handbook](https://github.com/sou350121/VLA-Handbook)** · Pulsar 系统的机器人视觉-语言-动作研究臂
-
-| | Agent-Playbook | VLA-Handbook |
-|---|---|---|
-| **域** | AI 工具 / Agent / 工程实践 | 机器人 / 视觉-语言-动作 / 具身智能 |
-| **主战场** | Agentic Engineering 三支柱 | VLA 论文 + SOTA + 真机评测 |
-| **数据** | 50+ AI 源 · 19 假设 | 28 源 + 21 GitHub repo · 20 假设 |
-| **跨域** | ◀── Cross-Domain Engine ──▶ | ◀── Cross-Domain Engine ──▶ |
-
-跨域规则引擎在两个仓库的信号间建立连接：AI App 领域出现 embodied AI 实践突破，或 VLA 领域的扩展律研究影响 Agent 架构选型时，**自动触发跨域洞察**写入两个仓库的 `reports/cross-domain/`。
 
 ---
 
