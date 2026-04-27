@@ -8,7 +8,7 @@
 
 | 模式 | 场景 | 优 | 劣 | Anthropic 推荐？ |
 |------|------|----|-----|:---:|
-| **Few-shot (N-shot)** | 模式提取、结构对齐 | 简单 · 解释力 | token 占用 | ✅ 4-shot 是 sweet spot |
+| **Few-shot (N-shot)** | 模式提取、结构对齐 | 简单 · 解释力 | token 占用 | ✅ 3-5 shot 推荐 |
 | **Chain-of-Thought (CoT)** | 数学、多步推理 | 显著提升正确率 | 慢 · token 多 | ✅ 但用 thinking 字段更好 |
 | **ReAct (Reasoning + Action)** | Agent 工具调用 | 透明思考链 | 易陷入循环 | ⚠️ 已被 Tool Use 原语取代 |
 | **Reflexion / Self-Critique** | 长任务复杂决策 | 自纠正 | 多轮 token 翻倍 | ⚠️ 仅长任务 |
@@ -19,7 +19,7 @@
 ## 1. Few-shot Prompting
 
 ### 核心原则
-📎 Anthropic 实证：**4-shot 通常是 sweet spot** —— 0-shot 性能差距大，4-shot 后边际收益递减。
+📎 Anthropic 官方建议：从 1-shot 起步，按需加到 **3-5 shot**（[Claude prompt engineering best practices](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices)）。Claude 4.x 对 examples 中的细节敏感，**质量 > 数量**。
 
 ### 标准模板（XML 包裹推荐）
 ```xml
@@ -196,7 +196,7 @@ tools = [{
 
 ### Tier 1（必须做）
 - ✅ XML 包裹结构化输入（context / instructions / examples）
-- ✅ 4-shot examples（多样、覆盖 edge case、顺序排好）
+- ✅ 3-5 shot examples（多样、覆盖 edge case、顺序排好）
 - ✅ Tool Use API（不要手写 ReAct）
 - ✅ 复杂任务用 Extended Thinking 或 o-series
 
