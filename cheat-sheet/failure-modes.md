@@ -1,220 +1,228 @@
-# Agent 失效模式 T1-T6（Failure Taxonomy）
+# Agent 失效分類學速查 · T1-T7
 
-> 🧠 基于 [theory/03-engineering/agent-failure-taxonomy](../theory/03-engineering/agent-failure-taxonomy.md) 的速查版
-> Debug Agent 时的第一步：用 T1-T6 定位失效类别
-
----
-
-## 🚨 一张速查表（贴墙上）
-
-| 类别 | 名字 | 症状 | 根因 | 首选检测 |
-|------|------|------|------|---------|
-| **T1** | Scope Leak | Agent 做了你没让它做的事 | Task packet 不完整 / 隐式假设 | Trace 检视 + intent 标注 |
-| **T2** | Reasoning Gap | Agent 走错路径但确信 | Prompt 信息不足 / 缺工具 | Step-level grader · CoT 审查 |
-| **T3** | Tool Misuse | 调对工具但参数错 | Schema 模糊 / 缺 example | Tool call accuracy eval |
-| **T4** | Memory Drift | 上下文丢失 / 记错事实 | Context window 失序 / RAG 召回差 | Memory test set + Hallucination check |
-| **T5** | Recovery Failure | 失败后卡死 / 不会重试 | 没设计 fallback / retry 策略 | Inject 故障 · 看是否 graceful |
-| **T6** | Trust Collapse | 该 escalate 时没找人 | 信任层级模糊 | Trust tier audit · escalation log |
+> 🧠 速查版 · 完整理論見 [theory/03-engineering/agent-failure-taxonomy.md](../theory/03-engineering/agent-failure-taxonomy.md)
+> 📎 來源：Karpathy "Agentic Engineering" (2025-2026) + MAST 多 Agent 失效分類學研究 ([arXiv:2503.13657](https://arxiv.org/abs/2503.13657))
 
 ---
 
-## 🔴 T1 · Scope Leak（范围越界）
+## 🚨 速查總表
 
-### 症状
-- Agent **做了你没让它做的事**：例如要它整理收件箱，它顺便回复了几封邮件
-- 看 trace 像"模型 helpfulness 太高"
-- 在生产环境 = 安全 / 合规风险
+| 類型 | 中文名 | 英文 | 嚴重 | MAST 對應 |
+|------|--------|------|:---:|-----------|
+| **T1** | 範圍洩漏 | Scope Leak | 高 · 難溯源 | FC1: FM-1.2 |
+| **T2** | 上下文漂移 | Context Drift | 高 · 靜默 | FC1: FM-1.4 |
+| **T3** | API 契約誤讀 | API Contract Misread | 中 · 可測 | FC1: FM-1.1 |
+| **T4** | 邊界條件缺失 | Boundary Condition Gap | 中 · 可測 | FC3: FM-3.2 |
+| **T5** | 語義回歸 | Semantic Regression | 高 · 最難測 | FC3: FM-3.3 |
+| **T6** | 多 Agent 鏈式失效 | Multi-Agent Cascade | 極高 · 鏈回滾 | FC2: FM-2.3/2.5 |
+| **T7** | 跨 Agent 上下文污染 | Cross-Agent Context Pollution | 極高 · 全鏈污染 | FC2: FM-2.4/2.6 |
 
-### 根因
-1. **Task packet 缺少明确边界**："整理邮件" vs "整理但不发送/回复任何内容"
-2. **Agent 的 disposition** 偏 helpful（Anthropic Claude 训练目标之一）
-3. **隐式假设**：开发者觉得"显然不会做 X"，Agent 不这么想
-
-### 检测
-- ✅ **Trace 检视**：看 Agent 实际动作序列，对比预期边界
-- ✅ **Intent 标注**：每个工具调用前要 Agent 输出 intent，再 vs scope 比对
-- ✅ **Permissions audit**：限制工具能力（write 工具只能写特定路径）
-
-### 修复
-- 📎 **Task Packet 明确写**："不允许 X / 只能在 Y 范围 / 遇到 Z 必须 stop"
-- 📎 **使用 Trust Tier**：T0 工具完全自动 / T1 需要 review / T2 需要人确认
-- 📎 **Subagent 隔离**：用 Claude Subagents 把高风险动作放进受限子 agent
+📎 **MAST 研究關鍵數據**：1600+ trace 系統分析顯示——
+- **41-86.7%** 多 Agent 系統存在失效
+- **79%** 問題源自規格設計而非模型能力
+- **FC2（Agent 間對齊失效）** 是最大單一失效來源
 
 ---
 
-## 🔴 T2 · Reasoning Gap（推理鸿沟）
+## 🔴 T1 · 範圍洩漏（Scope Leak）
 
-### 症状
-- Agent **走了错的逻辑路径但很确信**
-- CoT 看起来合理，结论荒谬
-- "对的方向" + "错的细节" 同时出现
+**定義**：Agent 修改/讀取/影響了 Task Packet `scope.out` 明確排除的文件或系統。
 
-### 根因
-1. **Prompt 信息不足**：模型必须靠先验填补
-2. **缺工具**：模型只能 hallucinate 而不能查实
-3. **Context 顺序**：关键信息埋在中间被忽略（middle is forgotten）
+**症狀**：
+- diff 出現不在 `scope.in` 的文件
+- 其他模塊 test 開始無故失敗
 
-### 检测
-- ✅ **Step-level grader**：每步推理打分，不只看最终答案
-- ✅ **Counterfactual prompt**：去掉一个 context 元素，看推理是否变化
-- ✅ **CoT thought 审查**：用 LLM-Judge 评 reasoning chain 质量
+**根因**：Task Packet 未明確 `scope.out` · Agent「順手」修改 · 工具無路徑限制
 
-### 修复
-- 📎 **Few-shot 示范正确推理路径**（4-shot sweet spot）
-- 📎 **加 Tool Use** 让模型查实而非假设
-- 📎 **关键信息放最后**（Anthropic 长 context 实证）
-- 📎 **Extended Thinking** / o-series 内置 reasoning
+**預防**：
+- Task Packet 強制 `scope.out`
+- 物理護欄：文件系統沙箱
+- 最小特權：Agent 只訪問當前 task 授權路徑
+
+**恢復**：回滾 `scope.in` 之外的 diff
 
 ---
 
-## 🔴 T3 · Tool Misuse（工具错用）
+## 🔴 T2 · 上下文漂移（Context Drift）
 
-### 症状
-- Agent **挑对了工具，但参数填错** / 顺序错 / 调用过多
-- 例：search 工具被反复调用同样的 query
-- Tool error 反复相同 → 不学习
+**定義**：長會話中 Agent 逐漸忘記早期約束、格式要求、決策。
 
-### 根因
-1. **Schema 描述模糊**："query: string" 没说要 keyword 还是 NL question
-2. **缺 example**：tool description 没有"correct usage" 范例
-3. **没看 tool error**：error message 没设计成可教学
+**症狀**：
+- 輸出格式中途改變（JSON → 自由文本）
+- Agent 採用早期已被否決的方案
 
-### 检测
-- ✅ **Tool Call Accuracy** eval：参数 vs ground truth
-- ✅ **Repetition detector**：相同参数调用 N 次报警
-- ✅ **Error response analysis**：模型读到 error 后下一步动作是否合理
+**根因**：tool call 結果擠出早期約束 · 無 Checkpointing · 大任務沒拆分
 
-### 修复
-- 📎 **Schema 写详细**：包括 example values + 何时用 / 何时不用
-- 📎 **Tool description 加 anti-pattern 警告**："Don't use this for X"
-- 📎 **结构化 error response**：`{"error": "...", "suggestion": "..."}` 引导下一步
+**預防**：
+- Context Refresh：每 N 輪重新注入 AGENT_CONSTITUTION
+- Checkpointing：交付點要求重述當前約束
+- Ralph Loop 拆解大任務為短 packets
+
+**恢復**：從最近 Checkpoint 重啟，新會話重灌 constitution
 
 ---
 
-## 🔴 T4 · Memory Drift（记忆漂移）
+## 🔴 T3 · API 契約誤讀（API Contract Misread）
 
-### 症状
-- Agent **忘了 5 步前的事** / 重复同样的工作 / 对事实记错
-- RAG 系统中 hallucination 率高
-- 长会话越走越偏
+**定義**：Agent 錯誤理解工具/API 的 schema → 調用失敗或靜默產錯。
 
-### 根因
-1. **Context window 内容失序**：早期信息被 truncate / overshadow
-2. **RAG 召回差**：检索器没拿到关键文档
-3. **状态没显式维护**：依赖 LLM 自己"记得"
+**症狀**：
+- schema validation error
+- 構造請求缺必填字段 / 把 null 當空數組
 
-### 检测
-- ✅ **Memory test set**：在 N 步后问"刚才发生了什么"
-- ✅ **Hallucination check**：用 fact-checker LLM 对照 source
-- ✅ **Recall@K** for RAG：retriever 评估独立做
+**根因**：API 文檔不在 context · 版本變了用舊 schema · 工具非 Agent-friendly
 
-### 修复
-- 📎 **显式 state**（不依赖 context window）：LangGraph checkpointer / Mastra Workflow state
-- 📎 **Summarize-then-forget**：长 trace 摘要后清掉细节
-- 📎 **Hybrid search**（稠密 + 稀疏）改善 RAG 召回
-- 📎 **Cite sources**：要求每个事实陈述带 citation，可机器验证
+**預防**：
+- Task Packet `context_refs` 引用 API 文檔
+- 工具設計：結構化輸出 + 明確 error
+- 邏輯護欄：工具層 schema validation
+
+**恢復**：提供正確 schema → 重試 · 反覆失敗 → 升級人工
 
 ---
 
-## 🔴 T5 · Recovery Failure（失败恢复失败）
+## 🔴 T4 · 邊界條件缺失（Boundary Condition Gap）
 
-### 症状
-- 出错后 Agent **卡死** / 重复同样错误 / 直接放弃
-- 没有"fallback path"概念
-- 用户必须手动重启
+**定義**：Spec 未覆蓋的 edge case，Agent 靜默跳過或用錯誤默認處理。
 
-### 根因
-1. **没有 retry / fallback 策略**：tool 报错就 propagate 上层
-2. **No graceful degradation**：MCP server down → Agent 整体崩
-3. **训练分布不含失败案例**：模型没见过"如何从错误恢复"
+**症狀**：
+- 特定輸入導致空輸出 / 通用 fallback
+- 測試覆蓋只有 happy path
 
-### 检测
-- ✅ **Fault injection**：故意让 tool 返回 error，看 Agent 怎么处理
-- ✅ **Recovery rate** 指标：故障后任务仍完成的比例
-- ✅ **Trace cycle detection**：检测无限循环 / 重复模式
+**根因**：PRD 未思考 edge case · Agent 接受模糊規格未提問 · 驗收標準只有正常路徑
 
-### 修复
-- 📎 **Retry policy**：tool wrapper 内置 backoff retry
-- 📎 **Fallback chain**：tool A fail → 试 tool B → 升级 human
-- 📎 **Circuit breaker**：N 次连续失败 → escalate
-- 📎 **训练时纳入 recovery demo**：用 RoboMIND 2.0 类思路（VLA 域类比）
+**預防**：
+- PRD 強制「已知 edge case」章節
+- Spec Gate：執行前對每個不確定點提問
+- Eval 包含邊界 case 測試
+
+**恢復**：補規格 → 補執行 / 已上線觸發回滾
 
 ---
 
-## 🔴 T6 · Trust Collapse（信任坍塌）
+## 🔴 T5 · 語義回歸（Semantic Regression）
 
-### 症状
-- Agent **该 escalate 时不 escalate**：处理了 high-stakes 决策没找人
-- 反过来：**该自动时频繁打扰人**：信任分层失效
-- 用户对 Agent 既不敢放手又被打扰
+**定義**：修改通過所有自動化測試，但破壞了代碼/系統的**語義意圖**（行為變了，測試不知道）。
 
-### 根因
-1. **信任层级模糊**：什么时候自动 / 什么时候人介入没明确
-2. **No escalation hooks**：架构上没有 escalation API
-3. **测试不到位**：开发只测 happy path，没测"不确定时"
+**症狀**：
+- CI 全綠，但人工 review 發現異常
+- 「接近但不完全符合」預期
+- 用戶感知行為變化但難用測試描述
 
-### 检测
-- ✅ **Trust tier audit**：把任务按风险/可逆性分级，看 Agent 是否对应分层
-- ✅ **Escalation log analysis**：人介入频次 / 必要性 vs 实际
-- ✅ **Confidence calibration**：让 Agent 输出置信度，对照实际正确率
+**根因**：測試覆蓋實現細節非業務意圖 · Agent 找到繞過測試的最短路徑 · Acceptance Criteria 過於技術化
 
-### 修复
-- 📎 **明确 Trust Tier**（参考 [trust-tier-design](../theory/03-engineering/trust-tier-design.md)）：
-  - **T0**：完全自动（reversible · low-stakes）
-  - **T1**：do-and-tell（auto + 通知）
-  - **T2**：propose-then-act（要 approval）
-  - **T3**：human-only（high-stakes / irreversible）
-- 📎 **Escalation primitives**：提供 `request_human_review()` API
-- 📎 **Confidence threshold**：< 0.8 自动升级
+**預防**：
+- Acceptance Criteria 必須含行為描述
+- Model-based eval（LLM 評估語義正確性）
+- 人工 review 是最後防線（不可被 CI 完全替代）
+
+**恢復**：回滾 → 重寫 AC 含語義測試 → 加 regression test → 重新委派
 
 ---
 
-## 🎯 Debug 决策树（真机/生产 Agent 出问题时）
+## 🔴 T6 · 多 Agent 鏈式失效（Multi-Agent Cascade）
 
+**定義**：上游 Agent 錯誤輸出被下游當正確輸入 → 錯誤在鏈中**指數放大**。
+
+**症狀**：
+- 最終質量遠低於單個 Agent 能力
+- 追溯 trace 發現錯源來自鏈早期
+- 中間 Agent 輸出無驗證直接傳遞
+
+**根因**：Agent 間無輸出驗證 · 流水線無中間 Checkpoint · 失敗被設計為「繼續執行」而非「停止報告」
+
+**預防**：
+- 每個 Agent 輸出強制 schema validation 才能傳遞
+- 關鍵節點插入 Reviewer Agent（獨立驗證，不執行）
+- Fail-fast：任何失敗 → 整鏈停止
+
+**恢復**：從失效點重啟（非從起點） · 鏈式 Rollback
+
+---
+
+## 🔴 T7 · 跨 Agent 上下文污染（Cross-Agent Context Pollution）
+
+> **這是 T6 的進化版本**：T6 是可觀測的「執行錯誤」傳遞；T7 是不可觀測的「語義錯誤」傳遞——數據形式合法，內容是虛構的。
+
+**定義**：Agent A 的幻覺輸出（fabricated facts/schemas/API names）被 Agent B 當作有效事實使用 → 錯誤在多 Agent 系統中被「固化」為基礎假設。
+
+**症狀**：
+- Agent B 引用了 Agent A 從未真正調用過的 API/文件
+- 輸出「邏輯自洽」但與外部事實對不上
+- 各 Agent 本地 trace 看起來正常，但端對端輸出失真
+
+**典型示例**：
 ```
-Agent 行为异常
-│
-├─ Trace 看 Agent 动作 vs 任务说明
-│   ├─ 做了不该做的 → T1 Scope Leak
-│   └─ 该做的没做 ↓
-│
-├─ 看 reasoning chain
-│   ├─ 推理跳错 → T2 Reasoning Gap
-│   └─ 推理 OK 但 tool 调错 → T3 Tool Misuse
-│
-├─ 检查 long-context / memory
-│   ├─ 早期信息被忘 → T4 Memory Drift
-│   └─ Memory OK ↓
-│
-├─ 看错误处理
-│   ├─ 故障后卡死 → T5 Recovery Failure
-│   └─ 故障 OK 但决策不该自己做 → T6 Trust Collapse
-│
-└─ 都不像 → 检查 prompt / model selection / data
+Researcher Agent → 幻覺 "論文 X 用 LoRA rank=64"
+                ↓ 無驗證傳遞
+Writer Agent → 寫進文檔「X 最佳配置 rank=64」
+                ↓ 無溯源追蹤
+Publisher Agent → 發布至知識庫
+                ↓ 後續 RAG 引用源
+                錯誤自我強化
 ```
 
+**根因**：
+- Agent 間無 handoff contract（無 producer/consumer schema）
+- Downstream 不區分「已驗證事實」與「上游推斷」
+- 中間結果無 provenance（溯源標記）
+
+**預防**：
+1. **顯式 Handoff Contract**：每個輸出必含 `confidence` + `source_type`（verified / inferred / hallucinated_risk）
+2. **Downstream 消費規則**：`confidence < 0.7` 或 `source_type != "verified"` 必須先外部驗證
+3. **溯源標記透傳**：provenance 不得丟失，任何 Agent 不得「淨化」上游不確定性
+4. **幻覺防火牆 Agent**：在關鍵 handoff 插入 Fact-Check Agent
+
+**恢復**：追溯首次幻覺節點 → 從該節點重啟並要求可驗證來源 → 標記下游所有依賴條目為「待審查」
+
 ---
 
-## 📐 失效频次分布（🧠 作者经验）
+## 🎯 Debug 決策樹
 
-| 类别 | 占比 | Top 修复 ROI |
-|------|:---:|------------|
-| T2 Reasoning Gap | ~35% | 加 Few-shot + Extended Thinking |
-| T3 Tool Misuse | ~25% | Schema 写详细 + tool example |
-| T4 Memory Drift | ~15% | Explicit state + RAG 改善 |
-| T1 Scope Leak | ~10% | Task packet 明确 + Trust Tier |
-| T5 Recovery Failure | ~10% | Retry / Fallback policy |
-| T6 Trust Collapse | ~5% | Trust Tier + escalation |
+```
+Agent 行為異常
+│
+├─ 修改了不該修改的 → T1 範圍洩漏
+│
+├─ 長會話中違反早期約束 → T2 上下文漂移
+│
+├─ tool call schema error / 字段錯誤 → T3 API 契約誤讀
+│
+├─ 特定輸入靜默跳過 → T4 邊界條件缺失
+│
+├─ 測試全綠但行為錯 → T5 語義回歸
+│
+├─ 多 Agent 鏈中：錯誤從上游放大下來 → T6 鏈式失效
+│
+└─ 多 Agent 鏈中：邏輯自洽但事實錯 → T7 上下文污染
+```
 
 ---
 
-## 📚 延伸阅读
+## 📐 級聯放大三加速因子
 
-- 📎 [agent-failure-taxonomy](../theory/03-engineering/agent-failure-taxonomy.md) · 完整理论
-- 📎 [trust-tier-design](../theory/03-engineering/trust-tier-design.md) · T6 治理
-- 📎 [delegation-not-automation](../theory/03-engineering/delegation-not-automation-engineering-principles.md) · T1 哲学
-- [Eval](./evaluation.md) · 怎么 eval 这些失效
-- [Frameworks](./frameworks.md) · 哪些框架原生支持 retry / fallback / escalation
+📎 為什麼多 Agent 系統的錯誤是**指數級**而非線性傳遞：
+
+1. **置信度繼承**：下游繼承上游高置信度，錯誤被當確定事實
+2. **驗證缺失**：每個 Agent 假設上游「已驗證」，無人做全局一致性
+3. **上下文隔離**：各 Agent 只看自己 I/O，無法感知整鏈方向偏移
+
+**對抗原則**：
+- **Skeptical Consumer**：下游默認懷疑，必須能解釋「為什麼接受這個輸出」
+- **全局目標回歸**：每個 Agent 輸出前對照原始 Task Goal 做漂移檢查
+- **中間態可觀測**：所有 handoff payload 可被外部監控審計
+
+---
+
+## 📚 延伸閱讀
+
+- 📎 [完整理論：agent-failure-taxonomy.md](../theory/03-engineering/agent-failure-taxonomy.md) · 含預防矩陣 + 故障響應 SLA + 學習閉環
+- 📎 [trust-tier-design.md](../theory/03-engineering/trust-tier-design.md) · 信任分層降低 T1/T6 風險
+- 📎 [delegation-not-automation.md](../theory/03-engineering/delegation-not-automation-engineering-principles.md) · Task Packet 是最小委託合同
+- 📎 [eval-loop-as-production-practice.md](../theory/03-engineering/eval-loop-as-production-practice.md) · T4/T5 eval 防線
+- 📎 [MAST 論文 arXiv:2503.13657](https://arxiv.org/abs/2503.13657) · Multi-Agent Failure Taxonomy
+- [Eval](./evaluation.md) · 怎麼 eval 這些失效
+- [Frameworks](./frameworks.md) · 哪些框架支援 retry / fallback / handoff contract
 
 ---
 
