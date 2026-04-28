@@ -451,6 +451,13 @@
 | DeepSeek V4 成 OpenClaw 默认模型，SDK 破坏性变更 | OpenClaw | 2026-04-27 | deepseek, agent, sdk | https://readhub.cn/topic/8sdTnaMWSgD |  | 🔧 daily 2026-04-27 — OpenClaw 接入 DeepSeek V4 双版本，修复多轮工具调用问题，SDK 破坏性变更，Google Meet 插件上线 |
 | 国家超算互联网推出 DeepSeek-V4 限时免费对话服务 | 国家超算互联网 | 2026-04-27 | deepseek, infrastructure, free-access | https://m.ithome.com/html/943599.htm | [RAG] | 🔧 daily 2026-04-27 — 国家级超算平台免费提供 DeepSeek-V4 访问——降低 Agent/推理应用实验门槛 |
 | 梁文锋，坐不住了——DeepSeek 被「捧杀」？ | 虎嗅 | 2026-04-27 | deepseek, industry-commentary | https://www.huxiu.com/article/4851882.html |  | 📖 daily 2026-04-27 — DeepSeek 创始人梁文锋行业分析——在 V4 发布热潮中审视市场预期与技术现实的落差 |
+| OpenAI 与微软修订合作协议：非独家授权 + 收入分成封顶 + 多云自由 | OpenAI | 2026-04-28 | partnership, cloud, licensing | https://openai.com/index/next-phase-of-microsoft-partnership/ |  | ⚡ daily 2026-04-28 |
+| OpenAI 获 FedRAMP Moderate 授权，ChatGPT Enterprise + API 面向联邦机构开放 | OpenAI | 2026-04-28 | compliance, government, enterprise | https://openai.com/index/openai-available-at-fedramp-moderate/ |  | 🔧 daily 2026-04-28 |
+| Strands Agents SDK + SageMaker + MLflow：生产级 Agent 可观测性方案 | AWS | 2026-04-28 | agent-sdk, observability, mlflow | https://aws.amazon.com/blogs/machine-learning/build-strands-agents-with-sagemaker-ai-models-and-mlflow/ |  | 🔧 daily 2026-04-28 |
+| OpenAI Privacy Filter 开源：1.5B 参数单前向 PII 检测，128k 上下文 | OpenAI | 2026-04-28 | privacy, PII, guardrail | https://huggingface.co/blog/openai-privacy-filter-web-apps |  | 🔧 daily 2026-04-28 |
+| 腾讯 QClaw 网关升级 v0.2.14：率先支持 Hermes，接入 DeepSeek-V4-Pro | 腾讯 | 2026-04-28 | gateway, hermes, multi-model | https://m.ithome.com/html/943877.htm |  | 🔧 daily 2026-04-28 |
+| Amazon Quick Flows：用自然语言构建 AI 工作流，无需编码 | AWS | 2026-04-28 | workflow, automation, no-code | https://aws.amazon.com/blogs/machine-learning/automate-repetitive-tasks-with-amazon-quick-flows/ |  | 🔧 daily 2026-04-28 |
+| 欧盟强制 Google 向第三方 AI 助手开放 Android 核心权限 | EU Commission | 2026-04-28 | regulation, DMA, AI-competition | https://readhub.cn/topic/8sg2Qrim5IL |  | ⚡ daily 2026-04-28 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
