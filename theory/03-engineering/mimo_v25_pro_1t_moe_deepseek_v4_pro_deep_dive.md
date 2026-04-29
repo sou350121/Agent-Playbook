@@ -1,6 +1,6 @@
 ---
 auto_generated: true
-generated_at: "2026-04-29T03:34:37Z"
+generated_at: "2026-04-29T03:35:51Z"
 source_url: "https://mimo.xiaomi.com/index#blog"
 signal_type: "blog_post"
 ---
