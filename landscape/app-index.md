@@ -458,6 +458,13 @@
 | 腾讯 QClaw 网关升级 v0.2.14：率先支持 Hermes，接入 DeepSeek-V4-Pro | 腾讯 | 2026-04-28 | gateway, hermes, multi-model | https://m.ithome.com/html/943877.htm |  | 🔧 daily 2026-04-28 |
 | Amazon Quick Flows：用自然语言构建 AI 工作流，无需编码 | AWS | 2026-04-28 | workflow, automation, no-code | https://aws.amazon.com/blogs/machine-learning/automate-repetitive-tasks-with-amazon-quick-flows/ |  | 🔧 daily 2026-04-28 |
 | 欧盟强制 Google 向第三方 AI 助手开放 Android 核心权限 | EU Commission | 2026-04-28 | regulation, DMA, AI-competition | https://readhub.cn/topic/8sg2Qrim5IL |  | ⚡ daily 2026-04-28 |
+| OpenAI models, Codex, and Managed Agents come to AWS Bedrock | OpenAI | 2026-04-29 | agent, gateway, llmops | https://openai.com/index/openai-on-aws | 🎯 agent-ui | ⚡ daily 2026-04-29 — GPT-5.5 + Codex + Managed Agents 正式登陆 AWS，多云战略实质性落地 |
+| Claude.ai 大规模服务中断，API elevated errors | Anthropic | 2026-04-29 | reliability, agent | https://status.claude.com/incidents/9l93x2ht4s5w |  | 📖 daily 2026-04-29 — HN 259 分热议，单平台依赖风险再次凸显 |
+| NVIDIA Nemotron 3 Nano Omni: 长上下文多模态智能体模型 | NVIDIA | 2026-04-29 | multimodal, agent, document | https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence | [RAG] | 🔧 daily 2026-04-29 — 30B MoE 统一文本+图像+视频+音频，OSWorld 47.4% 领先开源，9x 吞吐提升 |
+| DOOM runs in ChatGPT and Claude via MCP Apps | Chris Nager | 2026-04-29 | mcp, agent-ui | https://chrisnager.com/blog/doom-runs-in-chatgpt-and-claude/ |  | 📖 daily 2026-04-29 — MCP Apps 交互式 UI 能力趣味演示，验证 MCP 协议可扩展性边界 |
+| OpenAI 未达成营收目标，甲骨文及芯片股应声下跌 | — | 2026-04-29 | market, llmops | https://readhub.cn/topic/8shQEmUnFuW |  | ⚡ daily 2026-04-29 — 用户增长与营收缺口引发 AI 基础设施开支可持续性质疑 |
+| A good AGENTS.md is a model upgrade — 系统性实证研究 | Augment Code | 2026-04-29 | agent, agent-ui, best-practices | https://www.augmentcode.com/blog/how-to-write-good-agents-dot-md-files | 🎯 agent-ui | 🔧 daily 2026-04-29 — 100-150 行最佳，超长反降质；渐进式披露 + 程序化工作流是核心模式 |
+| 110 人公司 Claude 账号被集体封杀，API 仍在计费（续报） | Anthropic | 2026-04-29 | reliability, evaluation, enterprise | https://www.36kr.com/p/3786067810082051 | [evaluation] | ⚡ daily 2026-04-29 — 组织级封禁零预警 + API 持续计费，企业级 Anthropic 依赖风险升级 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
