@@ -465,6 +465,14 @@
 | OpenAI 未达成营收目标，甲骨文及芯片股应声下跌 | — | 2026-04-29 | market, llmops | https://readhub.cn/topic/8shQEmUnFuW |  | ⚡ daily 2026-04-29 — 用户增长与营收缺口引发 AI 基础设施开支可持续性质疑 |
 | A good AGENTS.md is a model upgrade — 系统性实证研究 | Augment Code | 2026-04-29 | agent, agent-ui, best-practices | https://www.augmentcode.com/blog/how-to-write-good-agents-dot-md-files | 🎯 agent-ui | 🔧 daily 2026-04-29 — 100-150 行最佳，超长反降质；渐进式披露 + 程序化工作流是核心模式 |
 | 110 人公司 Claude 账号被集体封杀，API 仍在计费（续报） | Anthropic | 2026-04-29 | reliability, evaluation, enterprise | https://www.36kr.com/p/3786067810082051 | [evaluation] | ⚡ daily 2026-04-29 — 组织级封禁零预警 + API 持续计费，企业级 Anthropic 依赖风险升级 |
+| DeepSeek 正式内测「识图模式」，首次支持图片理解 | DeepSeek | 2026-04-30 | deepseek, multimodal, vision | https://m.ithome.com/html/945092.htm |  | 🔧 daily 2026-04-30 — DeepSeek 从纯文本跨入多模态，Agent 视觉能力拼图补齐 |
+| IBM Granite 4.1 系列开源 LLM 发布：架构与训练全解析 | IBM | 2026-04-30 | open-source, llm, granite | https://huggingface.co/blog/ibm-granite/granite-4-1 |  | 📖 daily 2026-04-30 — IBM Granite 4.1 开源模型族发布，面向企业级 RAG 与 Agent 场景优化 |
+| Anthropic 考虑 $9000B+ 估值新一轮融资，拟 10 月 IPO | Anthropic | 2026-04-30 | funding, ipo, anthropic | https://readhub.cn/topic/8sjgGSzi97u |  | ⚡ daily 2026-04-30 — 估值或超 OpenAI 成全球最高 AI 独角兽，IPO 时间表首次明确 |
+| AI 编程成本危机：Copilot、Claude 集体涨价，社区反思 vibe coding 经济性 | GitHub/Anthropic | 2026-04-30 | coding-agent, pricing, vibe-coding | https://www.36kr.com/p/3787252419681280 |  | ⚡ daily 2026-04-30 — AI 编程工具 token 消耗过高引发经济性质疑，可能影响 adoption 曲线 |
+| LLM 0.32a0 重大向后兼容重构：插件架构与 CLI 全面升级 | simonw | 2026-04-30 | llm-cli, plugin, python | https://simonwillison.net/2026/Apr/29/llm/#atom-everything |  | 🔧 daily 2026-04-30 — Simon Willison 的 LLM 工具链重大重构，插件生态与 CLI 体验大幅改善 |
+| Amazon Bedrock AgentCore 支持 serverless MCP proxy 部署 | AWS | 2026-04-30 | mcp, serverless, agent | https://aws.amazon.com/blogs/machine-learning/run-custom-mcp-proxies-serverless-on-amazon-bedrock-agentcore-runtime/ |  | 🔧 daily 2026-04-30 — MCP 协议首次获得 AWS serverless 原生支持，企业级治理与可观测性落地 |
+| 阿里云百炼 DeepSeek-V4-Pro 隐式缓存降价至 ¥1/M Token | 阿里云 | 2026-04-30 | pricing, cache, deepseek | https://readhub.cn/topic/8sj9NORpYA8 |  | 🔧 daily 2026-04-30 — 长上下文推理成本再降 50%+，对 Agent 长对话场景直接利好 |
+| AWS AgentCore Memory：Agent 内存的 Namespace 设计模式 | AWS | 2026-04-30 | agent-memory, design-pattern, retrieval | https://aws.amazon.com/blogs/machine-learning/organizing-agents-memory-at-scale-namespace-design-patterns-in-agentcore-memory/ |  | 📖 daily 2026-04-30 — 生产级 Agent 内存管理的 namespace 分层与 IAM 权限控制最佳实践 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
