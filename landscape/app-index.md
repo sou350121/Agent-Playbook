@@ -473,6 +473,12 @@
 | Amazon Bedrock AgentCore 支持 serverless MCP proxy 部署 | AWS | 2026-04-30 | mcp, serverless, agent | https://aws.amazon.com/blogs/machine-learning/run-custom-mcp-proxies-serverless-on-amazon-bedrock-agentcore-runtime/ |  | 🔧 daily 2026-04-30 — MCP 协议首次获得 AWS serverless 原生支持，企业级治理与可观测性落地 |
 | 阿里云百炼 DeepSeek-V4-Pro 隐式缓存降价至 ¥1/M Token | 阿里云 | 2026-04-30 | pricing, cache, deepseek | https://readhub.cn/topic/8sj9NORpYA8 |  | 🔧 daily 2026-04-30 — 长上下文推理成本再降 50%+，对 Agent 长对话场景直接利好 |
 | AWS AgentCore Memory：Agent 内存的 Namespace 设计模式 | AWS | 2026-04-30 | agent-memory, design-pattern, retrieval | https://aws.amazon.com/blogs/machine-learning/organizing-agents-memory-at-scale-namespace-design-patterns-in-agentcore-memory/ |  | 📖 daily 2026-04-30 — 生产级 Agent 内存管理的 namespace 分层与 IAM 权限控制最佳实践 |
+| Codex CLI 0.128.0 新增 /goal：目标驱动循环直到完成 | OpenAI | 2026-05-01 | coding-agent, agent, workflow | https://simonwillison.net/2026/Apr/30/codex-goals/#atom-everything | 🎯 agent-ui | 🔧 daily 2026-05-01 — Codex CLI 引入 Ralph loop 风格的目标驱动模式，自动循环直到 goal 完成或超时——编码 Agent 自主性显著提升 |
+| UK AISI 评估 GPT-5.5 网络安全能力：与 Claude Mythos 相当但不可信 | OpenAI / UK AISI | 2026-05-01 | evaluation, security, guardrail | https://simonwillison.net/2026/Apr/30/gpt-55-cyber-capabilities/#atom-everything | [evaluation] | ⚡ daily 2026-05-01 — 官方安全机构首次系统评估 GPT-5.5 网络攻防能力——发现漏洞能力强但不可信任用于实战，安全评估范式信号 |
+| AWS 发布 RLAIF 实战指南：用 LLM-as-a-Judge 做强化微调 | AWS | 2026-05-01 | evaluation, llmops, training | https://aws.amazon.com/blogs/machine-learning/reinforcement-fine-tuning-with-llm-as-a-judge/ | [evaluation] | 🔧 daily 2026-05-01 — AWS 系统化 RLAIF 流程文档——用 Amazon Nova 做 LLM-as-a-Judge 强化微调，生产级对齐实践参考 |
+| AWS Model Agility Solution：LLM 迁移/升级的系统化框架 | AWS | 2026-05-01 | llmops, deployment, gateway | https://aws.amazon.com/blogs/machine-learning/aws-generative-ai-model-agility-solution-a-comprehensive-guide-to-migrating-llms-for-generative-ai-production/ |  | 🔧 daily 2026-05-01 — LLM 快速迭代时代，AWS 提供模型迁移方法论和工具链——从评估到部署的端到端框架，降低切换成本 |
+| Zig creator Andrew Kelley：LLM 辅助 PR 的错误模式与人类根本不同 | — | 2026-05-01 | coding-agent, developer-experience | https://simonwillison.net/2026/Apr/30/andrew-kelley/#atom-everything |  | 📖 daily 2026-05-01 — Zig 创始人分享 LLM 辅助开发的实际经验——LLM 幻觉有独特模式可检测，对 Agent 代码审查有启发 |
+| DeepMind AI Co-Clinician：医疗场景的 AI 协诊系统 | Google DeepMind | 2026-05-01 | multimodal-model, healthcare, agent | https://deepmind.google/blog/ai-co-clinician/ |  | ⚡ daily 2026-05-01 — DeepMind 发布 AI 协诊系统研究——探索 LLM 在临床决策中的辅助角色，医疗 Agent 方向标志性进展 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
