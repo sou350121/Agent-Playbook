@@ -479,6 +479,11 @@
 | AWS Model Agility Solution：LLM 迁移/升级的系统化框架 | AWS | 2026-05-01 | llmops, deployment, gateway | https://aws.amazon.com/blogs/machine-learning/aws-generative-ai-model-agility-solution-a-comprehensive-guide-to-migrating-llms-for-generative-ai-production/ |  | 🔧 daily 2026-05-01 — LLM 快速迭代时代，AWS 提供模型迁移方法论和工具链——从评估到部署的端到端框架，降低切换成本 |
 | Zig creator Andrew Kelley：LLM 辅助 PR 的错误模式与人类根本不同 | — | 2026-05-01 | coding-agent, developer-experience | https://simonwillison.net/2026/Apr/30/andrew-kelley/#atom-everything |  | 📖 daily 2026-05-01 — Zig 创始人分享 LLM 辅助开发的实际经验——LLM 幻觉有独特模式可检测，对 Agent 代码审查有启发 |
 | DeepMind AI Co-Clinician：医疗场景的 AI 协诊系统 | Google DeepMind | 2026-05-01 | multimodal-model, healthcare, agent | https://deepmind.google/blog/ai-co-clinician/ |  | ⚡ daily 2026-05-01 — DeepMind 发布 AI 协诊系统研究——探索 LLM 在临床决策中的辅助角色，医疗 Agent 方向标志性进展 |
+| Uber 烧光 2026 AI 预算：Claude Code 四个月吃掉全年额度 | Anthropic | 2026-05-02 | claude-code, ai-coding, budget | https://www.briefs.co/news/uber-torches-entire-2026-ai-budget-on-claude-code-in-four-months/ |  | ⚡ daily 2026-05-02 — 95% 工程师月活 AI 工具，月均 API 成本 $500-2000/人，AI 编程经济性拐点信号 |
+| Adam Fusion：AI Agent 驱动 Autodesk Fusion 360 原生 CAD 设计 | Adam | 2026-05-02 | agent, cad, design | https://fusion.adam.new/install |  | 🔧 daily 2026-05-02 — text-to-CAD 从 Web App 进化为 Fusion 360 原生 Agent 插件，本地执行不依赖云端 |
+| AWS Transform 新增 BI 迁移 Agent：自动化 Tableau/Power BI → Amazon Quick | AWS | 2026-05-02 | agent, bi-migration, aws | https://aws.amazon.com/blogs/machine-learning/aws-transform-now-automates-bi-migration-to-amazon-quick-in-days/ |  | 📖 daily 2026-05-02 — Agent 化 BI 迁移从月缩至天，通过 Marketplace 订阅专用 Analyzer/Converter Agent |
+| DeepSeek 发布多模态技术报告：视觉原语推理框架（已删除） | DeepSeek | 2026-05-02 | multimodal, visual-primitives, reasoning | https://readhub.cn/topic/8skqPqDbX9X |  | ⚡ daily 2026-05-02 — 提出「视觉原语」框架，将 bbox/点提升为推理基本单元，token 效率仅为 Gemini 1/3 |
+| Simon Willison 用 Claude Code for Web 打造 iNaturalist 观测工具 | Simon Willison | 2026-05-02 | claude-code, web-dev, vibe-coding | https://simonwillison.net/2026/May/1/inat-sightings/ |  | 📖 daily 2026-05-02 — 全程手机 + Claude Code 构建 Git scraping + 前端展示，vibe coding 实战案例 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
