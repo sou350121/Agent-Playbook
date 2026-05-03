@@ -484,6 +484,12 @@
 | AWS Transform 新增 BI 迁移 Agent：自动化 Tableau/Power BI → Amazon Quick | AWS | 2026-05-02 | agent, bi-migration, aws | https://aws.amazon.com/blogs/machine-learning/aws-transform-now-automates-bi-migration-to-amazon-quick-in-days/ |  | 📖 daily 2026-05-02 — Agent 化 BI 迁移从月缩至天，通过 Marketplace 订阅专用 Analyzer/Converter Agent |
 | DeepSeek 发布多模态技术报告：视觉原语推理框架（已删除） | DeepSeek | 2026-05-02 | multimodal, visual-primitives, reasoning | https://readhub.cn/topic/8skqPqDbX9X |  | ⚡ daily 2026-05-02 — 提出「视觉原语」框架，将 bbox/点提升为推理基本单元，token 效率仅为 Gemini 1/3 |
 | Simon Willison 用 Claude Code for Web 打造 iNaturalist 观测工具 | Simon Willison | 2026-05-02 | claude-code, web-dev, vibe-coding | https://simonwillison.net/2026/May/1/inat-sightings/ |  | 📖 daily 2026-05-02 — 全程手机 + Claude Code 构建 Git scraping + 前端展示，vibe coding 实战案例 |
+| Open Design：开源 Claude Design 替代，12 个 Coding Agent CLI 统一设计工作流 | nexu-io | 2026-05-03 | agent-ui, design-system, coding-agent | https://github.com/nexu-io/open-design | 🎯 agent-ui | 🔧 daily 2026-05-03 — 开源 Claude Design 替代，支持 12 个 coding agent CLI + 72 套品牌设计系统，本地优先 BYOK |
+| VS Code 无条件插入 Co-Authored-by Copilot，社区质疑 attribution 准确性 | microsoft | 2026-05-03 | copilot, attribution, developer-tools | https://github.com/microsoft/vscode/pull/310226 |  | 🔧 daily 2026-05-03 — VS Code 无论是否使用 Copilot 都自动添加 Co-Authored-by 标签，引发 attribution 准确性争议 |
+| jcode：Coding Agent Harness，启动速度 245x 快于 Claude Code，内存 19.7x 更低 | 1jehuang | 2026-05-03 | coding-agent, performance, agent-ui | https://github.com/1jehuang/jcode | 🎯 agent-ui | ⚡ daily 2026-05-03 — 多会话编程 agent harness 性能基准测试：14ms 首帧 vs Claude Code 3.4s，10 会话内存仅 260MB |
+| browserbase/skills：Claude Agent SDK 集成网页浏览工具，支持隐身模式 + CAPTCHA 解决 | browserbase | 2026-05-03 | agent-framework, browser-automation, mcp | https://github.com/browserbase/skills | 🎯 agent-ui | 🔧 daily 2026-05-03 — 为 Claude Code 提供浏览器自动化 skill 插件，支持反检测 + 住宅代理 + DevTools 协议追踪 |
+| Flue：TypeScript Agent Harness 框架，Model + Harness + Sandbox 三层架构 | Flue | 2026-05-03 | agent-framework, typescript, sandbox | https://flueframework.com/ | 🎯 agent-ui | 🔧 daily 2026-05-03 — 将 coding agent 的 harness 架构抽象为 TypeScript 框架，内置零配置虚拟沙箱，可部署为 HTTP 服务或 CLI |
+| ruflo：Claude Code 多 Agent 编排平台，支持 100+ Agent 集群 + 联邦通信 | ruvnet | 2026-05-03 | multi-agent, orchestration, swarm | https://github.com/ruvnet/ruflo | 🎯 agent-ui | ⚡ daily 2026-05-03 — 为 Claude Code 添加集群编排、自学习记忆、跨机器联邦通信能力，32 个可插拔插件 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
