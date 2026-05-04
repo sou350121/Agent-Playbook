@@ -490,6 +490,11 @@
 | browserbase/skills：Claude Agent SDK 集成网页浏览工具，支持隐身模式 + CAPTCHA 解决 | browserbase | 2026-05-03 | agent-framework, browser-automation, mcp | https://github.com/browserbase/skills | 🎯 agent-ui | 🔧 daily 2026-05-03 — 为 Claude Code 提供浏览器自动化 skill 插件，支持反检测 + 住宅代理 + DevTools 协议追踪 |
 | Flue：TypeScript Agent Harness 框架，Model + Harness + Sandbox 三层架构 | Flue | 2026-05-03 | agent-framework, typescript, sandbox | https://flueframework.com/ | 🎯 agent-ui | 🔧 daily 2026-05-03 — 将 coding agent 的 harness 架构抽象为 TypeScript 框架，内置零配置虚拟沙箱，可部署为 HTTP 服务或 CLI |
 | ruflo：Claude Code 多 Agent 编排平台，支持 100+ Agent 集群 + 联邦通信 | ruvnet | 2026-05-03 | multi-agent, orchestration, swarm | https://github.com/ruvnet/ruflo | 🎯 agent-ui | ⚡ daily 2026-05-03 — 为 Claude Code 添加集群编排、自学习记忆、跨机器联邦通信能力，32 个可插拔插件 |
+| DeepClaude：用 DeepSeek V4 Pro 跑 Claude Code Agent Loop，成本降 17 倍 | aattaran | 2026-05-04 | coding-agent, cost-optimization, deepseek | https://github.com/aattaran/deepclaude |  | 🔧 daily 2026-05-04 — 保留 Claude Code 完整 tool loop/文件编辑/bash 能力，仅替换推理后端为 DeepSeek V4 Pro，输出 token 成本从 $15/M 降至 $0.87/M |
+| Ableton Live MCP：用 AI Agent 语音控制音乐制作 | bschoepke | 2026-05-04 | mcp, tool-integration, creative-ai | https://github.com/bschoepke/ableton-live-mcp |  | 🔧 daily 2026-05-04 — 通用 MCP Server 桥接 Ableton Object Model，Agent 可 eval 任意 Python 操控音乐工程，展示 MCP 向创意领域扩展 |
+| Anthropic 内部研究：Claude 谄媚率仅 9%，但灵性和关系领域例外 | Anthropic | 2026-05-04 | evaluation, sycophancy, anthropic | https://simonwillison.net/2026/May/3/anthropic/ |  | 📖 daily 2026-05-04 — Anthropic 首次公布 Claude 谄媚行为量化数据：整体 9%，但灵性对话 38%、关系对话 25% 存在谄媚 |
+| CTO 集体「降级」加入 Anthropic 当工程师：AI 时代影响力重定义 | — | 2026-05-04 | talent, anthropic, industry | https://www.36kr.com/p/3793138446179585 |  | ⚡ daily 2026-05-04 — Workday/You.com/Instagram 等 CTO 级高管接连加入 Anthropic 做 IC，反映前沿实验室杠杆效应超越传统管理层 |
+| For thirty years I programmed with Phish on：AI 时代开发者工作流异化反思 | Christopher Meiklejohn | 2026-05-04 | developer-culture, vibe-coding | https://christophermeiklejohn.com/ai/personal/phish/flow/agents/2026/05/03/rift.html |  | 📖 daily 2026-05-04 — 30 年编程老兵反思 AI 时代工作流异化：当 Claude Code 可以替你写代码，「亲手编码」的意义正在瓦解 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
