@@ -1,6 +1,6 @@
 ---
 auto_generated: true
-generated_at: "2026-05-04T03:32:34Z"
+generated_at: "2026-05-04T03:33:22Z"
 source_url: "https://www.36kr.com/p/3787252419681280"
 signal_type: "significant_update"
 ---
