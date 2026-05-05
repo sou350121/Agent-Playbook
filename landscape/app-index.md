@@ -495,6 +495,12 @@
 | Anthropic 内部研究：Claude 谄媚率仅 9%，但灵性和关系领域例外 | Anthropic | 2026-05-04 | evaluation, sycophancy, anthropic | https://simonwillison.net/2026/May/3/anthropic/ |  | 📖 daily 2026-05-04 — Anthropic 首次公布 Claude 谄媚行为量化数据：整体 9%，但灵性对话 38%、关系对话 25% 存在谄媚 |
 | CTO 集体「降级」加入 Anthropic 当工程师：AI 时代影响力重定义 | — | 2026-05-04 | talent, anthropic, industry | https://www.36kr.com/p/3793138446179585 |  | ⚡ daily 2026-05-04 — Workday/You.com/Instagram 等 CTO 级高管接连加入 Anthropic 做 IC，反映前沿实验室杠杆效应超越传统管理层 |
 | For thirty years I programmed with Phish on：AI 时代开发者工作流异化反思 | Christopher Meiklejohn | 2026-05-04 | developer-culture, vibe-coding | https://christophermeiklejohn.com/ai/personal/phish/flow/agents/2026/05/03/rift.html |  | 📖 daily 2026-05-04 — 30 年编程老兵反思 AI 时代工作流异化：当 Claude Code 可以替你写代码，「亲手编码」的意义正在瓦解 |
+| OpenAI 重构 WebRTC 栈：低延迟语音 AI 基础设施架构 | OpenAI | 2026-05-05 | realtime, webrtc, voice-ai | https://openai.com/index/delivering-low-latency-voice-ai-at-scale/ |  | 📖 daily 2026-05-05 — 为 9 亿月活用户重新设计 WebRTC 架构，split relay + transceiver 模式保障实时语音交互低延迟 |
+| AWS AgentCore Optimization 预览：Agent 质量闭环（推荐+A/B 测试） | AWS | 2026-05-05 | agent, evaluation, ab-testing | https://aws.amazon.com/blogs/machine-learning/introducing-the-agent-quality-loop-agentcore-optimization-now-in-preview/ | 🎯 [evaluation] | 🔧 daily 2026-05-05 — 从生产 trace 自动生成优化推荐，经 batch eval + A/B 测试验证，替代人工 prompt 调优循环 |
+| SageMaker AI 新增 Agent 引导式模型定制工作流 | AWS | 2026-05-05 | agent, workflow, fine-tuning | https://aws.amazon.com/blogs/machine-learning/agent-guided-workflows-to-accelerate-model-customization-in-amazon-sagemaker-ai/ | 🎯 | 🔧 daily 2026-05-05 — 自然语言描述用例 → Agent 自动完成 SFT/DPO/RLVR 全流程，预构建 Skills 可编辑复用 |
+| Anthropic 接近达成 15 亿美元合资协议：黑石 + 高盛各投约 3 亿 | — | 2026-05-05 | funding, anthropic | https://readhub.cn/topic/8sqdrgaZIGx |  | ⚡ daily 2026-05-05 — Anthropic 持续融资加速，黑石/高盛/海曼傅曼各投约 3 亿美元，AI 基础设施军备竞赛升级 |
+| 马斯克开庭前两天寻求与 OpenAI 和解：要求领导层变更 + 1500 亿赔偿 | — | 2026-05-05 | openai, lawsuit | https://readhub.cn/topic/8srGSpTqKN1 |  | ⚡ daily 2026-05-05 — 马斯克在开庭前联系 Brockman 求和，涉及微软的 1500 亿美元赔偿诉讼或迎来转折 |
+| Claude Code 实战：构建 ReDoS 鲁棒性正则引擎实验 | Simon Willison | 2026-05-05 | claude-code, security, regex | https://simonwillison.net/2026/May/4/tre-python-binding/#atom-everything |  | 📖 daily 2026-05-05 — Claude Code 构建 TRE 正则引擎 Python binding 演示 ReDoS 鲁棒性，展示 AI 辅助安全工具开发 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
