@@ -501,6 +501,12 @@
 | Anthropic 接近达成 15 亿美元合资协议：黑石 + 高盛各投约 3 亿 | — | 2026-05-05 | funding, anthropic | https://readhub.cn/topic/8sqdrgaZIGx |  | ⚡ daily 2026-05-05 — Anthropic 持续融资加速，黑石/高盛/海曼傅曼各投约 3 亿美元，AI 基础设施军备竞赛升级 |
 | 马斯克开庭前两天寻求与 OpenAI 和解：要求领导层变更 + 1500 亿赔偿 | — | 2026-05-05 | openai, lawsuit | https://readhub.cn/topic/8srGSpTqKN1 |  | ⚡ daily 2026-05-05 — 马斯克在开庭前联系 Brockman 求和，涉及微软的 1500 亿美元赔偿诉讼或迎来转折 |
 | Claude Code 实战：构建 ReDoS 鲁棒性正则引擎实验 | Simon Willison | 2026-05-05 | claude-code, security, regex | https://simonwillison.net/2026/May/4/tre-python-binding/#atom-everything |  | 📖 daily 2026-05-05 — Claude Code 构建 TRE 正则引擎 Python binding 演示 ReDoS 鲁棒性，展示 AI 辅助安全工具开发 |
+| GPT-5.5 Instant 向所有 ChatGPT 用户推出 | OpenAI | 2026-05-06 | gpt, model-release, chatgpt | https://openai.com/index/gpt-5-5-instant/ |  | ⚡ daily 2026-05-06 — OpenAI 向所有用户推出 GPT-5.5 Instant，GPT-5.3 Instant 3 个月内退役 |
+| OpenAI 向自助平台开放 ChatGPT 广告 | OpenAI | 2026-05-06 | ads, monetization, chatgpt | https://openai.com/index/new-ways-to-buy-chatgpt-ads |  | 📖 daily 2026-05-06 — Ads Manager Beta + CPC 竞价，OpenAI 商业化加速 |
+| Computer Use 比结构化 API 贵 45 倍 | Reflex | 2026-05-06 | computer-use, cost, agent | https://reflex.dev/blog/computer-use-is-45x-more-expensive-than-structured-apis/ |  | 🔧 daily 2026-05-06 — 实测数据揭示 agent 交互方式成本差异，影响架构选型 |
+| MLflow v3.10 上线 Amazon SageMaker AI | AWS/Databricks | 2026-05-06 | mlflow, observability, evaluation | https://aws.amazon.com/blogs/machine-learning/streamlining-generative-ai-development-with-mlflow-v3-10-on-amazon-sagemaker-ai/ | [evaluation] | 🔧 daily 2026-05-06 — 增强 GenAI 实验追踪与工作流能力，SageMaker 原生支持 |
+| Amazon Bedrock AgentCore Browser 新增 OS Level Actions | AWS | 2026-05-06 | agent, browser, computer-use | https://aws.amazon.com/blogs/machine-learning/introducing-os-level-actions-in-amazon-bedrock-agentcore-browser/ | 🎯 agent-ui | 🔧 daily 2026-05-06 — Agent 可通过 InvokeBrowser API 直接控制 OS 屏幕内容 |
+| AI 在斯德哥尔摩开了一家咖啡厅 | Andon Labs | 2026-05-06 | agent, real-world, demo | https://simonwillison.net/2026/May/5/our-ai-started-a-cafe-in-stockholm/#atom-everything |  | 📖 daily 2026-05-06 — Andon Labs 延续 AI 零售实验，这次是 AI 全权运营咖啡厅 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
