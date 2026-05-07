@@ -507,6 +507,12 @@
 | MLflow v3.10 上线 Amazon SageMaker AI | AWS/Databricks | 2026-05-06 | mlflow, observability, evaluation | https://aws.amazon.com/blogs/machine-learning/streamlining-generative-ai-development-with-mlflow-v3-10-on-amazon-sagemaker-ai/ | [evaluation] | 🔧 daily 2026-05-06 — 增强 GenAI 实验追踪与工作流能力，SageMaker 原生支持 |
 | Amazon Bedrock AgentCore Browser 新增 OS Level Actions | AWS | 2026-05-06 | agent, browser, computer-use | https://aws.amazon.com/blogs/machine-learning/introducing-os-level-actions-in-amazon-bedrock-agentcore-browser/ | 🎯 agent-ui | 🔧 daily 2026-05-06 — Agent 可通过 InvokeBrowser API 直接控制 OS 屏幕内容 |
 | AI 在斯德哥尔摩开了一家咖啡厅 | Andon Labs | 2026-05-06 | agent, real-world, demo | https://simonwillison.net/2026/May/5/our-ai-started-a-cafe-in-stockholm/#atom-everything |  | 📖 daily 2026-05-06 — Andon Labs 延续 AI 零售实验，这次是 AI 全权运营咖啡厅 |
+| Anthropic Code w/ Claude 2026：多Agent编排 + Claude Code 速率翻倍 + SpaceX Colossus合作 | Anthropic | 2026-05-07 | multi-agent, agent-ui, orchestration | https://simonwillison.net/2026/May/6/code-w-claude-2026/ |  | ⚡ daily 2026-05-07 — Claude Managed Agents 新增多Agent编排、Outcomes目标设定、Dreaming自检三大功能；Claude Code 时长限制翻倍 |
+| vLLM V0→V1 迁移实录：RL 训练中正确性优先于修正 | ServiceNow AI | 2026-05-07 | vllm, rlhf, inference | https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections |  | 🔧 daily 2026-05-07 — ServiceNow 详述 vLLM V1 迁移中修复 logprobs 语义、运行时默认值、inflight 权重更新、fp32 lm_head 四大差异，恢复 RL 训练轨迹 |
+| Weaviate：检索质量是 RAG 幻觉的最可靠预测因子 | Weaviate | 2026-05-07 | rag, retrieval, evaluation | https://weaviate.io/blog/retrieval-quality-rag-overview | [RAG] | 🔧 daily 2026-05-07 — 多Agent LLM 系统研究表明：检索质量下降时 LLM 不会补偿而是 extrapolate，需专用 eval 基础设施检测 |
+| Simon Willison：Vibe coding 与 agentic engineering 正在收敛 | — | 2026-05-07 | vibe-coding, agentic, paradigm | https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/ |  | 📖 daily 2026-05-07 — 25年经验工程师承认：随着 Agent 可靠性提升，不再逐行审查代码，vibe coding 与 agentic engineering 边界模糊 |
+| 豆包推出付费会员：68-500元/月四档，聚焦复杂生产力场景 | 字节跳动 | 2026-05-07 | monetization, ai-app, china | https://www.36kr.com/p/3797229255843078 |  | ⚡ daily 2026-05-07 — 豆包三亿月活正式启动商业化，付费聚焦 PPT/数据分析/影视制作等复杂场景；对比 Kimi/Claude 定价策略 |
+| Singular Bank 用 ChatGPT + Codex 构建银行内部助手，每天节省 60-90 分钟 | OpenAI | 2026-05-07 | enterprise, chatgpt, codex | https://openai.com/index/singular-bank/ |  | 📖 daily 2026-05-07 — 马德里私人银行构建 Singularity 助手：实时分析投资组合、会议准备、合规跟进，整合核心银行系统 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
