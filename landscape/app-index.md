@@ -513,6 +513,12 @@
 | Simon Willison：Vibe coding 与 agentic engineering 正在收敛 | — | 2026-05-07 | vibe-coding, agentic, paradigm | https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/ |  | 📖 daily 2026-05-07 — 25年经验工程师承认：随着 Agent 可靠性提升，不再逐行审查代码，vibe coding 与 agentic engineering 边界模糊 |
 | 豆包推出付费会员：68-500元/月四档，聚焦复杂生产力场景 | 字节跳动 | 2026-05-07 | monetization, ai-app, china | https://www.36kr.com/p/3797229255843078 |  | ⚡ daily 2026-05-07 — 豆包三亿月活正式启动商业化，付费聚焦 PPT/数据分析/影视制作等复杂场景；对比 Kimi/Claude 定价策略 |
 | Singular Bank 用 ChatGPT + Codex 构建银行内部助手，每天节省 60-90 分钟 | OpenAI | 2026-05-07 | enterprise, chatgpt, codex | https://openai.com/index/singular-bank/ |  | 📖 daily 2026-05-07 — 马德里私人银行构建 Singularity 助手：实时分析投资组合、会议准备、合规跟进，整合核心银行系统 |
+| Anthropic NLA：用自然语言自解释 Claude 内部激活 | Anthropic | 2026-05-08 | interpretability, safety, activation | https://www.anthropic.com/research/natural-language-autoencoders |  | ⚡ daily 2026-05-08 — 将模型激活直接转为可读自然语言，可解释性从研究者专属工具变为通用能力 |
+| DeepSeek 4 Flash 专属 Metal 推理引擎 ds4 开源 | antirez (Salvatore Sanfilippo) | 2026-05-08 | local-inference, metal, deepseek | https://github.com/antirez/ds4 |  | 🔧 daily 2026-05-08 — Redis 作者专为 DeepSeek V4 Flash 打造的 Metal 推理引擎，2-bit 量化可在 128GB MacBook 运行 |
+| Mozilla 用 Claude Mythos 修复 Firefox 423 个安全漏洞 | Mozilla | 2026-05-08 | security, claude, firefox | https://simonwillison.net/2026/May/7/firefox-claude-mythos/ |  | 🔧 daily 2026-05-08 — AI 安全审计从噪音变信号：Firefox 月修漏洞从 20-30 暴增至 423，含 20 年历史 bug |
+| GPT-5.5-Cyber 预览：Trusted Access 赋能关键基础设施防御 | OpenAI | 2026-05-08 | cybersecurity, trusted-access, gpt-5.5 | https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber |  | ⚡ daily 2026-05-08 — 身份验证防御者可获更低拒答率执行漏洞识别/恶意软件分析/逆向工程等专业工作流 |
+| OpenAI 发布三款 Realtime 语音 API 模型 | OpenAI | 2026-05-08 | voice-ai, realtime, translation | https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api |  | 🔧 daily 2026-05-08 — GPT-Realtime-2 首次搭载 GPT-5 级推理 + 实时翻译 70+ 语言 + 流式 STT，语音 Agent 从应答走向能干活 |
+| Parloa 企业语音 Agent 平台 AMP：从规则到自然语言定义 | Parloa | 2026-05-08 | voice-agent, customer-service, enterprise | https://openai.com/index/parloa |  | 📖 daily 2026-05-08 — 非技术团队用自然语言定义 Agent 行为，内置仿真+评估，展示语音 Agent 企业级落地路径 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
