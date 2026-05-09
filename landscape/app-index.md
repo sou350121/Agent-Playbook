@@ -519,6 +519,14 @@
 | GPT-5.5-Cyber 预览：Trusted Access 赋能关键基础设施防御 | OpenAI | 2026-05-08 | cybersecurity, trusted-access, gpt-5.5 | https://openai.com/index/gpt-5-5-with-trusted-access-for-cyber |  | ⚡ daily 2026-05-08 — 身份验证防御者可获更低拒答率执行漏洞识别/恶意软件分析/逆向工程等专业工作流 |
 | OpenAI 发布三款 Realtime 语音 API 模型 | OpenAI | 2026-05-08 | voice-ai, realtime, translation | https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api |  | 🔧 daily 2026-05-08 — GPT-Realtime-2 首次搭载 GPT-5 级推理 + 实时翻译 70+ 语言 + 流式 STT，语音 Agent 从应答走向能干活 |
 | Parloa 企业语音 Agent 平台 AMP：从规则到自然语言定义 | Parloa | 2026-05-08 | voice-agent, customer-service, enterprise | https://openai.com/index/parloa |  | 📖 daily 2026-05-08 — 非技术团队用自然语言定义 Agent 行为，内置仿真+评估，展示语音 Agent 企业级落地路径 |
+| Running Codex Safely at OpenAI | OpenAI | 2026-05-09 | coding-agent, security, sandbox, llmops | https://openai.com/index/running-codex-safely |  | ⚡ daily 2026-05-09 — OpenAI 首次公开 Codex 安全架构：沙箱隔离 + 审批流 + 网络策略 + Agent-native 遥测，为生产级编码 Agent 部署设立标杆 |
+| Anthropic 与 Akamai 达成 18 亿美元计算协议 | — | 2026-05-09 | infrastructure, compute, anthropic | https://readhub.cn/topic/8syMN9iEHhR |  | ⚡ daily 2026-05-09 — Anthropic 持续锁定边缘算力基础设施，AI 算力军备竞赛进入 CDN 厂商时代 |
+| Adaptive Parallel Reasoning: 高效推理扩展新范式 | UC Berkeley BAIR | 2026-05-09 | reasoning, inference, scaling | http://bair.berkeley.edu/blog/2026/05/08/adaptive-parallel-reasoning/ |  | ⚡ daily 2026-05-09 — BAIR 提出自适应并行推理框架，在推理质量与计算效率间动态平衡，对 Agent 推理管线有直接启发 |
+| 🎯 Show HN: Git for AI Agents（re_gent） | regent-vcs | 2026-05-09 | agent-ui, vcs, workflow | https://github.com/regent-vcs/re_gent | 🎯 agent-ui | 🔧 daily 2026-05-09 — 为 AI Agent 打造版本控制系统——追踪 Agent 操作历史、回滚、审计，填补 Agent 工作流基础设施空白 |
+| Teaching Claude Why: Anthropic 可解释性新研究 | Anthropic | 2026-05-09 | interpretability, claude, safety | https://www.anthropic.com/research/teaching-claude-why |  | 📖 daily 2026-05-09 — Anthropic 研究让 Claude 解释自身决策原因，对 Agent 可审计性和信任机制有长期意义 |
+| Serving DeepSeek-V4: 百万 token 上下文是推理系统问题 | Together AI | 2026-05-09 | inference, context-window, deepseek | https://www.together.ai/blog/serving-deepseek-v4-why-million-token-context-is-an-inference-systems-problem |  | 📖 daily 2026-05-09 — Together AI 深度解析 V4 百万 token 上下文推理优化：压缩 KV 布局 + 前缀缓存 + 端点配置 |
+| DeepSeek-TUI 屠榜 GitHub：不到 10 元开发应用 | — | 2026-05-09 | deepseek, tui, cli | https://www.36kr.com/p/3799220130312705 |  | 🔧 daily 2026-05-09 — DeepSeek 终端 UI 工具登顶 GitHub Trending，低门槛 TUI 开发方案引发社区关注 |
+| 🎯 Using Claude Code: HTML 的不合理有效性 | Anthropic (Claude Code Team) | 2026-05-09 | agent-ui, coding-agent, claude-code | https://simonwillison.net/2026/May/8/unreasonable-effectiveness-of-html/ | 🎯 agent-ui | 📖 daily 2026-05-09 — Claude Code 团队成员主张用 HTML 替代 Markdown 作为输出格式，对 Agent UI 设计有实操参考价值 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
