@@ -527,6 +527,12 @@
 | Serving DeepSeek-V4: 百万 token 上下文是推理系统问题 | Together AI | 2026-05-09 | inference, context-window, deepseek | https://www.together.ai/blog/serving-deepseek-v4-why-million-token-context-is-an-inference-systems-problem |  | 📖 daily 2026-05-09 — Together AI 深度解析 V4 百万 token 上下文推理优化：压缩 KV 布局 + 前缀缓存 + 端点配置 |
 | DeepSeek-TUI 屠榜 GitHub：不到 10 元开发应用 | — | 2026-05-09 | deepseek, tui, cli | https://www.36kr.com/p/3799220130312705 |  | 🔧 daily 2026-05-09 — DeepSeek 终端 UI 工具登顶 GitHub Trending，低门槛 TUI 开发方案引发社区关注 |
 | 🎯 Using Claude Code: HTML 的不合理有效性 | Anthropic (Claude Code Team) | 2026-05-09 | agent-ui, coding-agent, claude-code | https://simonwillison.net/2026/May/8/unreasonable-effectiveness-of-html/ | 🎯 agent-ui | 📖 daily 2026-05-09 — Claude Code 团队成员主张用 HTML 替代 Markdown 作为输出格式，对 Agent UI 设计有实操参考价值 |
+| OpenAI WebRTC 架构遭质疑：Voice AI 不该用 WebRTC | Media over QUIC project | 2026-05-10 | voice-ai, webrtc, infrastructure | https://moq.dev/blog/webrtc-is-the-problem/ |  | ⚡ daily 2026-05-10 — WebRTC 为保低延迟丢弃音频包，导致 LLM prompt 不完整——Voice AI 需要新传输协议 |
+| LLMs Corrupt Documents: 前沿模型在长委托工作流中损坏 25% 文档内容 | Microsoft Research | 2026-05-10 | agent-delegation, evaluation, reliability | https://arxiv.org/abs/2604.15597 |  | ⚡ daily 2026-05-10 — DELEGATE-52 基准测试 19 个 LLM，长工作流中平均损坏 25% 文档 |
+| DeepSeek 大范围开放识图模式：视觉原语推理框架 | DeepSeek | 2026-05-10 | multimodal, vision, deepseek | https://m.ithome.com/html/948020.htm |  | 🔧 daily 2026-05-10 — Thinking with Visual Primitives 框架，800x800 图片仅消耗 ~90 tokens |
+| EMO: Allen AI 涌现模块化 MoE——12.5% experts 保持全模型性能 | Allen AI | 2026-05-10 | moe, modularity, open-source | https://huggingface.co/blog/allenai/emo |  | 🔧 daily 2026-05-10 — 14B-total/1B-active 8/128 MoE，预训练即涌现模块化结构 |
+| ChatGPT 5.5 Pro 数学家实测：数论问题 2 小时从指数变多项式 | OpenAI | 2026-05-10 | evaluation, chatgpt, math | https://gowers.wordpress.com/2026/05/08/a-recent-experience-with-chatgpt-5-5-pro/ |  | 📖 daily 2026-05-10 — 剑桥 Fields 奖得主亲测 5.5 Pro 数学推理能力 |
+| OncoAgent: 双层多 Agent 隐私保护肿瘤临床决策框架 | Lablab AI | 2026-05-10 | multi-agent, healthcare, privacy | https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/oncoagent-official-paper |  | 📖 daily 2026-05-10 — AMD 黑客松获奖项目，双层 Agent 架构实现隐私保护医疗决策 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
