@@ -533,6 +533,8 @@
 | EMO: Allen AI 涌现模块化 MoE——12.5% experts 保持全模型性能 | Allen AI | 2026-05-10 | moe, modularity, open-source | https://huggingface.co/blog/allenai/emo |  | 🔧 daily 2026-05-10 — 14B-total/1B-active 8/128 MoE，预训练即涌现模块化结构 |
 | ChatGPT 5.5 Pro 数学家实测：数论问题 2 小时从指数变多项式 | OpenAI | 2026-05-10 | evaluation, chatgpt, math | https://gowers.wordpress.com/2026/05/08/a-recent-experience-with-chatgpt-5-5-pro/ |  | 📖 daily 2026-05-10 — 剑桥 Fields 奖得主亲测 5.5 Pro 数学推理能力 |
 | OncoAgent: 双层多 Agent 隐私保护肿瘤临床决策框架 | Lablab AI | 2026-05-10 | multi-agent, healthcare, privacy | https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/oncoagent-official-paper |  | 📖 daily 2026-05-10 — AMD 黑客松获奖项目，双层 Agent 架构实现隐私保护医疗决策 |
+| Hermes Agent 登顶 OpenRouter 全球调用量榜首：首次超越 OpenClaw，日消耗 271B Token | Nous Research | 2026-05-11 | agent, open-source, multi-agent | https://github.com/nousresearch/hermes-agent |  | ⚡ daily 2026-05-11 — 开源 Agent 首次超越闭源产品登顶，标志真实用量竞争拐点 |
+| MachinaCheck: 基于多 Agent 的 CNC 可制造性分析系统（Qwen 2.5 7B + AMD MI300X） | Lablab AI | 2026-05-11 | multi-agent, manufacturing, qwen | https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/machinacheck |  | 🔧 daily 2026-05-11 — 4-Agent 架构 30 秒完成 CNC 可行性分析，私有化部署保护制造 IP |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
