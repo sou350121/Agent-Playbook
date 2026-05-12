@@ -535,6 +535,14 @@
 | OncoAgent: 双层多 Agent 隐私保护肿瘤临床决策框架 | Lablab AI | 2026-05-10 | multi-agent, healthcare, privacy | https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/oncoagent-official-paper |  | 📖 daily 2026-05-10 — AMD 黑客松获奖项目，双层 Agent 架构实现隐私保护医疗决策 |
 | Hermes Agent 登顶 OpenRouter 全球调用量榜首：首次超越 OpenClaw，日消耗 271B Token | Nous Research | 2026-05-11 | agent, open-source, multi-agent | https://github.com/nousresearch/hermes-agent |  | ⚡ daily 2026-05-11 — 开源 Agent 首次超越闭源产品登顶，标志真实用量竞争拐点 |
 | MachinaCheck: 基于多 Agent 的 CNC 可制造性分析系统（Qwen 2.5 7B + AMD MI300X） | Lablab AI | 2026-05-11 | multi-agent, manufacturing, qwen | https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/machinacheck |  | 🔧 daily 2026-05-11 — 4-Agent 架构 30 秒完成 CNC 可行性分析，私有化部署保护制造 IP |
+| James Shore: AI coding agent 必须降低维护成本，否则适得其反 | — | 2026-05-12 | agent-ui, coding-agent, maintenance | https://simonwillison.net/2026/May/11/james-shore/ | 🎯 agent-ui | ⚡ daily 2026-05-12 — AI coding 效率翻3倍，维护成本必须降到1/3——这是所有 agent 工具链的硬约束 |
+| Strands Agents + Exa: 构建 web search 驱动的自主 Agent | AWS | 2026-05-12 | agent, tool-calling, web-search | https://aws.amazon.com/blogs/machine-learning/building-web-search-enabled-agents-with-strands-and-exa/ |  | 🔧 daily 2026-05-12 — AWS Strands 原生集成 Exa 搜索工具，Agent 可直接完成多步 web 搜索任务 |
+| OpenAI 发布企业 AI 扩展指南：从实验到规模化 | OpenAI | 2026-05-12 | workflow, LLMOps, enterprise | https://openai.com/business/guides-and-resources/how-enterprises-are-scaling-ai |  | 🔧 daily 2026-05-12 — OpenAI 首次系统输出企业 AI 落地方法论：治理、工作流设计、质量保障 |
+| Claude Platform on AWS 正式 GA | AWS + Anthropic | 2026-05-12 | claude, gateway, enterprise | https://aws.amazon.com/blogs/machine-learning/introducing-claude-platform-on-aws-anthropics-native-platform-through-your-aws-account/ |  | ⚡ daily 2026-05-12 — Anthropic 原生平台首次通过 AWS 提供，企业无需单独 Anthropic 账号即可使用 Claude |
+| OpenAI 成立部署公司 + 收购 Tomoro，超 40 亿美元初始投资 | OpenAI | 2026-05-12 | enterprise, deployment, M&A | https://readhub.cn/topic/8t31MYLcQJ6 |  | ⚡ daily 2026-05-12 — OpenAI 从模型公司转向端到端 AI 部署服务商，直接与企业系统集成商竞争 |
+| ChatGPT 采用率在 2026 Q1 显著拓宽：35+ 用户增长最快 | OpenAI | 2026-05-12 | adoption, market, gpt | https://openai.com/signals/research/2026q1-update |  | 📖 daily 2026-05-12 — ChatGPT 用户结构从年轻男性向全年龄段+性别均衡扩散，主流化拐点信号 |
+| Interfaze: 面向大规模高精度场景的新模型架构 | Interfaze | 2026-05-12 | architecture, inference | https://interfaze.ai/blog/interfaze-a-new-model-architecture-built-for-high-accuracy-at-scale |  | 📖 daily 2026-05-12 — 新架构声称在大规模部署下保持高精度，HN 99 pts 关注，值得跟踪 |
+| AWS Nova 多模态 Embeddings: 航空制造文档检索实战 | AWS | 2026-05-12 | embedding, retrieval, multimodal | https://aws.amazon.com/blogs/machine-learning/manufacturing-intelligence-with-amazon-nova-multimodal-embeddings/ | [RAG] | 📖 daily 2026-05-12 — Amazon Bedrock 多模态 Embeddings 在 26 个制造查询上对比评测，提供 RAG 选型数据 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
