@@ -543,6 +543,13 @@
 | ChatGPT 采用率在 2026 Q1 显著拓宽：35+ 用户增长最快 | OpenAI | 2026-05-12 | adoption, market, gpt | https://openai.com/signals/research/2026q1-update |  | 📖 daily 2026-05-12 — ChatGPT 用户结构从年轻男性向全年龄段+性别均衡扩散，主流化拐点信号 |
 | Interfaze: 面向大规模高精度场景的新模型架构 | Interfaze | 2026-05-12 | architecture, inference | https://interfaze.ai/blog/interfaze-a-new-model-architecture-built-for-high-accuracy-at-scale |  | 📖 daily 2026-05-12 — 新架构声称在大规模部署下保持高精度，HN 99 pts 关注，值得跟踪 |
 | AWS Nova 多模态 Embeddings: 航空制造文档检索实战 | AWS | 2026-05-12 | embedding, retrieval, multimodal | https://aws.amazon.com/blogs/machine-learning/manufacturing-intelligence-with-amazon-nova-multimodal-embeddings/ | [RAG] | 📖 daily 2026-05-12 — Amazon Bedrock 多模态 Embeddings 在 26 个制造查询上对比评测，提供 RAG 选型数据 |
+| Needle: 将 Gemini Tool Calling 蒸馏至 26M 参数模型，消费级设备 6000 tok/s | cactus-compute | 2026-05-13 | tool-calling, agent, 蒸馏 | https://github.com/cactus-compute/needle | 🎯 agent-ui | ⚡ daily 2026-05-13 — 26M 参数 tool-calling 模型在消费设备上跑出 6000 tok/s，agent 工具调用可本地化部署 |
+| Cerebras 以 55 亿美元估值 IPO 上市，AI 芯片赛道新玩家 | Cerebras | 2026-05-13 | 芯片, IPO, 基础设施 | https://readhub.cn/topic/8t4gGj5KjRt |  | 📖 daily 2026-05-13 — AI 芯片 IPO 为 OpenAI 带来 50 亿+意外收益，AI 硬件资本化加速 |
+| Statewright: 用可视化状态机让 AI Agent 可靠执行 | statewright | 2026-05-13 | agent, workflow, 状态机 | https://github.com/statewright/statewright | 🎯 agent-ui | 🔧 daily 2026-05-13 — 用确定性状态机弥补 agentic 编程的脆弱性，20 年工程师实战经验结晶 |
+| Parameter Golf: OpenAI 千人工编程挑战揭示 AI 辅助研究新范式 | OpenAI | 2026-05-13 | coding-agent, 量化, 研究 | https://openai.com/index/what-parameter-golf-taught-us |  | 📖 daily 2026-05-13 — 1000+ 参与者用 coding agent 探索量化与新模型设计，展示 AI 辅助 ML 研究潜力 |
+| Anthropic 洽谈 9000 亿美元估值融资至少 300 亿美元 | — | 2026-05-13 | 融资, Anthropic, 行业 | https://readhub.cn/topic/8t5EYvGMEci |  | ⚡ daily 2026-05-13 — 若成行将是 Anthropic 史上最大融资，进一步巩固 Claude 生态竞争力 |
+| OpenAI 与微软重签协议：支付上限 380 亿美元，节省 970 亿 | — | 2026-05-13 | OpenAI, 微软, 行业 | https://readhub.cn/topic/8t4JE1RVw2G |  | ⚡ daily 2026-05-13 — 新协议大幅降低 OpenAI 现金消耗，为年底 IPO 铺路，重塑 AI 基础设施投资格局 |
+| AutoScout24 用 Codex + ChatGPT 规模化 AI 工程工作流 | OpenAI | 2026-05-13 | workflow, Codex, 企业 | https://openai.com/index/autoscout24 |  | 📖 daily 2026-05-13 — 汽车行业案例：Codex 加速开发周期 + 提升代码质量，AI 工程落地范本 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
