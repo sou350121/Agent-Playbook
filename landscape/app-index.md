@@ -550,6 +550,13 @@
 | Anthropic 洽谈 9000 亿美元估值融资至少 300 亿美元 | — | 2026-05-13 | 融资, Anthropic, 行业 | https://readhub.cn/topic/8t5EYvGMEci |  | ⚡ daily 2026-05-13 — 若成行将是 Anthropic 史上最大融资，进一步巩固 Claude 生态竞争力 |
 | OpenAI 与微软重签协议：支付上限 380 亿美元，节省 970 亿 | — | 2026-05-13 | OpenAI, 微软, 行业 | https://readhub.cn/topic/8t4JE1RVw2G |  | ⚡ daily 2026-05-13 — 新协议大幅降低 OpenAI 现金消耗，为年底 IPO 铺路，重塑 AI 基础设施投资格局 |
 | AutoScout24 用 Codex + ChatGPT 规模化 AI 工程工作流 | OpenAI | 2026-05-13 | workflow, Codex, 企业 | https://openai.com/index/autoscout24 |  | 📖 daily 2026-05-13 — 汽车行业案例：Codex 加速开发周期 + 提升代码质量，AI 工程落地范本 |
+| MiniMax Mavis: Agent「三省六部」架构上线 | MiniMax | 2026-05-15 | multi-agent, agent-orchestration, verification | https://www.36kr.com/p/3808272507215621 |  | 📖 daily 2026-05-15 |
+| Anthropic Claude Code 额度临时提升 50% | Anthropic | 2026-05-15 | coding-agent, claude-code | https://readhub.cn/topic/8t7DU4dhPLw |  | 📖 daily 2026-05-15 |
+| AWS + Stream Vision Agents 实时语音框架 | AWS + Stream | 2026-05-15 | voice-agent, realtime, multimodal | https://aws.amazon.com/blogs/machine-learning/real-time-voice-agents-with-stream-vision-agents-and-amazon-nova-2-sonic/ |  | 📖 daily 2026-05-15 |
+| OpenAI Codex 进入 ChatGPT 移动端 | OpenAI | 2026-05-15 | agent-ui, mobile, coding-agent | https://openai.com/index/work-with-codex-from-anywhere |  | 📖 daily 2026-05-15 |
+| IBM Granite Embedding Multilingual R2 | IBM | 2026-05-15 | embedding, multilingual, rag | https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2 |  | 📖 daily 2026-05-15 |
+| Anthropic + 盖茨基金会 $2 亿合作 | Anthropic | 2026-05-15 | partnership, healthcare, enterprise | https://readhub.cn/topic/8t88dso8i7A |  | 📖 daily 2026-05-15 |
+| AWS Bedrock AgentCore Chrome 企业策略 | AWS | 2026-05-15 | agent-security, enterprise, browser | https://aws.amazon.com/blogs/machine-learning/control-where-your-ai-agents-can-browse-with-chrome-enterprise-policies-on-amazon-bedrock-agentcore/ |  | 📖 daily 2026-05-15 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
