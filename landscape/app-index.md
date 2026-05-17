@@ -557,6 +557,14 @@
 | IBM Granite Embedding Multilingual R2 | IBM | 2026-05-15 | embedding, multilingual, rag | https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2 |  | 📖 daily 2026-05-15 |
 | Anthropic + 盖茨基金会 $2 亿合作 | Anthropic | 2026-05-15 | partnership, healthcare, enterprise | https://readhub.cn/topic/8t88dso8i7A |  | 📖 daily 2026-05-15 |
 | AWS Bedrock AgentCore Chrome 企业策略 | AWS | 2026-05-15 | agent-security, enterprise, browser | https://aws.amazon.com/blogs/machine-learning/control-where-your-ai-agents-can-browse-with-chrome-enterprise-policies-on-amazon-bedrock-agentcore/ |  | 📖 daily 2026-05-15 |
+| OpenAI 已收购 AI 声音克隆公司 weights.gg | OpenAI | 2026-05-17 | acquisition, voice-ai, openai | https://readhub.cn/topic/8tAT0CSYbJ2 |  | ⚡ daily 2026-05-17 — OpenAI 低调收购声音克隆初创 weights.gg 及其团队和知识产权，布局语音能力 |
+| DeepSeek-V4-Flash means LLM steering is interesting again | — | 2026-05-17 | llm-steering, vector, interpretability | https://www.seangoedecke.com/steering-vectors/ |  | 🔧 daily 2026-05-17 — LLM 激活向量操控技术重新受到关注，为模型行为控制提供新路径 |
+| 别每个 AI 工具单独配了！MCP 一次搭建，Claude、Cursor、TRAE 全都能用 | — | 2026-05-17 | mcp, tool-integration, agent-ui | https://juejin.cn/post/7639558766265417738 | 🎯 agent-ui | 🔧 daily 2026-05-17 — MCP 一站式部署指南，覆盖 Claude/Cursor/TRAE 等多工具，降低 Agent 工具集成门槛 |
+| OpenClaw Creator Spent $1.3M on OpenAI Tokens in 30 Days | OpenClaw | 2026-05-17 | llm-cost, openai, token-usage | https://twitter.com/steipete/status/2055346265869721905 |  | 📖 daily 2026-05-17 — OpenClaw 作者 30 天消耗 $1.3M OpenAI Token，揭示 Agentic 工作流的真实算力成本 |
+| Zerostack — A Unix-inspired coding agent written in pure Rust | — | 2026-05-17 | coding-agent, rust, agent | https://crates.io/crates/zerostack/1.0.0 | 🎯 agent-ui | 🔧 daily 2026-05-17 — Unix 哲学驱动的 Rust 编码 Agent，轻量可组合，为 Agent 工具链提供新选择 |
+| Warelay -> OpenClaw：Simon Willison 梳理 OpenClaw 命名演变史 | Simon Willison | 2026-05-17 | openclaw, agent, naming | https://simonwillison.net/2026/May/16/openclaw-names/ |  | 📖 daily 2026-05-17 — 从 Warelay 到 OpenClaw 的命名演变记录，反映 Agent 工具品牌定位的迭代过程 |
+| OpenAI 与 Malta 合作：ChatGPT Plus 面向全体公民开放 | OpenAI | 2026-05-17 | chatgpt, government, ai-access | https://openai.com/index/malta-chatgpt-plus-partnership |  | 📖 daily 2026-05-17 — 国家级别 AI 普及合作——整个国家的公民免费获得 ChatGPT Plus，探索 AI 规模化路径 |
+| Claude 为什么早晨 8:30 催你睡觉？ | Anthropic | 2026-05-17 | claude, agent-behavior, ux | https://www.36kr.com/p/3811413738594050 |  | 📖 daily 2026-05-17 — Claude 自主催睡行为引发讨论——Agent 从被动响应到主动干预的 UX 边界探索 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
