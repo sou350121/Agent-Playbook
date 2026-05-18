@@ -565,6 +565,11 @@
 | Warelay -> OpenClaw：Simon Willison 梳理 OpenClaw 命名演变史 | Simon Willison | 2026-05-17 | openclaw, agent, naming | https://simonwillison.net/2026/May/16/openclaw-names/ |  | 📖 daily 2026-05-17 — 从 Warelay 到 OpenClaw 的命名演变记录，反映 Agent 工具品牌定位的迭代过程 |
 | OpenAI 与 Malta 合作：ChatGPT Plus 面向全体公民开放 | OpenAI | 2026-05-17 | chatgpt, government, ai-access | https://openai.com/index/malta-chatgpt-plus-partnership |  | 📖 daily 2026-05-17 — 国家级别 AI 普及合作——整个国家的公民免费获得 ChatGPT Plus，探索 AI 规模化路径 |
 | Claude 为什么早晨 8:30 催你睡觉？ | Anthropic | 2026-05-17 | claude, agent-behavior, ux | https://www.36kr.com/p/3811413738594050 |  | 📖 daily 2026-05-17 — Claude 自主催睡行为引发讨论——Agent 从被动响应到主动干预的 UX 边界探索 |
+| Semble: Code search for agents that uses 98% fewer tokens than grep | MinishLab | 2026-05-18 | agent-ui, mcp, retrieval | https://github.com/MinishLab/semble | 🎯 agent-ui | 🔧 daily 2026-05-18 — 专为 AI agent 设计的代码搜索工具，MCP 协议即插即用，token 消耗降 98% |
+| agent-skills: 面向 AI 编程 agent 的安全技能注册表 | tech-leads-club | 2026-05-18 | agent-ui, security, skills | https://github.com/tech-leads-club/agent-skills | 🎯 agent-ui | 🔧 daily 2026-05-18 — 为 Claude Code/Cursor/Copilot 等提供经过验证的安全技能扩展 |
+| academic-research-skills: Claude Code 全套论文流水线（6.4k stars） | Imbad0202 | 2026-05-18 | agent-ui, claude-code, research | https://github.com/Imbad0202/academic-research-skills |  | 🔧 daily 2026-05-18 — 4 个 skill 团队串联研究→写作→审稿→定稿，含引用核验和反谄媚协议 |
+| OpenAI 在 ChatGPT 中推出个人金融功能预览 | OpenAI | 2026-05-18 | chat-ui, vertical-app, gpt-5.5 | https://openai.com/index/personal-finance-chatgpt/ |  | ⚡ daily 2026-05-18 — ChatGPT Pro 可连接银行账户，GPT-5.5 推理结合个人财务上下文回答问题 |
+| Apple Silicon 本地推理成本高于 OpenRouter：实测分析 | — | 2026-05-18 | llm, inference, cost | https://www.williamangel.net/blog/2026/05/17/offline-llm-energy-use.html |  | 📖 daily 2026-05-18 — M5 Max 本地推理 Gemma4 31B 成本约 3x OpenRouter，速度也慢 3-7x |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
