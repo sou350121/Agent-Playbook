@@ -570,6 +570,13 @@
 | academic-research-skills: Claude Code 全套论文流水线（6.4k stars） | Imbad0202 | 2026-05-18 | agent-ui, claude-code, research | https://github.com/Imbad0202/academic-research-skills |  | 🔧 daily 2026-05-18 — 4 个 skill 团队串联研究→写作→审稿→定稿，含引用核验和反谄媚协议 |
 | OpenAI 在 ChatGPT 中推出个人金融功能预览 | OpenAI | 2026-05-18 | chat-ui, vertical-app, gpt-5.5 | https://openai.com/index/personal-finance-chatgpt/ |  | ⚡ daily 2026-05-18 — ChatGPT Pro 可连接银行账户，GPT-5.5 推理结合个人财务上下文回答问题 |
 | Apple Silicon 本地推理成本高于 OpenRouter：实测分析 | — | 2026-05-18 | llm, inference, cost | https://www.williamangel.net/blog/2026/05/17/offline-llm-energy-use.html |  | 📖 daily 2026-05-18 — M5 Max 本地推理 Gemma4 31B 成本约 3x OpenRouter，速度也慢 3-7x |
+| OpenAI + Dell: Codex 进军混合云与企业本地部署 | OpenAI | 2026-05-19 | coding-agent, enterprise, hybrid-cloud | https://openai.com/index/dell-codex-enterprise-partnership | 🎯 agent-ui | ⚡ daily 2026-05-19 — Codex 周活 400 万开发者，首次深入 Dell AI Data Platform 和 AI Factory，企业级 AI 编程 Agent 落地路径明确 |
+| IBM 发布 Open Agent Leaderboard：评估完整 Agent 系统而非单模型 | IBM Research | 2026-05-19 | agent-eval, benchmark, open-source | https://huggingface.co/blog/ibm-research/open-agent-leaderboard | 🎯 agent-ui | 🔧 daily 2026-05-19 — 首个面向完整 Agent 系统的开放基准，同时报告质量与成本，Exgentic 框架开源 |
+| Cloudflare Project Glasswing: 用 Anthropic Mythos 测试 50+ 仓库安全漏洞 | Cloudflare | 2026-05-19 | security, mythos, vulnerability-detection | https://blog.cloudflare.com/cyber-frontier-models/ |  | 🔧 daily 2026-05-19 — Mythos Preview 能构造攻击链并自动生成 exploit proof，安全 LLM 从扫描器升级为研究助手 |
+| AWS Bedrock AgentCore 自定义代码评估器：Lambda 驱动确定性 Agent 评测 | AWS | 2026-05-19 | evaluation, agent-core, lambda | https://aws.amazon.com/blogs/machine-learning/build-custom-code-based-evaluators-in-amazon-bedrock-agentcore/ | [evaluation] | 🔧 daily 2026-05-19 — 用 Lambda 函数替代 LLM-as-Judge 做确定性评测，JSON schema/PII/业务规则全覆盖，CI/CD 集成 |
+| Amazon Nova 2 Lite 内容审核 Prompting 指南：基于 AILuminate 标准 | AWS | 2026-05-19 | content-moderation, nova-2, guardrail | https://aws.amazon.com/blogs/machine-learning/prompting-amazon-nova-2-for-content-moderation/ | [evaluation] | 📖 daily 2026-05-19 — 基于 MLCommons AILuminate 标准的结构化+自由式审核 prompting 方法，生产可直接参考 |
+| Anthropic CEO 专访：Claude 新功能几乎完全由 AI 自主开发 | Anthropic | 2026-05-19 | claude, agentic-dev, paradigm-shift | https://www.36kr.com/p/3813023648669955 |  | ⚡ daily 2026-05-19 — Dario Amodei 透露 Opus 4.5 让 AI 端到端完成复杂任务到拐点，Co-work 功能一周半由 AI 自主开发 |
+| 法官驳回马斯克对 OpenAI 及 Altman 诉讼 | — | 2026-05-19 | openai, legal, regulation | https://readhub.cn/topic/8tDjwqfqvJM |  | ⚡ daily 2026-05-19 — 马斯克诉讼因时效过期被驳回，OpenAI 偏离慈善使命的法律挑战正式终结 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
