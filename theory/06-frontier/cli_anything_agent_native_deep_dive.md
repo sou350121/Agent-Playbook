@@ -1,6 +1,6 @@
 ---
 auto_generated: true
-generated_at: "2026-05-19T03:32:03Z"
+generated_at: "2026-05-19T03:34:43Z"
 source_url: "https://github.com/HKUDS/CLI-Anything/releases/tag/v0.3.0"
 signal_type: "blog_post"
 ---
