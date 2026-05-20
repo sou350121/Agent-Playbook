@@ -577,6 +577,14 @@
 | Amazon Nova 2 Lite 内容审核 Prompting 指南：基于 AILuminate 标准 | AWS | 2026-05-19 | content-moderation, nova-2, guardrail | https://aws.amazon.com/blogs/machine-learning/prompting-amazon-nova-2-for-content-moderation/ | [evaluation] | 📖 daily 2026-05-19 — 基于 MLCommons AILuminate 标准的结构化+自由式审核 prompting 方法，生产可直接参考 |
 | Anthropic CEO 专访：Claude 新功能几乎完全由 AI 自主开发 | Anthropic | 2026-05-19 | claude, agentic-dev, paradigm-shift | https://www.36kr.com/p/3813023648669955 |  | ⚡ daily 2026-05-19 — Dario Amodei 透露 Opus 4.5 让 AI 端到端完成复杂任务到拐点，Co-work 功能一周半由 AI 自主开发 |
 | 法官驳回马斯克对 OpenAI 及 Altman 诉讼 | — | 2026-05-19 | openai, legal, regulation | https://readhub.cn/topic/8tDjwqfqvJM |  | ⚡ daily 2026-05-19 — 马斯克诉讼因时效过期被驳回，OpenAI 偏离慈善使命的法律挑战正式终结 |
+| Karpathy joins Anthropic | Anthropic | 2026-05-20 | talent, anthropic, agent | https://twitter.com/karpathy/status/2056753169888334312 |  | ⚡ daily 2026-05-20 — AI 领域顶级研究者从 OpenAI 转投 Anthropic，预示 Agent 方向人才争夺白热化 |
+| Gemini 3.5 Flash 正式发布：Google I/O 最快多模态模型 | Google | 2026-05-20 | gemini, multimodal, model-release | https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/ |  | ⚡ daily 2026-05-20 — 跳过 preview 直接 GA，Google 全系产品已切换，速度/效率显著提升 |
+| Gemini Omni：实时全模态模型，语音到语音延迟极低 | Google | 2026-05-20 | gemini, omni, realtime | https://deepmind.google/models/gemini-omni/ |  | ⚡ daily 2026-05-20 — 实时语音-语音多模态交互，HN 235pts，重新定义语音 Agent 体验 |
+| Mistral AI 收购 Emmi AI，布局消费者 AI 全栈 | Mistral AI | 2026-05-20 | mistral, acquisition, consumer-ai | https://www.emmi.ai/news/mistral-ai-acquires-emmi-ai |  | ⚡ daily 2026-05-20 — Mistral 从模型公司转向全栈 AI 企业，欧洲 AI 竞争格局生变 |
+| Google 搜索 25 年来最大改版：AI 模式 + Agent 助手全面嵌入 | Google | 2026-05-20 | google-search, agent, ai-mode | https://readhub.cn/topic/8tGdh1Cswlr |  | 🔧 daily 2026-05-20 — 基于 Gemini 3.5 Flash，AI 概览嵌入搜索框，Gemini Spark 可执行任务/购物 |
+| SpaceX 计划 IPO 后收购 AI 编程初创 Cursor，反向分手费 $100 亿 | SpaceX/Cursor | 2026-05-20 | cursor, acquisition, spacex, coding-agent | https://readhub.cn/topic/8tGtl5awr6Z |  | ⚡ daily 2026-05-20 — SpaceX 以 $100B 反向分手费锁定 Cursor 收购，AI 编程工具战略价值再获验证 |
+| Together AI：Coding Agent 推理基准测试，TPS 超 TensorRT-LLM 31% | Together AI | 2026-05-20 | coding-agent, benchmark, inference | https://www.together.ai/blog/coding-agent-benchmarks |  | 🔧 daily 2026-05-20 — 真实场景 Agent 推理基准：31% TPS 优势、TTFT 减半、成本仅为 Claude Opus 24% |
+| AWS：基于 Nova Sonic 的可扩展语音 Agent 设计模式 | AWS | 2026-05-20 | voice-agent, multi-agent, nova-sonic | https://aws.amazon.com/blogs/machine-learning/scalable-voice-agent-design-with-amazon-nova-sonic-multi-agent-tools-and-session-segmentation/ |  | 🔧 daily 2026-05-20 — 多 Agent + 工具调用 + 会话分段的语音 Agent 架构最佳实践 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
