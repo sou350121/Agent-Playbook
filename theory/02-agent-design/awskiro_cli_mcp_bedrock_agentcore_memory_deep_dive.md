@@ -1,6 +1,6 @@
 ---
 auto_generated: true
-generated_at: "2026-05-21T03:33:17Z"
+generated_at: "2026-05-21T03:34:28Z"
 source_url: "https://aws.amazon.com/blogs/machine-learning/extending-conversational-memory-in-kiro-cli-using-amazon-bedrock-agentcore-memory/"
 signal_type: "blog_post"
 ---
