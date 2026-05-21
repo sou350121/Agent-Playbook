@@ -585,6 +585,13 @@
 | SpaceX 计划 IPO 后收购 AI 编程初创 Cursor，反向分手费 $100 亿 | SpaceX/Cursor | 2026-05-20 | cursor, acquisition, spacex, coding-agent | https://readhub.cn/topic/8tGtl5awr6Z |  | ⚡ daily 2026-05-20 — SpaceX 以 $100B 反向分手费锁定 Cursor 收购，AI 编程工具战略价值再获验证 |
 | Together AI：Coding Agent 推理基准测试，TPS 超 TensorRT-LLM 31% | Together AI | 2026-05-20 | coding-agent, benchmark, inference | https://www.together.ai/blog/coding-agent-benchmarks |  | 🔧 daily 2026-05-20 — 真实场景 Agent 推理基准：31% TPS 优势、TTFT 减半、成本仅为 Claude Opus 24% |
 | AWS：基于 Nova Sonic 的可扩展语音 Agent 设计模式 | AWS | 2026-05-20 | voice-agent, multi-agent, nova-sonic | https://aws.amazon.com/blogs/machine-learning/scalable-voice-agent-design-with-amazon-nova-sonic-multi-agent-tools-and-session-segmentation/ |  | 🔧 daily 2026-05-20 — 多 Agent + 工具调用 + 会话分段的语音 Agent 架构最佳实践 |
+| OpenAI 模型自主证明 80 年离散几何猜想，AI 数学推理里程碑 | OpenAI | 2026-05-21 | reasoning, math, milestone | https://openai.com/index/model-disproves-discrete-geometry-conjecture/ |  | ⚡ daily 2026-05-21 — 通用推理模型首次自主解决数学核心开放问题，Fields 奖得主称 AI 数学里程碑 |
+| Qwen3.7-Max 发布：阿里千问最强智能体模型，千步长任务自主执行 | Alibaba | 2026-05-21 | agent, qwen, coding-agent | https://m.ithome.com/html/952670.htm | 🎯 agent-ui | ⚡ daily 2026-05-21 — 面向 Agent 时代的旗舰模型，SWE-Pro 60.6、1000+ 工具调用长周期自主执行 |
+| 大厂高管、天才少年扎堆 Agent 创业：AI Agent 成「工作搭子」 | — | 2026-05-21 | agent, startup, trend | https://www.huxiu.com/article/4859310.html |  | 📖 daily 2026-05-21 — Agent 从技术概念走向创业风口，人才密集涌入验证赛道确定性 |
+| Formal Verification Gates for AI Coding Loops：结构门控胜过更聪明的 Agent | Reuben Brooks | 2026-05-21 | agent, verification, ai-coding | https://reubenbrooks.dev/blog/structural-backpressure-beats-smarter-agents/ |  | 🔧 daily 2026-05-21 — 用编译器/类型检查器做结构门控，把安全约束从 prompt 移到代码基座 |
+| AWS SageMaker AI 开放 OpenAI 兼容 API：改 URL 即可对接 LangChain/Strands | AWS | 2026-05-21 | sdk, gateway, agent | https://aws.amazon.com/blogs/machine-learning/announcing-openai-compatible-api-support-for-amazon-sagemaker-ai-endpoints/ |  | 🔧 daily 2026-05-21 — Agent 工作流可直接跑在自有 SageMaker 端点，无需 SigV4 封装 |
+| 首批 Agent PC 上市：阿里云 JVS Claw「龙虾」预装 10+ 品牌天猫 618 首发 | Alibaba Cloud | 2026-05-21 | agent, on-device, pc | https://readhub.cn/topic/8tHZItmFtoZ | 🎯 agent-ui | ⚡ daily 2026-05-21 — AI Agent 深度集成 PC 系统底层，个人电脑从工具向智能伙伴演进 |
+| 百时美施贵宝向 3 万员工开放 Claude：覆盖药物研发与临床开发 | Anthropic / BMS | 2026-05-21 | claude, enterprise, lifescience | https://readhub.cn/topic/8tHnV9IK1D8 |  | 📖 daily 2026-05-21 — Anthropic 生命科学赛道最大企业客户，Claude 进入药物研发核心流程 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
