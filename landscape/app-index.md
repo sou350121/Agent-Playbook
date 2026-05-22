@@ -592,6 +592,12 @@
 | AWS SageMaker AI 开放 OpenAI 兼容 API：改 URL 即可对接 LangChain/Strands | AWS | 2026-05-21 | sdk, gateway, agent | https://aws.amazon.com/blogs/machine-learning/announcing-openai-compatible-api-support-for-amazon-sagemaker-ai-endpoints/ |  | 🔧 daily 2026-05-21 — Agent 工作流可直接跑在自有 SageMaker 端点，无需 SigV4 封装 |
 | 首批 Agent PC 上市：阿里云 JVS Claw「龙虾」预装 10+ 品牌天猫 618 首发 | Alibaba Cloud | 2026-05-21 | agent, on-device, pc | https://readhub.cn/topic/8tHZItmFtoZ | 🎯 agent-ui | ⚡ daily 2026-05-21 — AI Agent 深度集成 PC 系统底层，个人电脑从工具向智能伙伴演进 |
 | 百时美施贵宝向 3 万员工开放 Claude：覆盖药物研发与临床开发 | Anthropic / BMS | 2026-05-21 | claude, enterprise, lifescience | https://readhub.cn/topic/8tHnV9IK1D8 |  | 📖 daily 2026-05-21 — Anthropic 生命科学赛道最大企业客户，Claude 进入药物研发核心流程 |
+| Runtime (YC P26) — 团队级沙盒编码 Agent 基础设施 | Runtime (YC P26) | 2026-05-22 | coding-agent, sandbox, agent-ui | https://www.runtm.com/ | 🎯 agent-ui | ⚡ daily 2026-05-22 — YC P26 新项目，让全团队（含非工程师）在沙盒中安全使用 Claude Code/Codex，无需工程师逐 session 护航 |
+| Datasette Agent：LLM + Datasette 的首个正式集成 | Simon Willison | 2026-05-22 | agent-ui, llm, datasette | https://simonwillison.net/2026/May/21/datasette-agent/ | 🎯 agent-ui | 🔧 daily 2026-05-22 — Simon Willison 三年 LLM 库工作的里程碑——将可扩展 AI 助手直接嵌入 Datasette 数据探索工作流 |
+| Anthropic 与 xAI 达成 400 亿美元算力租赁协议 | Anthropic / xAI | 2026-05-22 | infrastructure, compute, llmops | https://readhub.cn/topic/8tImykZzXQb |  | ⚡ daily 2026-05-22 — Anthropic 租用 xAI 300MW 数据中心至 2029 年，月付 12.5 亿——xAI「新云」模式成型，算力供给格局生变 |
+| OpenAI Q1 收入 57 亿美元，年化收入达 250 亿 | OpenAI | 2026-05-22 | business, llmops | https://readhub.cn/topic/8tJzGsu0ObN |  | 📖 daily 2026-05-22 — Codex + 商业销售驱动收入爆发，Anthropic Q2 预计翻倍至 110 亿——AI 基础设施军备竞赛加速 |
+| Google Gemini 月活用户达 9 亿 | Google | 2026-05-22 | business, llm | https://www.36kr.com/p/3818280989443202 |  | 📖 daily 2026-05-22 — Gemini 在 Google I/O 后用户规模突破 9 亿，多模态模型进入主流消费级应用阶段 |
+| Weaviate MCP Server：为 Claude Code/Cursor 提供混合代码搜索 | Weaviate | 2026-05-22 | mcp, rag, coding-agent | https://weaviate.io/blog/coding-assistant-weaviate-mcp | [RAG] | 🔧 daily 2026-05-22 — 内置 MCP Server 让 Claude Code/Cursor/VS Code 直接对代码库做混合搜索，零胶水代码 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
