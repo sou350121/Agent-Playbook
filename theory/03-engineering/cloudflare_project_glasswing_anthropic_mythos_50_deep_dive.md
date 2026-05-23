@@ -1,6 +1,6 @@
 ---
 auto_generated: true
-generated_at: "2026-05-23T06:47:11Z"
+generated_at: "2026-05-23T06:49:07Z"
 source_url: "https://blog.cloudflare.com/cyber-frontier-models/"
 signal_type: "significant_update"
 ---
