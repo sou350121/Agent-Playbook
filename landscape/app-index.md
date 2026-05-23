@@ -598,6 +598,14 @@
 | OpenAI Q1 收入 57 亿美元，年化收入达 250 亿 | OpenAI | 2026-05-22 | business, llmops | https://readhub.cn/topic/8tJzGsu0ObN |  | 📖 daily 2026-05-22 — Codex + 商业销售驱动收入爆发，Anthropic Q2 预计翻倍至 110 亿——AI 基础设施军备竞赛加速 |
 | Google Gemini 月活用户达 9 亿 | Google | 2026-05-22 | business, llm | https://www.36kr.com/p/3818280989443202 |  | 📖 daily 2026-05-22 — Gemini 在 Google I/O 后用户规模突破 9 亿，多模态模型进入主流消费级应用阶段 |
 | Weaviate MCP Server：为 Claude Code/Cursor 提供混合代码搜索 | Weaviate | 2026-05-22 | mcp, rag, coding-agent | https://weaviate.io/blog/coding-assistant-weaviate-mcp | [RAG] | 🔧 daily 2026-05-22 — 内置 MCP Server 让 Claude Code/Cursor/VS Code 直接对代码库做混合搜索，零胶水代码 |
+| Microsoft starts canceling Claude Code licenses for engineers | Microsoft/Anthropic | 2026-05-23 | coding-agent, enterprise, claude-code | https://www.theverge.com/tech/930447/microsoft-claude-code-discontinued-notepad |  | ⚡ daily 2026-05-23 — 微软开始取消工程师 Claude Code 许可证，企业 AI 工具选型风向转变 |
+| Anthropic 最快下周完成超 300 亿美元最新一轮融资 | Anthropic | 2026-05-23 | funding, anthropic, enterprise | https://readhub.cn/topic/8tLjfEGd1kP |  | ⚡ daily 2026-05-23 — Anthropic 收入年化将超 500 亿美元，AI 基础设施军备竞赛加速 |
+| OpenAI named Leader in Gartner Magic Quadrant for Enterprise AI Coding Agents | OpenAI | 2026-05-23 | coding-agent, enterprise, gartner | https://openai.com/index/gartner-2026-agentic-coding-leader |  | 📖 daily 2026-05-23 — Codex 获 Gartner 企业 AI 编码 Agent 领导者象限，企业级部署获权威认可 |
+| Nemotron-Labs Diffusion LM: Speed-of-Light Text Generation | NVIDIA | 2026-05-23 | diffusion-lm, text-generation, inference | https://huggingface.co/blog/nvidia/nemotron-labs-diffusion |  | ⚡ daily 2026-05-23 — NVIDIA 扩散语言模型实现光速文本生成，可能颠覆自回归推理范式 |
+| DeepSeek-V4-Pro API 永久降价至原价 1/4 | DeepSeek | 2026-05-23 | pricing, deepseek, api | https://api-docs.deepseek.com/quick_start/pricing |  | 🔧 daily 2026-05-23 — DeepSeek V4 Pro 75% 折扣永久化，API 成本降至原价四分之一 |
+| Kanbots: Open source Kanban desktop app running parallel agents on every card | kanbots | 2026-05-23 | agent-ui, kanban, multi-agent, desktop | https://www.kanbots.dev/ | 🎯 | 🔧 daily 2026-05-23 — 每张卡片独立跑 AI Agent 的开源看板工具，多 Agent 协作可视化新范式 |
+| 电商增长团队全栈 AI Coding 工作流: TRAE SOLO + 多仓库 Spec 模式 | 电商商家增长团队 | 2026-05-23 | ai-coding, workflow, trae, agent-ui | https://juejin.cn/post/7642221657360400384 | 🎯 | 🔧 daily 2026-05-23 — TRAE SOLO + 多仓库 Spec 模式 + 测试验证 Skill 的完整 AI 开发实践沉淀 |
+| Virgin Atlantic 用 Codex 在截止期限内完成移动应用重构 | OpenAI/Virgin Atlantic | 2026-05-23 | coding-agent, case-study, enterprise | https://openai.com/index/virgin-atlantic |  | 📖 daily 2026-05-23 — Virgin Atlantic 用 Codex 实现近 100% 单元测试覆盖率和零 P1 缺陷，真实企业案例 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
