@@ -606,6 +606,9 @@
 | Kanbots: Open source Kanban desktop app running parallel agents on every card | kanbots | 2026-05-23 | agent-ui, kanban, multi-agent, desktop | https://www.kanbots.dev/ | 🎯 | 🔧 daily 2026-05-23 — 每张卡片独立跑 AI Agent 的开源看板工具，多 Agent 协作可视化新范式 |
 | 电商增长团队全栈 AI Coding 工作流: TRAE SOLO + 多仓库 Spec 模式 | 电商商家增长团队 | 2026-05-23 | ai-coding, workflow, trae, agent-ui | https://juejin.cn/post/7642221657360400384 | 🎯 | 🔧 daily 2026-05-23 — TRAE SOLO + 多仓库 Spec 模式 + 测试验证 Skill 的完整 AI 开发实践沉淀 |
 | Virgin Atlantic 用 Codex 在截止期限内完成移动应用重构 | OpenAI/Virgin Atlantic | 2026-05-23 | coding-agent, case-study, enterprise | https://openai.com/index/virgin-atlantic |  | 📖 daily 2026-05-23 — Virgin Atlantic 用 Codex 实现近 100% 单元测试覆盖率和零 P1 缺陷，真实企业案例 |
+| Multica: 开源托管 Agent 平台，让编码 Agent 成为正式队友 | multica-ai | 2026-05-24 | multi-agent, agent-ui, orchestration | https://github.com/multica-ai/multica | 🎯 agent-ui | 🔧 daily 2026-05-24 — Agent 生命周期管理 + Squads 路由 + 可复用 Skills，直接解决多 Agent 协作的工程痛点 |
+| Chrome DevTools MCP Server: 让编码 Agent 直接操控浏览器调试 | ChromeDevTools | 2026-05-24 | mcp, agent-ui, browser-automation | https://github.com/ChromeDevTools/chrome-devtools-mcp |  | 🔧 daily 2026-05-24 — Chrome 官方出品 MCP server，Agent 可通过标准协议操控 DevTools 调试 Web 应用 |
+| DeepSeek API 完成输出提速与服务扩容，默认 500 并发 | DeepSeek | 2026-05-24 | deepseek, api | https://m.ithome.com/html/954427.htm |  | 📖 daily 2026-05-24 — 输出提速 + 500 并发默认支持，企业级 API 可用性提升（续接昨日降价） |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
