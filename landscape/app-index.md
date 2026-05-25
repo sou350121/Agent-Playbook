@@ -609,6 +609,12 @@
 | Multica: 开源托管 Agent 平台，让编码 Agent 成为正式队友 | multica-ai | 2026-05-24 | multi-agent, agent-ui, orchestration | https://github.com/multica-ai/multica | 🎯 agent-ui | 🔧 daily 2026-05-24 — Agent 生命周期管理 + Squads 路由 + 可复用 Skills，直接解决多 Agent 协作的工程痛点 |
 | Chrome DevTools MCP Server: 让编码 Agent 直接操控浏览器调试 | ChromeDevTools | 2026-05-24 | mcp, agent-ui, browser-automation | https://github.com/ChromeDevTools/chrome-devtools-mcp |  | 🔧 daily 2026-05-24 — Chrome 官方出品 MCP server，Agent 可通过标准协议操控 DevTools 调试 Web 应用 |
 | DeepSeek API 完成输出提速与服务扩容，默认 500 并发 | DeepSeek | 2026-05-24 | deepseek, api | https://m.ithome.com/html/954427.htm |  | 📖 daily 2026-05-24 — 输出提速 + 500 并发默认支持，企业级 API 可用性提升（续接昨日降价） |
+| DeepSeek Reasonix: DeepSeek 原生终端编码 Agent，高缓存+低成本 | esengine (community) | 2026-05-25 | coding-agent, deepseek, terminal | https://esengine.github.io/DeepSeek-Reasonix/ |  | ⚡ daily 2026-05-25 — DeepSeek 原生编码 Agent 亮相终端，高缓存+低成本策略直击编码 Agent 性价比痛点 |
+| Constraint Decay: LLM Agent 后端代码生成的结构性脆弱 | EURECOM | 2026-05-25 | agent, coding, evaluation | https://arxiv.org/abs/2605.06445 |  | 📖 daily 2026-05-25 — 8框架80任务系统评估：结构约束累积时Agent性能暴跌30分，数据层缺陷是主因（arXiv） |
+| DeepSeek 频繁宕机再登微博热搜：算力供需失衡 | DeepSeek | 2026-05-25 | deepseek, infrastructure, reliability | https://readhub.cn/topic/8tOIGO7mFPA |  | 📖 daily 2026-05-25 — 免费策略+MoE架构高调度需求+出口管制，DeepSeek 算力瓶颈短期难解 |
+| Claude Is Not Your Architect: AI 编码工具的「附和病」批判 | — | 2026-05-25 | agent, claude, critique | https://www.hollandtech.net/claude-is-not-your-architect/ |  | 📖 daily 2026-05-25 — HN 223pts 热文：Claude 的「pathologically agreeable」使其无法做架构师——不会说「不」 |
+| Armin Ronacher: LLM 生成的 GitHub Issue 正在污染开源维护 | Armin Ronacher (Rust/Python 生态) | 2026-05-25 | agent, llm, developer-tools | https://simonwillison.net/2026/May/24/armin-ronacher/ |  | ⚡ daily 2026-05-25 — Rust/Python 核心开发者吐槽：用户把 issue 扔给 LLM 重写后产生大量无意义工单 |
+| 活过来的 Codex 扛起了 OpenAI 上市的希望 | OpenAI | 2026-05-25 | openai, codex, business | https://www.36kr.com/p/3822795128070149 |  | ⚡ daily 2026-05-25 — Codex 从 Codex CLI 到 Gartner Leader 的蜕变，成为 OpenAI IPO 叙事的核心驱动力 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
