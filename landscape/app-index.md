@@ -615,6 +615,12 @@
 | Claude Is Not Your Architect: AI 编码工具的「附和病」批判 | — | 2026-05-25 | agent, claude, critique | https://www.hollandtech.net/claude-is-not-your-architect/ |  | 📖 daily 2026-05-25 — HN 223pts 热文：Claude 的「pathologically agreeable」使其无法做架构师——不会说「不」 |
 | Armin Ronacher: LLM 生成的 GitHub Issue 正在污染开源维护 | Armin Ronacher (Rust/Python 生态) | 2026-05-25 | agent, llm, developer-tools | https://simonwillison.net/2026/May/24/armin-ronacher/ |  | ⚡ daily 2026-05-25 — Rust/Python 核心开发者吐槽：用户把 issue 扔给 LLM 重写后产生大量无意义工单 |
 | 活过来的 Codex 扛起了 OpenAI 上市的希望 | OpenAI | 2026-05-25 | openai, codex, business | https://www.36kr.com/p/3822795128070149 |  | ⚡ daily 2026-05-25 — Codex 从 Codex CLI 到 Gartner Leader 的蜕变，成为 OpenAI IPO 叙事的核心驱动力 |
+| Claude「永久大脑」：Memory Files + Dreams + Conway 三位一体 | Anthropic | 2026-05-26 | agent-memory, claude-code, conway | https://www.anthropic.com/news/chris-olah-pope-leo-encyclical |  | ⚡ daily 2026-05-26 — Claude 记忆架构全面重构：文件系统记忆 + REM 睡眠式 Dreams 整合 + 7x24h Conway 常驻 Agent 平台 |
+| HuggingFace 发布 AI Agent 术语表：Harness vs Scaffold vs Agent | HuggingFace | 2026-05-26 | agent-framework, terminology, education | https://huggingface.co/blog/agent-glossary |  | 📖 daily 2026-05-26 — ICLR 2026 后梳理 Agent 领域混乱术语，定义 Model/Scaffold/Harness/Agent/Context Engineering 等核心概念 |
+| ECC (Everything Claude Code)：38 Agent + 156 技能的开源 Agent Harness | affaan-m | 2026-05-26 | agent-harness, claude-code, security | https://github.com/affaan-m/ECC |  | 🔧 daily 2026-05-26 — 专为 Claude Code 设计的性能系统：按需加载技能 + AgentShield 安全管道 + 三权分立红队审计 |
+| Understand-Anything：代码库交互式知识图谱，GitHub Trending #1 | Lum1104 | 2026-05-26 | agent-ui, knowledge-graph, claude-code-plugin | https://github.com/Lum1104/Understand-Anything |  | 🔧 daily 2026-05-26 — Claude Code Plugin，多 Agent 管线构建代码知识图谱，可视化探索 20 万行代码库 |
+| cmux：专为 AI 编码 Agent 设计的 macOS 终端（Ghostty 分支） | manaflow-ai | 2026-05-26 | agent-ui, terminal, macos | https://github.com/manaflow-ai/cmux |  | 📖 daily 2026-05-26 — 垂直分屏 + 通知环 + 内嵌浏览器，让 Claude Code/Codex/Cursor 等 Agent 通知一目了然 |
+| Anthropic 开源 knowledge-work-plugins：11 个角色专用 Claude Cowork 插件 | Anthropic | 2026-05-26 | agent-framework, claude-cowork, plugins | https://github.com/anthropics/knowledge-work-plugins |  | 🔧 daily 2026-05-26 — 产品/销售/客服/法律等 11 个角色插件，兼容 Claude Cowork + Claude Code，连接器覆盖 Slack/Notion/Jira 等 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
