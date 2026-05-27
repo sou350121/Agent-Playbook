@@ -621,6 +621,12 @@
 | Understand-Anything：代码库交互式知识图谱，GitHub Trending #1 | Lum1104 | 2026-05-26 | agent-ui, knowledge-graph, claude-code-plugin | https://github.com/Lum1104/Understand-Anything |  | 🔧 daily 2026-05-26 — Claude Code Plugin，多 Agent 管线构建代码知识图谱，可视化探索 20 万行代码库 |
 | cmux：专为 AI 编码 Agent 设计的 macOS 终端（Ghostty 分支） | manaflow-ai | 2026-05-26 | agent-ui, terminal, macos | https://github.com/manaflow-ai/cmux |  | 📖 daily 2026-05-26 — 垂直分屏 + 通知环 + 内嵌浏览器，让 Claude Code/Codex/Cursor 等 Agent 通知一目了然 |
 | Anthropic 开源 knowledge-work-plugins：11 个角色专用 Claude Cowork 插件 | Anthropic | 2026-05-26 | agent-framework, claude-cowork, plugins | https://github.com/anthropics/knowledge-work-plugins |  | 🔧 daily 2026-05-26 — 产品/销售/客服/法律等 11 个角色插件，兼容 Claude Cowork + Claude Code，连接器覆盖 Slack/Notion/Jira 等 |
+| 微软按下 vibe coding 暂停键：烧 token 已经比员工贵了 | Microsoft | 2026-05-27 | llmops, cost-optimization, agentic-coding | https://www.36kr.com/p/3824666239062915 |  | ⚡ daily 2026-05-27 — Vibe coding 成本结构首次在大公司层面被证伪——副驾模式等于工资加token双成本，CFO无法接受 |
+| Microsoft Copilot Cowork 被曝数据外泄漏洞：Prompt 注入可窃取 OneDrive 文件 | Microsoft | 2026-05-27 | agent-security, prompt-injection, data-exfiltration | https://www.promptarmor.com/resources/microsoft-copilot-cowork-exfiltrates-files |  | ⚡ daily 2026-05-27 — Agentic 系统最核心挑战——防止数据外泄——在 Copilot Cowork 上再次被验证，pre-auth links 泄露路径明确 |
+| Amazon Bedrock AgentCore Payments：为 AI Agent 提供微交易支付基础设施 | AWS | 2026-05-27 | agentic-commerce, microtransactions, payments | https://aws.amazon.com/blogs/machine-learning/technical-deep-dive-agentcore-payments-and-innovation-in-agentic-commerce/ |  | 🔧 daily 2026-05-27 — Agent 商业化的支付瓶颈被 AWS 正式解决——稳定币微交易加支出护栏，Agentic Commerce 基础设施里程碑 |
+| Minicor (YC P26)：Windows 桌面自动化 RPA 平台，自修复 Agent 规模化部署 | Minicor (YC P26) | 2026-05-27 | computer-use, rpa, self-healing | https://www.minicor.com/ |  | 🔧 daily 2026-05-27 — 将 computer-use agent 从一次性 demo 变成 93-96% 准确率生产级 RPA，Reflection Agent 自修复是关键差异化 |
+| Hy3-preview 登顶 OpenRouter 使用量排名：腾讯神秘模型引发社区困惑 | Tencent | 2026-05-27 | model-adoption, openrouter, market-signal | https://minimaxir.com/2026/05/openrouter-hy3/ |  | 📖 daily 2026-05-27 — Hy3 基准测试不突出却占据 OpenRouter 付费使用量第一，暗示特定场景或定价策略驱动的实际采用模式值得关注 |
+| curl 维护者：AI 辅助安全报告量暴增 4-5 倍，工作生活严重失衡 | curl community | 2026-05-27 | ai-security, open-source-sustainability, tool-calling | https://simonwillison.net/2026/May/26/the-pressure/ |  | 📖 daily 2026-05-27 — AI 辅助安全审计质量高但数量爆炸，开源维护者面临前所未有的压力——AI 工具链可持续发展的反面教材 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
