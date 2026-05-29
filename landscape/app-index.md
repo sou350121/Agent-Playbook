@@ -635,6 +635,13 @@
 | Qwen3.7-Max 闯入 Code Arena 编程榜全球第四，唯一非 Claude 模型 | Alibaba | 2026-05-28 | coding-agent, benchmark, qwen | https://www.36kr.com/p/3826677900055431 |  | ⚡ daily 2026-05-28 — 1541 分超越 GPT-5.5/Gemini 3.5 Flash，35h 连续自主编程零退化——Agent 基座模型定位清晰 |
 | 教皇发布 AI 通谕《壮丽人性》：联手 Anthropic 警告「AI 不能统治人类」 | — | 2026-05-28 | anthropic, ai-safety, policy | https://www.36kr.com/p/3826852633432967 |  | ⚡ daily 2026-05-28 — 4.2 万字史上首份 AI 专题通谕，直指 AI 军备竞赛和数据殖民主义，Anthropic 联创出席发布会 |
 | Thrive + OpenAI：用 Codex 构建自我改进的税务 Agent，6 周准确率从 25%→86% | Thrive Holdings / OpenAI | 2026-05-28 | agent, workflow, self-improving | https://openai.com/index/building-self-improving-tax-agents-with-codex |  | 🔧 daily 2026-05-28 — 生产数据→结构化信号→Codex 自动修复，7000 份报税单自动化，展示 Agent 自我改进闭环实战案例 |
+| Claude Code 首发「自愈」功能：六大底层升级，Agent 走向工业化 | Anthropic | 2026-05-29 | claude-code, agent-ui, reliability | https://www.36kr.com/p/3828807269274503 | 🎯 agent-ui | 🔧 daily 2026-05-29 — Claude Code 最大规模更新：全屏渲染、流式输出、MCP 韧性、会话自愈，从「会写代码的模型」蜕变为「可托付流程的系统」 |
+| 清华 PilotDeck：智能体 OS，子 Agent 级路由 Token 成本降 70% | 清华大学THUNLP + 面壁智能 + OpenBMB | 2026-05-29 | agent, agent-ui, routing, multi-model | https://www.36kr.com/p/3828533398524807 | 🎯 agent-ui | 🔧 daily 2026-05-29 — WorkSpace 三层隔离（文件/记忆/技能）+ 子 Agent 级智能路由，省 Token 同时保持效果，支持端侧模型本地部署 |
+| Endava 用 Codex 构建 agentic 组织：需求分析从数周压缩至数天 | OpenAI / Endava | 2026-05-29 | codex, agent, agentic-organization | https://openai.com/index/endava |  | ⚡ daily 2026-05-29 — 全球软件外包公司将 senior 经验编码进 Codex Agent，junior 开发者可并行产出 senior 级输出，知识转移范式转变 |
+| Qwen3.7-Max 编程榜冲至全球第二，实测五大模型 Vibe Coding 对比 | 阿里巴巴 | 2026-05-29 | qwen, vibe-coding, benchmark | https://www.36kr.com/p/3828430341542789 |  | 🔧 daily 2026-05-29 — 超越 GPT-5.5/Gemini 3.5 Flash/DeepSeek V4 Pro，仅次于 Claude Opus 4.7；限时五折 6 元/百万 tokens 输入 |
+| OpenAI 发布 Frontier Governance Framework：对齐 EU AI Act 与加州法律 | OpenAI | 2026-05-29 | governance, safety, regulation | https://openai.com/index/openai-frontier-governance-framework |  | 📖 daily 2026-05-29 — 覆盖网络安全/CBRN/操纵风险/失控等风险评估，及事件响应、外部专家输入等治理实践 |
+| Weaviate Cloud 扩展 RBAC：新增 Editor/Viewer 角色 | Weaviate | 2026-05-29 | vector-database, RAG, security | https://weaviate.io/blog/rbac-overview | [RAG] | 📖 daily 2026-05-29 — 向量数据库 RBAC 精细化，对多团队 RAG 部署的组织管理至关重要 |
+| Mistral AI 宣布自研芯片 + 新建推理数据中心，累计投入 40 亿欧元 | Mistral AI | 2026-05-29 | mistral, chip, infrastructure | https://readhub.cn/topic/8tV0I7u0H01 |  | ⚡ daily 2026-05-29 — 欧洲 AI 公司自研芯片降低推理成本，新建专用推理数据中心，2026 年目标营收 10 亿欧元 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
