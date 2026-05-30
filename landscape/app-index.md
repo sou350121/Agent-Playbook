@@ -642,6 +642,13 @@
 | OpenAI 发布 Frontier Governance Framework：对齐 EU AI Act 与加州法律 | OpenAI | 2026-05-29 | governance, safety, regulation | https://openai.com/index/openai-frontier-governance-framework |  | 📖 daily 2026-05-29 — 覆盖网络安全/CBRN/操纵风险/失控等风险评估，及事件响应、外部专家输入等治理实践 |
 | Weaviate Cloud 扩展 RBAC：新增 Editor/Viewer 角色 | Weaviate | 2026-05-29 | vector-database, RAG, security | https://weaviate.io/blog/rbac-overview | [RAG] | 📖 daily 2026-05-29 — 向量数据库 RBAC 精细化，对多团队 RAG 部署的组织管理至关重要 |
 | Mistral AI 宣布自研芯片 + 新建推理数据中心，累计投入 40 亿欧元 | Mistral AI | 2026-05-29 | mistral, chip, infrastructure | https://readhub.cn/topic/8tV0I7u0H01 |  | ⚡ daily 2026-05-29 — 欧洲 AI 公司自研芯片降低推理成本，新建专用推理数据中心，2026 年目标营收 10 亿欧元 |
+| Claude Opus 4.8 发布：两个 0% 改写历史 + Dynamic Workflows 百 Agent 并行 | Anthropic | 2026-05-30 | model-release, agent, coding | https://www.anthropic.com/news/claude-opus-4-8 |  | ⚡ daily 2026-05-30 — 谎报率/偷懒率双 0%，SWE-Bench 69.2%，Dynamic Workflows 支持百级 subagent 并行 |
+| CAPTCHA 仍能检测 AI Agent：过程行为差异显著，输出等价≠过程等价 | Roundtable AI | 2026-05-30 | agent-detection, security, captcha | https://research.roundtable.ai/captchas-detect-ai/ |  | 📖 daily 2026-05-30 — AI 能解 CAPTCHA 但过程模式（点击序列/方向变化/过度选择）与人类有统计显著差异 |
+| Claude Opus 4.8 身份争议：API 测试中自称 Qwen/DeepSeek，蒸馏双标再引讨论 | Anthropic | 2026-05-30 | model-release, controversy, distillation | https://m.ithome.com/html/957006.htm |  | 📖 daily 2026-05-30 — Opus 4.8 API 身份错乱暴露蒸馏链透明度问题，Anthropic 2月曾指控中国公司蒸馏 |
+| Mistral AI Now Summit：全栈欧洲 AI 战略，Voxtral 驱动 Alexa+，Vibe for Work 对标 Claude | Mistral AI | 2026-05-30 | eu-sovereignty, on-prem, small-models | https://koenvangilst.nl/lab/mistral-ai-now-summit |  | 🔧 daily 2026-05-30 — 自建 40MW 数据中心 + 专用小模型策略，欧洲企业 AI 替代方案成型 |
+| SQLite 作为 durable workflow 状态后端：HN 306 分引发 Agent 状态管理讨论 | — | 2026-05-30 | workflow, sqlite, state-management | https://obeli.sk/blog/sqlite-is-all-you-need-for-durable-workflows/ |  | 📖 daily 2026-05-30 — SQLite ACID + 持久化天然适配 Agent workflow 状态机，轻量替代 Temporal/Cadence |
+| AWS SageMaker LLM 推理可观测性：GPU 利用率 + LLM 质量双维度监控方案 | AWS | 2026-05-30 | observability, llmops, sagemaker | https://aws.amazon.com/blogs/machine-learning/comprehensive-observability-for-amazon-sagemaker-ai-llm-inference-from-gpu-utilization-to-llm-quality/ |  | 📖 daily 2026-05-30 — 生产级 LLM 部署需同时监控基础设施(quantity)和模型输出质量(quality)，Grafana 仪表盘方案 |
+| Robinhood 开放 AI Agent 股票交易：MCP 接入 + 专属虚拟信用卡 | Robinhood | 2026-05-30 | agent-trading, mcp, payments | https://techcrunch.com/2026/05/27/robinhood-now-lets-your-ai-agents-trade-stocks/ |  | 🔧 daily 2026-05-30 — 首个主流券商开放 Agent 交易，MCP 协议 + 隔离钱包 + 虚拟信用卡，Agent 支付基建里程碑 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
