@@ -649,6 +649,11 @@
 | SQLite 作为 durable workflow 状态后端：HN 306 分引发 Agent 状态管理讨论 | — | 2026-05-30 | workflow, sqlite, state-management | https://obeli.sk/blog/sqlite-is-all-you-need-for-durable-workflows/ |  | 📖 daily 2026-05-30 — SQLite ACID + 持久化天然适配 Agent workflow 状态机，轻量替代 Temporal/Cadence |
 | AWS SageMaker LLM 推理可观测性：GPU 利用率 + LLM 质量双维度监控方案 | AWS | 2026-05-30 | observability, llmops, sagemaker | https://aws.amazon.com/blogs/machine-learning/comprehensive-observability-for-amazon-sagemaker-ai-llm-inference-from-gpu-utilization-to-llm-quality/ |  | 📖 daily 2026-05-30 — 生产级 LLM 部署需同时监控基础设施(quantity)和模型输出质量(quality)，Grafana 仪表盘方案 |
 | Robinhood 开放 AI Agent 股票交易：MCP 接入 + 专属虚拟信用卡 | Robinhood | 2026-05-30 | agent-trading, mcp, payments | https://techcrunch.com/2026/05/27/robinhood-now-lets-your-ai-agents-trade-stocks/ |  | 🔧 daily 2026-05-30 — 首个主流券商开放 Agent 交易，MCP 协议 + 隔离钱包 + 虚拟信用卡，Agent 支付基建里程碑 |
+| Anthropic 公开 Claude 全产品线沙箱隔离方案：gVisor → Seatbelt → VM 三级架构 | Anthropic | 2026-05-31 | agent-security, sandbox, claude | https://www.anthropic.com/engineering/how-we-contain-claude |  | ⚡ daily 2026-05-31 — 首次系统披露 Claude.ai/Code/Cowork 三层沙箱架构，对 Agent 安全工程有标杆意义 |
+| Simon Willison: 用 Pyodide + Service Worker 在浏览器中运行 Python ASGI 应用 | Simon Willison | 2026-05-31 | pyodide, wasm, browser-compute | https://simonwillison.net/2026/May/30/pyodide-asgi-browser/ |  | 📖 daily 2026-05-31 — ASGI 应用完全在浏览器 WebAssembly 中运行，为边缘 AI 推理提供新思路 |
+| DeepSeek 限制「重新生成」和「修改消息」次数：算力紧张下的产品降级 | DeepSeek | 2026-05-31 | deepseek, compute-constraints, product-change | https://www.36kr.com/p/3831137120395271 |  | 🔧 daily 2026-05-31 — 重生/修改限流至 3-6 次，反映推理基础设施压力，用户端体验首次出现明显降级 |
+| Chad Whitacre 宣布退出科技行业：「我吐出了 agentic Kool-Aid」 | — | 2026-05-31 | agentic-coding, culture, claude-code | https://openpath.quest/2026/i-am-retiring-from-tech-to-live-offline/ |  | 📖 daily 2026-05-31 — Bluesky 联合创始人讲述 Claude Code 体验后产生心理依赖，选择「AI 阿米什」式退出 |
+| Ask HN: 2026 年应用开发现状——AI/LLM 如何改变移动开发 | — | 2026-05-31 | app-development, community-discussion | https://news.ycombinator.com/item?id=48337409 |  | 📖 daily 2026-05-31 — HN 热帖讨论 AI 编码工具对纯 iOS/Android 开发的影响，反映开发者社群集体焦虑 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
