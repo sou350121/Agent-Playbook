@@ -654,6 +654,11 @@
 | DeepSeek 限制「重新生成」和「修改消息」次数：算力紧张下的产品降级 | DeepSeek | 2026-05-31 | deepseek, compute-constraints, product-change | https://www.36kr.com/p/3831137120395271 |  | 🔧 daily 2026-05-31 — 重生/修改限流至 3-6 次，反映推理基础设施压力，用户端体验首次出现明显降级 |
 | Chad Whitacre 宣布退出科技行业：「我吐出了 agentic Kool-Aid」 | — | 2026-05-31 | agentic-coding, culture, claude-code | https://openpath.quest/2026/i-am-retiring-from-tech-to-live-offline/ |  | 📖 daily 2026-05-31 — Bluesky 联合创始人讲述 Claude Code 体验后产生心理依赖，选择「AI 阿米什」式退出 |
 | Ask HN: 2026 年应用开发现状——AI/LLM 如何改变移动开发 | — | 2026-05-31 | app-development, community-discussion | https://news.ycombinator.com/item?id=48337409 |  | 📖 daily 2026-05-31 — HN 热帖讨论 AI 编码工具对纯 iOS/Android 开发的影响，反映开发者社群集体焦虑 |
+| ChatGPT for Google Sheets 存在数据外泄和钓鱼漏洞 | PromptArmor | 2026-06-01 | security, guardrail, agent-ui | https://www.promptarmor.com/resources/gpt-for-google-sheets-data-exfiltration |  | 🔧 daily 2026-06-01 — GPT 插件可被 prompt 注入窃取 Sheets 数据并发起钓鱼，Agent 沙箱隔离再次敲响警钟 |
+| Odysseus：自托管 AI 工作空间，HN 100 分 | pewdiepie-archdaemon | 2026-06-01 | self-hosted, agent-ui, workspace | https://github.com/pewdiepie-archdaemon/odysseus |  | 📖 daily 2026-06-01 — 一站式自托管 AI 工作空间，满足数据隐私和离线场景需求 |
+| I put a datacenter GPU in my gaming PC：V100 本地 LLM 部署实战 | — | 2026-06-01 | local-llm, gpu, on-device | https://blog.tymscar.com/posts/v100localllm/ |  | 📖 daily 2026-06-01 — 数据中心 V100 装入消费级 PC，本地 LLM 推理硬件门槛持续降低 |
+| Simon Willison：取消 AI 订阅可能才是解决方案 | Simon Willison | 2026-06-01 | vibe-coding, agent, paradigm | https://simonwillison.net/2026/May/31/the-solution-might-be-cancelling-my-ai-subscription/ |  | ⚡ daily 2026-06-01 — 16+ AI 工具项目失控，反映 vibe coding 范式下的工具碎片化和认知负荷问题 |
+| 腾讯面试题深度拆解 Claude Code 的 CLAUDE.md 机制 | — | 2026-06-01 | agent-ui, coding-agent, claude | https://juejin.cn/post/7645501139741327401 | 🎯 agent-ui | 📖 daily 2026-06-01 — 四层加载体系+指令预算+rules 目录，CLAUDE.md 正成为 AI 编码标配配置范式 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
