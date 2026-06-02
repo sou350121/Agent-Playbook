@@ -659,6 +659,13 @@
 | I put a datacenter GPU in my gaming PC：V100 本地 LLM 部署实战 | — | 2026-06-01 | local-llm, gpu, on-device | https://blog.tymscar.com/posts/v100localllm/ |  | 📖 daily 2026-06-01 — 数据中心 V100 装入消费级 PC，本地 LLM 推理硬件门槛持续降低 |
 | Simon Willison：取消 AI 订阅可能才是解决方案 | Simon Willison | 2026-06-01 | vibe-coding, agent, paradigm | https://simonwillison.net/2026/May/31/the-solution-might-be-cancelling-my-ai-subscription/ |  | ⚡ daily 2026-06-01 — 16+ AI 工具项目失控，反映 vibe coding 范式下的工具碎片化和认知负荷问题 |
 | 腾讯面试题深度拆解 Claude Code 的 CLAUDE.md 机制 | — | 2026-06-01 | agent-ui, coding-agent, claude | https://juejin.cn/post/7645501139741327401 | 🎯 agent-ui | 📖 daily 2026-06-01 — 四层加载体系+指令预算+rules 目录，CLAUDE.md 正成为 AI 编码标配配置范式 |
+| OpenAI frontier models and Codex 正式登陆 Amazon Bedrock | OpenAI | 2026-06-02 | gateway, bedrock, codex | https://openai.com/index/openai-frontier-models-and-codex-are-now-available-on-aws |  | ⚡ daily 2026-06-02 — GPT-5.5/5.4 + Codex 通过 AWS 现有采购流程进入企业，OpenAI 生态分发生态拐点 |
+| 黑客只需让 Meta AI 帮忙即可获取高关注度 Instagram 账号权限 | Meta | 2026-06-02 | security, guardrail, social-platform | https://simonwillison.net/2026/Jun/1/hackers-simply-asked-meta-ai/#atom-everything |  | 🔧 daily 2026-06-02 — Prompt 注入可直接操控 Meta AI 访问 Instagram 高权限账号，安全边界再次被突破 |
+| Amazon Bedrock AgentCore Identity 支持引用自有 Secrets Manager 密钥 | AWS | 2026-06-02 | agent, security, secrets-manager | https://aws.amazon.com/blogs/machine-learning/reference-your-own-aws-secrets-manager-secrets-in-amazon-bedrock-agentcore-identity/ |  | 🔧 daily 2026-06-02 — Agent 身份管理可直接引用用户自有密钥，保留完整控制权，降低 agent 凭据泄露风险 |
+| 阿里发布 Qwen3.7-Plus 多模态智能体模型 | Alibaba | 2026-06-02 | qwen, multimodal, agent | https://readhub.cn/topic/8tcWkZyLmIs |  | 🔧 daily 2026-06-02 — 在 Qwen3.7 文本基础上全面升级视觉-语言能力，保持编码/工具使用/生产力工作流完整 agent 能力 |
+| Anthropic 秘密提交 IPO 申请，估值近万亿美元 | Anthropic | 2026-06-02 | ipo, anthropic, market | https://readhub.cn/topic/8tc6KFKmOK9 |  | ⚡ daily 2026-06-02 — 5 月下旬以 $9650 亿估值融资 $650 亿后再次冲刺上市，可能成为近年最大 IPO 之一 |
+| OpenAI Voice Hack Night 现场演示「无 App 手机」agentic OS | OpenAI 社区 | 2026-06-02 | agent-ui, voice, paradigm-shift | https://readhub.cn/topic/8tbpDOr4eLq | 🎯 | ⚡ daily 2026-06-02 — 端侧本地模型即时生成 UI + 云端 GPT 推理，开发者通过语音完成订机票/删日程/发邮件等操作 |
+| IBM Research：可扩展企业 AI 落地取决于 Agent Logic 而非单纯 LLM 能力 | IBM Research | 2026-06-02 | agent, enterprise, llmops | https://huggingface.co/blog/ibm-research/agent-logic-and-scalable-ai-adoption |  | 📖 daily 2026-06-02 — 从 IBM 企业落地视角论证：可控的 agent 逻辑层比更大模型才是规模化 AI 的关键 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
