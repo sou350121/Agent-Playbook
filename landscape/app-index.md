@@ -673,6 +673,14 @@
 | OpenAI 计划为金融、法律领域开发专属 AI 工具，直接对标 Anthropic | OpenAI | 2026-06-03 | vertical, enterprise | https://readhub.cn/topic/8tdiRVeEsgr |  | ⚡ daily 2026-06-03 — OpenAI 从通用 AI 向垂直行业工具扩展，直接挑战 Anthropic 在企业市场的优势地位 |
 | Together AI 发布 MiniMax-M3 服务方案：1M context + 原生多模态 + 稀疏注意力 | Together AI / MiniMax | 2026-06-03 | gateway, multimodal, long-context | https://www.together.ai/blog/serving-minimax-m3-for-efficient-inference-unlocking-1m-token-context-and-multimodality-without-regrets |  | 📖 daily 2026-06-03 — MSA 稀疏注意力 prefill 加速 9×/decode 15×；open weights 即将发布；agentic 流量场景优化 |
 | AWS Bedrock AgentCore Gateway 支持 OAuth Code Flow + MCP 客户端认证 | AWS | 2026-06-03 | gateway, mcp, security | https://aws.amazon.com/blogs/machine-learning/building-a-secure-auth-code-flow-setup-using-agentcore-gateway-with-mcp-clients/ |  | 📖 daily 2026-06-03 — 企业级 MCP 服务器入站认证标准化方案，支持 Okta/Entra ID/Cognito 等 IdP 集成 |
+| Gemma 4 12B: Google 发布 encoder-free 多模态模型，16GB 显存即可本地运行 | Google DeepMind | 2026-06-04 | multimodal, on-device, gemma | https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/ |  | ⚡ daily 2026-06-04 — 首创无 encoder 架构，视觉+音频直连 LLM backbone，16GB VRAM 即可跑 agentic 工作流 |
+| Anthropic 选定摩根士丹利+高盛担任 IPO 主承销商，最早 10 月上市 | Anthropic | 2026-06-04 | ipo, anthropic, funding | https://readhub.cn/topic/8tfT0EgZkAl |  | ⚡ daily 2026-06-04 — IPO 进入实质推进阶段，估值近万亿美元，AI 史上最大上市临近 |
+| HuggingFace：MCP 工具接入 Reachy Mini 人形机器人 | HuggingFace | 2026-06-04 | mcp, robotics, tools | https://huggingface.co/blog/adding-mcp-tools-to-reachy-mini |  | 📖 daily 2026-06-04 — 一行命令从 HF Space 添加远程工具，机器人能力可通过社区生态扩展 |
+| Alphabet 财报：Gemini 月活突破 9 亿，Gemini 3.5 Pro 预计 6 月推出 | Google | 2026-06-04 | gemini, model-release, milestone | https://readhub.cn/topic/8tfEmLmsCXx |  | 📖 daily 2026-06-04 — Gemini 月活同比翻倍至 9 亿，3.5 Pro 即将发布，AI 应用层竞争加速 |
+| 微软 Build 2026：Surface RTX Spark Dev Box 将 PC 变成 Agent 工作站 | Microsoft | 2026-06-04 | agent, on-device, hardware | https://www.36kr.com/p/3836668626891910 |  | ⚡ daily 2026-06-04 — 本地 RTX GPU + MAI 模型家族，16 亿 Windows 用户一夜具备本地 Agent 算力 |
+| 🎯 Weaviate Engram GA：Agent 记忆与上下文管理正式商用 | Weaviate | 2026-06-04 | agent, memory, context | https://weaviate.io/blog/engram-generally-available | 🎯 agent-ui | 🔧 daily 2026-06-04 — 解决长上下文退化+多 Agent 碎片化，结构化记忆即基础设施 |
+| AWS：用 SFT+DPO 提升 Agent 工具调用准确率 | AWS | 2026-06-04 | agent, tool-calling, sft, dpo | https://aws.amazon.com/blogs/machine-learning/improve-your-agents-tool-calling-accuracy-with-sft-and-dpo-on-amazon-sagemaker-ai/ |  | 🔧 daily 2026-06-04 — SFT 教工具语言 + DPO 对齐偏好，无需 RL 即可显著提升 SLM 工具调用准确率 |
+| OpenAI 更新 GPT-Rosalind：LifeSciBench 端到端评测生命科学研究工作流 | OpenAI | 2026-06-04 | workflow, life-sciences, benchmark | https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind |  | 📖 daily 2026-06-04 — 首个覆盖 6 大生命科学研究领域的端到端 benchmark，GPT-5.5 驱动药物发现工作流 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
