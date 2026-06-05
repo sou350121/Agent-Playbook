@@ -681,6 +681,13 @@
 | 🎯 Weaviate Engram GA：Agent 记忆与上下文管理正式商用 | Weaviate | 2026-06-04 | agent, memory, context | https://weaviate.io/blog/engram-generally-available | 🎯 agent-ui | 🔧 daily 2026-06-04 — 解决长上下文退化+多 Agent 碎片化，结构化记忆即基础设施 |
 | AWS：用 SFT+DPO 提升 Agent 工具调用准确率 | AWS | 2026-06-04 | agent, tool-calling, sft, dpo | https://aws.amazon.com/blogs/machine-learning/improve-your-agents-tool-calling-accuracy-with-sft-and-dpo-on-amazon-sagemaker-ai/ |  | 🔧 daily 2026-06-04 — SFT 教工具语言 + DPO 对齐偏好，无需 RL 即可显著提升 SLM 工具调用准确率 |
 | OpenAI 更新 GPT-Rosalind：LifeSciBench 端到端评测生命科学研究工作流 | OpenAI | 2026-06-04 | workflow, life-sciences, benchmark | https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind |  | 📖 daily 2026-06-04 — 首个覆盖 6 大生命科学研究领域的端到端 benchmark，GPT-5.5 驱动药物发现工作流 |
+| ChatGPT 推出 Dreaming 记忆系统：后台自动策展，跨会话保持上下文新鲜 | OpenAI | 2026-06-05 | memory, chat-ui, personalization | https://openai.com/index/chatgpt-memory-dreaming |  | 🔧 daily 2026-06-05 — ChatGPT 记忆从被动记录升级为后台自动策展，跨会话保持上下文新鲜，对 Agent 记忆架构有参考意义 |
+| 🎯 Boxes.dev：Claude Code 和 Codex 的云端隔离运行环境 | Boxes.dev | 2026-06-05 | coding-agent, cloud-env, agent-ui | https://boxes.dev | 🎯 agent-ui | 🔧 daily 2026-06-05 — 每个 AI 编码 Agent 拥有独立云计算机，解决 localhost 资源受限和沙箱隔离问题 |
+| KVarN：华为开源 vLLM KV-cache 量化后端，3-5x 上下文不丢吞吐 | Huawei CSL | 2026-06-05 | kv-cache, quantization, vllm | https://github.com/huawei-csl/KVarN |  | 🔧 daily 2026-06-05 — 解决 KV-cache 量化「容量↑吞吐↓」经典 tradeoff，FP16 精度 + 更高吞吐，对长上下文 Agent 意义重大 |
+| HuggingFace 重构 hf CLI 为 Agent 优化接口：token 用量降 6x | HuggingFace | 2026-06-05 | agent-tooling, hf-cli, coding-agent | https://huggingface.co/blog/hf-cli-for-agents |  | 🔧 daily 2026-06-05 — Claude Code 和 Codex 已成 HF Hub 最大流量来源（各 ~40k 用户），hf CLI 自动检测 Agent 并输出结构化紧凑格式 |
+| Anthropic 开源 Claude Mythos 漏洞发现参考实现：recon→find→verify→patch 全链路 | Anthropic | 2026-06-05 | security, vulnerability, agent-sdk | https://github.com/anthropics/defending-code-reference-harness |  | 🔧 daily 2026-06-05 — 基于 Mythos Preview 实战经验，提供自主漏洞发现+修复的参考实现，含 gVisor 沙箱 + Claude Code skills |
+| NVIDIA Nemotron 3 Ultra 上线 SageMaker JumpStart：550B MoE 专为 Agent 编排设计 | NVIDIA | 2026-06-05 | MoE, agentic-reasoning, sagemaker | https://aws.amazon.com/blogs/machine-learning/nvidia-nemotron-3-ultra-now-available-on-amazon-sagemaker-jumpstart/ |  | ⚡ daily 2026-06-05 — 550B 总参/55B 激活，1M 上下文，NVFP4 量化；5x 推理加速 + 30% 成本降低，专为长程 Agent 编排优化 |
+| Endava 全面围绕 AI Agent 重构软件交付：OpenAI 企业平台嵌入全生命周期 | Endava + OpenAI | 2026-06-05 | enterprise-ai, workflow, agent-adoption | https://openai.com/index/endava-frontiers |  | ⚡ daily 2026-06-05 — CTO 称「后台没有 Agent 跑就是在浪费时间」；从工程到法务到商业全面嵌入 Agent，企业 AI 落地标杆案例 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
