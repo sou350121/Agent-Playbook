@@ -688,6 +688,11 @@
 | Anthropic 开源 Claude Mythos 漏洞发现参考实现：recon→find→verify→patch 全链路 | Anthropic | 2026-06-05 | security, vulnerability, agent-sdk | https://github.com/anthropics/defending-code-reference-harness |  | 🔧 daily 2026-06-05 — 基于 Mythos Preview 实战经验，提供自主漏洞发现+修复的参考实现，含 gVisor 沙箱 + Claude Code skills |
 | NVIDIA Nemotron 3 Ultra 上线 SageMaker JumpStart：550B MoE 专为 Agent 编排设计 | NVIDIA | 2026-06-05 | MoE, agentic-reasoning, sagemaker | https://aws.amazon.com/blogs/machine-learning/nvidia-nemotron-3-ultra-now-available-on-amazon-sagemaker-jumpstart/ |  | ⚡ daily 2026-06-05 — 550B 总参/55B 激活，1M 上下文，NVFP4 量化；5x 推理加速 + 30% 成本降低，专为长程 Agent 编排优化 |
 | Endava 全面围绕 AI Agent 重构软件交付：OpenAI 企业平台嵌入全生命周期 | Endava + OpenAI | 2026-06-05 | enterprise-ai, workflow, agent-adoption | https://openai.com/index/endava-frontiers |  | ⚡ daily 2026-06-05 — CTO 称「后台没有 Agent 跑就是在浪费时间」；从工程到法务到商业全面嵌入 Agent，企业 AI 落地标杆案例 |
+| OpenAI 芯片元老 Clive Chan 加入 Anthropic | Anthropic | 2026-06-08 | talent-war, chip, infrastructure | https://www.36kr.com/p/3842475940268552 |  | ⚡ daily 2026-06-08 — OpenAI 芯片团队二号员工 Clive Chan 加盟 Anthropic，人才争夺战持续升级，反映芯片自研成为前沿 AI 公司核心壁垒 |
+| Claude Code 社区呼吁官方 Linux Desktop 构建 | Anthropic | 2026-06-08 | agent-ui, linux, developer-tool | https://github.com/anthropics/claude-code/issues/65697 | 🎯 agent-ui | 📖 daily 2026-06-08 — Claude Desktop 插件开发无 Linux 支持，社区 consolidated issue 呼吁官方立场——影响 Claude Code 在 Linux 开发者中的插件生态 |
+| Kyushu：自托管 WASM 沙箱，零依赖运行 JS/TS Worker | kyushu-project | 2026-06-08 | sandbox, wasm, agent-security | https://kyushu.dev/ |  | 🔧 daily 2026-06-08 — 无需 Node/Docker 即可运行 Cloudflare Workers 风格 handler，为 agent 沙箱隔离提供轻量替代方案 |
+| AI 视频进入「可编辑时代」：Gemini Omni / Runway Aleph 2.0 / 可灵 O1 | Google / Runway / 快手 | 2026-06-08 | multimodal, video-generation, controllable-ai | https://www.36kr.com/p/3839968025705096 |  | ⚡ daily 2026-06-08 — AI 视频从「抽卡」转向可编辑可控——Gemini 对话式编辑、Runway 语境修改、可灵一体化创作台，标志 multimodal agent 工作流新方向 |
+| 🎯 Lathe：用 LLM 生成交互式技术教程，让你动手学而非替你思考 | devenjarvis | 2026-06-08 | agent-ui, vibe-coding, education | https://github.com/devenjarvis/lathe | 🎯 agent-ui | 🔧 daily 2026-06-08 — 反「AI 替你做事」趋势——Lathe 用 LLM 生成可交互教程，用户亲手操作学习，契合 Karpathy 的 intent-driven 开发理念 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
