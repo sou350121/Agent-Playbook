@@ -693,6 +693,12 @@
 | Kyushu：自托管 WASM 沙箱，零依赖运行 JS/TS Worker | kyushu-project | 2026-06-08 | sandbox, wasm, agent-security | https://kyushu.dev/ |  | 🔧 daily 2026-06-08 — 无需 Node/Docker 即可运行 Cloudflare Workers 风格 handler，为 agent 沙箱隔离提供轻量替代方案 |
 | AI 视频进入「可编辑时代」：Gemini Omni / Runway Aleph 2.0 / 可灵 O1 | Google / Runway / 快手 | 2026-06-08 | multimodal, video-generation, controllable-ai | https://www.36kr.com/p/3839968025705096 |  | ⚡ daily 2026-06-08 — AI 视频从「抽卡」转向可编辑可控——Gemini 对话式编辑、Runway 语境修改、可灵一体化创作台，标志 multimodal agent 工作流新方向 |
 | 🎯 Lathe：用 LLM 生成交互式技术教程，让你动手学而非替你思考 | devenjarvis | 2026-06-08 | agent-ui, vibe-coding, education | https://github.com/devenjarvis/lathe | 🎯 agent-ui | 🔧 daily 2026-06-08 — 反「AI 替你做事」趋势——Lathe 用 LLM 生成可交互教程，用户亲手操作学习，契合 Karpathy 的 intent-driven 开发理念 |
+| Apple Intelligence 架构大改版：基于 Google Gemini 构建端云一体 AI | Apple + Google | 2026-06-09 | gemini, apple-intelligence, on-device | https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/ |  | ⚡ daily 2026-06-09 — Apple 首次深度绑定 Google Gemini 作为 Apple Intelligence 基础模型，端云一体架构重塑 Siri 和系统级 AI |
+| ChatGPT 史上最大改版：Codex 并入 ChatGPT，转型「超级应用」 | OpenAI | 2026-06-09 | chatgpt, codex, agent-platform | https://www.36kr.com/p/3843652644718857 |  | ⚡ daily 2026-06-09 — Codex 编程能力 + 外部合作伙伴应用接入，ChatGPT 从聊天工具重塑为 Agent 超级入口 |
+| OpenAI 向 SEC 提交 S-1 草案，IPO 选项开放 | OpenAI | 2026-06-09 | ipo, openai, funding | https://openai.com/index/openai-submits-confidential-s-1/ |  | ⚡ daily 2026-06-09 — OpenAI 主动公开 S-1 密交，尚未决定上市时机，但为秋季 IPO 预留通道 |
+| OpenAI 启动 Economic Research Exchange：研究 AI 对就业和经济的影响 | OpenAI | 2026-06-09 | ai-economics, research, policy | https://openai.com/index/economic-research-exchange |  | 📖 daily 2026-06-09 — 开放研究申请，系统性研究 AI 对就业、生产力和经济的长期影响 |
+| 🎯 AWS Bedrock AgentCore 支持云端托管 Claude Code / Codex / Cursor 等编程 Agent | Amazon | 2026-06-09 | coding-agent, agent-infrastructure, sandbox | https://aws.amazon.com/blogs/machine-learning/its-safe-to-close-your-laptop-now-hosting-coding-agents-on-amazon-bedrock-agentcore/ | 🎯 agent-ui | 🔧 daily 2026-06-09 — 每个 Agent 会话独立 microVM + Gateway MCP 统一工具接入 + CloudWatch 可观测，合上笔记本也能跑 |
+| OpenEnv：开源社区联合推进 Agentic RL 训练环境标准化 | HF + Meta-PyTorch + Nvidia + Stanford 等 | 2026-06-09 | agentic-rl, open-source, agent-training | https://huggingface.co/blog/openenv-agentic-rl |  | ⚡ daily 2026-06-09 — Meta/ Nvidia/ Stanford 等联合治理，Gymnasium API 统一接口，解决开源 Agent RL 训练环境碎片化 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
