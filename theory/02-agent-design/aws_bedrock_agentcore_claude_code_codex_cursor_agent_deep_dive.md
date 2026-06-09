@@ -1,6 +1,6 @@
 ---
 auto_generated: true
-generated_at: "2026-06-09T03:34:37Z"
+generated_at: "2026-06-09T03:36:08Z"
 source_url: "https://aws.amazon.com/blogs/machine-learning/its-safe-to-close-your-laptop-now-hosting-coding-agents-on-amazon-bedrock-agentcore/"
 signal_type: "blog_post"
 ---
