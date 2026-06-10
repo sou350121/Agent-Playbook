@@ -699,6 +699,13 @@
 | OpenAI 启动 Economic Research Exchange：研究 AI 对就业和经济的影响 | OpenAI | 2026-06-09 | ai-economics, research, policy | https://openai.com/index/economic-research-exchange |  | 📖 daily 2026-06-09 — 开放研究申请，系统性研究 AI 对就业、生产力和经济的长期影响 |
 | 🎯 AWS Bedrock AgentCore 支持云端托管 Claude Code / Codex / Cursor 等编程 Agent | Amazon | 2026-06-09 | coding-agent, agent-infrastructure, sandbox | https://aws.amazon.com/blogs/machine-learning/its-safe-to-close-your-laptop-now-hosting-coding-agents-on-amazon-bedrock-agentcore/ | 🎯 agent-ui | 🔧 daily 2026-06-09 — 每个 Agent 会话独立 microVM + Gateway MCP 统一工具接入 + CloudWatch 可观测，合上笔记本也能跑 |
 | OpenEnv：开源社区联合推进 Agentic RL 训练环境标准化 | HF + Meta-PyTorch + Nvidia + Stanford 等 | 2026-06-09 | agentic-rl, open-source, agent-training | https://huggingface.co/blog/openenv-agentic-rl |  | ⚡ daily 2026-06-09 — Meta/ Nvidia/ Stanford 等联合治理，Gymnasium API 统一接口，解决开源 Agent RL 训练环境碎片化 |
+| Anthropic 发布 Claude Fable 5：最广泛适用的旗舰模型，禁止用于网络安全 | Anthropic | 2026-06-10 | claude, model-release, safety | https://www-cdn.anthropic.com/d00db56fa754a1b115b6dd7cb2e3c342ee809620.pdf |  | ⚡ daily 2026-06-10 — Fable 5 定位为最广泛适用的旗舰，Mythos 5 专注高风险场景；双模型战略明确 |
+| Google 发布 Gemini 3.5 Live Translate：70+ 语言实时语音翻译 | Google DeepMind | 2026-06-10 | gemini, translation, multimodal | https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/ |  | ⚡ daily 2026-06-10 — 实时语音翻译保留语调/语速/音高，AI Studio/Translate/Meet 同步上线 |
+| 🎯 Vercel AI Gateway 上线 Claude Fable 5，一键切换模型路由 | Vercel | 2026-06-10 | gateway, claude, routing | https://vercel.com/changelog/claude-fable-5-now-available-on-ai-gateway | 🎯 | 🔧 daily 2026-06-10 — AI Gateway 快速跟进新模型，体现模型路由基础设施的响应速度 |
+| Grit：GitButler 用 Rust + Agent 重写 Git 核心 | GitButler | 2026-06-10 | git, rust, agent | https://blog.gitbutler.com/true-grit |  | 📖 daily 2026-06-10 — 用 Agent 辅助重写 Git 核心库，展示 Agent 在底层系统编程中的潜力 |
+| 🎯 微信 Agent 发出「英雄令」，互联网半壁江山接入响应 | — | 2026-06-10 | agent, wechat, ecosystem | https://www.36kr.com/p/3845399354870020 | 🎯 | ⚡ daily 2026-06-10 — 微信生态大规模接入 Agent，中国最大 IM 平台正式拥抱 AI Agent |
+| Nextdoor 用 Codex + GPT-5.5 构建跨平台功能，聚焦产品结果 | OpenAI / Nextdoor | 2026-06-10 | coding-agent, gpt-5.5, case-study | https://openai.com/index/nextdoor |  | 📖 daily 2026-06-10 — 真实企业案例：Codex 用于排查难复现 bug + 跨平台开发 |
+| AWS：Strands Agents SDK + Bedrock AgentCore Browser Tool 构建保险理赔 Agent | AWS | 2026-06-10 | agent, sdk, browser-tool | https://aws.amazon.com/blogs/machine-learning/hands-free-first-notice-of-loss-using-strands-agents-and-amazon-bedrock-agentcore-browser-tool-for-intelligent-claims-intake/ |  | 🔧 daily 2026-06-10 — Strands Agents SDK 与 Bedrock AgentCore 浏览器工具组合，落地保险场景 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
