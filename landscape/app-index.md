@@ -706,6 +706,13 @@
 | 🎯 微信 Agent 发出「英雄令」，互联网半壁江山接入响应 | — | 2026-06-10 | agent, wechat, ecosystem | https://www.36kr.com/p/3845399354870020 | 🎯 | ⚡ daily 2026-06-10 — 微信生态大规模接入 Agent，中国最大 IM 平台正式拥抱 AI Agent |
 | Nextdoor 用 Codex + GPT-5.5 构建跨平台功能，聚焦产品结果 | OpenAI / Nextdoor | 2026-06-10 | coding-agent, gpt-5.5, case-study | https://openai.com/index/nextdoor |  | 📖 daily 2026-06-10 — 真实企业案例：Codex 用于排查难复现 bug + 跨平台开发 |
 | AWS：Strands Agents SDK + Bedrock AgentCore Browser Tool 构建保险理赔 Agent | AWS | 2026-06-10 | agent, sdk, browser-tool | https://aws.amazon.com/blogs/machine-learning/hands-free-first-notice-of-loss-using-strands-agents-and-amazon-bedrock-agentcore-browser-tool-for-intelligent-claims-intake/ |  | 🔧 daily 2026-06-10 — Strands Agents SDK 与 Bedrock AgentCore 浏览器工具组合，落地保险场景 |
+| Extend UI — 开源文档应用 UI 组件库，14 个组件支持 PDF/DOCX/XLSX | extend.ai | 2026-06-11 | agent-ui, open-source, document | https://www.extend.ai/ui | 🎯 agent-ui | 🔧 daily 2026-06-11 — MIT 开源文档 UI 组件库，覆盖 PDF/DOCX/XLSX 查看、引用标注、电子签名，直接可用于 Agent 输出界面 |
+| HelixDB — 基于对象存储的图数据库，原生支持向量搜索 | HelixDB | 2026-06-11 | graph, vector, rag | https://github.com/HelixDB/helix-db/tree/main |  | 🔧 daily 2026-06-11 — OLTP 图数据库 + 原生向量搜索，为 RAG/知识图谱混合检索提供一体化存储方案 |
+| OpenAI 模型 + Codex 接入 Oracle Cloud，支持企业承诺抵扣 | OpenAI | 2026-06-11 | gateway, enterprise, cloud | https://openai.com/index/openai-on-oracle-cloud |  | 🔧 daily 2026-06-11 — 已有 Oracle 承诺的企业可直接用其抵扣 OpenAI/Codex 费用，降低 AI 基础设施采购门槛 |
+| AWS Neuron Agentic Development：AI Agent 自动优化 Trainium 内核 | AWS | 2026-06-11 | agent, agentic, inference | https://aws.amazon.com/blogs/machine-learning/stop-hand-tuning-kernels-how-neuron-agentic-development-accelerates-aws-trainium-optimizations/ | [RAG] | 🔧 daily 2026-06-11 — 用 Agent 替代手工调优内核，加速 Trainium/Inferentia 部署，降低硬件优化门槛 |
+| Google DiffusionGemma：扩散模型用于文本生成，预览阶段 857 tok/s | Google | 2026-06-11 | diffusion, llm, inference | https://simonwillison.net/2026/Jun/10/diffusiongemma/ |  | ⚡ daily 2026-06-11 — Google 实验性扩散文本生成模型，速度远超自回归，代表文本生成新范式探索 |
+| Jeremy Howard：顶级模型实验室应承诺不将其用于前沿 AI 研究 | — | 2026-06-11 | safety, governance, paradigm | https://simonwillison.net/2026/Jun/10/jeremy-howard/ |  | ⚡ daily 2026-06-11 — 提出递归 AI 自我改进的治理方案：最强模型不得用于 AI 研究，但向所有人开放，直指安全与开放的平衡 |
+| Claude Desktop 每次启动强制创建 1.8GB Hyper-V VM，纯聊天也跑 | Anthropic | 2026-06-11 | claude, desktop, resource | https://github.com/anthropics/claude-code/issues/29045 |  | 📖 daily 2026-06-11 — HN 321 分热议，Claude Desktop 架构设计引发资源浪费争议，321 分说明开发者关注度高 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
