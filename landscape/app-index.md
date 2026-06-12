@@ -713,6 +713,12 @@
 | Google DiffusionGemma：扩散模型用于文本生成，预览阶段 857 tok/s | Google | 2026-06-11 | diffusion, llm, inference | https://simonwillison.net/2026/Jun/10/diffusiongemma/ |  | ⚡ daily 2026-06-11 — Google 实验性扩散文本生成模型，速度远超自回归，代表文本生成新范式探索 |
 | Jeremy Howard：顶级模型实验室应承诺不将其用于前沿 AI 研究 | — | 2026-06-11 | safety, governance, paradigm | https://simonwillison.net/2026/Jun/10/jeremy-howard/ |  | ⚡ daily 2026-06-11 — 提出递归 AI 自我改进的治理方案：最强模型不得用于 AI 研究，但向所有人开放，直指安全与开放的平衡 |
 | Claude Desktop 每次启动强制创建 1.8GB Hyper-V VM，纯聊天也跑 | Anthropic | 2026-06-11 | claude, desktop, resource | https://github.com/anthropics/claude-code/issues/29045 |  | 📖 daily 2026-06-11 — HN 321 分热议，Claude Desktop 架构设计引发资源浪费争议，321 分说明开发者关注度高 |
+| OpenAI 收购 Ona，为 Codex 注入持久化云环境能力 | OpenAI | 2026-06-12 | agent, cloud, codex | https://openai.com/index/openai-to-acquire-ona |  | ⚡ daily 2026-06-12 — OpenAI 收购 Ona 将持久化安全云环境引入 Codex，让 Agent 可跨设备/跨会话持续工作 |
+| Anthropic 道歉：撤销 Claude Fable 5 静默降智政策，安全限制将可见 | Anthropic | 2026-06-12 | safety, claude, guardrail | https://www.36kr.com/p/3848417901139204 |  | ⚡ daily 2026-06-12 — 社区强烈反弹后 Anthropic 紧急调整政策，被标记请求将明确退回到 Opus 4.8 并通知用户 |
+| AWS 开源 Agent-EvalKit：让 AI Agent 评估嵌入开发工作流 | AWS | 2026-06-12 | agent, evaluation, sdk | https://aws.amazon.com/blogs/machine-learning/evaluate-ai-agents-systematically-with-agent-evalkit/ | [evaluation] | 🔧 daily 2026-06-12 — Apache 2.0 开源，自然语言描述评估目标即可自动生成测试用例并输出改进建议 |
+| Endor Labs 首个独立安全基准：Claude Fable 5 中期表现 + 4 个史上首次破解 | Endor Labs | 2026-06-12 | evaluation, claude, security | https://www.endorlabs.com/learn/claude-fable-5-mythos-grade-hype | [evaluation] | 📖 daily 2026-06-12 — 200 个真实漏洞修复任务测试：FuncPass 59.8%/SecPass 19.0%，但破解 4 个此前无模型能解的实例 |
+| Vercel AI Gateway 新增 Azure 作为 DeepSeek V4 提供商 | Vercel | 2026-06-12 | gateway, deepseek, routing | https://vercel.com/changelog/deepseek-models-now-available-via-azure-on-ai-gateway |  | 🔧 daily 2026-06-12 — DeepSeek V4 Pro/Flash 现可通过 Azure 路由，支持 BYOK 和自动 failover，无需改代码 |
+| Ask HN：用 AI 编码时如何保持心流状态？ | — | 2026-06-12 | agent, workflow | https://news.ycombinator.com/item?id=48492118 |  | 📖 daily 2026-06-12 — 社区热议 agentic coding 对开发者心流的破坏——慢速 Agent 打断深度工作节奏 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
