@@ -719,6 +719,13 @@
 | Endor Labs 首个独立安全基准：Claude Fable 5 中期表现 + 4 个史上首次破解 | Endor Labs | 2026-06-12 | evaluation, claude, security | https://www.endorlabs.com/learn/claude-fable-5-mythos-grade-hype | [evaluation] | 📖 daily 2026-06-12 — 200 个真实漏洞修复任务测试：FuncPass 59.8%/SecPass 19.0%，但破解 4 个此前无模型能解的实例 |
 | Vercel AI Gateway 新增 Azure 作为 DeepSeek V4 提供商 | Vercel | 2026-06-12 | gateway, deepseek, routing | https://vercel.com/changelog/deepseek-models-now-available-via-azure-on-ai-gateway |  | 🔧 daily 2026-06-12 — DeepSeek V4 Pro/Flash 现可通过 Azure 路由，支持 BYOK 和自动 failover，无需改代码 |
 | Ask HN：用 AI 编码时如何保持心流状态？ | — | 2026-06-12 | agent, workflow | https://news.ycombinator.com/item?id=48492118 |  | 📖 daily 2026-06-12 — 社区热议 agentic coding 对开发者心流的破坏——慢速 Agent 打断深度工作节奏 |
+| Vercel AI SDK 支持编程控制 Claude Code / Codex / Pi 等 Agent Harness | Vercel | 2026-06-13 | agent-ui, sdk, coding-agent | https://vercel.com/changelog/program-agent-harnesses-with-ai-sdk |  | ⚡ daily 2026-06-13 — 用代码编排 AI 编码 agent，标志着 agent-as-tool 范式正式进入主流 SDK |
+| 鸿蒙 HarmonyOS 7 正式发布：从「万物互联」迈进「Agent 时代」 | 华为 | 2026-06-13 | agent-native, mobile-os, china | https://m.ithome.com/html/963594.htm |  | ⚡ daily 2026-06-13 — 全球主流 OS 首次以 Agent 为核心叙事，华为 Mate90 系列今秋首发搭载 |
+| How to setup a local coding agent on macOS | ikyle.me | 2026-06-13 | coding-agent, local-execution, macos | https://ikyle.me/blog/2026/how-to-setup-a-local-coding-agent-on-macos |  | 🔧 daily 2026-06-13 — 本地运行编码 agent 的完整指南，反映开发者对数据隐私和自主控制的强烈需求 |
+| olmo-eval: Allen AI 发布开源模型评估工作台 | Allen AI | 2026-06-13 | evaluation, open-source, model-dev | https://huggingface.co/blog/allenai/olmo-eval |  | 🔧 daily 2026-06-13 — 面向模型开发循环的评估工具，填补开源 eval 生态空白 |
+| Vercel Workflow SDK 原生运行于 Nitro v3 | Vercel | 2026-06-13 | workflow, sdk, vercel | https://vercel.com/changelog/workflow-sdk-now-runs-natively-in-nitro-v3 |  | 🔧 daily 2026-06-13 — Workflow SDK 性能大幅提升，对 Vercel 生态内的 AI 工作流有直接加速效果 |
+| 补贴→Token 计费→降价：OpenAI 打响价格战，Token 经济学拐点将至？ | — | 2026-06-13 | pricing, llm-economics, openai | https://www.36kr.com/p/3849372459816192 |  | ⚡ daily 2026-06-13 — 分析 OpenAI 定价策略演变，对 AI 应用成本结构和商业模式有直接影响 |
+| Kimi K2.7 Code 上线 Vercel AI Gateway | 月之暗面 | 2026-06-13 | gateway, coding-model, kimi | https://vercel.com/changelog/kimi-k2-7-code-now-available-on-ai-gateway |  | 📖 daily 2026-06-13 — 月之暗面 coding 模型进入 Vercel 路由生态，丰富 Gateway 模型选项 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
