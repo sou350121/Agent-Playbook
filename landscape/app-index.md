@@ -726,6 +726,9 @@
 | Vercel Workflow SDK 原生运行于 Nitro v3 | Vercel | 2026-06-13 | workflow, sdk, vercel | https://vercel.com/changelog/workflow-sdk-now-runs-natively-in-nitro-v3 |  | 🔧 daily 2026-06-13 — Workflow SDK 性能大幅提升，对 Vercel 生态内的 AI 工作流有直接加速效果 |
 | 补贴→Token 计费→降价：OpenAI 打响价格战，Token 经济学拐点将至？ | — | 2026-06-13 | pricing, llm-economics, openai | https://www.36kr.com/p/3849372459816192 |  | ⚡ daily 2026-06-13 — 分析 OpenAI 定价策略演变，对 AI 应用成本结构和商业模式有直接影响 |
 | Kimi K2.7 Code 上线 Vercel AI Gateway | 月之暗面 | 2026-06-13 | gateway, coding-model, kimi | https://vercel.com/changelog/kimi-k2-7-code-now-available-on-ai-gateway |  | 📖 daily 2026-06-13 — 月之暗面 coding 模型进入 Vercel 路由生态，丰富 Gateway 模型选项 |
+| 美国政府下令全球停用 Fable 5 & Mythos 5：AI 史上首次政府强制召回商业大模型 | Anthropic | 2026-06-14 | model-release, regulation, export-control | https://www.anthropic.com/news/fable-mythos-access |  | ⚡ daily 2026-06-14 — 出口管制指令要求暂停所有外国公民访问，Anthropic 一刀切全停，影响数亿用户 |
+| Anthropic 回应：窄域 jailbreak 不应成为召回理由，将公布更多技术细节 | Anthropic | 2026-06-14 | safety, regulation, jailbreak | https://www.anthropic.com/news/fable-mythos-access |  | ⚡ daily 2026-06-14 — 政府仅口头证据，Anthropic 验证漏洞其他模型也能发现，质疑召回标准 |
+| Simon Willison 实测：Fable 5 API 在指令后 2 小时内全面切断 | Anthropic | 2026-06-14 | model-release, api, observability | https://simonwillison.net/2026/Jun/13/us-government-directive-to-suspend-access/ |  | 📖 daily 2026-06-14 — 通过脚本监控确认 6/12 晚 6:59pm PT 后所有请求返回 404 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
