@@ -729,6 +729,13 @@
 | 美国政府下令全球停用 Fable 5 & Mythos 5：AI 史上首次政府强制召回商业大模型 | Anthropic | 2026-06-14 | model-release, regulation, export-control | https://www.anthropic.com/news/fable-mythos-access |  | ⚡ daily 2026-06-14 — 出口管制指令要求暂停所有外国公民访问，Anthropic 一刀切全停，影响数亿用户 |
 | Anthropic 回应：窄域 jailbreak 不应成为召回理由，将公布更多技术细节 | Anthropic | 2026-06-14 | safety, regulation, jailbreak | https://www.anthropic.com/news/fable-mythos-access |  | ⚡ daily 2026-06-14 — 政府仅口头证据，Anthropic 验证漏洞其他模型也能发现，质疑召回标准 |
 | Simon Willison 实测：Fable 5 API 在指令后 2 小时内全面切断 | Anthropic | 2026-06-14 | model-release, api, observability | https://simonwillison.net/2026/Jun/13/us-government-directive-to-suspend-access/ |  | 📖 daily 2026-06-14 — 通过脚本监控确认 6/12 晚 6:59pm PT 后所有请求返回 404 |
+| 小米 MiMo Code 开源发布：终端编程 Agent，长程自动化设计 | 小米 MiMo 团队 | 2026-06-15 | coding-agent, open-source, terminal | https://juejin.cn/post/7650451521307770923 |  | ⚡ daily 2026-06-15 — 小米开源终端编程 Agent，围绕计算/记忆/进化三大核心设计长程自动化编程 |
+| OpenAI Partner Network 上线：$150M 推动全球企业 AI 部署 | OpenAI | 2026-06-15 | enterprise, partner-ecosystem, deployment | https://openai.com/index/introducing-openai-partner-network |  | ⚡ daily 2026-06-15 — OpenAI 投资 1.5 亿美元建设全球 AI 部署合作伙伴网络 |
+| Anthropic 大反转：举报 Fable 5 漏洞的是自家大股东（續報） | Anthropic | 2026-06-15 | anthropic, safety, governance | https://www.36kr.com/p/3852376401220868 |  | ⚡ daily 2026-06-15 — 重大转折：Fable 5 漏洞举报人确认为 Anthropic 大股东，拒修漏洞才被封 |
+| 🎯 新 VS Code 插件优化 AI Coding 工作流：加载更快更稳 | — | 2026-06-15 | agent-ui, vscode, ai-coding | https://juejin.cn/post/7650427463937638410 | 🎯 agent-ui | 🔧 daily 2026-06-15 — 解决 AI 写代码 loading 慢的痛点，快捷键优化编码工作流 |
+| Rio de Janeiro「自研」LLM 被揭实为现有模型 merge | — | 2026-06-15 | llm, open-source, benchmark | https://github.com/nex-agi/Nex-N2/issues/4 |  | 📖 daily 2026-06-15 — HN 260 分热议：政府宣称自研模型实为合并产物 |
+| Simon Willison：AI 为何没有、也不会取代软件工程师 | Narayanan & Kapoor | 2026-06-15 | ai-coding, employment, paradigm | https://simonwillison.net/2026/Jun/14/why-ai-hasnt-replaced-software-engineers/ |  | 📖 daily 2026-06-15 — 从软件工程视角分析 AI 对就业的真实影响 |
+| BitTorrent 作者：为什么 Claude 变得越来越难用？ | Bram Cohen | 2026-06-15 | claude, ux, product-quality | https://bramcohen.com/p/why-is-claude-turning-into-an-asshole |  | 📖 daily 2026-06-15 — HN 146 条评论热议：Claude 产品体验退化引开发者不满 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
