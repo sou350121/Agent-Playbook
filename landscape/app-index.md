@@ -736,6 +736,13 @@
 | Rio de Janeiro「自研」LLM 被揭实为现有模型 merge | — | 2026-06-15 | llm, open-source, benchmark | https://github.com/nex-agi/Nex-N2/issues/4 |  | 📖 daily 2026-06-15 — HN 260 分热议：政府宣称自研模型实为合并产物 |
 | Simon Willison：AI 为何没有、也不会取代软件工程师 | Narayanan & Kapoor | 2026-06-15 | ai-coding, employment, paradigm | https://simonwillison.net/2026/Jun/14/why-ai-hasnt-replaced-software-engineers/ |  | 📖 daily 2026-06-15 — 从软件工程视角分析 AI 对就业的真实影响 |
 | BitTorrent 作者：为什么 Claude 变得越来越难用？ | Bram Cohen | 2026-06-15 | claude, ux, product-quality | https://bramcohen.com/p/why-is-claude-turning-into-an-asshole |  | 📖 daily 2026-06-15 — HN 146 条评论热议：Claude 产品体验退化引开发者不满 |
+| SpaceX 同意与 Cursor 母公司 Anysphere 合并，估值 600 亿美元 | Anysphere/SpaceX | 2026-06-17 | coding-agent, m-a, agent-infrastructure | https://readhub.cn/topic/8u0aDTS26tM | 🎯 agent-ui | ⚡ daily 2026-06-17 — Cursor 从 coding agent 跃升为 SpaceX 生态核心，AI 编码工具进入太空时代 |
+| OpenAI 发布 Deployment Simulation：部署前预测模型行为 | OpenAI | 2026-06-17 | evaluation, safety, deployment | https://openai.com/index/deployment-simulation |  | 🔧 daily 2026-06-17 — 用真实对话数据在部署前模拟模型行为，提升安全评估准确性 |
+| AWS Bedrock Guardrails 新增 InvokeGuardrailChecks API | AWS | 2026-06-17 | guardrail, agent, agentic | https://aws.amazon.com/blogs/machine-learning/safeguard-your-agentic-ai-applications-with-the-amazon-bedrock-guardrails-invokeguardrailchecks-api/ | [evaluation] | 🔧 daily 2026-06-17 — Agent 工作流中任意节点可独立调用安全检测，无需创建完整 Guardrail 资源 |
+| 🎯 Vercel Sandbox 运行时间延长至 24 小时 | Vercel | 2026-06-17 | sandbox, agent-runtime, coding-agent | https://vercel.com/changelog/vercel-sandbox-can-now-run-for-up-to-24-hours | 🎯 agent-ui | 🔧 daily 2026-06-17 — 长程 Agent 任务（编码/自动化）可在沙箱中持续运行，不再受限时限制 |
+| DeepSeek 完成超 70 亿美元融资，中国 AI 行业最大单轮 | DeepSeek | 2026-06-17 | funding, foundation-model, deepseek | https://m.ithome.com/html/964772.htm |  | ⚡ daily 2026-06-17 — 腾讯/宁德时代/京东入局，DeepSeek 获巨额弹药加速基础模型竞争 |
+| GPT-NL：荷兰国家级主权语言模型 | TNO (荷兰应用科学研究组织) | 2026-06-17 | sovereign-ai, foundation-model, europe | https://www.tno.nl/en/digital/artificial-intelligence/gpt-nl/ |  | 📖 daily 2026-06-17 — 荷兰政府主导的本土 LLM 项目，代表欧洲主权 AI 趋势加速 |
+| Meta 工程组织重构争议：RAG 与 AI 基建投入方向成焦点 | Meta | 2026-06-17 | rag, engineering-culture, infrastructure | https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering | [RAG] | 📖 daily 2026-06-17 — HN 357 分热议，Meta AI 基础设施团队重组影响 RAG/向量检索等方向投入 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
