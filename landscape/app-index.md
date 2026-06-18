@@ -743,6 +743,13 @@
 | DeepSeek 完成超 70 亿美元融资，中国 AI 行业最大单轮 | DeepSeek | 2026-06-17 | funding, foundation-model, deepseek | https://m.ithome.com/html/964772.htm |  | ⚡ daily 2026-06-17 — 腾讯/宁德时代/京东入局，DeepSeek 获巨额弹药加速基础模型竞争 |
 | GPT-NL：荷兰国家级主权语言模型 | TNO (荷兰应用科学研究组织) | 2026-06-17 | sovereign-ai, foundation-model, europe | https://www.tno.nl/en/digital/artificial-intelligence/gpt-nl/ |  | 📖 daily 2026-06-17 — 荷兰政府主导的本土 LLM 项目，代表欧洲主权 AI 趋势加速 |
 | Meta 工程组织重构争议：RAG 与 AI 基建投入方向成焦点 | Meta | 2026-06-17 | rag, engineering-culture, infrastructure | https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering | [RAG] | 📖 daily 2026-06-17 — HN 357 分热议，Meta AI 基础设施团队重组影响 RAG/向量检索等方向投入 |
+| Leaked financial docs show OpenAI is losing billions of dollars a year | — | 2026-06-18 | openai, economics, llm | https://arstechnica.com/ai/2026/06/leaked-financial-docs-show-openai-is-losing-billions-of-dollars-a-year/ |  | ⚡ daily 2026-06-18 — 泄露文件揭示OpenAI年亏数十亿美元，AI军备竞赛的经济可持续性首次被量化质疑 |
+| OpenRouter Agent Royale：Claude vs Grok 机器人对战基准 | OpenRouter | 2026-06-18 | agent, benchmark, evaluation | https://openrouter.ai/blog/insights/royale-last-agent-standing/ |  | 🔧 daily 2026-06-18 — OpenRouter 用「机器人死斗」方式横向对比 Claude/Grok 等模型的 agent 执行能力，形式新颖且实用 |
+| Adam (YC W25)：开源 AI CAD，用 Agent 做机械设计 | Adam-CAD (YC W25) | 2026-06-18 | agent, cad, agentic, rag, sdk | https://github.com/Adam-CAD/CADAM |  | 🔧 daily 2026-06-18 — YC W25 开源项目，将 AI Agent 引入机械设计 CAD 领域——agent 成为设计的主要交互媒介 |
+| OpenAI + Molecule.one：AI Chemist 用 GPT-5.4 改进药物合成反应 | OpenAI + Molecule.one | 2026-06-18 | agent, gpt, science | https://openai.com/index/ai-chemist-improves-reaction |  | 🔧 daily 2026-06-18 — 近自主 AI 化学家用 GPT-5.4 改进关键药物合成反应，agent 在科学发现中的落地案例 |
+| Polypore：Agentic coding 不应只是 VS Code 里绑定的聊天框 | evanklem | 2026-06-18 | agent, agentic, agent-ui | https://github.com/evanklem/polypore | 🎯 agent-ui | 🔧 daily 2026-06-18 — 提出 agentic coding 需要独立 UI 范式而非 IDE 插件，HN 67 分讨论 |
+| Hugging Face Agentic Resource Discovery：让 Agent 自主搜索 Hub 资源 | HuggingFace | 2026-06-18 | agent, mcp, hf-hub | https://huggingface.co/blog/agentic-resource-discovery-launch |  | 🔧 daily 2026-06-18 — HF Hub 新增 agentic 资源发现能力——Agent 可自主搜索模型/数据集/空间，类似 MCP 的 Hub 原生实现 |
+| Together AI 实测：Kimi K2.7 Code vs Claude Fable 5，成本低 94% | Together AI | 2026-06-18 | claude, coding-agent, evaluation | https://www.together.ai/blog/kimi-k2-7-code-vs-claude-fable-5 |  | 🔧 daily 2026-06-18 — Kimi K2.7 Code 在 landing page 生成任务中质量接近 Fable 5 但成本低 94%，编码模型性价比新标杆 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
