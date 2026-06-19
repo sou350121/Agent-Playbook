@@ -750,6 +750,13 @@
 | Polypore：Agentic coding 不应只是 VS Code 里绑定的聊天框 | evanklem | 2026-06-18 | agent, agentic, agent-ui | https://github.com/evanklem/polypore | 🎯 agent-ui | 🔧 daily 2026-06-18 — 提出 agentic coding 需要独立 UI 范式而非 IDE 插件，HN 67 分讨论 |
 | Hugging Face Agentic Resource Discovery：让 Agent 自主搜索 Hub 资源 | HuggingFace | 2026-06-18 | agent, mcp, hf-hub | https://huggingface.co/blog/agentic-resource-discovery-launch |  | 🔧 daily 2026-06-18 — HF Hub 新增 agentic 资源发现能力——Agent 可自主搜索模型/数据集/空间，类似 MCP 的 Hub 原生实现 |
 | Together AI 实测：Kimi K2.7 Code vs Claude Fable 5，成本低 94% | Together AI | 2026-06-18 | claude, coding-agent, evaluation | https://www.together.ai/blog/kimi-k2-7-code-vs-claude-fable-5 |  | 🔧 daily 2026-06-18 — Kimi K2.7 Code 在 landing page 生成任务中质量接近 Fable 5 但成本低 94%，编码模型性价比新标杆 |
+| Amazon Bedrock AgentCore Harness GA：兩步 API 生產級 Agent | AWS | 2026-06-19 | agent, orchestration, mcp, gateway | https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-harness-is-now-generally-available-go-from-idea-to-production-grade-agent-in-minutes/ |  | 🔧 daily 2026-06-19 — CreateHarness + InvokeHarness 兩步 API，隔離環境 + MCP gateway，Agent 從原型到生產分鐘級 |
+| 🎯 MosaicLeaks：研究 Agent 能否保守秘密 | ServiceNow + HuggingFace | 2026-06-19 | agent, security, evaluation | https://huggingface.co/blog/ServiceNow/mosaicleaks | 🎯 agent-ui | ⚡ daily 2026-06-19 — ServiceNow 與 HF 聯研：研究 Agent 在開放環境中是否會洩露機密信息，Agent 安全評估新維度 |
+| 🎯 HF 開源 Agent 能力基準測試：Is it agentic enough? | HuggingFace | 2026-06-19 | agent, benchmark, evaluation | https://huggingface.co/blog/is-it-agentic-enough | 🎯 agent-ui | 🔧 daily 2026-06-19 — 讓開發者在自有工具鏈上 benchmark 開源模型的 Agent 能力，填補自定義 eval 空白 |
+| DeepSeek 識圖模式正式上線 App 和網頁端 | DeepSeek | 2026-06-19 | multimodal, deepseek, vision | https://m.ithome.com/html/966066.htm |  | ⚡ daily 2026-06-19 — DeepSeek 正式補齊多模態能力，App + 網頁端同步上線，追趕 GPT-5/Claude 視覺能力 |
+| OpenAI 發佈 GPT-5.5 Instant：ChatGPT 健康智能大幅升級 | OpenAI | 2026-06-19 | gpt, health, evaluation | https://openai.com/index/improving-health-intelligence-in-chatgpt |  | 🔧 daily 2026-06-19 — GPT-5.5 Instant 強化健康場景推理+上下文理解，醫生參與評估，醫療 AI 應用新標桿 |
+| TesterArmy (YC P26)：Agent 自動化測試 web 和 mobile apps | TesterArmy | 2026-06-19 | agent, testing, y-combinator | https://tester.army |  | 🔧 daily 2026-06-19 — YC P26 孵化，Agentic 測試平台在部署前和生產環境跑 E2E 檢查，替代手動測試 |
+| 🎯 Nous Research 發佈 Hermes Agent：OpenClaw 遷移指南 | Nous Research | 2026-06-19 | agent, open-source, migration | https://hermes-agent.nousresearch.com/docs/guides/migrate-from-openclaw | 🎯 agent-ui | 🔧 daily 2026-06-19 — HN 110 分 91 評論，OpenClaw 用戶可遷移至 Hermes Agent，開源 Agent 生態又一選擇 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
