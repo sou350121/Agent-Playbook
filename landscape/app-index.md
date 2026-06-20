@@ -757,6 +757,11 @@
 | OpenAI 發佈 GPT-5.5 Instant：ChatGPT 健康智能大幅升級 | OpenAI | 2026-06-19 | gpt, health, evaluation | https://openai.com/index/improving-health-intelligence-in-chatgpt |  | 🔧 daily 2026-06-19 — GPT-5.5 Instant 強化健康場景推理+上下文理解，醫生參與評估，醫療 AI 應用新標桿 |
 | TesterArmy (YC P26)：Agent 自動化測試 web 和 mobile apps | TesterArmy | 2026-06-19 | agent, testing, y-combinator | https://tester.army |  | 🔧 daily 2026-06-19 — YC P26 孵化，Agentic 測試平台在部署前和生產環境跑 E2E 檢查，替代手動測試 |
 | 🎯 Nous Research 發佈 Hermes Agent：OpenClaw 遷移指南 | Nous Research | 2026-06-19 | agent, open-source, migration | https://hermes-agent.nousresearch.com/docs/guides/migrate-from-openclaw | 🎯 agent-ui | 🔧 daily 2026-06-19 — HN 110 分 91 評論，OpenClaw 用戶可遷移至 Hermes Agent，開源 Agent 生態又一選擇 |
+| John Jumper 离开 DeepMind 加入 Anthropic | — | 2026-06-20 | anthropic, talent, deepmind | https://x.com/JohnJumperSci/status/2068001285173834106 |  | ⚡ daily 2026-06-20 — AlphaFold 创始人加盟，Anthropic 继续聚拢顶级科研人才 |
+| 马斯克预测中国大模型 2027 Q1 追上 Fable，智谱唐杰回应 | — | 2026-06-20 | competition, chinese-ai, benchmark | https://www.ithome.com/0/966/377.htm |  | 📖 daily 2026-06-20 — 马斯克称实用性层面需到2027 Q1，唐杰称用不了那么久 |
+| Sean Lynch: MCP 的理想形态是 Auth Gateway | — | 2026-06-20 | mcp, gateway, agent-architecture | https://simonwillison.net/2026/Jun/19/sean-lynch/ |  | 📖 daily 2026-06-20 — MCP 核心价值可能是隔离 auth flow，脱离 agent context window |
+| Amazon Bedrock AgentCore Web Search GA | aws | 2026-06-20 | agent, web-search, mcp, aws | https://aws.amazon.com/blogs/machine-learning/introducing-web-search-on-amazon-bedrock-agentcore/ |  | 🔧 daily 2026-06-20 — MCP 兼容托管网页搜索，数十亿文档索引，查询不离开 AWS |
+| Adobe Marketing Agent 通过 MCP 接入 Amazon Quick | adobe | 2026-06-20 | mcp, marketing, agent-integration | https://aws.amazon.com/blogs/machine-learning/accelerate-campaign-workflow-with-insights-from-adobe-marketing-agent-for-amazon-quick/ |  | 📖 daily 2026-06-20 — Adobe 营销 Agent 以 MCP 协议接入 AWS Quick，扩展 MCP 企业生态 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
