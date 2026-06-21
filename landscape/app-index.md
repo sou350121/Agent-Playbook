@@ -762,6 +762,10 @@
 | Sean Lynch: MCP 的理想形态是 Auth Gateway | — | 2026-06-20 | mcp, gateway, agent-architecture | https://simonwillison.net/2026/Jun/19/sean-lynch/ |  | 📖 daily 2026-06-20 — MCP 核心价值可能是隔离 auth flow，脱离 agent context window |
 | Amazon Bedrock AgentCore Web Search GA | aws | 2026-06-20 | agent, web-search, mcp, aws | https://aws.amazon.com/blogs/machine-learning/introducing-web-search-on-amazon-bedrock-agentcore/ |  | 🔧 daily 2026-06-20 — MCP 兼容托管网页搜索，数十亿文档索引，查询不离开 AWS |
 | Adobe Marketing Agent 通过 MCP 接入 Amazon Quick | adobe | 2026-06-20 | mcp, marketing, agent-integration | https://aws.amazon.com/blogs/machine-learning/accelerate-campaign-workflow-with-insights-from-adobe-marketing-agent-for-amazon-quick/ |  | 📖 daily 2026-06-20 — Adobe 营销 Agent 以 MCP 协议接入 AWS Quick，扩展 MCP 企业生态 |
+| OpenMontage：开源 Agentic 视频制作系统，12 条管线 500+ Agent 技能 | calesthio | 2026-06-21 | agent, video-production, agentic-workflow | https://github.com/calesthio/OpenMontage | 🎯 agent-ui | 🔧 daily 2026-06-21 — 首个开源 agentic 视频制作系统，Agent 自主完成研究→脚本→素材→剪辑全流程 |
+| Flue (by Astro team)：沙箱 Agent 框架，TypeScript 原生编排 | Astro/withastro | 2026-06-21 | agent, sandbox, typescript | https://github.com/withastro/flue | 🎯 agent-ui | 🔧 daily 2026-06-21 — 知名 Web 框架 Astro 团队出品，内置 sandbox+durable execution+subagent+MCP |
+| Palmier Pro：Y Combinator 出品的 AI 原生 macOS 视频编辑器，开源+MCP | Palmier Inc (YC) | 2026-06-21 | agent-ui, mcp, video-editor | https://github.com/palmier-io/palmier-pro | 🎯 agent-ui | 🔧 daily 2026-06-21 — Swift 原生+内置生成式 AI+MCP 接入 Claude/Codex/Cursor，日增 902 star |
+| Headroom：AI Agent 上下文压缩层，60-95% Token 削减 | chopratejas | 2026-06-21 | rag, token-optimization, mcp | https://github.com/chopratejas/headroom | [RAG] | 🔧 daily 2026-06-21 — 压缩 tool outputs/logs/RAG chunks 再送 LLM，Library+Proxy+MCP 三种模式，可逆压缩 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
