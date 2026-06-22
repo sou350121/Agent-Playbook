@@ -766,6 +766,11 @@
 | Flue (by Astro team)：沙箱 Agent 框架，TypeScript 原生编排 | Astro/withastro | 2026-06-21 | agent, sandbox, typescript | https://github.com/withastro/flue | 🎯 agent-ui | 🔧 daily 2026-06-21 — 知名 Web 框架 Astro 团队出品，内置 sandbox+durable execution+subagent+MCP |
 | Palmier Pro：Y Combinator 出品的 AI 原生 macOS 视频编辑器，开源+MCP | Palmier Inc (YC) | 2026-06-21 | agent-ui, mcp, video-editor | https://github.com/palmier-io/palmier-pro | 🎯 agent-ui | 🔧 daily 2026-06-21 — Swift 原生+内置生成式 AI+MCP 接入 Claude/Codex/Cursor，日增 902 star |
 | Headroom：AI Agent 上下文压缩层，60-95% Token 削减 | chopratejas | 2026-06-21 | rag, token-optimization, mcp | https://github.com/chopratejas/headroom | [RAG] | 🔧 daily 2026-06-21 — 压缩 tool outputs/logs/RAG chunks 再送 LLM，Library+Proxy+MCP 三种模式，可逆压缩 |
+| Claude 启动身份验证，Persona 提供政府 ID 核验 | Anthropic | 2026-06-22 | identity, compliance, claude | https://support.claude.com/en/articles/14328960-identity-verification-on-claude |  | ⚡ daily 2026-06-22 — Anthropic 全面 rollout 政府 ID 验证，影响数百万用户接入体验 |
+| Cloudflare 推出临时账户供 AI Agent 使用 | Cloudflare | 2026-06-22 | agent, infrastructure, cloudflare | https://simonwillison.net/2026/Jun/21/temporary-cloudflare-accounts/ | 🎯 | 🔧 daily 2026-06-22 — Agent 可自动创建/销毁 Cloudflare 账户，隔离资源与权限 |
+| sqlite-utils 4.0rc1：新增 migrations 和嵌套事务 | Simon Willison | 2026-06-22 | sqlite, python, data-pipeline | https://simonwillison.net/2026/Jun/21/sqlite-utils-40rc1/ |  | 📖 daily 2026-06-22 — Simon 的 SQLite 工具库重大更新，支持 schema migration |
+| Samsung 全球部署 ChatGPT Enterprise + Codex | OpenAI/Samsung | 2026-06-22 | enterprise, codex, adoption | https://openai.com/index/samsung-electronics-chatgpt-codex-deployment |  | ⚡ daily 2026-06-22 — Samsung 全员部署，Codex 周活 500 万+，韩国增长 800% |
+| Apertus：瑞士学术联盟发布完全开源基础模型（8B/70B） | EPFL+ETH Zurich+CSCS | 2026-06-22 | open-source, foundation-model, sovereign-ai | https://apertvs.ai/ | 🎯 | 🔧 daily 2026-06-22 — weights+data+code 全开源，1000+ 语言，EU AI Act 合规 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
