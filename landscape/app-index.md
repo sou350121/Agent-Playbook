@@ -771,6 +771,13 @@
 | sqlite-utils 4.0rc1：新增 migrations 和嵌套事务 | Simon Willison | 2026-06-22 | sqlite, python, data-pipeline | https://simonwillison.net/2026/Jun/21/sqlite-utils-40rc1/ |  | 📖 daily 2026-06-22 — Simon 的 SQLite 工具库重大更新，支持 schema migration |
 | Samsung 全球部署 ChatGPT Enterprise + Codex | OpenAI/Samsung | 2026-06-22 | enterprise, codex, adoption | https://openai.com/index/samsung-electronics-chatgpt-codex-deployment |  | ⚡ daily 2026-06-22 — Samsung 全员部署，Codex 周活 500 万+，韩国增长 800% |
 | Apertus：瑞士学术联盟发布完全开源基础模型（8B/70B） | EPFL+ETH Zurich+CSCS | 2026-06-22 | open-source, foundation-model, sovereign-ai | https://apertvs.ai/ | 🎯 | 🔧 daily 2026-06-22 — weights+data+code 全开源，1000+ 语言，EU AI Act 合规 |
+| OpenAI Daybreak：Codex Security + GPT-5.5-Cyber 正式发布 | OpenAI | 2026-06-23 | security, codex, cyber-defense | https://openai.com/index/daybreak-securing-the-world |  | 🔧 daily 2026-06-23 — OpenAI 将安全能力产品化，Codex Security 插件 + GPT-5.5-Cyber 在 CyberGym 达 85.6%，Patch the Planet 联合 Trail of Bits 覆盖 30+ 开源项目 |
+| 微软 Copilot 引入 DeepSeek V4 降本，Agent 化后 token 成本成瓶颈 | Microsoft | 2026-06-23 | deepseek, enterprise-ai, cost-optimization | https://www.36kr.com/p/3863453656110342 |  | ⚡ daily 2026-06-23 — Copilot Cowork agent 化后用量暴增，微软托管 DeepSeek V4 作经济型引擎，标志 DeepSeek 进入企业级核心场景 |
+| Amazon Bedrock AgentCore Payments：AI Agent 的 pay-per-intelligence 基础设施 | AWS / Edge & Node | 2026-06-23 | agent-payments, x402, bedrock | https://aws.amazon.com/blogs/machine-learning/building-pay-per-intelligence-for-ai-agents-how-ampersend-uses-amazon-bedrock-agentcore-payments/ |  | 🔧 daily 2026-06-23 — Ampersend 基于 AgentCore Payments + x402 协议构建 Agent 自主支付路由层，解决多模型供应商的账单/结算/预算管控问题 |
+| SpaceX 与 Reflection AI 签数十亿美元算力协议，加速 AI 基建化 | SpaceX | 2026-06-23 | compute-infrastructure, data-center | https://readhub.cn/topic/8uAqU3ujZa0 |  | ⚡ daily 2026-06-23 — 2026.7-2029 每月 1.5 亿美元，Colossus 2 数据中心；SpaceX 从火箭公司转型为 AI 算力基础设施巨头 |
+| OpenAI Codex 开放 OSS 模式：可插接任意开源模型 | OpenAI | 2026-06-23 | coding-agent, open-source, model-routing | https://www.36kr.com/p/3863532970120201 | 🎯 | ⚡ daily 2026-06-23 — Codex CLI/SDK 新增 --oss 参数和 model_providers 配置，支持 Ollama/LM Studio/DeepSeek 等本地或第三方模型，OpenAI 史上最开放的一次 |
+| Sonnet-5 泄露：Anthropic 下一代模型下周上线，百万 token 上下文 | Anthropic | 2026-06-23 | claude, sonnet-5, model-release | https://www.36kr.com/p/3863726159582466 |  | ⚡ daily 2026-06-23 — 内部代号 Fennec，编程性能/速度/性价比优于 Opus/Fable，100 万 token 上下文；同时 Mythos 5.1/6 已内部完成训练 |
+| Simon Willison：用 Claude Code 将 Moebius 0.2B 图像修复模型移植到浏览器 | Simon Willison | 2026-06-23 | coding-agent, on-device, inpainting | https://simonwillison.net/2026/Jun/22/porting-moebius/ |  | 📖 daily 2026-06-23 — 0.2B 小模型在浏览器端运行图像修复，展示 coding agent + 端侧 AI 的实际落地案例 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
