@@ -778,6 +778,13 @@
 | OpenAI Codex 开放 OSS 模式：可插接任意开源模型 | OpenAI | 2026-06-23 | coding-agent, open-source, model-routing | https://www.36kr.com/p/3863532970120201 | 🎯 | ⚡ daily 2026-06-23 — Codex CLI/SDK 新增 --oss 参数和 model_providers 配置，支持 Ollama/LM Studio/DeepSeek 等本地或第三方模型，OpenAI 史上最开放的一次 |
 | Sonnet-5 泄露：Anthropic 下一代模型下周上线，百万 token 上下文 | Anthropic | 2026-06-23 | claude, sonnet-5, model-release | https://www.36kr.com/p/3863726159582466 |  | ⚡ daily 2026-06-23 — 内部代号 Fennec，编程性能/速度/性价比优于 Opus/Fable，100 万 token 上下文；同时 Mythos 5.1/6 已内部完成训练 |
 | Simon Willison：用 Claude Code 将 Moebius 0.2B 图像修复模型移植到浏览器 | Simon Willison | 2026-06-23 | coding-agent, on-device, inpainting | https://simonwillison.net/2026/Jun/22/porting-moebius/ |  | 📖 daily 2026-06-23 — 0.2B 小模型在浏览器端运行图像修复，展示 coding agent + 端侧 AI 的实际落地案例 |
+| 字节豆包 Seed 2.1 Pro 和 Turbo 深度思考模型发布，三大能力比肩 GPT-5.5 | 字节跳动 | 2026-06-24 | foundation-model, reasoning, chinese-llm | https://m.ithome.com/html/967314.htm |  | ⚡ daily 2026-06-24 — 中国大模型新旗舰，深度思考能力对标 GPT-5.5，加速国内基础模型竞争 |
+| 英伟达发布 BioNeMo Agent 工具包 | NVIDIA | 2026-06-24 | life-sciences, agent-toolkit, domain-specific | https://readhub.cn/topic/8uCOHMfmPf4 |  | 🔧 daily 2026-06-24 — 十年生命科学库+开放模型打包为 Agent 工具包，科学计算 Agent 化加速 |
+| Experimenting with the proposed Cross-Origin Storage API in Transformers.js | HuggingFace | 2026-06-24 | browser-ai, opfs, transformers-js | https://huggingface.co/blog/cross-origin-storage | 🎯 agent-ui | 📖 daily 2026-06-24 — Transformers.js 实验浏览器端持久化存储，端侧 AI 应用数据持久化新路径 |
+| 百川智能发布 M4 模型，实现「真人医生」式主动问诊 | 百川智能 | 2026-06-24 | medical-ai, vertical-model, healthcare | https://readhub.cn/topic/8uBdp6dKdYD | [evaluation] | 🔧 daily 2026-06-24 — HealthBench 榜首，主动追问+全病程记忆+证据锚定，医疗 AI 交互范式升级 |
+| Build real agentic apps using CUGA: two dozen working examples on a lightweight harness | IBM Research | 2026-06-24 | agentic, harness, open-source | https://huggingface.co/blog/ibm-research/cuga-apps | 🎯 agent-ui | 🔧 daily 2026-06-24 — HF 发布 24 个 agentic app 示例 + 轻量 harness，降低 agentic 开发门槛 |
+| Post-Training Recipe, More Than Model Family, Shapes Multi-Agent LLM Conversational Behavior（arXiv） | — | 2026-06-24 | multi-agent, post-training, conversational | https://arxiv.org/abs/2606.20632 |  | 📖 daily 2026-06-24 — 多 Agent 对话行为主要由 post-training 而非模型家族决定，对 multi-agent 设计有启示 |
+| Less is More: Lightweight Prompt Compression for Edge RAG（arXiv） | — | 2026-06-24 | prompt-compression, edge-ai, rag | https://arxiv.org/abs/2606.20571 | [RAG] | 📖 daily 2026-06-24 — 端侧设备 RAG prompt 压缩方法，降低 agent QA 的 token 开销 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
