@@ -1,6 +1,6 @@
 ---
 auto_generated: true
-generated_at: "2026-06-24T06:47:31Z"
+generated_at: "2026-06-24T06:49:12Z"
 source_url: "https://openrouter.ai/blog/insights/royale-last-agent-standing/"
 signal_type: "significant_update"
 ---
