@@ -785,6 +785,14 @@
 | Build real agentic apps using CUGA: two dozen working examples on a lightweight harness | IBM Research | 2026-06-24 | agentic, harness, open-source | https://huggingface.co/blog/ibm-research/cuga-apps | 🎯 agent-ui | 🔧 daily 2026-06-24 — HF 发布 24 个 agentic app 示例 + 轻量 harness，降低 agentic 开发门槛 |
 | Post-Training Recipe, More Than Model Family, Shapes Multi-Agent LLM Conversational Behavior（arXiv） | — | 2026-06-24 | multi-agent, post-training, conversational | https://arxiv.org/abs/2606.20632 |  | 📖 daily 2026-06-24 — 多 Agent 对话行为主要由 post-training 而非模型家族决定，对 multi-agent 设计有启示 |
 | Less is More: Lightweight Prompt Compression for Edge RAG（arXiv） | — | 2026-06-24 | prompt-compression, edge-ai, rag | https://arxiv.org/abs/2606.20571 | [RAG] | 📖 daily 2026-06-24 — 端侧设备 RAG prompt 压缩方法，降低 agent QA 的 token 开销 |
+| Claude Tag 发布：Claude Code 进化为企业协作 AI 队友，Karpathy 称 LLM 界面第三次变革 | Anthropic | 2026-06-25 | agent-ui, collaboration, slack | https://www.36kr.com/p/3866453077120256 |  | 🔧 daily 2026-06-25 — Claude Tag 将 Claude 嵌入 Slack 工作流，共享上下文+持续记忆+主动介入，Anthropic 内部 65% 代码已由它完成 |
+| Gemini 3.5 Flash 原生集成 Computer Use：浏览器/移动/桌面跨平台 Agent | Google | 2026-06-25 | computer-use, gemini, agent | https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/ |  | 🔧 daily 2026-06-25 — Computer use 从独立模型变为 Gemini Flash 原生能力，支持长程自动化和 Enterprise Agent Platform |
+| AWS 教程：用 Amazon Nova 2 Sonic 构建医疗预约语音 Agent | AWS | 2026-06-25 | agent, voice, healthcare, nova | https://aws.amazon.com/blogs/machine-learning/build-a-healthcare-appointment-agent-with-amazon-nova-2-sonic/ |  | 🔧 daily 2026-06-25 — 端到端医疗语音 Agent 教程：语音认证+预约管理+Bedrock AgentCore，展示 Agent 落地场景 |
+| OpenAI 联合 Broadcom 发布 Jalapeño：专为 LLM 推理定制的 AI 芯片 | OpenAI/Broadcom | 2026-06-25 | inference, chip, infrastructure | https://openai.com/index/openai-broadcom-jalapeno-inference-chip |  | ⚡ daily 2026-06-25 — OpenAI 首款 Intelligence Processor，9 个月设计到生产，能效显著超越现有方案，部署于 GW 级数据中心 |
+| FFASR Leaderboard：在真实世界中评测语音识别模型 | HuggingFace | 2026-06-25 | asr, benchmark, speech | https://huggingface.co/blog/ffasr-leaderboard |  | 📖 daily 2026-06-25 — HF 发布面向真实场景的 ASR 基准测试，填补实验室指标与实际部署间的评估空白 |
+| 谷歌两名顶尖 AI 研究人员将离职加入 Anthropic，人才争夺白热化 | — | 2026-06-25 | talent, anthropic, google | https://readhub.cn/topic/8uEPJ8MwYyZ |  | ⚡ daily 2026-06-25 — 继 John Jumper 之后又一波 Google→Anthropic 人才流动，加剧 AI 实验室竞争格局变化 |
+| 谷歌将 Gemini 3.5 Pro 发布日期推迟至 7 月 | Google | 2026-06-25 | gemini, release-schedule | https://readhub.cn/topic/8uERCS1V67g |  | 📖 daily 2026-06-25 — Gemini 3.5 Pro 延后发布，Flash 版先上线 Computer Use，Google 模型节奏调整 |
+| Tom MacWright 观察：LLM 生成的求职申请已形成完整造假链 | — | 2026-06-25 | llm-abuse, social-signal | https://simonwillison.net/2026/Jun/24/tom-macwright/ |  | 📖 daily 2026-06-25 — 从求职信到 portfolio 到 GitHub 项目全由 LLM 生成，揭示 AI 滥用的新维度 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
