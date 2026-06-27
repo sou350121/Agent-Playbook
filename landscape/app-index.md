@@ -793,6 +793,12 @@
 | 谷歌两名顶尖 AI 研究人员将离职加入 Anthropic，人才争夺白热化 | — | 2026-06-25 | talent, anthropic, google | https://readhub.cn/topic/8uEPJ8MwYyZ |  | ⚡ daily 2026-06-25 — 继 John Jumper 之后又一波 Google→Anthropic 人才流动，加剧 AI 实验室竞争格局变化 |
 | 谷歌将 Gemini 3.5 Pro 发布日期推迟至 7 月 | Google | 2026-06-25 | gemini, release-schedule | https://readhub.cn/topic/8uERCS1V67g |  | 📖 daily 2026-06-25 — Gemini 3.5 Pro 延后发布，Flash 版先上线 Computer Use，Google 模型节奏调整 |
 | Tom MacWright 观察：LLM 生成的求职申请已形成完整造假链 | — | 2026-06-25 | llm-abuse, social-signal | https://simonwillison.net/2026/Jun/24/tom-macwright/ |  | 📖 daily 2026-06-25 — 从求职信到 portfolio 到 GitHub 项目全由 LLM 生成，揭示 AI 滥用的新维度 |
+| OpenAI 预览 GPT-5.6 Sol/Terra/Luna 三模型系列，新增 Ultra 子代理模式 | OpenAI | 2026-06-27 | gpt-5.6, model-release, agentic-coding | https://openai.com/index/previewing-gpt-5-6-sol |  | 🔧 daily 2026-06-27 — 三档模型+Ultra子代理模式，Terminal-Bench 2.1 SOTA，150万token上下文 |
+| 美国解除 Anthropic Mythos 5 禁令，向百余家企业开放 | Anthropic | 2026-06-27 | mythos-5, export-control, enterprise | https://readhub.cn/topic/8uHlK0DvaDz |  | ⚡ daily 2026-06-27 — 出口管制模型首次向民用企业开放，安全模型商业化路径重大转折 |
+| Dean W. Ball：政府延迟发布正在破坏前沿模型经济模型 | — | 2026-06-27 | policy, economics, frontier-models | https://simonwillison.net/2026/Jun/26/dean-w-ball/ |  | ⚡ daily 2026-06-27 — 每延迟一周都在侵蚀实验室收回训练成本的窗口，基建投资依赖全球市场 |
+| 苹果 Vision Pro 部门主管转投 OpenAI，具身智能人才加速流入 | — | 2026-06-27 | talent, hardware, openai | https://readhub.cn/topic/8uHnRSFaDun |  | ⚡ daily 2026-06-27 — 苹果硬件+空间计算核心团队加入OpenAI，暗示其向硬件/具身方向延伸 |
+| Google Gemini Nano v3 免训练集成 MTP 加速，Pixel 端侧推理提速 | Google | 2026-06-27 | on-device, mtp, gemini-nano, speculative-decoding | https://research.google/blog/accelerating-gemini-nano-models-on-pixel-with-frozen-multi-token-prediction/ |  | 🔧 daily 2026-06-27 — 冻结模型免额外drafter微调，多token预测直接加速端侧推理 |
+| Stripe 在 AWS 上部署生产级金融合规 Agent，处理时间降 26% | Stripe + AWS | 2026-06-27 | agent, compliance, production, bedrock | https://aws.amazon.com/blogs/machine-learning/production-grade-ai-agents-for-financial-compliance-lessons-from-stripe/ |  | 🔧 daily 2026-06-27 — ReAct框架+Bedrock，日审数千交易，96%好评率+人类监督 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
