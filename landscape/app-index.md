@@ -799,6 +799,11 @@
 | 苹果 Vision Pro 部门主管转投 OpenAI，具身智能人才加速流入 | — | 2026-06-27 | talent, hardware, openai | https://readhub.cn/topic/8uHnRSFaDun |  | ⚡ daily 2026-06-27 — 苹果硬件+空间计算核心团队加入OpenAI，暗示其向硬件/具身方向延伸 |
 | Google Gemini Nano v3 免训练集成 MTP 加速，Pixel 端侧推理提速 | Google | 2026-06-27 | on-device, mtp, gemini-nano, speculative-decoding | https://research.google/blog/accelerating-gemini-nano-models-on-pixel-with-frozen-multi-token-prediction/ |  | 🔧 daily 2026-06-27 — 冻结模型免额外drafter微调，多token预测直接加速端侧推理 |
 | Stripe 在 AWS 上部署生产级金融合规 Agent，处理时间降 26% | Stripe + AWS | 2026-06-27 | agent, compliance, production, bedrock | https://aws.amazon.com/blogs/machine-learning/production-grade-ai-agents-for-financial-compliance-lessons-from-stripe/ |  | 🔧 daily 2026-06-27 — ReAct框架+Bedrock，日审数千交易，96%好评率+人类监督 |
+| 🎯 AI 账单失控，美国企业 100% 切换 DeepSeek 降本 | — | 2026-06-28 | model-routing, cost-optimization, llmops | https://m.ithome.com/html/969400.htm | 🎯 routing | ⚡ daily 2026-06-28 — 企业AI支出失控成现实痛点，模型路由+DeepSeek成降本首选，Agent规模化必经之路 |
+| 🔧 DeepSeek 联合北大开源 DSpark：推测解码推理提速 60-85% | deepseek-ai | 2026-06-28 | speculative-decoding, inference, open-source | https://www.36kr.com/p/3871135542424256 |  | 🔧 daily 2026-06-28 — 半自回归+置信度调度推测解码框架，已部署线上+全栈开源DeepSpec，工程可直接复用 |
+| ⚡ 美国政府或下周解除 Anthropic Fable 5 限制（续报） | Anthropic | 2026-06-28 | policy, frontier-model, anthropic | https://readhub.cn/topic/8uJ2e6qHrnO |  | ⚡ daily 2026-06-28 — Fable 5下线15天后即将恢复，前沿模型安全审查与发布节奏的持续博弈 |
+| 📖 Temporal Validity in Retrieval Memory：消除 RAG 过时事实错误 | — | 2026-06-28 | rag, memory, temporal-validity | https://arxiv.org/abs/2606.26511 |  | 📖 daily 2026-06-28 — RAG 系统无时间模型导致检索过时+当前值，提出时间有效性层解决此问题（arXiv） |
+| 📖 OPID：On-Policy Skill Distillation 用于 Agentic RL | — | 2026-06-28 | agentic-rl, skill-distillation, agent | https://arxiv.org/abs/2606.26790 |  | 📖 daily 2026-06-28 — 用 on-policy 自蒸馏将轨迹级 RL 奖励转化为中间决策指导，提升 agent 训练效率（arXiv） |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
