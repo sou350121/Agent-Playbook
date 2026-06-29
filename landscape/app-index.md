@@ -804,6 +804,12 @@
 | ⚡ 美国政府或下周解除 Anthropic Fable 5 限制（续报） | Anthropic | 2026-06-28 | policy, frontier-model, anthropic | https://readhub.cn/topic/8uJ2e6qHrnO |  | ⚡ daily 2026-06-28 — Fable 5下线15天后即将恢复，前沿模型安全审查与发布节奏的持续博弈 |
 | 📖 Temporal Validity in Retrieval Memory：消除 RAG 过时事实错误 | — | 2026-06-28 | rag, memory, temporal-validity | https://arxiv.org/abs/2606.26511 |  | 📖 daily 2026-06-28 — RAG 系统无时间模型导致检索过时+当前值，提出时间有效性层解决此问题（arXiv） |
 | 📖 OPID：On-Policy Skill Distillation 用于 Agentic RL | — | 2026-06-28 | agentic-rl, skill-distillation, agent | https://arxiv.org/abs/2606.26790 |  | 📖 daily 2026-06-28 — 用 on-policy 自蒸馏将轨迹级 RL 奖励转化为中间决策指导，提升 agent 训练效率（arXiv） |
+| GLM 5.2 beats Claude Code on Semgrep IDOR benchmark — open-weight MoE 750B 突围 | Zhipu AI | 2026-06-29 | benchmark, open-weight, coding-agent | https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks/ |  | ⚡ daily 2026-06-29 — 开源权重模型首次在实际安全任务中击败 Claude Code，MoE 750B/40B active，1M 上下文 |
+| Tokenmaxxing is dead, long live tokenmaxxing — Meta 的 token KPI 是故意的 | — | 2026-06-29 | agent, adoption, enterprise | https://12gramsofcarbon.com/p/agentics-tech-things-tokenmaxxing |  | 📖 daily 2026-06-29 — Meta 的 token 用量 KPI 是刻意推动 AI 采纳的「蛮力策略」，揭示企业 AI 采用的真实张力 |
+| GPT-5.6 发布即限流，海外断供成国产 AI 利好（续报） | OpenAI | 2026-06-29 | gpt-5.6, rate-limiting | https://www.36kr.com/p/3871402277059202 |  | 📖 daily 2026-06-29 — GPT-5.6 限量预览遭限流，海外断供反而利好国产 AI 生态 |
+| I used Claude Code to get a second opinion on my MRI — 医疗影像分析实战 | — | 2026-06-29 | claude-code, practical-use, coding-agent | https://antoine.fi/mri-analysis-using-claude-code-opus |  | 📖 daily 2026-06-29 — Claude Code 走出编程舒适区，在医疗影像分析中提供第二意见，HN 361 分 473 评论 |
+| 🎯 Jon Udell: Human Agent in the loop — 把 Agent 请回我们的流程 | — | 2026-06-29 | agent-ui, human-in-loop, workflow | https://simonwillison.net/2026/Jun/28/jon-udell/#atom-everything | 🎯 agent-ui | 📖 daily 2026-06-29 — 范式翻转：不是「人在回路中」而是「我们把 Agent 请进自己的流程」，对 Agent UI 设计有启发 |
+| OpenAI Codex 敏感文件排除机制仍缺失（Issue #2847） | OpenAI | 2026-06-29 | coding-agent, security, openai-codex | https://github.com/openai/codex/issues/2847 |  | 🔧 daily 2026-06-29 — 180 分 121 评论：.codexignore 缺失导致 .env/.aws 等敏感文件可能被 Agent 发送到模型 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
