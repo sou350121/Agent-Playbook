@@ -810,6 +810,11 @@
 | I used Claude Code to get a second opinion on my MRI — 医疗影像分析实战 | — | 2026-06-29 | claude-code, practical-use, coding-agent | https://antoine.fi/mri-analysis-using-claude-code-opus |  | 📖 daily 2026-06-29 — Claude Code 走出编程舒适区，在医疗影像分析中提供第二意见，HN 361 分 473 评论 |
 | 🎯 Jon Udell: Human Agent in the loop — 把 Agent 请回我们的流程 | — | 2026-06-29 | agent-ui, human-in-loop, workflow | https://simonwillison.net/2026/Jun/28/jon-udell/#atom-everything | 🎯 agent-ui | 📖 daily 2026-06-29 — 范式翻转：不是「人在回路中」而是「我们把 Agent 请进自己的流程」，对 Agent UI 设计有启发 |
 | OpenAI Codex 敏感文件排除机制仍缺失（Issue #2847） | OpenAI | 2026-06-29 | coding-agent, security, openai-codex | https://github.com/openai/codex/issues/2847 |  | 🔧 daily 2026-06-29 — 180 分 121 评论：.codexignore 缺失导致 .env/.aws 等敏感文件可能被 Agent 发送到模型 |
+| Meta 因模型蒸馏风险对 Claude 和 Codex 使用施加限制 | Meta | 2026-06-30 | model-distillation, security, claude | https://readhub.cn/topic/8uMLOeR9ZGf |  | ⚡ daily 2026-06-30 — 前沿公司因蒸馏风险限制竞品模型使用，反映模型能力外溢担忧升级 |
+| AWS 教程：多租户 LLM 分析 Agent 的行级安全三层架构 | AWS/PAR Technology | 2026-06-30 | multi-tenant, row-level-security, bedrock | https://aws.amazon.com/blogs/machine-learning/multi-tenant-llm-analytics-with-row-level-security-how-we-built-a-secure-agent-on-aws/ |  | 📖 daily 2026-06-30 — 三层架构（SigV4+Bedrock+Split-Plane SQL）确保 LLM 被攻破也不跨租户泄露 |
+| DeepSeek V4 正式版官宣 7 月中旬上线，高峰时段 API 价格翻倍 | DeepSeek | 2026-06-30 | deepseek, api-pricing, model-release | https://m.ithome.com/html/970123.htm |  | 🔧 daily 2026-06-30 — V4 正式版定价策略引入峰谷机制，高峰 2x 影响 API 集成成本规划 |
+| Ornith-1.0: DeepReinforce 开源自 scaffolding Agentic Coding 模型 | DeepReinforce | 2026-06-30 | agentic-coding, open-weight, gemma | https://simonwillison.net/2026/Jun/29/ornith/ |  | 🔧 daily 2026-06-30 — 新公司 DeepReinforce 首款模型，基于 Gemma 4+Qwen 3.5，4 个尺寸可选，Simon 实测良好 |
+| OpenAI 发布欧盟 AI 就业影响地图报告 | OpenAI | 2026-06-30 | ai-impact, employment, eu | https://openai.com/index/mapping-ai-jobs-transition-eu |  | 📖 daily 2026-06-30 — OpenAI 系统评估 AI 对欧盟各职业的自动化/增长/工作流影响 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
