@@ -815,6 +815,12 @@
 | DeepSeek V4 正式版官宣 7 月中旬上线，高峰时段 API 价格翻倍 | DeepSeek | 2026-06-30 | deepseek, api-pricing, model-release | https://m.ithome.com/html/970123.htm |  | 🔧 daily 2026-06-30 — V4 正式版定价策略引入峰谷机制，高峰 2x 影响 API 集成成本规划 |
 | Ornith-1.0: DeepReinforce 开源自 scaffolding Agentic Coding 模型 | DeepReinforce | 2026-06-30 | agentic-coding, open-weight, gemma | https://simonwillison.net/2026/Jun/29/ornith/ |  | 🔧 daily 2026-06-30 — 新公司 DeepReinforce 首款模型，基于 Gemma 4+Qwen 3.5，4 个尺寸可选，Simon 实测良好 |
 | OpenAI 发布欧盟 AI 就业影响地图报告 | OpenAI | 2026-06-30 | ai-impact, employment, eu | https://openai.com/index/mapping-ai-jobs-transition-eu |  | 📖 daily 2026-06-30 — OpenAI 系统评估 AI 对欧盟各职业的自动化/增长/工作流影响 |
+| Building a serverless A2A gateway for agent discovery, routing, and access control | AWS | 2026-07-02 | a2a, gateway, multi-agent | https://aws.amazon.com/blogs/machine-learning/building-a-serverless-a2a-gateway-for-agent-discovery-routing-and-access-control/ | 🎯 agent-ui | ⚡ daily 2026-07-02 — A2A 协议与 MCP 并列三大 agentic 协议，AWS 给出生产级 serverless 网关架构 |
+| Bedrock GovCloud 支持 OpenAI GPT OSS + NVIDIA Nemotron 开源模型 | AWS | 2026-07-02 | bedrock, open-source, govcloud | https://aws.amazon.com/blogs/machine-learning/run-nvidia-nemotron-and-openai-gpt-oss-models-on-amazon-bedrock-in-aws-govcloud-us/ |  | 🔧 daily 2026-07-02 — 美国本土开源模型首次进入 GovCloud，政府/合规场景可直接用 GPT OSS 120B + Nemotron |
+| AgentCore Memory 支持结构化元数据过滤 | AWS | 2026-07-02 | agent-memory, retrieval, multi-tenant | https://aws.amazon.com/blogs/machine-learning/structured-memory-filtering-with-metadata-in-agentcore-memory/ |  | 🔧 daily 2026-07-02 — Agent 记忆系统首次支持元数据结构化过滤，多租户/多 Agent 架构检索精度大幅提升 |
+| Vercel AI Gateway 恢复 Claude Fable 5 访问 | Vercel | 2026-07-02 | gateway, claude, fable | https://vercel.com/changelog/claude-fable-5-access-restored-on-ai-gateway |  | 🔧 daily 2026-07-02 — Fable 5 在 Vercel AI Gateway 恢复可用，网络安全 Agent 管线可重新接入 |
+| Vercel 发布 konsistent：Agent 与人类统一代码风格工具 | Vercel | 2026-07-02 | agent-ui, code-quality, developer-tools | https://vercel.com/changelog/enforce-consistent-code-for-agents-and-humans-with-konsistent | 🎯 agent-ui | 🔧 daily 2026-07-02 — Agent 生成代码与人类代码强制统一风格，解决 AI 编码落地最大痛点之一 |
+| Anthropic 回应 Claude Code 暗藏代码检测中国用户：将删除相关逻辑 | Anthropic | 2026-07-02 | claude-code, security, transparency | https://m.ithome.com/html/971118.htm |  | ⚡ daily 2026-07-02 — Claude Code 被曝内嵌代码级区域检测，Anthropic 承诺修复——Agent 透明度与信任问题再受关注 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
