@@ -821,6 +821,13 @@
 | Vercel AI Gateway 恢复 Claude Fable 5 访问 | Vercel | 2026-07-02 | gateway, claude, fable | https://vercel.com/changelog/claude-fable-5-access-restored-on-ai-gateway |  | 🔧 daily 2026-07-02 — Fable 5 在 Vercel AI Gateway 恢复可用，网络安全 Agent 管线可重新接入 |
 | Vercel 发布 konsistent：Agent 与人类统一代码风格工具 | Vercel | 2026-07-02 | agent-ui, code-quality, developer-tools | https://vercel.com/changelog/enforce-consistent-code-for-agents-and-humans-with-konsistent | 🎯 agent-ui | 🔧 daily 2026-07-02 — Agent 生成代码与人类代码强制统一风格，解决 AI 编码落地最大痛点之一 |
 | Anthropic 回应 Claude Code 暗藏代码检测中国用户：将删除相关逻辑 | Anthropic | 2026-07-02 | claude-code, security, transparency | https://m.ithome.com/html/971118.htm |  | ⚡ daily 2026-07-02 — Claude Code 被曝内嵌代码级区域检测，Anthropic 承诺修复——Agent 透明度与信任问题再受关注 |
+| Manufact (YC S25) — MCP Cloud：一键部署 MCP Apps/Servers | Manufact (YC S25) | 2026-07-03 | mcp, agent-deployment, sdk | https://manufact.com | 🎯 agent-ui | 🔧 daily 2026-07-03 — YC S25 新项目，mcp-use SDK 全栈框架，一键部署到 ChatGPT/Claude/Gemini 市场，解决 MCP 分发最后一公里 |
+| DSPy 优化 Datasette Agent SQL 系统提示词：自动化 prompt 评估实战 | simonw | 2026-07-03 | eval, prompt-engineering, agent | https://simonwillison.net/2026/Jul/2/dspy-datasette-agent-prompts/ | 🎯 agent-ui | 🔧 daily 2026-07-03 — 用 DSPy 框架在真实 Datasette 环境上自动评估和迭代 SQL 系统提示词，发现 schema 列名缺失导致 error-retry 循环 |
+| DBOS：Postgres 事务作为 Agent 工作流的状态一致性超能力 | DBOS | 2026-07-03 | workflow, postgres, distributed-systems | https://www.dbos.dev/blog/co-locating-workflow-state-with-your-data |  | 📖 daily 2026-07-03 — 工作流 checkpoint 与业务数据同库同事务，消除部分失败，提供 exactly-once 语义——对 Agent 工作流可靠性有直接参考价值 |
+| llm-coding-agent 0.1a0 — Simon Willison 的 Python 编码 Agent | simonw | 2026-07-03 | coding-agent, llm, python | https://simonwillison.net/2026/Jul/2/llm-coding-agent/ | 🎯 agent-ui | 🔧 daily 2026-07-03 — 基于 Fable 5 + llm 库构建的 Claude Code 风格编码 Agent，支持文件编辑/命令执行/glob 搜索，Python API 可直接调用 |
+| claude-real-video — 让任何 LLM 真正「看」视频（场景感知 + 去重帧） | HUANGCHIHHUNGLeo | 2026-07-03 | multimodal, video, agent-tool | https://github.com/HUANGCHIHHUNGLeo/claude-real-video |  | 🔧 daily 2026-07-03 — 场景切换检测 + 滑动窗口去重 + Whisper 转录，本地运行不上传，让 LLM 用更少的帧获得更好的视频理解 |
+| Short Leash 编码法：专家如何用 AI Agent 写出高质量安全关键代码 | Okturtles | 2026-07-03 | coding-agent, best-practice, security | https://blog.okturtles.org/2026/07/short-leash-ai-method/ |  | 📖 daily 2026-07-03 — 一年研究总结：短周期人工审查 + 小步提交，对抗 Fable 5 生成低效代码；反对 Vibe Coding 的「放手不管」模式 |
+| 微软 25 亿美元成立「微软前沿公司」：企业 AI 集成服务 | Microsoft | 2026-07-03 | enterprise-ai, strategy, llm-integration | https://readhub.cn/topic/8uRNiEhKfIP |  | ⚡ daily 2026-07-03 — 效仿 Palantir/AWS 模式，帮企业整合第三方 AI 工具 + 自有数据；分析指出 DeepSeek/Gemini 追平 OpenAI 是核心驱动力 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
