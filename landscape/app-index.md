@@ -828,6 +828,11 @@
 | claude-real-video — 让任何 LLM 真正「看」视频（场景感知 + 去重帧） | HUANGCHIHHUNGLeo | 2026-07-03 | multimodal, video, agent-tool | https://github.com/HUANGCHIHHUNGLeo/claude-real-video |  | 🔧 daily 2026-07-03 — 场景切换检测 + 滑动窗口去重 + Whisper 转录，本地运行不上传，让 LLM 用更少的帧获得更好的视频理解 |
 | Short Leash 编码法：专家如何用 AI Agent 写出高质量安全关键代码 | Okturtles | 2026-07-03 | coding-agent, best-practice, security | https://blog.okturtles.org/2026/07/short-leash-ai-method/ |  | 📖 daily 2026-07-03 — 一年研究总结：短周期人工审查 + 小步提交，对抗 Fable 5 生成低效代码；反对 Vibe Coding 的「放手不管」模式 |
 | 微软 25 亿美元成立「微软前沿公司」：企业 AI 集成服务 | Microsoft | 2026-07-03 | enterprise-ai, strategy, llm-integration | https://readhub.cn/topic/8uRNiEhKfIP |  | ⚡ daily 2026-07-03 — 效仿 Palantir/AWS 模式，帮企业整合第三方 AI 工具 + 自有数据；分析指出 DeepSeek/Gemini 追平 OpenAI 是核心驱动力 |
+| 阿里巴巴全面禁用 Claude：7月10日生效，全员卸载 Anthropic 全系产品 | 阿里巴巴 | 2026-07-04 | anthropic, enterprise-adoption, security | https://m.ithome.com/html/972210.htm |  | ⚡ daily 2026-07-04 — 中国头部科技公司因 Claude Code 隐蔽检测事件，首次将竞品模型列入高风险软件名单，标志企业 AI 采购态度转向安全优先 |
+| 阿里 AI 产线大整合：QoderWork + 悟空 + MuleRun 三合一，打造企业级 Agent 平台 | 阿里巴巴 | 2026-07-04 | agent-ui, enterprise-agent, desktop-app | https://www.36kr.com/p/3878491297296388 | 🎯 agent-ui | ⚡ daily 2026-07-04 — 结束内部赛马，以 QoderWork（日活第一）为基础融合桌面+云端+组织三层，直接对标字节 Coze / 腾讯 WorkBuddy |
+| Open Source AI Gap Map v0.1：索引 421 个开源 AI 产品，数据 MIT 协议开放 | Current AI (non-profit) | 2026-07-04 | open-source, landscape, community | https://simonwillison.net/2026/Jul/3/open-source-ai-gap-map/ |  | 📖 daily 2026-07-04 — 14 类别 3 层栈全景索引，1184 个 YAML 文件 + 16185 个 GitHub 仓库，是迄今最大开源 AI 资产地图 |
+| Josh W. Comeau：AI 双重打击使在线课程收入下降 50%+ | — | 2026-07-04 | ai-impact, education, industry | https://simonwillison.net/2026/Jul/3/josh-w-comeau/ |  | 📖 daily 2026-07-04 — 知名前端教育者披露：开发者担心岗位消失 + LLM 个性化辅导替代付费课程，多位课程创作者同步观察到该趋势 |
+| Fable's judgement：Claude Code 团队建议让模型自主判断，Simon 实践 sub-agent 委派降本 | Anthropic / Simon Willison | 2026-07-04 | agent-ui, cost-optimization, claude-code | https://simonwillison.net/2026/Jul/3/judgement/ | 🎯 agent-ui | 🔧 daily 2026-07-04 — AIE 大会 Claude Code 团队透露：让 Fable 自主判断测试/委派策略；Simon 实践用 sub-agent 委派给 Sonnet/Haiku 节省 Fable 配额 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
