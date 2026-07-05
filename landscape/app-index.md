@@ -833,6 +833,11 @@
 | Open Source AI Gap Map v0.1：索引 421 个开源 AI 产品，数据 MIT 协议开放 | Current AI (non-profit) | 2026-07-04 | open-source, landscape, community | https://simonwillison.net/2026/Jul/3/open-source-ai-gap-map/ |  | 📖 daily 2026-07-04 — 14 类别 3 层栈全景索引，1184 个 YAML 文件 + 16185 个 GitHub 仓库，是迄今最大开源 AI 资产地图 |
 | Josh W. Comeau：AI 双重打击使在线课程收入下降 50%+ | — | 2026-07-04 | ai-impact, education, industry | https://simonwillison.net/2026/Jul/3/josh-w-comeau/ |  | 📖 daily 2026-07-04 — 知名前端教育者披露：开发者担心岗位消失 + LLM 个性化辅导替代付费课程，多位课程创作者同步观察到该趋势 |
 | Fable's judgement：Claude Code 团队建议让模型自主判断，Simon 实践 sub-agent 委派降本 | Anthropic / Simon Willison | 2026-07-04 | agent-ui, cost-optimization, claude-code | https://simonwillison.net/2026/Jul/3/judgement/ | 🎯 agent-ui | 🔧 daily 2026-07-04 — AIE 大会 Claude Code 团队透露：让 Fable 自主判断测试/委派策略；Simon 实践用 sub-agent 委派给 Sonnet/Haiku 节省 Fable 配额 |
+| Claude Code 企业级 session/cache 泄漏：ZDR workspace 出现 Minecraft 提示词 | anthropics | 2026-07-05 | claude-code, security, enterprise | https://github.com/anthropics/claude-code/issues/74066 |  | ⚡ daily 2026-07-05 — 企业 ZDR workspace 出现跨用户 session 泄漏，威胁敏感数据安全 |
+| GPT-5.5 Codex reasoning-token 聚类异常：516 阈值导致复杂任务性能下降 | openai | 2026-07-05 | gpt-5.5, codex, reasoning | https://github.com/openai/codex/issues/30364 |  | 🔧 daily 2026-07-05 — 39万条数据证实 GPT-5.5 在 Codex 中 44% 响应卡在 516 token 阈值，推理深度骤降 |
+| Anthropic 全面封杀绕过限制的地下通道：时区检测+API中转站全禁 | anthropic | 2026-07-05 | anthropic, geo-restriction, compliance | https://www.36kr.com/p/3881112560005381 |  | ⚡ daily 2026-07-05 — FT 独家：7月3日起封堵境外子公司跳板、Azure 隐秘通道、API 中转站，封号不退款 |
+| 🎯 新 Claude 模型工具调用反而更差：Opus 4.8/Sonnet 5 捏造字段 | anthropic | 2026-07-05 | tool-calling, claude, agent-ui | https://simonwillison.net/2026/Jul/4/better-models-worse-tools/ |  | 🔧 daily 2026-07-05 — RL 训练适配 Claude Code 编辑工具导致第三方 harness（如 Pi）工具调用 schema 不匹配 |
+| OASIS Ring：语音输入智能戒指走红，Vibe Coding 硬件新赛道 | OASIS | 2026-07-05 | vibe-coding, hardware, input-device | https://www.36kr.com/p/3880964231707525 |  | 📖 daily 2026-07-05 — 戒指形态麦克风+手势传感器，试图争夺 Vibe Coding 下一代 AI 入口定义权 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
