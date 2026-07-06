@@ -838,6 +838,9 @@
 | Anthropic 全面封杀绕过限制的地下通道：时区检测+API中转站全禁 | anthropic | 2026-07-05 | anthropic, geo-restriction, compliance | https://www.36kr.com/p/3881112560005381 |  | ⚡ daily 2026-07-05 — FT 独家：7月3日起封堵境外子公司跳板、Azure 隐秘通道、API 中转站，封号不退款 |
 | 🎯 新 Claude 模型工具调用反而更差：Opus 4.8/Sonnet 5 捏造字段 | anthropic | 2026-07-05 | tool-calling, claude, agent-ui | https://simonwillison.net/2026/Jul/4/better-models-worse-tools/ |  | 🔧 daily 2026-07-05 — RL 训练适配 Claude Code 编辑工具导致第三方 harness（如 Pi）工具调用 schema 不匹配 |
 | OASIS Ring：语音输入智能戒指走红，Vibe Coding 硬件新赛道 | OASIS | 2026-07-05 | vibe-coding, hardware, input-device | https://www.36kr.com/p/3880964231707525 |  | 📖 daily 2026-07-05 — 戒指形态麦克风+手势传感器，试图争夺 Vibe Coding 下一代 AI 入口定义权 |
+| Zuckerberg 内部坦言：AI Agent 进展不及预期 | Meta | 2026-07-06 | agent, industry, reality-check | https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/ |  | ⚡ daily 2026-07-06 — Meta 裁 8000 人转 AI 后，CEO 承认 Agent 替代人工的速度远低于预期，3-6 个月后才见改善 |
+| sqlite-utils 4.0rc2 主要由 Claude Fable 编写，花费 $149.25 | Simon Willison | 2026-07-06 | coding-agent, claude-fable, agentic-coding | https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/ | 🎯 agent-ui | 🔧 daily 2026-07-06 — 37 次 prompt、34 次 commit、修改 30 个文件；Fable 发现 delete_where 数据丢失 bug，证明 coding agent 可胜任真实项目 |
+| Agent 任务实测：主流模型谁能稳定跑完 Agent 工作流 | — | 2026-07-06 | agent, evaluation, benchmark | https://juejin.cn/post/7657865700394090530 |  | 📖 daily 2026-07-06 — 对比各模型在真实工作流中的 Agent 稳定性，揭示发布会数据与实际表现的差距 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
