@@ -841,6 +841,12 @@
 | Zuckerberg 内部坦言：AI Agent 进展不及预期 | Meta | 2026-07-06 | agent, industry, reality-check | https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/ |  | ⚡ daily 2026-07-06 — Meta 裁 8000 人转 AI 后，CEO 承认 Agent 替代人工的速度远低于预期，3-6 个月后才见改善 |
 | sqlite-utils 4.0rc2 主要由 Claude Fable 编写，花费 $149.25 | Simon Willison | 2026-07-06 | coding-agent, claude-fable, agentic-coding | https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/ | 🎯 agent-ui | 🔧 daily 2026-07-06 — 37 次 prompt、34 次 commit、修改 30 个文件；Fable 发现 delete_where 数据丢失 bug，证明 coding agent 可胜任真实项目 |
 | Agent 任务实测：主流模型谁能稳定跑完 Agent 工作流 | — | 2026-07-06 | agent, evaluation, benchmark | https://juejin.cn/post/7657865700394090530 |  | 📖 daily 2026-07-06 — 对比各模型在真实工作流中的 Agent 稳定性，揭示发布会数据与实际表现的差距 |
+| Anthropic 发现 LLM 涌现「全局工作空间」：J-space 内部神经模式 | Anthropic | 2026-07-07 | interpretability, model-internals, reasoning | https://www.anthropic.com/research/global-workspace |  | ⚡ daily 2026-07-07 — 首次实证 LLM 涌现类似人类意识的内部推理表示层，对模型可解释性和操控有深远影响 |
+| Pulpie：Pareto 最优网页清洗模型，质量逼近 SOTA 但成本仅 1/20 | Feyn | 2026-07-07 | web-extraction, data-cleaning, open-source | https://usefeyn.com/blog/pulpie-pareto-optimal-models-for-cleaning-the-web/ |  | 🔧 daily 2026-07-07 — 210M 参数匹配 600M Dripper 质量，10 亿页清洗成本从 $159K 降至 $7.9K |
+| Amazon SageMaker HyperPod 上线 Nova 多轮 RL 训练基础设施 | AWS | 2026-07-07 | rl-training, sagemaker, llmops | https://aws.amazon.com/blogs/machine-learning/deploying-multi-turn-rl-infrastructure-for-amazon-nova-on-amazon-sagemaker-hyperpod/ |  | 📖 daily 2026-07-07 — 事件驱动的多轮 RL 训练管道，支持 Nova Forge 模型从数据上传到训练全自动 |
+| OfficeCLI：专为 AI Agent 设计的 Office 套件，一行代码接入 Word/Excel/PPT | iOfficeAI | 2026-07-07 | agent-tool, document-automation, office | https://github.com/iOfficeAI/OfficeCLI | 🎯 agent-ui | 🔧 daily 2026-07-07 — Agent 操作 Office 文档的首个专用工具，单二进制无依赖，HN 109 分 |
+| Deep Code 开源 AI 编程助手上线：专为 DeepSeek-V4 适配，支持深度思考 + Agent Skills | DeepSeek 社区 | 2026-07-07 | coding-agent, deepseek, open-source | https://github.com/lessweb/deepcode-cli |  | 🔧 daily 2026-07-07 — DeepSeek 官方 API 文档收录的首个编程 Agent，支持 CLI + VS Code 双模式 |
+| MiniMax M2.5 上线 Amazon Bedrock：专为 Agent 原生执行训练的 MoE 模型 | MiniMax / AWS | 2026-07-07 | agent-native, bedrock, moE | https://aws.amazon.com/blogs/machine-learning/run-minimax-models-on-amazon-bedrock/ |  | 🔧 daily 2026-07-07 — M2.5 专为 tool-calling 和多步任务分解训练，Bedrock 上首个 Agent 原生开源模型 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
