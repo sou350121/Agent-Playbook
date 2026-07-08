@@ -847,6 +847,13 @@
 | OfficeCLI：专为 AI Agent 设计的 Office 套件，一行代码接入 Word/Excel/PPT | iOfficeAI | 2026-07-07 | agent-tool, document-automation, office | https://github.com/iOfficeAI/OfficeCLI | 🎯 agent-ui | 🔧 daily 2026-07-07 — Agent 操作 Office 文档的首个专用工具，单二进制无依赖，HN 109 分 |
 | Deep Code 开源 AI 编程助手上线：专为 DeepSeek-V4 适配，支持深度思考 + Agent Skills | DeepSeek 社区 | 2026-07-07 | coding-agent, deepseek, open-source | https://github.com/lessweb/deepcode-cli |  | 🔧 daily 2026-07-07 — DeepSeek 官方 API 文档收录的首个编程 Agent，支持 CLI + VS Code 双模式 |
 | MiniMax M2.5 上线 Amazon Bedrock：专为 Agent 原生执行训练的 MoE 模型 | MiniMax / AWS | 2026-07-07 | agent-native, bedrock, moE | https://aws.amazon.com/blogs/machine-learning/run-minimax-models-on-amazon-bedrock/ |  | 🔧 daily 2026-07-07 — M2.5 专为 tool-calling 和多步任务分解训练，Bedrock 上首个 Agent 原生开源模型 |
+| Rowboat：开源本地优先的 Claude Desktop 替代，可自定义工作界面 | rowboatlabs | 2026-07-08 | agent-ui, desktop-app, local-first | https://github.com/rowboatlabs/rowboat | 🎯 agent-ui | 🔧 daily 2026-07-08 — 开源本地优先的 Claude Desktop 替代方案，支持自定义工作界面，突破聊天框范式 |
+| BAIR：Intelligence is Free, Now What? — 为 Agent 设计数据系统 | BAIR | 2026-07-08 | agent, data-systems, paradigm | http://bair.berkeley.edu/blog/2026/07/07/intelligence-is-free-now-what/ |  | ⚡ daily 2026-07-08 — BAIR 提出 AI 成本骤降后的核心问题：数据系统应从 human-centric 转向 agent-centric |
+| sqlite-utils 4.0 正式发布：六年首次大版本升级，支持 schema 迁移 | simonw | 2026-07-08 | sqlite, database, coding-agent | https://simonwillison.net/2026/Jul/7/sqlite-utils-4/ |  | 🔧 daily 2026-07-08 — 六年首次大版本升级，新增 schema 迁移 + breaking changes；由 Claude Fable 5 + GPT-5.5 协同开发 |
+| SkyPilot + Hugging Face：零外传存储，任意云跑 AI workload | Hugging Face | 2026-07-08 | infrastructure, multicloud, storage | https://huggingface.co/blog/skypilot-hf-storage |  | 🔧 daily 2026-07-08 — HF 存储后端 + SkyPilot 实现零 egress 成本的跨云 AI 工作负载部署 |
+| AWS Bedrock AgentCore：Strands Agents + MCP 构建 AI 支持助手 | AWS | 2026-07-08 | agent, mcp, orchestration, strands-agents | https://aws.amazon.com/blogs/machine-learning/build-an-ai-powered-aws-support-companion-with-amazon-bedrock-agentcore/ |  | 📖 daily 2026-07-08 — Strands Agents 框架 + MCP 协议连接 AWS 服务，展示无服务器 Agent 完整实现路径 |
+| OpenAI 案例：Australian Payments Plus 用 ChatGPT Enterprise + Codex 加速支付系统开发 | OpenAI | 2026-07-08 | enterprise, coding-agent, case-study | https://openai.com/index/australian-payments-plus |  | 📖 daily 2026-07-08 — 支付基础设施公司用 Codex 提升开发效率，保持人工判断为核心 |
+| Amazon Quick 多数据集 Topics：跨数据集统一语义层 | AWS | 2026-07-08 | rag, semantic-layer, chat-agent | https://aws.amazon.com/blogs/machine-learning/build-a-unified-semantic-layer-across-datasets-with-multi-dataset-topics-in-amazon-quick/ | [RAG] | 📖 daily 2026-07-08 — 通过定义数据集关系，chat agent 可自动生成跨数据集查询，零售分析场景端到端演示 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
