@@ -854,6 +854,13 @@
 | AWS Bedrock AgentCore：Strands Agents + MCP 构建 AI 支持助手 | AWS | 2026-07-08 | agent, mcp, orchestration, strands-agents | https://aws.amazon.com/blogs/machine-learning/build-an-ai-powered-aws-support-companion-with-amazon-bedrock-agentcore/ |  | 📖 daily 2026-07-08 — Strands Agents 框架 + MCP 协议连接 AWS 服务，展示无服务器 Agent 完整实现路径 |
 | OpenAI 案例：Australian Payments Plus 用 ChatGPT Enterprise + Codex 加速支付系统开发 | OpenAI | 2026-07-08 | enterprise, coding-agent, case-study | https://openai.com/index/australian-payments-plus |  | 📖 daily 2026-07-08 — 支付基础设施公司用 Codex 提升开发效率，保持人工判断为核心 |
 | Amazon Quick 多数据集 Topics：跨数据集统一语义层 | AWS | 2026-07-08 | rag, semantic-layer, chat-agent | https://aws.amazon.com/blogs/machine-learning/build-a-unified-semantic-layer-across-datasets-with-multi-dataset-topics-in-amazon-quick/ | [RAG] | 📖 daily 2026-07-08 — 通过定义数据集关系，chat agent 可自动生成跨数据集查询，零售分析场景端到端演示 |
+| OpenAI 发布 GPT-Live：原生实时语音模型，可后台委派 GPT-5.5 | OpenAI | 2026-07-09 | voice, realtime, agent-delegation | https://openai.com/index/introducing-gpt-live/ |  | ⚡ daily 2026-07-09 — 语音模式首次升级至实时原生架构，支持打断/翻译/后台委派复杂推理，语音成为统一交互入口 |
+| OpenAI 审计 SWE-Bench Pro：约 30% 任务存在设计缺陷 | OpenAI | 2026-07-09 | evaluation, benchmark, coding | https://openai.com/index/separating-signal-from-noise-coding-evaluations |  | ⚡ daily 2026-07-09 — 249/731 任务被人工确认为 broken（测试过严/提示模糊/覆盖不足），动摇编码评测可信度 |
+| Kenton Varda 禁止 AI 生成 PR 描述：细节可见但缺失高层框架 | — | 2026-07-09 | ai-coding, developer-workflow | https://simonwillison.net/2026/Jul/8/kenton-varda/ |  | 📖 daily 2026-07-09 — Code 创始人指出 AI 生成的 commit message 只复述 diff 内容，不提供变更意图的高层解释 |
+| Vercel Agent：独立身份 + 审批权限模型，Agent 可安全触达生产环境 | Vercel | 2026-07-09 | agent, deployment, security | https://vercel.com/blog/vercel-agent | 🎯 | 🔧 daily 2026-07-09 — Agent 拥有独立身份 vercel-agent，plan-is-permission 模型解决 Agent 生产安全核心难题 |
+| Claude apps gateway for AWS：自托管控制平面，统一管理 Claude Code/Desktop | Anthropic/AWS | 2026-07-09 | gateway, enterprise, deployment | https://aws.amazon.com/blogs/machine-learning/introducing-claude-apps-gateway-for-aws/ |  | 🔧 daily 2026-07-09 — 企业级 SSO/OIDC 接入、集中策略/遥测/花费上限，解决 Claude Code 规模化治理痛点 |
+| NVIDIA 发布 Agent 开放数据集：合成数据驱动 Agent 行为可检验性 | NVIDIA | 2026-07-09 | agent, synthetic-data, open-data | https://huggingface.co/blog/nvidia/open-data-for-agents |  | 📖 daily 2026-07-09 — 提出合成数据是 Agent 数据稀缺的解法，Nemotron 开放 10T+ 预训练 token 和百万级后训练样本 |
+| vLLM transformers 后端达原生速度：单 flag 跑 450+ HF 模型 | Hugging Face | 2026-07-09 | inference, vllm, deployment | https://huggingface.co/blog/native-speed-vllm-transformers-backend |  | 🔧 daily 2026-07-09 — --model-impl transformers 在 Qwen3 4B/32B/235B MoE 上匹敌或超越手写原生实现 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
