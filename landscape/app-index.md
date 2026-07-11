@@ -861,6 +861,12 @@
 | Claude apps gateway for AWS：自托管控制平面，统一管理 Claude Code/Desktop | Anthropic/AWS | 2026-07-09 | gateway, enterprise, deployment | https://aws.amazon.com/blogs/machine-learning/introducing-claude-apps-gateway-for-aws/ |  | 🔧 daily 2026-07-09 — 企业级 SSO/OIDC 接入、集中策略/遥测/花费上限，解决 Claude Code 规模化治理痛点 |
 | NVIDIA 发布 Agent 开放数据集：合成数据驱动 Agent 行为可检验性 | NVIDIA | 2026-07-09 | agent, synthetic-data, open-data | https://huggingface.co/blog/nvidia/open-data-for-agents |  | 📖 daily 2026-07-09 — 提出合成数据是 Agent 数据稀缺的解法，Nemotron 开放 10T+ 预训练 token 和百万级后训练样本 |
 | vLLM transformers 后端达原生速度：单 flag 跑 450+ HF 模型 | Hugging Face | 2026-07-09 | inference, vllm, deployment | https://huggingface.co/blog/native-speed-vllm-transformers-backend |  | 🔧 daily 2026-07-09 — --model-impl transformers 在 Qwen3 4B/32B/235B MoE 上匹敌或超越手写原生实现 |
+| 苹果起诉 OpenAI 盗用商业机密 | — | 2026-07-11 | legal, openai, apple | https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/ |  | ⚡ daily 2026-07-11 — Apple-OpenAI 合作关系首次出现法律裂痕，可能重塑 AI 行业合作格局 |
+| GPT-5.6 全量上线 + Codex 并入 ChatGPT：Ultra 多智能体模式 + Programmatic Tool Calling | OpenAI | 2026-07-11 | gpt-5.6, multimodal-agent, tool-calling | https://openai.com/index/gpt-5-6/ |  | 🔧 daily 2026-07-11 — Ultra 模式 4-16 agent 并行 + Programmatic Tool Calling 让模型自主写调度脚本 |
+| Amazon Quick Automate 原生 Case Management：Agent 工作流企业级编排 | AWS | 2026-07-11 | workflow, agent-orchestration, case-management | https://aws.amazon.com/blogs/machine-learning/scaling-agentic-workflows-with-native-case-management-in-amazon-quick-automate/ |  | 🔧 daily 2026-07-11 — 将 Agent 从 PoC 推向生产：case 生命周期 + HITL + 并行执行的企业级编排 |
+| Unsloth Dynamic Quantization 部署指南：SageMaker AI 四种模式 | Unsloth + AWS | 2026-07-11 | quantization, deployment, sagemaker | https://aws.amazon.com/blogs/machine-learning/deploying-quantized-models-on-amazon-sagemaker-ai-with-unsloth/ |  | 📖 daily 2026-07-11 — 动态量化保留精度同时缩小 75% 体积，EC2/SageMaker/EKS/ECS 四种部署模式 |
+| Deutsche Telekom 转型 AI-native 电信商：ChatGPT Enterprise + 实时通话 AI 助手 | Deutsche Telekom + OpenAI | 2026-07-11 | enterprise-adoption, telecom, chatgpt-enterprise | https://openai.com/index/deutsche-telekom |  | 📖 daily 2026-07-11 — 3 亿用户电信商用 ChatGPT Enterprise 重塑客服/网络运营/语音通话全流程 |
+| DeepSearch-World：自蒸馏框架训练自进化搜索 Agent，BrowseComp 31.2% | 学术界 | 2026-07-11 | agent, self-distillation, web-search | https://arxiv.org/abs/2607.07820 |  | 📖 daily 2026-07-11 — 420K 可验证环境 + 自蒸馏训练 9B 搜索 Agent，代码/环境即将开源（arXiv） |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
