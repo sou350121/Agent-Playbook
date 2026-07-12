@@ -867,6 +867,10 @@
 | Unsloth Dynamic Quantization 部署指南：SageMaker AI 四种模式 | Unsloth + AWS | 2026-07-11 | quantization, deployment, sagemaker | https://aws.amazon.com/blogs/machine-learning/deploying-quantized-models-on-amazon-sagemaker-ai-with-unsloth/ |  | 📖 daily 2026-07-11 — 动态量化保留精度同时缩小 75% 体积，EC2/SageMaker/EKS/ECS 四种部署模式 |
 | Deutsche Telekom 转型 AI-native 电信商：ChatGPT Enterprise + 实时通话 AI 助手 | Deutsche Telekom + OpenAI | 2026-07-11 | enterprise-adoption, telecom, chatgpt-enterprise | https://openai.com/index/deutsche-telekom |  | 📖 daily 2026-07-11 — 3 亿用户电信商用 ChatGPT Enterprise 重塑客服/网络运营/语音通话全流程 |
 | DeepSearch-World：自蒸馏框架训练自进化搜索 Agent，BrowseComp 31.2% | 学术界 | 2026-07-11 | agent, self-distillation, web-search | https://arxiv.org/abs/2607.07820 |  | 📖 daily 2026-07-11 — 420K 可验证环境 + 自蒸馏训练 9B 搜索 Agent，代码/环境即将开源（arXiv） |
+| 腾讯牵头中方资本拟以20亿美元估值入股 Manus，从 Meta 手中回购全部股权 | Manus | 2026-07-12 | agent, investment, china | https://readhub.cn/topic/8ufvngyIzY4 |  | ⚡ daily 2026-07-12 — 中国资本组团接盘 Manus，通用 Agent 赛道进入地缘重组阶段 |
+| 马斯克称低估 Anthropic："没有任何公司发布过 Mythos/Fable 这样优秀的模型" | Anthropic | 2026-07-12 | claude, model, industry | https://www.36kr.com/p/3890553690192384 |  | ⚡ daily 2026-07-12 — 马斯克公开承认 Anthropic 模型领先，侧面印证 Claude 系列竞争力 |
+| Don't Go Quietly Into the AI Night：集中式 AI 神权 vs 分布式人类增强 | Off-Policy | 2026-07-12 | agent-governance, paradigm, opinion | https://www.off-policy.com/dont-go-quietly-into-the-ai-night/ |  | 📖 daily 2026-07-12 — HN 108分长文：批判"AI神权"叙事，主张数十亿人各自掌控Agent的未来 |
+| MiniMax 创始人闫俊杰：不再领薪，5%股份用于团队激励和开源支持 | MiniMax | 2026-07-12 | open-source, china, foundation-model | https://www.36kr.com/p/3890553690192384 |  | 🔧 daily 2026-07-12 — 中国头部 AI 创始人all-in开源，4%团队激励+1%开源基金，信号强烈 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
