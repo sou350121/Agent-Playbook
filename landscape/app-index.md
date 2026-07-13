@@ -871,6 +871,11 @@
 | 马斯克称低估 Anthropic："没有任何公司发布过 Mythos/Fable 这样优秀的模型" | Anthropic | 2026-07-12 | claude, model, industry | https://www.36kr.com/p/3890553690192384 |  | ⚡ daily 2026-07-12 — 马斯克公开承认 Anthropic 模型领先，侧面印证 Claude 系列竞争力 |
 | Don't Go Quietly Into the AI Night：集中式 AI 神权 vs 分布式人类增强 | Off-Policy | 2026-07-12 | agent-governance, paradigm, opinion | https://www.off-policy.com/dont-go-quietly-into-the-ai-night/ |  | 📖 daily 2026-07-12 — HN 108分长文：批判"AI神权"叙事，主张数十亿人各自掌控Agent的未来 |
 | MiniMax 创始人闫俊杰：不再领薪，5%股份用于团队激励和开源支持 | MiniMax | 2026-07-12 | open-source, china, foundation-model | https://www.36kr.com/p/3890553690192384 |  | 🔧 daily 2026-07-12 — 中国头部 AI 创始人all-in开源，4%团队激励+1%开源基金，信号强烈 |
+| geohot: I love LLMs, I hate hype | geohot | 2026-07-13 | vibe-coding, paradigm, coding-agent | https://geohot.github.io/blog/jekyll/update/2026/07/12/i-love-llms.html |  | ⚡ daily 2026-07-13 — geohot 罕见长文：拥抱 LLM 进步但抨击 FOMO 营销，认可 coding agent + GLM-5.2 本地部署体验 |
+| Anthropic 官方澄清：Claude Code 的 Model vs Effort 不是同一件事 | Anthropic | 2026-07-13 | coding-agent, effort-control, model-selection | https://www.36kr.com/p/3892222176574211 |  | 🔧 daily 2026-07-13 — 官方长文拆解 Model（换脑子）vs Effort（换态度），小模型高 Effort 可干翻大模型低 Effort |
+| GPT-5.6 Sol Ultra 一小时证明 50 年数学猜想 | OpenAI | 2026-07-13 | gpt-5-6, mathematical-reasoning, capability | https://m.ithome.com/html/975646.htm |  | ⚡ daily 2026-07-13 — GPT-5.6 Sol Ultra 在 1 小时内完成 50 年数学猜想证明，推理能力再突破 |
+| Claude Code vs OpenCode token 开销实测：33k vs 7k 系统前缀 | systima.ai | 2026-07-13 | coding-agent, cost-optimization, token-overhead | https://systima.ai/blog/claude-code-vs-opencode-token-overhead |  | 🔧 daily 2026-07-13 — 首次量化 Claude Code 系统前缀开销 33k tokens，OpenCode 仅 7k；缓存效率差距达 54x，生产部署必看 |
+| Ploy 生产迁移 GPT-5.6 Sol：2.2x 更快、27% 更便宜 | Ploy | 2026-07-13 | model-migration, gpt-5-6, production-agent | https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6 |  | 🔧 daily 2026-07-13 — 首个生产级 Agent 迁移 GPT-5.6 Sol 实战：4 个月 Opus 统治终结，跨模型迁移踩坑实录 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
