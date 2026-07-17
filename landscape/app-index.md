@@ -898,6 +898,13 @@
 | Agentic vision: Building visual intelligence with Amazon Bedrock and MCP servers | AWS | 2026-07-16 | agent, mcp, computer-vision | https://aws.amazon.com/blogs/machine-learning/agentic-vision-building-visual-intelligence-with-amazon-bedrock-and-mcp-servers/ |  | 🔧 daily 2026-07-16 — AWS将Computer Vision + Strands Agents + MCP Server整合：视觉信息通过统一MCP接口被Agent感知、理解并行动 |
 | Together AI brings Thinking Machines Lab's new model Inkling on day 0 | Thinking Machines Lab | 2026-07-16 | multimodal, MoE, reasoning | https://www.together.ai/blog/together-ai-brings-thinking-machines-labs-new-model-inkling-on-day-0 |  | 🔧 daily 2026-07-16 — 新多模态MoE模型Inkling：文本/图像/音频统一输入，可控推理力度，1M上下文，FlashAttention-4优化推理效率 |
 | GPT-5.6 Sol一夜变笨，思考预算960砍到128 | — | 2026-07-16 | gpt, reasoning, api-change | https://www.36kr.com/p/3896320634685318 |  | 🔧 daily 2026-07-16 — OpenAI悄然调整GPT-5.6 Sol思考预算从960降至128，无智力固定版本可用——生产Agent推理深度面临不确定性 |
+| Kimi K3 发布：Moonshot AI 2.8T 参数模型，承诺开源权重 | Moonshot AI | 2026-07-17 | model-release, chinese-ai, open-weights | https://simonwillison.net/2026/Jul/16/kimi-k3/ |  | 🔧 daily 2026-07-17 — 2.8T 参数最强模型，API 已上线，开源权重即将发布，可能冲击中文 AI 格局 |
+| Grok 4.3 登陆 Amazon Bedrock：xAI 模型正式进入 AWS 生态 | xAI | 2026-07-17 | grok, bedrock, multi-model | https://aws.amazon.com/blogs/machine-learning/introducing-grok-on-amazon-bedrock/ |  | ⚡ daily 2026-07-17 — xAI 模型首次入驻 Bedrock，支持 configurable reasoning effort，多模型路由生态再扩展 |
+| 谷歌 Gemini 3.5 Pro 延迟发布：编码能力未达内部预期 | Google | 2026-07-17 | gemini, delay, competitive-landscape | https://readhub.cn/topic/8uovBJhFanp |  | ⚡ daily 2026-07-17 — 旗舰模型延期数月，编码能力不达标，Anthropic/OpenAI 趁机扩大领先优势 |
+| NVIDIA Nemotron 3 Embed 登顶 RTEB 总榜，推进 Agentic Retrieval | NVIDIA | 2026-07-17 | embedding, retrieval, nemotron | https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb | [RAG] | 🔧 daily 2026-07-17 — 首个专为 Agentic Retrieval 优化的 Embedding 模型登顶 RTEB，Agent 检索精度新基准 |
+| Amazon Bedrock Managed Knowledge Base：为 Agent 构建企业级搜索 | AWS | 2026-07-17 | knowledge-base, enterprise-search, bedrock | https://aws.amazon.com/blogs/machine-learning/build-enterprise-search-for-agents-with-amazon-bedrock-managed-knowledge-base/ | [RAG] | 📖 daily 2026-07-17 — 三大支柱：简化部署、智能检索、生产就绪，提供完整代码示例 |
+| GPT-5.6 文件删除 Bug 调查：Full Access Mode + 无沙箱 = 危险组合 | OpenAI | 2026-07-17 | coding-agent, security, gpt-5.6 | https://simonwillison.net/2026/Jul/16/bad-codex-bug/ |  | 🔧 daily 2026-07-17 — Thibault Sottiaux 调查确认：Full Access Mode 下无沙箱运行 Codex 最易触发意外文件删除 |
+| Cars24 用 OpenAI Agent 处理月均 100 万分钟对话，挽回 12% 流失线索 | Cars24 | 2026-07-17 | voice-agent, chat-agent, agentic-workflow | https://openai.com/index/cars24 |  | 📖 daily 2026-07-17 — 首个大规模 OpenAI 语音+聊天 Agent 生产案例，展示 Agentic Workflow 在客服领域的 ROI |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
