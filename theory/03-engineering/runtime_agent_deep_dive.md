@@ -1,231 +1,274 @@
 ---
 auto_generated: true
-generated_at: "2026-05-26T03:34:57Z"
+generated_at: "2026-07-18T09:06:48Z"
 source_url: "https://www.runtm.com/"
 signal_type: "significant_update"
 ---
-# Runtime (YC P26) — 团队级沙盒编码 Agent 基础设施
-# (Runtime — Team-Level Sandbox Coding Agent Infrastructure)
+# Runtime — 团队级沙盒编码 Agent 基础设施 (Runtime: Cloud Agents for Everyone on Your Team)
 
-> 🔍 本文由 Moltbot 自动生成 | 2026-05-26
+> 🔍 本文由 Moltbot 自动生成 | 2026-07-18
 >
 > **项目/工具**: Runtime (runtm.com)
-> **链接**: https://www.runtm.com/blog/sandbox-coding-agents/
-> **核心定位**: YC P26 新项目，让全团队（含非工程师）在隔离沙盒中安全使用 Claude Code 等编码 Agent，无需工程师逐 session 护航
+> **链接**: https://www.runtm.com/
+> **核心定位**: YC P26 新项目，让非工程师团队也能安全使用编码 Agent，无需工程师逐 session 护航
 
-## ⚡ 快速判断（30 秒讀完這段就夠了）
+## ⚡ 快速判断
 
-- **一句话定位**: Runtime 是一个团队级编码 Agent 运行平台——为每个团队提供带公司上下文、集成和防护护栏的隔离沙盒，让非工程师也能安全使用 Claude Code/Codex 等编码 Agent。
-- **现在值得用吗**: 看场景——如果你管理一个 10+ 人的团队，希望让非工程角色（产品、设计、运营、财务）也能通过 AI Agent 完成代码类工作，而不需要工程师逐 session 护航，值得申请 early access 评估。个人开发者直接用 Claude Code 更简单。
-- **适合场景**: 多团队协作的编码 Agent 部署；非工程师需要安全使用 AI 编码工具；需要审计和成本管控的企业环境。
-- **不适合场景**: 个人开发者；需要极致硬件隔离的高安全场景（容器逃逸风险仍存在）；对 AGPL 许可证敏感的企业。
-- **与 E2B/Modal 核心差异**: E2B/Modal 提供通用沙盒基础设施（IaaS 层），Runtime 提供完整的团队级 Agent 平台（PaaS 层），包含 Slack/Linear 集成、审批流、成本追踪、持久化环境。
+- **一句话定位**: Runtime 是一个团队级 Agent 基础设施平台，为每个职能团队（支持、财务、产品等）提供沙盒化的编码 Agent，让它们能安全地访问公司数据、调用工具、执行任务
+- **现在值得用吗**: 看场景。如果你的公司有多团队在用 Claude Code / Codex 等编码 Agent，且缺乏统一治理，值得重点关注；如果是个人开发者或小团队（<10 人），过度
+- **适合场景**: 中大型团队的多职能 Agent 部署、需要合规审计和成本追踪的企业、希望非工程师也能自主使用 Agent 的组织
+- **不适合场景**: 个人开发者、纯工程团队内部使用（直接用 Claude Code / Codex 即可）、需要深度定制 Agent 行为逻辑的场景
+- **与竞品核心差异**: 不同于 Claude Code / Codex 聚焦单个工程师的本地开发体验，Runtime 聚焦"全公司每个团队都有自己的沙盒 Agent"，提供统一的环境快照、权限治理、成本追踪和 Slack 集成
 
 ## 是什么 / 解决什么问题
 
-编码 Agent（Claude Code、Codex CLI、Cursor YOLO 模式）正在快速普及，但它们的使用方式高度个人化——每个开发者在自己的笔记本上运行，手动审批每个命令，自己管理依赖和环境。这种方式在单人场景下有效，但当团队规模扩大时，三个问题变得突出：
+编码 Agent（Claude Code、Codex、Cursor 等）正在快速改变工程师的工作方式。但问题在于：这些工具的设计初衷是给**工程师**用的——需要终端、需要配置、需要理解代码仓库结构。
 
-**第一，安全风险**。Anthropic 的 `--dangerously-skip-permissions` 标志本身就暗示了风险：Agent 可能删除文件、安装恶意脚本、泄露本地数据。Reddit 上已有 Claude 删除用户文件的案例。让非工程师"跳过审批"直接跑 Agent，风险更大。
+当非工程师团队（支持、财务、产品、设计）也想用 Agent 自动化日常工作时，他们面临三重障碍：
 
-**第二，环境碎片化**。每个开发者的本地环境不同——不同的包版本、不同的配置、不同的权限。当产品或运营人员需要跑一个编码 Agent 时，他们甚至没有合适的开发环境。
+1. **技术门槛**: 不会用终端、不会配环境、不懂代码仓库结构
+2. **安全与合规**: 直接给非工程师生产数据访问权限？风险极高。每个工程师各自管理 API key 和工具权限，安全团队无法集中审计
+3. **治理缺失**: 谁在用什么 Agent？花了多少钱？做了什么操作？没有集中可见性。每个工程师的 Claude Code session 是独立的黑盒
 
-**第三，缺乏治理**。没有人知道团队里有多少 Agent 在跑、花了多少钱、改了什么文件、是否触碰了生产数据。
+Runtime 的解决方案是：**工程团队一次性搭建好沙盒环境，所有团队通过浏览器或 Slack 直接使用 Agent**。工程团队负责连接仓库、安装 CLI/MCP Server、设置 guardrails 和 secrets；其他团队只需在 Slack 中 @mention 一个命名 Agent（如 @runtime-finance），即可获得结果。
 
-Runtime 的解决方案是：**为每个团队提供一个持久化的隔离沙盒**，预装所有需要的工具链和集成，Agent 在沙盒内运行，用户通过 Slack/Linear/GitHub 等已有工具与 Agent 交互，管理员可以实时监控所有 session、设置成本上限和审批门。
+关键架构洞察：Runtime 把自己定位为 **agent-agnostic 基础设施层**——它不绑定特定模型或 Agent 框架，而是提供沙盒、编排、治理、可观测性和集成的统一平台。支持的 Agent 包括 Claude Code、Codex、OpenCode、Gemini、GitHub Copilot 等。
 
 ## 技术架构拆解
 
 ### 核心设计决策
 
-Runtime 的架构围绕四个核心决策构建：
-
-**1. 隔离层选择：容器级隔离（Docker + gVisor），冷启动 ~500ms**
-
-Runtime 团队在博客中详细对比了四种隔离方案：
-
-| 方案 | 隔离级别 | 冷启动 | 持久化 | 成本 |
-|------|---------|--------|--------|------|
-| 模拟环境 (just-bash) | 应用层 | <1ms | 无 | 免费 |
-| 容器 (Docker/gVisor) | OS 级 | ~500ms | 可选 | $0.02-0.05/hr (自建) |
-| 临时 VM (E2B/Modal) | 硬件级 | ~125ms | Session 级 | $0.10-0.15/hr (托管) |
-| 持久 VM (Fly Sprites) | 硬件级 | 1-2s 创建, 即时唤醒 | 持久 | $0.10-0.15/hr (自动休眠) |
-
-Runtime 选择容器方案是在隔离强度、启动速度和成本之间的权衡。gVisor 通过用户态内核拦截系统调用，减少了主机内核暴露面，但代价是部分系统调用不兼容（见下文实战陷阱）。
-
-**2. 网络隔离 = 域名白名单代理**
-
-Runtime 团队发现一个关键洞察："网络隔离和文件系统隔离同样重要"。完全禁用网络不现实（Agent 需要 pip install、npm install、git clone），但开放网络意味着数据可能泄露到任意端点。
-
-解决方案：所有网络流量经过代理网关，只允许批准的域名（pypi.org、github.com、npmjs.org 等）。这个模式出现在 Anthropic 的 web sandbox、Claude Code 本地沙盒和所有托管服务中——说明这是行业共识方案。
-
-**3. 持久化运行时（Persistent Runtime）**
-
-与 E2B/Modal 的临时沙盒不同，Runtime 强调环境的持久性：
-
-```
-Session 1: 创建数据库 schema
-Session 2: 添加种子数据
-Session 3: 构建 API 端点
-Session 4: 用真实数据测试
-Session 5: 部署到生产
-```
-
-每个 session 建立在前一个之上。Agent 写的文件下周还能读，node_modules 不需要每次都重新安装。这对于需要多轮迭代的真实开发工作至关重要。
-
-**4. 开源策略：分层开源**
-
-| 组件 | 许可证 | 说明 |
-|------|--------|------|
-| Templates | MIT | 最宽松，鼓励复用 |
-| CLI & Shared libs | Apache 2.0 | 允许商业使用 |
-| API & Worker | AGPL v3 | 要求衍生作品开源 |
-
-这种分层策略允许用户自由使用模板和 CLI，但核心的 API 和 Worker 服务需要 AGPL 合规或商业授权。对大型企业来说，AGPL 是一个需要法务评估的因素。
-
-### 架构/信息流图
-
-```
-┌─────────────────────────────────────────────────────────┐
-│                    用户层 (User Layer)                    │
-│  Slack / Linear / GitHub / Jira / 浏览器 / Terminal / API│
-└────────────────────────┬────────────────────────────────┘
-                         │ @mention / API call
-┌────────────────────────▼────────────────────────────────┐
-│               编排层 (Orchestration Layer)                │
-│  • Session 管理    • 任务路由    • 审批门 (Approval Gates)│
-│  • 成本追踪 (per agent/user/team)    • 实时可见性         │
-└────────────────────────┬────────────────────────────────┘
-                         │
-┌────────────────────────▼────────────────────────────────┐
-│              沙盒层 (Sandbox Layer)                       │
-│  • Docker + gVisor 容器隔离   • 域名白名单网络代理        │
-│  • 预装工具链 (mise/npm/brew)  • PII 脱敏 + 行级数据范围  │
-│  • 持久化文件系统 + 快照恢复                                │
-└────────────────────────┬────────────────────────────────┘
-                         │
-┌────────────────────────▼────────────────────────────────┐
-│              集成层 (Integration Layer)                   │
-│  数据仓库: Snowflake / BigQuery / Redshift               │
-│  计费: Stripe / NetSuite / QuickBooks                    │
-│  HR: Rippling / Gusto / Workday / Deel                   │
-│  CRM: HubSpot / Segment / GA4                            │
-│  客服: Zendesk / Intercom                                │
-│  告警: PagerDuty / Sentry / Datadog                      │
-│  工程: GitHub / Linear / Notion                          │
-│  + 任意 MCP Server / CLI / REST API                      │
-└────────────────────────┬────────────────────────────────┘
-                         │
-┌────────────────────────▼────────────────────────────────┐
-│              模型层 (Model Layer)                         │
-│  Claude Code / Codex CLI / 其他编码 Agent                │
-│  (支持自托管: 自有云 + 自有模型 + 自有密钥)                │
-└─────────────────────────────────────────────────────────┘
-```
+| 决策点 | Runtime 的做法 | 理由 |
+|--------|---------------|------|
+| Agent 策略 | Agent-agnostic，支持 Claude Code / Codex / OpenCode / Gemini / Copilot | 不绑定单一供应商，允许不同团队使用不同 Agent |
+| 环境隔离 | 每个团队一个命名沙盒 Agent | 防止跨团队数据泄露，独立成本追踪 |
+| 环境模板 | "Import repo → 自动搭建环境副本"，支持 monorepo 和微服务 | 降低工程团队搭建门槛，无需 Docker/Terraform |
+| 数据访问 | 镜像/采样生产数据 + PII 脱色 + 行级作用域 | Agent 不碰原始生产数据，降低风险 |
+| 写操作 | 通过 reviewed actions 或 PR 执行 | 防止 Agent 直接修改线上系统 |
+| API Key 管理 | BYOK（Bring Your Own Keys）——用户自带 Anthropic/OpenAI API key | 用户直接跟 AI 供应商结算，Runtime 不碰密钥 |
+| 集成方式 | CLI / MCP Server / SDK / REST API | 兼容现有工具链，不强制绑定特定模型 |
+| 部署模式 | 云托管 或 完全自托管 | 满足合规要求，支持自有模型/云/密钥 |
+| 开源策略 | MIT（模板）+ Apache 2.0（CLI）+ AGPL v3（API & Worker） | 核心引擎 AGPL 保护商业价值，周边工具宽松吸引生态 |
 
 ### 与前版/竞品的关键差异
 
-| 维度 | Claude Code (本地) | E2B / Modal | Runtime |
-|------|-------------------|-------------|---------|
-| 目标用户 | 单个开发者 | 开发者 (基础设施) | 全团队 (含非工程师) |
-| 隔离方式 | bubblewrap/Seatbelt (弱) | Firecracker VM (强) | Docker + gVisor (中) |
-| 网络控制 | 有限 | 无（需自建） | 域名白名单代理（内置） |
-| 持久化 | 本地文件系统 | Session 级临时 | 持久化环境 + 快照 |
-| 团队协作 | 无 | 无 | Slack/Linear 集成 + 命名 Agent |
-| 审计/治理 | 无 | 有限 | 完整：session 可见性 + 成本追踪 + 审批门 |
-| 自托管 | ✅ | N/A (托管) | ✅ 完整自托管 |
-| 冷启动 | N/A (本地) | ~125ms | ~500ms (预构建镜像) |
-| 定价 | 免费/$100-200/mo | $0.10-0.15/hr | 未公开 (YC 阶段) |
+| 维度 | Claude Code / Codex（本地） | Cursor（本地 IDE） | LangChain/LangGraph（框架） | Runtime（团队级） |
+|------|---------------------------|-------------------|--------------------------|-------------------|
+| 目标用户 | 工程师 | 工程师 | 开发者（构建 Agent 应用） | 全团队（含非工程师） |
+| 部署方式 | 本地终端 | 本地 IDE | 代码级集成 | 云端沙盒 / 自托管 |
+| 数据访问 | 开发者自有权限 | 开发者自有权限 | 代码中配置 | 沙盒镜像 + 策略控制 |
+| 治理可见性 | 无（分散在各人终端） | 无 | 无（框架层不提供） | 全公司 session 可见、成本追踪 |
+| Slack 集成 | 无 | 无 | 需自行开发 | 原生集成，@mention 触发 |
+| 环境管理 | 各人自行配置 | 各人自行配置 | 代码中定义 | 工程团队统一模板快照 |
+| 写操作安全 | 无保护 | 无保护 | 取决于实现 | PR/review 机制内置 |
+| Agent 灵活性 | 绑定单一 Agent | 绑定 Cursor | 完全自定义 | 可切换 Agent，但受平台约束 |
+| 定价 | 按开发者订阅 | 按开发者订阅 | 开源免费 | 按团队/用量（初创有折扣） |
 
-### 架构权衡的独到洞察
-
-Runtime 的选择揭示了一个更深层的趋势：**Agent 基础设施正在从"运行代码"演进为"运行工作流"**。
-
-传统的沙盒（E2B/Modal）关注的是"给 Agent 一个干净的 OS 环境"——这是基础设施思维。Runtime 关注的是"让 Agent 在团队的工作流中安全运转"——这是平台思维。两者的区别在于：
-
-- **基础设施层**解决的是隔离和启动速度问题（How to run safely and fast）
-- **平台层**解决的是治理和协作问题（How to govern and collaborate at scale）
-
-Runtime 选择容器而非 VM，说明他们认为对于编码 Agent 场景，启动速度和成本比极致隔离更重要——因为编码 Agent 的沙盒生命周期短（单次 session 通常 <30min），且运行的是开发者熟悉的工具链（git、npm、pip），而非不可信的二进制。这个判断在大多数场景下成立，但 gVisor 的系统调用兼容性问题是真实风险（见下文）。
-
-## ⚠️ 实战陷阱
-
-### 陷阱 1: gVisor 系统调用兼容性
-
-gVisor 通过用户态内核拦截系统调用，但它并不实现所有 Linux syscall。一些冷门但常用的工具可能出问题：
-- **某些 FUSE 操作**：如果 Agent 需要挂载远程文件系统（如 s3fs），gVisor 可能不支持对应的 FUSE ioctl
-- **某些 ptrace 操作**：调试器（如 gdb）和部分性能分析工具依赖 ptrace，gVisor 对 ptrace 的支持有限
-- **某些 seccomp 相关操作**：如果 Agent 尝试修改自身的 seccomp 配置，会被 gVisor 拦截
-
-**应对**: 在正式部署前，用团队最常用的工具链做兼容性测试。重点关注：数据库客户端连接、cgroup 操作、网络命名空间操作。
-
-### 陷阱 2: 域名白名单误杀内部私有源
-
-很多企业的内部服务（私有 npm registry、内部 GitLab、私有 PyPI mirror）不在公网域名白名单中。如果 Runtime 的默认白名单不包含这些内部域名，Agent 在沙盒内将无法访问。
-
-**应对**: 部署时主动将内部域名加入白名单。特别注意：某些 SaaS 工具会动态分配子域名（如 `*.internal.company.com`），需要通配符支持或提前枚举。
-
-### 陷阱 3: 持久化环境的"脏状态"累积
-
-持久化沙盒意味着状态会累积。Agent A 安装的包可能和 Agent B 的依赖冲突；数据库 schema 变更可能没有回滚；临时文件可能占满磁盘。
-
-**应对**: 建立定期快照 + 清理策略。建议：每次重要 session 后打快照，每周做一次环境重置，监控磁盘使用量。
-
-### 陷阱 4: AGPL v3 合规风险
-
-Runtime 的 API & Worker 组件采用 AGPL v3 许可证。如果企业修改了这些组件并对外提供服务，需要开源修改后的代码。对大型企业来说，这可能触发法务审查。
-
-**应对**: 如果不打算修改 API/Worker，直接使用官方镜像，AGPL 风险较低。如果需要定制，提前咨询法务。
-
-## 生存指南（落地建议）
-
-1. **申请 Early Access 做 PoC**: Runtime 刚进 YC P26，官方尚未公开定价。先申请 early access，用一个 5-10 人的小团队做 PoC，验证 gVisor 兼容性和域名白名单配置是否满足需求。
-2. **从 Slack 集成开始，而非 API**: Runtime 的 Slack 集成是最成熟的使用路径——命名 Agent（如 `@runtime-finance`），@mention 触发任务，回复带 source rows 和 cost。比直接调 API 低摩擦得多。
-3. **先配置审批门，再开放使用**: 在让非工程师使用之前，先设置好 production writes 的 PR review 流程。确保 Agent 不会直接修改生产数据。这是 Runtime 区别于本地 Claude Code 的最大价值——不配置审批门就失去了这个价值。
-4. **监控 token 成本 per session**: Runtime 提供 per agent/user/team 的成本追踪。建议设置 session 级 cost cap（如 $5/session），防止 Agent 陷入无限循环消耗 token。
-
-## Claude Code 集成视角
-
-对于已经在使用 Claude Code 的团队，Runtime 提供的价值在于**将个人工具转化为团队平台**：
-
-- **权限调优**: 本地 Claude Code 的 `--dangerously-skip-permissions` 在 Runtime 沙盒中等价于"信任沙盒隔离"。Runtime 的 gVisor + 域名白名单提供了比本地 bubblewrap 更强的隔离，但弱于 Firecracker VM。对于大多数编码场景，这个隔离级别足够。
-- **Claude Code 的 MCP Server 支持**: Runtime 支持接入任意 MCP Server。如果团队已经为 Claude Code 配置了内部工具的 MCP 集成（如内部 API 文档查询、代码库搜索），这些可以直接迁移到 Runtime 沙盒中。
-- **Session 可观测性**: Runtime 提供 tool calls、chain of thought、file changes 的实时可见性。这对于调试 Agent 行为和理解 Agent 决策过程非常有帮助——本地 Claude Code 没有这个能力。
-
-## 对你的意义
-
-对于 Ken 的 AI 应用开发方向，Runtime 代表了一个值得关注的趋势：**编码 Agent 从个人工具演变为团队基础设施**。
-
-具体来说：
-1. **Agent 安全治理正在成为产品需求**：Runtime 的域名白名单代理、审批门、成本追踪等功能，说明市场已经开始认真对待 Agent 的安全问题。这与 A-002 假设（Agentic Coding 在初级任务达 80% 成功率）直接相关——当成功率提升，规模化部署的安全和治理需求就会浮现。
-2. **持久化运行时 vs 临时沙盒**：这是一个架构层面的重要分歧。如果 Agent-Playbook 涉及 Agent 基础设施选型，这个对比（容器 vs VM、临时 vs 持久）值得收录为参考架构。
-3. **YC P26 的方向信号**：YC 在这一批中押注了"团队级 Agent 基础设施"这个方向，说明投资人认为这是下一个增长点。值得持续关注 Runtime 的产品迭代和早期用户反馈。
-
-**建议**: 申请 early access 做 PoC 评估，但不急于生产部署。Runtime 刚进 YC，产品成熟度和长期可持续性待验证。如果 PoC 验证了 gVisor 兼容性和审批流满足需求，可以在小团队中试用。
-
-## 关键代码/配置片段
-
-Runtime 博客中披露的隔离方案对比数据（来源：[Running coding agents without burning down your machine](https://www.runtm.com/blog/sandbox-coding-agents/)）：
+### 架构信息流
 
 ```
-Approach          | Isolation     | Cold Start | Persistence    | Cost
-------------------|---------------|------------|----------------|---------------------
-Simulated         | Application   | <1ms       | None           | Free
-Containers        | OS-level      | ~500ms     | Optional       | $0.02-0.05/hr (self)
-Ephemeral VMs     | Hardware      | ~125ms     | Session-scoped | $0.10-0.15/hr (managed)
-Durable VMs       | Hardware      | 1-2s/inst  | Persistent     | $0.10-0.15/hr (sleep)
+┌─────────────────────────────────────────────────────────────┐
+│                    Runtime Platform                         │
+│                                                             │
+│  ┌──────────┐  ┌──────────┐  ┌──────────┐                  │
+│  │ Support  │  │ Finance  │  │ Product  │   ... 各团队     │
+│  │  Agent   │  │  Agent   │  │  Agent   │                  │
+│  │ (沙盒)   │  │ (沙盒)   │  │ (沙盒)   │                  │
+│  └────┬─────┘  └────┬─────┘  └────┬─────┘                  │
+│       │              │              │                        │
+│  ┌────▼──────────────▼──────────────▼─────┐                 │
+│  │        Orchestration Layer              │                 │
+│  │  - Session 管理  - 成本追踪  - 审计日志  │                 │
+│  │  - Agent 路由   - 模板管理              │                 │
+│  └─────────────────┬──────────────────────┘                 │
+│       │            │            │                           │
+│  ┌────▼────┐  ┌────▼────┐  ┌───▼────┐                     │
+│  │Guardrails│  │Sandboxes│  │Integr. │                     │
+│  │ & Secrets│  │(快照)   │  │Connectors│                   │
+│  └─────────┘  └─────────┘  └────────┘                     │
+└─────────────────────────────────────────────────────────────┘
+       │              │              │
+       ▼              ▼              ▼
+  ┌────────┐   ┌──────────┐   ┌──────────────┐
+  │ Slack  │   │Snowflake │   │GitHub/Linear │
+  │Linear  │   │BigQuery  │   │Jira/Notion   │
+  │GitHub  │   │Stripe    │   │PagerDuty等   │
+  └────────┘   └──────────┘   └──────────────┘
 ```
 
-关于网络隔离的核心结论（同上来源）：
-
-> "Every implementation we looked at landed on the same insight: you need network control. ... The answer is a proxy with an allowlist. Traffic routes through a gateway that only permits approved domains like pypi.org, github.com, and npmjs.org."
-
-开源许可证分层（来源：[runtm.com 官网](https://www.runtm.com/)）：
+### 数据流（以 Slack 场景为例）
 
 ```
-Templates        → MIT
-CLI & Shared libs → Apache 2.0
-API & Worker     → AGPL v3
+用户在 Slack 中 @runtime-support "查一下客户 X 的工单状态"
+        │
+        ▼
+  Runtime 接收消息 → 路由到 Support Agent 沙盒
+        │
+        ▼
+  Agent 在沙盒中执行（使用用户 BYOK 的 API key）:
+  - 通过 Zendesk connector 查询工单
+  - 通过 Snowflake connector 查询客户数据
+  - 生成回复草稿
+        │
+        ▼
+  回复写入 Slack 线程，附带：
+  - 结果摘要
+  - 使用的数据源行
+  - 本次 run 的成本
+  - "Open Session" 按钮（可进入沙盒深入查看）
 ```
+
+### 沙盒隔离机制（基于官网信息的推断）
+
+> TODO: Runtime 未公开沙盒实现细节，以下为基于产品描述的合理推断。
+
+Runtime 的沙盒隔离可能涉及以下层次：
+
+```
+┌─ 用户层 ──────────────────────────────────────────┐
+│  Slack / Browser / Terminal / API                 │
+├─ 路由层 ──────────────────────────────────────────┤
+│  Agent 路由 → 按团队/任务匹配环境模板               │
+├─ 沙盒层 ──────────────────────────────────────────┤
+│  每个 session 一个独立容器/VM                        │
+│  - 挂载环境模板（repo + CLI + MCP + 配置）          │
+│  - 注入 BYOK API key（session 级隔离）              │
+│  - 数据访问受行级策略约束                           │
+├─ 数据层 ──────────────────────────────────────────┤
+│  生产数据 → 镜像/采样 → PII 脱色 → 行级过滤         │
+│  Agent 只能看到脱色后的子集                         │
+├─ 输出层 ──────────────────────────────────────────┤
+│  写操作 → PR/review 队列 → 人工审批 → 执行          │
+│  读操作 → 直接返回结果                              │
+└───────────────────────────────────────────────────┘
+```
+
+## ⚠️ 实战陷阱分析
+
+### 陷阱 1: Agent 幻觉在非工程场景的放大效应
+
+工程师使用 Claude Code 时，他们有能力验证 Agent 生成的代码是否正确。但非工程师（如财务人员用 Agent 对账）缺乏这种验证能力。如果 Agent 返回了看似合理但实际错误的数据分析结果，后果可能比工程师的代码 bug 更严重。
+
+**缓解策略**: Runtime 的 "Open Session" 按钮让工程师可以进入沙盒查看 Agent 的操作过程，这是一个好的设计。但还需要：
+- 在关键操作（如财务数据修改）前设置 approval gate
+- 对 Agent 的输出添加置信度标注或来源引用
+- 定期审计 Agent 的操作日志，发现系统性错误模式
+
+### 陷阱 2: 环境模板维护成本被低估
+
+Runtime 的 "import repo → 自动搭建环境" 听起来美好，但实际维护成本可能很高：
+- Monorepo 的依赖关系复杂，自动搭建可能遗漏某些依赖
+- 环境模板需要随上游 repo 更新而更新，否则 Agent 运行在过时的环境中
+- 不同团队可能需要同一 repo 的不同分支/版本，模板管理复杂度指数增长
+
+**缓解策略**: 
+- 从最简单的环境模板开始（单 repo、少依赖），逐步扩展
+- 建立模板版本管理机制，定期自动验证模板可用性
+- 为每个团队指定一个 "Agent Owner"（通常是该团队的工程师 liaison），负责维护模板
+
+### 陷阱 3: BYOK 模式下的成本失控
+
+BYOK（Bring Your Own Keys）意味着每个用户用自己的 Anthropic/OpenAI API key。这解决了 Runtime 不碰密钥的问题，但带来了新的成本治理挑战：
+- 如果 50 个非工程师同时使用 Agent，API 成本可能远超预期
+- 非工程师可能不知道如何监控自己的 API 用量
+- 不同 Agent（Claude vs Codex）的成本差异巨大，用户可能无意中选择了最贵的选项
+
+**缓解策略**: Runtime 提供了 spend limits 和成本追踪功能。建议：
+- 为每个团队设置明确的 spend limit
+- 定期生成团队级别的 Agent 使用成本报告
+- 为不同场景推荐最经济的 Agent 选项（如简单查询用 cheaper model，复杂推理用 Claude）
+
+### 陷阱 4: Slack 集成中的权限扩散
+
+当 Agent 以 @runtime-support 的身份加入 Slack channel 后，它能看到 channel 中的所有消息。如果 channel 中有敏感讨论（如薪资、裁员计划），Agent 理论上可以访问这些信息。
+
+**缓解策略**:
+- 只在专用 channel 中 mention Agent，不在通用 channel 中暴露
+- 配置 channel-level allowlist，限制 Agent 能读取的 channel 范围
+- 定期审计 Agent 的 Slack 权限和访问历史
+
+## 对 Claude Code 用户的针对性建议
+
+如果你当前在使用 Claude Code 作为主要编码 Agent，Runtime 提供了以下增量价值：
+
+| 场景 | 只用 Claude Code | Claude Code + Runtime |
+|------|-----------------|----------------------|
+| 工程师自己写代码 | ✅ 完美 | 过度（没必要） |
+| 让产品经理自己跑 Agent 查数据 | ❌ 需要教终端+配环境 | ✅ 在 Slack 中 @mention 即可 |
+| 让支持团队自动 triage 工单 | ❌ 需要开发 | ✅ 预建 Zendesk connector |
+| 审计谁在用什么 Agent | ❌ 无集中可见性 | ✅ 全公司 session 可见 |
+| 控制 Agent API 成本 | ❌ 分散在各人账号 | ✅ 集中 spend limits + 成本追踪 |
+
+**具体操作建议**:
+
+1. **评估阶段**: 先在 1-2 个非工程团队（如支持或产品）试点，验证 Agent 在非技术场景的可靠性。不要一开始就全公司推广。
+
+2. **环境模板搭建**: 从最简单的场景开始——比如支持团队的 Zendesk connector。先跑通一个端到端流程，再逐步添加更多 connector 和团队。
+
+3. **成本治理先行**: 在推广前，先设置好 spend limits 和审批 gate。非工程师团队对 API 成本不敏感，容易超支。
+
+4. **Agent Owner 制度**: 每个使用 Runtime 的团队指定一个工程师作为 "Agent Owner"，负责维护环境模板、审核 Agent 操作、处理异常。这是 Runtime 设计中的关键角色。
+
+## 实用评估
+
+### 什么场景值得用
+
+- **50+ 人的公司，多个团队想使用 Agent**: 工程团队搭一次环境，全公司复用。避免了每个团队各自折腾终端和 API key
+- **合规要求高的行业**: 金融、医疗等需要审计追踪的场景，Runtime 的 session 可见性 + 成本追踪 + 写操作通过 PR 的机制提供了基础合规层
+- **非工程师团队自动化**: 支持团队用 Agent 自动 triage 工单、财务团队用 Agent 对账、产品团队用 Agent 分析数据——无需工程师介入
+- **多模型/自托管需求**: 可以在自有基础设施上运行，使用自有模型和密钥，适合对数据主权有要求的组织
+
+### 什么场景不值得用
+
+- **个人开发者或小团队（<10 人）**: 直接用 Claude Code 或 Codex 即可，Runtime 的治理层是多余的开销
+- **只需要工程团队内部使用**: 如果只有工程师在用 Agent，Runtime 的多团队沙盒和 Slack 集成价值有限
+- **需要深度定制 Agent 行为**: Runtime 提供的是基础设施层，如果你需要定制 Agent 的推理逻辑、工具选择策略等，可能需要更底层的框架（如 LangGraph）
+- **预算敏感的小型创业公司**: 虽然提供初创折扣，但团队级基础设施通常有最低门槛
+
+### 迁移成本
+
+| 迁移路径 | 工作量估计 | 说明 |
+|---------|-----------|------|
+| 从分散的 Claude Code 迁移（单团队试点） | 1-2 天 | 搭建一个环境模板，配置 1-2 个 connector，测试端到端流程 |
+| 全公司推广（5+ 团队） | 2-4 周 | 为每个团队搭建模板，配置 connector，设置 guardrails，培训 Agent Owner |
+| 自托管部署 | 1-2 周 | 需要自有云基础设施、模型 API、沙盒运行时环境 |
+
+## 关键配置/功能片段
+
+**支持的 Agent**（官网确认）:
+```
+Claude Code, Codex, OpenCode, Gemini, GitHub Copilot, and more
+→ Agent-agnostic 设计，可自由切换
+```
+
+**预建 Connector 覆盖**（数据层）:
+```
+数据仓库:  Snowflake, BigQuery, Redshift
+计费:     Stripe, NetSuite, QuickBooks
+HR:       Rippling, Gusto, Workday, Deel
+CRM/营销: HubSpot, Segment, GA4
+客服:     Zendesk, Intercom
+告警:     PagerDuty, Sentry, Datadog
+工程:     GitHub, Linear, Notion
+```
+
+**安全机制**:
+```
+- Agent 不接触原始生产数据（镜像/采样 + PII 脱色 + 行级作用域）
+- 生产写入必须通过 reviewed actions 或 PR
+- Spend limits, allowlists, approval gates
+- BYOK: 用户自带 API key，Runtime 不碰密钥
+```
+
+**开源协议分层**:
+```
+MIT        → Templates（模板，最宽松）
+Apache 2.0 → CLI & Shared libs（命令行工具和共享库）
+AGPL v3    → API & Worker（核心引擎，要求衍生作品开源）
+```
+
+> TODO: 具体 API 接口、SDK 文档、定价方案尚未公开，待官网更新后补充。
+> TODO: 沙盒隔离的具体实现（容器 vs VM、session 生命周期管理）未公开。
 
 ---
 [← Back to Deep Dives](./README.md)
