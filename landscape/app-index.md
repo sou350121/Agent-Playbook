@@ -905,6 +905,11 @@
 | Amazon Bedrock Managed Knowledge Base：为 Agent 构建企业级搜索 | AWS | 2026-07-17 | knowledge-base, enterprise-search, bedrock | https://aws.amazon.com/blogs/machine-learning/build-enterprise-search-for-agents-with-amazon-bedrock-managed-knowledge-base/ | [RAG] | 📖 daily 2026-07-17 — 三大支柱：简化部署、智能检索、生产就绪，提供完整代码示例 |
 | GPT-5.6 文件删除 Bug 调查：Full Access Mode + 无沙箱 = 危险组合 | OpenAI | 2026-07-17 | coding-agent, security, gpt-5.6 | https://simonwillison.net/2026/Jul/16/bad-codex-bug/ |  | 🔧 daily 2026-07-17 — Thibault Sottiaux 调查确认：Full Access Mode 下无沙箱运行 Codex 最易触发意外文件删除 |
 | Cars24 用 OpenAI Agent 处理月均 100 万分钟对话，挽回 12% 流失线索 | Cars24 | 2026-07-17 | voice-agent, chat-agent, agentic-workflow | https://openai.com/index/cars24 |  | 📖 daily 2026-07-17 — 首个大规模 OpenAI 语音+聊天 Agent 生产案例，展示 Agentic Workflow 在客服领域的 ROI |
+| A scorecard for the AI age | OpenAI | 2026-07-18 | ai-measurement, agent-economics, roi | https://openai.com/index/a-scorecard-for-the-ai-age |  | ⚡ daily 2026-07-18 — OpenAI 提出「Useful Intelligence per Dollar」衡量框架，从 token 成本转向工作产出价值，影响 AI 采购决策范式 |
+| Smartsheet 在 AWS 上构建远程 MCP 服务器 | Smartsheet | 2026-07-18 | mcp, enterprise, aws | https://aws.amazon.com/blogs/machine-learning/how-smartsheet-built-a-remote-mcp-server-on-aws/ |  | 🔧 daily 2026-07-18 — 企业级 MCP 服务器实战案例：统一内部/外部 Agent 接入，优化节省 30 亿 token，具参考架构价值 |
+| Vercel Runtime Logs 新增 Cache Reason 展示 | Vercel | 2026-07-18 | caching, observability, llmops | https://vercel.com/changelog/runtime-logs-now-show-cache-reasons |  | 🔧 daily 2026-07-18 — CDN 缓存未命中原因可视化，帮助 AI App 调试和优化部署缓存策略 |
+| Claude Code 官方定义四种循环：回合制/目标/时间/主动 | Anthropic | 2026-07-18 | agent-loop, claude-code, agentic | https://www.36kr.com/p/3899013551245186 | 🎯 agent-ui | 🔧 daily 2026-07-18 — Claude Code 团队正式定义四种 Agent 循环模式，为 loop engineering 建立工程规范，直接影响 Agent 设计模式 |
+| LLM cliché highlighter — 检测 AI 生成文本的套话模式 | Simon Willison | 2026-07-18 | llm-detection, content-quality, vibe-coding | https://simonwillison.net/2026/Jul/17/llm-cliche-highlighter/ |  | 📖 daily 2026-07-18 — Simon Willison 用 Fable 5 vibe coding 开发的浏览器端工具，检测 10 种 LLM 套话模式 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
