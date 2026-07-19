@@ -910,6 +910,12 @@
 | Vercel Runtime Logs 新增 Cache Reason 展示 | Vercel | 2026-07-18 | caching, observability, llmops | https://vercel.com/changelog/runtime-logs-now-show-cache-reasons |  | 🔧 daily 2026-07-18 — CDN 缓存未命中原因可视化，帮助 AI App 调试和优化部署缓存策略 |
 | Claude Code 官方定义四种循环：回合制/目标/时间/主动 | Anthropic | 2026-07-18 | agent-loop, claude-code, agentic | https://www.36kr.com/p/3899013551245186 | 🎯 agent-ui | 🔧 daily 2026-07-18 — Claude Code 团队正式定义四种 Agent 循环模式，为 loop engineering 建立工程规范，直接影响 Agent 设计模式 |
 | LLM cliché highlighter — 检测 AI 生成文本的套话模式 | Simon Willison | 2026-07-18 | llm-detection, content-quality, vibe-coding | https://simonwillison.net/2026/Jul/17/llm-cliche-highlighter/ |  | 📖 daily 2026-07-18 — Simon Willison 用 Fable 5 vibe coding 开发的浏览器端工具，检测 10 种 LLM 套话模式 |
+| Claude Fable 5 正式永久上线：Max/Team Premium 计划 7/20 起默认包含 | Anthropic | 2026-07-19 | claude, model-release, fable-5 | https://simonwillison.net/2026/Jul/18/claude-make-fable-5-permanent/ |  | ⚡ daily 2026-07-19 — Anthropic 将 Fable 5 永久纳入 Max/Team Premium，标志 Claude 模型家族从实验走向主力 |
+| GPT-5.6 用 prompt 填补凸优化 30 年理论空白 | OpenAI | 2026-07-19 | gpt-5.6, math, convex-optimization | https://old.reddit.com/r/math/comments/1uxj3cy/after_openais_cdc_proof_announcement_gpt56_used_a/ |  | ⚡ daily 2026-07-19 — GPT-5.6 在 CDC 证明后再次展示深度数学推理能力，凸优化 30 年开放问题被 AI 推进 |
+| Isomorphic Labs + DeepMind 发布 Bioresilience 战略：AI 驱动生物制造 | Google DeepMind / Isomorphic Labs | 2026-07-19 | bioresilience, ai-for-science, deepmind | https://deepmind.google/blog/our-approach-to-bioresilience/ |  | 📖 daily 2026-07-19 — DeepMind 将 AI 能力扩展到生物制造领域，标志 AI for Science 从药物发现走向供应链 |
+| 🎯 用备用 Mac 跑 Claude Code：完整远程控制指南 | 社区 | 2026-07-19 | claude-code, computer-use, sandbox | https://ykdojo.github.io/claude-controls-mac/ | 🎯 agent-ui | 🔧 daily 2026-07-19 — 为 Claude Code 配置专用 Mac 沙箱的实操指南，解决 Full Access Mode 安全风险 |
+| Agent 配额随机周重置：开发者吐槽还是真需求？ | maxim | 2026-07-19 | agent, quota, pricing | https://minimaxir.com/2026/07/agent-quota-reset/ |  | 📖 daily 2026-07-19 — 多家 AI Agent 平台采用非固定周期配额重置，开发者社区开始讨论 UX 影响 |
+| SQLite Query Explainer：交互式查询计划可视化工具 | Julia Evan / Simon Willison | 2026-07-19 | sqlite, dev-tool, vibe-coding | https://simonwillison.net/2026/Jul/18/sqlite-query-explainer/#atom-everything |  | 📖 daily 2026-07-19 — 用 Fable 5 快速构建的 SQLite 查询计划可视化工具，展示 vibe coding 的实用落地 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
