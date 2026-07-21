@@ -916,6 +916,12 @@
 | 🎯 用备用 Mac 跑 Claude Code：完整远程控制指南 | 社区 | 2026-07-19 | claude-code, computer-use, sandbox | https://ykdojo.github.io/claude-controls-mac/ | 🎯 agent-ui | 🔧 daily 2026-07-19 — 为 Claude Code 配置专用 Mac 沙箱的实操指南，解决 Full Access Mode 安全风险 |
 | Agent 配额随机周重置：开发者吐槽还是真需求？ | maxim | 2026-07-19 | agent, quota, pricing | https://minimaxir.com/2026/07/agent-quota-reset/ |  | 📖 daily 2026-07-19 — 多家 AI Agent 平台采用非固定周期配额重置，开发者社区开始讨论 UX 影响 |
 | SQLite Query Explainer：交互式查询计划可视化工具 | Julia Evan / Simon Willison | 2026-07-19 | sqlite, dev-tool, vibe-coding | https://simonwillison.net/2026/Jul/18/sqlite-query-explainer/#atom-everything |  | 📖 daily 2026-07-19 — 用 Fable 5 快速构建的 SQLite 查询计划可视化工具，展示 vibe coding 的实用落地 |
+| OpenAI: Safety and alignment in an era of long-horizon models | OpenAI | 2026-07-21 | safety, alignment, long-horizon | https://openai.com/index/safety-alignment-long-horizon-models |  | ⚡ daily 2026-07-21 — OpenAI 首次系统阐述长周期 AI 模型的安全风险与防护框架，影响 Agent 部署范式 |
+| Vercel Workflows 支持自定义 run state 存储位置 | Vercel | 2026-07-21 | workflow, state-management, vercel | https://vercel.com/changelog/configure-where-run-state-lives-in-vercel-workflows | 🎯 agent-ui | 🔧 daily 2026-07-21 — Workflow 状态管理更灵活，便于 Agent 工作流持久化与容错 |
+| Amazon Quick + NVIDIA NeMo Agent Toolkit：业务用户构建专用 Agent 工作流 | AWS + NVIDIA | 2026-07-21 | agent, workflow, enterprise | https://aws.amazon.com/blogs/machine-learning/build-specialized-agent-workflows-for-your-business-with-amazon-quick-and-nvidia-nemo-agent-toolkit/ | 🎯 agent-ui | 🔧 daily 2026-07-21 — 业务用户通过 Quick Dashboard 直接驱动 NeMo Agent，降低企业 Agent 落地门槛 |
+| Sam Altman: OpenAI 将推出 GPT-3 级别开源模型 | OpenAI | 2026-07-21 | open-source, model-release, gpt | https://simonwillison.net/2026/Jul/20/sam-altman/#atom-everything |  | ⚡ daily 2026-07-21 — Altman 透露 OpenAI 开源战略转向——打造可本地运行的 GPT-3 级模型 |
+| Who's Afraid of Chinese Models? — Ben Thompson 提出开源模型授权新框架 | Stratechery | 2026-07-21 | open-source, chinese-models, distillation | https://simonwillison.net/2026/Jul/20/afraid-of-chinese-models/#atom-everything |  | ⚡ daily 2026-07-21 — 探讨如何在防止蒸馏与允许数据训练之间找到平衡，影响中美模型生态竞争格局 |
+| xAI 为微软 Excel 推出免费 Grok 插件 | xAI | 2026-07-21 | grok, excel, productivity | https://readhub.cn/topic/8uvO4xrDjho |  | 🔧 daily 2026-07-21 — Grok 以免费 M365 插件形式进入 Excel，支持数据分析/公式/图表，打通邮件和 SharePoint 上下文 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
