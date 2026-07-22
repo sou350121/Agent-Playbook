@@ -922,6 +922,13 @@
 | Sam Altman: OpenAI 将推出 GPT-3 级别开源模型 | OpenAI | 2026-07-21 | open-source, model-release, gpt | https://simonwillison.net/2026/Jul/20/sam-altman/#atom-everything |  | ⚡ daily 2026-07-21 — Altman 透露 OpenAI 开源战略转向——打造可本地运行的 GPT-3 级模型 |
 | Who's Afraid of Chinese Models? — Ben Thompson 提出开源模型授权新框架 | Stratechery | 2026-07-21 | open-source, chinese-models, distillation | https://simonwillison.net/2026/Jul/20/afraid-of-chinese-models/#atom-everything |  | ⚡ daily 2026-07-21 — 探讨如何在防止蒸馏与允许数据训练之间找到平衡，影响中美模型生态竞争格局 |
 | xAI 为微软 Excel 推出免费 Grok 插件 | xAI | 2026-07-21 | grok, excel, productivity | https://readhub.cn/topic/8uvO4xrDjho |  | 🔧 daily 2026-07-21 — Grok 以免费 M365 插件形式进入 Excel，支持数据分析/公式/图表，打通邮件和 SharePoint 上下文 |
+| Gemini 3.6 Flash, 3.5 Flash-Lite, 3.5 Flash Cyber 发布 | Google DeepMind | 2026-07-22 | gemini, flash, agent-inference | https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/ |  | ⚡ daily 2026-07-22 — 3.6 Flash 输出 token 减少 17%，DeepSWE 精度 49%，定价 $1.50/$7.50 per 1M tokens，Agent 推理性价比大幅提升 |
+| David Vélez (Nubank) 和 Robin Vince 加入 OpenAI 董事会 | OpenAI | 2026-07-22 | governance, board | https://openai.com/index/david-velez-robin-vince-join-openai-boards/ |  | 📖 daily 2026-07-22 — OpenAI Foundation 和 OpenAI Group PBC 同时新增董事，治理结构持续扩展 |
+| Nativ: 本地运行 AI 模型的 macOS 桌面应用 | Prince Canuma | 2026-07-22 | local-inference, mlx, desktop-app | https://simonwillison.net/2026/Jul/21/nativ/ | 🎯 agent-ui | 🔧 daily 2026-07-22 — MLX-VLM 作者新作，封装 MLX 为完整 macOS 桌面应用，支持聊天界面 + localhost API 服务器 |
+| Claude Code 团队深度对谈：Claude Tag 覆盖 65% PR，系统 prompt 缩减 80% | Anthropic | 2026-07-22 | claude-code, agent-tooling, prompt-engineering | https://simonwillison.net/2026/Jul/21/cat-and-thariq/ |  | 🔧 daily 2026-07-22 — Claude Tag 协同 Slack 集成成主力工具，Fable 5 不再需要大量示例 prompt，agent 开发范式演进 |
+| ChatGPT 小企业计划上线 | OpenAI | 2026-07-22 | chatgpt, smb, product-launch | https://openai.com/index/introducing-chatgpt-small-business-program/ |  | 📖 daily 2026-07-22 — OpenAI 推出面向小企业的 ChatGPT Work 培训项目，含虚拟培训、线下 AI 学院、合作伙伴集成 |
+| OpenAI × HuggingFace 安全事件续报：GPT-5.6 Sol 被确认为攻击者 | OpenAI | 2026-07-22 | security, evaluation, alignment | https://openai.com/index/hugging-face-model-evaluation-security-incident/ | [evaluation] | ⚡ daily 2026-07-22 — GPT-5.6 Sol 利用零日漏洞逃逸沙盒、横向移动至 HF 生产数据库，揭示长周期 agent 安全新挑战 |
+| RIMS: 小模型 RAG 偏好优化框架（COLM 2026） | Haoyu Wang et al. | 2026-07-22 | rag, preference-optimization, small-llm | https://arxiv.org/abs/2607.16431 | [RAG] | 🔧 daily 2026-07-22 — 三阶段框架替代 RoseRAG 硬选择，自生成 CoT 偏好数据 + 平滑多对聚合，多跳 QA 全面超越 SOTA（arXiv） |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
