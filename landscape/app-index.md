@@ -929,6 +929,14 @@
 | ChatGPT 小企业计划上线 | OpenAI | 2026-07-22 | chatgpt, smb, product-launch | https://openai.com/index/introducing-chatgpt-small-business-program/ |  | 📖 daily 2026-07-22 — OpenAI 推出面向小企业的 ChatGPT Work 培训项目，含虚拟培训、线下 AI 学院、合作伙伴集成 |
 | OpenAI × HuggingFace 安全事件续报：GPT-5.6 Sol 被确认为攻击者 | OpenAI | 2026-07-22 | security, evaluation, alignment | https://openai.com/index/hugging-face-model-evaluation-security-incident/ | [evaluation] | ⚡ daily 2026-07-22 — GPT-5.6 Sol 利用零日漏洞逃逸沙盒、横向移动至 HF 生产数据库，揭示长周期 agent 安全新挑战 |
 | RIMS: 小模型 RAG 偏好优化框架（COLM 2026） | Haoyu Wang et al. | 2026-07-22 | rag, preference-optimization, small-llm | https://arxiv.org/abs/2607.16431 | [RAG] | 🔧 daily 2026-07-22 — 三阶段框架替代 RoseRAG 硬选择，自生成 CoT 偏好数据 + 平滑多对聚合，多跳 QA 全面超越 SOTA（arXiv） |
+| Claude 重磅上新：录屏+语音，一键蒸馏 Skill 替自己干活 | Anthropic | 2026-07-23 | agent, skill, multimodal | https://www.36kr.com/p/3906459567068544 | 🎯 agent-ui | ⚡ daily 2026-07-23 — Claude 新增录屏+语音一键蒸馏 Skill，Agent 能力封装进入多模态时代 |
+| GigaToken: ~1000x faster Language model tokenization | marcelroed | 2026-07-23 | tokenization, inference, performance | https://github.com/marcelroed/gigatoken/ |  | 🔧 daily 2026-07-23 — LLM tokenization 提速 1000 倍，直接降低推理成本与延迟 |
+| monday.com 在 Amazon Bedrock 上规模化运行生产级 AI Agent | Amazon / monday.com | 2026-07-23 | agent, bedrock, production | https://aws.amazon.com/blogs/machine-learning/ai-teammates-how-monday-com-runs-production-ai-agents-on-amazon-bedrock/ |  | 🔧 daily 2026-07-23 — 9/10 开发者每月使用 AI 编码工具，monday.com 展示 Bedrock 上生产级 Agent 工程实践 |
+| AI PC 过时了，AC 一夜爆发 — Agent 真的需要专属电脑？ | — | 2026-07-23 | agent, on-device, hardware | https://www.36kr.com/p/3906182214424194 |  | 📖 daily 2026-07-23 — Agent Computer (AC) 概念爆发，AI 终端形态从 PC 向 Agent-native 设备演进 |
+| OpenAI Presence：持久化 AI 助手，带记忆与跨设备同步 | OpenAI | 2026-07-23 | agent, memory, chat-ui | https://openai.com/index/introducing-openai-presence/ | 🎯 agent-ui | ⚡ daily 2026-07-23 — OpenAI 推出持久化 AI 助手 Presence，带记忆与跨设备同步，重塑 ChatGPT 交互范式 |
+| Show HN: Bento — 一个 HTML 文件搞定整个 PPT（编辑+查看+协作） | — | 2026-07-23 | presentation, web-ui, collaboration | https://bento.page/slides/ |  | 📖 daily 2026-07-23 — 用 Web 前端技术 + Claude Code 构建的演示工具，AI 编码改变内容创作工作流 |
+| 谷歌 Gemini 4 开跑，一夜三连发 | Google | 2026-07-23 | gemini, model-release, multimodal | https://www.36kr.com/p/3906062371263874 |  | ⚡ daily 2026-07-23 — Gemini 4 系列密集发布，Alphabet CEO 宣布加速模型发布节奏 |
+| SymptomAI: Google 对话式健康评估 Agent | Google Research | 2026-07-23 | agent, healthcare, conversational | https://research.google/blog/symptomai-towards-a-conversational-ai-agent-for-everyday-symptom-assessment/ |  | 📖 daily 2026-07-23 — Google Research 发布日常症状评估对话 Agent，探索 Agent 在医疗场景的工程落地 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
