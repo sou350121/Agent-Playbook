@@ -937,6 +937,13 @@
 | Show HN: Bento — 一个 HTML 文件搞定整个 PPT（编辑+查看+协作） | — | 2026-07-23 | presentation, web-ui, collaboration | https://bento.page/slides/ |  | 📖 daily 2026-07-23 — 用 Web 前端技术 + Claude Code 构建的演示工具，AI 编码改变内容创作工作流 |
 | 谷歌 Gemini 4 开跑，一夜三连发 | Google | 2026-07-23 | gemini, model-release, multimodal | https://www.36kr.com/p/3906062371263874 |  | ⚡ daily 2026-07-23 — Gemini 4 系列密集发布，Alphabet CEO 宣布加速模型发布节奏 |
 | SymptomAI: Google 对话式健康评估 Agent | Google Research | 2026-07-23 | agent, healthcare, conversational | https://research.google/blog/symptomai-towards-a-conversational-ai-agent-for-everyday-symptom-assessment/ |  | 📖 daily 2026-07-23 — Google Research 发布日常症状评估对话 Agent，探索 Agent 在医疗场景的工程落地 |
+| Claude Code 新增 Skill 蒸馏：录屏+语音，一键生成 Skill 替自己干活 | Anthropic | 2026-07-24 | agent-ui, skill, claude-code | https://www.36kr.com/p/3907365426467969 |  | ⚡ daily 2026-07-24 — Claude Code 从编码工具进化为可自我复制的 Agent 平台，Skill 蒸馏是 Agent 可组合性的关键一步 |
+| ChatGPT Health 上线：连接医疗记录与 Apple Health，个性化健康洞察 | OpenAI | 2026-07-24 | health, integration, chatgpt | https://openai.com/index/health-in-chatgpt |  | 🔧 daily 2026-07-24 — OpenAI 正式进军医疗健康领域，ChatGPT 从对话工具升级为可连接电子病历的个人健康助手 |
+| Jefferies 用 Strands Agents 构建前台交易 AI 助手，集成 MCP 工具调用 | AWS / Jefferies | 2026-07-24 | agent, mcp, finance | https://aws.amazon.com/blogs/machine-learning/building-trade-assistant-how-jefferies-optimized-front-office-trading-operations-with-ai/ |  | 🔧 daily 2026-07-24 — 投行前台交易场景落地案例，展示 Strands Agents + MCP 在金融领域的生产级部署 |
+| AWS Strands Agents SDK + AgentCore：生产级 Agent 评估管线，错误率降 80% | AWS | 2026-07-24 | agent, evaluation, sdk | https://aws.amazon.com/blogs/machine-learning/evaluating-ai-agents-a-production-blueprint-with-strands-and-agentcore/ |  | 🔧 daily 2026-07-24 — Strands SDK 提供端到端 Agent 评估管线，从 1/8 错误率降至 1/50，生产可用信号明确 |
+| PyPI 新增安全策略：14 天以上 release 禁止上传新文件，防投毒 | PyPI | 2026-07-24 | security, pypi, supply-chain | https://simonwillison.net/2026/Jul/23/seth-larson/#atom-everything |  | 🔧 daily 2026-07-24 — Python 生态重大安全升级，阻断长期稳定 release 的投毒攻击面 |
+| AWS Bedrock Guardrails 最佳实践：编码工作流的护栏配置蓝图 | AWS | 2026-07-24 | guardrail, workflow, code-gen | https://aws.amazon.com/blogs/machine-learning/best-practices-for-applying-amazon-bedrock-guardrails-to-code-generation-workflows/ |  | 📖 daily 2026-07-24 — 编码 Agent 的安全护栏配置从经验走向标准化 |
+| Stateful Guardrails：多轮对话中的风险累积防护框架 | 学术界 | 2026-07-24 | guardrail, multi-turn, safety | https://arxiv.org/abs/2607.19361 |  | 📖 daily 2026-07-24 — 单轮护栏无法捕捉对话级风险累积，提出状态化防护框架（arXiv） |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
