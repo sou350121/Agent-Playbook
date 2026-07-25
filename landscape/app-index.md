@@ -944,6 +944,11 @@
 | PyPI 新增安全策略：14 天以上 release 禁止上传新文件，防投毒 | PyPI | 2026-07-24 | security, pypi, supply-chain | https://simonwillison.net/2026/Jul/23/seth-larson/#atom-everything |  | 🔧 daily 2026-07-24 — Python 生态重大安全升级，阻断长期稳定 release 的投毒攻击面 |
 | AWS Bedrock Guardrails 最佳实践：编码工作流的护栏配置蓝图 | AWS | 2026-07-24 | guardrail, workflow, code-gen | https://aws.amazon.com/blogs/machine-learning/best-practices-for-applying-amazon-bedrock-guardrails-to-code-generation-workflows/ |  | 📖 daily 2026-07-24 — 编码 Agent 的安全护栏配置从经验走向标准化 |
 | Stateful Guardrails：多轮对话中的风险累积防护框架 | 学术界 | 2026-07-24 | guardrail, multi-turn, safety | https://arxiv.org/abs/2607.19361 |  | 📖 daily 2026-07-24 — 单轮护栏无法捕捉对话级风险累积，提出状态化防护框架（arXiv） |
+| Anthropic 发布 Claude Opus 5：能力接近 Fable 5，成本仅一半 | Anthropic | 2026-07-25 | claude, model-release, opus | https://www.anthropic.com/news/claude-opus-5 |  | ⚡ daily 2026-07-25 — Opus 5 在编程和知识评测中达 SOTA，成本仅 Fable 5 的一半，或成日常默认模型 |
+| Solar Open 2：250B-A15B MoE，1M 上下文专为长程 Agentic 任务设计 | Upstage | 2026-07-25 | moE, agentic, context-window | https://arxiv.org/abs/2607.20062 |  | ⚡ daily 2026-07-25 — 1M token 上下文容纳完整 Agent 轨迹，Scaled-up 自 Solar Open 100B（arXiv） |
+| 🎯 Vercel AI Gateway 上线 Claude Opus 5 + Workflow 支持延长函数执行 | Vercel | 2026-07-25 | gateway, workflow, agent-ui | https://vercel.com/changelog/claude-opus-5-now-available-on-ai-gateway | 🎯 agent-ui | 🔧 daily 2026-07-25 — Gateway 秒级接入 Opus 5；Workflow 支持更长函数执行，复杂 Agent 流程不再超时 |
+| GPT-5.6 Sol/Terra/Luna 正式登陆 Amazon Bedrock | OpenAI / AWS | 2026-07-25 | bedrock, coding-agent, model-release | https://aws.amazon.com/blogs/machine-learning/get-started-with-openai-gpt-5-6-sol-terra-and-luna-on-amazon-bedrock/ |  | 🔧 daily 2026-07-25 — OpenAI 三模型经 Bedrock Responses API 可用，支持 Prompt Caching 降本 |
+| Together AI 评测：Kimi K3 vs Claude Fable 5 编码性价比对比 | Together AI | 2026-07-25 | benchmark, coding-agent, cost-optimization | https://www.together.ai/blog/kimi-k3-vs-claude-fable-5-on-deepswe-cost-and-coding |  | 📖 daily 2026-07-25 — 452 轮 DeepSWE 实测：Fable 5 pass@1 领先 1.4pt，Kimi K3 pass@4 更优且每美元多 2.8x 解决 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
