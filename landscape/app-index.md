@@ -949,6 +949,11 @@
 | 🎯 Vercel AI Gateway 上线 Claude Opus 5 + Workflow 支持延长函数执行 | Vercel | 2026-07-25 | gateway, workflow, agent-ui | https://vercel.com/changelog/claude-opus-5-now-available-on-ai-gateway | 🎯 agent-ui | 🔧 daily 2026-07-25 — Gateway 秒级接入 Opus 5；Workflow 支持更长函数执行，复杂 Agent 流程不再超时 |
 | GPT-5.6 Sol/Terra/Luna 正式登陆 Amazon Bedrock | OpenAI / AWS | 2026-07-25 | bedrock, coding-agent, model-release | https://aws.amazon.com/blogs/machine-learning/get-started-with-openai-gpt-5-6-sol-terra-and-luna-on-amazon-bedrock/ |  | 🔧 daily 2026-07-25 — OpenAI 三模型经 Bedrock Responses API 可用，支持 Prompt Caching 降本 |
 | Together AI 评测：Kimi K3 vs Claude Fable 5 编码性价比对比 | Together AI | 2026-07-25 | benchmark, coding-agent, cost-optimization | https://www.together.ai/blog/kimi-k3-vs-claude-fable-5-on-deepswe-cost-and-coding |  | 📖 daily 2026-07-25 — 452 轮 DeepSWE 实测：Fable 5 pass@1 领先 1.4pt，Kimi K3 pass@4 更优且每美元多 2.8x 解决 |
+| Anthropic 发布 Claude 5 Context Engineering 官方指南 | Anthropic | 2026-07-26 | context-engineering, agent-ui, claude | https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models | 🎯 agent-ui | 🔧 daily 2026-07-26 — Claude 5 时代 context engineering 范式转变：从规则→判断、从示例→接口设计、从前置→渐进式披露，直接影响所有 Claude Code/Agent 开发者 |
+| OpenAI GPT-6 或 8 月提前上线，跳过 5.7-5.9 | OpenAI | 2026-07-26 | gpt-6, model-release, openai | https://www.36kr.com/p/3910793600734599 |  | ⚡ daily 2026-07-26 — GPT-5.6 Sol 安全事件后，GPT-6 提前至 8 月发布——模型迭代节奏加速，可能改变 Q3 竞争格局 |
+| GRADRAG: 多 Agent RAG 跨组件 Prompt 自适应框架 | — | 2026-07-26 | rag, multi-agent, prompt-optimization | https://arxiv.org/abs/2607.21324 | [RAG] | 📖 daily 2026-07-26 — 将 RAG 管线建模为计算图，Evaluator→Prompt Optimizer 跨组件迭代更新，12-15pp 净偏好提升 |
+| CAMeR: LLM Agent 自适应记忆保留框架 | — | 2026-07-26 | agent, memory, retrieval | https://arxiv.org/abs/2607.20458 |  | 📖 daily 2026-07-26 — 符号+子符号混合门控记忆保留，高频记忆保留差距提升 1.6x，top-5 检索节省 83% token |
+| MemTools: Agent 记忆系统统一研究框架 | — | 2026-07-26 | agent, memory, interoperability | https://arxiv.org/abs/2607.21404 |  | 📖 daily 2026-07-26 — 解耦记忆生命周期组件，声明式数据契约实现跨系统组件互换，统一符号/神经/多模态记忆接口 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
