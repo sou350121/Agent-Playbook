@@ -954,6 +954,12 @@
 | GRADRAG: 多 Agent RAG 跨组件 Prompt 自适应框架 | — | 2026-07-26 | rag, multi-agent, prompt-optimization | https://arxiv.org/abs/2607.21324 | [RAG] | 📖 daily 2026-07-26 — 将 RAG 管线建模为计算图，Evaluator→Prompt Optimizer 跨组件迭代更新，12-15pp 净偏好提升 |
 | CAMeR: LLM Agent 自适应记忆保留框架 | — | 2026-07-26 | agent, memory, retrieval | https://arxiv.org/abs/2607.20458 |  | 📖 daily 2026-07-26 — 符号+子符号混合门控记忆保留，高频记忆保留差距提升 1.6x，top-5 检索节省 83% token |
 | MemTools: Agent 记忆系统统一研究框架 | — | 2026-07-26 | agent, memory, interoperability | https://arxiv.org/abs/2607.21404 |  | 📖 daily 2026-07-26 — 解耦记忆生命周期组件，声明式数据契约实现跨系统组件互换，统一符号/神经/多模态记忆接口 |
+| OpenAI 三线齐崩：API/ChatGPT/Codex 同时宕机，连续17天异常 | — | 2026-07-27 | agent, reliability, llmops | https://www.36kr.com/p/3911112634340996 |  | ⚡ daily 2026-07-27 — Agent时代宕机从体验问题变生产线中断，多模型容灾从加分项变标配 |
+| Claude Opus 5 系统提示词被完整泄露，64章3万Token底牌全摊开 | Eversmile12 | 2026-07-27 | agent, prompt-engineering, claude | https://github.com/Eversmile12/leaked-llm-prompts/blob/main/Anthropic/opus-5.md |  | 🔧 daily 2026-07-27 — 揭示Claude记忆系统/合规/工具调用完整架构，30个工具JSON schema全公开（續報） |
+| Token Relay Market：LLM 令牌倒卖黑产的开源代理网络 | Matt Lenhard / Simon Willison | 2026-07-27 | llmops, security, gateway | https://simonwillison.net/2026/Jul/26/relay-market/ |  | 🔧 daily 2026-07-27 — 中国生态用 one-api/new-api 开源代理Pooling API key倒卖，LLM厂商需严格API key限额 |
+| World Model Optimizer：从 Agent 轨迹蒸馏前沿模型，成本降40%+ | Experiential Labs | 2026-07-27 | agent, llmops, routing | https://github.com/experientiallabs/world-model-optimizer |  | 🔧 daily 2026-07-27 — 用OTel轨迹自动路由+蒸馏小模型，世界模型模拟Agent环境做持续优化 |
+| Cursor Bridge：用 Cursor 订阅免费跑 Claude Code，Rust 单二进制零配置 | hkc5 | 2026-07-27 | agent-ui, coding-agent, sdk | https://github.com/hkc5/cursor-bridge | 🎯 | 🔧 daily 2026-07-27 — Cursor Auto模型免费无限→Claude Code Agent能力免费用，780KB Rust二进制 |
+| Impeccable：让 AI 编码 Agent 输出好设计的语言系统 | pbakaus | 2026-07-27 | agent-ui, design, coding-agent | https://github.com/pbakaus/impeccable | 🎯 | 🔧 daily 2026-07-27 — 23个设计命令+60条确定性检测规则，解决AI生成前端千篇一律问题 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
