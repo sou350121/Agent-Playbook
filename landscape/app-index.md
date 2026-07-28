@@ -960,6 +960,12 @@
 | World Model Optimizer：从 Agent 轨迹蒸馏前沿模型，成本降40%+ | Experiential Labs | 2026-07-27 | agent, llmops, routing | https://github.com/experientiallabs/world-model-optimizer |  | 🔧 daily 2026-07-27 — 用OTel轨迹自动路由+蒸馏小模型，世界模型模拟Agent环境做持续优化 |
 | Cursor Bridge：用 Cursor 订阅免费跑 Claude Code，Rust 单二进制零配置 | hkc5 | 2026-07-27 | agent-ui, coding-agent, sdk | https://github.com/hkc5/cursor-bridge | 🎯 | 🔧 daily 2026-07-27 — Cursor Auto模型免费无限→Claude Code Agent能力免费用，780KB Rust二进制 |
 | Impeccable：让 AI 编码 Agent 输出好设计的语言系统 | pbakaus | 2026-07-27 | agent-ui, design, coding-agent | https://github.com/pbakaus/impeccable | 🎯 | 🔧 daily 2026-07-27 — 23个设计命令+60条确定性检测规则，解决AI生成前端千篇一律问题 |
+| Anthropic CEO Dario Amodei：从未主张禁止开放权重模型 | Anthropic | 2026-07-28 | open-weights, AI-policy, open-source | https://www.anthropic.com/news/position-open-weights-models |  | ⚡ daily 2026-07-28 — Anthropic 官方明确反对禁止中国开放权重模型，回应近日政策传闻，定义开放权重安全边界 |
+| Deepgram 集成 SageMaker AI：IAM 临时委托将工单排查从数天缩至数分钟 | Deepgram / AWS | 2026-07-28 | speech-ai, iam, enterprise-support | https://aws.amazon.com/blogs/machine-learning/deepgram-enhances-amazon-sagemaker-ai-support-with-aws-iam-temporary-delegation/ |  | 🔧 daily 2026-07-28 — 新 IAM 能力让合作伙伴限时访问客户资源，无需长期凭证，企业自托管语音 AI 运维范式升级 |
+| AWS Beyond RAG：任务感知知识压缩（TAKC）突破百文档分析瓶颈 | AWS | 2026-07-28 | rag, knowledge-compression, enterprise | https://aws.amazon.com/blogs/machine-learning/beyond-rag-task-aware-knowledge-compression-for-enterprise-ai-on-aws/ | [RAG] | 🔧 daily 2026-07-28 — TAKC 按任务预压缩知识库，解决传统 RAG 跨文档关联缺失问题，开源可部署 |
+| OpenAI 研究：43.5% 的职业特定 AI 使用跨越了职业边界 | OpenAI | 2026-07-28 | ai-work, task-crossover, research | https://openai.com/index/how-ai-is-expanding-what-people-do-at-work |  | 📖 daily 2026-07-28 — 基于 80 万条消息数据，首次量化 AI 如何重塑职业分工——客服/设计/法律最显著 |
+| Simon Willison：2026 年 AI 工具选择指南——从聊天到 Agent 的范式转移 | Ethan Mollick / Simon Willison | 2026-07-28 | agent, chatgpt-work, cowork | https://simonwillison.net/2026/Jul/27/an-opinionated-guide-to-which-ai-to-use-to-do-stuff/ |  | 📖 daily 2026-07-28 — Ethan Mollick 指南年度更新：Gemini 掉队，ChatGPT Work/Claude Cowork 成为 Agent 主力入口 |
+| FeyNoBg：开源自动背景移除模型与训练库 | Feyn | 2026-07-28 | computer-vision, open-source, background-removal | https://usefeyn.com/blog/feynobg/ |  | 📖 daily 2026-07-28 — 开源背景移除模型 + Python 训练库，HN 热门，适合图像编辑工作流集成 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
