@@ -966,6 +966,14 @@
 | OpenAI 研究：43.5% 的职业特定 AI 使用跨越了职业边界 | OpenAI | 2026-07-28 | ai-work, task-crossover, research | https://openai.com/index/how-ai-is-expanding-what-people-do-at-work |  | 📖 daily 2026-07-28 — 基于 80 万条消息数据，首次量化 AI 如何重塑职业分工——客服/设计/法律最显著 |
 | Simon Willison：2026 年 AI 工具选择指南——从聊天到 Agent 的范式转移 | Ethan Mollick / Simon Willison | 2026-07-28 | agent, chatgpt-work, cowork | https://simonwillison.net/2026/Jul/27/an-opinionated-guide-to-which-ai-to-use-to-do-stuff/ |  | 📖 daily 2026-07-28 — Ethan Mollick 指南年度更新：Gemini 掉队，ChatGPT Work/Claude Cowork 成为 Agent 主力入口 |
 | FeyNoBg：开源自动背景移除模型与训练库 | Feyn | 2026-07-28 | computer-vision, open-source, background-removal | https://usefeyn.com/blog/feynobg/ |  | 📖 daily 2026-07-28 — 开源背景移除模型 + Python 训练库，HN 热门，适合图像编辑工作流集成 |
+| MCP 2026-07-28 规范：传输层全面 Stateless，引入受控扩展系统 | Anthropic / MCP Community | 2026-07-29 | mcp, stateless, protocol | https://blog.modelcontextprotocol.io/posts/2026-07-28/ | 🎯 agent-ui | 🔧 daily 2026-07-29 — MCP 史上最大版本修订——无状态传输+受控扩展+强化授权，所有 MCP 客户端需适配 |
+| OpenAI 发布 Codex Security：AI Agent 安全扫描工具 | OpenAI | 2026-07-29 | security, agent, scanning | https://github.com/openai/codex-security |  | ⚡ daily 2026-07-29 — OpenAI 首次推出专用安全扫描工具，标志着 Agent 安全从附加功能变为独立产品类别 |
+| Hugging Face 发布前沿实验室 Agent 入侵事件完整技术时间线 | Hugging Face | 2026-07-29 | security, agent, incident | https://simonwillison.net/2026/Jul/28/anatomy-of-a-frontier-lab-agent-intrusion/#atom-everything |  | ⚡ daily 2026-07-29 — OpenAI Agent 意外攻击 HF 基础设施的完整技术复盘，Agent 安全边界问题进入公众视野 |
+| OpenAI 报告：AI 编码 Agent 如何重塑科学计算 | OpenAI | 2026-07-29 | agent, coding, scientific-computing | https://openai.com/index/scientific-computing-agentic-ai |  | ⚡ daily 2026-07-29 — 实地报告显示 Agent 在基因组学等领域加速软件开发与发现，Agentic AI 进入科研生产环境 |
+| 🎯 Together AI 推出 Dedicated Model Inference：容量感知路由 | Together AI | 2026-07-29 | deployment, inference, routing | https://www.together.ai/blog/configuring-dedicated-model-inference | 🎯 agent-ui | 🔧 daily 2026-07-29 — 三组件资源模型（endpoints/deployments/configs）+ 容量感知路由，生产级部署新范式 |
+| AWS AgentCore Gateway 支持 MCP 2026-07-28 新规范 | AWS | 2026-07-29 | mcp, gateway, aws | https://aws.amazon.com/blogs/machine-learning/how-agentcore-gateway-supports-the-mcp-2026-07-28-spec/ |  | 🔧 daily 2026-07-29 — AWS 第一时间适配 MCP 新规范，云端 Agent 工具调用基础设施迎来重大升级 |
+| Claude 独自跑通 AMD 新 GPU，CUDA 20 年护城河周末崩盘 | — | 2026-07-29 | gpu, amd, cuda, deployment | https://www.36kr.com/p/3914508098573443 |  | ⚡ daily 2026-07-29 — Claude 无需 CUDA 即可驱动 AMD 新 GPU，AI 基础设施硬件锁定风险首次被 AI Agent 自身打破 |
+| [RAG] AWS 发布 LangGraph + Strands 多 Agent 市场监控生产架构 | AWS | 2026-07-29 | multi-agent, workflow, orchestration | https://aws.amazon.com/blogs/machine-learning/market-surveillance-agent-with-langgraph-and-strands-on-agentcore/ | [RAG] | 🔧 daily 2026-07-29 — LangGraph 编排 + Strands 推理 + Bedrock AgentCore 部署，完整生产级多 Agent 参考架构 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
