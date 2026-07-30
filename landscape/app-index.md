@@ -974,6 +974,13 @@
 | AWS AgentCore Gateway 支持 MCP 2026-07-28 新规范 | AWS | 2026-07-29 | mcp, gateway, aws | https://aws.amazon.com/blogs/machine-learning/how-agentcore-gateway-supports-the-mcp-2026-07-28-spec/ |  | 🔧 daily 2026-07-29 — AWS 第一时间适配 MCP 新规范，云端 Agent 工具调用基础设施迎来重大升级 |
 | Claude 独自跑通 AMD 新 GPU，CUDA 20 年护城河周末崩盘 | — | 2026-07-29 | gpu, amd, cuda, deployment | https://www.36kr.com/p/3914508098573443 |  | ⚡ daily 2026-07-29 — Claude 无需 CUDA 即可驱动 AMD 新 GPU，AI 基础设施硬件锁定风险首次被 AI Agent 自身打破 |
 | [RAG] AWS 发布 LangGraph + Strands 多 Agent 市场监控生产架构 | AWS | 2026-07-29 | multi-agent, workflow, orchestration | https://aws.amazon.com/blogs/machine-learning/market-surveillance-agent-with-langgraph-and-strands-on-agentcore/ | [RAG] | 🔧 daily 2026-07-29 — LangGraph 编排 + Strands 推理 + Bedrock AgentCore 部署，完整生产级多 Agent 参考架构 |
+| AI Worming through Word：Prompt Injection 升级为自复制蠕虫 | Håkon Måløy | 2026-07-30 | security, prompt-injection, agent | https://simonwillison.net/2026/Jul/29/ai-worming-through-word/#atom-everything |  | ⚡ daily 2026-07-30 — Prompt injection 从单文档攻击升级为可自我复制的蠕虫 |
+| ThunderAgent: 2x Faster Agentic Inference for Synthetic Data Generation | Together AI | 2026-07-30 | agent, agentic, inference, scaling | https://www.together.ai/blog/thunderagent |  | 🔧 daily 2026-07-30 — 程序感知调度器消除 KV cache thrashing，单节点吞吐 2x+ |
+| Amazon Bedrock AgentCore Identity：Private Key JWT 认证 | AWS | 2026-07-30 | agent, security, authentication | https://aws.amazon.com/blogs/machine-learning/authenticate-with-private-key-jwt-using-amazon-bedrock-agentcore-identity/ |  | 📖 daily 2026-07-30 — AgentCore Identity 支持 PK JWT 客户端认证，Agent 身份验证标准化 |
+| How GPT-5.6 fuses frontier intelligence with frontier efficiency | OpenAI | 2026-07-30 | agent, agentic, workflow, efficiency | https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency |  | 🔧 daily 2026-07-30 — GPT-5.6 专注 agentic workflow 效率优化，直接影响 Agent 部署成本 |
+| 全球千人联名逼 AI 刹车，OpenAI、Anthropic 带头签署 | — | 2026-07-30 | safety, policy, industry | https://www.36kr.com/p/3915961421737608 |  | ⚡ daily 2026-07-30 — OpenAI + Anthropic 带头签署安全倡议，AI 安全升级为行业集体行动 |
+| AWS Bedrock AgentCore 用 MCP Servers 生成自主商业洞察 | AWS | 2026-07-30 | agent, mcp, autonomous, enterprise | https://aws.amazon.com/blogs/machine-learning/generate-autonomous-business-insights-with-ai-agent-and-mcp-servers/ |  | 🔧 daily 2026-07-30 — 预建 MCP 连接器 + 细粒度访问控制 + 持久记忆，企业级自主 BI |
+| Codex 终于反超 Claude Code，但付出了惨重代价 | OpenAI | 2026-07-30 | coding-agent, benchmark, competition | https://www.36kr.com/p/3915298041834883 |  | ⚡ daily 2026-07-30 — 编码 Agent 赛道竞争白热化，Codex 基准反超但伴随代价 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
