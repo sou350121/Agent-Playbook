@@ -981,6 +981,13 @@
 | 全球千人联名逼 AI 刹车，OpenAI、Anthropic 带头签署 | — | 2026-07-30 | safety, policy, industry | https://www.36kr.com/p/3915961421737608 |  | ⚡ daily 2026-07-30 — OpenAI + Anthropic 带头签署安全倡议，AI 安全升级为行业集体行动 |
 | AWS Bedrock AgentCore 用 MCP Servers 生成自主商业洞察 | AWS | 2026-07-30 | agent, mcp, autonomous, enterprise | https://aws.amazon.com/blogs/machine-learning/generate-autonomous-business-insights-with-ai-agent-and-mcp-servers/ |  | 🔧 daily 2026-07-30 — 预建 MCP 连接器 + 细粒度访问控制 + 持久记忆，企业级自主 BI |
 | Codex 终于反超 Claude Code，但付出了惨重代价 | OpenAI | 2026-07-30 | coding-agent, benchmark, competition | https://www.36kr.com/p/3915298041834883 |  | ⚡ daily 2026-07-30 — 编码 Agent 赛道竞争白热化，Codex 基准反超但伴随代价 |
+| OpenAI公布GPT-5.6自进化秘籍：自主优化GPU内核降本20%，翁荔被曝回归 | OpenAI | 2026-07-31 | gpt-5.6, self-optimization, inference | https://www.36kr.com/p/3917509136346498 |  | ⚡ daily 2026-07-31 — GPT-5.6 Sol用Codex自主优化GPU内核和推测解码，推理成本降20%、token效率升15%+；翁荔回归信号强烈 |
+| Grok Voice Think Fast 2.0登顶Tau Voice智能体基准，响应仅0.7秒 | SpaceXAI | 2026-07-31 | speech, agent, realtime | https://www.36kr.com/p/3917509234699651 |  | 🔧 daily 2026-07-31 — 语音到语音智能体性能第一，0.7秒首响应，价格仅为GPT-Realtime-2.1的45%，边说边推理 |
+| GPT-5.6 Luna降价80%、Terra降价20%，OpenAI推出Fast mode | OpenAI | 2026-07-31 | gpt-5.6, pricing, inference | https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6/ |  | 🔧 daily 2026-07-31 — 自进化优化成果传导至客户：Luna降价80%、Terra降20%，新增Fast mode最高2.5倍速 |
+| OpenAI Codex Security CLI 正式开源，三行命令跑完代码安全扫描 | OpenAI | 2026-07-31 | security, open-source, codex | https://www.36kr.com/p/3917796249071239 |  | 🔧 daily 2026-07-31 — 继黄仁勋力挺开源后OpenAI迈出实质性一步——开源CLI+TS SDK，但模型层仍握在自己手里 |
+| Gemini Robotics ER 2发布：视频理解+任务编排+多机器人协作 | Google DeepMind | 2026-07-31 | robotics, orchestration, VLA | https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-robotics-er-2/ |  | ⚡ daily 2026-07-31 — 具身智能高层大脑——连续视频追踪进度、自纠错、多机器人协作，已开放API |
+| Amazon Bedrock Advanced Prompt Optimization：一次优化最多5个模型 | AWS | 2026-07-31 | prompt-optimization, bedrock, evaluation | https://aws.amazon.com/blogs/machine-learning/migrate-your-prompts-to-new-models-and-optimize-them-on-amazon-bedrock/ |  | 🔧 daily 2026-07-31 — RL风格反馈循环自动优化prompt，替代天级别手动迭代，解决模型锁定痛点 |
+| Weaviate Foundry：用检索解决创意工作流中的资产组织难题 | Weaviate | 2026-07-31 | retrieval, creative-workflow, vector | https://weaviate.io/blog/building-foundry-ai-creative-workflows |  | 📖 daily 2026-07-31 — 将向量检索引入游戏/影视/设计资产库，解决'找不到旧素材就重做'的行业痛点 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
