@@ -988,6 +988,13 @@
 | Gemini Robotics ER 2发布：视频理解+任务编排+多机器人协作 | Google DeepMind | 2026-07-31 | robotics, orchestration, VLA | https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-robotics-er-2/ |  | ⚡ daily 2026-07-31 — 具身智能高层大脑——连续视频追踪进度、自纠错、多机器人协作，已开放API |
 | Amazon Bedrock Advanced Prompt Optimization：一次优化最多5个模型 | AWS | 2026-07-31 | prompt-optimization, bedrock, evaluation | https://aws.amazon.com/blogs/machine-learning/migrate-your-prompts-to-new-models-and-optimize-them-on-amazon-bedrock/ |  | 🔧 daily 2026-07-31 — RL风格反馈循环自动优化prompt，替代天级别手动迭代，解决模型锁定痛点 |
 | Weaviate Foundry：用检索解决创意工作流中的资产组织难题 | Weaviate | 2026-07-31 | retrieval, creative-workflow, vector | https://weaviate.io/blog/building-foundry-ai-creative-workflows |  | 📖 daily 2026-07-31 — 将向量检索引入游戏/影视/设计资产库，解决'找不到旧素材就重做'的行业痛点 |
+| Everyone is building LLM routers, we deprecated ours | manifest.build | 2026-08-01 | llm-routing, gateway, cost-optimization | https://manifest.build/blog/why-we-deprecated-our-llm-router/ |  | ⚡ daily 2026-08-01 — 反直觉实践：弃用自研 LLM 路由，质疑行业跟风造轮子 |
+| Stateless MCP 2.0 重燃 Simon Willison 兴趣，催生 mcp-explorer + datasette-mcp | Simon Willison | 2026-08-01 | mcp, stateless, tool-calling | https://simonwillison.net/2026/Jul/31/stateless-mcp/#atom-everything | 🎯 | 🔧 daily 2026-08-01 — MCP 2.0 规范全面 Stateless，Simon 据此开发了两个新工具 |
+| Together AI：LLM 推理端点自动扩缩容最佳实践 | Together AI | 2026-08-01 | autoscaling, inference, llmops | https://www.together.ai/blog/autoscaling-endpoints-for-llm-inference |  | 🔧 daily 2026-08-01 — 解决 GPU 利用率健康但队列积压的经典 autoscaling 难题 |
+| 🎯 Amazon Quick 推出 Agentic Catalog Experience，自然语言发现数据资产 | AWS | 2026-08-01 | agentic, data-catalog, aws-glue | https://aws.amazon.com/blogs/machine-learning/announcing-the-agentic-catalog-experience-in-amazon-quick/ | 🎯 | 🔧 daily 2026-08-01 — 用 Agentic 工作流让数据策展人用自然语言发现和创建 Dataset |
+| Amazon Bedrock AgentCore Observability：生产 Agent 性能瓶颈诊断 | AWS | 2026-08-01 | observability, agent, bedrock | https://aws.amazon.com/blogs/machine-learning/optimizing-production-agents-with-amazon-bedrock-agentcore-observability/ |  | 🔧 daily 2026-08-01 — Agent 从原型到生产的关键一步：用 CloudWatch 定位性能瓶颈 |
+| DeepSeek-V4-Flash-0731 发布：304B 参数，agentic 能力大幅提升 | deepseek-ai | 2026-08-01 | deepseek, agentic, open-weight | https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731/#atom-everything |  | ⚡ daily 2026-08-01 — V4 家族新成员，304B 参数但性能越级，性价比路线延续 |
+| OpenAI 宣布模型覆盖超 10 亿活跃用户、200 万企业 | OpenAI | 2026-08-01 | openai, milestone, adoption | https://readhub.cn/topic/8vDann939RD |  | ⚡ daily 2026-08-01 — AI 行业首个 10 亿用户里程碑，标志 AI 助手进入主流 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
