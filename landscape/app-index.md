@@ -995,6 +995,12 @@
 | Amazon Bedrock AgentCore Observability：生产 Agent 性能瓶颈诊断 | AWS | 2026-08-01 | observability, agent, bedrock | https://aws.amazon.com/blogs/machine-learning/optimizing-production-agents-with-amazon-bedrock-agentcore-observability/ |  | 🔧 daily 2026-08-01 — Agent 从原型到生产的关键一步：用 CloudWatch 定位性能瓶颈 |
 | DeepSeek-V4-Flash-0731 发布：304B 参数，agentic 能力大幅提升 | deepseek-ai | 2026-08-01 | deepseek, agentic, open-weight | https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731/#atom-everything |  | ⚡ daily 2026-08-01 — V4 家族新成员，304B 参数但性能越级，性价比路线延续 |
 | OpenAI 宣布模型覆盖超 10 亿活跃用户、200 万企业 | OpenAI | 2026-08-01 | openai, milestone, adoption | https://readhub.cn/topic/8vDann939RD |  | ⚡ daily 2026-08-01 — AI 行业首个 10 亿用户里程碑，标志 AI 助手进入主流 |
+| Greg Brockman：ChatGPT 不该代替人发 Slack 消息 | Greg Brockman | 2026-08-02 | agent-ux, human-ai | https://simonwillison.net/2026/Aug/1/greg-brockman/#atom-everything |  | 📖 daily 2026-08-02 — OpenAI 联合创始人指出 AI Agent 应增强而非替代人际互动，对 Agent UX 设计有方向性意义 |
+| Kimi K3 完整开发者指南：3T 参数开放权重模型实战 | Moonshot AI / Together AI | 2026-08-02 | open-weights, large-model, developer-guide | https://www.together.ai/blog/kimi-k3-guide |  | 📖 daily 2026-08-02 — 首个 3T 参数开放权重模型的最新开发指南，含 benchmark 数据和 API 调用示例 |
+| DeepSeek-V4-Flash 正式版跑分：单任务成本比 GPT-5.6 Luna 低 60% | DeepSeek | 2026-08-02 | benchmark, cost-efficiency, agentic | https://m.ithome.com/html/984417.htm |  | ⚡ daily 2026-08-02 — （续报）新跑分显示 V4-Flash 在成本上大幅领先 Luna，Agent 场景性价比优势显著 |
+| datasette-apps 0.2a0：Agent 驱动的数据库应用框架 | simonw | 2026-08-02 | agent-ui, datasette, database-app | https://simonwillison.net/2026/Aug/1/datasette-apps/#atom-everything | 🎯 agent-ui | 🔧 daily 2026-08-02 — 新增 app_debug() 工具，支持 Agent 在不可见 iframe 中调试应用，提升 Agent 开发体验 |
+| Orchard：开源 Agentic 建模框架，SWE-bench 达 73% | Jianfeng Gao 团队 | 2026-08-02 | agentic, swe-bench, rl-training | https://arxiv.org/abs/2605.15040 |  | 🔧 daily 2026-08-02 — Kubernetes-native Agent 环境层 + SFT/RL 训练配方，Qwen3.5-35B backbone 达 SWE-bench 73%（arXiv） |
+| LayerRAG-Bench：Agentic RAG 跨层可靠性基准 | Musa Shams | 2026-08-02 | rag, benchmark, reliability | https://arxiv.org/abs/2607.27353 | [RAG] | 📖 daily 2026-08-02 — 8 企业域 / 240 任务 / 38880 条记录，揭示 schema 归一化可修 schema drift 但无法恢复过期证据（arXiv） |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
