@@ -1001,6 +1001,7 @@
 | datasette-apps 0.2a0：Agent 驱动的数据库应用框架 | simonw | 2026-08-02 | agent-ui, datasette, database-app | https://simonwillison.net/2026/Aug/1/datasette-apps/#atom-everything | 🎯 agent-ui | 🔧 daily 2026-08-02 — 新增 app_debug() 工具，支持 Agent 在不可见 iframe 中调试应用，提升 Agent 开发体验 |
 | Orchard：开源 Agentic 建模框架，SWE-bench 达 73% | Jianfeng Gao 团队 | 2026-08-02 | agentic, swe-bench, rl-training | https://arxiv.org/abs/2605.15040 |  | 🔧 daily 2026-08-02 — Kubernetes-native Agent 环境层 + SFT/RL 训练配方，Qwen3.5-35B backbone 达 SWE-bench 73%（arXiv） |
 | LayerRAG-Bench：Agentic RAG 跨层可靠性基准 | Musa Shams | 2026-08-02 | rag, benchmark, reliability | https://arxiv.org/abs/2607.27353 | [RAG] | 📖 daily 2026-08-02 — 8 企业域 / 240 任务 / 38880 条记录，揭示 schema 归一化可修 schema drift 但无法恢复过期证据（arXiv） |
+| OpenAI Astra 用 ~$2000 攻克 10 项十年未解数学难题，Lean 4 形式化验证 | OpenAI | 2026-08-03 | astra, math, formal-verification | https://openai.com/index/ten-advances-in-mathematics/ |  | ⚡ daily 2026-08-03 — 下一代模型 Astra 在评估中意外产出 10 项数学突破，涵盖高维几何/群论/量子复杂度，总成本仅 ~$2000，全部附带 Lean 4 证书 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
