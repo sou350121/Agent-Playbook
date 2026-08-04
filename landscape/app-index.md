@@ -1002,6 +1002,12 @@
 | Orchard：开源 Agentic 建模框架，SWE-bench 达 73% | Jianfeng Gao 团队 | 2026-08-02 | agentic, swe-bench, rl-training | https://arxiv.org/abs/2605.15040 |  | 🔧 daily 2026-08-02 — Kubernetes-native Agent 环境层 + SFT/RL 训练配方，Qwen3.5-35B backbone 达 SWE-bench 73%（arXiv） |
 | LayerRAG-Bench：Agentic RAG 跨层可靠性基准 | Musa Shams | 2026-08-02 | rag, benchmark, reliability | https://arxiv.org/abs/2607.27353 | [RAG] | 📖 daily 2026-08-02 — 8 企业域 / 240 任务 / 38880 条记录，揭示 schema 归一化可修 schema drift 但无法恢复过期证据（arXiv） |
 | OpenAI Astra 用 ~$2000 攻克 10 项十年未解数学难题，Lean 4 形式化验证 | OpenAI | 2026-08-03 | astra, math, formal-verification | https://openai.com/index/ten-advances-in-mathematics/ |  | ⚡ daily 2026-08-03 — 下一代模型 Astra 在评估中意外产出 10 项数学突破，涵盖高维几何/群论/量子复杂度，总成本仅 ~$2000，全部附带 Lean 4 证书 |
+| OpenAI GPT-Live: 连续语音交互系统，零轮次切换即时对话 | OpenAI | 2026-08-04 | voice, realtime, speech | https://openai.com/index/continuous-voice-interaction-with-gpt-live |  | ⚡ daily 2026-08-04 — 零轮次切换语音模型，延迟大幅降低，定义下一代语音交互标准 |
+| Don't be a meat proxy — AI 时代开发者价值定位 | Simon Willison | 2026-08-04 | vibe-coding, developer-workflow | https://simonwillison.net/2026/Aug/3/dont-be-a-meat-proxy/#atom-everything |  | 📖 daily 2026-08-04 — Niklas Gruhn 提出 meat proxy 概念：盲抄 AI 输出 vs 理解后传达，定义开发者新价值标准 |
+| F1 用 Agentic AI 在 AWS Bedrock 上将数据接入从 8 周缩短至 40 分钟 | AWS | 2026-08-04 | agent, agentic, observability | https://aws.amazon.com/blogs/machine-learning/from-weeks-to-minutes-how-formula-1-uses-agentic-ai-on-aws-to-accelerate-data-operations/ |  | 🔧 daily 2026-08-04 — AgentCore 驱动 MarTech 平台，自动化调度+质量检查，生产级 Agentic AI 标杆案例 |
+| Amazon Bedrock 自动推理策略精炼：AI 诊断失败测试并生成形式逻辑修复 | AWS | 2026-08-04 | workflow, guardrail, reasoning | https://aws.amazon.com/blogs/machine-learning/automated-reasoning-policy-refinement-in-amazon-bedrock/ |  | 🔧 daily 2026-08-04 — 自动诊断策略失败原因并生成形式逻辑修复，用户审批后生效，降低策略维护门槛 |
+| 🎯 AgentScope 2.0：从「接大模型」到多 Agent 协作框架的全面升级 | — | 2026-08-04 | agent, multi-agent, framework | https://juejin.cn/post/7668341210565099520 | 🎯 agent-ui | 🔧 daily 2026-08-04 — 超越简单 Prompt+Tool 模式，提供完整多 Agent 协作基础设施 |
+| David Crawshaw 的 nightly cron prompt：Agent 自动 rebase 上游代码变更 | David Crawshaw | 2026-08-04 | agent, automation, developer-workflow | https://simonwillison.net/2026/Aug/3/david-crawshaw/#atom-everything |  | 🔧 daily 2026-08-04 — 极简 nightly cron agent：fetch upstream + rebase + 验证，展示 agent 自动化日常维护的实用范式 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
