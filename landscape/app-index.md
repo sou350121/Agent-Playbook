@@ -1008,6 +1008,14 @@
 | Amazon Bedrock 自动推理策略精炼：AI 诊断失败测试并生成形式逻辑修复 | AWS | 2026-08-04 | workflow, guardrail, reasoning | https://aws.amazon.com/blogs/machine-learning/automated-reasoning-policy-refinement-in-amazon-bedrock/ |  | 🔧 daily 2026-08-04 — 自动诊断策略失败原因并生成形式逻辑修复，用户审批后生效，降低策略维护门槛 |
 | 🎯 AgentScope 2.0：从「接大模型」到多 Agent 协作框架的全面升级 | — | 2026-08-04 | agent, multi-agent, framework | https://juejin.cn/post/7668341210565099520 | 🎯 agent-ui | 🔧 daily 2026-08-04 — 超越简单 Prompt+Tool 模式，提供完整多 Agent 协作基础设施 |
 | David Crawshaw 的 nightly cron prompt：Agent 自动 rebase 上游代码变更 | David Crawshaw | 2026-08-04 | agent, automation, developer-workflow | https://simonwillison.net/2026/Aug/3/david-crawshaw/#atom-everything |  | 🔧 daily 2026-08-04 — 极简 nightly cron agent：fetch upstream + rebase + 验证，展示 agent 自动化日常维护的实用范式 |
+| 黑石集团为 Anthropic 芯片交易推销 360 亿美元债务融资 | Anthropic | 2026-08-05 | anthropic, infrastructure, funding | https://readhub.cn/topic/8vKBCgn7Cp8 |  | ⚡ daily 2026-08-05 — Anthropic 正秘密提交 IPO 申请并大规模融资芯片基础设施，抢在 OpenAI 之前登陆公开市场 |
+| Amazon Bedrock Web Search GA：原生网页搜索 grounding 能力 | AWS | 2026-08-05 | bedrock, rag, grounding | https://aws.amazon.com/blogs/machine-learning/introducing-web-search-on-amazon-bedrock-for-foundation-model-grounding/ | [RAG] | 🔧 daily 2026-08-05 — Bedrock 原生集成 Web Search 作为 server-side grounding 工具，简化 RAG pipeline 架构 |
+| MiniMax-H3-mlx: MiniMax omni-modal 模型的 MLX 移植 | PipeNetwork | 2026-08-05 | multimodal, mlx, on-device | https://simonwillison.net/2026/Aug/4/minimax-h3-mlx/#atom-everything |  | 📖 daily 2026-08-05 — MiniMax-H3（文本/图像/音频/视频）移植到 Apple MLX，使 omni-modal 模型可在 Mac/iOS 本地运行 |
+| 苹果请求法官即刻禁止 OpenAI 使用其商业秘密 | Apple/OpenAI | 2026-08-05 | openai, legal, apple | https://readhub.cn/topic/8vJcwlZLmL2 |  | ⚡ daily 2026-08-05 — 苹果诉 OpenAI 窃取商业秘密案升级，要求立即停止使用并归还机密信息，影响 AI 公司数据采集边界 |
+| LiquidAI LFM2.5-2.6B：专为本地 Agent 部署设计的小模型 | LiquidAI | 2026-08-05 | agent, small-model, on-device | https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b | 🎯 agent-ui | 🔧 daily 2026-08-05 — 2.6B 参数模型专为本地 agent 部署优化，支持边缘设备上的低延迟推理 |
+| OpenRouter: DeepSeek-V4-Flash 单周调用超 7.22 万亿 Token 登顶 | DeepSeek | 2026-08-05 | deepseek, usage-stats, gateway | https://m.ithome.com/html/985307.htm |  | 📖 daily 2026-08-05 — DeepSeek-V4-Flash 在 OpenRouter 单周 Token 消耗登顶，显示其性价比优势驱动大规模采用 |
+| Steve Yegge: Opus 4.7 让 Gas Town 工作流崩塌 — 模型回退警示 | Steve Yegge | 2026-08-05 | agent, reliability, model-eval | https://simonwillison.net/2026/Aug/4/steve-yegge/#atom-everything | 🎯 agent-ui | 📖 daily 2026-08-05 — Yegge 分享 Opus 4.6→4.7 升级导致复杂 Agent 工作流失效的真实案例，揭示 Agent 对模型版本敏感性 |
+| Kimi K3 与 DeepSeek V4 之间，隔着原生多模态的时间差 | Moonshot/DeepSeek | 2026-08-05 | kimi, deepseek, multimodal | https://www.36kr.com/p/3924826666301831 |  | 📖 daily 2026-08-05 — 分析 Kimi K3 开放权重优势与 DeepSeek V4 原生多模态能力的竞争格局 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
