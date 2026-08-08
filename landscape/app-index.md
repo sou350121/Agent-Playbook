@@ -1029,6 +1029,14 @@
 | OpenAI 免费用户默认模型升级为 GPT-5.6 Luna，Plus/Pro 获 GPT-5.6 Sol 更新 | OpenAI | 2026-08-07 | gpt, chatgpt, free-tier | https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt |  | ⚡ daily 2026-08-07 — 免费用户获 GPT-5.6 Luna 无限量文本聊天，Plus/Pro 用户 SOL 更新事实准确性提升 62% |
 | Google DeepMind 管理层大调整：Hassabis 退居主席，Koray 接任日常运营 | Google/Alphabet | 2026-08-07 | leadership, deepmind, gemini | https://www.36kr.com/p/3927272381430146 |  | ⚡ daily 2026-08-07 — Hassabis 转任主席专注 AGI 战略，Koray Kavukcuoglu 升任 SVP 接管 Gemini 研发——Alphabet 股价跌 4% |
 | 中国 AI 原生 App 月活 Top 10：豆包 3.82 亿断层第一 | ByteDance/阿里/DeepSeek | 2026-08-07 | market-data, china-ai, user-stats | https://readhub.cn/topic/8vLUjyA2kBz |  | 📖 daily 2026-08-07 — Quest Mobile 2026年6月数据：豆包月活3.82亿，千问1.67亿，DeepSeek挤进前三——综合助手占前四席 |
+| Databricks drove down AI coding spend 70% | Databricks | 2026-08-08 | ai-coding, cost-optimization, llmops | https://www.databricks.com/blog/managing-ai-coding-costs-scale |  | ⚡ daily 2026-08-08 — 大规模 AI 编码成本管理的实战经验，展示 70% 降本方案 |
+| OpenAI: Responding to the next frontier of critical cyber capabilities | OpenAI | 2026-08-08 | security, cyber, evaluation | https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/ |  | ⚡ daily 2026-08-08 — OpenAI 正式回应 AI 模型网络安全能力边界，影响安全评估生态 |
+| Now we have a timeline of the OpenAI accidental attack against Hugging Face | Simon Willison | 2026-08-08 | security, huggingface, openai | https://simonwillison.net/2026/Aug/7/openai-timeline/ |  | ⚡ daily 2026-08-08 — OpenAI-HF 安全事件完整时间线，AI 安全红线再敲警钟 |
+| Cohere Health digitizes clinical policies using Amazon Bedrock AgentCore | AWS | 2026-08-08 | agent, healthcare, bedrock | https://aws.amazon.com/blogs/machine-learning/how-cohere-health-digitizes-clinical-policies-using-amazon-bedrock-agentcore/ |  | 🔧 daily 2026-08-08 — 多租户 Agent 架构在医疗政策数字化中的落地案例 |
+| TReNDS automates root-cause analysis with Amazon Bedrock | AWS | 2026-08-08 | agent, observability, bedrock | https://aws.amazon.com/blogs/machine-learning/how-trends-automates-root-cause-analysis-with-amazon-bedrock/ |  | 🔧 daily 2026-08-08 — Strands Agents SDK 实现生产错误自动根因分析，1小时→分钟级 |
+| Anthropic：自 8 月 14 日起，Claude Code 将默认启用自动模式 | Anthropic | 2026-08-08 | agent, coding-agent, anthropic | https://readhub.cn/topic/8vPR4DuRxkv |  | ⚡ daily 2026-08-08 — Claude Code 自动模式成默认，Agent 自主性再上台阶 |
+| OpenAI 音箱：果味设计，但比苹果多走一步 | OpenAI | 2026-08-08 | hardware, speaker, openai | https://www.36kr.com/p/3928861549869446 |  | 📖 daily 2026-08-08 — OpenAI 硬件新品，AI 助手从屏幕走向物理空间 |
+| 王兴兴回应 DeepSeek 参与宇树科技 IPO 战略配售 | DeepSeek / Unitree | 2026-08-08 | robotics, deepseek, investment | https://readhub.cn/topic/8vOx3ZkdkZK |  | ⚡ daily 2026-08-08 — DeepSeek 母公司入股宇树科技，大模型公司布局具身智能 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
