@@ -1037,6 +1037,10 @@
 | Anthropic：自 8 月 14 日起，Claude Code 将默认启用自动模式 | Anthropic | 2026-08-08 | agent, coding-agent, anthropic | https://readhub.cn/topic/8vPR4DuRxkv |  | ⚡ daily 2026-08-08 — Claude Code 自动模式成默认，Agent 自主性再上台阶 |
 | OpenAI 音箱：果味设计，但比苹果多走一步 | OpenAI | 2026-08-08 | hardware, speaker, openai | https://www.36kr.com/p/3928861549869446 |  | 📖 daily 2026-08-08 — OpenAI 硬件新品，AI 助手从屏幕走向物理空间 |
 | 王兴兴回应 DeepSeek 参与宇树科技 IPO 战略配售 | DeepSeek / Unitree | 2026-08-08 | robotics, deepseek, investment | https://readhub.cn/topic/8vOx3ZkdkZK |  | ⚡ daily 2026-08-08 — DeepSeek 母公司入股宇树科技，大模型公司布局具身智能 |
+| SpaceX 600 亿美元收购 Cursor：品牌将淘汰，Sand Agent 或改名 Grok Bot | Cursor (Anysphere) | 2026-08-09 | coding-agent, acquisition, agent-ui | https://www.36kr.com/p/3930343633141121 | 🎯 agent-ui | ⚡ daily 2026-08-09 — AI 编程领域最大收购案，Cursor 品牌将被淘汰，模型中立性受质疑 |
+| OpenAI 主动放缓 Astra 研发：网络安全能力触及 Preparedness Framework 红线 | OpenAI | 2026-08-09 | safety, guardrail, llmops | https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/ | [evaluation] | ⚡ daily 2026-08-09 — 前沿实验室首次因模型网络安全能力主动放缓研发，自愿通报白宫 |
+| The Bitter Lesson of Tool Calling：程序化工具调用全面超越 JSON 工具调用 | E. Lumer | 2026-08-09 | tool-calling, agent, benchmark | https://arxiv.org/abs/2608.06370 |  | 🔧 daily 2026-08-09 — 14 模型 BFCL v4 基准显示 PTC 在 11/14 模型上超越 JSON，GPT-5.6 提升 10.6%（arXiv） |
+| NeSy-RAG：用 Prolog 模块让 RAG 推理可解释 + 自动检测知识缺口 | J. Gann | 2026-08-09 | rag, retrieval, evaluation | https://arxiv.org/abs/2608.06292 | [RAG] | 🔧 daily 2026-08-09 — 神经符号混合 RAG，ShARC 准确率 61.1% vs 基线 42.8%，带透明推理轨迹（arXiv） |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
