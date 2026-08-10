@@ -1041,6 +1041,11 @@
 | OpenAI 主动放缓 Astra 研发：网络安全能力触及 Preparedness Framework 红线 | OpenAI | 2026-08-09 | safety, guardrail, llmops | https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/ | [evaluation] | ⚡ daily 2026-08-09 — 前沿实验室首次因模型网络安全能力主动放缓研发，自愿通报白宫 |
 | The Bitter Lesson of Tool Calling：程序化工具调用全面超越 JSON 工具调用 | E. Lumer | 2026-08-09 | tool-calling, agent, benchmark | https://arxiv.org/abs/2608.06370 |  | 🔧 daily 2026-08-09 — 14 模型 BFCL v4 基准显示 PTC 在 11/14 模型上超越 JSON，GPT-5.6 提升 10.6%（arXiv） |
 | NeSy-RAG：用 Prolog 模块让 RAG 推理可解释 + 自动检测知识缺口 | J. Gann | 2026-08-09 | rag, retrieval, evaluation | https://arxiv.org/abs/2608.06292 | [RAG] | 🔧 daily 2026-08-09 — 神经符号混合 RAG，ShARC 准确率 61.1% vs 基线 42.8%，带透明推理轨迹（arXiv） |
+| OpenChamber: An Agentic Development Environment | — | 2026-08-10 | agent, agentic, dev-environment | https://openchamber.dev/ |  | 🔧 daily 2026-08-10 — 全新 agentic 开发环境，HN 94 points，提供 Agent 驱动的开发体验 |
+| GitHub Models is now retired | Microsoft/GitHub | 2026-08-10 | infrastructure, github, model-hosting | https://simonwillison.net/2026/Aug/9/github-models-is-now-retired/#atom-everything |  | ⚡ daily 2026-08-10 — GitHub 正式退役 Models 服务，影响大量 Agent/LLM 开发工作流 |
+| Quoting Claude Opus 5 system prompt | Anthropic | 2026-08-10 | prompt, claude, system-prompt | https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/#atom-everything |  | 📖 daily 2026-08-10 — Claude Opus 5 系统提示词公开，揭示 Anthropic 最新安全与行为策略 |
+| How I use LLMs to learn complex topics | — | 2026-08-10 | llm, learning, productivity | https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/ |  | 📖 daily 2026-08-10 — HN 323 points 热帖，展示 LLM 辅助深度学习的实用方法论 |
+| 谷歌AI大换血，背后究竟发生了什么？ | Google | 2026-08-10 | google, deepmind, management | https://www.huxiu.com/article/4881091.html |  | 📖 daily 2026-08-10 — Google DeepMind 管理层调整后续深度分析（续报） |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
