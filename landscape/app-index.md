@@ -1046,6 +1046,11 @@
 | Quoting Claude Opus 5 system prompt | Anthropic | 2026-08-10 | prompt, claude, system-prompt | https://simonwillison.net/2026/Aug/9/claude-opus-5-system-prompt/#atom-everything |  | 📖 daily 2026-08-10 — Claude Opus 5 系统提示词公开，揭示 Anthropic 最新安全与行为策略 |
 | How I use LLMs to learn complex topics | — | 2026-08-10 | llm, learning, productivity | https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/ |  | 📖 daily 2026-08-10 — HN 323 points 热帖，展示 LLM 辅助深度学习的实用方法论 |
 | 谷歌AI大换血，背后究竟发生了什么？ | Google | 2026-08-10 | google, deepmind, management | https://www.huxiu.com/article/4881091.html |  | 📖 daily 2026-08-10 — Google DeepMind 管理层调整后续深度分析（续报） |
+| OpenAI 在 ChatGPT 中测试广告 | OpenAI | 2026-08-12 | chatgpt, ads, monetization | https://openai.com/index/testing-ads-in-chatgpt |  | ⚡ daily 2026-08-12 — OpenAI 首次在产品中引入广告，标志免费层商业模式重大转向 |
+| Claude Apps Gateway for AWS 企业部署指南 | Anthropic/AWS | 2026-08-12 | gateway, deployment, enterprise | https://aws.amazon.com/blogs/machine-learning/deploying-anthropic-claude-apps-gateway-for-aws-for-enterprise-workloads/ |  | 🔧 daily 2026-08-12 — 自托管治理层连接 Claude Code/Desktop 与 Bedrock，填补企业管控空白 |
+| Stealing Reasoning Traces：闭源 LLM API 的 CoT 重放攻击 | — | 2026-08-12 | security, llm, chain-of-thought | https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/ |  | ⚡ daily 2026-08-12 — Anthropic/OpenAI/Google 返回的加密 CoT 可跨会话重放，暴露推理链安全漏洞 |
+| Weaviate Query Agent 搜索模式支持三级算力调节 | Weaviate | 2026-08-12 | agent, retrieval, test-time-compute | https://weaviate.io/blog/search-mode-effort | 🎯 agent-ui | 🔧 daily 2026-08-12 — medium/high/ultrahigh 三级 effort 让检索 Agent 可按需分配推理算力 |
+| Claude 上线隐形文本水印，每个字可全球追踪 | Anthropic | 2026-08-12 | watermark, claude, content-provenance | https://www.36kr.com/p/3934784035356034 |  | ⚡ daily 2026-08-12 — Claude 悄悄部署逐字隐形水印，内容溯源能力进入新阶段 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
