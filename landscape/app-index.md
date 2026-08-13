@@ -1051,6 +1051,14 @@
 | Stealing Reasoning Traces：闭源 LLM API 的 CoT 重放攻击 | — | 2026-08-12 | security, llm, chain-of-thought | https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/ |  | ⚡ daily 2026-08-12 — Anthropic/OpenAI/Google 返回的加密 CoT 可跨会话重放，暴露推理链安全漏洞 |
 | Weaviate Query Agent 搜索模式支持三级算力调节 | Weaviate | 2026-08-12 | agent, retrieval, test-time-compute | https://weaviate.io/blog/search-mode-effort | 🎯 agent-ui | 🔧 daily 2026-08-12 — medium/high/ultrahigh 三级 effort 让检索 Agent 可按需分配推理算力 |
 | Claude 上线隐形文本水印，每个字可全球追踪 | Anthropic | 2026-08-12 | watermark, claude, content-provenance | https://www.36kr.com/p/3934784035356034 |  | ⚡ daily 2026-08-12 — Claude 悄悄部署逐字隐形水印，内容溯源能力进入新阶段 |
+| Grok Bot 发布：马斯克收购 Cursor 后的首个重大产品 | SpaceXAI | 2026-08-13 | agent, cloud-agent, cursor | https://x.ai/bot | 🎯 agent-ui | ⚡ daily 2026-08-13 — 云端AI队友，7×24在线，继承Cursor生态，直接对标Claude Cowork |
+| Grok 4.6 模型发布：61分追平 GPT-5.6 Sol，agentic 性能突出 | SpaceXAI | 2026-08-13 | grok, benchmark, agentic | https://artificialanalysis.ai/articles/grok-4-6-benchmarks-and-analysis |  | ⚡ daily 2026-08-13 — agentic性能仅次于Claude Opus 5，定价$2/$6仅为对手40%，已上线Cursor |
+| DeepSeek V4 Pro 0813 正式版上线：100万上下文，默认思考模式 | DeepSeek | 2026-08-13 | deepseek, api, reasoning | https://api-docs.deepseek.com/ |  | 🔧 daily 2026-08-13 — 旗舰模型更新，38.4万最大输出，支持Claude Code/GitHub Copilot等Agent工具直接调用 |
+| Qwen3.8-2.4T (Qwen3.8-Max) 开源：首次 Max 级模型开放 | Alibaba/Qwen | 2026-08-13 | qwen, moe, open-weight, agent | https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B-FP8 |  | ⚡ daily 2026-08-13 — 2.4T参数/95B激活MoE，长程agentic任务大幅增强，vLLM/SGLang兼容 |
+| 前千问负责人林俊旸新公司 Pragmatik Labs：Agent 圣体，腾讯跟投 | Pragmatik Labs | 2026-08-13 | agent, startup, embodied | https://www.36kr.com/p/3935738007485574 |  | 🔧 daily 2026-08-13 — 数字+物理双域Agent，长程任务+研究到产品闭环，离开Qwen仅5个月 |
+| Lovable 完成 $4 亿 C 轮，估值 $133 亿 | Lovable | 2026-08-13 | vibe-coding, funding, agent-ui | https://lovable.dev/blog/series-c | 🎯 agent-ui | 🔧 daily 2026-08-13 — 6000万项目/9亿月访问，从工具到商业生态，获AIUC-1安全认证 |
+| Hax：纯 C 编写的极简终端编码 Agent | O. Chekhovskyi | 2026-08-13 | coding-agent, terminal, local-first | https://usehax.dev/ | 🎯 agent-ui | 🔧 daily 2026-08-13 — 单二进制仅数MB，自动发现本地模型，支持llama.cpp/OpenAI/Anthropic等全栈provider |
+| OneAdvanced 在英国主权 AWS 部署 50+ AI Agents | OneAdvanced | 2026-08-13 | agent, sovereign-ai, rag, strands-sdk | https://aws.amazon.com/blogs/machine-learning/how-oneadvanced-deployed-over-50-ai-agents-on-uk-sovereign-aws/ |  | 📖 daily 2026-08-13 — Llama 4 Maverick + Strands Agents SDK + pgvector RAG，合规行业Agent部署标杆 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
