@@ -1059,6 +1059,14 @@
 | Lovable 完成 $4 亿 C 轮，估值 $133 亿 | Lovable | 2026-08-13 | vibe-coding, funding, agent-ui | https://lovable.dev/blog/series-c | 🎯 agent-ui | 🔧 daily 2026-08-13 — 6000万项目/9亿月访问，从工具到商业生态，获AIUC-1安全认证 |
 | Hax：纯 C 编写的极简终端编码 Agent | O. Chekhovskyi | 2026-08-13 | coding-agent, terminal, local-first | https://usehax.dev/ | 🎯 agent-ui | 🔧 daily 2026-08-13 — 单二进制仅数MB，自动发现本地模型，支持llama.cpp/OpenAI/Anthropic等全栈provider |
 | OneAdvanced 在英国主权 AWS 部署 50+ AI Agents | OneAdvanced | 2026-08-13 | agent, sovereign-ai, rag, strands-sdk | https://aws.amazon.com/blogs/machine-learning/how-oneadvanced-deployed-over-50-ai-agents-on-uk-sovereign-aws/ |  | 📖 daily 2026-08-13 — Llama 4 Maverick + Strands Agents SDK + pgvector RAG，合规行业Agent部署标杆 |
+| The builder's guide to GPT-5.6 | OpenAI | 2026-08-14 | gpt-5.6, agent, responses-api | https://openai.com/index/builders-guide-to-gpt-5-6 |  | ⚡ daily 2026-08-14 — OpenAI 发布 GPT-5.6 构建者指南，详解如何用 Responses API 构建更高效的 AI agent |
+| Introducing Gemini 3.7 Flash | Google DeepMind | 2026-08-14 | gemini, flash, model-release | https://deepmind.google/blog/introducing-gemini-3-7-flash/ |  | ⚡ daily 2026-08-14 — Google 发布 Gemini 3.7 Flash 系列，定位轻量高效推理，对 agent 开发有直接影响 |
+| 前 OpenAI 首席科学家 Ilya 创办的 SSI 首个模型曝光 | SSI (Ilya Sutskever) | 2026-08-14 | ssi, ilya, ttt, test-time-training | https://readhub.cn/topic/8vYjo86voPV |  | ⚡ daily 2026-08-14 — SSI 首个模型基于 TTT（测试时训练）小型推理引擎，推理中动态更新权重，8 月或向少数用户开放 |
+| Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed | OpenAI + Cerebras | 2026-08-14 | gpt-5.6, ultrafast, inference-speed | https://openai.com/index/previewing-ultrafast |  | 🔧 daily 2026-08-14 — 全新 API 服务层级，基于 Cerebras 硬件实现 750 tok/s 输出，agent 延迟大幅降低 |
+| Monitor on-premises and multi-cloud AI agents with AgentCore Observability | AWS | 2026-08-14 | agent, observability, multi-cloud, opentelemetry | https://aws.amazon.com/blogs/machine-learning/monitor-on-premises-and-multi-cloud-ai-agents-with-agentcore-observability/ | 🎯 agent-ui | 🔧 daily 2026-08-14 — AWS AgentCore 可观测性扩展到 AWS 外部，支持本地/GCP/Azure 上的 agent 监控 |
+| Anthropic 或将于 10 月上市，或将成史上最大 IPO | Anthropic | 2026-08-14 | anthropic, IPO, valuation | https://readhub.cn/topic/8vYokSICgPA |  | ⚡ daily 2026-08-14 — Anthropic 预计 10 月以 2 万亿美元估值上市，2026 年底年化营收或达 1000-1200 亿美元 |
+| Automate legacy web applications with Amazon Bedrock AgentCore Browser Tool | AWS | 2026-08-14 | agent, browser-automation, legacy-apps | https://aws.amazon.com/blogs/machine-learning/automate-legacy-web-applications-with-amazon-bedrock-agentcore-browser-tool/ | 🎯 agent-ui | 🔧 daily 2026-08-14 — Bedrock AgentCore 推出浏览器工具，让 agent 模拟人类操作遗留 Web 应用 |
+| Building Foundry Part 2: Where creative workflows break | Weaviate | 2026-08-14 | workflow, retrieval, creative-workflow | https://weaviate.io/blog/building-foundry-where-workflows-break |  | 📖 daily 2026-08-14 — Weaviate 剖析创意工作流中检索系统的真实痛点——文件夹/标签/关键词搜索为何失效 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
