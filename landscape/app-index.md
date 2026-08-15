@@ -1067,6 +1067,14 @@
 | Anthropic 或将于 10 月上市，或将成史上最大 IPO | Anthropic | 2026-08-14 | anthropic, IPO, valuation | https://readhub.cn/topic/8vYokSICgPA |  | ⚡ daily 2026-08-14 — Anthropic 预计 10 月以 2 万亿美元估值上市，2026 年底年化营收或达 1000-1200 亿美元 |
 | Automate legacy web applications with Amazon Bedrock AgentCore Browser Tool | AWS | 2026-08-14 | agent, browser-automation, legacy-apps | https://aws.amazon.com/blogs/machine-learning/automate-legacy-web-applications-with-amazon-bedrock-agentcore-browser-tool/ | 🎯 agent-ui | 🔧 daily 2026-08-14 — Bedrock AgentCore 推出浏览器工具，让 agent 模拟人类操作遗留 Web 应用 |
 | Building Foundry Part 2: Where creative workflows break | Weaviate | 2026-08-14 | workflow, retrieval, creative-workflow | https://weaviate.io/blog/building-foundry-where-workflows-break |  | 📖 daily 2026-08-14 — Weaviate 剖析创意工作流中检索系统的真实痛点——文件夹/标签/关键词搜索为何失效 |
+| 阿里巴巴正式开源 Qwen3.8 系列模型 | Alibaba/Qwen | 2026-08-15 | qwen, open-source, multimodal | https://readhub.cn/topic/8vaqsTRjDk5 |  | ⚡ daily 2026-08-15 — Qwen3.8-27B 原生多模态稠密模型全面开源，整体超越 Qwen3.7-Plus |
+| DeepSeek Harness 发布：不想做下一个 Codex 的编码 Agent | DeepSeek | 2026-08-15 | coding-agent, deepseek, harness | https://www.36kr.com/p/3938529497562503 |  | ⚡ daily 2026-08-15 — DeepSeek 推出全新编码 Agent Harness，差异化定位引发开发者热议 |
+| Building agentic workflows with SageMaker AI and Bedrock AgentCore | AWS | 2026-08-15 | agent, workflow, bedrock, sagemaker | https://aws.amazon.com/blogs/machine-learning/building-agentic-workflows-with-sagemaker-ai-and-bedrock-agentcore/ |  | 🔧 daily 2026-08-15 — AWS 将 SageMaker AI 端点与 Bedrock AgentCore 结合，构建多模型多 Agent 工作流 |
+| Google DeepMind 战略转向：放弃前沿模型研发，或迎大规模裁员 | Google/DeepMind | 2026-08-15 | deepmind, strategy, layoff | https://readhub.cn/topic/8va14LQGLEI |  | ⚡ daily 2026-08-15 — DeepMind 转向 Flash 级别性价比模型，Hassabis 卸任日常管理聚焦 AGI 战略 |
+| Anthropic Risk Report August 2026 | Anthropic | 2026-08-15 | safety, anthropic, risk-assessment | https://www-cdn.anthropic.com/f61d49fa5596956a5dec75fea0e973bf6a6a8378/Redacted%20Risk%20Report%20August%202026%20.pdf | [evaluation] | 📖 daily 2026-08-15 — Anthropic 半年度风险报告更新，含最新能力评估与安全框架 |
+| Google 用同态加密让私有 AI 走向实用 | Google | 2026-08-15 | security, homomorphic-encryption, private-ai | https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/ |  | 📖 daily 2026-08-15 — Google 探索同态加密在 AI 推理中的应用，为数据隐私提供新方案 |
+| Don't classify. Hallucinate! | Simon Willison | 2026-08-15 | rag, embedding, llm, classification | https://simonwillison.net/2026/Aug/14/dont-classify-hallucinate/ | [RAG] | 🔧 daily 2026-08-15 — 用 LLM 的「幻觉」能力替代传统标签分类，为 RAG 后处理提供新思路 |
+| Maximizing the value of your Claude Code sessions | Anthropic | 2026-08-15 | claude-code, coding-agent, best-practices | https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions |  | 📖 daily 2026-08-15 — Anthropic 官方指南：优化 Claude Code 会话效率的最佳实践 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
