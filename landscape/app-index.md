@@ -1078,6 +1078,9 @@
 | Anthropic Risk Report 2 曝光内部最强模型 Model 2，超越 Mythos 5 | Anthropic | 2026-08-16 | anthropic, model-release, safety | https://www-cdn.anthropic.com/f61d49fa5596956a5dec75fea0e973bf6a6a8378/Redacted%20Risk%20Report%20August%202026%20.pdf |  | ⚡ daily 2026-08-16 — Anthropic 首次承认内部运行比 Mythos 5 更强的 Model 2，Claude 已写出内部大多数生产代码，评测出现饱和信号 |
 | Anthropic 官方分享 Claude Code 六大省钱技巧 | Anthropic | 2026-08-16 | claude-code, cost-optimization, agent | https://claude.com/blog/maximizing-the-value-of-your-claude-code-sessions |  | 🔧 daily 2026-08-16 — 详解 prompt caching 机制与 6 条实操技巧，输出 token 价格是输入 5 倍，缓存是核心省钱利器 |
 | 腾讯 QQ Bot 接入 DeepSeek Harness：支持单聊/群聊 AI 智能体 | Tencent | 2026-08-16 | deepseek-harness, qq-bot, agent-integration | https://m.ithome.com/html/990041.htm |  | 🔧 daily 2026-08-16 — QQ Bot 通过 dsh 插件获得 AI 智能体能力，每群独立记忆，三步接入，Harness 生态持续扩展（续报） |
+| OpenAI 人事大震荡：安全团队撤编 + 12位高管离职 | OpenAI | 2026-08-17 | org-change, safety, governance | https://www.36kr.com/p/3941902971993225 |  | ⚡ daily 2026-08-17 — IPO前组织重构，Preparedness安全团队解散，安全从独立建制变为研发环节 |
+| 英伟达洽谈向 SB Energy 投资 30 亿美元 | Nvidia | 2026-08-17 | infrastructure, datacenter, OpenAI | https://readhub.cn/topic/8vcmZY6DUzO |  | 📖 daily 2026-08-17 — OpenAI 数据中心交易组成部分，Nvidia 以财力扶持 AI 基础设施生态 |
+| Qwen 3.8 27B 默认过度推理：实测需手动调低 reasoning_effort | Qwen/Alibaba | 2026-08-17 | llm, reasoning, local-inference | https://simonwillison.net/2026/Aug/16/qwen-38-27b/ |  | 🔧 daily 2026-08-17 — 默认 xhigh 推理消耗大量 token，本地部署需手动调低 reasoning_effort 以平衡速度与质量 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
