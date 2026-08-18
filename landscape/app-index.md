@@ -1081,6 +1081,14 @@
 | OpenAI 人事大震荡：安全团队撤编 + 12位高管离职 | OpenAI | 2026-08-17 | org-change, safety, governance | https://www.36kr.com/p/3941902971993225 |  | ⚡ daily 2026-08-17 — IPO前组织重构，Preparedness安全团队解散，安全从独立建制变为研发环节 |
 | 英伟达洽谈向 SB Energy 投资 30 亿美元 | Nvidia | 2026-08-17 | infrastructure, datacenter, OpenAI | https://readhub.cn/topic/8vcmZY6DUzO |  | 📖 daily 2026-08-17 — OpenAI 数据中心交易组成部分，Nvidia 以财力扶持 AI 基础设施生态 |
 | Qwen 3.8 27B 默认过度推理：实测需手动调低 reasoning_effort | Qwen/Alibaba | 2026-08-17 | llm, reasoning, local-inference | https://simonwillison.net/2026/Aug/16/qwen-38-27b/ |  | 🔧 daily 2026-08-17 — 默认 xhigh 推理消耗大量 token，本地部署需手动调低 reasoning_effort 以平衡速度与质量 |
+| NVIDIA Nemotron 3.5 Lightning 登陆 Amazon SageMaker JumpStart | NVIDIA | 2026-08-18 | agent, agentic, sagemaker | https://aws.amazon.com/blogs/machine-learning/nvidia-nemotron-3-5-lightning-now-available-in-amazon-sagemaker-jumpstart/ |  | ⚡ daily 2026-08-18 — 30B MoE (3B active) 专为高并发 agentic 工作负载优化，SageMaker 一键部署 |
+| Amazon Bedrock AgentCore Payments：让 Agent 自主完成支付 | AWS | 2026-08-18 | agent, mcp, payments | https://aws.amazon.com/blogs/machine-learning/build-openclaw-agents-that-transact-with-amazon-bedrock-agentcore-payments/ |  | ⚡ daily 2026-08-18 — Agent 可自主支付付费 API/MCP 服务，支持 x402 协议 + 人类预设预算上限 |
+| GPT-5.6 Sol 在 AI Gateway 限时 50% 折扣 | Vercel | 2026-08-18 | gateway, gpt, pricing | https://vercel.com/changelog/gpt-5-6-sol-is-50-off-on-ai-gateway-for-the-next-month |  | 📖 daily 2026-08-18 — Vercel AI Gateway 下月 GPT-5.6 Sol 半价，降低 agentic 调用成本 |
+| OpenAI Defender's Window：AI 重塑攻防格局 | OpenAI | 2026-08-18 | security, ai-defense | https://openai.com/index/the-defenders-window |  | 📖 daily 2026-08-18 — AI 同时增强攻防能力，安全团队需把握当前防御窗口期建立体系 |
+| GitHub 开源工具一夜瓦解 Claude/Google/OpenAI 文本水印 | Memo (guillaumemeyer) | 2026-08-18 | watermark, security, claude | https://www.36kr.com/p/3943003753774466 |  | 🔧 daily 2026-08-18 — watermarks-remover 狂揽 11K Star，三层扒皮法清除统计型水印+C2PA 元数据 |
+| Codex 中 GPT-5.6 Sol 百万上下文对 ChatGPT 账号开放 | OpenAI | 2026-08-18 | gpt, codex, context-window | https://readhub.cn/topic/8vexe2ACsgw |  | 🔧 daily 2026-08-18 — Plus/Pro 订阅可手动启用 ~105 万 Token 上下文，适合大型代码库重构 |
+| LSP vs Grep：语义检索反而更费 Token？编码 Agent 测量研究 | Pengcheng Xu et al. | 2026-08-18 | agent, mcp, coding-agent | https://arxiv.org/abs/2608.13568 |  | 🔧 daily 2026-08-18 — LSP 语义检索在符号定位上比 grep 多消耗 6-118% Token，建议按任务类型自适应路由（arXiv） |
+| Vercel 公开支持部署 Cursor Origin 仓库 | Vercel | 2026-08-18 | cursor, vercel, deployment | https://vercel.com/changelog/deploy-cursor-origin-repositories-with-vercel-in-public-beta | 🎯 | 📖 daily 2026-08-18 — Cursor 生成的代码可直接在 Vercel 部署，打通 AI 编码→生产闭环 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
