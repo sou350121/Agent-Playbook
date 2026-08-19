@@ -1089,6 +1089,13 @@
 | Codex 中 GPT-5.6 Sol 百万上下文对 ChatGPT 账号开放 | OpenAI | 2026-08-18 | gpt, codex, context-window | https://readhub.cn/topic/8vexe2ACsgw |  | 🔧 daily 2026-08-18 — Plus/Pro 订阅可手动启用 ~105 万 Token 上下文，适合大型代码库重构 |
 | LSP vs Grep：语义检索反而更费 Token？编码 Agent 测量研究 | Pengcheng Xu et al. | 2026-08-18 | agent, mcp, coding-agent | https://arxiv.org/abs/2608.13568 |  | 🔧 daily 2026-08-18 — LSP 语义检索在符号定位上比 grep 多消耗 6-118% Token，建议按任务类型自适应路由（arXiv） |
 | Vercel 公开支持部署 Cursor Origin 仓库 | Vercel | 2026-08-18 | cursor, vercel, deployment | https://vercel.com/changelog/deploy-cursor-origin-repositories-with-vercel-in-public-beta | 🎯 | 📖 daily 2026-08-18 — Cursor 生成的代码可直接在 Vercel 部署，打通 AI 编码→生产闭环 |
+| Mojo 1.0 正式发布：Modulo 承诺的开源终于兑现 | Modulo | 2026-08-19 | mojo, programming-language, open-source | https://modular.com/mojo |  | ⚡ daily 2026-08-19 — Mojo 自 2023 年承诺开源，1.0 正式版终于开源——对 AI 编译器/Python 生态是里程碑事件 |
+| Vercel Sandbox 推出百万美元漏洞赏金计划 | Vercel | 2026-08-19 | sandbox, security, agent-safety | https://vercel.com/blog/one-million-dollar-hacker-challenge-for-vercel-sandbox |  | 🔧 daily 2026-08-19 — Agent 沙箱安全进入实战检验阶段——百万美元赏金考验 Vercel Sandbox 的隔离能力 |
+| Together AI 实测 DeepSWE：GPT-5.6 Sol vs DeepSeek V4 Pro 成本性能对比 | Together AI | 2026-08-19 | benchmark, routing, coding-agent | https://www.together.ai/blog/deepseek-v4-pro-0813-vs-gpt-5-6-sol-on-deepswe-cost-coding-and-routing |  | 📖 daily 2026-08-19 — 904 次 DeepSWE 实测：Sol pass@1 领先 10 点但成本 35 倍，Pro-first cascade 达 83% |
+| Vercel AI SDK 新增 Cline harness adapter | Vercel | 2026-08-19 | sdk, agent-harness, coding-agent | https://vercel.com/changelog/cline-harness-adapter | 🎯 agent-ui | 🔧 daily 2026-08-19 — 主流编码 Agent Cline 正式进入 Vercel AI SDK harness 生态，Agent 编排互操作性再进一步 |
+| Vercel Chat SDK 新增 Instagram 适配器 | Vercel | 2026-08-19 | sdk, chat-ui, messaging | https://vercel.com/changelog/chat-sdk-adds-instagram-adapter | 🎯 agent-ui | 📖 daily 2026-08-19 — Vercel Chat SDK 渠道持续扩展，AI 聊天 UI 框架覆盖 Instagram DM |
+| OpenAI 推出青少年专属 ChatGPT（13-17 岁） | OpenAI | 2026-08-19 | safety, guardrail, product | https://readhub.cn/topic/8vhBuZasRAE |  | 📖 daily 2026-08-19 — 强化自残/暴力/进食障碍管控 + 学习模式引导推导，AI 产品安全设计的新标杆 |
+| HuggingFace 发布多向量延迟交互嵌入模型教程 | HuggingFace | 2026-08-19 | rag, embedding, vector, late-interaction | https://huggingface.co/blog/multi-vector-encoder | [RAG] | 🔧 daily 2026-08-19 — Sentence Transformers 实现多向量 Late Interaction，RAG 检索精度提升新路径 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
