@@ -1096,6 +1096,13 @@
 | Vercel Chat SDK 新增 Instagram 适配器 | Vercel | 2026-08-19 | sdk, chat-ui, messaging | https://vercel.com/changelog/chat-sdk-adds-instagram-adapter | 🎯 agent-ui | 📖 daily 2026-08-19 — Vercel Chat SDK 渠道持续扩展，AI 聊天 UI 框架覆盖 Instagram DM |
 | OpenAI 推出青少年专属 ChatGPT（13-17 岁） | OpenAI | 2026-08-19 | safety, guardrail, product | https://readhub.cn/topic/8vhBuZasRAE |  | 📖 daily 2026-08-19 — 强化自残/暴力/进食障碍管控 + 学习模式引导推导，AI 产品安全设计的新标杆 |
 | HuggingFace 发布多向量延迟交互嵌入模型教程 | HuggingFace | 2026-08-19 | rag, embedding, vector, late-interaction | https://huggingface.co/blog/multi-vector-encoder | [RAG] | 🔧 daily 2026-08-19 — Sentence Transformers 实现多向量 Late Interaction，RAG 检索精度提升新路径 |
+| Replit 推出 GPT-5.6 Luna 驱动的免费编程模式 | Replit/OpenAI | 2026-08-20 | agent-ui, coding-agent, vibe-coding | https://openai.com/index/replit |  | ⚡ daily 2026-08-20 — GPT-5.6 Luna 让百万用户零成本使用 AI 编程，模型经济学正在重塑软件创作门槛 |
+| Anthropic：Claude 自主设计蛋白质，成功率达行业均值 2-3 倍 | Anthropic | 2026-08-20 | agent, science, multimodal | https://www.anthropic.com/research/Claude-accelerates-protein-design |  | ⚡ daily 2026-08-20 — Claude 在 15 个靶标中 14 个成功，26.8% 总成功率远超行业 10-15%，AI for Science 进入实验验证阶段 |
+| Simon Willison：Coding Agent 时代，代码行数为何重新成为有效指标 | — | 2026-08-20 | coding-agent, agent-ui, paradigm | https://simonwillison.net/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code/ | 🎯 | 📖 daily 2026-08-20 — Agent 让产出速度提升百倍，但认知容量仍是瓶颈——团队规模不能减，概念完整性更难维持 |
+| OpenAI 推出 Zero Data Retention + Private Safety Processing 预览 | OpenAI | 2026-08-20 | security, compliance, llmops | https://openai.com/index/offering-zero-data-retention-for-frontier-models |  | 🔧 daily 2026-08-20 — 企业级 ZDR 客户首次获得跨交互安全监控，不牺牲隐私即可识别多轮滥用模式 |
+| Amazon Bedrock AgentCore Web Search 新增域名+日期过滤 | AWS | 2026-08-20 | agent, retrieval, governance | https://aws.amazon.com/blogs/machine-learning/domain-and-publish-date-filters-for-web-search-on-agentcore/ |  | 🔧 daily 2026-08-20 — 每请求级别控制 Agent 检索源域名和时效，企业治理 + 灵活 API 双层过滤模型 |
+| smolvm：用硬件隔离 VM 沙箱运行不可信 Python/JS 代码 | smolmachines | 2026-08-20 | sandbox, security, agent | https://simonwillison.net/2026/Aug/19/smolmachines-untrusted-sandbox/ | 🎯 | 🔧 daily 2026-08-20 — Firecracker 微 VM 冷启动 0.6-1.5s，为 Agent 执行不可信代码提供硬件级安全边界 |
+| Vercel AI Gateway 上线 Fish Audio 语音模型（30 天免费） | Vercel | 2026-08-20 | gateway, tts, sdk | https://vercel.com/changelog/fish-audio-models-now-available-on-ai-gateway-for-free |  | 📖 daily 2026-08-20 — TTS + 语音转文字 4 个模型接入 AI Gateway，流式低延迟 TTS 可即插即用 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
