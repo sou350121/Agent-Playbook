@@ -1103,6 +1103,14 @@
 | Amazon Bedrock AgentCore Web Search 新增域名+日期过滤 | AWS | 2026-08-20 | agent, retrieval, governance | https://aws.amazon.com/blogs/machine-learning/domain-and-publish-date-filters-for-web-search-on-agentcore/ |  | 🔧 daily 2026-08-20 — 每请求级别控制 Agent 检索源域名和时效，企业治理 + 灵活 API 双层过滤模型 |
 | smolvm：用硬件隔离 VM 沙箱运行不可信 Python/JS 代码 | smolmachines | 2026-08-20 | sandbox, security, agent | https://simonwillison.net/2026/Aug/19/smolmachines-untrusted-sandbox/ | 🎯 | 🔧 daily 2026-08-20 — Firecracker 微 VM 冷启动 0.6-1.5s，为 Agent 执行不可信代码提供硬件级安全边界 |
 | Vercel AI Gateway 上线 Fish Audio 语音模型（30 天免费） | Vercel | 2026-08-20 | gateway, tts, sdk | https://vercel.com/changelog/fish-audio-models-now-available-on-ai-gateway-for-free |  | 📖 daily 2026-08-20 — TTS + 语音转文字 4 个模型接入 AI Gateway，流式低延迟 TTS 可即插即用 |
+| Bun 1.4 发布 Bun.WebView：为 LLM Agent 提供 shot-scraper 式 JSON API | Oven | 2026-08-21 | agent-ui, sdk, bun | https://simonwillison.net/2026/Aug/20/bun-webview-json-api/ | 🎯 agent-ui | 🔧 daily 2026-08-21 — Bun 1.4 Rust 重写后首个稳定版，Bun.WebView 让 Agent 可通过 JSON API 控制浏览器视图 |
+| Amazon Bedrock 上线 GPT-5.6 跨 Region 推理（25+ Regions） | AWS | 2026-08-21 | gateway, model-routing, bedrock | https://aws.amazon.com/blogs/machine-learning/introducing-cross-region-inference-for-openai-gpt-5-6-models-on-amazon-bedrock/ |  | 🔧 daily 2026-08-21 — OpenAI GPT-5.6 (Sol/Terra/Luna) 通过 Bedrock 跨 Region 推理，提升吞吐和可用性 |
+| Anthropic 据悉最早 8 月底提交 IPO 申请 | Anthropic | 2026-08-21 | industry, IPO, anthropic | https://readhub.cn/topic/8vkyMmxIYF4 |  | ⚡ daily 2026-08-21 — Anthropic IPO 时间表加速，或追平 SpaceX 纪录，将重塑 AI 基础设施竞争格局 |
+| 博通在 AI 债务交易中寻求超 600 亿美元融资 | Broadcom | 2026-08-21 | industry, funding, infrastructure | https://readhub.cn/topic/8vl9OzP0GqX |  | ⚡ daily 2026-08-21 — AI 芯片基础设施融资规模空前，Anthropic PBC 等公司将受益，算力军备竞赛升级 |
+| 苹果反驳 OpenAI 驳回诉讼动议：重申秘密窃取商业机密 | Apple/OpenAI | 2026-08-21 | industry, legal, trade-secret | https://readhub.cn/topic/8vjwPNv7MZ8 |  | ⚡ daily 2026-08-21 — Apple vs OpenAI 商业机密诉讼升级，涉及前员工泄密，影响 AI 公司人才流动规则 |
+| Stampli 用 ChatGPT Work + Codex 将上线时间压缩 68% | OpenAI | 2026-08-21 | agent, workflow, case-study | https://openai.com/index/stampli |  | 📖 daily 2026-08-21 — ChatGPT Work 企业案例：将数周上线工作压缩到数天，展示 Agent 工作流生产力 |
+| DeepSeek Harness 首发大版本更新：14 项改进，多模态能力拉满 | DeepSeek | 2026-08-21 | agent, coding-agent, multimodal | https://www.36kr.com/p/3947115501845891 | 🎯 agent-ui | 🔧 daily 2026-08-21 — DSH 首个重大版本迭代，多模态输入支持 + 14 项更新，插件生态爆发 |
+| Claude Code 神话破灭？大量用户正在取消订阅 | Anthropic | 2026-08-21 | coding-agent, evaluation, market-signal | https://www.36kr.com/p/3947212935593095 | [evaluation] | ⚡ daily 2026-08-21 — 编码 Agent 市场信号：用户留存问题可能指向 ROI 预期落差，值得持续跟踪 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
