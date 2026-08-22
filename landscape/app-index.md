@@ -1111,6 +1111,13 @@
 | Stampli 用 ChatGPT Work + Codex 将上线时间压缩 68% | OpenAI | 2026-08-21 | agent, workflow, case-study | https://openai.com/index/stampli |  | 📖 daily 2026-08-21 — ChatGPT Work 企业案例：将数周上线工作压缩到数天，展示 Agent 工作流生产力 |
 | DeepSeek Harness 首发大版本更新：14 项改进，多模态能力拉满 | DeepSeek | 2026-08-21 | agent, coding-agent, multimodal | https://www.36kr.com/p/3947115501845891 | 🎯 agent-ui | 🔧 daily 2026-08-21 — DSH 首个重大版本迭代，多模态输入支持 + 14 项更新，插件生态爆发 |
 | Claude Code 神话破灭？大量用户正在取消订阅 | Anthropic | 2026-08-21 | coding-agent, evaluation, market-signal | https://www.36kr.com/p/3947212935593095 | [evaluation] | ⚡ daily 2026-08-21 — 编码 Agent 市场信号：用户留存问题可能指向 ROI 预期落差，值得持续跟踪 |
+| OpenAI 全面开源 Codex Harness（Apache-2.0） | openai | 2026-08-22 | agent-harness, open-source, agent-framework | https://github.com/openai/codex |  | ⚡ daily 2026-08-22 — OpenAI 将驱动 Codex 的底层执行框架全面开源，含 CLI/SDK/app-server 三大组件，Agent 嵌入自有产品范式开启 |
+| Amazon Bedrock AgentCore Gateway：集中治理 Agent 工具访问权限 | Amazon | 2026-08-22 | agent, gateway, security | https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-tool-access-with-amazon-bedrock-agentcore-gateway/ |  | 🔧 daily 2026-08-22 — 为 Agent 提供统一安全入口点治理企业工具访问，四阶段成熟度模型解决 Agent 权限盲区 |
+| AWS ADOP：用 Agentic 平台将数据工程上线周期从周压缩到小时 | Amazon | 2026-08-22 | agent, data-engineering, agentic | https://aws.amazon.com/blogs/machine-learning/agentic-data-operations-platform-adop-data-engineering-into-hours/ |  | 🔧 daily 2026-08-22 — 基于 Bedrock 的参考架构，专用 Agent 自动化 Bronze→Silver→Gold 全生命周期，build-time 非 runtime 依赖 |
+| 字节 Seed 组织重构：预训练/RL/Agent 研发全面拆分 | ByteDance | 2026-08-22 | agent, foundation-model, org-restructure | https://readhub.cn/topic/8vm5M8hKM3k |  | ⚡ daily 2026-08-22 — Seed Foundation Model 新设四个一级部门，Agentic 模型独立为 B 端产品线，信号中国大厂 Agent 战略优先级 |
+| DeepSeek V4-Flash-Vision-Exp 上线：多模态 Agent 能力接近 Opus-4.8 | DeepSeek | 2026-08-22 | multimodal, agent, vision | https://m.ithome.com/html/992755.htm |  | 🔧 daily 2026-08-22 — 实验性多模态模型上线 API，Agent 框架内视觉理解能力大幅跃升，图片最多 384 tokens 计费 |
+| Stop Making TUIs：Coding Agent 让原生 GUI 成本趋近于零 | — | 2026-08-22 | agent-ui, vibe-coding, paradigm-shift | https://simonwillison.net/2026/Aug/21/stop-making-tuis/ | 🎯 agent-ui | 📖 daily 2026-08-22 — Coding Agent 已降低 GUI 开发成本到几乎为零，Thomas Ptacek 呼吁开发者把 CLI 工具转为原生应用 |
+| DeepSeek Harness v0.1.0-rc.8：Claude Code 和 Codex 收编为子代理 | DeepSeek | 2026-08-22 | agent-harness, multi-agent, deepseek | https://www.36kr.com/p/3947852851664512 |  | ⚡ daily 2026-08-22 — RC.8 将 Claude Code/Codex 做成即装即用插件包，原生看图+并发搜索+品牌指南，卡位 Agent 调度层 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
