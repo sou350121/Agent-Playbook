@@ -1118,6 +1118,11 @@
 | DeepSeek V4-Flash-Vision-Exp 上线：多模态 Agent 能力接近 Opus-4.8 | DeepSeek | 2026-08-22 | multimodal, agent, vision | https://m.ithome.com/html/992755.htm |  | 🔧 daily 2026-08-22 — 实验性多模态模型上线 API，Agent 框架内视觉理解能力大幅跃升，图片最多 384 tokens 计费 |
 | Stop Making TUIs：Coding Agent 让原生 GUI 成本趋近于零 | — | 2026-08-22 | agent-ui, vibe-coding, paradigm-shift | https://simonwillison.net/2026/Aug/21/stop-making-tuis/ | 🎯 agent-ui | 📖 daily 2026-08-22 — Coding Agent 已降低 GUI 开发成本到几乎为零，Thomas Ptacek 呼吁开发者把 CLI 工具转为原生应用 |
 | DeepSeek Harness v0.1.0-rc.8：Claude Code 和 Codex 收编为子代理 | DeepSeek | 2026-08-22 | agent-harness, multi-agent, deepseek | https://www.36kr.com/p/3947852851664512 |  | ⚡ daily 2026-08-22 — RC.8 将 Claude Code/Codex 做成即装即用插件包，原生看图+并发搜索+品牌指南，卡位 Agent 调度层 |
+| DeepSeek API 周末计费调整：周六日全天统一低谷价 | DeepSeek | 2026-08-23 | deepseek, api-pricing, cost-optimization | https://m.ithome.com/html/993095.htm |  | 🔧 daily 2026-08-23 — 周末全天低谷价（V4-Pro 输出 13.5 元/百万 tokens），显著降低 Agent 批量调用成本 |
+| Anthropic 聘请谷歌 TPU 业务前负责人，加速自研芯片 | Anthropic | 2026-08-23 | anthropic, custom-chip, infrastructure | https://readhub.cn/topic/8vmnFW1c3Yq |  | ⚡ daily 2026-08-23 — 前七代 TPU 交付负责人加入，Anthropic 自研半导体从信号走向实质布局 |
+| llm 0.33：升级 OpenAI Python 3.x + 模板组合 + reasoning_summary | simonw | 2026-08-23 | llm-cli, openai, tooling | https://simonwillison.net/2026/Aug/22/llm/ | 🎯 | 🔧 daily 2026-08-23 — llm CLI 全面升级 httpx2 + 模板可组合 + Responses API reasoning_summary 支持，Agent 工具链更灵活 |
+| 阿里云 MaaS 接入 GLM-5.3 与 DeepSeek-V4-Pro 正式版 | 智谱 / DeepSeek | 2026-08-23 | model-integration, alibaba-cloud, multi-model | https://readhub.cn/topic/8vlwjk2wzJ7 |  | 🔧 daily 2026-08-23 — 千问 AI 平台新增两款国产主力模型 API，支持 Token Plan 订阅后在 Qoder/Codex 中按需切换 |
+| OpenAI 进一步开放 Codex 底层能力：定位 Agent 产品平台（续报） | OpenAI | 2026-08-23 | codex, agent-platform, openai | https://www.36kr.com/p/3949992200928641 |  | ⚡ daily 2026-08-23 — Codex 从编程 Agent 重新定位为通用 Agent 产品平台，Harness 可复用到客服/安全/运营等场景 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
