@@ -1123,6 +1123,13 @@
 | llm 0.33：升级 OpenAI Python 3.x + 模板组合 + reasoning_summary | simonw | 2026-08-23 | llm-cli, openai, tooling | https://simonwillison.net/2026/Aug/22/llm/ | 🎯 | 🔧 daily 2026-08-23 — llm CLI 全面升级 httpx2 + 模板可组合 + Responses API reasoning_summary 支持，Agent 工具链更灵活 |
 | 阿里云 MaaS 接入 GLM-5.3 与 DeepSeek-V4-Pro 正式版 | 智谱 / DeepSeek | 2026-08-23 | model-integration, alibaba-cloud, multi-model | https://readhub.cn/topic/8vlwjk2wzJ7 |  | 🔧 daily 2026-08-23 — 千问 AI 平台新增两款国产主力模型 API，支持 Token Plan 订阅后在 Qoder/Codex 中按需切换 |
 | OpenAI 进一步开放 Codex 底层能力：定位 Agent 产品平台（续报） | OpenAI | 2026-08-23 | codex, agent-platform, openai | https://www.36kr.com/p/3949992200928641 |  | ⚡ daily 2026-08-23 — Codex 从编程 Agent 重新定位为通用 Agent 产品平台，Harness 可复用到客服/安全/运营等场景 |
+| 奥特曼炮轰达里奥「反人类」，新模型同日曝光：gpt-nathree / claude-mashmallow-eap / claude-melon-eap | OpenAI / Anthropic | 2026-08-25 | gpt-6, claude-5, multi-agent, model-leak | https://readhub.cn/topic/8vr1rY4b4C2 |  | ⚡ daily 2026-08-25 — OpenAI 下一代多 Agent 协作模型代号泄露 + Anthropic 两款新模型 EAP，同日两位 CEO 公开交锋 |
+| GPT-5.6 登陆 AWS Kiro：编程工具的价格性能比再升级 | OpenAI / AWS | 2026-08-25 | gpt-5.6, kiro, coding-agent, aws | https://openai.com/index/gpt-5-6-in-kiro |  | 🔧 daily 2026-08-25 — GPT-5.6 集成进 AWS Kiro 编程工具，面向开发者场景优化价格性能 |
+| ChatGPT 新增「电脑监控」能力，体验后用户决定让它多看两眼 | OpenAI | 2026-08-25 | chatgpt, computer-use, monitoring | https://www.36kr.com/p/3951916130499972 |  | 🔧 daily 2026-08-25 — ChatGPT 获得屏幕监控能力，Agent 从纯文本交互走向跨应用感知 |
+| AWS 发布 Agentic Resource Discovery (ARD) 开放规范 + Agent Registry | AWS | 2026-08-25 | agent-discovery, mcp, orchestration, open-spec | https://aws.amazon.com/blogs/machine-learning/agentic-resource-discovery-ard-an-open-specification-for-agent-discovery/ | 🎯 agent-ui | ⚡ daily 2026-08-25 — 企业级 Agent 发现与治理的开放规范，Agent 生态从孤岛走向互操作 |
+| LLM 可通过推理引擎漏洞控制宿主机：安全研究引发关注 | — | 2026-08-25 | llm-security, inference-engine, sandbox | https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines |  | ⚡ daily 2026-08-25 — 推理引擎成为 LLM 沙箱逃逸的攻击面，对 Agent 安全执行架构提出新挑战 |
+| SpaceXAI 采用英伟达 Vera CPU 加速 Agentic AI，Starmind 卫星将搭载 Vera Rubin NVL72 | SpaceXAI / Nvidia | 2026-08-25 | agentic-ai, vera-cpu, nvidia, space-ai | https://readhub.cn/topic/8vrPVbGdQZO |  | 🔧 daily 2026-08-25 — 英伟达首款 AI 代理专用 CPU 首发落地 SpaceXAI，太空 AI 基础设施新里程碑 |
+| SageMaker HyperPod 新增托管 Ray 支持：分布式训练开箱即用可观测性 | AWS | 2026-08-25 | sagemaker, ray, distributed-training, observability | https://aws.amazon.com/blogs/machine-learning/introducing-new-ray-capabilities-on-sagemaker-hyperpod/ |  | 📖 daily 2026-08-25 — AWS 托管 Ray 集群降低大规模训练运维门槛，适合 LLM 后训练场景 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
