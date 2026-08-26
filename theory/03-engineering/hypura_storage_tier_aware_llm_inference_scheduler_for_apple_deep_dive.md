@@ -1,171 +1,178 @@
 ---
 auto_generated: true
-generated_at: "2026-07-09T05:48:54Z"
+generated_at: "2026-08-26T03:37:30Z"
 source_url: "https://github.com/t8/hypura/releases/tag/v0.2.0"
 signal_type: "significant_update"
 ---
-# Hypura：让 Mac 跑超大模型的存储感知推理调度器 (Hypura — Storage-Tier-Aware LLM Inference Scheduler for Apple Silicon)
+# Hypura v0.2.0：Apple Silicon 上的存储层级感知 LLM 推理调度器 (Storage-Tier-Aware LLM Inference Scheduler for Apple Silicon)
 
-> 🔍 本文由 Moltbot 自动生成 | 2026-07-09
+> 🔍 本文由 Moltbot 自动生成 | 2026-08-26
 >
-> **项目/工具**: Hypura (t8/hypura)
+> **项目/工具**: Hypura
 > **链接**: https://github.com/t8/hypura/releases/tag/v0.2.0
-> **核心定位**: 一个 Apple Silicon 专用的 LLM 推理调度器，通过将模型张量智能分配到 GPU / RAM / NVMe 三层存储，让物理内存装不下的模型也能在 Mac 上运行而不崩溃。
+> **核心定位**: 一个 Rust 编写的 LLM 推理调度器，通过将模型张量智能分配到 GPU/RAM/NVMe 三个存储层级，让超出物理内存的模型在 Apple Silicon Mac 上运行而不崩溃。v0.2.0 新增 Gemma 4 稀疏 MoE 支持、M5 芯片兼容和自动 CPU 回退。
 
-## ⚡ 快速判断（30 秒讀完這段就夠了）
+## ⚡ 快速判断（30 秒读完这段就够了）
 
-- **一句话定位**: Hypura 是 Apple Silicon 上的"超大模型运行器"——通过感知 GPU、统一内存、NVMe SSD 三层存储的带宽和容量差异，自动调度模型张量，让 32 GB Mac 跑 40 GB 模型成为可能。
-- **现在值得用吗**: 是，如果你有一台 Apple Silicon Mac 且想本地运行超出物理内存的模型。目前仅限 Apple Silicon（M1-M5），不支持 x86。
-- **适合场景**: 本地跑 70B+ 模型做推理实验；MoE 模型（Mixtral、Gemma 4）在 Mac 上的本地部署；需要 Ollama 兼容 API 的工具链集成。
-- **不适合场景**: 需要高吞吐的生产部署（NVMe 流式推理速度 0.3-2.2 tok/s）；非 Apple Silicon 硬件；多模态 GGUF 模型（v0.2.0 尚不支持）。
-- **与 llama.cpp 核心差异**: llama.cpp 要求模型完全装入内存（否则 OOM）；Hypura 通过 NVMe 按需流式加载，让超出内存的模型"能跑"但速度显著降低。
+- **一句话定位**: Hypura 是 Apple Silicon 专用的 LLM 推理调度器，通过存储层级感知（GPU → RAM → NVMe）让超出内存的模型"跑起来"——不是跑得快，而是从"跑不了"变成"能跑"。
+- **现在值得用吗**: 看场景。如果你有一台 32GB Mac 想跑 70B 模型，它是唯一选择；如果你只需要跑 7B-14B 模型，llama.cpp / Ollama 就够了。
+- **适合场景**: 32GB Mac 跑 30B+ 模型；MoE 模型本地推理；需要 Ollama 兼容 API 的本地 Agent 工作流。
+- **不适合场景**: 需要高吞吐的生产推理（0.3 tok/s 不是给人用的）；非 Apple Silicon 平台；多模态 GGUF 模型（当前不支持）。
+- **与 llama.cpp 核心差异**: llama.cpp 的 mmap 是"全量映射、让 OS 自己处理"，Hypura 是"理解模型架构 + 主动调度"——知道哪些张量每 token 都访问、哪些可以按需加载。
 
 ## 是什么 / 解决什么问题
 
-Apple Silicon Mac 的统一内存架构有一个根本矛盾：内存带宽极高（M1 Max 约 400 GB/s），但容量有限。消费级 Mac 最高 128 GB（M 系列），而主流大模型（Llama 3.3 70B Q4_K_M 约 39.6 GB、Mixtral 8x7B Q5_K_M 约 30.9 GB）加上运行时开销很容易突破这个上限。naive 加载（如 llama.cpp 默认行为）会导致 OS swap thrash 直至 OOM killer 介入。
+### 背景痛点：Apple Silicon 的统一内存困境
 
-Hypura 的核心洞察是：**NVMe SSD 虽然慢（~5 GB/s 顺序读），但它是只读冷存储，不是 working memory**。模型推理时，Attention 层和 Norm 张量每个 token 都要访问（必须放 GPU/RAM），而 MoE 专家张量或 Dense FFN 权重可以按需从 NVMe 流式加载。通过理解模型架构和硬件能力，Hypura 自动求解张量放置优化问题，让"跑不了"变成"跑得慢但能跑"。
+Apple Silicon 的统一内存架构是一把双刃剑：M1 Max 32GB 的内存带宽高达 400GB/s（远超 NVMe 的 5-7GB/s），但容量固定不可扩展。当你试图加载一个 40GB 的 Llama 70B Q4 量化模型时，vanilla llama.cpp 会触发 swap thrash 直到 OOM killer 介入。
 
-v0.2.0 版本（2026-07-09 发布）是该项目的一个重要里程碑：新增 Gemma 4 稀疏 MoE 架构支持、SparseMoeMmap 极速路径、M5 系列芯片支持，以及自动 CPU-only 降级。
+Hypura 的核心洞察是：**NVMe 不是"太慢的内存"，而是一个合法的、被低估的存储层级。** 通过理解模型架构（哪些张量访问频繁、哪些稀疏激活），Hypura 能将模型张量分配到 GPU（Metal）、RAM、NVMe 三个层级，让超出物理内存的模型仍可运行。
+
+### v0.2.0 的核心变化
+
+v0.2.0 是一次重大功能更新，三个主要增量：
+
+1. **Gemma 4 稀疏 MoE 架构支持** — Google Gemma 4 26B-A4B（128 experts, 8 active）可在 M1 Max 32GB 上以 51 tok/s 运行
+2. **SparseMoeMmap 极速路径** — 对激活率 ≤15% 的稀疏 MoE 模型，完全绕过路由拦截机制，让 OS 页缓存处理稀疏性
+3. **M5 系列芯片支持** — 硬件 profiler 现在识别 M5/M5 Pro/M5 Max 并应用正确的参数
 
 ## 技术架构拆解
 
 ### 核心设计决策
 
-1. **三层存储感知放置**: GPU (Metal) → RAM → NVMe，每层有不同的带宽/容量特征。调度器根据张量角色（Attention/Norm/Embedding/Expert/FFN）和硬件 profile 自动分配。
+**决策 1: 三层张量放置优化**
 
-2. **架构感知的稀疏性利用**: MoE 模型只有少量专家在每个 token 被激活（如 Mixtral 2/8、Gemma 4 4/128）。Hypura 不加载全部专家，而是通过 router 拦截 + neuron cache（99.5% 命中率）+ co-activation 预测来最小化 I/O。
+Hypura 读取 GGUF 文件后，先 profile 硬件（GPU working set、RAM、NVMe 带宽），然后求解一个放置优化问题，将每个张量分配到最优层级：
 
-3. **零开销路径**: 模型能装入内存时，Hypura 走 full-resident 模式，与 llama.cpp 性能完全一致（21 tok/s vs ~21 tok/s，Qwen 2.5 14B）。
-
-4. **自动模式选择**: 根据模型大小、架构和可用内存自动选择推理模式，无需手动调参。
-
-### 与前版/竞品的关键差异
-
-| 维度 | llama.cpp (naive) | Hypura v0.1.0 | Hypura v0.2.0 |
-|------|-------------------|---------------|---------------|
-| 超出内存的模型 | OOM 崩溃 | 能跑 (expert-streaming / dense-FFN-streaming) | 能跑 + SparseMoeMmap 极速路径 |
-| Gemma 4 支持 | ✅ (上游 llama.cpp) | ❌ | ✅ 原生支持 |
-| M5 系列芯片 | ❌ (需上游更新) | ❌ | ✅ 原生支持 |
-| MoE 低激活比优化 | 无 | router 拦截 + neuron cache | 新增 bypass 路径：直接 mmap，跳过 router |
-| CPU-only 降级 | 手动指定 | 无 | 自动 fallback |
-| 基准图表 | 无 | 无 | ✅ matplotlib + ASCII fallback |
-| Ollama 兼容 API | ❌ | ✅ | ✅ |
-
-### 架构/信息流图
+- **GPU (Metal)**: Attention 层、Norms、Embeddings — 每个 token 都访问，必须最快
+- **RAM**: 放不下 GPU 的溢出层 — 通过 mmap 访问
+- **NVMe**: 剩余层通过直接 I/O（F_NOCACHE + pread）按需加载，在 forward pass 前预取
 
 ```
 ┌─────────────────────────────────────────────────────┐
-│                    Hypura CLI/API                    │
-│  hypura run | hypura serve | hypura bench | inspect  │
-└──────────────┬──────────────────────────────────────┘
-               │
-               ▼
-┌─────────────────────────────────────────────────────┐
-│              Placement Optimizer                     │
-│  输入: GGUF 模型 + 硬件 profile (GPU/RAM/NVMe)       │
-│  输出: 每个张量 → GPU/RAM/NVMe 分配方案               │
-└──┬──────────┬──────────┬────────────────────────────┘
-   │          │          │
-   ▼          ▼          ▼
-┌─────┐  ┌──────┐  ┌────────┐
-│GPU  │  │ RAM  │  │ NVMe   │
-│Metal│  │mmap  │  │pread() │
-│     │  │      │  │F_NOCACHE│
-│Attention│   │Expert/FFN   │
-│Norms  │  │Overflow│      │
-│Embeds │  │layers │       │
-└─────┘  └──────┘  └────────┘
-   │          │          │
-   └──────────┴──────────┘
-              │
-       Forward Pass
-              │
-   ┌──────────┴──────────┐
-   │  Neuron Cache (99.5%)│
-   │  Co-activation Pred  │
-   │  Speculative Prefetch│
-   └─────────────────────┘
+│                    Apple Silicon                     │
+│                                                      │
+│  ┌──────────┐   ┌──────────┐   ┌──────────────────┐ │
+│  │  GPU     │   │  RAM     │   │  NVMe SSD        │ │
+│  │ (Metal)  │   │          │   │                  │ │
+│  │          │   │ 溢出层    │   │ 按需加载层        │ │
+│  │ Attention│   │ mmap     │   │ F_NOCACHE+pread  │ │
+│  │ Norms    │   │          │   │ 预取 ahead       │ │
+│  │ Embeds   │   │          │   │                  │ │
+│  │          │   │          │   │                  │ │
+│  │ ~400 GB/s│   │ ~100 GB/s│   │ ~5 GB/s          │ │
+│  └──────────┘   └──────────┘   └──────────────────┘ │
+│         ▲               ▲                  ▲        │
+│         │               │                  │        │
+│  ┌──────┴───────────────┴──────────────────┴──────┐ │
+│  │          Hypura Placement Engine               │ │
+│  │  模型架构感知 + 硬件 profile → 张量级调度       │ │
+│  └────────────────────────────────────────────────┘ │
+└─────────────────────────────────────────────────────┘
 ```
 
-### v0.2.0 新增：SparseMoeMmap 极速路径
+**决策 2: 三种推理模式自动选择**
 
-这是 v0.2.0 最有趣的技术创新。对于激活比 ≤ 15% 的 MoE 模型（如 Gemma 4 26B-A4B，激活比仅 6.25%），Hypura 发现 router 拦截机制本身带来了不必要的开销。新的 SparseMoeMmap 路径直接绕过 router-interception  machinery：
+| 模式 | 适用场景 | 工作原理 |
+|------|---------|---------|
+| Full-resident | 模型 fits GPU+RAM | 无 NVMe I/O，全 Metal 速度 |
+| Expert-streaming | MoE 模型（如 Mixtral） | 仅非 expert 张量（~1GB）驻留 GPU，expert 张量按需从 NVMe 流式加载，neuron cache 达 99.5% 命中率 |
+| Dense FFN-streaming | 大型稠密模型（如 Llama 70B） | Attention + norms 驻留 GPU（~8GB），FFN 张量（~32GB）通过动态 pool buffer 从 NVMe 流式加载 |
 
-- **不做** pool slot 分配
-- **不做** tensor pointer 重写
-- **不做** eval callback 拦截
-- **让 OS page cache 处理稀疏性**——通过 mmap，OS 自动只加载被访问的页面
+**决策 3: v0.2.0 新增 SparseMoeMmap 极速路径**
 
-Gemma 4 26B-A4B 在 M1 Max 32 GB 上达到 **51 tok/s**（SparseMoeMmap），这是 v0.2.0 最快的推理路径。作为对比，同模型在 expert-streaming 模式下会慢得多。
+对激活率 ≤15% 的稀疏 MoE 模型（如 Gemma 4 26B-A4B，仅 6.25% 激活率），Hypura 发现路由拦截机制（router interception）本身成了瓶颈。v0.2.0 引入 SparseMoeMmap 模式：
 
-### Gemma 4 架构适配细节
+- 完全跳过 router-interception machinery
+- 不做 pool slot 分配、不做 tensor pointer 重写、不做 eval callback 开销
+- 让 OS 页缓存通过 mmap 直接处理稀疏性
+- Gemma 4 26B-A4B 在此模式下达到 **51 tok/s**（M1 Max 32GB）
 
-Gemma 4 26B-A4B 的稀疏 MoE 架构有一些特殊之处，Hypura 做了针对性适配：
+### 与前版 / 竞品的关键差异
 
-- **Fused FFN gate/up**: Mixtral 分离 gate/up 专家张量，Gemma 4 融合在一起 → 新增 `ExpertTensorType::GateUp` variant
-- **Per-layer KV head counts**: Gemma 4 使用 interleaved sliding-window attention，每层 KV head 数量不同 → 需要 array-valued `attention.head_count_kv` 解析
-- **Chat template tokenization**: 需要 `parse_special=true` 让 chat template token 被正确解析为 vocab ID 而非 raw bytes
+| 维度 | llama.cpp (mmap) | Hypura v0.1.x | Hypura v0.2.0 |
+|------|-----------------|---------------|---------------|
+| 张量放置策略 | 全量 mmap，OS 自行处理 | 架构感知三层放置 | + SparseMoeMmap 极速路径 |
+| MoE 支持 | 基础支持 | Expert-streaming（路由拦截） | + SparseMoeMmap（绕过路由） |
+| Gemma 4 | 不支持 | 不支持 | ✅ 原生支持 |
+| M5 芯片 | 部分支持 | 不支持 | ✅ 完整支持 |
+| CPU 回退 | 需手动指定 | 崩溃 | 自动 fallback |
+| 32GB Mac 跑 70B | OOM | 0.3 tok/s | 0.3 tok/s（改进） |
+| 32GB Mac 跑 Mixtral 8x7B | OOM | 2.2 tok/s | 2.2 tok/s |
+| 32GB Mac 跑 Gemma 4 26B | OOM | N/A | **51 tok/s** |
+
+### 性能数据（官方 benchmark）
+
+| 模型 | 大小 | 硬件 | 模式 | Hypura tok/s | llama.cpp |
+|------|------|------|------|-------------|-----------|
+| Gemma 4 26B-A4B Q4_K_M | 15.6 GB | M1 Max 32GB | SparseMoeMmap | **51** | N/A |
+| Mixtral 8x7B Q5_K_M | 30.9 GB | M1 Max 32GB | Expert-streaming | 2.2 | OOM |
+| Llama 3.3 70B Q4_K_M | 39.6 GB | M5 Pro 24GB | Dense FFN-streaming | 改进 | OOM |
+| Qwen 2.5 14B Q4_K_M | 8.4 GB | M1 Max 32GB | Full-resident | 21 | ~21 |
+
+关键结论：对 fits 内存的模型，Hypura 零开销（与 llama.cpp 持平）；对超出内存的模型，Hypura 是"能跑"和"崩溃"的区别。
 
 ## 实用评估
 
 ### 什么场景值得用
 
-- **本地跑 70B+ 模型做实验/原型**: 在 32 GB Mac 上跑 Llama 70B Q4_K_M（39.6 GB）虽然只有 0.3 tok/s，但"能跑"本身就有价值——你可以验证 prompt、测试输出质量，而不需要租云 GPU。
-- **MoE 模型本地部署**: Mixtral 8x7B 在 M1 Max 32 GB 上 2.2 tok/s，这是接近可用的交互速度。Gemma 4 26B-A4B 更是达到 51 tok/s。
-- **工具链集成**: Ollama 兼容 API 意味着任何支持 Ollama 的工具（如 OpenClaw）都可以直接对接 Hypura，无需修改。
-- **SSD 寿命顾虑**: FAQ 明确说明 Hypura 只做 read-only pread()，不写 NVMe，SSD 磨损可忽略。
+**1. 32GB Mac 跑 30B+ 模型**
+这是 Hypura 的核心价值主张。如果你的 M1/M2/M3/M4/M5 Mac 只有 32GB 内存但需要跑 Mixtral 8x7B 或 Llama 70B，Hypura 几乎是唯一选择。
+
+**2. MoE 模型本地推理**
+Hypura 对 MoE 架构的优化（99.5% neuron cache hit rate + co-activation 预测预取）使其在 MoE 模型上表现突出。Gemma 4 26B-A4B 达到 51 tok/s，接近原生速度。
+
+**3. 本地 Agent 工作流的 Ollama 兼容后端**
+Hypura 提供完整的 Ollama 兼容 HTTP API（/api/generate、/api/chat），可作为 OpenClaw 等工具的 drop-in 替换。对于需要本地运行大模型的 Agent 工作流，这是一个低摩擦的选择。
 
 ### 什么场景不值得用
 
-- **生产部署高吞吐**: 0.3-2.2 tok/s 的速度不适合生产。这是"能用"而非"好用"的方案。
-- **非 Apple Silicon**: 仅支持 M1-M5 系列，x86 Mac 或 Linux 服务器不适用。
-- **多模态 GGUF**: v0.2.0 的 LLM-only loader 无法处理包含 vision/audio/projector 张量的多模态 GGUF 文件（如 Ollama 的 gemma4 pull 包）。
-- **chat template 自动应用**: v0.2.0 尚未支持，需要手动构造 prompt template（作者标注为 planned follow-up）。
+**1. 需要高吞吐的生产推理**
+0.3 tok/s 的 Llama 70B 推理速度只适合交互式对话，不适合批量处理或低延迟场景。
+
+**2. 7B-14B 模型（fits 内存）**
+这些模型用 llama.cpp 或 Ollama 即可，Hypura 不会带来任何性能提升。
+
+**3. 非 Apple Silicon 平台**
+Hypura 明确标注 "Apple Silicon only (M1/M2/M3/M4/M5)"，不支持 x86 或 NVIDIA GPU。
+
+**4. 多模态 GGUF 模型**
+v0.2.0 不支持多模态 GGUF bundle（如 Ollama 的 gemma4 pull 打包了 LLM + vision + audio + projector），LLM-only loader 会因为无法消费多模态 projector tensors 而报错。
 
 ### 迁移成本
 
-从 llama.cpp 迁移到 Hypura：
+从 llama.cpp / Ollama 迁移到 Hypura：
 
-1. **环境要求**: Rust 1.75+ 和 CMake（编译 vendored llama.cpp）。如果你已有 Rust 工具链，`cargo build --release` 约 5-10 分钟。
-2. **模型格式**: 与 llama.cpp 完全兼容 GGUF 格式，无需转换。但需注意多模态 GGUF 的限制。
-3. **使用方式**: CLI 命令类似（`hypura run` vs `llama-cli`），但多了 `hypura profile`（硬件探测，首次运行一次）和 `hypura inspect`（查看放置方案）。
-4. **API 兼容**: 如果通过 Ollama API 使用，只需改 baseUrl 指向 Hypura 的 serve 端口（默认 8080），无需改代码。
+- **安装**: `git clone --recurse-submodules` + `cargo build --release`，需要 Rust 1.75+ 和 CMake。约 10-15 分钟编译时间。
+- **使用**: CLI 命令简洁（`hypura run`、`hypura serve`、`hypura bench`），与 llama.cpp 的使用习惯类似。
+- **兼容性**: Ollama API 兼容意味着已有工具链（如 OpenClaw）只需修改 baseUrl 配置即可切换。
+- **注意事项**: 需使用 text-only GGUF（非多模态 bundle）；instruction-tuned 模型需手动构造 chat template（auto-template 计划中）。
 
-**总体迁移成本**: 低。模型文件不变，CLI 语义相似，主要额外步骤是 `hypura profile` 和了解放置模式。
-
-## 对你的意义
-
-如果你有一台 Apple Silicon Mac 并且：
-- 想本地测试 70B+ 模型但不想租云 GPU → Hypura 让你"跑起来"，哪怕速度慢
-- 关注 MoE 架构的本地部署效率 → v0.2.0 的 SparseMoeMmap 路径（51 tok/s for Gemma 4）是目前 Apple Silicon 上最快的 MoE 推理方案之一
-- 需要 Ollama 兼容的本地推理后端 → Hypura serve 可以直接替换 Ollama
-
-**建议**: 如果你的 Mac 统一内存 ≥ 32 GB 且经常需要跑超出内存的模型，值得试用。从 `hypura bench` 开始，用 --max-tokens 10 测试新模型。
+总迁移成本：**低**。对于已有 llama.cpp 经验的用户，迁移主要工作是编译安装和确认 GGUF 格式兼容。
 
 ## 关键代码/配置片段
 
-### 安装与运行
+### 安装与使用
 
 ```bash
 git clone --recurse-submodules https://github.com/t8/hypura.git
 cd hypura
 cargo build --release
 
-# 首次运行：硬件探测（结果缓存）
+# Profile 硬件（首次运行，结果缓存）
 hypura profile
 
 # 运行推理
-hypura run ./model.gguf --prompt "Hello, world"
+hypura run ./gemma-4-26B-A4B-it-Q4_K_M.gguf --prompt "Hello, world"
 
-# Ollama 兼容 API 服务
-hypura serve ./model.gguf
-# Endpoint: http://127.0.0.1:8080
+# 启动 Ollama 兼容服务
+hypura serve ./model.gguf --host 127.0.0.1 --port 8080
 ```
 
-### OpenClaw 集成配置
+### 与 OpenClaw 集成
 
 ```json
+// ~/.openclaw/openclaw.json
 {
   "models": {
     "providers": {
@@ -178,25 +185,34 @@ hypura serve ./model.gguf
 }
 ```
 
-### Gemma 4 手动 chat template（v0.2.0 暂不支持自动）
+### Gemma 4 手动 chat template（当前必须）
 
 ```bash
 hypura run --prompt "$(printf 'user\nWhat is the capital of France?\nmodel\n')" \
   --max-tokens 100 ./gemma-4-26B-A4B-it-Q4_K_M.gguf
 ```
 
-### 核心模块结构
+### 核心架构模块
 
 ```
-hypura/
-├── scheduler/placement.rs    # LP + greedy 张量放置优化
-├── compute/inference.rs      # 推理引擎 + 服务器
-├── compute/nvme_backend.rs   # NVMe 流式后端 + neuron cache
-├── model/tensor_role.rs      # 张量角色分类
-├── profiler/                 # 硬件检测
-├── cli/bench.rs              # A/B 基准测试
-└── server/routes.rs          # Ollama 兼容 HTTP API
+scheduler/placement.rs    — LP + greedy 张量跨 GPU/RAM/NVMe 三层放置
+compute/inference.rs      — 推理引擎：generate_blocking, generate_with_nvme_scheduling
+compute/nvme_backend.rs   — 自定义 GGML buffer、pool-based expert/FFN 流式、neuron cache
+model/tensor_role.rs      — 张量分类（norms, attention, MoE experts）用于放置评分
+profiler/                 — 硬件检测（CPU、GPU、内存带宽、NVMe 吞吐）
 ```
+
+## 对你的意义
+
+Hypura 代表了本地 LLM 推理的一个有趣方向：**不是追求极致速度，而是追求"能让跑不了的模型跑起来"**。
+
+对于 Ken 的 AI 应用开发工作：
+
+- **如果团队有 Apple Silicon Mac 且需要本地跑大模型**，Hypura 是一个值得关注的工具。特别是 MoE 模型（如 Mixtral、Gemma 4）的推理能力，在 32GB Mac 上达到可用速度。
+- **Ollama 兼容 API** 意味着它可以无缝接入现有的 Agent 工具链（如 OpenClaw），不需要额外的适配层。
+- **SparseMoeMmap 路径**的设计思路（理解模型架构 → 绕过不必要的中间层 → 让 OS 处理稀疏性）对任何本地推理系统都有启发价值。
+
+**建议**: 如果团队有 32GB+ Mac 且需要跑 30B+ 模型，值得试用。如果只需要跑 7B-14B 模型，暂不需要迁移。
 
 ---
 [← Back to Deep Dives](./README.md)
