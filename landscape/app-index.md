@@ -1130,6 +1130,14 @@
 | LLM 可通过推理引擎漏洞控制宿主机：安全研究引发关注 | — | 2026-08-25 | llm-security, inference-engine, sandbox | https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines |  | ⚡ daily 2026-08-25 — 推理引擎成为 LLM 沙箱逃逸的攻击面，对 Agent 安全执行架构提出新挑战 |
 | SpaceXAI 采用英伟达 Vera CPU 加速 Agentic AI，Starmind 卫星将搭载 Vera Rubin NVL72 | SpaceXAI / Nvidia | 2026-08-25 | agentic-ai, vera-cpu, nvidia, space-ai | https://readhub.cn/topic/8vrPVbGdQZO |  | 🔧 daily 2026-08-25 — 英伟达首款 AI 代理专用 CPU 首发落地 SpaceXAI，太空 AI 基础设施新里程碑 |
 | SageMaker HyperPod 新增托管 Ray 支持：分布式训练开箱即用可观测性 | AWS | 2026-08-25 | sagemaker, ray, distributed-training, observability | https://aws.amazon.com/blogs/machine-learning/introducing-new-ray-capabilities-on-sagemaker-hyperpod/ |  | 📖 daily 2026-08-25 — AWS 托管 Ray 集群降低大规模训练运维门槛，适合 LLM 后训练场景 |
+| SpaceX 600 亿美元完成 Cursor 收购，马斯克承认 Grok 落后 | SpaceX/Cursor | 2026-08-26 | agent, coding, acquisition | https://www.36kr.com/p/3954351325478275 |  | ⚡ daily 2026-08-26 — AI 编程工具史上最大并购，Cursor 年收 40 亿美元但毛利为负，整合阵痛已引发 45 人离职 |
+| 豆包工作深度打通飞书：Agent 继承企业上下文，以组织成员身份运行 | 字节跳动 | 2026-08-26 | agent, workflow, enterprise | https://readhub.cn/topic/8vt4kIJ2J3n |  | 🔧 daily 2026-08-26 — 账号级集成让 Agent 在权限范围内调用飞书信息、推动工作流并沉淀为组织资产，解决 Agent 缺上下文瓶颈 |
+| Vercel 发布 Run SDK：在沙箱中安全执行 Agent 生成的代码 | Vercel | 2026-08-26 | agent, sdk, security | https://vercel.com/blog/introducing-run |  | 🔧 daily 2026-08-26 — QuickJS 沙箱隔离 untrusted JS/TS，支持 hostFunctions 暴露窄接口 + 中断等待人工审批 |
+| Vercel Connect GA：用运行时短期 Token 终结 Agent 凭证 sprawl | Vercel | 2026-08-26 | agent, security, gateway | https://vercel.com/blog/the-end-of-credential-sprawl-for-agents |  | 🔧 daily 2026-08-26 — 100+ 连接器 GA，OIDC 身份自动鉴权，Token 按需申请自动过期，消除长生命周期凭证风险 |
+| Amazon OpenSearch MCP Apps：Agent 可返回交互式可观测性可视化 | AWS | 2026-08-26 | agent, agentic, mcp, observability | https://aws.amazon.com/blogs/machine-learning/agentic-observability-with-amazon-opensearch-service-mcp-apps/ |  | 🔧 daily 2026-08-26 — MCP 扩展支持双响应模式（文本+可视化），Agent 排查告警直接在聊天窗口展示 trace waterfall，无需切浏览器 |
+| OpenAI 首颗自研推理芯片 Jalapeño 实测：吞吐+能效领先 | OpenAI | 2026-08-26 | inference, chip, latency | https://openai.com/index/jalapeno-first-results |  | ⚡ daily 2026-08-26 — Jalapeño 对 GPT-OSS/DeepSeek R1/Kimi K2.5 实现 1.5-1.9x 能效提升、1.7-3.6x 延迟降低，全栈优化初见成效 |
+| 🎯 IBM Granite 4.2：推理 + 原生工具调用 + Agentic RL，Apache 2.0 | IBM | 2026-08-26 | agent, tool calling, reasoning | https://huggingface.co/blog/ibm-granite/granite-4-2 | 🎯 agent-ui | 🔧 daily 2026-08-26 — 3B/8B/30B 三尺寸，SFT+多阶段 RL（含沙箱内 agentic RL），原生 OpenAI function calling 格式 |
+| 🎯 Gradio Workflow：拖拽式 AI 管线搭建，一键部署为 REST API | HuggingFace | 2026-08-26 | workflow, agent-ui, deployment | https://huggingface.co/blog/gradio-workflow-guide | 🎯 agent-ui | 📖 daily 2026-08-26 — 有向图描述步骤 → 自动生成拖拽画布 + REST API + HF Spaces 一键部署，支持并行 fan-out |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
