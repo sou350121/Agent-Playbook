@@ -1138,6 +1138,14 @@
 | OpenAI 首颗自研推理芯片 Jalapeño 实测：吞吐+能效领先 | OpenAI | 2026-08-26 | inference, chip, latency | https://openai.com/index/jalapeno-first-results |  | ⚡ daily 2026-08-26 — Jalapeño 对 GPT-OSS/DeepSeek R1/Kimi K2.5 实现 1.5-1.9x 能效提升、1.7-3.6x 延迟降低，全栈优化初见成效 |
 | 🎯 IBM Granite 4.2：推理 + 原生工具调用 + Agentic RL，Apache 2.0 | IBM | 2026-08-26 | agent, tool calling, reasoning | https://huggingface.co/blog/ibm-granite/granite-4-2 | 🎯 agent-ui | 🔧 daily 2026-08-26 — 3B/8B/30B 三尺寸，SFT+多阶段 RL（含沙箱内 agentic RL），原生 OpenAI function calling 格式 |
 | 🎯 Gradio Workflow：拖拽式 AI 管线搭建，一键部署为 REST API | HuggingFace | 2026-08-26 | workflow, agent-ui, deployment | https://huggingface.co/blog/gradio-workflow-guide | 🎯 agent-ui | 📖 daily 2026-08-26 — 有向图描述步骤 → 自动生成拖拽画布 + REST API + HF Spaces 一键部署，支持并行 fan-out |
+| Anthropic 据传本周发布 Opus 5.1 模型 | Anthropic | 2026-08-27 | model-release, agent, reasoning | https://readhub.cn/topic/8vuWUAxDDej |  | ⚡ daily 2026-08-27 — Opus 5.1 强化编程/推理/Agent 能力，或为缩小与 Fable 系列差距、应对 OpenAI 压力 |
+| 智谱推出 GLM-5.3 Flash 轻量旗舰模型，10 万国产卡支持 | 智谱 Zhipu AI | 2026-08-27 | model-release, china, inference | https://wallstreetcn.com/livenews/3155439 |  | 🔧 daily 2026-08-27 — 对标 DeepSeek V4 Flash，10 万张国产芯片集群推理，中国 AI 芯片生态又一里程碑 |
+| Gemini 3.5 Transcribe：更智能的语音转文本 | Google DeepMind | 2026-08-27 | speech, transcription, multimodal | https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/ |  | 📖 daily 2026-08-27 — Gemini 3.5 语音转文本能力升级，Vercel AI Gateway 同步接入 Muse Image 和 Qwen 3.8 Flash |
+| Anthropic 将斥资 450 亿美元租赁 Nscale 数据中心 | Anthropic/Nscale | 2026-08-27 | infrastructure, data-center, investment | https://wallstreetcn.com/livenews/3155474 |  | ⚡ daily 2026-08-27 — 460MW 电力供应，Anthropic 基础设施投资规模继续扩大，AI 算力军备竞赛加速 |
+| 英伟达 CFO：已向 AI 实验室投入超 500 亿美元 | NVIDIA | 2026-08-27 | infrastructure, investment, compute | https://wallstreetcn.com/livenews/3155563 |  | ⚡ daily 2026-08-27 — 前沿实验室需求将贡献约 1/4 公司业务，OpenAI 承诺占英伟达 12GW 算力约四分之一 |
+| Amazon Bedrock AgentCore Evaluations：解耦 Agent 评估与框架 | AWS | 2026-08-27 | evaluation, agent, observability | https://aws.amazon.com/blogs/machine-learning/evaluate-any-agent-framework-with-amazon-bedrock-agentcore-evaluations/ | [evaluation] | 🔧 daily 2026-08-27 — 只要 Agent 输出 OpenTelemetry 遥测即可评分，支持 LangGraph/LlamaIndex/OpenAI Agents SDK |
+| OpenAI 公开 Hugging Face 安全事件调查报告 | OpenAI | 2026-08-27 | security, model-protection, transparency | https://openai.com/index/hugging-face-incident-and-the-road-ahead |  | 🔧 daily 2026-08-27 — 公开 HF 模型安全事件调查细节与安全加固措施，对整个 AI 生态有警示意义 |
+| Sentence Transformers 多向量嵌入模型训练与微调教程 | HuggingFace | 2026-08-27 | embedding, rag, vector | https://huggingface.co/blog/train-multi-vector-encoder | [RAG] | 📖 daily 2026-08-27 — 多向量嵌入可显著提升 RAG 检索精度，适合需要细粒度语义匹配的场景 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
