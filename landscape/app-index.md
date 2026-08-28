@@ -1146,6 +1146,14 @@
 | Amazon Bedrock AgentCore Evaluations：解耦 Agent 评估与框架 | AWS | 2026-08-27 | evaluation, agent, observability | https://aws.amazon.com/blogs/machine-learning/evaluate-any-agent-framework-with-amazon-bedrock-agentcore-evaluations/ | [evaluation] | 🔧 daily 2026-08-27 — 只要 Agent 输出 OpenTelemetry 遥测即可评分，支持 LangGraph/LlamaIndex/OpenAI Agents SDK |
 | OpenAI 公开 Hugging Face 安全事件调查报告 | OpenAI | 2026-08-27 | security, model-protection, transparency | https://openai.com/index/hugging-face-incident-and-the-road-ahead |  | 🔧 daily 2026-08-27 — 公开 HF 模型安全事件调查细节与安全加固措施，对整个 AI 生态有警示意义 |
 | Sentence Transformers 多向量嵌入模型训练与微调教程 | HuggingFace | 2026-08-27 | embedding, rag, vector | https://huggingface.co/blog/train-multi-vector-encoder | [RAG] | 📖 daily 2026-08-27 — 多向量嵌入可显著提升 RAG 检索精度，适合需要细粒度语义匹配的场景 |
+| Gemini Omni 1.1 Flash: Google 推出超低延迟多模态模型 | Google | 2026-08-28 | multimodal, low-latency, gemini | https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/ |  | 🔧 daily 2026-08-28 — 超低延迟多模态实时 API，流式音频+视频+文本统一输入，适合实时 Agent 场景 |
+| 千问智谱连夜开源，国产大模型价格猛卷 | 阿里 + 智谱 | 2026-08-28 | open-source, pricing, chinese-llm | https://www.36kr.com/p/3956555141430402 |  | 📖 daily 2026-08-28 — 千问与智谱同步开源新模型且定价低于 DeepSeek，国产模型价格战白热化，开发者红利期 |
+| Breaking Claude Code Opus 5 Auto Mode: Prompt Injection 安全分析 | Community Research | 2026-08-28 | coding-agent, security, prompt-injection | https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/ | 🎯 agent-ui | ⚡ daily 2026-08-28 — Claude Code 默认 Auto Mode 被证明可通过 prompt injection 绕过安全限制，Agentic 安全信任模型再受质疑 |
+| Amazon Quick + fal: 通过 MCP 构建 Agentic 创意工作流 | AWS + fal.ai | 2026-08-28 | agent, mcp, creative-workflow | https://aws.amazon.com/blogs/machine-learning/build-agentic-creative-workflows-with-amazon-quick-and-fal/ | 🎯 agent-ui | 📖 daily 2026-08-28 — AWS 将 Amazon Quick 与 fal.ai 通过 MCP 连接，构建可复用 Agent harness 用于创意内容生产 |
+| Show HN: OpenRouter 开源模型网关 — Rust 原生高并发统一管理 | experientiallabs | 2026-08-28 | gateway, model-routing, rust | https://github.com/experientiallabs/experiential |  | 🔧 daily 2026-08-28 — 开源替代方案统一管理自建/前沿/开源模型，Rust 原生高并发，解决多 API 配置碎片化 |
+| DeepMind 试点全球首个双盲 AI 评估 | DeepMind | 2026-08-28 | evaluation, benchmark, double-blind | https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/ | [evaluation] | ⚡ daily 2026-08-28 — 双盲评估方法首次应用于 AI，消除评估者偏差，可能重塑模型基准公信力 |
+| Anthropic 考虑收购 AI 芯片初创公司 MatX | Anthropic | 2026-08-28 | chip, acquisition, inference-hardware | https://readhub.cn/topic/8vwqN6y14P4 |  | ⚡ daily 2026-08-28 — 继 Jalapeño 自研芯片实测后，Anthropic 进一步通过收购加速芯片能力，垂直整合推理基础设施 |
+| 英伟达暂停与多家人工智能企业的收益分成协议 | Nvidia | 2026-08-28 | nvidia, revenue-share, infrastructure-funding | https://readhub.cn/topic/8vwrQr66VzD |  | ⚡ daily 2026-08-28 — 英伟达叫停 AI 云信用支持换营收分成计划，并缩减 OpenAI 2500 亿美元融资兜底，AI 基础设施融资模式遇冷 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
