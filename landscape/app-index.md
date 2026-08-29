@@ -1154,6 +1154,14 @@
 | DeepMind 试点全球首个双盲 AI 评估 | DeepMind | 2026-08-28 | evaluation, benchmark, double-blind | https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/ | [evaluation] | ⚡ daily 2026-08-28 — 双盲评估方法首次应用于 AI，消除评估者偏差，可能重塑模型基准公信力 |
 | Anthropic 考虑收购 AI 芯片初创公司 MatX | Anthropic | 2026-08-28 | chip, acquisition, inference-hardware | https://readhub.cn/topic/8vwqN6y14P4 |  | ⚡ daily 2026-08-28 — 继 Jalapeño 自研芯片实测后，Anthropic 进一步通过收购加速芯片能力，垂直整合推理基础设施 |
 | 英伟达暂停与多家人工智能企业的收益分成协议 | Nvidia | 2026-08-28 | nvidia, revenue-share, infrastructure-funding | https://readhub.cn/topic/8vwrQr66VzD |  | ⚡ daily 2026-08-28 — 英伟达叫停 AI 云信用支持换营收分成计划，并缩减 OpenAI 2500 亿美元融资兜底，AI 基础设施融资模式遇冷 |
+| Anthropic 硬件版 MCP 扩展：从实验室设备走向全球设备接管 | Anthropic | 2026-08-29 | mcp, agent-hardware, iot | https://www.36kr.com/p/3958390719593861 |  | ⚡ daily 2026-08-29 — Anthropic MCP 从实验室仪器扩展至消费级设备，Agent 操控物理世界的标准化再进一步 |
+| DeepSeek 前 7 个月营收 4.75 亿，API 毛利率 82.9% | DeepSeek | 2026-08-29 | agent, api-economics, deepseek | https://readhub.cn/topic/8vwAvXp3Tiq |  | ⚡ daily 2026-08-29 — Agent 爆发驱动 API 调用需求，低价策略下毛利率已超多数云厂商 |
+| 九个编码 Agent 共用免费额度：本地路由代理 | — | 2026-08-29 | agent, gateway, routing | https://juejin.cn/post/7677432175924510760 |  | 🔧 daily 2026-08-29 — 本地代理层统一多家模型供应商，编码 Agent 换模型只需改配置 |
+| Just a rumour of a bug is enough to find a security exploit | Cambridge University | 2026-08-29 | security, coding-agent, llm | https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/ |  | 📖 daily 2026-08-29 — 仅凭 bug 传闻就能被 AI 利用找到安全漏洞 |
+| Vercel Chat SDK 集成 Claude Managed Agents | Vercel | 2026-08-29 | agent-ui, sdk, claude | https://vercel.com/changelog/claude-managed-agents-with-chat-sdk | 🎯 agent-ui | 🔧 daily 2026-08-29 — 开发者可通过 Vercel Chat SDK 直接嵌入 Claude 托管 Agent |
+| Vercel Dashboard 支持构建部署 Eve Agent | Vercel | 2026-08-29 | agent-ui, deployment, dashboard | https://vercel.com/changelog/build-and-deploy-eve-agents-from-the-vercel-dashboard | 🎯 agent-ui | 🔧 daily 2026-08-29 — Agent 部署从 CLI 走向可视化 Dashboard |
+| OpenAI 测试「持久模式」Agent：Codex 将能主动长时间工作 | OpenAI | 2026-08-29 | agent, codex, persistence | https://readhub.cn/topic/8vxOJPL7SpR |  | 🔧 daily 2026-08-29 — 从一次性对话到持久运行，Agent 自主性再上一个台阶 |
+| 美团王兴：AI 不会成为「Token 工厂」，将全面嵌入主业工作流 | 美团 | 2026-08-29 | agent, llmops, enterprise-ai | https://readhub.cn/topic/8vxqGTh1rFD |  | ⚡ daily 2026-08-29 — 全国产算力万亿参数模型 LongCat 2.0 已上线 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
