@@ -1162,6 +1162,11 @@
 | Vercel Dashboard 支持构建部署 Eve Agent | Vercel | 2026-08-29 | agent-ui, deployment, dashboard | https://vercel.com/changelog/build-and-deploy-eve-agents-from-the-vercel-dashboard | 🎯 agent-ui | 🔧 daily 2026-08-29 — Agent 部署从 CLI 走向可视化 Dashboard |
 | OpenAI 测试「持久模式」Agent：Codex 将能主动长时间工作 | OpenAI | 2026-08-29 | agent, codex, persistence | https://readhub.cn/topic/8vxOJPL7SpR |  | 🔧 daily 2026-08-29 — 从一次性对话到持久运行，Agent 自主性再上一个台阶 |
 | 美团王兴：AI 不会成为「Token 工厂」，将全面嵌入主业工作流 | 美团 | 2026-08-29 | agent, llmops, enterprise-ai | https://readhub.cn/topic/8vxqGTh1rFD |  | ⚡ daily 2026-08-29 — 全国产算力万亿参数模型 LongCat 2.0 已上线 |
+| OpenAI 宣布断供 Cursor：SpaceX 收购后的模型隔离升级 | OpenAI | 2026-08-30 | coding-agent, model-access, ecosystem | https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/ |  | ⚡ daily 2026-08-30 — OpenAI 因 SpaceX 收购 Cursor 触发控制权变更条款，11/12 终止直连，Astra 永不供应——模型分销中立性拐点 |
+| vLLM v0.28.0：Kimi-K3 全栈优化 + DeepSeek V4 稀疏 MLA 端到端 | vllm-project | 2026-08-30 | inference, speculative-decoding, kimi-k3 | https://github.com/vllm-project/vllm/releases/tag/v0.28.0 |  | 🔧 daily 2026-08-30 — 584 commits 大版本：Kimi-K3 DCP + FlashKDA 融合 + DeepSeek V4 稀疏 MLA 端到端 + DFlash2 推测解码 |
+| 🎯 Warp 基于 Claude Skills 构建自改进 Agent：800K 开发者的生产实践 | Warp | 2026-08-30 | agent-ui, self-improvement, claude-platform | https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude | 🎯 agent-ui | 🔧 daily 2026-08-30 — 用 Skills 框架将用户反馈沉淀为自改进循环，10M+ Claude Code 会话验证了 Agent 持续进化架构 |
+| Claude 训练 Claude：Anthropic AAR 自动化对齐研究员，4 美元/小时跑赢人类 | Anthropic | 2026-08-30 | alignment, self-improvement, safety | https://www.36kr.com/p/3960005089770887 |  | ⚡ daily 2026-08-30 — Claude Opus 4.8 自主查论文→设计方案→训练模型，弥合 26-96% 安全差距；较弱 Claude 训练更强 Claude 逼近正式版 |
+| LLM 正在让我失去技术敏锐度：一位 ML 开发者的五年反思 | — | 2026-08-30 | developer-experience, vibe-coding | https://pgaleone.eu/ai/2026/08/29/losing-savviness/ |  | 📖 daily 2026-08-30 — HN 51pts 热议：从亲手构建到 prompt→evaluate→adjust 循环，AI 编码工具对工程师创造力的深层影响 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
