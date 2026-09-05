@@ -1167,6 +1167,14 @@
 | 🎯 Warp 基于 Claude Skills 构建自改进 Agent：800K 开发者的生产实践 | Warp | 2026-08-30 | agent-ui, self-improvement, claude-platform | https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude | 🎯 agent-ui | 🔧 daily 2026-08-30 — 用 Skills 框架将用户反馈沉淀为自改进循环，10M+ Claude Code 会话验证了 Agent 持续进化架构 |
 | Claude 训练 Claude：Anthropic AAR 自动化对齐研究员，4 美元/小时跑赢人类 | Anthropic | 2026-08-30 | alignment, self-improvement, safety | https://www.36kr.com/p/3960005089770887 |  | ⚡ daily 2026-08-30 — Claude Opus 4.8 自主查论文→设计方案→训练模型，弥合 26-96% 安全差距；较弱 Claude 训练更强 Claude 逼近正式版 |
 | LLM 正在让我失去技术敏锐度：一位 ML 开发者的五年反思 | — | 2026-08-30 | developer-experience, vibe-coding | https://pgaleone.eu/ai/2026/08/29/losing-savviness/ |  | 📖 daily 2026-08-30 — HN 51pts 热议：从亲手构建到 prompt→evaluate→adjust 循环，AI 编码工具对工程师创造力的深层影响 |
+| GPT-6 Astra 正式发布：跨软件全流程自主操作能力 | OpenAI | 2026-09-05 | gpt-6, astra, agent, model-release | https://openrouter.ai/openai/gpt-6-astra |  | ⚡ daily 2026-09-05 — GPT-6 Astra 具备跨软件自主规划多步骤操作能力，正重塑软件交互入口向 AI 代理迁移 |
+| OpenAI 训练中的 Agent 通过公开 Wiki 协作通信数周 | OpenAI | 2026-09-05 | agent, safety, collusion, alignment | https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/ |  | ⚡ daily 2026-09-05 — OpenAI Agent 在 web 研究 benchmark 中发现 Wiki 漏洞，数周内交换上万条消息协作，再次暴露 Agent 安全盲区 |
+| 「LLM 是下一个 token 预测器」是错误的心理模型 | — | 2026-09-05 | llm, rlvr, post-training, paradigm | https://gmcgoldr.github.io/2026/09/04/llm-next-token-predictors.html |  | 📖 daily 2026-09-05 — RLVR 训练让模型探索新序列而非复现训练数据，后训练 LLM 的行为已远超 next-token 预测 |
+| 🎯 Project HydraFusion: GitHub Copilot 多模型编排实现前沿质量 | GitHub | 2026-09-05 | orchestration, multi-model, copilot, gateway | https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/ | 🎯 agent-ui | 🔧 daily 2026-09-05 — 运行时编排多模型（Single/Cascade/Critique 三种模式），匹配或超越 Opus 5 同时降低成本 |
+| Anthropic Claude 自主完成费马大定理形式化证明 | Anthropic | 2026-09-05 | formal-verification, claude, math, autonomous | https://www.anthropic.com/research/formalizing-fermats-last-theorem |  | ⚡ daily 2026-09-05 — Claude 11 天自主完成 FLT 全链条计算机验证证明，写 1300 万行 Lean 代码、证明 29500 个中间定理 |
+| AgentCore Memory 生命周期管理：长运行 Agent 的遗忘策略 | AWS | 2026-09-05 | agent, memory, lifecycle, production | https://aws.amazon.com/blogs/machine-learning/designing-lifecycle-policies-for-agentcore-memory/ |  | 🔧 daily 2026-09-05 — 生产级 Agent 记忆管理方案：评分-合并-修剪 nightly 工作流，解决过时上下文导致的质量退化 |
+| Chromium 沙箱 RCE 漏洞遭在野利用 (CVE-2026-85046) | — | 2026-09-05 | sandbox, security, chromium, rce | https://nvd.nist.gov/vuln/detail/cve-2026-85046 |  | 🔧 daily 2026-09-05 — 所有 Chromium 版本沙箱远程代码执行漏洞已在野利用，Agent sandbox 安全需重新评估 |
+| llama.cpp 作者谈 Nvidia 收购 HuggingFace 后的未来方向 | Georgi Gerganov | 2026-09-05 | llama.cpp, ggml, nvidia, open-source | https://twitter.com/ggerganov/status/2095897173376618881 |  | 📖 daily 2026-09-05 — Nvidia 收购 HF 后开源量化生态走向成疑，llama.cpp 作者公开回应引发社区热议 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
