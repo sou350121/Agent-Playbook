@@ -1175,6 +1175,9 @@
 | AgentCore Memory 生命周期管理：长运行 Agent 的遗忘策略 | AWS | 2026-09-05 | agent, memory, lifecycle, production | https://aws.amazon.com/blogs/machine-learning/designing-lifecycle-policies-for-agentcore-memory/ |  | 🔧 daily 2026-09-05 — 生产级 Agent 记忆管理方案：评分-合并-修剪 nightly 工作流，解决过时上下文导致的质量退化 |
 | Chromium 沙箱 RCE 漏洞遭在野利用 (CVE-2026-85046) | — | 2026-09-05 | sandbox, security, chromium, rce | https://nvd.nist.gov/vuln/detail/cve-2026-85046 |  | 🔧 daily 2026-09-05 — 所有 Chromium 版本沙箱远程代码执行漏洞已在野利用，Agent sandbox 安全需重新评估 |
 | llama.cpp 作者谈 Nvidia 收购 HuggingFace 后的未来方向 | Georgi Gerganov | 2026-09-05 | llama.cpp, ggml, nvidia, open-source | https://twitter.com/ggerganov/status/2095897173376618881 |  | 📖 daily 2026-09-05 — Nvidia 收购 HF 后开源量化生态走向成疑，llama.cpp 作者公开回应引发社区热议 |
+| Using Blender with coding agents on macOS | Simon Willison | 2026-09-06 | coding-agent, desktop-app, macOS | https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos/ |  | 🔧 daily 2026-09-06 — 展示 coding agent 突破代码领域，扩展到 3D 建模工具链，拓宽 agent 能力边界 |
+| R²Adapter: 高效混合 RAG 的路由与重写适配器 | — | 2026-09-06 | rag, retrieval, routing | https://arxiv.org/abs/2609.02894 | [RAG] | 📖 daily 2026-09-06 — 为 RAG 引入路由+重写双阶段适配器，解决多跳推理场景下的检索瓶颈（arXiv） |
+| MemoryLACE: 长运行 Agent 的记忆生命周期管理 | — | 2026-09-06 | agent, memory, lifecycle | https://arxiv.org/abs/2609.03201 | 🎯 agent-ui | 📖 daily 2026-09-06 — 提出记忆生命周期感知机制，区分重复证据/历史状态/更新/矛盾，解决长对话记忆膨胀（arXiv） |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
