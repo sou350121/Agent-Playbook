@@ -1178,6 +1178,10 @@
 | Using Blender with coding agents on macOS | Simon Willison | 2026-09-06 | coding-agent, desktop-app, macOS | https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos/ |  | 🔧 daily 2026-09-06 — 展示 coding agent 突破代码领域，扩展到 3D 建模工具链，拓宽 agent 能力边界 |
 | R²Adapter: 高效混合 RAG 的路由与重写适配器 | — | 2026-09-06 | rag, retrieval, routing | https://arxiv.org/abs/2609.02894 | [RAG] | 📖 daily 2026-09-06 — 为 RAG 引入路由+重写双阶段适配器，解决多跳推理场景下的检索瓶颈（arXiv） |
 | MemoryLACE: 长运行 Agent 的记忆生命周期管理 | — | 2026-09-06 | agent, memory, lifecycle | https://arxiv.org/abs/2609.03201 | 🎯 agent-ui | 📖 daily 2026-09-06 — 提出记忆生命周期感知机制，区分重复证据/历史状态/更新/矛盾，解决长对话记忆膨胀（arXiv） |
+| OpenAI 内部视角：Coding Agent 如何加速 AI 研究 | OpenAI | 2026-09-07 | agent, coding-agent, research | https://openai.com/index/research-acceleration-view-inside-openai | 🎯 agent-ui | ⚡ daily 2026-09-07 — 内部数据首次公开：coding agent 已达成「自动化研究实习生」里程碑，2028年3月目标全自动AI研究员 |
+| 索尼华纳集体起诉 Anthropic，AI 训练数据版权战进入总攻阶段 | — | 2026-09-07 | copyright, safety, compliance | https://www.36kr.com/p/3971524976849160 | [evaluation] | ⚡ daily 2026-09-07 — 三大唱片公司首次齐聚围剿，Anthropic 盗版训练数据面临数十亿美元索赔 |
+| GPT-6 Astra 化身影视导演，联手 Seedance 2.5 全自动拍片 | OpenAI / ByteDance | 2026-09-07 | agent-ui, video-generation, vibe-coding | https://www.36kr.com/p/3971407306141955 |  | 🔧 daily 2026-09-07 — 从Brief到成片全流程自动化，展示GPT-6桌面操作能力在创意工作流中的落地 |
+| 十年果蝇脑图谱接入 Minecraft，GPT-6 两天完成全栈开发 | Georgia Tech / HHMI Janelia | 2026-09-07 | vibe-coding, gpt-6, science | https://readhub.cn/topic/8wCYjQT4slg |  | 📖 daily 2026-09-07 — 1.25亿突触连接组+16.6万神经元模拟，展示GPT-6操作复杂科研工具链能力 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
