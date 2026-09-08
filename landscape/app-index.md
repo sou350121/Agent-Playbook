@@ -1182,6 +1182,14 @@
 | 索尼华纳集体起诉 Anthropic，AI 训练数据版权战进入总攻阶段 | — | 2026-09-07 | copyright, safety, compliance | https://www.36kr.com/p/3971524976849160 | [evaluation] | ⚡ daily 2026-09-07 — 三大唱片公司首次齐聚围剿，Anthropic 盗版训练数据面临数十亿美元索赔 |
 | GPT-6 Astra 化身影视导演，联手 Seedance 2.5 全自动拍片 | OpenAI / ByteDance | 2026-09-07 | agent-ui, video-generation, vibe-coding | https://www.36kr.com/p/3971407306141955 |  | 🔧 daily 2026-09-07 — 从Brief到成片全流程自动化，展示GPT-6桌面操作能力在创意工作流中的落地 |
 | 十年果蝇脑图谱接入 Minecraft，GPT-6 两天完成全栈开发 | Georgia Tech / HHMI Janelia | 2026-09-07 | vibe-coding, gpt-6, science | https://readhub.cn/topic/8wCYjQT4slg |  | 📖 daily 2026-09-07 — 1.25亿突触连接组+16.6万神经元模拟，展示GPT-6操作复杂科研工具链能力 |
+| Jakub Pachocki：我们需要强大的 AI 来防御其他 AI 的危险 | OpenAI | 2026-09-08 | agent, safety, AGI | https://simonwillison.net/2026/Sep/7/jakub-pachocki/ |  | ⚡ daily 2026-09-08 — OpenAI 前首席技术官指出，防御性 AI 是继续训练更强模型的核心理由 |
+| 英伟达拟斥 30 亿美元投资穆拉蒂创办的 Thinking Machines Lab | NVIDIA / Thinking Machines Lab | 2026-09-08 | investment, agent, foundation-model | https://readhub.cn/topic/8wETlfaanuc |  | ⚡ daily 2026-09-08 — 投前估值 400 亿美元，OpenAI 旧部团队 + 英伟达 Vera Rubin 部署，生态格局再变 |
+| 🎯 腾讯 WorkBuddy：要做 Agent 时代的操作系统 | 腾讯 | 2026-09-08 | agent, agent-ui, platform | https://www.huxiu.com/article/4888140.html | 🎯 agent-ui | ⚡ daily 2026-09-08 — 腾讯押注 Agent 平台战略，意图打造 Agent 时代的入口级产品 |
+| 🎯 OpenAI 产品负责人：你熬夜写的 50 页文档，已经不值钱了 | OpenAI | 2026-09-08 | agent, developer-workflow, documentation | https://www.36kr.com/p/3972487987523844 | 🎯 agent-ui | 🔧 daily 2026-09-08 — AI 研究实习生里程碑达成，长篇文档在 Agent 协作时代价值归零 |
+| OpenAI「AI 研究实习生」正式入职，黄仁勋：AGI 已来 | OpenAI | 2026-09-08 | agent, AGI, research | https://www.36kr.com/p/3972641004843521 |  | ⚡ daily 2026-09-08 — OpenAI 内部 Coding Agent 达新里程碑，黄仁勋公开表态 AGI 时代已开启 |
+| 🎯 一人四岗 20 天：Cursor + Codex 上线微信小游戏 | — | 2026-09-08 | coding-agent, agent-ui, vibe-coding | https://juejin.cn/post/7681286465168769067 | 🎯 agent-ui | 🔧 daily 2026-09-08 — 独立开发者用 Cursor + Codex 单人完成全栈游戏开发，Agent 编码进入实用期 |
+| Anthropic 继续收购 AI 生物公司，推出 Claude Science 科研工作台 | Anthropic | 2026-09-08 | acquisition, science, vertical-app | https://readhub.cn/topic/8wERIr8aR4N |  | ⚡ daily 2026-09-08 — 4 亿美元收购 Coefficient Bio + Claude Science 工作台 + MHS 硬件标准，垂直领域全栈布局 |
+| GPT-6 Astra 零失误通关全部 48 关「我不是机器人」验证码 | OpenAI | 2026-09-08 | gpt, security, CAPTCHA | https://readhub.cn/topic/8wF4WgDuH69 |  | 📖 daily 2026-09-08 — 传统验证码机制在 GPT-6 面前全面失效，Web 安全基础设施面临重构 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
