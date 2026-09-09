@@ -1190,6 +1190,14 @@
 | 🎯 一人四岗 20 天：Cursor + Codex 上线微信小游戏 | — | 2026-09-08 | coding-agent, agent-ui, vibe-coding | https://juejin.cn/post/7681286465168769067 | 🎯 agent-ui | 🔧 daily 2026-09-08 — 独立开发者用 Cursor + Codex 单人完成全栈游戏开发，Agent 编码进入实用期 |
 | Anthropic 继续收购 AI 生物公司，推出 Claude Science 科研工作台 | Anthropic | 2026-09-08 | acquisition, science, vertical-app | https://readhub.cn/topic/8wERIr8aR4N |  | ⚡ daily 2026-09-08 — 4 亿美元收购 Coefficient Bio + Claude Science 工作台 + MHS 硬件标准，垂直领域全栈布局 |
 | GPT-6 Astra 零失误通关全部 48 关「我不是机器人」验证码 | OpenAI | 2026-09-08 | gpt, security, CAPTCHA | https://readhub.cn/topic/8wF4WgDuH69 |  | 📖 daily 2026-09-08 — 传统验证码机制在 GPT-6 面前全面失效，Web 安全基础设施面临重构 |
+| WhatsApp 将原生支持第三方 AI 智能体，每账号最多 5 个 | Meta | 2026-09-09 | agent, messaging, platform | https://9to5mac.com/2026/09/07/whatsapp-will-soon-let-users-chat-with-up-to-five-third-party-ai-agents/ |  | ⚡ daily 2026-09-09 — 全球 20 亿用户平台首次原生支持第三方 Agent 接入 |
+| 荣耀 MagicOS 11：业界首个系统级 Agent Harness 商用落地 | 荣耀 | 2026-09-09 | agent, mobile-os, agent-harness | https://readhub.cn/topic/8wFvUj8ghia |  | ⚡ daily 2026-09-09 — YOYO Harness 深度融合模型与终端能力，拆解长任务、闭环多类服务 |
+| GPT-6 Astra 正式登陆 Amazon Bedrock | AWS / OpenAI | 2026-09-09 | agent, bedrock, enterprise | https://aws.amazon.com/blogs/machine-learning/take-on-your-most-ambitious-work-with-gpt-6-astra-on-amazon-bedrock/ |  | 🔧 daily 2026-09-09 — 企业可在 Bedrock 上直接调用 Astra，百万上下文落地生产 |
+| Vercel Sandbox 路由全球提速 18 倍 | Vercel | 2026-09-09 | sandbox, latency, agent-infra | https://vercel.com/changelog/vercel-sandbox-routing-is-now-18x-faster-globally |  | 🔧 daily 2026-09-09 — 域名查找延迟 62ms→3.4ms，Agent 沙箱场景利好 |
+| OpenAI ChatGPT Sites 公测：自然语言一键生成完整网站 | OpenAI | 2026-09-09 | vibe-coding, web-dev, intent-driven | https://www.36kr.com/p/3974225141231879 |  | ⚡ daily 2026-09-09 — 将前端开发从工程学降维为表达学，传统拖拽建站 SaaS 面临颠覆 |
+| OpenAI 未发布模型攻克纳维-斯托克斯方程，4.9M 消息自动证明 | OpenAI | 2026-09-09 | reasoning, math, LLM | https://readhub.cn/topic/8wG3GtyPJ5v |  | ⚡ daily 2026-09-09 — 疑似 Bel 模型 88 小时自主解决千禧年难题 |
+| ChatGPT Images 2.5 发布：多轮指令跟随 + API 双模型 | OpenAI | 2026-09-09 | image-generation, multimodal, api | https://openai.com/index/introducing-chatgpt-images-2-5/ |  | 🔧 daily 2026-09-09 — Sunburst + Flare 双模型上线 API |
+| DaVinci Resolve 21.1 集成 Claude + ChatGPT Codex AI 助手 | Blackmagic Design | 2026-09-09 | agent, creative, vertical-app | https://readhub.cn/topic/8wGKPhXS1Zk |  | 🔧 daily 2026-09-09 — 专业视频剪辑软件原生接入多款 AI 助手 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
