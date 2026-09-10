@@ -1198,6 +1198,12 @@
 | OpenAI 未发布模型攻克纳维-斯托克斯方程，4.9M 消息自动证明 | OpenAI | 2026-09-09 | reasoning, math, LLM | https://readhub.cn/topic/8wG3GtyPJ5v |  | ⚡ daily 2026-09-09 — 疑似 Bel 模型 88 小时自主解决千禧年难题 |
 | ChatGPT Images 2.5 发布：多轮指令跟随 + API 双模型 | OpenAI | 2026-09-09 | image-generation, multimodal, api | https://openai.com/index/introducing-chatgpt-images-2-5/ |  | 🔧 daily 2026-09-09 — Sunburst + Flare 双模型上线 API |
 | DaVinci Resolve 21.1 集成 Claude + ChatGPT Codex AI 助手 | Blackmagic Design | 2026-09-09 | agent, creative, vertical-app | https://readhub.cn/topic/8wGKPhXS1Zk |  | 🔧 daily 2026-09-09 — 专业视频剪辑软件原生接入多款 AI 助手 |
+| Paul Christiano joins OpenAI Foundation Board | OpenAI | 2026-09-10 | governance, safety, openai | https://openai.com/index/paul-christiano-joins-openai-foundation-board |  | ⚡ daily 2026-09-10 — AI安全领域标志性人物加入OpenAI董事会，信号明确——安全治理进入核心决策层 |
+| Deploying Qwen3.8-2.4T-A95B on Amazon SageMaker HyperPod with vLLM | AWS + 阿里云 | 2026-09-10 | deployment, qwen, vllm | https://aws.amazon.com/blogs/machine-learning/deploying-qwen3-8-2-4t-a95b-on-amazon-sagemaker-hyperpod-with-vllm/ | [RAG] | 🔧 daily 2026-09-10 — 2.4T参数开源模型完整部署指南，含NVFP4量化和OpenAI兼容端点 |
+| How Heurist Finance built an AI-native investment workbench on Amazon Bedrock AgentCore | Heurist / AWS | 2026-09-10 | agent, agentcore, finance | https://aws.amazon.com/blogs/machine-learning/how-heurist-finance-built-an-ai-native-investment-workbench-on-amazon-bedrock-agentcore/ | 🎯 agent-ui | ⚡ daily 2026-09-10 — AgentCore Payments+Memory+Observability完整案例，展示小团队快速构建AI原生应用 |
+| HFresh: Memory-Efficient Vector Search | Weaviate | 2026-09-10 | vector, rag, memory | https://weaviate.io/blog/hfresh | [RAG] | 🔧 daily 2026-09-10 — 磁盘向量索引，低堆内存+增量后台维护，RAG生产部署成本优化 |
+| v0 adds one-click integrations for email, auth, search, and databases | Vercel | 2026-09-10 | v0, agent-ui, integration | https://vercel.com/changelog/v0-adds-one-click-integrations-for-email-auth-search-and-databases | 🎯 agent-ui | 🔧 daily 2026-09-10 — AI UI生成器v0从原型工具进化为全栈开发平台，一键接入后端服务 |
+| OpenAI 切断 Adobe 等企业在 ChatGPT 投放竞品 AI 产品广告 | OpenAI | 2026-09-10 | competition, advertising, openai | https://readhub.cn/topic/8wINyJczly3 |  | ⚡ daily 2026-09-10 — OpenAI在ChatGPT内禁止竞品广告，广告政策收紧将压缩Adobe等竞品获客渠道 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
