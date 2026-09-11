@@ -1204,6 +1204,15 @@
 | HFresh: Memory-Efficient Vector Search | Weaviate | 2026-09-10 | vector, rag, memory | https://weaviate.io/blog/hfresh | [RAG] | 🔧 daily 2026-09-10 — 磁盘向量索引，低堆内存+增量后台维护，RAG生产部署成本优化 |
 | v0 adds one-click integrations for email, auth, search, and databases | Vercel | 2026-09-10 | v0, agent-ui, integration | https://vercel.com/changelog/v0-adds-one-click-integrations-for-email-auth-search-and-databases | 🎯 agent-ui | 🔧 daily 2026-09-10 — AI UI生成器v0从原型工具进化为全栈开发平台，一键接入后端服务 |
 | OpenAI 切断 Adobe 等企业在 ChatGPT 投放竞品 AI 产品广告 | OpenAI | 2026-09-10 | competition, advertising, openai | https://readhub.cn/topic/8wINyJczly3 |  | ⚡ daily 2026-09-10 — OpenAI在ChatGPT内禁止竞品广告，广告政策收紧将压缩Adobe等竞品获客渠道 |
+| Cognition 发布 SWE-2 编码模型：距 Fable 5.1 仅 1 分，成本低 64% | Cognition | 2026-09-11 | coding-agent, model-release, rl | https://cognition.com/blog/swe-2 |  | ⚡ daily 2026-09-11 — 编码 Agent 成本/能力前沿再推进，Devin 已可用 |
+| DeepSeek V4.1 Flash 正式发布：552B MoE、原生多模态、最高降价 60% | deepseek-ai | 2026-09-11 | model-release, moe, multimodal | https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash |  | ⚡ daily 2026-09-11 — KV Cache 大幅压缩+峰谷定价，Agent 长上下文成本骤降 |
+| Anthropic 发布 2026-09 威胁情报报告：检测与反制 AI 滥用 | Anthropic | 2026-09-11 | safety, guardrail, evaluation | https://www.anthropic.com/threat-intelligence-report-september-2026 | [evaluation] | ⚡ daily 2026-09-11 — 含生物武器滥用阻断，Agent 安全评估一手案例 |
+| OpenAI 开放 Agents API：托管 Codex harness（会话/编排/沙箱/MCP） | OpenAI | 2026-09-11 | agent, harness, mcp, sandbox | https://developers.openai.com/api/docs/guides/agents-api/overview |  | ⚡ daily 2026-09-11 — 把 Codex harness 变托管 API，Agent 运行时平台化 |
+| Vercel AI SDK harness 层接入 GitHub Copilot（统一 HarnessAgent 接口） | vercel | 2026-09-11 | agent-ui, harness, sdk | https://vercel.com/changelog/github-copilot-ai-sdk-harness-adapter |  | 🔧 daily 2026-09-11 — 同一接口切换 Claude Code/Codex/Cursor 等编码 Agent |
+| Amazon Bedrock 知识库支持视频/图像检索（Marengo 3.0） | aws | 2026-09-11 | rag, multimodal, retrieval | https://aws.amazon.com/blogs/machine-learning/video-and-image-search-in-amazon-bedrock-knowledge-base-using-marengo-3-0/ | [RAG] | 🔧 daily 2026-09-11 — 多模态检索进 RAG 工具链，视频/图像可直接入库 |
+| OpenAI 推出面向金融服务的 ChatGPT | OpenAI | 2026-09-11 | vertical, product | https://openai.com/index/introducing-chatgpt-financial-services |  | 🔧 daily 2026-09-11 — 金融垂类 Agent 产品化，观察行业落地路径 |
+| HF 用 Gradio Workflow 重建 AUTOMATIC1111 界面 | huggingface | 2026-09-11 | ui, workflow | https://huggingface.co/blog/gradio-workflow-1111 |  | 📖 daily 2026-09-11 — 可视化工作流编排 UI 的参考实现 |
+| SageMaker 前缀感知路由降低 LLM 推理延迟 | aws | 2026-09-11 | llmops, inference, caching | https://aws.amazon.com/blogs/machine-learning/reduce-llm-latency-with-prefix-aware-routing-on-amazon-sagemaker-inference/ |  | 📖 daily 2026-09-11 — 前缀缓存路由是降本增效的实用手段 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
