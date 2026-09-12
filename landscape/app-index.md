@@ -1213,6 +1213,12 @@
 | OpenAI 推出面向金融服务的 ChatGPT | OpenAI | 2026-09-11 | vertical, product | https://openai.com/index/introducing-chatgpt-financial-services |  | 🔧 daily 2026-09-11 — 金融垂类 Agent 产品化，观察行业落地路径 |
 | HF 用 Gradio Workflow 重建 AUTOMATIC1111 界面 | huggingface | 2026-09-11 | ui, workflow | https://huggingface.co/blog/gradio-workflow-1111 |  | 📖 daily 2026-09-11 — 可视化工作流编排 UI 的参考实现 |
 | SageMaker 前缀感知路由降低 LLM 推理延迟 | aws | 2026-09-11 | llmops, inference, caching | https://aws.amazon.com/blogs/machine-learning/reduce-llm-latency-with-prefix-aware-routing-on-amazon-sagemaker-inference/ |  | 📖 daily 2026-09-11 — 前缀缓存路由是降本增效的实用手段 |
+| Build interactive MCP Apps using Amazon Bedrock AgentCore | AWS | 2026-09-12 | mcp, agent-ui, serverless | https://aws.amazon.com/blogs/machine-learning/build-interactive-mcp-apps-using-amazon-bedrock-agentcore/ | 🎯 agent-ui | ⚡ daily 2026-09-12 — MCP Apps 把交互式 HTML widget 搬进 AI host，Agent UI 标准化落地路径。 |
+| Monitoring production agent lifecycle with AWS DevOps Agent and AgentCore Evaluations | AWS | 2026-09-12 | agent, observability, evals | https://aws.amazon.com/blogs/machine-learning/monitoring-production-agent-lifecycle-with-aws-devops-agent-and-agentcore-evaluations/ | [evaluation] | 🔧 daily 2026-09-12 — 多 Agent 生产的质量监控缺口：实时评分交互，而非只看基础设施指标。 |
+| litelm: LiteLLM Without the Bloat | kennethwolters | 2026-09-12 | gateway, llm-routing, sdk | https://github.com/kennethwolters/litelm |  | 🔧 daily 2026-09-12 — 把 LLM 路由/翻译核心从 10 万行 LiteLLM 剥成 2900 行、仅 2 个依赖。 |
+| How Tailscale built a customer-facing model router on AI Gateway | Vercel / Tailscale | 2026-09-12 | gateway, model-router, sandbox | https://vercel.com/blog/how-tailscale-built-a-customer-facing-model-router-on-ai-gateway |  | 📖 daily 2026-09-12 — 企业用网关+沙箱把模型访问绑定到 tailnet 身份，而非逐个发 API key。 |
+| Rapidly scaling online storage to serve over 1 billion ChatGPT users | OpenAI | 2026-09-12 | infra, storage, scale | https://openai.com/index/scaling-storage-one-billion-users-part-one |  | 📖 daily 2026-09-12 — ChatGPT/Codex 背后的在线存储 Habitat：70M QPS、500PB 的规模工程复盘。 |
+| So you want to use OpenRouter? | OpenRouter | 2026-09-12 | routing, fallback, api | https://simonwillison.net/2026/Sep/11/so-you-want-to-use-openrouter/ |  | 🔧 daily 2026-09-12 — 同一 OpenRouter 端点在不同后端行为不一，需 provider.only 固定路由。 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
