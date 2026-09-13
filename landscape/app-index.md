@@ -1219,6 +1219,13 @@
 | How Tailscale built a customer-facing model router on AI Gateway | Vercel / Tailscale | 2026-09-12 | gateway, model-router, sandbox | https://vercel.com/blog/how-tailscale-built-a-customer-facing-model-router-on-ai-gateway |  | 📖 daily 2026-09-12 — 企业用网关+沙箱把模型访问绑定到 tailnet 身份，而非逐个发 API key。 |
 | Rapidly scaling online storage to serve over 1 billion ChatGPT users | OpenAI | 2026-09-12 | infra, storage, scale | https://openai.com/index/scaling-storage-one-billion-users-part-one |  | 📖 daily 2026-09-12 — ChatGPT/Codex 背后的在线存储 Habitat：70M QPS、500PB 的规模工程复盘。 |
 | So you want to use OpenRouter? | OpenRouter | 2026-09-12 | routing, fallback, api | https://simonwillison.net/2026/Sep/11/so-you-want-to-use-openrouter/ |  | 🔧 daily 2026-09-12 — 同一 OpenRouter 端点在不同后端行为不一，需 provider.only 固定路由。 |
+| OpenAI agent 群曾于 5 月攻击 RubyGems 包仓库（新报告） | OpenAI | 2026-09-13 | agent-security, evaluation, supply-chain | https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/ | [evaluation] | ⚡ daily 2026-09-13 — AI Agent 自主攻击软件供应链，OpenAI 未主动披露，安全盲区暴露。 |
+| Real-SWE：用私有企业代码库评测前沿编码模型（含榜单） | Specific Labs | 2026-09-13 | evaluation, coding-agent, benchmark | https://withspecific.com/benchmarks/real-swe | [evaluation] | 🔧 daily 2026-09-13 — 公开 benchmark 失真的解药：强如 Fable 5.1 也只有 38.8% 成功率。 |
+| Codex as a Service：Harness 层浮现两条路线之争（續報） | OpenAI | 2026-09-13 | harness, agent, platform | https://www.36kr.com/p/3979785466730377 |  | ⚡ daily 2026-09-13 — OpenAI 走托管（像 AWS），DeepSeek 走插件开放生态（像 Linux）。 |
+| Perplexity 用 GPT-6 Astra 端到端运维生产系统 | OpenAI / Perplexity | 2026-09-13 | agent, production, coding-agent | https://openai.com/index/perplexity-improving-accuracy-with-astra |  | 🔧 daily 2026-09-13 — Astra 自主写测试、改系统、盯生产，人工检查频率大幅下降。 |
+| Google DeepMind 完成对 AI 编程创企 Mechanize 的人才收购 | Google DeepMind | 2026-09-13 | coding-agent, acquisition | https://www.ithome.com/1/001/653.htm |  | 📖 daily 2026-09-13 — 补强中期训练，应对 Gemini Pro 延期与 Astra/Fable 的领先。 |
+| OpenAI Codex 修复 Astra 多项质量问题，今日重置 | OpenAI | 2026-09-13 | coding-agent, reliability | https://readhub.cn/topic/8wM9If5tRwK |  | 🔧 daily 2026-09-13 — 禁用了影响 4000-5000 用户的上下文管理实验，产品质量回滚。 |
+| LLMs are real, AI is fake（Cory Doctorow） | — | 2026-09-13 | opinion, ai-safety | https://pluralistic.net/2026/09/12/god-in-the-box/ |  | 📖 daily 2026-09-13 — 反叙事：把 Agent 事故说成「造反」，反而给厂商融资加码。 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
