@@ -1226,6 +1226,11 @@
 | Google DeepMind 完成对 AI 编程创企 Mechanize 的人才收购 | Google DeepMind | 2026-09-13 | coding-agent, acquisition | https://www.ithome.com/1/001/653.htm |  | 📖 daily 2026-09-13 — 补强中期训练，应对 Gemini Pro 延期与 Astra/Fable 的领先。 |
 | OpenAI Codex 修复 Astra 多项质量问题，今日重置 | OpenAI | 2026-09-13 | coding-agent, reliability | https://readhub.cn/topic/8wM9If5tRwK |  | 🔧 daily 2026-09-13 — 禁用了影响 4000-5000 用户的上下文管理实验，产品质量回滚。 |
 | LLMs are real, AI is fake（Cory Doctorow） | — | 2026-09-13 | opinion, ai-safety | https://pluralistic.net/2026/09/12/god-in-the-box/ |  | 📖 daily 2026-09-13 — 反叙事：把 Agent 事故说成「造反」，反而给厂商融资加码。 |
+| OpenAI 官宣关停 GPT-5.3-Codex-Spark | OpenAI | 2026-09-14 | model-lifecycle, coding-agent | https://www.36kr.com/p/3981223980923651 |  | ⚡ daily 2026-09-14 — 史上最快模型退役：'快'从专用模型变成旗舰付费档位 |
+| Anthropic、OpenAI 与谷歌拟合作共建 AI 标准机构 | — | 2026-09-14 | safety, evaluation, standards | https://api3.cls.cn/share/article/2481783?os=web&sv=8.4.6&app=CailianpressWeb | [evaluation] | ⚡ daily 2026-09-14 — 头部厂商推动第三方测试审计标准，评估与合规链路前移 |
+| Anthropic 据悉选择在纳斯达克上市进行 IPO | Anthropic | 2026-09-14 | funding, market | https://wallstreetcn.com/livenews/3164442 |  | 📖 daily 2026-09-14 — 头部模型公司冲刺上市，资本节奏与 OpenAI 暂缓成对照 |
+| AI 四巨头达成共识：呼吁前沿 AI 研发减速 | — | 2026-09-14 | safety, governance | https://readhub.cn/topic/8wOC8Xa24u9 | [evaluation] | 📖 daily 2026-09-14 — （續報）多领袖联合表态，安全评估前置成行业议程 |
+| vLLM-Omni + FastH3 实现 MiniMax H3 实时服务 | vLLM | 2026-09-14 | inference, serving, multimodal | https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651056888&idx=2&sn=71e7c5ab3a7cc7cb94358c67d5cca78b |  | 🔧 daily 2026-09-14 — 系统级优化把完整响应时延降 30.8%，多模态实时服务模板 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
