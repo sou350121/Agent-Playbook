@@ -1231,6 +1231,13 @@
 | Anthropic 据悉选择在纳斯达克上市进行 IPO | Anthropic | 2026-09-14 | funding, market | https://wallstreetcn.com/livenews/3164442 |  | 📖 daily 2026-09-14 — 头部模型公司冲刺上市，资本节奏与 OpenAI 暂缓成对照 |
 | AI 四巨头达成共识：呼吁前沿 AI 研发减速 | — | 2026-09-14 | safety, governance | https://readhub.cn/topic/8wOC8Xa24u9 | [evaluation] | 📖 daily 2026-09-14 — （續報）多领袖联合表态，安全评估前置成行业议程 |
 | vLLM-Omni + FastH3 实现 MiniMax H3 实时服务 | vLLM | 2026-09-14 | inference, serving, multimodal | https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651056888&idx=2&sn=71e7c5ab3a7cc7cb94358c67d5cca78b |  | 🔧 daily 2026-09-14 — 系统级优化把完整响应时延降 30.8%，多模态实时服务模板 |
+| Pion：可自主运营整家公司的 agent 框架 | Andon Labs | 2026-09-15 | agent, autonomy, orchestration | https://andonlabs.com/blog/why-we-built-pion |  | ⚡ daily 2026-09-15 — 自主运营型 agent 从 demo 迈向真实业务闭环 |
+| Vercel AI SDK harness 层支持原生订阅认证 | Vercel | 2026-09-15 | sdk, agent, auth | https://vercel.com/changelog/ai-sdk-harness-native-subscription-authentication |  | 🔧 daily 2026-09-15 — 统一 HarnessAgent 认证，简化自托管 agent 接入 |
+| Bedrock AgentCore 新增面向 AI agent 的 OAuth 同意门户 | AWS | 2026-09-15 | agent, gateway, security | https://aws.amazon.com/blogs/machine-learning/manage-end-user-oauth-consent-for-ai-agents-with-amazon-bedrock-agentcore/ |  | 🔧 daily 2026-09-15 — 把 3LO 用户授权做成托管能力，agent 接第三方服务更安全 |
+| Abnormal AI 用 Bedrock AgentCore 支撑十亿级 agentic 邮件安全 | Abnormal AI / AWS | 2026-09-15 | agent, sandbox, security | https://aws.amazon.com/blogs/machine-learning/abnormal-ai-amazon-bedrock-agentcore-for-agentic-email-security-at-scale/ |  | 🔧 daily 2026-09-15 — 大规模生产环境 agent 沙箱与临时算力设计范式 |
+| OpenAI 案例：Fyxer 如何打造可信任的 AI 行政助理 | Fyxer / OpenAI | 2026-09-15 | agent, memory, vertical | https://openai.com/index/fyxer |  | 📖 daily 2026-09-15 — 微调+记忆+用户反馈构建信任型助理的实操拆解 |
+| Nari Labs 开源 Qwen3-TTS 与 Qwen3-ASR：高精度低成本 | Nari Labs | 2026-09-15 | speech, tts, asr, on-device | https://narilabs.com/blog/nari-labs-leads-coval-voice-ai-benchmarks/ |  | 🔧 daily 2026-09-15 — 开源语音链路补齐，低延迟语音 agent 更易落地 |
+| 为何 ML 研究 agent 不会过拟合？ | Amazon Science | 2026-09-15 | agent, research | https://www.amazon.science/blog/why-dont-machine-learning-research-agents-overfit |  | 📖 daily 2026-09-15 — 研究型 agent 的泛化特性，影响 agent 架构设计假设 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
