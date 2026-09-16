@@ -1238,6 +1238,11 @@
 | OpenAI 案例：Fyxer 如何打造可信任的 AI 行政助理 | Fyxer / OpenAI | 2026-09-15 | agent, memory, vertical | https://openai.com/index/fyxer |  | 📖 daily 2026-09-15 — 微调+记忆+用户反馈构建信任型助理的实操拆解 |
 | Nari Labs 开源 Qwen3-TTS 与 Qwen3-ASR：高精度低成本 | Nari Labs | 2026-09-15 | speech, tts, asr, on-device | https://narilabs.com/blog/nari-labs-leads-coval-voice-ai-benchmarks/ |  | 🔧 daily 2026-09-15 — 开源语音链路补齐，低延迟语音 agent 更易落地 |
 | 为何 ML 研究 agent 不会过拟合？ | Amazon Science | 2026-09-15 | agent, research | https://www.amazon.science/blog/why-dont-machine-learning-research-agents-overfit |  | 📖 daily 2026-09-15 — 研究型 agent 的泛化特性，影响 agent 架构设计假设 |
+| Gemini 3.8 Live 与 3.8 Live Extended Thinking 发布 | Google | 2026-09-16 | model-release, realtime-voice, speech-to-speech | https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/ |  | ⚡ daily 2026-09-16 — 谷歌最强实时语音-语音模型上线，已接入 Vercel AI Gateway，语音 Agent 底座升级 |
+| Your Agent Aced the Task. Will It Do It Again?（IBM Research / HuggingFace） | IBM Research | 2026-09-16 | evals, agent-reliability, consistency | https://huggingface.co/blog/ibm-research/altk-evolve-consistency | [evaluation] | 🔧 daily 2026-09-16 — 一致性评测揭示「一次通过≠稳定复现」，给 agent 可靠性加一道门 |
+| Optimizing cost and latency with Amazon Bedrock prompt caching | AWS | 2026-09-16 | prompt-caching, cost, latency | https://aws.amazon.com/blogs/machine-learning/optimizing-cost-and-latency-with-amazon-bedrock-prompt-caching/ |  | 🔧 daily 2026-09-16 — 6 个 Converse API 缓存场景，重复上下文输入成本最高省 90% |
+| How Delphi ships 100 times a day with its Python backend on Vercel | Vercel | 2026-09-16 | deployment, python, ci-cd | https://vercel.com/blog/how-delphi-ships-100-times-a-day-with-its-python-backend-on-vercel |  | 📖 daily 2026-09-16 — Python 后端日发 100 次的部署范式，agent 服务 CI/CD 参考 |
+| Build an AI-powered product tagging system with Amazon SageMaker serverless model customization | AWS | 2026-09-16 | fine-tuning, sft, rlvr, serverless | https://aws.amazon.com/blogs/machine-learning/build-an-ai-powered-product-tagging-system-with-amazon-sagemaker-serverless-model-customization/ |  | 🔧 daily 2026-09-16 — 无服务器 SFT+RLVR 微调 Qwen3-8B，小模型垂直任务落地范式 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
