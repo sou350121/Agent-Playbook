@@ -1243,6 +1243,13 @@
 | Optimizing cost and latency with Amazon Bedrock prompt caching | AWS | 2026-09-16 | prompt-caching, cost, latency | https://aws.amazon.com/blogs/machine-learning/optimizing-cost-and-latency-with-amazon-bedrock-prompt-caching/ |  | 🔧 daily 2026-09-16 — 6 个 Converse API 缓存场景，重复上下文输入成本最高省 90% |
 | How Delphi ships 100 times a day with its Python backend on Vercel | Vercel | 2026-09-16 | deployment, python, ci-cd | https://vercel.com/blog/how-delphi-ships-100-times-a-day-with-its-python-backend-on-vercel |  | 📖 daily 2026-09-16 — Python 后端日发 100 次的部署范式，agent 服务 CI/CD 参考 |
 | Build an AI-powered product tagging system with Amazon SageMaker serverless model customization | AWS | 2026-09-16 | fine-tuning, sft, rlvr, serverless | https://aws.amazon.com/blogs/machine-learning/build-an-ai-powered-product-tagging-system-with-amazon-sagemaker-serverless-model-customization/ |  | 🔧 daily 2026-09-16 — 无服务器 SFT+RLVR 微调 Qwen3-8B，小模型垂直任务落地范式 |
+| Claude Cowork 与 chat 合并为一个 Claude；新增 Claude Docs / Slides | Anthropic | 2026-09-17 | agent-ui, chat-ui, product | https://claude.com/blog/cowork-is-now-claude | 🎯 agent-ui | ⚡ daily 2026-09-17 — 对话即工作台：聊天/Cowork/Design 合并，文档与幻灯片就地生成 |
+| OpenAI 发布模型失准上报框架，附 6 份异常行为报告 | OpenAI | 2026-09-17 | safety, evals, governance | https://openai.com/index/model-misalignment-reporting-framework | [evaluation] | ⚡ daily 2026-09-17 — 把失准事件按航空式流程公开上报，安全披露走向制度化 |
+| Mustafa Suleyman：不应把模型当作有感受或权利的存在 | — | 2026-09-17 | opinion, ai-ethics | https://simonwillison.net/2026/Sep/16/mustafa-suleyman/ |  | 📖 daily 2026-09-17 — 模型拟人化边界之争，影响 agent 人格化产品设计取向 |
+| OpenAI 在美测试 ChatGPT 广告「赞助代理」，打通 HubSpot/Shopify | OpenAI | 2026-09-17 | agents, ads, commerce | https://openai.com/index/reimagining-advertising-with-ai |  | ⚡ daily 2026-09-17 — 广告变成可对话的赞助 agent，agent 商业化路径落地 |
+| AWS 开源 38 个 HCLS Agent Skills，遵循 Agent Skills 开放标准 | awslabs | 2026-09-17 | agent-skills, domain-reasoning, opensource | https://aws.amazon.com/blogs/machine-learning/improving-hcls-ai-reasoning-with-open-source-agent-skills/ |  | 🔧 daily 2026-09-17 — 把领域方法论写成 SKILL.md，agent 头对头胜率提到 70–86% |
+| AWS AgentCore 用生产 trace 自动优化 agent 系统提示并 A/B 验证 | awslabs | 2026-09-17 | llmops, observability, prompt-optimization | https://aws.amazon.com/blogs/machine-learning/optimizing-agent-system-prompts-with-amazon-bedrock-agentcore/ |  | 🔧 daily 2026-09-17 — trace→改写提示→离线评测→线上 A/B 固化，prompt 可迭代闭环 |
+| Appwrite 2.0：面向 agent 与开发者的开源云 | appwrite | 2026-09-17 | backend, opensource, agent-infra | https://www.producthunt.com/products/appwrite |  | 🔧 daily 2026-09-17 — 开源后端补齐 agent 所需 auth/存储/函数，降低自托管门槛 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
