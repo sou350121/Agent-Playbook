@@ -1250,6 +1250,12 @@
 | AWS 开源 38 个 HCLS Agent Skills，遵循 Agent Skills 开放标准 | awslabs | 2026-09-17 | agent-skills, domain-reasoning, opensource | https://aws.amazon.com/blogs/machine-learning/improving-hcls-ai-reasoning-with-open-source-agent-skills/ |  | 🔧 daily 2026-09-17 — 把领域方法论写成 SKILL.md，agent 头对头胜率提到 70–86% |
 | AWS AgentCore 用生产 trace 自动优化 agent 系统提示并 A/B 验证 | awslabs | 2026-09-17 | llmops, observability, prompt-optimization | https://aws.amazon.com/blogs/machine-learning/optimizing-agent-system-prompts-with-amazon-bedrock-agentcore/ |  | 🔧 daily 2026-09-17 — trace→改写提示→离线评测→线上 A/B 固化，prompt 可迭代闭环 |
 | Appwrite 2.0：面向 agent 与开发者的开源云 | appwrite | 2026-09-17 | backend, opensource, agent-infra | https://www.producthunt.com/products/appwrite |  | 🔧 daily 2026-09-17 — 开源后端补齐 agent 所需 auth/存储/函数，降低自托管门槛 |
+| OpenAI for Law 发布：Astra 切入法律垂直场景 | OpenAI | 2026-09-18 | legal, vertical-app, enterprise | https://openai.com/index/astra-for-law |  | ⚡ daily 2026-09-18 — 前沿模型配定制工作流与法律级管控，垂直行业产品化 |
+| How Cooley is accelerating IPO work with ChatGPT | OpenAI | 2026-09-18 | enterprise, legal, chatgpt-work | https://openai.com/index/cooley-gopublic |  | 📖 daily 2026-09-18 — ChatGPT Work 落地 IPO 流程，企业级部署案例 |
+| Selecting a vector store for Amazon Bedrock Knowledge Bases | AWS | 2026-09-18 | rag, vector-db, bedrock | https://aws.amazon.com/blogs/machine-learning/selecting-a-vector-store-for-amazon-bedrock-knowledge-bases/ | [RAG] | 🔧 daily 2026-09-18 — 横向对比三种向量库的 RAG 性能与成本，选型可参考 |
+| Implementing defense-in-depth authorization for MCP tools on Amazon Quick | AWS | 2026-09-18 | mcp, security, authorization | https://aws.amazon.com/blogs/machine-learning/implementing-defense-in-depth-authorization-for-mcp-tools-on-amazon-quick/ |  | 🔧 daily 2026-09-18 — MCP 工具多层授权范式，agent 权限治理可直接复用 |
+| Run Terminal-Bench and other Harbor evals on Vercel Sandbox | Vercel | 2026-09-18 | sandbox, evals, infra | https://vercel.com/changelog/run-terminal-bench-and-other-harbor-evals-on-vercel-sandbox |  | 🔧 daily 2026-09-18 — 沙箱内直跑 Terminal-Bench，agent 评测环境标准化 |
+| Self-generated prompt injections in compaction summaries（續報） | — | 2026-09-18 | agent-security, prompt-injection, context | https://simonwillison.net/2026/Sep/17/compaction-summaries/ |  | 🔧 daily 2026-09-18 — 上下文压缩会自生成注入，长上下文 agent 需防污染 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
