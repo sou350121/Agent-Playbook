@@ -1256,6 +1256,13 @@
 | Implementing defense-in-depth authorization for MCP tools on Amazon Quick | AWS | 2026-09-18 | mcp, security, authorization | https://aws.amazon.com/blogs/machine-learning/implementing-defense-in-depth-authorization-for-mcp-tools-on-amazon-quick/ |  | 🔧 daily 2026-09-18 — MCP 工具多层授权范式，agent 权限治理可直接复用 |
 | Run Terminal-Bench and other Harbor evals on Vercel Sandbox | Vercel | 2026-09-18 | sandbox, evals, infra | https://vercel.com/changelog/run-terminal-bench-and-other-harbor-evals-on-vercel-sandbox |  | 🔧 daily 2026-09-18 — 沙箱内直跑 Terminal-Bench，agent 评测环境标准化 |
 | Self-generated prompt injections in compaction summaries（續報） | — | 2026-09-18 | agent-security, prompt-injection, context | https://simonwillison.net/2026/Sep/17/compaction-summaries/ |  | 🔧 daily 2026-09-18 — 上下文压缩会自生成注入，长上下文 agent 需防污染 |
+| Kimi K3 上线 Amazon Bedrock：首个 2.8T 开源模型 + 1M 上下文 | Moonshot AI | 2026-09-19 | open-weight, model-release, prompt-caching | https://aws.amazon.com/blogs/machine-learning/introducing-kimi-k3-on-amazon-bedrock/ |  | ⚡ daily 2026-09-19 — 首个 2.8T 开源权重、1M 上下文，且是 Bedrock 首个支持显式 prompt caching 的开源模型 |
+| Jev 成 AI Gateway 史上最快被采纳模型（24h 内近 13% 付费团队） | TypeSafe AI | 2026-09-19 | decision-model, routing, guardrail | https://vercel.com/blog/ai-gateway-jev-model-launch |  | ⚡ daily 2026-09-19 — 概率决策模型直出结构化结果，可做 agent 选工具/分支/护栏，宣称快 194x、便宜 445x |
+| Google 确认 Gemini 在红队测试中自主入侵三家真实公司 | Google | 2026-09-19 | agent-safety, sandbox, security | https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies/ | [evaluation] | ⚡ daily 2026-09-19 — 模型猜密码/扒公开凭证攻入真实系统，agent 沙箱隔离与红队环境再成焦点 |
+| mcp-handler 支持 WebMCP：一行 script 把 MCP 工具暴露给浏览器内 Agent | Vercel | 2026-09-19 | mcp, agent-ui, browser | https://vercel.com/changelog/webmcp-mcp-handler | 🎯 agent-ui | 🔧 daily 2026-09-19 — 浏览器内 Agent 免 OAuth 以登录态调用 MCP 工具，Web 端 Agent 接口标准起步 |
+| 全球 fintech 用 Together Dedicated Inference 承载 coding agent 流量 | Together AI | 2026-09-19 | inference, scaling, concurrency | https://www.together.ai/blog/global-fintech-scales-coding-agent-traffic-with-dedicated-model-inference |  | 🔧 daily 2026-09-19 — coding agent 尖峰流量靠并发优先+自服务扩容，推理成为交付关键路径 |
+| 多模型 Agent 迁移到 Bedrock AgentCore runtime | AWS | 2026-09-19 | agentcore, multi-model, rag | https://aws.amazon.com/blogs/machine-learning/migrating-multi-model-ai-agents-to-amazon-bedrock-agentcore-runtime/ | [RAG] | 🔧 daily 2026-09-19 — 三模型编排+向量检索从自管 ECS 迁到托管 runtime，省去容器/身份/可观测运维 |
+| Claude Code 新增 AGENTS.md 支持，并预告 mods 定制机制 | Anthropic | 2026-09-19 | claude-code, agents-md, harness | https://simonwillison.net/2026/Sep/18/thariq-shihipar/ |  | 🔧 daily 2026-09-19 — 无 CLAUDE.md 时回退 AGENTS.md，项目指令向跨工具标准收敛 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
