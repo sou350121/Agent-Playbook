@@ -1263,6 +1263,12 @@
 | 全球 fintech 用 Together Dedicated Inference 承载 coding agent 流量 | Together AI | 2026-09-19 | inference, scaling, concurrency | https://www.together.ai/blog/global-fintech-scales-coding-agent-traffic-with-dedicated-model-inference |  | 🔧 daily 2026-09-19 — coding agent 尖峰流量靠并发优先+自服务扩容，推理成为交付关键路径 |
 | 多模型 Agent 迁移到 Bedrock AgentCore runtime | AWS | 2026-09-19 | agentcore, multi-model, rag | https://aws.amazon.com/blogs/machine-learning/migrating-multi-model-ai-agents-to-amazon-bedrock-agentcore-runtime/ | [RAG] | 🔧 daily 2026-09-19 — 三模型编排+向量检索从自管 ECS 迁到托管 runtime，省去容器/身份/可观测运维 |
 | Claude Code 新增 AGENTS.md 支持，并预告 mods 定制机制 | Anthropic | 2026-09-19 | claude-code, agents-md, harness | https://simonwillison.net/2026/Sep/18/thariq-shihipar/ |  | 🔧 daily 2026-09-19 — 无 CLAUDE.md 时回退 AGENTS.md，项目指令向跨工具标准收敛 |
+| CUA-S1 / trycua/cua：开源 computer-use 驱动、跨系统云端桌面 + 专用决策模型与基准 | trycua | 2026-09-20 | computer-use, agent, sandbox | https://github.com/trycua/cua |  | 🔧 daily 2026-09-20 — 开源桌面自动化驱动 + CUA-S1 决策模型 + 评测基准，agent 操控 GUI 更可控 |
+| AWS 新版 Amazon Bedrock AgentCore runtime：弹性伸缩、稳定冷启动、按会话用量计费 | AWS | 2026-09-20 | agent-runtime, serverless, infra | https://aws.amazon.com/blogs/machine-learning/the-new-agentcore-runtime-elastic-optimized-and-consistently-fast-starts/ |  | 🔧 daily 2026-09-20 — 会话结束即回收内存、冷启动不随容器/并发变化，长任务 agent 托管更省 |
+| Amazon SageMaker HyperPod Inference Gateway：GPU 感知路由，首 token 延迟最高降 82% | AWS | 2026-09-20 | inference, gateway, routing | https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-inference-gateway/ |  | 🔧 daily 2026-09-20 — 一个 EKS 插件替代轮询路由，消除 GPU 空转、压低首 token 延迟 |
+| DeepSeek API 计费更新：调休上班周末与中国法定节假日全天按空闲时段价 | DeepSeek | 2026-09-20 | pricing, api, cost | https://api-docs.deepseek.com/quick_start/pricing |  | 📖 daily 2026-09-20 — V4 系模型周末/节假日全天走低谷价，调用成本更可预测 |
+| Anthropic：Claude 加速生物分子建模（30+ 开源模型提速约 4x）+ 蛋白质设计公开赛 | Anthropic | 2026-09-20 | science, vertical, agents | https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling |  | 📖 daily 2026-09-20 — 科学垂类成 Claude 落地样板；比赛条款排除中国参赛者，值得留意 |
+| ChatGPT for Word 上线：全套餐（含 Free）可用，支持修订痕迹/批注/Skills | OpenAI | 2026-09-20 | chat-ui, office, integration | https://www.36kr.com/p/3989804522912774 |  | ⚡ daily 2026-09-20 — 免费档也能在 Word 内直接改稿，OpenAI 把 AI 入口铺进 Office 三件套 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
