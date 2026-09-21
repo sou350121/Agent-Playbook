@@ -1269,6 +1269,10 @@
 | DeepSeek API 计费更新：调休上班周末与中国法定节假日全天按空闲时段价 | DeepSeek | 2026-09-20 | pricing, api, cost | https://api-docs.deepseek.com/quick_start/pricing |  | 📖 daily 2026-09-20 — V4 系模型周末/节假日全天走低谷价，调用成本更可预测 |
 | Anthropic：Claude 加速生物分子建模（30+ 开源模型提速约 4x）+ 蛋白质设计公开赛 | Anthropic | 2026-09-20 | science, vertical, agents | https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling |  | 📖 daily 2026-09-20 — 科学垂类成 Claude 落地样板；比赛条款排除中国参赛者，值得留意 |
 | ChatGPT for Word 上线：全套餐（含 Free）可用，支持修订痕迹/批注/Skills | OpenAI | 2026-09-20 | chat-ui, office, integration | https://www.36kr.com/p/3989804522912774 |  | ⚡ daily 2026-09-20 — 免费档也能在 Word 内直接改稿，OpenAI 把 AI 入口铺进 Office 三件套 |
+| AX：Google 工程师开源的声明式 agentic 编排器（基于 Agent Substrate） | —（Google 员工个人开源项目） | 2026-09-21 | orchestration, sandbox, agent-infra | https://agentexecutor.io |  | ⚡ daily 2026-09-21 — 把 agent 当新工作负载：声明式任务 + 沙箱 + 亚秒恢复 |
+| Prompts aren't Real：生产级 agent 的失败模式与评测盲区 | — | 2026-09-21 | evals, agents, production | https://evaluation.club | [evaluation] | 📖 daily 2026-09-21 — 一线工程师复盘：提示词不是可靠原语，评测要看行为 |
+| voxium：大公司里「万物皆由 Claude Code 生成」的一线现场 | — | 2026-09-21 | vibe-coding, coding-agent, culture | https://simonwillison.net/2026/Sep/20/voxium/ |  | 📖 daily 2026-09-21 — 代码量非瓶颈，工程师 12 小时只是「按回车」 |
+| llm-keys-ui 0.1：手机远程驱动 coding agent 的密钥管理 UI | simonw | 2026-09-21 | coding-agent, keys, plugin | https://simonwillison.net/2026/Sep/20/llm-keys-ui/ |  | 📖 daily 2026-09-21 — 避免把 API key 粘进 agent 会话，改用本地 UI 写入 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
