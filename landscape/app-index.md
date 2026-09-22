@@ -1273,6 +1273,12 @@
 | Prompts aren't Real：生产级 agent 的失败模式与评测盲区 | — | 2026-09-21 | evals, agents, production | https://evaluation.club | [evaluation] | 📖 daily 2026-09-21 — 一线工程师复盘：提示词不是可靠原语，评测要看行为 |
 | voxium：大公司里「万物皆由 Claude Code 生成」的一线现场 | — | 2026-09-21 | vibe-coding, coding-agent, culture | https://simonwillison.net/2026/Sep/20/voxium/ |  | 📖 daily 2026-09-21 — 代码量非瓶颈，工程师 12 小时只是「按回车」 |
 | llm-keys-ui 0.1：手机远程驱动 coding agent 的密钥管理 UI | simonw | 2026-09-21 | coding-agent, keys, plugin | https://simonwillison.net/2026/Sep/20/llm-keys-ui/ |  | 📖 daily 2026-09-21 — 避免把 API key 粘进 agent 会话，改用本地 UI 写入 |
+| Grok 4.7 (SpaceXAI) now on Vercel AI Gateway | — | 2026-09-22 |  | https://vercel.com/changelog/grok-4-7-now-available-and-40-off-on-ai-gateway-fx-eve |  | 📖 daily 2026-09-22 |
+| OpenAI Advisory Group on Mathematics and AI (internal model solved Navier–Stokes + 100+ open problems) | — | 2026-09-22 |  | https://openai.com/index/advisory-group-on-mathematics-and-ai |  | 📖 daily 2026-09-22 |
+| OpenAI V7 — institutional memory for AI agents (GPT-5.6) | — | 2026-09-22 |  | https://openai.com/index/v7 |  | 📖 daily 2026-09-22 |
+| Agentic iteration: writing Rust faster than SOTA via agents (minimaxir) | — | 2026-09-22 |  | https://minimaxir.com/2026/09/agentic-iteration/ |  | 📖 daily 2026-09-22 |
+| Benchling secured multi-tenant AI agents with Bedrock AgentCore | — | 2026-09-22 |  | https://aws.amazon.com/blogs/machine-learning/how-benchling-secured-multi-tenant-ai-agents-with-amazon-bedrock-agentcore/ |  | 📖 daily 2026-09-22 |
+| Simon Willison on 'MCP was always a bad idea?' | — | 2026-09-22 |  | https://simonwillison.net/2026/Sep/20/hn-49779718/ |  | 📖 daily 2026-09-22 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
