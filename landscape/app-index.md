@@ -1279,6 +1279,14 @@
 | Agentic iteration: writing Rust faster than SOTA via agents (minimaxir) | — | 2026-09-22 |  | https://minimaxir.com/2026/09/agentic-iteration/ |  | 📖 daily 2026-09-22 |
 | Benchling secured multi-tenant AI agents with Bedrock AgentCore | — | 2026-09-22 |  | https://aws.amazon.com/blogs/machine-learning/how-benchling-secured-multi-tenant-ai-agents-with-amazon-bedrock-agentcore/ |  | 📖 daily 2026-09-22 |
 | Simon Willison on 'MCP was always a bad idea?' | — | 2026-09-22 |  | https://simonwillison.net/2026/Sep/20/hn-49779718/ |  | 📖 daily 2026-09-22 |
+| OpenAI 发布 GPT-6 Sol 与 GPT-6 Luna | OpenAI | 2026-09-23 | model-release, gpt-6, pricing | https://openai.com/index/introducing-gpt-6-sol-and-luna |  | ⚡ daily 2026-09-23 — 同日双档前沿模型，按能力/成本分层，API 与 Bedrock 同步可用 |
+| Anthropic 发布 Claude Opus 5.5：主打 agentic coding，典型成本降约 40% | Anthropic | 2026-09-23 | model-release, agentic-coding, cost | https://aws.amazon.com/blogs/machine-learning/claude-opus-5-5-is-now-available-on-aws/ |  | ⚡ daily 2026-09-23 — Opus 新旗舰定位长时运行 agent，三云同步上架、输入/输出价明显下调 |
+| Simon Willison：一次看懂 GPT-6 Sol/Luna 与 Opus 5.5 的价格战 | Simon Willison | 2026-09-23 | analysis, price-war, model-release | https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/ |  | 📖 daily 2026-09-23 — 把同周密集发布放一起看，帮判断模型性价比拐点 |
+| GPT-6 提示缓存改进：更高命中率、显式断点与诊断 | OpenAI | 2026-09-23 | prompt-caching, latency, cost | https://openai.com/index/better-prompt-caching-for-gpt-6 |  | 🔧 daily 2026-09-23 — 显式缓存断点+命中诊断，长上下文 agent 的延迟与成本再降一档 |
+| Vercel Sandbox Drives 进入公测：沙箱获得持久化存储 | Vercel | 2026-09-23 | sandbox, agent-infra, state | https://vercel.com/changelog/drives-for-vercel-sandbox-are-now-in-public-beta |  | 🔧 daily 2026-09-23 — 沙箱挂载持久磁盘，agent 的中间产物/状态可跨会话复用 |
+| Together AI：Canary rollouts 实现生产环境无停机升级模型 | Together AI | 2026-09-23 | deployment, llmops, rollback | https://www.together.ai/blog/canary-rollouts-upgrade-models-in-production-without-downtime |  | 🔧 daily 2026-09-23 — 分阶段流量+指标门限+自动回滚，托管推理也能灰度换模型 |
+| AWS Strands Evals + Bedrock AgentCore：量化 Skill 型 agent 的表现 | AWS | 2026-09-23 | evaluation, agent-skills, observability | https://aws.amazon.com/blogs/machine-learning/evaluate-skill-equipped-agents-with-strands-evals-and-amazon-bedrock-agentcore/ | [evaluation] | 🔧 daily 2026-09-23 — 衡量 skill 选择与指令遵循，补上带技能 agent 的评测盲区 |
+| Hugging Face：Transformers 现可直接运行 llama.cpp 量化权重 | Hugging Face | 2026-09-23 | quantization, local-inference, gguf | https://huggingface.co/blog/transformers-llama-cpp-quants |  | 🔧 daily 2026-09-23 — GGUF 量化模型在 Transformers 内直接加载，自托管链路更短 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
