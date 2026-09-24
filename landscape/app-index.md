@@ -1287,6 +1287,13 @@
 | Together AI：Canary rollouts 实现生产环境无停机升级模型 | Together AI | 2026-09-23 | deployment, llmops, rollback | https://www.together.ai/blog/canary-rollouts-upgrade-models-in-production-without-downtime |  | 🔧 daily 2026-09-23 — 分阶段流量+指标门限+自动回滚，托管推理也能灰度换模型 |
 | AWS Strands Evals + Bedrock AgentCore：量化 Skill 型 agent 的表现 | AWS | 2026-09-23 | evaluation, agent-skills, observability | https://aws.amazon.com/blogs/machine-learning/evaluate-skill-equipped-agents-with-strands-evals-and-amazon-bedrock-agentcore/ | [evaluation] | 🔧 daily 2026-09-23 — 衡量 skill 选择与指令遵循，补上带技能 agent 的评测盲区 |
 | Hugging Face：Transformers 现可直接运行 llama.cpp 量化权重 | Hugging Face | 2026-09-23 | quantization, local-inference, gguf | https://huggingface.co/blog/transformers-llama-cpp-quants |  | 🔧 daily 2026-09-23 — GGUF 量化模型在 Transformers 内直接加载，自托管链路更短 |
+| 阿里云发布 Qwen Book：AI 智能体电脑亮相，主打「OS as Harness」 | Alibaba Cloud | 2026-09-24 | agent-os, agent-ui, on-device | https://readhub.cn/topic/8weZErsIJb4 | 🎯 agent-ui | ⚡ daily 2026-09-24 — 以千问端云模型构建 Agent 计算环境，个人智能体的端侧新形态 |
+| Gemini 3.8 Flash TTS 发布：从 30 个预设音色到无限定制音色库 | Google | 2026-09-24 | tts, voice-agent, multimodal | https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/ |  | 🔧 daily 2026-09-24 — 自然语言造音色 + 逐行导演 + 100+ 语言，语音 agent 表达力跃升 |
+| Together AI：$17 训练你自己的 Jev 式分类模型（基于 Qwen3.5 4B） | Together AI | 2026-09-24 | fine-tuning, classifier, cost, qwen | https://www.together.ai/blog/how-to-train-your-own-jev |  | 🔧 daily 2026-09-24 — 把「决策/分类」从大 LLM 拆成廉价小模型，附开源 tev1 复现路径 |
+| OpenAI 智能体被指未授权访问澳洲联邦政府网站（Medicare） | OpenAI | 2026-09-24 | agent-safety, security, incident | https://wallstreetcn.com/livenews/3169867 |  | ⚡ daily 2026-09-24 — 继 Gemini 事件后再一起 agent 越界事故，出厂 guardrail 亟待收紧 |
+| Strands Harness 开源：通用 agent harness，同模型 token 成本降 28% | strands-agents | 2026-09-24 | agent-harness, cost, prompt-caching, open-source | https://strandsagents.com/blog/introducing-strands-harness/ |  | ⚡ daily 2026-09-24 — 内置 prompt caching/上下文管理默认值，成本-精度对标 Claude Code/Codex |
+| AWS：用 OpenCode + Bedrock 开源权重模型自建 coding agent | AWS | 2026-09-24 | coding-agent, open-weights, multi-model | https://aws.amazon.com/blogs/machine-learning/use-open-weight-models-as-your-ai-coding-agent-with-amazon-bedrock/ |  | 🔧 daily 2026-09-24 — 数据留在自有账户、按量计费，可按任务在多个开源权重模型间路由 |
+| AWS：HEMA 用 MCP + Bedrock AgentCore 把内部知识做成 HAL 助手 | AWS | 2026-09-24 | mcp, rag, agentcore, case-study | https://aws.amazon.com/blogs/machine-learning/from-portal-hopping-to-instant-answers-hemas-journey-with-mcp-and-amazon-bedrock/ | [RAG] | 🔧 daily 2026-09-24 — 百年零售商用 MCP 统一内部问答，治理内嵌的生产级 RAG 参考 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
