@@ -1294,6 +1294,11 @@
 | Strands Harness 开源：通用 agent harness，同模型 token 成本降 28% | strands-agents | 2026-09-24 | agent-harness, cost, prompt-caching, open-source | https://strandsagents.com/blog/introducing-strands-harness/ |  | ⚡ daily 2026-09-24 — 内置 prompt caching/上下文管理默认值，成本-精度对标 Claude Code/Codex |
 | AWS：用 OpenCode + Bedrock 开源权重模型自建 coding agent | AWS | 2026-09-24 | coding-agent, open-weights, multi-model | https://aws.amazon.com/blogs/machine-learning/use-open-weight-models-as-your-ai-coding-agent-with-amazon-bedrock/ |  | 🔧 daily 2026-09-24 — 数据留在自有账户、按量计费，可按任务在多个开源权重模型间路由 |
 | AWS：HEMA 用 MCP + Bedrock AgentCore 把内部知识做成 HAL 助手 | AWS | 2026-09-24 | mcp, rag, agentcore, case-study | https://aws.amazon.com/blogs/machine-learning/from-portal-hopping-to-instant-answers-hemas-journey-with-mcp-and-amazon-bedrock/ | [RAG] | 🔧 daily 2026-09-24 — 百年零售商用 MCP 统一内部问答，治理内嵌的生产级 RAG 参考 |
+| Gemini 3.8 Live with Live Avatar | Google DeepMind | 2026-09-25 | multimodal, live-api, agent-ui | https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/ |  | ⚡ daily 2026-09-25 — 实时视频+语音+异步工具调用，企业级对话智能体交互升级 |
+| LFM2.5-VL-DSpark：VLM 投机解码草稿模型 | LiquidAI | 2026-09-25 | inference, multimodal, speculative-decoding | https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark |  | 🔧 daily 2026-09-25 — 端侧提速 3.13x、仅 +8.9% 参数，llama.cpp/MLX-VLM/SGLang 首日支持 |
+| AWS AgentCore Gateway + MCP 多账户 Agent 架构 | AWS | 2026-09-25 | mcp, gateway, multi-tenant | https://aws.amazon.com/blogs/machine-learning/build-a-multi-account-ai-agent-with-agentcore-gateway-and-mcp/ |  | 🔧 daily 2026-09-25 — 平台账户统一编排 + 各团队数据留在本账户，跨账户查询的 MCP 网关范式 |
+| Aderant 用 Amazon Nova 做智能工单分诊 | Aderant / AWS | 2026-09-25 | vertical, bedrock, routing | https://aws.amazon.com/blogs/machine-learning/aderant-builds-intelligent-ticket-triage-with-amazon-nova/ |  | 📖 daily 2026-09-25 — Bedrock + Nova Lite 自动上下文收集/分类/路由，云运维工单降本范例 |
+| ChatGPT Voice 上线插件与实操任务（GPT-6 家族接入 + ChatGPT Work） | OpenAI | 2026-09-25 | agent-ui, voice, tool-calling | https://x.com/OpenAI/status/2102808325742322002 | 🎯 agent-ui | ⚡ daily 2026-09-25 — 语音直接驱动邮箱/日历/PPT/建站，对话入口变执行入口 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
