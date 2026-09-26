@@ -1299,6 +1299,14 @@
 | AWS AgentCore Gateway + MCP 多账户 Agent 架构 | AWS | 2026-09-25 | mcp, gateway, multi-tenant | https://aws.amazon.com/blogs/machine-learning/build-a-multi-account-ai-agent-with-agentcore-gateway-and-mcp/ |  | 🔧 daily 2026-09-25 — 平台账户统一编排 + 各团队数据留在本账户，跨账户查询的 MCP 网关范式 |
 | Aderant 用 Amazon Nova 做智能工单分诊 | Aderant / AWS | 2026-09-25 | vertical, bedrock, routing | https://aws.amazon.com/blogs/machine-learning/aderant-builds-intelligent-ticket-triage-with-amazon-nova/ |  | 📖 daily 2026-09-25 — Bedrock + Nova Lite 自动上下文收集/分类/路由，云运维工单降本范例 |
 | ChatGPT Voice 上线插件与实操任务（GPT-6 家族接入 + ChatGPT Work） | OpenAI | 2026-09-25 | agent-ui, voice, tool-calling | https://x.com/OpenAI/status/2102808325742322002 | 🎯 agent-ui | ⚡ daily 2026-09-25 — 语音直接驱动邮箱/日历/PPT/建站，对话入口变执行入口 |
+| DeepSeek Harness 开发者预览上线：Web UI + Python SDK + 插件化 agent harness | deepseek-ai | 2026-09-26 | agent-harness, agent-ui, deepseek | https://deepseek-harness.github.io/deepseek-harness/en/guide/quickstart | 🎯 agent-ui | ⚡ daily 2026-09-26 — 官方开源 agent harness 开放 Web UI/SDK，DeepSeek 补齐 agent 执行层 |
+| Vercel《State of agent skills》：skills.sh 七个月破百万 skills、2.8 亿次安装 | vercel | 2026-09-26 | agent-skills, ecosystem | https://vercel.com/blog/state-of-agent-skills |  | 🔧 daily 2026-09-26 — Agent Skills 成新分发层，软件工程类供给最多、商业/写作类转化最高 |
+| Anthropic：Claude Code 云端会话正式可用，老用户最高赠 250 美元额度 | anthropic | 2026-09-26 | cloud-agents, coding-agent | https://claude.com/blog/claude-code-on-the-web |  | ⚡ daily 2026-09-26 — 云端并行 coding agent GA，配赠额抢开发者，关机后任务继续跑 |
+| Vercel AI Gateway 上线隐身模型 Pixel Canary：Next.js evals 追平 GPT-6 Astra | vercel | 2026-09-26 | coding-model, ai-gateway | https://vercel.com/changelog/pixel-canary-is-now-available-in-stealth-for-free-on-ai-gateway |  | 🔧 daily 2026-09-26 — 新编码模型限期免费，配 AGENTS.md 后 Next.js evals 96.8% 居首 |
+| AWS：NarrateAI 用 Bedrock 做生产级 LLM 质量保障（五类评估技术） | aws | 2026-09-26 | evaluation, orchestration, bedrock | https://aws.amazon.com/blogs/machine-learning/narrateai-production-ready-llm-quality-assurance-on-amazon-bedrock/ | [evaluation] | 🔧 daily 2026-09-26 — 编排+多模型 failover+流式评估，面向真实业务评审的评估架构 |
+| AWS：Qwen3-TTS 1.7B 在 SageMaker 部署实时个性化语音 | aws | 2026-09-26 | tts, deployment, qwen | https://aws.amazon.com/blogs/machine-learning/deploying-real-time-personalized-speech-with-qwen3-tts-on-amazon-sagemaker-ai/ |  | 📖 daily 2026-09-26 — 开源 TTS 上实时端点 + 短样本跨语种声音克隆的部署范例 |
+| OpenAI：Proaction 用 Codex + GPT-6 把交付提速 60% | openai | 2026-09-26 | codex, enterprise | https://openai.com/index/proaction |  | 📖 daily 2026-09-26 — 非技术岗自助生成定制 demo，量化 Codex 的企业 ROI 叙事 |
+| Meta Muse 被称首个消费级 agentic AI：每人一台持久 Linux VM，Gruber 警告风险 | meta | 2026-09-26 | agentic, consumer, sandbox, safety | https://simonwillison.net/2026/Sep/25/john-gruber/ |  | 📖 daily 2026-09-26 — 消费级 agentic 系统落地，安全与认知落差成新争点 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
