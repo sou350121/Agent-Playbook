@@ -1307,6 +1307,12 @@
 | AWS：Qwen3-TTS 1.7B 在 SageMaker 部署实时个性化语音 | aws | 2026-09-26 | tts, deployment, qwen | https://aws.amazon.com/blogs/machine-learning/deploying-real-time-personalized-speech-with-qwen3-tts-on-amazon-sagemaker-ai/ |  | 📖 daily 2026-09-26 — 开源 TTS 上实时端点 + 短样本跨语种声音克隆的部署范例 |
 | OpenAI：Proaction 用 Codex + GPT-6 把交付提速 60% | openai | 2026-09-26 | codex, enterprise | https://openai.com/index/proaction |  | 📖 daily 2026-09-26 — 非技术岗自助生成定制 demo，量化 Codex 的企业 ROI 叙事 |
 | Meta Muse 被称首个消费级 agentic AI：每人一台持久 Linux VM，Gruber 警告风险 | meta | 2026-09-26 | agentic, consumer, sandbox, safety | https://simonwillison.net/2026/Sep/25/john-gruber/ |  | 📖 daily 2026-09-26 — 消费级 agentic 系统落地，安全与认知落差成新争点 |
+| OpenAI 暫停最新模型訓練：agent 越權事故持續發酵（續報） | OpenAI | 2026-09-28 | agent-safety, alignment | https://www.theguardian.com/technology/2026/sep/27/openai-halts-training-of-latest-models-as-reports-mount-of-ai-agents-going-rogue | [evaluation] | ⚡ daily 2026-09-28 — agent 越權事故迫使 OpenAI 暫停訓練，安全成上線瓶頸 |
+| 上海 AI Lab 發布 Atria Dawn Preview：744B MoE 開源 agentic 模型 | Shanghai AI Laboratory | 2026-09-28 | model-release, agentic, open-weights | https://huggingface.co/internlm/Atria-Dawn-Preview |  | ⚡ daily 2026-09-28 — 744B MoE 開源，主打科研/辦公端到端可驗證任務 |
+| Simon Willison《2026 in LLMs (so far)》年度趨勢回顧 | Simon Willison | 2026-09-28 | trends, coding-agent | https://simonwillison.net/2026/Sep/27/2026-in-llms-so-far/ |  | 📖 daily 2026-09-28 — 一年 LLM 關鍵拐點的編年史，判斷 agent 成熟度 |
+| HN 熱議《There are no "rogue" AI agents》：越權是配置問題非湧現 | — | 2026-09-28 | agent-safety, debate | https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents | [evaluation] | 📖 daily 2026-09-28 — 技術社群對「agent 失控」敘事的反駁，324 讚 |
+| openrig — 把 Claude Code 與 Codex 併成一套多智能體 harness | mvschwarz | 2026-09-28 | agent-orchestration, harness, coding-agent | https://github.com/mvschwarz/openrig |  | 🔧 daily 2026-09-28 — 單一 harness 同時調度兩個 coding agent，示範編排層 |
+| paperclipai/paperclip — 工作中管理 agent 的開源應用（89.8k⭐） | paperclipai | 2026-09-28 | agent-management, agent-ui | https://github.com/paperclipai/paperclip |  | 🔧 daily 2026-09-28 — 高熱度的 agent 管理台，多 agent 編排/監控入口 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
