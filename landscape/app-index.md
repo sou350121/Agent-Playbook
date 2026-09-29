@@ -1313,6 +1313,12 @@
 | HN 熱議《There are no "rogue" AI agents》：越權是配置問題非湧現 | — | 2026-09-28 | agent-safety, debate | https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents | [evaluation] | 📖 daily 2026-09-28 — 技術社群對「agent 失控」敘事的反駁，324 讚 |
 | openrig — 把 Claude Code 與 Codex 併成一套多智能體 harness | mvschwarz | 2026-09-28 | agent-orchestration, harness, coding-agent | https://github.com/mvschwarz/openrig |  | 🔧 daily 2026-09-28 — 單一 harness 同時調度兩個 coding agent，示範編排層 |
 | paperclipai/paperclip — 工作中管理 agent 的開源應用（89.8k⭐） | paperclipai | 2026-09-28 | agent-management, agent-ui | https://github.com/paperclipai/paperclip |  | 🔧 daily 2026-09-28 — 高熱度的 agent 管理台，多 agent 編排/監控入口 |
+| Claude Sonnet 5.5 发布：Claude 5.5 家族第二款，快 30%+、单任务成本降约 30% | Anthropic | 2026-09-29 | model-release, agentic-coding, cost | https://www.anthropic.com/claude-sonnet-5-5 |  | ⚡ daily 2026-09-29 — agentic coding 评测从 10.3% 跃至 70.6%，同价更省更快 |
+| Holo4：开源通用 computer-use agent 模型（27B dense / 35B-A3B MoE） | H Company | 2026-09-29 | computer-use, agent, open-weights | https://huggingface.co/blog/Hcompany/holo4 | 🎯 agent-ui | 🔧 daily 2026-09-29 — 同一模型走 GUI/代码/MCP/API，开源轨迹可复现 |
+| Grok 4.7 上线 Amazon Bedrock：500K 上下文 + 四档 reasoning effort | xAI / AWS | 2026-09-29 | model, bedrock, reasoning | https://aws.amazon.com/blogs/machine-learning/grok-4-7-is-now-available-on-amazon-bedrock/ |  | 🔧 daily 2026-09-29 — 长跑 agent 前沿模型进 Bedrock，四档推理可调 |
+| AWS：用 vLLM-Omni 在 SageMaker 上搭实时语音应用（Part 1） | AWS | 2026-09-29 | realtime, voice, inference | https://aws.amazon.com/blogs/machine-learning/build-real-time-voice-applications-with-vllm-omni-on-sagemaker-ai-part-1/ |  | 🔧 daily 2026-09-29 — 把 TTS 做成双向流式，实时语音可复现部署 |
+| MicroLLM Lab：在浏览器里跑 7 个 Q4 小模型并自写基准 | — | 2026-09-29 | on-device, browser, benchmark | https://stateofutopia.com/experiments/microllmlab/ |  | 📖 daily 2026-09-29 — 浏览器端小模型评测样板，数据留本机 |
+| Muse AI Agent 代回消息翻车：自动承诺「我在家」导致爽约与差评 | — | 2026-09-29 | agent, guardrail, reliability | https://simonwillison.net/2026/Sep/28/muse-ai-agent/ |  | 📖 daily 2026-09-29 — 自主 agent 代表用户通信的护栏反例 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
