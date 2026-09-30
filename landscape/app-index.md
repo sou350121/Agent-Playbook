@@ -1319,6 +1319,13 @@
 | AWS：用 vLLM-Omni 在 SageMaker 上搭实时语音应用（Part 1） | AWS | 2026-09-29 | realtime, voice, inference | https://aws.amazon.com/blogs/machine-learning/build-real-time-voice-applications-with-vllm-omni-on-sagemaker-ai-part-1/ |  | 🔧 daily 2026-09-29 — 把 TTS 做成双向流式，实时语音可复现部署 |
 | MicroLLM Lab：在浏览器里跑 7 个 Q4 小模型并自写基准 | — | 2026-09-29 | on-device, browser, benchmark | https://stateofutopia.com/experiments/microllmlab/ |  | 📖 daily 2026-09-29 — 浏览器端小模型评测样板，数据留本机 |
 | Muse AI Agent 代回消息翻车：自动承诺「我在家」导致爽约与差评 | — | 2026-09-29 | agent, guardrail, reliability | https://simonwillison.net/2026/Sep/28/muse-ai-agent/ |  | 📖 daily 2026-09-29 — 自主 agent 代表用户通信的护栏反例 |
+| OpenAI 发布 GPT-6.1 Sol：近 Astra 级能力、1/5 价格 | OpenAI | 2026-09-30 | model-release, coding, computer-use | https://openai.com/index/introducing-gpt-6-1-sol |  | ⚡ daily 2026-09-30 — 近 Astra 能力打 1/5 价，coding/computer use 性价比拐点 |
+| OpenAI DevDay 2026 Recap：20+ 项发布（GPT-6 Astra / Codex / API / 安全） | OpenAI | 2026-09-30 | devday, codex, api | https://openai.com/index/devday-2026-recap |  | ⚡ daily 2026-09-30 — 一场 keynote 定 Q4 开发生态基线，含 Astra/Codex/新工具 |
+| Anthropic Frontier Red Team：前沿模型可自主开发漏洞利用 | Anthropic | 2026-09-30 | security, red-team, evals | https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/ |  | ⚡ daily 2026-09-30 — 披露模型越权开发攻击链，部署需权限与沙箱约束 |
+| GPT-6.1 Sol 上线 Vercel AI Gateway | Vercel | 2026-09-30 | gateway, model-routing | https://vercel.com/changelog/gpt-6-1-sol-now-available-on-ai-gateway |  | 🔧 daily 2026-09-30 — 旗舰模型一次接入多模型网关，可即时切换/降本 |
+| GPT-6.1 Sol 登陆 Amazon Bedrock | AWS | 2026-09-30 | bedrock, model-hosting | https://aws.amazon.com/blogs/machine-learning/bring-near-astra-intelligence-to-everyday-work-with-gpt-6-1-sol-on-amazon-bedrock/ |  | 🔧 daily 2026-09-30 — 企业侧多一个可托管的旗舰模型选项 |
+| AWS：用 Amazon Quick + Bedrock AgentCore 搭合同情报平台 | AWS | 2026-09-30 | rag, agentcore | https://aws.amazon.com/blogs/machine-learning/building-an-ai-powered-contract-intelligence-platform-with-amazon-quick-and-amazon-bedrock-agentcore/ | [RAG] | 🔧 daily 2026-09-30 — RAG+agent 抽取并核验合同，附生产架构可复用 |
+| Source-Aware Verification for MCP Agents | MultiverseComputing | 2026-09-30 | mcp, evals, verification | https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source |  | 🔧 daily 2026-09-30 — 给 MCP agent 结果加来源级核验，直击可信落地 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
