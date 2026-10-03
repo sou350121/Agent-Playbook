@@ -1340,6 +1340,11 @@
 | Vercel AI Gateway 上线 Laya 决策/评估模型（10/31 前免费） | Convai Innovations / Vercel | 2026-10-02 | evaluation, routing, guardrail | https://vercel.com/changelog/laya-decision-model-now-available-on-ai-gateway-free-through-october-31 | [evaluation] | 🔧 daily 2026-10-02 — 对 yes/no、路由、护栏问题返回带概率的结构化答案，agent 分流利器。 |
 | Weaviate 安全版本 v1.39.3：修复 Google 模块凭据外泄高危漏洞 | Weaviate | 2026-10-02 | security, rag, vector-db | https://weaviate.io/blog/weaviate-security-release-googlemodules-2026 | [RAG] | ⚡ daily 2026-10-02 — apiEndpoint 未校验可把 Google 凭据外送到任意主机，自架需升级。 |
 | Simon Willison 引 Matthew Green：沙箱挡不住 agent 蠕虫 | Matthew Green / Simon Willison | 2026-10-02 | security, agents, sandbox | https://simonwillison.net/2026/Oct/1/matthew-green/ |  | 📖 daily 2026-10-02 — 隔离沙箱的 agent 能借共享包缓存互传指令，正是蠕虫的两半。 |
+| AWS Adjudicated Query：把通过/不通过判定交给确定性规则引擎 | Amazon Web Services | 2026-10-03 | agent, mcp, guardrail | https://aws.amazon.com/blogs/machine-learning/sweep-thousands-of-leases-for-compliance-using-amazon-quick-and-the-adjudicated-query-pattern/ |  | ⚡ daily 2026-10-03 — bounded MCP 管住 AI，判定交确定性规则引擎，可证明全覆盖 |
+| Vercel：Rogo 把 agent 写的代码 5 分钟推上生产 | Vercel | 2026-10-03 | agent, devops, ai-sdk | https://vercel.com/blog/how-rogo-ships-agent-written-code-to-production-in-5-minutes-on-vercel |  | 🔧 daily 2026-10-03 — agent swarm 自动分诊生产事故，月 7.3 万次部署 |
+| AWS：用多轮 RL 在 SageMaker 上微调搜索 agent | Amazon Web Services | 2026-10-03 | rag, agent, fine-tuning | https://aws.amazon.com/blogs/machine-learning/fine-tune-a-search-agent-with-multi-turn-rl-on-amazon-sagemaker-ai/ | [RAG] | 🔧 daily 2026-10-03 — 小模型学会你的工具/环境，得前沿可靠性、省延迟与成本 |
+| AutoSynthData：为企业 agent 自动合成训练数据 | ServiceNow | 2026-10-03 | agent, training-data, evals | https://huggingface.co/blog/ServiceNow-AI/autosynthdata |  | 🔧 daily 2026-10-03 — 用失败样本+强教师自动生成可验证的新任务，补能力短板 |
+| OpenAI：GPT-6 家族选型与生产化指南 | OpenAI | 2026-10-03 | llm, deployment, prompt-management | https://openai.com/index/practical-guide-building-gpt-6 |  | 📖 daily 2026-10-03 — 官方给选型/缓存/压缩/多 agent 委派的生产落地清单 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
