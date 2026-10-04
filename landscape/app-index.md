@@ -1345,6 +1345,10 @@
 | AWS：用多轮 RL 在 SageMaker 上微调搜索 agent | Amazon Web Services | 2026-10-03 | rag, agent, fine-tuning | https://aws.amazon.com/blogs/machine-learning/fine-tune-a-search-agent-with-multi-turn-rl-on-amazon-sagemaker-ai/ | [RAG] | 🔧 daily 2026-10-03 — 小模型学会你的工具/环境，得前沿可靠性、省延迟与成本 |
 | AutoSynthData：为企业 agent 自动合成训练数据 | ServiceNow | 2026-10-03 | agent, training-data, evals | https://huggingface.co/blog/ServiceNow-AI/autosynthdata |  | 🔧 daily 2026-10-03 — 用失败样本+强教师自动生成可验证的新任务，补能力短板 |
 | OpenAI：GPT-6 家族选型与生产化指南 | OpenAI | 2026-10-03 | llm, deployment, prompt-management | https://openai.com/index/practical-guide-building-gpt-6 |  | 📖 daily 2026-10-03 — 官方给选型/缓存/压缩/多 agent 委派的生产落地清单 |
+| Microsoft/HF ThinkingBox：按 agent 留下的数据库终态评分 | Microsoft / Hugging Face | 2026-10-04 | evals, agent, benchmark | https://huggingface.co/blog/microsoft/thinkingbox | [evaluation] | 🔧 daily 2026-10-04 — 核对 agent 留下的后端终态与副作用 |
+| Simon Willison：agent 时代需要「默认硬预算上限」 | — | 2026-10-04 | cost, guardrail, infra | https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/ |  | ⚡ daily 2026-10-04 — 按量计费缺硬上限，AWS/GCP 已上线 spend cap |
+| cloudflare/cloudflare-os — Cloudflare 开源的 agent 工作台 | cloudflare | 2026-10-04 | agent-ui, sandbox, security | https://github.com/cloudflare/cloudflare-os | 🎯 agent-ui | 🔧 daily 2026-10-04 — 含 agent chat UI、沙箱建应用与 Gatekeepers 护栏 |
+| thedotmack/claude-mem — 跨会话持久记忆 | thedotmack | 2026-10-04 | agent-memory, context | https://github.com/thedotmack/claude-mem |  | 🔧 daily 2026-10-04 — 压缩并回注旧 session 上下文 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
