@@ -1349,6 +1349,12 @@
 | Simon Willison：agent 时代需要「默认硬预算上限」 | — | 2026-10-04 | cost, guardrail, infra | https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/ |  | ⚡ daily 2026-10-04 — 按量计费缺硬上限，AWS/GCP 已上线 spend cap |
 | cloudflare/cloudflare-os — Cloudflare 开源的 agent 工作台 | cloudflare | 2026-10-04 | agent-ui, sandbox, security | https://github.com/cloudflare/cloudflare-os | 🎯 agent-ui | 🔧 daily 2026-10-04 — 含 agent chat UI、沙箱建应用与 Gatekeepers 护栏 |
 | thedotmack/claude-mem — 跨会话持久记忆 | thedotmack | 2026-10-04 | agent-memory, context | https://github.com/thedotmack/claude-mem |  | 🔧 daily 2026-10-04 — 压缩并回注旧 session 上下文 |
+| DeepSeek Harness v0.2.1-alpha.1：新增实验性 Claude Code Mods 兼容层 | deepseek-ai | 2026-10-05 | coding-agent, plugin, ecosystem | https://github.com/deepseek-ai/deepseek-harness/releases/tag/dsh-v0.2.1-alpha.1 | 🎯 agent-ui | 🔧 daily 2026-10-05 — 官方验证 Claude Code Mods API 为其插件子集，编程 Agent 插件生态开始互通 |
+| Strata：消费级 RTX 4090 本地跑 Qwen3.8-Flash-Next 125B（100T/s） | Niko1221 | 2026-10-05 | inference, local, self-hosted | https://github.com/Niko1221/Strata |  | 🔧 daily 2026-10-05 — 一键本地拉起 125B 模型，并在 localhost 暴露 OpenAI/Anthropic 兼容 API |
+| ChatGPT 10/14 起全量下线 GPT-5.5（无缓冲期），需迁移至 GPT-5.6 Sol / GPT-6 Astra | OpenAI | 2026-10-05 | model-lifecycle, migration, breaking-change | https://readhub.cn/topic/8wxR33BaZeU |  | ⚡ daily 2026-10-05 — 模型不足半年即强制下线，直接触发生产依赖的迁移窗口 |
+| OpenAI 前风险员工公开爆料：公司只顾接连出产品，审慎管控不足 | OpenAI | 2026-10-05 | safety, governance | https://readhub.cn/topic/8wwsOeTgaC9 |  | 📖 daily 2026-10-05 — 安全团队离职潮延续，Agent 安全治理叙事持续升温 |
+| 何恺明团队新 AGI 基准被『打穿』：Claude 满分、GPT 99 分 | MIT (Kaiming He) | 2026-10-05 | evaluation, benchmark | https://www.36kr.com/p/4011070893871238 | [evaluation] | 📖 daily 2026-10-05 — AGI 基准快速饱和，评测有效性存疑，需升级评测范式 |
+| 中国互联网最成功的地方，可能恰恰是 AI Agent 最大的麻烦 | — | 2026-10-05 | agent, china-ecosystem | https://www.huxiu.com/article/4894141.html |  | 📖 daily 2026-10-05 — 超级 App 封闭生态抬高 Agent 接入成本，是 agent 落地的结构性阻力 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
