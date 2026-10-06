@@ -1355,6 +1355,11 @@
 | OpenAI 前风险员工公开爆料：公司只顾接连出产品，审慎管控不足 | OpenAI | 2026-10-05 | safety, governance | https://readhub.cn/topic/8wwsOeTgaC9 |  | 📖 daily 2026-10-05 — 安全团队离职潮延续，Agent 安全治理叙事持续升温 |
 | 何恺明团队新 AGI 基准被『打穿』：Claude 满分、GPT 99 分 | MIT (Kaiming He) | 2026-10-05 | evaluation, benchmark | https://www.36kr.com/p/4011070893871238 | [evaluation] | 📖 daily 2026-10-05 — AGI 基准快速饱和，评测有效性存疑，需升级评测范式 |
 | 中国互联网最成功的地方，可能恰恰是 AI Agent 最大的麻烦 | — | 2026-10-05 | agent, china-ecosystem | https://www.huxiu.com/article/4894141.html |  | 📖 daily 2026-10-05 — 超级 App 封闭生态抬高 Agent 接入成本，是 agent 落地的结构性阻力 |
+| Together Link：把开源模型（GLM 5.3 / Kimi K3）接进现有 coding agent | Together AI | 2026-10-06 | coding-agent, routing, cost | https://www.together.ai/blog/together-link-frontier-quality-open-models-in-the-harness-you-already-use |  | 📖 daily 2026-10-06 |
+| GLM 5.3（753B MoE）上线 Amazon Bedrock | Z.ai (Zhipu) | 2026-10-06 | model-release, agentic, open-weights | https://aws.amazon.com/blogs/machine-learning/introducing-glm-5-3-on-amazon-bedrock/ |  | 📖 daily 2026-10-06 |
+| OpenAI textGrain 文本水印（EU AI Act 文本溯源） | OpenAI | 2026-10-06 | provenance, watermark, api | https://openai.com/index/eu-text-provenance |  | 📖 daily 2026-10-06 |
+| Google：Agentic 隐私与安全开放问题报告 | Google Research | 2026-10-06 | agent-security, guardrail, prompt-injection | https://research.google/blog/open-and-emergent-problems-in-agentic-privacy-and-security-a-contextual-angle/ |  | 📖 daily 2026-10-06 |
+| AWS aws-ai-ml agent skill（SageMaker 推理优化，MCP） | AWS | 2026-10-06 | mcp, agent-skill, inference | https://aws.amazon.com/blogs/machine-learning/new-agent-skill-amazon-sagemaker-optimized-generative-ai-inference-for-your-coding-agent/ |  | 📖 daily 2026-10-06 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
