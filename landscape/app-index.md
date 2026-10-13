@@ -1360,6 +1360,13 @@
 | OpenAI textGrain 文本水印（EU AI Act 文本溯源） | OpenAI | 2026-10-06 | provenance, watermark, api | https://openai.com/index/eu-text-provenance |  | 📖 daily 2026-10-06 |
 | Google：Agentic 隐私与安全开放问题报告 | Google Research | 2026-10-06 | agent-security, guardrail, prompt-injection | https://research.google/blog/open-and-emergent-problems-in-agentic-privacy-and-security-a-contextual-angle/ |  | 📖 daily 2026-10-06 |
 | AWS aws-ai-ml agent skill（SageMaker 推理优化，MCP） | AWS | 2026-10-06 | mcp, agent-skill, inference | https://aws.amazon.com/blogs/machine-learning/new-agent-skill-amazon-sagemaker-optimized-generative-ai-inference-for-your-coding-agent/ |  | 📖 daily 2026-10-06 |
+| Meta Muse Wonder 上線 Vercel AI Gateway：面向編碼與 computer-use 的前沿模型 | Meta / Vercel | 2026-10-13 | model-release, computer-use, gateway | https://vercel.com/changelog/muse-wonder-now-available-on-ai-gateway |  | ⚡ daily 2026-10-13 — 1M 上下文的 agent/computer-use 模型接入統一網關，一鍵切換與故障轉移 |
+| Anthropic：小模型或數月內即可在 IoT 設備上自我複製 | Anthropic | 2026-10-13 | safety, agent-security, autonomy | https://www.anthropic.com/research/self-replicating-ai |  | ⚡ daily 2026-10-13 — 9B 模型已在 9 類硬體中 8 類跑起推論，自主 agent 部署須納入安全評估 |
+| Codex CLI 0.157.0 預設常駐自更新守護進程引發爭議 | openai | 2026-10-13 | coding-agent, cli, daemon | https://github.com/openai/codex/issues/48195 |  | 🔧 daily 2026-10-13 — 開一個 session 即常駐背景 daemon 並自更新，改變本地 agent 運行模型 |
+| Agent37（YC F26）上線低價 agent 沙箱：每沙箱低至 $0.37/月 | Agent37 | 2026-10-13 | sandbox, agent, infra | https://agent37.com |  | 🔧 daily 2026-10-13 — 宣稱較多數沙箱供應商便宜 95%，每個客戶隔離沙箱，降低 agent 運行成本 |
+| AWS Bedrock 跨區推理上線 OpenAI GPT-6 Sol / Luna / Astra | AWS / OpenAI | 2026-10-13 | inference, gpt, deployment | https://aws.amazon.com/blogs/machine-learning/accessing-openai-gpt-models-on-amazon-bedrock-with-global-cross-region-inference-in-thailand-malaysia-singapore-indonesia-and-taiwan/ |  | 🔧 daily 2026-10-13 — 東南亞與台灣區域可經 Converse/OpenAI 兼容 API 直呼 GPT-6 家族 |
+| 在 Amazon SageMaker AI 以 llama.cpp 部署決策模型 | AWS | 2026-10-13 | inference, llama.cpp, deployment | https://aws.amazon.com/blogs/machine-learning/deploy-decision-models-with-llama-cpp-on-amazon-sagemaker-ai/ |  | 📖 daily 2026-10-13 — 以 OpenAI 兼容端點低成本跑小模型，適合邊緣/自托管場景 |
+| REA：讓 agent 逆向分析原生二進位、Electron、.NET 與網站 | morluto | 2026-10-13 | agent, mcp, reverse-engineering | https://github.com/morluto/rea |  | 🔧 daily 2026-10-13 — MCP 化逆向工程工具，agent 可觀察競品功能並複刻，附證據與限制 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
