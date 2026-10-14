@@ -1367,6 +1367,14 @@
 | AWS Bedrock 跨區推理上線 OpenAI GPT-6 Sol / Luna / Astra | AWS / OpenAI | 2026-10-13 | inference, gpt, deployment | https://aws.amazon.com/blogs/machine-learning/accessing-openai-gpt-models-on-amazon-bedrock-with-global-cross-region-inference-in-thailand-malaysia-singapore-indonesia-and-taiwan/ |  | 🔧 daily 2026-10-13 — 東南亞與台灣區域可經 Converse/OpenAI 兼容 API 直呼 GPT-6 家族 |
 | 在 Amazon SageMaker AI 以 llama.cpp 部署決策模型 | AWS | 2026-10-13 | inference, llama.cpp, deployment | https://aws.amazon.com/blogs/machine-learning/deploy-decision-models-with-llama-cpp-on-amazon-sagemaker-ai/ |  | 📖 daily 2026-10-13 — 以 OpenAI 兼容端點低成本跑小模型，適合邊緣/自托管場景 |
 | REA：讓 agent 逆向分析原生二進位、Electron、.NET 與網站 | morluto | 2026-10-13 | agent, mcp, reverse-engineering | https://github.com/morluto/rea |  | 🔧 daily 2026-10-13 — MCP 化逆向工程工具，agent 可觀察競品功能並複刻，附證據與限制 |
+| Gemini 4 Argon: Built to solve your hardest problems | Google DeepMind | 2026-10-14 | gemini, frontier-model, long-context | https://deepmind.google/blog/introducing-gemini-4-argon/ |  | ⚡ daily 2026-10-14 — Google 新前沿模型，长上下文强推理，直指 agent 工作负载 |
+| Gemini 4 Argon for Robotics | Google | 2026-10-14 | robotics, embodied, multimodal | https://developers.googleblog.com/gemini-4-argon-for-robotics/ |  | ⚡ daily 2026-10-14 — 前沿多模态模型接入机器人控制，具身智能信号 |
+| Run fast, private agents on-device with LFM2.5-24B-A2B | Liquid AI | 2026-10-14 | on-device, agents, privacy | https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b |  | 🔧 daily 2026-10-14 — 24B 级模型可在端侧跑 agent，隐私与低延迟路线 |
+| How to engineer an AI harness for game development | Kyle Kukshtel | 2026-10-14 | agentic-coding, claude-code, harness | https://kylekukshtel.com/ai-harness-engineering-game-development-claude-code |  | 📖 daily 2026-10-14 — Claude Code harness 工程实践，agentic coding 方法论 |
+| Building agents that transact with Anchor Browser and AgentCore payments | AWS | 2026-10-14 | agents, payments, x402 | https://aws.amazon.com/blogs/machine-learning/building-agents-that-transact-with-anchor-browser-and-agentcore-payments/ |  | ⚡ daily 2026-10-14 — agent 自主付费 x402，agent 经济与支付基建落地 |
+| Redesigning source control at Anthropic | Anthropic | 2026-10-14 | devtools, version-control, agent-collab | https://www.anthropic.com/engineering/redesigning-source-control |  | 🔧 daily 2026-10-14 — 面向 AI 协作重构版本控制，agent 工程基建新范式 |
+| llm-gemini 0.35 | Simon Willison | 2026-10-14 | llm-cli, gemini, tooling | https://simonwillison.net/2026/Oct/13/llm-gemini/ |  | 🔧 daily 2026-10-14 — 开源 LLM CLI 当日跟进 Gemini 4 Argon |
+| Higgsfield takes AI video from 1 minute to over 10 | OpenAI | 2026-10-14 | multimodal, video, gpt-6 | https://openai.com/index/higgsfield-longer-videos-voice |  | 📖 daily 2026-10-14 — GPT-Live/GPT-Image-2.5 现身，多模态生成管线更新 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
