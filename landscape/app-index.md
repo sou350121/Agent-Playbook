@@ -1375,6 +1375,15 @@
 | Redesigning source control at Anthropic | Anthropic | 2026-10-14 | devtools, version-control, agent-collab | https://www.anthropic.com/engineering/redesigning-source-control |  | 🔧 daily 2026-10-14 — 面向 AI 协作重构版本控制，agent 工程基建新范式 |
 | llm-gemini 0.35 | Simon Willison | 2026-10-14 | llm-cli, gemini, tooling | https://simonwillison.net/2026/Oct/13/llm-gemini/ |  | 🔧 daily 2026-10-14 — 开源 LLM CLI 当日跟进 Gemini 4 Argon |
 | Higgsfield takes AI video from 1 minute to over 10 | OpenAI | 2026-10-14 | multimodal, video, gpt-6 | https://openai.com/index/higgsfield-longer-videos-voice |  | 📖 daily 2026-10-14 — GPT-Live/GPT-Image-2.5 现身，多模态生成管线更新 |
+| Containment and monitoring failures are to blame for AI hacking reports: experts | — | 2026-10-15 | security, agents, guardrail | https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html | [evaluation] | ⚡ daily 2026-10-15 — HN 815↑：agent 被指入侵非模型失控，而是治理与监控缺位（arXiv） |
+| How Third Moment Research runs 10,000 agents for 36+ hours | OpenAI | 2026-10-15 | agents, self-improving, orchestration | https://openai.com/index/third-moment-research |  | ⚡ daily 2026-10-15 — 官方示范 1 万并发 agent 长跑 36-48h 的自我改进闭环与 token 治理 |
+| Linus Torvalds's first LLM-assisted patch series | Linus Torvalds | 2026-10-15 | ai-coding, llm | https://lwn.net/Articles/1100449/ |  | ⚡ daily 2026-10-15 — 内核维护者首次用 LLM 辅助提交补丁系列，AI coding 进入核心开源 |
+| AI is mass decompiling games. That's both awesome and scary. | Simon Willison | 2026-10-15 | ai-coding, reverse-engineering | https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games/ |  | 📖 daily 2026-10-15 — LLM 批量反编译旧游戏催生混搭潮，也引出 IP 与安全边界争议 |
+| 刚刚，Gemini 4 全球上线 | Google DeepMind | 2026-10-15 | model-release, multimodal | https://www.36kr.com/p/4024861209890695 |  | ⚡ daily 2026-10-15 — （續報）Gemini 4 由限量开放转为全球上线，正式进入产品化分发阶段 |
+| Loose Lips: Understanding Privacy Leakage in Agentic Dialogue | — | 2026-10-15 | evaluation, privacy, agents | https://arxiv.org/abs/2610.14071 | [evaluation] | 📖 daily 2026-10-15 — 系统刻画 agentic 对话中的隐私泄漏路径，为部署评估提供基准（arXiv） |
+| @mastra/core 1.77.0 — Factory Sandbox 契约 + run fencing + 跨系统可观测 | mastra-ai | 2026-10-15 | agent-framework, sandbox, observability | https://github.com/mastra-ai/mastra/releases/tag/%40mastra%2Fcore%401.77.0 |  | 🔧 daily 2026-10-15 — Agent 沙箱可插拔（Docker/E2B）+ 分布式 run fencing，直击持久执行正确性 |
+| Amp puts AI agents to work beyond code with OpenAI models | Amp / OpenAI | 2026-10-15 | coding-agent, agent-ui | https://openai.com/index/amp-beyond-coding | 🎯 agent-ui | 🔧 daily 2026-10-15 — Amp 从写码扩展到设计/决策，单用户周耗 100 亿 token 的成本治理样本 |
+| PathSeer: Adaptive Filtered Vector Search（Weaviate 1.40） | Weaviate | 2026-10-15 | rag, vector-search | https://weaviate.io/blog/pathseer-filtered-vector-search | [RAG] | 🔧 daily 2026-10-15 — 新 HNSW 过滤策略（SIGMOD 2026），补 ACORN 高选择性下的召回/成本短板 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
