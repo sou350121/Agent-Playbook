@@ -1384,6 +1384,16 @@
 | @mastra/core 1.77.0 — Factory Sandbox 契约 + run fencing + 跨系统可观测 | mastra-ai | 2026-10-15 | agent-framework, sandbox, observability | https://github.com/mastra-ai/mastra/releases/tag/%40mastra%2Fcore%401.77.0 |  | 🔧 daily 2026-10-15 — Agent 沙箱可插拔（Docker/E2B）+ 分布式 run fencing，直击持久执行正确性 |
 | Amp puts AI agents to work beyond code with OpenAI models | Amp / OpenAI | 2026-10-15 | coding-agent, agent-ui | https://openai.com/index/amp-beyond-coding | 🎯 agent-ui | 🔧 daily 2026-10-15 — Amp 从写码扩展到设计/决策，单用户周耗 100 亿 token 的成本治理样本 |
 | PathSeer: Adaptive Filtered Vector Search（Weaviate 1.40） | Weaviate | 2026-10-15 | rag, vector-search | https://weaviate.io/blog/pathseer-filtered-vector-search | [RAG] | 🔧 daily 2026-10-15 — 新 HNSW 过滤策略（SIGMOD 2026），补 ACORN 高选择性下的召回/成本短板 |
+| Anthropic 恢复 Claude 订阅覆盖第三方 agent 工具（含 OpenClaw） | Anthropic | 2026-10-16 | claude, subscription, agent-tooling | https://venturebeat.com/technology/anthropic-reinstates-openclaw-and-third-party-agent-usage-on-claude-subscriptions-with-a-catch |  | ⚡ daily 2026-10-16 — 订阅额度重回第三方 agent，生态封锁风险阶段性解除 |
+| Vercel Drives 正式 GA：为 agent 提供跨沙箱持久存储 | Vercel | 2026-10-16 | agent, sandbox, storage | https://vercel.com/blog/introducing-vercel-drives-persistent-storage-for-agents |  | 🔧 daily 2026-10-16 — 挂载式 Drive 让 agent 工作区/文件记忆跨运行延续 |
+| AWS「Trust in Depth」：给 agent 更多自主权而不失控的分层框架 | AWS | 2026-10-16 | agents, guardrail, autonomy | https://aws.amazon.com/blogs/machine-learning/trust-in-depth-giving-agents-more-autonomy-without-losing-control/ | [evaluation] | 🔧 daily 2026-10-16 — scope/know/bound/observe/prove 五层，可验证才放权 |
+| Meta Muse Spark Open 上线 Together AI 与 SageMaker JumpStart | Meta | 2026-10-16 | open-weights, agentic-coding, long-context | https://www.together.ai/blog/meta-muse-spark-open |  | 🔧 daily 2026-10-16 — 面向 agentic coding 的开放权重模型，1M 上下文，双平台 Day-0 |
+| Liquid AI d1-ultra 登陆 Vercel AI Gateway：输出结构化概率的决策模型 | Liquid AI | 2026-10-16 | decision-model, routing, gateway | https://vercel.com/changelog/liquid-ais-d1-ultra-now-available-on-ai-gateway |  | 🔧 daily 2026-10-16 — 分类/路由/打分返回校准概率，按输入 token 计费无输出费 |
+| 昆仑万维开源 Matrix-Game 4.0：单张 RTX 5090 实时生成游戏画面 | 昆仑万维 | 2026-10-16 | world-model, open-source, realtime | https://www.stcn.com/article/detail/4219575.html |  | 🔧 daily 2026-10-16 — 引擎管状态+视频模型渲染，480p/60FPS、延迟<150ms 并开源 |
+| Oracle、Asana、Block 等企业案例：Agent 从代码走向企业工作流 | OpenAI | 2026-10-16 | enterprise, agents, case-study | https://openai.com/index/third-moment-research |  | 📖 daily 2026-10-16 — 万级 agent 连续运行 36 小时的工程与成本实证 |
+| Google 上线 Universal Cart：打通搜索与 Gemini 的通用购物车 | Google | 2026-10-16 | agentic-commerce, shopping, gemini | https://blog.google/products-and-platforms/products/shopping/universal-cart-launch/ |  | 📖 daily 2026-10-16 — 跨站合并购物车+价格追踪，agentic 购物的基础设施铺垫 |
+| OpenAI Rosalind Academic Plan：为学术实验室免费提供 GPT-Rosalind | OpenAI | 2026-10-16 | life-sciences, academic, access | https://openai.com/index/introducing-the-rosalind-academic-plan |  | 📖 daily 2026-10-16 — 符合条件实验室可免费用 30 席 Business 12 个月 |
+| Weaviate 发布 v1.39.3 安全修复：nearObject 跨集合向量泄露 | Weaviate | 2026-10-16 | vector-db, security, rag | https://weaviate.io/blog/weaviate-security-release-nearobject-2026 | [RAG] | 🔧 daily 2026-10-16 — 中危授权漏洞，Cloud 已静默修补，自托管需立即升级 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
