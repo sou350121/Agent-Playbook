@@ -1394,6 +1394,13 @@
 | Google 上线 Universal Cart：打通搜索与 Gemini 的通用购物车 | Google | 2026-10-16 | agentic-commerce, shopping, gemini | https://blog.google/products-and-platforms/products/shopping/universal-cart-launch/ |  | 📖 daily 2026-10-16 — 跨站合并购物车+价格追踪，agentic 购物的基础设施铺垫 |
 | OpenAI Rosalind Academic Plan：为学术实验室免费提供 GPT-Rosalind | OpenAI | 2026-10-16 | life-sciences, academic, access | https://openai.com/index/introducing-the-rosalind-academic-plan |  | 📖 daily 2026-10-16 — 符合条件实验室可免费用 30 席 Business 12 个月 |
 | Weaviate 发布 v1.39.3 安全修复：nearObject 跨集合向量泄露 | Weaviate | 2026-10-16 | vector-db, security, rag | https://weaviate.io/blog/weaviate-security-release-nearobject-2026 | [RAG] | 🔧 daily 2026-10-16 — 中危授权漏洞，Cloud 已静默修补，自托管需立即升级 |
+| Reflection Beam：501B 开源权重 MoE 代理编码模型正式 GA（Apache 2.0） | Reflection AI | 2026-10-17 | agentic-coding, open-weight, long-horizon | https://ollama.com/blog/reflection-beam |  | ⚡ daily 2026-10-17 |
+| Quoting Addy Osmani 等：AI 代码评审应从「人是否读过」转向「哪道检查能拦住」 | — | 2026-10-17 | code-review, agentic, engineering | https://simonwillison.net/2026/Oct/16/code-review/ |  | 📖 daily 2026-10-17 |
+| Perplexity 开源 SPACE：生产级 agent 代码执行沙箱（Firecracker microVM） | perplexityai | 2026-10-17 | sandbox, agent-security, firecracker | https://github.com/perplexityai/SPACE |  | ⚡ daily 2026-10-17 |
+| AWS 开源 Strands Decider 2B + Strands Box：决策小模型与 agent 执行沙箱 | aws | 2026-10-17 | decision-model, sandbox, guardrail, tool-selection | https://strandsagents.com/blog/introducing-strands-decider/ |  | 🔧 daily 2026-10-17 |
+| AWS Bedrock AgentCore 生产级 agent 评估框架（九阶段） | aws | 2026-10-17 | evaluation, agentcore, observability | https://aws.amazon.com/blogs/machine-learning/building-trust-in-ai-agents-a-production-ready-evaluation-framework-with-amazon-bedrock-agentcore/ |  | 🔧 daily 2026-10-17 |
+| Vercel Shop 正式 GA：让 agent 成为一等购物者（Shopify Hydrogen 重建版） | vercel | 2026-10-17 | agent-ui, commerce, shopify | https://vercel.com/blog/vercel-and-shopify-make-agents-first-class-shoppers |  | 🔧 daily 2026-10-17 |
+| OpenAI：Stack Overflow for Agents 靠 ChatGPT 插件注册量翻三倍 | openai | 2026-10-17 | agent, gpt-6, codex | https://openai.com/index/stack-overflow-chatgpt-plugin |  | 📖 daily 2026-10-17 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
