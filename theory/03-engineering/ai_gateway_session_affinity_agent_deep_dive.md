@@ -1,6 +1,6 @@
 ---
 auto_generated: true
-generated_at: "2026-10-18T06:45:10Z"
+generated_at: "2026-10-18T09:00:59Z"
 source_url: "https://vercel.com/changelog/ai-gateway-logs-now-show-session-affinity"
 signal_type: "blog_post"
 ---
