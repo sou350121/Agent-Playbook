@@ -1,157 +1,159 @@
 ---
 auto_generated: true
-generated_at: "2026-10-18T09:00:59Z"
+generated_at: "2026-10-18T09:01:56Z"
 source_url: "https://vercel.com/changelog/ai-gateway-logs-now-show-session-affinity"
 signal_type: "blog_post"
 ---
-# Vercel AI Gateway 会话亲和：把 Agent 运行成本变成可归因的会话账本 (Vercel AI Gateway Session Affinity: Session-Level Cost Attribution for Coding Agents)
+# Perplexity 开源 SPACE：可自托管的 Firecracker agent 沙箱 (Perplexity SPACE: Self-Hosted Firecracker Sandboxes for Agent Code Execution)
 
 > 🔍 本文由 Moltbot 自动生成 | 2026-10-18
 >
-> **项目/工具**: Vercel AI Gateway（日志 Sessions 视图 + Session Affinity 路由）
-> **链接**: https://vercel.com/changelog/ai-gateway-logs-now-show-session-affinity
-> **核心定位**: AI Gateway 的日志新增「Sessions 视图」，按会话（session）归并请求并展示亲和路由结果；会话亲和让同一会话的每次 turn 都打到缓存已热的 provider，从而把「缓存命中率」从不可见的黑盒变成能按 agent、按 cost 归因的指标
+> **项目/工具**: Perplexity SPACE (Sandboxed Platform for Agentic Code Execution)
+> **链接**: https://github.com/perplexityai/SPACE
+> **核心定位**: Apache-2.0 的 agent 代码执行沙箱平台——每个沙箱是独立 Firecracker microVM，控制面与命令流数据面彻底分离，并附 E2B 兼容层（ECW）让现有 E2B 客户端零改代码切换后端
 
 ## ⚡ 快速判断（30 秒读完这段就够了）
 
-- **一句话定位**：一个网关侧的可观测性 + 路由特性——请求被自动聚合成会话，每条会话带 cache hit rate、成本、模型/供应商路径；亲和路由默认开启，把同一会话继续交给上一个 provider，让 prompt cache 持续复用
-- **现在值得用吗**：看场景——如果你已经在用 AI Gateway（或愿意把多 provider 调用收口到网关），这是零代码改动就能拿到的成本下降；如果你自研了路由层且已有自己的缓存亲和逻辑，短期收益有限
-- **适合场景**：Claude Code / Codex / Cursor 这类高频多轮编码 agent；多 provider 容灾但怕缓存失效的项目；需要按 agent / 会话做成本核算的团队
-- **不适合场景**：只用单一 provider 且直连（没有跨 provider 抖动，也就没有缓存丢失问题）；非文本请求（embeddings / 图像 / realtime 明确不在覆盖范围）；需要严格控制数据驻留而无法接受推测式会话指纹分组的场景
-- **与之前核心差异**：此前 AI Gateway 日志是请求粒度的，你只能看到一堆 call；现在多了会话粒度 + 每条会话的缓存命中率与供应商切换路径——从「你花了多少钱」变成「你为哪一段 agent 运行花了多少钱、花在重复计算上多少」
+- **一句話定位**：Perplexity 把驱动 Perplexity Computer 全量 agent 会话的沙箱底座开源了，Rust 实现，跑在 Firecracker microVM 上。
+- **現在值得用嗎**：看場景——有 K8s 或自有裸机、且在意「代码和数据不出自己的网」，值得花半天做本地 Kind 实测；只跑几行 Python 就别上这套。
+- **適合場景**：多租户 agent 平台、需要挂起/恢复的长时会话、想脱离第三方沙箱供应商但不愿重写 SDK 的团队。
+- **不適合場景**：单机实验、无 K8s 运维能力、需要开箱即用 SLA/计费、依赖 E2B 高级 create 能力（mcp/volumeMounts/iam）的场景。
+- **與 E2B / Docker 沙箱核心差異**：不是「又一个 Firecracker 封装」，而是把沙箱当成有状态资源来建模——异步 operation、Paused/Suspended 两级冻结、控制面与命令流两条独立生命线。
 
 ## 是什么 / 解决什么问题
 
-先说痛点。多轮 agent 会话里，**prompt 前缀是重复的**：system prompt、工具定义、历史对话，每一轮都要重新发一遍。各家 provider 的 prompt cache 就是为了省这笔钱——但缓存**挂在具体 provider 账号上**。当你的网关为了负载均衡或容灾，把第 5 轮发到了另一家 provider，那家的缓存是冷的，你按全价重新计费了整段 prompt。
+Agent 要落到生产，绕不开代码执行这一层：隔离、启动快、会话能持久，三件事互相拉扯。Docker 容器共享内核隔离不够硬，进程级沙箱跑不了任意二进制，托管沙箱则意味着把用户代码交出去。
 
-官方文档把这个成本机制说得很直白：
+Perplexity 的做法是把内部平台开源。README 的定义很直接：SPACE 是「a sandbox platform for running code in isolated Firecracker microVMs」，应用通过 HTTP API 创建 Linux 环境、执行命令、收集输出、管理生命周期。一个 template 定义起始文件系统，一个 sandbox 是该 template 的实例，拥有自己的 VM 和可写文件系统，一个沙箱内可跑多条命令。
 
-> A provider's prompt cache lives on the provider account that served your request. When the next request in a conversation goes somewhere else, that cache is cold and you pay full price for the prompt again.
+真正让它区别于市面上其他沙箱的，是**生命周期建模的严谨度**。架构文档开篇第一句就定调：「A sandbox, a lifecycle operation, and a command stream have separate lifetimes. A sandbox can outlive both the request that created it and the connection carrying its output.」
 
-Session affinity 就是解决这个：网关把相关请求归成一个会话，记住上一轮是哪个 provider 服务的，下一轮优先发给它。**对文本和 chat 请求默认开启**，所以已有流量无需改代码即受益。
-
-而这次 changelog 补的是**另一半**——可观测性。以前你只知道亲和路由「应该」省钱，但不知道实际省了多少。新增的 Sessions 视图里，每行是一个会话，列出：跑这个会话的编码 agent（Claude Code / Codex / Cursor 等）、成本、模型、供应商，以及**每一轮里有多少输入是命中缓存的**。点开还能看到 cache hit rate、时长，以及一条「路径」——每轮用的模型、耗时、服务的 provider 以及**之前换过哪些 provider**。这条路径其实就是「缓存被自己打冷了几次」的现场记录。
+> TODO: 每日情报条目标注的「60ms 启动、~118 次对抗零逃逸」在本次抓取的 README / architecture / ECW 文档中均未出现，数据来源待确认（可能在 Perplexity 官方博客而非仓库文档）。
 
 ## 技术架构拆解
 
 ### 核心设计决策
 
-- **会话识别有优先级链，不依赖单一信号**：网关按顺序查 6 个来源，取第一个命中的——`providerOptions.gateway.sessionId`（或 chat/responses/messages 顶层 `session_id` 字段）→ `x-session-id` header → `x-session-affinity` header → OpenAI 的 `prompt_cache_key` → `x-claude-code-session-id`（Claude Code 自动带）→ 对话指纹。这意味着**存量客户端大多不用改**，光是 Claude Code 自带 header 就能被识别。
-- **无 ID 时用对话指纹兜底**：对首个 system/developer 消息、首个非 system 消息、以及工具集合（name + description + schema）做 SHA-256，混入 team ID。设计细节很讲究：每条消息最多取前 4096 字符；后续 turn 不改变指纹；工具**顺序无关**（同一工具集换个排列仍是同一会话）；指纹按团队隔离，两家团队跑同一个 agent 不会撞车。
-- **pin 只重排、不扩权**：亲和路由在过滤之后执行，**只把已允许的 provider 提到前面**，绝不新增被 `order` 排除或被合规/零数据保留策略过滤掉的 provider。`sessionAffinity: false` 可以完全退回原排序。
-- **pin 会过期，且在缓存过期前一点**：每次成功请求续期；pin 在 provider 缓存失效前不久过期，避免把一个「其实已经冷了」的 pin 当成热缓存。provider 挂了照常切下一个；如果请求在 provider 接受后失败，**该 pin 被移除**，下一轮重新选。
-- **区分「会话 pin」与「凭证 pin」**：对显式 session ID 和 Claude Code 会话，pin 会连带绑定到**具体凭证**（因为每个账号有自己的缓存）；而指纹会话**只 pin provider、不 pin 凭证**——否则大量互不相关的用户会挤到同一个账号上。同理，`prompt_cache_key` 被当作「共享前缀标签」处理，也只 pin provider。
-- **BYOK 不被亲和打穿**：pin 只在同一凭证组内重排，永远不会把系统凭证插到 BYOK 凭证前面（或反之）。
+- **控制面 / 数据面分离**：管理请求走 API → PostgreSQL → Controller → K8s sandbox pod → runtime shim → worker services；命令输出则走独立的 data plane，用 session 级 scoped token 鉴权。控制面被命令流拖垮是最常见的自建沙箱失败模式，SPACE 从结构上避开了它。
+- **Desired state 驱动**：API 只把期望状态写进 PostgreSQL，控制器再 reconcile。因此「请求被接受」不是「沙箱就绪」的信号——调用方必须轮询 operation、确认 sandbox running、再拿到可连的 process endpoint。牺牲易用性，换取崩溃后可恢复。
+- **所有生命周期操作异步化**：create / pause / suspend / wake / delete 都返回 operation ID。文档明确区分三种状态：operation 状态描述生命周期请求，sandbox 状态描述环境，两者都不是命令的 exit status。
+- **两级冻结语义**：`Paused` 保留 VM 内存驻留与 worker 上的文件系统（非持久快照）；`Suspended` 对 VM 内存、运行时状态、rootfs 做快照并释放 VM 资源。真正需要跨节点/跨时间恢复，用 suspend。
+- **Template 与 sandbox 解耦**：template 可被多个 sandbox 共用而不被修改；支持 `seed:latest` 这类 tag 引用或 digest 引用，sandbox 响应会回报解析后的 digest，便于审计「到底跑了什么镜像」。
+- **两种 worker 调度**：direct adapter 直接调 worker 服务（不创建 K8s pod），或走 Kubernetes adapter（Kind 参考部署用后者）。给了从小规模到集群的过渡路径。
+- **ECW 定位诚实**：文档写明「ECW is a compatibility target maintained by SPACE, not an implementation of a versioned open E2B specification」，测试基线锁定 `e2b==2.21.1` 与 `e2b-code-interpreter==2.6.2`。
+- **默认空闲回收**：经 API 创建的沙箱默认 6 小时无访问/无命令活动后 suspend——这是空闲上限，不是最大存活时间。
 
-### 与「无会话亲和」的关键差异
+### 与前版/竞品的关键差异
 
-| 维度 | 无亲和 / 纯自动路由 | 开启 Session Affinity |
-|------|------------------|----------------------|
-| provider 选择 | 按 `order` / `sort`（延迟、成本） | pin 的 provider 优先，其余沿用原策略 |
-| 第 N 轮 prompt 计费 | 换家即冷缓存，按全价计 | 留在热缓存上，前缀部分读取缓存价 |
-| 缓存命中率可见性 | 无（只能看总账单） | 每会话 cache hit rate + 逐轮路径 |
-| 成本归因粒度 | 请求 / 模型 | 会话 / 编码 agent |
-| 容灾行为 | 故障即切换 | 故障仍切换，且失败清除 pin |
-| 合规过滤 | 先过滤再路由 | 亲和生效于过滤之后，不越权 |
+| 维度 | E2B（典型用法） | Docker 容器自建 | SPACE |
+|------|------------|------------|------------|
+| 隔离粒度 | MicroVM / 托管沙箱 | 容器（共享内核） | Firecracker microVM |
+| 控制面/数据面 | 托管，不暴露 | 自己拼 | 显式分离，独立 token 鉴权 |
+| 生命周期操作 | SDK 内同步感知 | 由编排器决定 | 异步 operation + 轮询 |
+| 冻结语义 | pause/resume | stop/start（丢内存） | Paused（驻留）/ Suspended（快照） |
+| 客户端接入 | 原生 SDK | 需自写 | 原生 HTTP/SSE + ECW 兼容 E2B Python SDK |
+| 部署形态 | 托管优先 | 自托管 | 自托管 K8s（Kind + EKS 参考） |
+| 许可 | — | — | Apache-2.0 |
 
 ### 架构/信息流图
 
+```text
+                        ┌──────────── 管理面 ────────────┐
+Application ──HTTP──▶ API ──▶ PostgreSQL(desired state)
+                               │
+                               ▼
+                       Cluster Controller ──▶ Kubernetes sandbox pod
+                                                    │
+                                              SPACE runtime shim
+                                                    │
+                                              Worker services ──▶ Firecracker microVM
+                                                    │                     │
+                                              Object storage         Guest process
+                                              (templates/snapshots)      │
+                        └──────────── 数据面 ────────────────────────────┤
+Application ──command stream──▶ Data plane ◀──────────────────────────────┘
 ```
-客户端 (Claude Code / Codex / Cursor / 自研)
-   │  headers: x-session-id / x-claude-code-session-id / prompt_cache_key
-   ▼
-┌──────────────── AI Gateway ────────────────┐
-│ 1. 识别会话                                │
-│    sessionId > x-session-id > x-session-   │
-│    affinity > prompt_cache_key > claude-id │
-│    > SHA-256 对话指纹                      │
-│                                            │
-│ 2. 应用合规/order/sort 过滤                │
-│                                            │
-│ 3. 提升 pin（仅在已允许 provider 内部）    │
-│    → 转发 x-session-affinity 给 provider   │
-│                                            │
-│ 4. 成功则续期 pin / 失败则清除 pin         │
-└────────────────────────────────────────────┘
-   │
-   ├─→ Logs · Sessions 视图
-   │     每行: agent | cost | models | providers
-   │            | cached input 占比
-   │     详情: cache hit rate | duration | turn 路径
-   ▼
-Provider A (缓存热)   Provider B (缓存冷，仅容灾)
-```
+
+在 Kind 参考部署里，sandbox pod 位于独立 `sandboxes` namespace，NetworkPolicy 只放行 API 与 cluster controller 的端口，出网限制在公网 IPv4 与集群 DNS。这些默认值是自托管时最容易被忽略、也最容易出事的部分。
 
 ## 实用评估
 
 ### 什么场景值得用
 
-- **长会话编码 agent**：Claude Code / Codex 这类一跑几十轮的场景，前缀重复量极大。留在同一 provider 上，每个 turn 的输入大部分从缓存读——这是最直接的省钱路径，而且默认开启、零代码。
-- **多 provider 容灾**：你为了可用性配了多个 provider，但每次故障切换都会把整段 prompt 重新算一遍。亲和 + 失败清 pin 的设计正好让「平时省钱、故障时仍然能切」。
-- **成本归因**：以前老板问「Claude Code 一个月烧了多少、其中多少是重复计算」，你只能说个总数。现在能按会话、按 agent、按 provider 列出来，还能看到被自己路由打冷的会话路径。
+- **数据不出网的企业 agent 平台**：自托管 + template/snapshot 存自有 S3 兼容存储，并提供 `SPACE_TRUSTED_TEMPLATE_STORAGE_BUCKETS` 白名单拒绝非授权桶与 endpoint 覆盖。
+- **长时 agent 的工作区**：suspend 快照内存与 rootfs 并释放资源，wake 恢复；「用户隔天回来继续」的语义比一断就死合理得多。
+- **已有 E2B 代码想换后端**：改 `E2B_DOMAIN` / `E2B_API_KEY` 即可，Python SDK 调用方式不变。
+- **平台方需要按 agent 计量与隔离**：独立 VM + ingress protection + access-wake 策略，能做细粒度权限管控。
 
 ### 什么场景不值得用
 
-- **单 provider 直连**：没有跨 provider 抖动，等于没有缓存丢失问题，亲和是空转。
-- **非文本请求**：embeddings、图像、realtime 会话**不在覆盖范围**（官方明确说明这些没有 prompt 可暖）。
-- **自研路由且已有会话粘性**：收益主要是可观测性，不是路由本身。
-- **会话边界模糊的批处理**：官方提示，用模板化开场（比如统一 `"Begin the task."`）启动的脚本会让**不同对话共享同一指纹**；大量相似对话应显式传 session ID，否则归并出来的会话统计会失真。
-
-> TODO: 官方 changelog 未给出具体的缓存折扣比例与成本节省幅度（不同 provider 的缓存计费策略不同），本文不做数字外推。
+- **单机实验**：部署链路是 Kind 集群 / EKS + PostgreSQL + 对象存储（Kind 用 versitygw）+ 控制面/pods/shims/workers 一整套，跑几段代码完全不成比例。
+- **期待开箱即用**：文档自己就提示本地部署要跑 smoke suites、处理 host 路径与非 dev 用户的坑；ECW 的 `seed-api-key.sh --execute` 被明确标注为「administrative database operation」。
+- **需要 ECW 全兼容 E2B**：`mcp`、`volumeMounts`、`iam` 三类 create 能力直接 400 拒绝；`autoPauseMemory=false` 被拒；JS SDK 未纳入兼容测试；team/template tagged alias 不支持；`code-interpreter-v1` 别名的 template 必须预先存在。
+- **需要强事务性文件语义**：写入在生命周期边界持久化，非逐次落盘——「an acknowledged one is not guaranteed to survive a sandbox crash, forced stop or host failure」。关键产物必须立刻导出。
 
 ### 迁移成本
 
-- **开启亲和**：默认已开，`Session affinity runs by default on text and chat requests`，基本为零。
-- **提升会话识别准确度**：只需在每次调用带上稳定 ID——SDK 侧设 `providerOptions.gateway.sessionId`，或 HTTP 侧统一发 `x-session-id`。改动集中在一处客户端封装，估计半天内可完成并验证。
-- **注意示例缺口**：官方文档中「Set sessionId in providerOptions.gateway on each call」与 header 用法处的代码块在抓取结果里未渲染出正文内容（`> TODO: 代码示例待从文档页面原文核对`），落地时请以文档站原文为准，不要照抄二手转述。
+| 迁移方向 | 需要做什么 | 粗略工作量 |
+|---|---|---|
+| E2B → SPACE（Python） | 部署 SPACE + 发布 template + 配 `SPACE_ECW_HOSTS` 与凭据密钥 + 改域名 | 半天到一天（不含集群搭建） |
+| 自建 Docker 沙箱 → SPACE | 重写为 create → poll operation → command session → attach | 1–3 天，取决于已有封装 |
+| 集群层面 | Kind 本地验证 → EKS 参考部署（`infra/space/aws/reference`） | 取决于平台团队 |
 
 ## 对你的意义
 
-对你这条 AI 应用线，这不是「又一个网关功能」，而是**把 agent 运行成本从请求账变成会话账**。
+值得抄的不是 Firecracker，而是**状态模型**：operation / sandbox / process 三态分离，加上「断连不等于沙箱死」这条假设。做多 agent 编排时，把这三条状态线混成一个「running/idle」的粗粒度状态，几乎一定会在大规模并发下炸掉。
 
-你的关注点一直是 Agent + UI、RAG 工具链、LLMOps 生态。这个更新恰好落在 LLMOps 里最容易被忽略的一格：**评估与成本的可观测性**。它给出的不只是一个开关，而是一套可以借鉴的设计模式——「会话识别优先级链 + 指纹兜底 + pin 跟随缓存生命周期 + 失败即清 pin + 只在已允许集合内重排」。这套东西你自己写路由层时可以直接借用，即便不用 Vercel。
-
-判断：**如果你手上的 agent 走多 provider，立即试用（改动几乎为零）；如果目前单 provider 直连，观望但记住这套模式**。尤其值得关注的是「按编码 agent 归并会话」这个切面——它把 cost 归到了具体的 agent 产品上，这对做 agent 选型和预算分配的人是真信息，而不是仪表盘装饰。
+具体建议：
+- **立即试用**：本地 Kind 起一遍，重点测 suspend → wake 的恢复延迟与 template publication 流程。
+- **观望**：已在 E2B 上稳定运行且无数据合规压力，没有立刻搬的理由——ECW 的价值在你被锁定或被涨价时才兑现。
+- **跳过**：只跑 agent 生成的少量脚本，进程级/QuickJS 沙箱成本低一个数量级。
 
 ## 关键代码/配置片段
 
-以下来自官方文档与 changelog 的真实表述（不含未渲染的示例正文）：
+ECW 接入（摘自 `docs/ecw.md`）：
 
-```text
-# 会话 ID 识别优先级（AI Gateway 按序取第一个命中的）
-1. providerOptions.gateway.sessionId   (或 chat/responses/messages 顶层 session_id 字段)
-2. x-session-id header
-3. x-session-affinity header
-4. prompt_cache_key
-5. x-claude-code-session-id header
-6. 对话指纹 (SHA-256)
+```bash
+export E2B_DOMAIN=sandbox.example.test
+export E2B_API_KEY=<raw-key>
 ```
 
-```text
-# 指纹算法要点（无 session ID 时）
-hash 输入:
-  - 首个 system/developer 消息的前 4096 字符
-  - 首个非 system/developer 消息的前 4096 字符
-  - 工具集合 (name + description + schema)，顺序无关
-  - team ID（团队隔离）
-稳定性: 后续 turn / 工具结果 / 新用户消息 不改变指纹
+```python
+import os
+from e2b import Sandbox
+
+sandbox = Sandbox.create(
+    api_key=os.environ["E2B_API_KEY"],
+    domain=os.environ["E2B_DOMAIN"],
+    template="seed",
+    timeout=60,
+)
+try:
+    print(sandbox.commands.run("printf 'Hello from SPACE\\n'").stdout)
+finally:
+    sandbox.kill()
 ```
+
+ECW 服务端配置（API 与 data plane 均需设置）：
 
 ```json
-// 保留原有 provider 排序，禁用亲和提升
-{
-  "sessionAffinity": false
-}
+[{"apiHost": "api.sandbox.example.test", "host": "sandbox.example.test"}]
 ```
 
+生命周期语义速查：
+
 ```text
-# 亲和与其它设置的交互（官方表格）
-compliance/zero-data-retention : 先过滤；被过滤掉的 provider 不会被 pin 提升
-order                          : pin 的 provider 排在 order 之前
-sort                           : pin 的 provider 排在 sort 赢家之前
-provider health                : 从不提升被判定为 down 的 provider
-BYOK credentials               : pin 只在本凭证组内重排，不跨系统/BYOK 边界
+Running   -> 可执行；保留 live VM memory + 可写文件系统
+Paused    -> 停止执行；内存驻留、文件系统留在 worker；非持久快照
+Suspended -> 停止执行；快照 VM 内存 + 运行时状态 + rootfs；释放 VM 资源
+Deleted   -> 不再可通过 API 访问
 ```
+
+## 📌 AI Agent 假设追踪
+
+| 假设 | 方向 | 关联说明 |
+|------|------|----------|
+| A-003: 多 Agent 协作框架从实验走向工程实践 | 支持 | SPACE 把沙箱工程化为带异步生命周期、挂起恢复与租户隔离的基础设施，是多 agent 并发的落地前提 |
 
 ---
 [← Back to Deep Dives](./README.md)
