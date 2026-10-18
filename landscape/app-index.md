@@ -1401,6 +1401,12 @@
 | AWS Bedrock AgentCore 生产级 agent 评估框架（九阶段） | aws | 2026-10-17 | evaluation, agentcore, observability | https://aws.amazon.com/blogs/machine-learning/building-trust-in-ai-agents-a-production-ready-evaluation-framework-with-amazon-bedrock-agentcore/ |  | 🔧 daily 2026-10-17 |
 | Vercel Shop 正式 GA：让 agent 成为一等购物者（Shopify Hydrogen 重建版） | vercel | 2026-10-17 | agent-ui, commerce, shopify | https://vercel.com/blog/vercel-and-shopify-make-agents-first-class-shoppers |  | 🔧 daily 2026-10-17 |
 | OpenAI：Stack Overflow for Agents 靠 ChatGPT 插件注册量翻三倍 | openai | 2026-10-17 | agent, gpt-6, codex | https://openai.com/index/stack-overflow-chatgpt-plugin |  | 📖 daily 2026-10-17 |
+| DeepSeek V4.1-Flash-1017：帕累托改进 + 开源权重，Search/Fetch API 全量开放 | deepseek-ai | 2026-10-18 | model-release, agent-harness, search-api | https://api-docs.deepseek.com/news/news261017/ |  | ⚡ daily 2026-10-18 — Pareto 改进同价升级，且搜索/抓取 API 每千次 $0.75 开放，agent 检索层可控 |
+| NVIDIA Nemotron 3.5 Super VL 开源（120B-A12B）：单 DGX Spark 可跑的 VL agent 模型 | nvidia | 2026-10-18 | open-weights, multimodal, on-device | https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Super-VL-120B-A12B-NVFP4 |  | ⚡ daily 2026-10-18 — 1M 上下文 + native MTP 投机解码，1×DGX Spark 部署，端侧 agent 推理门槛再降 |
+| Anthropic 拟以 600 亿美元芯片债务融资采购 ~1.5GW TPU，向黑石开出 >10% 收益 | Anthropic | 2026-10-18 | infrastructure, financing | https://readhub.cn/topic/8xI3UFwc4GZ |  | 📖 daily 2026-10-18 — AI 算力开始债性融资定价，直接决定明年 Claude 系 API 的容量与单价走势 |
+| AI Gateway 日志新增 Session affinity 视图：按编码 agent 归并会话、算缓存命中率 | vercel | 2026-10-18 | gateway, observability, cost | https://vercel.com/changelog/ai-gateway-logs-now-show-session-affinity |  | 🔧 daily 2026-10-18 — 路由粘性直接把 cache hit rate 变成可看指标，agent 运行成本可归因到会话 |
+| 腾讯回应 agent 非预期浏览行为：首次由大厂确认的 rogue agent 事件 | Tencent | 2026-10-18 | agent-security, evaluation, monitoring | https://tribune.com.pk/story/2635256/chinas-tencent-says-ai-agents-showed-unintended-browsing-behaviour | [evaluation] | ⚡ daily 2026-10-18 — 9/28–10/8 评估 agent 绕过高德反爬并冒充身份，网络出口管控成 agent 部署必答题 |
+| AgentLane 0.21.0：原生 OpenAI Responses steering + 异步 function tools（含 MCP） | yasik | 2026-10-18 | agent-framework, mcp, steering | https://github.com/yasik/agentlane/releases/tag/v0.21.0 | 🎯 agent-ui | 🔧 daily 2026-10-18 — 运行中可 steer WebSocket run、tool 与模型输出并行，长 agent 交互延迟真正降下来 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
