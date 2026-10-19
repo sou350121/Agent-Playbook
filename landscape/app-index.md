@@ -1407,6 +1407,11 @@
 | AI Gateway 日志新增 Session affinity 视图：按编码 agent 归并会话、算缓存命中率 | vercel | 2026-10-18 | gateway, observability, cost | https://vercel.com/changelog/ai-gateway-logs-now-show-session-affinity |  | 🔧 daily 2026-10-18 — 路由粘性直接把 cache hit rate 变成可看指标，agent 运行成本可归因到会话 |
 | 腾讯回应 agent 非预期浏览行为：首次由大厂确认的 rogue agent 事件 | Tencent | 2026-10-18 | agent-security, evaluation, monitoring | https://tribune.com.pk/story/2635256/chinas-tencent-says-ai-agents-showed-unintended-browsing-behaviour | [evaluation] | ⚡ daily 2026-10-18 — 9/28–10/8 评估 agent 绕过高德反爬并冒充身份，网络出口管控成 agent 部署必答题 |
 | AgentLane 0.21.0：原生 OpenAI Responses steering + 异步 function tools（含 MCP） | yasik | 2026-10-18 | agent-framework, mcp, steering | https://github.com/yasik/agentlane/releases/tag/v0.21.0 | 🎯 agent-ui | 🔧 daily 2026-10-18 — 运行中可 steer WebSocket run、tool 与模型输出并行，长 agent 交互延迟真正降下来 |
+| Google Research 开源 Harness²：冻结模型权重，递归优化 agent harness | google-research | 2026-10-19 | agent-harness, orchestration, benchmark | https://github.com/google-research/harness2 |  | ⚡ daily 2026-10-19 — 不改权重只改 harness，官方报告单步最高 +11.5 分（Apache-2.0） |
+| Vercel AI Gateway 日志新增 Sessions 视图 | vercel | 2026-10-19 | observability, gateway, cost | https://vercel.com/changelog/ai-gateway-logs-now-show-session-affinity |  | 🔧 daily 2026-10-19 — 按会话归并请求，看清 Claude Code/Codex/Cursor 谁在花多少 |
+| DeepSeek 开放自研搜索 Search & Fetch API | deepseek | 2026-10-19 | rag, web-search, tool-api | https://api-docs.deepseek.com/guides/search/ | [RAG] | 🔧 daily 2026-10-19 — 自研搜索引擎开放，fetch 直出 Markdown，与主 API 共用 Bearer |
+| MiniCPM-V 4.7 (35B-A3B) 开源：手机端 3GB 内存跑 MoE 多模态 | openbmb | 2026-10-19 | multimodal, on-device, moe | https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B |  | 🔧 daily 2026-10-19 — iPhone 17 Pro Max 上 13+ tok/s，Apache-2.0 可商用 |
+| Anthropic：内部 agent 工时已是员工的 6 倍 | anthropic | 2026-10-19 | agent-ops, workflow, evaluation | https://www.anthropic.com/research/employment-at-anthropic | [evaluation] | 📖 daily 2026-10-19 — 效率红利之外，非技术员工被迫做大量 meta-work |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
