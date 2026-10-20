@@ -1412,6 +1412,13 @@
 | DeepSeek 开放自研搜索 Search & Fetch API | deepseek | 2026-10-19 | rag, web-search, tool-api | https://api-docs.deepseek.com/guides/search/ | [RAG] | 🔧 daily 2026-10-19 — 自研搜索引擎开放，fetch 直出 Markdown，与主 API 共用 Bearer |
 | MiniCPM-V 4.7 (35B-A3B) 开源：手机端 3GB 内存跑 MoE 多模态 | openbmb | 2026-10-19 | multimodal, on-device, moe | https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B |  | 🔧 daily 2026-10-19 — iPhone 17 Pro Max 上 13+ tok/s，Apache-2.0 可商用 |
 | Anthropic：内部 agent 工时已是员工的 6 倍 | anthropic | 2026-10-19 | agent-ops, workflow, evaluation | https://www.anthropic.com/research/employment-at-anthropic | [evaluation] | 📖 daily 2026-10-19 — 效率红利之外，非技术员工被迫做大量 meta-work |
+| OpenAI：新一代模型在低资源语言编程上大幅跃升（COBOL 迁移 5.4%→86.6%） | OpenAI | 2026-10-20 | coding-model, legacy-migration, evals | https://openai.com/index/low-resource-programming-languages | [evaluation] | ⚡ daily 2026-10-20 — 新评测 MultiLangBench + COBOL 迁移基准，旧系统现代化有了可量化路径 |
+| ElevenAgents Architect Alpha：用对话直接构建和迭代 voice agent | ElevenLabs | 2026-10-20 | agent-builder, voice, agent-ui | https://www.digitaltoday.co.kr/en/view/116515/elevenlabs-releases-alpha-of-elevenagents-architect-to-build-agents-through-voice-conversations | 🎯 agent-ui | ⚡ daily 2026-10-20 — 把「描述需求→配置 agent」压进一段对话，agent builder 的新交互范式 |
+| Together Post-Training：RL 环境奖励 + SFT 自定义模型训练托管上线 | Together AI | 2026-10-20 | llmops, post-training, rl | https://www.together.ai/blog/together-post-training |  | 🔧 daily 2026-10-20 — 后训练从大厂专属变成按需服务，专用 agent 模型开始拼过 harness 工程 |
+| Amazon Bedrock 为全部 Claude 模型提供结构化输出（constrained decoding） | AWS | 2026-10-20 | structured-output, gateway, reliability | https://aws.amazon.com/blogs/machine-learning/structured-outputs-for-anthropic-claude-models-on-amazon-bedrock/ |  | 🔧 daily 2026-10-20 — schema 约束进解码阶段，agent 工具调用可去掉重试与后处理胶水 |
+| Netflix 本体驱动可观测性：用知识图谱打通 MELT 四层数据 | Netflix | 2026-10-20 | observability, knowledge-graph, tracing | https://netflixtechblog.com/ontology-driven-observability-building-an-end-to-end-knowledge-graph-at-netflix-scale-421392cf5adf |  | 📖 daily 2026-10-20 — 多 agent 事故归因的现成结构：实体图谱替代逐层翻日志 |
+| KiviDB：Rust 写的 Redis/Valkey 兼容库，内置向量与全文检索 | kividbio | 2026-10-20 | vector, rag, cache | https://github.com/kividbio/kividb | [RAG] | 🔧 daily 2026-10-20 — 一套进程同时做语义缓存与向量检索，省掉 Redis + 向量库双栈 |
+| Axonius AI Workforce GA：50+ 虚拟工人 + MCP Server 正式可用 | Axonius | 2026-10-20 | mcp, agent, security | https://siliconangle.com/2026/10/19/axonius-launches-ai-workforce-virtual-workers-as-ai-companion-and-mcp-server-go-live/ |  | 📖 daily 2026-10-20 — 每个 agent 绑定一个可度量结果 + 自主度开关，企业 agent 的落地模板 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
