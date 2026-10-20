@@ -1,6 +1,6 @@
 ---
 auto_generated: true
-generated_at: "2026-10-20T06:45:55Z"
+generated_at: "2026-10-20T09:00:19Z"
 source_url: "https://vercel.com/blog/introducing-vercel-drives-persistent-storage-for-agents"
 signal_type: "significant_update"
 ---
