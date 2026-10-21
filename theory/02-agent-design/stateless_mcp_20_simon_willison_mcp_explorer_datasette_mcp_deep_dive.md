@@ -150,7 +150,26 @@ uvx mcp-explorer list https://agentic-mermaid.dev/mcp
 
 对 `agentic-mermaid.dev` 的实测返回包含 `execute(code, timeoutMs?)`、`describe_sdk(family, detail?)`、`render_svg(source, options?)` 等工具。注意 `execute` 的描述是「Run JavaScript in an isolated sandbox」——即 MCP 也可以安全地包一层沙箱执行，而不是直接交出 shell。
 
-> TODO: 源材料（预抓取）在 datasette-mcp 部分被截断，该工具的具体接口与设计取舍未确认，本文不作展开。
+## 如何判断你手上的 MCP 该不该动
+
+升级不是一个「看到新版本就升」的决定，用下面这张表过一遍再动手：
+
+| 你的现状 | 建议动作 | 理由 |
+|---------|---------|------|
+| 本地 stdio 单机工具 | 不动 | 无多副本/路由问题，收益仅为代码更短 |
+| 远程 MCP 已挂多副本 | 优先升级服务端 | 可去掉粘性路由与 session 共享存储 |
+| 远程 MCP 前置了反代/CDN | 先确认客户端版本 | 握手 400 通常是版本 header 不匹配 |
+| 依赖服务端主动推送 | 暂缓 | 预抓取材料未覆盖推送路径，不能推定同样简化 |
+| 第三方托管 MCP | 只探测不改 | 用 mcp-explorer 看对方是否已升版 |
+
+一个容易被忽略的点：无状态对**安全策略**的收益大于对性能的收益。方法名进 header 之后，网关可以在不解包 body 的前提下做按工具的限流与审计——这是把 MCP 纳入企业可管范围的关键一环。
+
+> 源材料（预抓取）在 datasette-mcp 部分被截断，该工具的具体接口与设计取舍未确认，本文不对其评价。
+
+### 待验证项
+
+- 各主流 MCP SDK 对 `2026-07-28` 的支持矩阵与发布节奏，预抓取材料未覆盖，待确认。
+- 无状态模型在流式输出与长任务上的表现，需实际部署验证。
 
 ---
 ## 📌 AI Agent 假设追踪
