@@ -1,246 +1,153 @@
 ---
 auto_generated: true
-generated_at: "2026-08-05T03:33:10Z"
+generated_at: "2026-10-21T03:33:00Z"
 source_url: "https://simonwillison.net/2026/Jul/31/stateless-mcp/#atom-everything"
 signal_type: "significant_update"
 ---
-# Stateless MCP 2.0 重燃开发者兴趣：协议瘦身如何催生新工具生态
 
-> 🔍 本文由 Moltbot 自动生成 | 2026-08-05
+# Stateless MCP 2.0：去掉「会话」之后，协议实现了什么 (Stateless MCP 2.0: What Removing Sessions Actually Bought Us)
+
+> 🔍 本文由 Moltbot 自动生成 | 2026-10-21
 >
-> **项目/工具**: MCP (Model Context Protocol) 2.0 规范 + Simon Willison 工具链 (mcp-explorer, datasette-mcp, llm-mcp-client)
-> **链接**: https://simonwillison.net/2026/Jul/31/stateless-mcp/
-> **核心定位**: MCP 2.0 将协议从有状态双向流改造为无状态请求/响应模型，大幅降低客户端和服务端实现复杂度，同时催生了 Simon Willison 的三款新工具
+> **项目/工具**: MCP 2.0 规范（2026-07-28 版）+ Simon Willison 的 mcp-explorer / datasette-mcp / llm-mcp-client 工具链
+> **链接**: https://simonwillison.net/2026/Jul/31/stateless-mcp/#atom-everything
+> **核心定位**: MCP 协议最大的一次瘦身——把「先 initialize 拿 session id、再调工具」的两步握手压成一次 HTTP 请求，使客户端与服务端的实现复杂度、以及规模化部署的状态成本同时下降。
 
 ## ⚡ 快速判断（30 秒讀完這段就夠了）
 
-- **一句話定位**：MCP 2.0 规范（2026-07-28）将协议核心从有状态会话模式改造为无状态请求/响应模式，是 MCP 自 2024 年 11 月发布以来最大的架构变革
-- **現在值得用嗎**：是 — 如果你正在构建或集成 MCP 服务器/客户端，新规范显著降低实现复杂度，且所有 Tier 1 SDK 已同步更新
-- **適合場景**：需要水平扩展的 MCP 服务器部署、轻量级客户端集成、网关层路由和审计
-- **不適合場景**：严重依赖旧版 session ID 机制的遗留实现（需迁移）、需要 SSE 传输的旧客户端（已正式废弃）
-- **與前版核心差異**：从「两次 HTTP 握手建立会话 → 带 Session ID 调用」变为「单次 HTTP 请求，所有元数据通过 HTTP Header + _meta 携带」
+- **一句話定位**：MCP 从 stateful 会话模型转向 stateless 请求模型，一次 POST 就能调用工具。
+- **現在值得用嗎**：是——如果你的 MCP 服务部署在无状态机群、serverless 或多副本负载均衡后面，收益立刻可观；单机 stdio 场景收益有限。
+- **適合場景**：自建远程 MCP 服务、把 MCP 挂到 serverless/边缘、给弱模型暴露可审计工具集、快速探测第三方 MCP。
+- **不適合場景**：依赖服务端会话上下文（长连接推送、订阅）的既有实现、以及尚未升级协议版本的客户端/服务端混搭部署。
+- **與舊版 MCP（legacy stateful）核心差異**：不再需要 `Mcp-Session-Id` 与粘性路由，服务端不存会话状态。
 
 ## 是什么 / 解决什么问题
 
-MCP（Model Context Protocol）由 Anthropic 于 2024 年 11 月首次发布，旨在为 LLM Agent 框架提供标准化的工具暴露接口。2025 年全年经历了兴趣爆发式增长，Tier 1 SDK（TypeScript 和 Python）月下载量接近 5 亿次，总下载量均突破 10 亿大关。
+MCP 是 Anthropic 于 2024 年 11 月推出的「把工具暴露给 LLM agent 框架」的标准协议，2025 年经历了一次巨大的关注峰值，随后又被 Skills 抢走一部分风头——Simon Willison 的原话大意是：当 agent harness 有 shell 和 curl 时，MCP 能做的事大多能用更灵活的方式完成。
 
-然而，初版 MCP 的有状态协议核心成为了规模化部署的瓶颈。每次工具调用需要先发送 `initialize` 请求获取 `Mcp-Session-Id`，然后在后续请求中携带该 ID。这种设计带来了三个实际问题：
+他回转的原因不是怀旧，而是两个现实判断：
 
-1. **服务端状态管理复杂**：需要维护 session 生命周期，在分布式部署中还需确保同一 session 的请求路由到同一后端实例
-2. **客户端实现冗余**：每个客户端都要处理会话初始化、重试、连接恢复等状态逻辑
-3. **网关层无法有效路由**：由于关键信息（方法名、工具名）嵌套在 JSON body 中，网关/WAF/速率限制器必须解析 JSON 才能做路由决策
+1. **给 agent 一个能上网的 shell 环境风险很高**，而且需要足够强的模型才能有效驾驶那个环境；
+2. **MCP 工具更易审计与控制**，并且简单到跑在笔记本上的小模型也能相对可靠地驱动。
 
-MCP 2.0（规范版本 2026-07-28）的核心变革就是**彻底移除协议层会话**，将每个请求变为自描述的独立单元。任何请求都可以落在 round-robin 负载均衡器后的任意实例上，无需共享存储或会话亲和性。
-
-Simon Willison 在这篇博客中坦诚地分享了他对 MCP 态度转变的心路历程——从 2025 年底认为 MCP 被 Skills（另一个 Anthropic 发明）和通用 Agent（带 shell/curl 访问权限）所超越，到如今因为 Stateless 改造而重新投入。他的核心论点很有说服力：**给 Agent 一个可访问互联网的 shell 环境充满风险，而 MCP 工具更容易审计和控制，简单到笔记本电脑上的小模型也能合理驱动它们。**
+而 stateless 规范进一步降低了写客户端和服务端的门槛——他本周就用它写了三个实现。这句话本身就是一个信号：**协议的设计成本，会直接决定工具生态的增长速度**。协议写好之后一周内出现三个新工具，比任何 adoption 曲线都更有说服力。
 
 ## 技术架构拆解
 
 ### 核心设计决策
 
-| 设计决策 | 动机 | 效果 |
-|---------|------|------|
-| 移除 initialize/initialized 握手 | 减少每次会话的额外 RTT 和状态开销 | 工具调用从 2 次 HTTP 请求降为 1 次 |
-| 移除 Mcp-Session-Id header | 消除服务端会话状态管理 | 任意请求可路由到任意后端实例 |
-| 引入 MCP-Protocol-Version / Mcp-Method / Mcp-Name HTTP headers | 让网关层无需解析 JSON body 即可路由 | 支持标准 HTTP 网关/速率限制器/WAF 直接基于 Header 做决策 |
-| clientInfo 移入 _meta 字段 | 在去状态化的同时保留客户端身份 | 每个请求自描述，服务端可审计 |
-| 引入 server/discover RPC | 替代 initialize 的能力发现功能 | 可选调用，非强制握手 |
-| Multi Round-Trip Requests (MRTR) | 替代服务端发起的采样/elicitation 流 | 消除持续双向流的需求 |
-| List 响应携带 ttlMs + cacheScope | 减少客户端重复拉取 | 工具目录可缓存，上游 prompt 缓存稳定 |
-| 正式废弃 DCR，转向 CIMD | 提升 OAuth 安全性 | 符合 RFC 规范，修复 CLI 客户端 redirect 问题 |
+- **单请求取代握手**：旧协议必须先 `initialize` 拿 `Mcp-Session-Id`，再带该 header 调 `tools/call`；新协议把协议版本、方法名、工具名放进 HTTP header，`clientInfo` 放进请求体的 `_meta`，一次请求完成。
+- **状态从服务端移到请求里**：所有原本依赖会话的上下文（协议版本、客户端身份）变成自描述字段，服务端因此可以完全无状态。
+- **与 HTTP 基础设施对齐**：无会话 → 无需粘性路由（sticky routing）→ 多副本负载均衡、serverless、CDN 前置都变得平凡。这是「更好的可伸缩 Web 应用适配」，Simon 明确点出的收益。
+- **仍然保留 JSON-RPC 外壳**：`jsonrpc: "2.0"`、`id`、`method`、`params` 全部保留，迁移是「加 header + 挪 clientInfo」，不是重写协议。
 
-### 协议对比：有状态 vs 无状态
+### 与前版的关键差异
 
-**旧版（Legacy MCP）— 两次 HTTP 请求：**
-
-```
-POST /mcp HTTP/1.1
-Content-Type: application/json
-
-{
-  "jsonrpc": "2.0",
-  "id": 1,
-  "method": "initialize",
-  "params": {
-    "protocolVersion": "2025-11-25",
-    "capabilities": {},
-    "clientInfo": {"name": "my-app", "version": "1.0"}
-  }
-}
-→ 返回 Mcp-Session-Id: 1868a90c-3a3f-4f5b
-
-POST /mcp HTTP/1.1
-Mcp-Session-Id: 1868a90c-3a3f-4f5b
-Content-Type: application/json
-
-{
-  "jsonrpc": "2.0",
-  "id": 2,
-  "method": "tools/call",
-  "params": {"name": "search", "arguments": {"q": "otters"}}
-}
-```
-
-**新版（Stateless MCP）— 单次 HTTP 请求：**
-
-```
-POST /mcp HTTP/1.1
-MCP-Protocol-Version: 2026-07-28
-Mcp-Method: tools/call
-Mcp-Name: search
-Content-Type: application/json
-
-{
-  "jsonrpc": "2.0",
-  "id": 1,
-  "method": "tools/call",
-  "params": {
-    "name": "search",
-    "arguments": {"q": "otters"},
-    "_meta": {
-      "io.modelcontextprotocol/clientInfo": {
-        "name": "my-app",
-        "version": "1.0"
-      }
-    }
-  }
-}
-```
+| 维度 | legacy MCP（stateful） | MCP 2.0（stateless） |
+|------|----------------------|---------------------|
+| 调用流程 | initialize → 拿 session id → tools/call | 单次 POST |
+| 会话标识 | `Mcp-Session-Id` header | 无 |
+| 协议版本声明 | initialize 参数 `protocolVersion` | `MCP-Protocol-Version` header |
+| 工具定位 | 请求体 `params.name` | `Mcp-Method` + `Mcp-Name` header（体中也保留） |
+| 客户端身份 | initialize 参数 `clientInfo` | 请求体 `_meta["io.modelcontextprotocol/clientInfo"]` |
+| 服务端状态 | 必须维护 session 表 | 无状态 |
+| 扩展性 | 需粘性路由 | 可任意负载均衡 |
 
 ### 架构/信息流图
 
 ```
-                    ┌─────────────────────────────────────────────┐
-                    │              Load Balancer (Round-Robin)     │
-                    └──────────────┬──────────────────────────────┘
-                                   │
-              ┌────────────────────┼────────────────────┐
-              │                    │                    │
-        ┌─────▼─────┐      ┌─────▼─────┐      ┌─────▼─────┐
-        │  MCP Server│      │  MCP Server│      │  MCP Server│
-        │  Instance A │      │  Instance B │      │  Instance C │
-        │ (No State)  │      │ (No State)  │      │ (No State)  │
-        └─────┬─────┘      └─────┬─────┘      └─────┬─────┘
-              │                    │                    │
-              └────────────────────┼────────────────────┘
-                                   │
-                    ┌──────────────▼──────────────────────┐
-                    │           MCP Client                │
-                    │  Headers:                           │
-                    │    MCP-Protocol-Version: 2026-07-28 │
-                    │    Mcp-Method: tools/call           │
-                    │    Mcp-Name: search                 │
-                    │  Body: _meta carries clientInfo     │
-                    └─────────────────────────────────────┘
+legacy（两步、有状态）
+ client ──POST initialize──▶ server ── session id ──▶ client
+ client ──POST tools/call [Mcp-Session-Id]──▶ server (必须路由到同一台)
 
-  关键变化：每个请求自包含，无需 session 亲和性，
-  网关可直接基于 Mcp-Method / Mcp-Name 做路由和审计
+MCP 2.0（一步、无状态）
+ client ──POST /mcp──▶ [MCP-Protocol-Version, Mcp-Method, Mcp-Name] ──▶ 任意副本
+                      body: jsonrpc + params + _meta.clientInfo
 ```
-
-### 其他重要变更
-
-| 变更项 | 状态 | 说明 |
-|--------|------|------|
-| Roots / Sampling / Logging | 已废弃（12 个月过渡期） | 新实现不应采用 |
-| HTTP+SSE 传输 | 已废弃（12 个月过渡期） | 推荐使用 Streamable HTTP |
-| Tasks | 从实验性核心移入扩展 | 变为 `io.modelcontextprotocol/tasks` 扩展 |
-| 废弃政策 | 新引入 | 12 个月最短过渡窗口 |
-| RFC 9207 iss 参数验证 | 强制 | 关闭授权服务器混淆漏洞 |
 
 ## 实用评估
 
 ### 什么场景值得用
 
-- **需要水平扩展的 MCP 服务器**：无状态设计意味着你可以直接在前端加一个标准 round-robin 负载均衡器，无需 Redis 等共享存储来管理会话状态。AWS 的 Swami Sivasubramanian 在官方博客中明确表示，Amazon Bedrock AgentCore 已支持在标准可扩展基础设施上部署 MCP 服务器。
-- **构建 MCP 客户端工具**：Simon Willison 在一周内用 Codex 辅助构建了三个 MCP 工具（mcp-explorer、datasette-mcp、llm-mcp-client），这本身就证明了新规范大幅降低了实现门槛。
-- **网关层审计和路由**：`Mcp-Method` 和 `Mcp-Name` 作为 HTTP Header 暴露，使得 WAF、速率限制器、API 网关可以直接基于 Header 做决策，无需解析 JSON body。
-- **小模型驱动 MCP 工具**：Simon 指出，MCP 工具的简单性使得笔记本电脑上的小模型也能合理驱动它们，而通用 Agent（需要 shell + curl）则要求更强的模型能力。
+- **远程 MCP 服务**：无状态意味着可以放在 serverless 函数、CDN 边缘、K8s 任意副本后面，不需要 session affinity，也不用为 session 做共享存储。
+- **小模型驱动工具**：Simon 的观察是 MCP 的工具描述足够简单，笔记本上的小模型也能驱动——对做本地 agent 的人这是路线选择依据：与其给弱模型一个 shell，不如给它一组窄而清晰的 MCP 工具。
+- **快速探测与调试**：`mcp-explorer` 以 `uvx` 直接运行，无需安装，给「这家的 MCP 到底暴露了什么工具」提供了一行命令的答案。
 
 ### 什么场景不值得用
 
-- **严重依赖 session ID 的遗留实现**：如果你的 MCP 服务器/客户端深度绑定了 `Mcp-Session-Id` 机制，迁移成本不低。官方提供了 12 个月过渡期，但需要主动规划。
-- **需要服务端主动推送的场景**：MRTR 虽然替代了服务端发起的采样/elicitation 流，但交互模式从「推送」变为「轮询+重试」，对延迟敏感的场景可能需要评估。
-- **仅需要简单 Skills 的场景**：如果你的 Agent 只需要执行预定义的脚本或命令序列，Anthropic 的 Skills 机制可能更轻量——这也是为什么 Simon 之前一度认为 MCP 被 Skills 超越。
+- **依赖推送/订阅的集成**：原文明说的是「调用」路径变简单，长连接、服务端主动通知这类模型的替代方案未在预抓取材料中展开，**不应用 stateless 改造直接推定这些场景同等简化**。
+- **未升级版本的双端混搭**：legacy 客户端打 stateless 服务端（或反之）会因握手/header 不匹配失败，升级应当整条链路一起做。
+- **本地单进程 stdio 用途**：本来就没有多副本与路由问题，瘦身收益主要是代码简洁，不是能力提升。
 
 ### 迁移成本
 
-| 迁移项 | 工作量 | 说明 |
-|--------|--------|------|
-| 移除 session 管理代码 | 中 | 删除 initialize/initialized 流程，将 clientInfo 移入 _meta |
-| 更新 HTTP Header | 低 | 添加 `MCP-Protocol-Version`、`Mcp-Method`、`Mcp-Name` headers |
-| 迁移到 Streamable HTTP | 中 | 如果当前使用 HTTP+SSE（已废弃），需迁移到 Streamable HTTP |
-| 处理废弃的 Roots/Sampling/Logging | 中至高 | 取决于是否使用了这些已废弃的功能 |
-| OAuth 授权流程更新 | 低 | 如果已使用标准 OAuth，主要是添加 RFC 9207 iss 验证 |
-
-官方 SDK（TypeScript、Python、Go、C#）已全部更新到 2026-07-28 规范，并提供了详细的迁移说明。Rust SDK 也在 beta 中支持新规范。
+- 客户端：去掉 initialize 步骤，改为在每次请求携带 `MCP-Protocol-Version`、`Mcp-Method`、`Mcp-Name`，并把 `clientInfo` 移入 `_meta`。
+- 服务端：删除 session 管理、路由亲和依赖；保持 JSON-RPC 处理逻辑。
+- 生态侧：SDK 与网关（含第三方代理）需同步支持新版本号 `2026-07-28`，这部分成本不在协议本身而在部署矩阵，属最大不确定性。
 
 ## 对你的意义
 
-MCP 2.0 的无状态化是协议走向生产级基础设施的关键一步。对 Ken 的 AI 应用开发方向（Agent + UI）有几个值得关注的信号：
+这条对 AI App 线是**结构性**的，不是工具级新闻。你追踪的 Agent + UI 方向里，MCP 一直是「工具接入层」；它从 stateful 变 stateless，直接改变了部署与安全的默认姿态：
 
-1. **MCP 作为 Agent 工具集成标准的地位进一步巩固**。无状态设计消除了规模化部署的最大障碍，AWS 的背书（Bedrock AgentCore 支持）更是企业级采用的强力信号。这与假设 A-001（MCP 成为 AI Agent 工具集成事实标准）高度一致。
+1. **部署更便宜**：远程 MCP 不再需要会话基础设施，小团队也能横向扩；
+2. **审计更容易**：`Mcp-Method` / `Mcp-Name` 进 header，网关层可以按方法名做策略、限流、日志，而不必解析 body——这对你关心的「评估与安全」是个明确抓手；
+3. **与 Skills 的边界更清晰**：shell+curl = 强模型、高风险、高灵活；MCP = 弱模型、可审计、易约束。这条二分法值得作为你 agent 架构笔记里的一节固定下来。
 
-2. **Simon Willison 工具链的可复用性**。mcp-explorer 是一个通用的 MCP 服务器探测 CLI 工具，可以用 `uvx` 直接运行无需安装。如果 Ken 需要在项目中调试或测试 MCP 服务器，这是一个现成的好工具。datasette-mcp 则展示了如何将 SQL 数据库通过 MCP 暴露给 Agent——如果你的 RAG pipeline 需要数据库查询能力，这个模式值得参考。
-
-3. **小模型 + MCP 的组合可能是一个被低估的方向**。Simon 提到小模型在笔记本上也能驱动 MCP 工具，这意味着不一定需要最强的推理模型来构建 Agent 应用。对于成本敏感的场景，这是一个值得探索的路径。
-
-**建议**：立即关注 MCP 2.0 的 SDK 迁移指南，特别是如果你当前有基于 MCP 的项目。mcp-explorer 值得装来试玩，熟悉新协议的交互模式。
+**建议：立即试用。** 用 `uvx mcp-explorer list <url>` 花五分钟探一遍你在用的第三方 MCP，能立刻看出哪些服务还没升级协议版本。
 
 ## 关键代码/配置片段
 
-### mcp-explorer：零安装 MCP 探测
+legacy（两步握手，来自源文）：
 
-```bash
-# 列出远程 MCP 服务器的所有工具
-uvx mcp-explorer list https://agentic-mermaid.dev/mcp
+```http
+POST /mcp HTTP/1.1
+Content-Type: application/json
 
-# 查看某个工具的详细 JSON schema
-uvx mcp-explorer inspect render_svg
-
-# 直接调用工具并传递参数
-uvx mcp-explorer call \
-  https://agentic-mermaid.dev/mcp \
-  render_svg \
-  -a source 'graph TD; A-->B' \
-  -a options '{"padding":24}'
+{ "jsonrpc": "2.0", "id": 1, "method": "initialize",
+  "params": { "protocolVersion": "2025-11-25", "capabilities": {},
+              "clientInfo": { "name": "my-app", "version": "1.0" } } }
 ```
 
-### datasette-mcp：为 Datasette 实例添加 MCP 端点
+```http
+POST /mcp HTTP/1.1
+Mcp-Session-Id: 1868a90c-3a3f-4f5b
+Content-Type: application/json
 
-```bash
-# 安装插件后，任何 Datasette 实例自动获得 /-/mcp 端点
-# 提供三个工具：list_databases(), get_database_schema(), execute_sql()
-# 在 ChatGPT/Claude 中配置该端点，Agent 即可直接查询你的数据库
+{ "jsonrpc": "2.0", "id": 2, "method": "tools/call",
+  "params": { "name": "search", "arguments": { "q": "otters" } } }
 ```
 
-### llm-mcp-client：LLM CLI 的 MCP 集成
+MCP 2.0（一次请求）：
 
-```bash
-llm install llm-mcp-client
-llm -T 'MCP("https://datasette.simonwillison.net/-/mcp")' 'count the notes'
-# 输出: There are 151 notes.
-```
-
-### MCP 2.0 无状态请求格式（官方规范）
-
-```
+```http
 POST /mcp HTTP/1.1
 MCP-Protocol-Version: 2026-07-28
 Mcp-Method: tools/call
 Mcp-Name: search
 Content-Type: application/json
 
-{"jsonrpc":"2.0","id":1,"method":"tools/call",
- "params":{"name":"search","arguments":{"q":"otters"},
-  "_meta":{"io.modelcontextprotocol/clientInfo":
-    {"name":"my-app","version":"1.0"}}}}
+{ "jsonrpc": "2.0", "id": 1, "method": "tools/call",
+  "params": { "name": "search", "arguments": { "q": "otters" },
+              "_meta": { "io.modelcontextprotocol/clientInfo":
+                         { "name": "my-app", "version": "1.0" } } } }
 ```
 
+探索工具（无需安装）：
+
+```sh
+uvx mcp-explorer list https://agentic-mermaid.dev/mcp
+```
+
+对 `agentic-mermaid.dev` 的实测返回包含 `execute(code, timeoutMs?)`、`describe_sdk(family, detail?)`、`render_svg(source, options?)` 等工具——注意 `execute` 的描述是「Run JavaScript in an isolated sandbox」，即 MCP 也可以安全地包装一层沙箱执行，而不是直接给出 shell。
+
+> TODO: 源材料未给出 datasette-mcp 与 llm-mcp-client 的具体接口与实现细节（预抓取被截断），两工具的功能边界待补。
+
+---
 ## 📌 AI Agent 假设追踪
 
 | 假设 | 方向 | 关联说明 |
 |------|------|----------|
-| A-001: MCP 成为 AI Agent 工具集成事实标准 | 支持 | MCP 2.0 无状态化消除了规模化部署的最大障碍，AWS Bedrock AgentCore 已原生支持；Tier 1 SDK 月下载量近 5 亿次，生态势头强劲 |
+| A-001: MCP 成为 AI Agent 工具集成事实标准 | 支持 | 协议最大一次改动不是加功能而是降实现成本，并直接催生多个新工具实现，是标准走向事实化的典型信号。 |
 
 ---
 [← Back to Deep Dives](./README.md)
