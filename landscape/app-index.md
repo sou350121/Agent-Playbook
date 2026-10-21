@@ -1419,6 +1419,16 @@
 | Netflix 本体驱动可观测性：用知识图谱打通 MELT 四层数据 | Netflix | 2026-10-20 | observability, knowledge-graph, tracing | https://netflixtechblog.com/ontology-driven-observability-building-an-end-to-end-knowledge-graph-at-netflix-scale-421392cf5adf |  | 📖 daily 2026-10-20 — 多 agent 事故归因的现成结构：实体图谱替代逐层翻日志 |
 | KiviDB：Rust 写的 Redis/Valkey 兼容库，内置向量与全文检索 | kividbio | 2026-10-20 | vector, rag, cache | https://github.com/kividbio/kividb | [RAG] | 🔧 daily 2026-10-20 — 一套进程同时做语义缓存与向量检索，省掉 Redis + 向量库双栈 |
 | Axonius AI Workforce GA：50+ 虚拟工人 + MCP Server 正式可用 | Axonius | 2026-10-20 | mcp, agent, security | https://siliconangle.com/2026/10/19/axonius-launches-ai-workforce-virtual-workers-as-ai-companion-and-mcp-server-go-live/ |  | 📖 daily 2026-10-20 — 每个 agent 绑定一个可度量结果 + 自主度开关，企业 agent 的落地模板 |
+| DeepSeek 开源生产推理框架 DeepInfer（Apache 2.0） | deepseek-ai | 2026-10-21 | inference, cost, open-source | https://github.com/deepseek-ai/DeepInfer |  | ⚡ daily 2026-10-21 — 生产栈开源：投机解码+SM100/Ascend 950，自托管成本可直接下降 |
+| Amazon Quick × Bedrock AgentCore：供应链对话式决策 | AWS | 2026-10-21 | mcp, agentcore, enterprise | https://aws.amazon.com/blogs/machine-learning/from-data-to-decisions-conversational-supply-chain-intelligence-with-amazon-quick-and-amazon-bedrock-agentcore/ |  | 🔧 daily 2026-10-21 — MCP 组合工具层 + 人工审批关卡的企业 agent 参考架构 |
+| eMudhra 中间 CA 私钥泄露：所有信任包需紧急更新 | eMudhra | 2026-10-21 | security, supply-chain | https://simonwillison.net/2026/Oct/20/emudhra-certificates/ |  | 🔧 daily 2026-10-21 — 8 个中间 CA 沦陷，pip/uv 已发版，agent 沙箱镜像须重建 |
+| 腾讯混元开源 Hy Memory 2.0 记忆框架 + MemHub 桌面端 | Tencent-Hunyuan | 2026-10-21 | agent-memory, sdk, desktop | https://github.com/Tencent-Hunyuan/Hy-Memory | 🎯 agent-ui | ⚡ daily 2026-10-21 — 跨 Claude Code/Cursor 的统一本地记忆层，带桌面端与 CLI |
+| IBM ALTK-Evolve：学习式 playbook 让 GPT-4.1 登顶 τ²-bench 零售 | AgentToolkit | 2026-10-21 | evals, agent-memory, prompt | https://huggingface.co/blog/ibm-research/altk-evolve-bc | [evaluation] | 🔧 daily 2026-10-21 — 不改权重、只改 system prompt 的可学习 playbook，复现成本极低 |
+| Smartsheet MCP Server 正式可用：40+ 工具打通项目管理 | Smartsheet | 2026-10-21 | mcp, work-management | https://aws.amazon.com/blogs/machine-learning/work-management-context-for-ai-agents-with-smartsheet-mcp-on-aws/ |  | 🔧 daily 2026-10-21 — 协作工具全面 MCP 化，agent 可直接改任务与排期 |
+| OpenAI 收购 Orchestra Bio，把 agent 接进药物研发流程 | OpenAI | 2026-10-21 | life-sciences, workflow-agent, m&a | https://openai.com/index/openai-to-acquire-orchestra-bio |  | ⚡ daily 2026-10-21 — Rosalind 从模型走向编排层，生物医药成为 agent 主战场 |
+| ChatGPT Work 落地独立加盟商：现金对账时间减少 94% | OpenAI | 2026-10-21 | enterprise, workflow | https://openai.com/index/ted-taylor-restaurant |  | 📖 daily 2026-10-21 — 非技术小企业的真实 agent 落地样本，比 demo 更有说服力 |
+| FairStress：把 LLM 决策公平性测到「改变答案的难易度」 | allenai | 2026-10-21 | evals, fairness, benchmark | https://huggingface.co/blog/allenai/fairstress | [evaluation] | 🔧 daily 2026-10-21 — 新公平性基准已并入 Olmo-eval，风控/招聘类 agent 可即用 |
+| MiniMax M3.1 Flash 发布：200+ TPS，价格砍到 1/2 | MiniMax | 2026-10-21 | model-release, cost | https://www.36kr.com/p/4032947936662665 |  | ⚡ daily 2026-10-21 — 高吞吐低价 Flash 档位竞争加剧，agent 高频调用成本再降 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
