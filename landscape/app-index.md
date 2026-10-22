@@ -1429,6 +1429,14 @@
 | ChatGPT Work 落地独立加盟商：现金对账时间减少 94% | OpenAI | 2026-10-21 | enterprise, workflow | https://openai.com/index/ted-taylor-restaurant |  | 📖 daily 2026-10-21 — 非技术小企业的真实 agent 落地样本，比 demo 更有说服力 |
 | FairStress：把 LLM 决策公平性测到「改变答案的难易度」 | allenai | 2026-10-21 | evals, fairness, benchmark | https://huggingface.co/blog/allenai/fairstress | [evaluation] | 🔧 daily 2026-10-21 — 新公平性基准已并入 Olmo-eval，风控/招聘类 agent 可即用 |
 | MiniMax M3.1 Flash 发布：200+ TPS，价格砍到 1/2 | MiniMax | 2026-10-21 | model-release, cost | https://www.36kr.com/p/4032947936662665 |  | ⚡ daily 2026-10-21 — 高吞吐低价 Flash 档位竞争加剧，agent 高频调用成本再降 |
+| Claude Duet：Anthropic 首个主动式个人 Agent（iOS/Android + claude.ai） | Anthropic | 2026-10-22 | agent-ui, proactive-agent, safety | https://claude.com/es/resources/articles/claude-duet | 🎯 agent-ui | ⚡ daily 2026-10-22 — 主动式 agent 从 API 走进消费级 App，安全层成为产品设计前置 |
+| Bedrock AgentCore + Quick 的对话式供应链决策示例 | AWS | 2026-10-22 | enterprise, privatelink, governance | https://aws.amazon.com/blogs/machine-learning/securing-quick-access-from-corporate-networks-with-aws-privatelink/ |  | 📖 daily 2026-10-22 — 企业内网接入 agent 助手的安全基线参考 |
+| OpenAI 模型与 Codex agentic 工作流进 Google Cloud Model Garden | OpenAI | 2026-10-22 | cloud, governance, codex | https://openai.com/index/openai-models-google-cloud |  | ⚡ daily 2026-10-22 — 首次进 Google 云，企业可凭既有治理与配额采购 OpenAI 模型 |
+| OpenAI 12 小时 prompt caching 上线 Responses API（写入 2.5x） | OpenAI | 2026-10-22 | prompt-caching, cost, agent-memory | https://developers.openai.com/api/docs/changelog |  | 🔧 daily 2026-10-22 — 长任务 agent 可复用工具体系达 12 小时，缓存命中降价 90% |
+| AWS Deep Insight：生产级多智能体系统五大挑战与拆解 | AWS | 2026-10-22 | multi-agent, orchestration, context-engineering | https://aws.amazon.com/blogs/machine-learning/5-production-challenges-in-multi-agent-systems-and-how-deep-insight-solved-them/ | 🎯 agent-ui | 🔧 daily 2026-10-22 — 七角色 agent 链路开源可跑，是最接近生产的多智能体样板 |
+| AAIF：用 1B SLM 做路由、前沿模型只兜底的边缘 agent 架构 | AWS | 2026-10-22 | model-routing, edge, strands | https://aws.amazon.com/blogs/machine-learning/adaptive-agentic-intelligence-framework-using-strands-agents/ |  | 🔧 daily 2026-10-22 — 本地 SLM 分流 + 云端兜底，把 agent 推理成本压到边缘设备 |
+| OpenAI 发布企业访问的「一致标准」规范（模型准入与用途边界） | OpenAI | 2026-10-22 | policy, enterprise, compliance | https://openai.com/index/broad-access-through-consistent-standards | [evaluation] | 📖 daily 2026-10-22 — 企业采购 agent 时可直接引用其分级准入话术 |
+| Claude Code Hooks 入门：自动格式化、跑测试、拦敏感文件 | Anthropic (社区实践) | 2026-10-22 | coding-agent, harness, hooks | https://juejin.cn/post/7697150457639092278 | 🎯 agent-ui | 🔧 daily 2026-10-22 — 用 hooks 把编码 agent 的护栏做成可复制的配置模板 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
