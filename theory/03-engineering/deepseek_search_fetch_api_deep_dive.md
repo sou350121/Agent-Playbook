@@ -1,6 +1,6 @@
 ---
 auto_generated: true
-generated_at: "2026-10-23T12:00:58Z"
+generated_at: "2026-10-23T12:41:33Z"
 source_url: "https://api-docs.deepseek.com/guides/search/"
 signal_type: "significant_update"
 ---
