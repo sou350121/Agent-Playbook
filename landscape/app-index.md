@@ -1437,6 +1437,12 @@
 | AAIF：用 1B SLM 做路由、前沿模型只兜底的边缘 agent 架构 | AWS | 2026-10-22 | model-routing, edge, strands | https://aws.amazon.com/blogs/machine-learning/adaptive-agentic-intelligence-framework-using-strands-agents/ |  | 🔧 daily 2026-10-22 — 本地 SLM 分流 + 云端兜底，把 agent 推理成本压到边缘设备 |
 | OpenAI 发布企业访问的「一致标准」规范（模型准入与用途边界） | OpenAI | 2026-10-22 | policy, enterprise, compliance | https://openai.com/index/broad-access-through-consistent-standards | [evaluation] | 📖 daily 2026-10-22 — 企业采购 agent 时可直接引用其分级准入话术 |
 | Claude Code Hooks 入门：自动格式化、跑测试、拦敏感文件 | Anthropic (社区实践) | 2026-10-22 | coding-agent, harness, hooks | https://juejin.cn/post/7697150457639092278 | 🎯 agent-ui | 🔧 daily 2026-10-22 — 用 hooks 把编码 agent 的护栏做成可复制的配置模板 |
+| Agent Skills 捐给 AAIF：Anthropic 把 agent 技能标准交给 Linux Foundation | Anthropic / AAIF | 2026-10-23 | agent-skills, standard, aaif | https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation | 🎯 agent-ui | ⚡ daily 2026-10-23 — SKILL.md 标准中立化，70+ 平台已接入，百万技能可跨平台复用 |
+| AAIF 一日收进四个项目：Open Responses、OpenEnv、OpenSandbox 同步入场 | Linux Foundation / AAIF | 2026-10-23 | open-standard, multi-provider, sandbox | https://www.linuxfoundation.org/press/agentic-ai-foundation-announces-four-new-projects-agent-skills-open-responses-openenv-and-opensandbox |  | ⚡ daily 2026-10-23 — 请求格式、RL 训练环境、执行沙箱三层的共同标准一次落定 |
+| Amazon Polly 下一代 Generative 引擎 GA：14 个新语音，价格不变 | AWS | 2026-10-23 | tts, voice-agent, streaming | https://aws.amazon.com/blogs/machine-learning/amazon-polly-delivers-a-major-upgrade-to-its-generative-engine/ | 🎯 agent-ui | 🔧 daily 2026-10-23 — 级联语音 agent 的 TTS 层免费升级，Engine=generative 一行切换 |
+| SageMaker AI 训练会话 GA：自己写训练循环，不碰 GPU 集群 | AWS | 2026-10-23 | fine-tuning, rl, post-training | https://aws.amazon.com/blogs/machine-learning/announcing-new-ways-to-customize-models-with-sagemaker-ai-without-managing-gpus/ | [evaluation] | 🔧 daily 2026-10-23 — 多轮 RL/RLVR 自训 agent 模型不再需要自建分布式训练栈 |
+| Uber 全员部署 ChatGPT Work：企业侧 agent 进入规模化推演阶段 | OpenAI / Uber | 2026-10-23 | enterprise, chatgpt-work | https://openai.com/index/uber-chatgpt-work-rollout |  | 📖 daily 2026-10-23 — 首个超大规模全员铺开的案例，可作为企业 agent 落地参照 |
+| 「不建议跟风 Personal Agent」：国内生态差异才是真门槛 | — | 2026-10-23 | personal-agent, market | https://www.36kr.com/p/4035658058126464 |  | 📖 daily 2026-10-23 — 超级 App 内闭环让浏览器型个人 agent 的中国价值被高估 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
