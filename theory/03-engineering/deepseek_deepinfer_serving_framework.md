@@ -1,6 +1,6 @@
 ---
 auto_generated: true
-generated_at: "2026-10-23T12:41:44Z"
+generated_at: "2026-10-23T14:01:06Z"
 source_url: "https://github.com/deepseek-ai/DeepInfer"
 signal_type: "significant_update"
 ---
