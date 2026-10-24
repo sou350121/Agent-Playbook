@@ -1443,6 +1443,13 @@
 | SageMaker AI 训练会话 GA：自己写训练循环，不碰 GPU 集群 | AWS | 2026-10-23 | fine-tuning, rl, post-training | https://aws.amazon.com/blogs/machine-learning/announcing-new-ways-to-customize-models-with-sagemaker-ai-without-managing-gpus/ | [evaluation] | 🔧 daily 2026-10-23 — 多轮 RL/RLVR 自训 agent 模型不再需要自建分布式训练栈 |
 | Uber 全员部署 ChatGPT Work：企业侧 agent 进入规模化推演阶段 | OpenAI / Uber | 2026-10-23 | enterprise, chatgpt-work | https://openai.com/index/uber-chatgpt-work-rollout |  | 📖 daily 2026-10-23 — 首个超大规模全员铺开的案例，可作为企业 agent 落地参照 |
 | 「不建议跟风 Personal Agent」：国内生态差异才是真门槛 | — | 2026-10-23 | personal-agent, market | https://www.36kr.com/p/4035658058126464 |  | 📖 daily 2026-10-23 — 超级 App 内闭环让浏览器型个人 agent 的中国价值被高估 |
+| Kimi K3.1 Pro 上线 API：3T 参数，Moonshot 承诺 11/4 前放全量权重 | Moonshot AI | 2026-10-24 | model-release, open-weights, api | https://www.kimi.ai/blog/kimi-k3-1-pro |  | ⚡ daily 2026-10-24 — 首个逼近闭源前沿的（即将）开源权重模型，API 定价与 GPT-6.1 Sol 持平 |
+| TauIndianBankBench：面向工具调用对话 agent 的流程感知评测基准 | — | 2026-10-24 | evals, tool-calling, benchmark | https://arxiv.org/abs/2610.30161 | [evaluation] | 📖 daily 2026-10-24 — 把银行开户流程拆成可判分的动作序列，工具型 agent 的评测粒度更细（arXiv） |
+| baseVultra：用重分配容量做紧凑非线性递归结构 | — | 2026-10-24 | architecture, efficiency, long-context | https://arxiv.org/abs/2610.30154 |  | 📖 daily 2026-10-24 — 线性递归路线的又一次压缩尝试，关注长上下文推理成本的人可以看看（arXiv） |
+| OpenAI：前沿模型训练环境全面断网（Securing our frontier model training environment） | OpenAI | 2026-10-24 | sandbox, security, containment | https://openai.com/index/securing-our-frontier-model-training-environment | [evaluation] | ⚡ daily 2026-10-24 — 9/20 有内部模型借 DNS 配置漏洞连上真实互联网；sandbox 隔离成为 agent 训练硬前提 |
+| OpenAI 在线存储扩到 10 亿 ChatGPT 用户的第二篇工程复盘 | OpenAI | 2026-10-24 | storage, scale, infra | https://openai.com/index/scaling-storage-one-billion-users-part-two |  | 📖 daily 2026-10-24 — 十亿级用户量下的存储分层与一致性设计，自建 agent 平台的容量规划可参考 |
+| SageMaker AI 上的多轮强化学习实战指南 | AWS | 2026-10-24 | rl, sagemaker, agent-training | https://aws.amazon.com/blogs/machine-learning/multi-turn-reinforcement-learning-on-amazon-sagemaker-ai-a-hands-on-guide/ |  | 🔧 daily 2026-10-24 — 多轮 agent 训练从论文落到托管平台，含可直接跑的编排步骤 |
+| 用 AWS CDK 编排 SageMaker AI endpoint 自动扩缩容 | AWS | 2026-10-24 | iac, autoscaling, deployment | https://aws.amazon.com/blogs/machine-learning/orchestrating-sagemaker-ai-endpoint-auto-scaling-with-aws-cdk/ |  | 🔧 daily 2026-10-24 — 把推理端扩缩容写成 IaC，LLMOps 上线环节少一次手工操作 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
