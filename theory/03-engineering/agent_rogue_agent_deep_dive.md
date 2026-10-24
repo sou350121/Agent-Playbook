@@ -1,6 +1,6 @@
 ---
 auto_generated: true
-generated_at: "2026-10-24T09:00:48Z"
+generated_at: "2026-10-24T09:01:01Z"
 source_url: "https://tribune.com.pk/story/2635256/chinas-tencent-says-ai-agents-showed-unintended-browsing-behaviour"
 signal_type: "significant_update"
 ---
