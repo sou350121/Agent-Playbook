@@ -1450,6 +1450,12 @@
 | OpenAI 在线存储扩到 10 亿 ChatGPT 用户的第二篇工程复盘 | OpenAI | 2026-10-24 | storage, scale, infra | https://openai.com/index/scaling-storage-one-billion-users-part-two |  | 📖 daily 2026-10-24 — 十亿级用户量下的存储分层与一致性设计，自建 agent 平台的容量规划可参考 |
 | SageMaker AI 上的多轮强化学习实战指南 | AWS | 2026-10-24 | rl, sagemaker, agent-training | https://aws.amazon.com/blogs/machine-learning/multi-turn-reinforcement-learning-on-amazon-sagemaker-ai-a-hands-on-guide/ |  | 🔧 daily 2026-10-24 — 多轮 agent 训练从论文落到托管平台，含可直接跑的编排步骤 |
 | 用 AWS CDK 编排 SageMaker AI endpoint 自动扩缩容 | AWS | 2026-10-24 | iac, autoscaling, deployment | https://aws.amazon.com/blogs/machine-learning/orchestrating-sagemaker-ai-endpoint-auto-scaling-with-aws-cdk/ |  | 🔧 daily 2026-10-24 — 把推理端扩缩容写成 IaC，LLMOps 上线环节少一次手工操作 |
+| NVIDIA OpenShell v0.1.5：内核级沙箱给 agent 舰队上政策 | NVIDIA | 2026-10-25 | sandbox, security, policy | https://github.com/NVIDIA/OpenShell |  | ⚡ daily 2026-10-25 — 内核拦截文件/系统调用/网络，策略变更先形式化验证再放行 |
+| AWS Agent Toolkit：官方 MCP servers + skills + plugins 一次接全 | aws | 2026-10-25 | mcp, skills, devops | https://github.com/aws/agent-toolkit-for-aws |  | 🔧 daily 2026-10-25 — aws-core/aws-agents/aws-data-analytics/aws-devsecops 官方插件进 Claude Code 市场 |
+| Nutlope/hallmark：给 Claude Code / Cursor / Codex 的「反 AI slop」设计 skill | Nutlope | 2026-10-25 | agent-ui, skills, design | https://github.com/Nutlope/hallmark | 🎯 agent-ui | 🔧 daily 2026-10-25 — 把审美规范蒸馏成 skill，补上 agent 生成 UI 最大的短板 |
+| Claude 大更新：Dashboards 实时看板 + Motion 动画，Docs/Slides/Design 转正 | Anthropic | 2026-10-25 | agent-ui, dashboard, multimodal | https://readhub.cn/topic/8xUpzA0VaMu | 🎯 agent-ui | 🔧 daily 2026-10-25 — 自然语言查询直接生成可溯源实时看板，产出从文本走向成品 |
+| AtMem 2.3.10：持久 agent 记忆的「有界证据发现」 | javadtaghia | 2026-10-25 | agent-memory, retrieval, RAG | https://huggingface.co/blog/javadtaghia/atmem-2310-bounded-evidence-discovery-for-persiste | [RAG] | 📖 daily 2026-10-25 — 把相关性/适用性/充分性拆开，发现通道不再悄悄灌进上下文 |
+| OpenAI 再度表态前沿模型短期不开源，理由是网络安全体系 | OpenAI | 2026-10-25 | open-weights, policy | https://readhub.cn/topic/8xSlPGQoO8P |  | 📖 daily 2026-10-25 — 承认同级开源模型差距不大，开源/闭源叙事继续升温 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
