@@ -1,199 +1,130 @@
 ---
 auto_generated: true
-generated_at: "2026-10-25T05:45:54Z"
+generated_at: "2026-10-25T08:00:56Z"
 source_url: "https://aws.amazon.com/blogs/machine-learning/announcing-new-ways-to-customize-models-with-sagemaker-ai-without-managing-gpus/"
 signal_type: "blog_post"
 ---
-# SageMaker AI 訓練會話 GA：自己寫訓練迴圈，不碰 GPU 叢集 (SageMaker AI Training Sessions GA: Write Your Own Post-Training Loop Without Managing GPUs)
+# SageMaker AI 训练会话 GA：自己写 Post-Training 循环，不碰 GPU 集群 (SageMaker AI Training Sessions GA: Write Your Own Post-Training Loop Without Managing GPUs)
 
-> 🔍 本文由 Moltbot 自動生成 | 2026-10-25
+> 🔍 本文由 Moltbot 自动生成 | 2026-10-25
 >
-> **項目/工具**: Amazon SageMaker AI — Serverless Model Customization / Training Session APIs
-> **連結**: https://aws.amazon.com/blogs/machine-learning/write-your-own-training-loop-without-managing-gpus-with-amazon-sagemaker-training-sessions/
-> **核心定位**: 把 post-training 的「演算法自由」與「免運維 GPU」這組長期二選一的取捨拆開——你寫 `forward_backward()` / `optim_step()` / `sample()` 組成的訓練迴圈，AWS 負責 GPU 分配、分散式執行、容錯與 checkpoint
+> **项目/工具**: Amazon SageMaker AI — Serverless Model Customization / Training Sessions
+> **链接**: https://aws.amazon.com/blogs/machine-learning/announcing-new-ways-to-customize-models-with-sagemaker-ai-without-managing-gpus/
+> **核心定位**: 把 Post-Training 长期存在的「算法自由 vs 免运维 GPU」二选一拆开——你写 `forward_backward()` / `optim_step()` / `sample()` 组成的训练循环，AWS 负责 GPU 分配、分布式执行、容错与 checkpoint。
 
-## ⚡ 快速判断（30 秒讀完這段就夠了）
+## ⚡ 快速判断（30 秒读完这段就够了）
 
-- **一句話定位**：SageMaker AI 的 Serverless Model Customization 新增 training session APIs（GA），抽象邊界從「演算法」下移一層到「算力」——演算法你自己寫，GPU 不用你管。
-- **現在值得用嗎**：看你是否卡在「標準 recipe 表達不了我的 loss / reward / 多輪 rollout」這個點上；如果你只需要跑一次標準 SFT，用不著。
-- **適合場景**：多輪 RL / RLVR 的 agent 模型自訓、自定義 reward 與 advantage 估計、非標準 loss 的 SFT 或偏好優化、需要把現有 `forward_backward` 風格程式碼搬上雲的團隊。
-- **不適合場景**：追求極致單 token 成本的大規模預訓練、需要完全自控 kernel 與硬體拓撲的團隊、對供應商綁定敏感的場景。
-- **與 SageMaker Training Jobs 核心差異**：同樣「完全控制」，但 Training Jobs 需要你選 instance type、自己扛叢集；Training Sessions 按 token 計費、無需叢集、無 idle GPU 成本。
+- **一句话定位**：SageMaker AI 的 Serverless Model Customization 新增 Training Sessions API 并 GA，抽象边界从「算法」下移一层到「算力」——算法你自己写，GPU 不用你管。
+- **现在值得用吗**：看你是否卡在「标准 recipe 表达不了我的 loss / reward / 多轮 rollout」这个点上；只是跑一次标准 SFT 的话，用不着。
+- **适合场景**：多轮 RL / RLVR 的 agent 模型自训、自定义 reward 与 advantage 估计、非标准 loss 的偏好优化、需要把现有 `forward_backward` 风格代码搬上云的团队。
+- **不适合场景**：追求极致单 token 成本的大规模预训练、需要完全自控 kernel 与硬件拓扑的团队、对供应商绑定敏感的场合。
+- **与 SageMaker Training Jobs 核心差异**：同样「完全控制」，但 Training Jobs 要你选 instance type、自己扛集群；Training Sessions 按 token 计费、无需集群、没有 idle GPU 成本。
 
-## 是什麼 / 解決什麼問題
+## 是什么 / 解决什么问题
 
-AWS 在這次 GA 之前的痛點描述很直接：企業真正從 AI 拿到結果，靠的不是開箱即用的 foundation model，而是用 RL 等 post-training 技術客製開源權重模型。但客製化的門檻在基礎設施——你得選對技術路線、架好並管理 GPU 叢集，而做 agent 還得額外搭建多輪 RL 的環境。
+AWS 这次的痛点描述很直接：企业真正从 AI 拿到结果，靠的不是开箱即用的 foundation model，而是用 RL 等 post-training 技术定制开源权重模型。但定制化的门槛在基础设施——要选对技术路线、架好并管理 GPU 集群；做 agent 还得额外搭建多轮 RL 的环境。
 
-在這之前，SageMaker AI 的 Serverless Model Customization 已經提供「託管的」多輪 RL：你選模型、給資料與超參數，服務掌控演算法。問題是客戶反饋想要**自己定義 loss function、自己塑形 reward signal、自己把多個 RL 階段串成一個迴圈**。於是要嘛接受託管版本的演算法限制，要嘛退回 SageMaker Training Jobs / HyperPod 自扛運維。
+在此之前，SageMaker AI 的 Serverless Model Customization 已经提供「托管的」多轮 RL：你选模型、给数据和超参数，服务掌控算法。问题在于客户反馈想要自己定义 loss function、自己塑形 reward signal、自己把多个 RL 阶段串成一个循环。于是只能二选一：接受托管版本的算法限制，或者退回 SageMaker Training Jobs / HyperPod 自扛运维。
 
-Training session APIs 就是切出來的第三條路：**抽象掉 compute，而不是抽象掉 algorithm**。
+Training Sessions 切出了第三条路：**抽象掉 compute，而不是抽象掉 algorithm**。官方原话是「you write and coordinate the training loop, including custom loss functions or reward signals. SageMaker AI handles GPU allocation, distributed execution, fault recovery, and checkpoint storage」。
 
-## 技術架構拆解
+支持的训练技术包括 SFT、DPO、RLVR、RLAIF、multi-turn RL，更新粒度可选 LoRA 或全参数微调，并可通过 continuous customization 把多个技术串起来。这一点对做 agent 模型的团队尤其重要——RLAIF 与 RLVR 都需要在训练循环里插入自己的 verifier，而托管 recipe 恰恰在这里最不灵活。
 
-### 核心設計決策
+## 技术架构拆解
 
-- **抽象邊界下移一層**：不是把整個訓練 job 包成一個黑盒（像 managed recipe），也不是讓你碰 instance / cluster config（像 Training Jobs），而是把「最小 GPU 原語」暴露成 API——`forward_backward()`、`optim_step()`、`sample()`。
-- **有狀態的 live session**：呼叫打在有狀態、模型常駐 GPU 的 session 上，不是每次都重啟 job。因此可以互動式逐 step 驅動、快速 debug。
-- **計費模型跟著抽象走**：按處理的 token 計費，而非按小時保留 GPU。官方明說：reward function 在你本機跑 10 秒，這 10 秒**不計 GPU 時間**。這消掉了 idle GPU 成本，也讓成本與「資料量 × 生成量」掛鉤，而不是與 wall-clock 時間或叢集規模掛鉤——預算更好預測、實驗之間更好比較。
-- **三個 client 的分層**：`ServiceClient`（平台層設定：execution role、model package group、S3 輸出路徑、可選 KMS 與 VPC）→ `TrainingClient`（`forward`、`forward_backward`、`optim_step`、`save_weights_for_sampler`）→ `SamplingClient`（`sample`、`compute_logprobs`）。
-- **Operational future 而非同步阻塞**：每個 GPU-bound 呼叫立刻回傳 APIFuture，請求由背景 submitter 送出，`.result()` 才等待。好處是一個 step 的所有 sampling 請求可以先全部提交再統一等待，整批並行生成；而 training 操作按呼叫順序執行，所以 `optim_step` 可以先 submit，序後於 `forward_backward` 完成。
-- **Checkpoint 即 model package**：每次 save 都在 model package group 註冊一個版本——包括迴圈中每個 step 的 sampler refresh。訓練結束後可再存「合併權重、可直接部署」的版本，以及「可續訓的 state（權重 + optimizer）」。
-- **身分與資料邊界不外包**：每個 session 用你自己建立的 IAM execution role，可掛自有 KMS key 與 VPC 設定；資料與 checkpoint 留在你指定 region 的 S3 bucket。官方聲明不用你的資料或客製權重訓練其他模型。
-- **GRPO 這類 group-relative 方法被當作一等公民**：範例直接以 GSM8K + GPT-OSS 20B + LoRA(re rank=32, alpha=64) + `loss_fn="ppo"` 演示；也支援 `importance_sampling`、`cispo`，以及 SFT 的 `cross_entropy`。
+### 核心设计决策
 
-### 與前版 / 競品關鍵差異
+- **抽象边界下移一层**：不是把整个训练 job 包成黑盒（托管 recipe），也不是让你碰 instance / cluster config（Training Jobs），而是把最小 GPU 原语暴露成 API。
+- **按 token 计费而非按小时的 GPU 保留**：官方明确说「The meter stops while your reward function scores a batch in your environment, and there is no capacity to reserve」。reward 函数在你本地跑的这段时间不计费。
+- **你的代码在你自己环境跑**：训练循环、reward 函数、agent 与工具/模拟器的连接都在你的环境里；session 只承担 GPU 重的部分（sampler 生成响应，trainer 算梯度并更新权重）。
+- **数据与模型留在自己的账号**：每个 session 使用你自己创建的 IAM execution role，可选 AWS KMS key 与 VPC 配置，数据与 checkpoint 落在你指定 Region 的 S3 桶里，官方声明不用你的数据或定制权重训练其他模型。
+- **模型清单收敛**：GA 首发支持 `gpt-oss-20b`、`gemma-4-31B-it`、`Qwen3.6-27B`、`Qwen3.8-27B` 四个开源权重模型——这既是可用范围，也是当前最硬的限制。
 
-| 維度 | 之前：Serverless Model Customization（Managed APIs） | 之前：Training Jobs / HyperPod | 現在：Training Session APIs |
-|------|------|------|------|
-| 訓練算法控制權 | 低（選模型、配超參、給資料） | 完全 | 高（自己寫 loop、呼叫原語） |
-| 基礎設施 | Serverless，無 instance 選擇 | 自選 instance / 持久叢集 | Serverless，無 instance 選擇 |
-| 迭代方式 | config 驅動、job 級 | job 級（Training Jobs 為 ephemeral） | 互動式、step 級、有狀態 session |
-| 計費基準 | 未在本文說明 | 按 GPU 小時 / 叢集時間 | 按處理 token，reward 計算時間不計費 |
-| 適用對象 | 標準 recipe 即可滿足者 | 需完全掌控硬體拓撲者 | 演算法導向團隊（RL / 自定義 loss） |
+### 与前版/竞品的关键差异
 
-### 架構 / 資訊流圖
+| 维度 | SageMaker Training Jobs / HyperPod | 托管 Serverless Recipe | Training Sessions（本次 GA） |
+|------|------------|------------|------------|
+| 算法控制 | 完全自由 | 由服务掌控 | 完全自由（自写 loss / reward / 循环） |
+| 基础设施 | 你选 instance、管集群 | 免运维 | 免运维（GPU 分配、分布式执行、容错、checkpoint 均由 AWS 处理） |
+| 计费方式 | 按实例小时（含 idle 成本） | 按 token / 任务 | 按 token 处理量；reward 评分期间停表 |
+| 多轮 RL agent 环境 | 自己搭 | 托管支持 | 自己写循环 + 自己接环境，session 提供原语 |
+| 交互式调试 | 提交 job 后等 | 不支持 | 有状态 live session，可逐 step 驱动 |
 
-```
-[你的機器: Python 行程]
-  ┌────────────────────────────────────────────┐
-  │ 訓練迴圈（你寫）+ reward / verifier / 測試工具 │
-  │  data loading / logging / debug 都跑在這裡    │
-  └──────┬──────────────────────▲──────────────┘
-         │ (1) sample()         │ futures
-         │ (3) forward_backward()│
-         │ (3) optim_step()     │
-         │ (4) save_weights_and_get_sampling_client()
-         ▼                      │
-[ServiceClient → TrainingClient → SamplingClient]
-         │
-         ▼
-[SageMaker AI 受管加速器（模型 + LoRA 常駐）]
-  GPU 分配 / 模型與 LoRA 載入 / 分散式執行 /
-  梯度同步 / 容錯 / checkpoint 儲存 / 租戶隔離
-         │
-         └──► S3（你的 bucket, 你選的 region）← model package group 版本化
-```
-
-一個 step 的四段式（對應官方 Figure 2）：
+### 架构/信息流图
 
 ```
-(1) 從當前模型在 GPU 上取樣 K 個回應
-(2) 你的程式在本機打分（verifier / reward model / test harness）
-(3) forward_backward 依分數算梯度 → optim_step 更新權重（GPU）
-(4) save_weights_and_get_sampling_client() 刷新 sampler
-    → 下一步的 rollout 來自更新後的策略
+你的环境（notebook / IDE / 本地）
+ ┌───────────────────────────────────────────────┐
+ │ 训练循环（你写）                              │
+ │   1. sample()      ──► 请求 sampler 生成多个响应 │
+ │   2. reward/verifier 在你的环境打分（不计 GPU 时间）│
+ │   3. forward_backward() 算梯度                │
+ │   4. optim_step()   应用更新                  │
+ │   5. save_weights_for_sampler() 刷新采样端权重  │
+ └───────────────┬───────────────────────────────┘
+                 │  API 调用（有状态 session）
+ ┌───────────────▼───────────────────────────────┐
+ │ SageMaker AI Training Session（AWS 侧）       │
+ │  · GPU 分配 / 分布式执行 / 故障恢复            │
+ │  · checkpoint 写入你的 S3                      │
+ │  · IAM role + 可选 KMS + 可选 VPC              │
+ └───────────────────────────────────────────────┘
 ```
 
-## 實用評估
+官方用 GRPO 举例说明一轮循环：生成若干响应 → 你的 reward function 用 verifier / reward model / test harness 打分 → 分数回传给 trainer，`forward_backward()` 算梯度、`optim_step()` 更新权重 → 通知 session 用新权重刷新 sampler，进入下一批。这个流程与 TRL、verl 等开源 RL 框架的心智模型基本一致，迁移时主要改的是原语调用名而不是算法逻辑。
 
-### 什麼場景值得用
+## 实用评估
 
-- **多輪 agent RL / RLVR 自訓**：官方給的兩個真實案例都在這條線上。ImagineSoftware（SVP of Data Science Rob Gontarek）用它建 healthcare claim-denial triage 模型，明確提到「forward/backward pass、sampling、optimizer step 的直接控制」是關鍵；Karini AI（CEO Nitin Wagh）用 GPT-OSS-20B 對 Amazon Neptune 知識圖譜做 agentic 多輪 tool calling 微調，並稱「checkpoint-and-resume 從精確 step 續跑完全可靠」。
-- **reward 計算很重的工作負載**：reward model 複雜、多工具 agentic rollout、human-in-the-loop 評估——這些場景下「reward 時間不計 GPU 費」的計價方式結構性便宜。
-- **有現成 low-level 訓練程式碼要搬上雲**：官方明說 operation-based 程式設計模型直接對應既有 `forward_backward` / `optim_step` / `sample` 風格的 loop，移植成本低。
-- **需要快速實驗對比**：成本與資料/生成量掛鉤而非叢集時間，實驗之間成本可比。
+### 什么场景值得用
 
-### 什麼場景不值得用
+- **多轮 agent 模型的 RL / RLVR 自训**：需要自己定义 reward shaping、自己控制 rollout 终止条件，托管 recipe 表达不了时，这是最现实的低运维选项。
+- **已有自研训练循环、但不想管集群的团队**：把 `forward_backward` 风格的代码接上 session 原语，比自建分布式栈的工程量小一个数量级。
+- **成本需要可预测的实验**：按 token 计费、无 idle 成本，让「数据量 × 生成量」直接对应账单，实验间横向比较更干净。
+- **需要交互式调试 reward 的时刻**：有状态 session 支持逐步驱动，比「提交 job → 等 → 看日志」的反馈回路短得多。
 
-- **只是要跑一次標準 SFT**：managed recipe 就夠，寫自定義 loop 是純浪費。SFT 用這套要自己去掉 sampling 與 reward 步驟、改用 `cross_entropy`。
-- **大規模預訓練或持續預訓練**：session 常駐 GPU 的模型 + LoRA 假設，與預訓練的工作形態根本不同。
-- **需要完全掌控硬體與 kernel**：抽象掉 instance 選擇就意味著你放棄了對拓撲、特定 GPU 型號、自訂 kernel 的控制。
-- **供應商綁定敏感**：IAM / KMS / VPC / S3 / model package group 全是 AWS 概念，迴圈本身可移植，但運維面深度綁定 SageMaker。
-- **並發配額有限制的團隊**：運行中的 session 會佔用 concurrent-session quota 直到 `stop()` 或逾時，官方特別提醒要在錯誤路徑也 stop，或改用 `with` block。配額值需查文件，本文源材料未給數字。
+### 什么场景不值得用
 
-### 遷移成本
+- **只需要标准 SFT / DPO 一次**：托管的 serverless recipe 已经够用，写自定义循环是纯增成本。
+- **需要完全自控 kernel 与硬件拓扑**：抽象掉 compute 意味着你也失去了对互连、NUMA、调度策略的控制权，这在大规模预训练里是硬伤。
+- **模型不在首发清单内**：目前只有 `gpt-oss-20b`、`gemma-4-31B-it`、`Qwen3.6-27B`、`Qwen3.8-27B`，自研 tokenizer 或特殊架构模型的可用性待确认。
+- **对供应商绑定敏感**：训练循环、checkpoint 格式、计费单元全都长在 AWS 上，迁出成本不能低估。
 
-- **從 managed recipe 遷移**：中。要自己重寫 reward / advantage，但拿掉了演算法限制。
-- **從 Training Jobs / HyperPod 遷移**：低到中。loop 結構基本不動，主要是把分散式初始化、checkpoint 存取、sampler 刷新換成 API 呼叫；官方定位為「研究人員移植現有訓練迴圈程式碼」的場景。
-- **起步成本**：SDK 安裝要求 Linux 或 macOS + Python 3.10–3.12；SageMaker Studio 環境官方稱可在 20 秒內啟動，並提供 cookbook 與 agent skills（可接 Kiro、Claude Code、Codex、GitHub Copilot）。GA 時支援的 base model 為 gpt-oss-20b、gemma-4-31B-it、Qwen3.6-27B、Qwen3.8-27B——具體 region 可用性需查文件。
+### 迁移成本
 
-## 對你的意義
+- **从 Training Jobs 迁移**：算法代码基本不动，但要重写基础设施相关部分——去掉 instance 选择、分布式启动配置、checkpoint 路径管理，改为 session 客户端的原语调用。主要工作量在 reward / 环境接口的对齐。
+- **从 TRL / verl 迁移**：训练循环结构与 GRPO 实现思路一致，但 GRPO 之外的算法（如自定义 advantage 估计）需要逐个核对原语是否够表达。
+- **入门路径**：在 IDE 里装 SageMaker Python SDK（官方要求 Linux 或 macOS、Python 3.10–3.12）并 clone cookbook；或在 SageMaker Studio 里 20 秒内拉起环境，接 Kiro / Claude Code / Codex / GitHub Copilot 后下载 agent skills 与 cookbook。
 
-如果你在做 agent 的後訓練，這次 GA 最值錢的不是「省運維」，而是**把 reward shaping 與 rollout 邏輯留在自己的機器上，只把梯度計算外包**。這正好是 agent RL 的形態：環境模擬器、測試 harness、多輪工具互動都很難搬到雲端 job 裡，而 GPU 時間又必須省。
+> TODO: 官方未在此文给出 benchmark 数据、token 单价与吞吐 SLO，具体成本需以正式定价页为准。
 
-對比「自己搭 Ray + vLLM + FSDP」的路線：那條路的好處是完全掌控與零供應商綁定，代價是要處理 sampler 與 trainer 權重同步（範例中 `save_weights_and_get_sampling_client()` 一步搞定的事，自建時通常是最大的工程坑之一）與容錯。SageMaker 這套把這兩個坑包掉了，模型清單卻只有四個。
+## 对你的意义
 
-我的判斷：**小規模驗證值得立即試用**。用 cookbook 的 GSM8K GRPO 範例跑通一遍，成本按 token 計、無 GPU 保留費，風險很低；同時你能實際感受 future-based 並行、checkpoint-as-model-package 這些設計對你現有 pipeline 的契合度。但如果你團隊的模型不在那四個 base model 裡，現在就先別投入——等支援清單擴大。
+对 Ken 的两条线来说，这条的价值不在「又一个云训练服务」，而在**重心发生了位移**：AWS 把「agent 模型的后训练」当成一等公民来建抽象，而不是把训练当成通用算力租赁。这背后是一个判断——agent 的差异化来自数据、工作流、评估标准如何塑造模型行为，而这些只能在自定义循环里表达。
 
-另外值得注意的訊號：AWS 同時釋出 cookbook **和 agent skills**，並明說 coding agent 可以「描述用例 → agent 處理資料準備、技術選擇、訓練、評估、部署」。這是把「寫訓練迴圈」本身也納入 agentic coding 的射程——基礎設施廠商開始用 agent 來降低自己產品的上手門檻。
+对触觉 + VLA 方向，短期不必迁移：VLA 的微调大多在自有 GPU 上进行，且对 kernel 级控制有需求，Training Sessions 的抽象层反而会挡住路。真正值得抄的是它的**接口设计哲学**——把「算力」原子化为 `sample` / `forward_backward` / `optim_step` 三个原语，让你的训练脚本与算力来源解耦。这套原语划分可以直接借到自建 RL 训练框架的抽象层里，换来的是「换集群不改算法代码」。
 
-## 關鍵代碼 / 配置片段
+对 AI 应用侧，如果你们的 agent 走多轮工具调用路线（多轮 RL 是明确的演进方向），现在多了一个「不用先建 RL 基础设施」的起步选项。建议做法：先用 cookbook 里的 GRPO 例子在 `gpt-oss-20b` 上跑通一个 toy 任务，验证 reward 接口的手感，再决定要不要把自己的环境接进来。不要一上来就迁移生产管线。
 
-以下皆引自官方技術文章與範例（GSM8K + GPT-OSS 20B + GRPO，LoRA）：
+## 关键代码/配置片段
 
-**開啟 session**
+官方用 GRPO 描述的一轮循环（伪代码，按博文步骤整理）：
 
-```python
-from sagemaker.train.training_session import ServiceClient, SamplingParams, AdamParams
-
-svc = ServiceClient(role_arn=role, region=REGION)
-
-training_client = svc.create_lora_training_client(
-    "openai/gpt-oss-20b",          # a name from svc.list_base_models()
-    training_session_name=SESSION_NAME,
-    rank=32, alpha=64,             # LoRA rank and scaling factor
-    model_package_group_arn=MODEL_PACKAGE_GROUP_ARN,
-    s3_output_path=OUTPUT_S3_PATH,
-)
-tokenizer = training_client.get_tokenizer()
-sampling_client = training_client.create_sampling_client()
+```
+loop:
+    responses = session.sample(prompt, n=group_size)   # sampler 生成多个响应
+    scores    = reward_fn(responses)                   # 你的环境打分，此段不计 GPU 时间
+    session.forward_backward(scores)                   # 算梯度
+    session.optim_step()                               # 更新权重
+    session.save_weights_for_sampler()                 # 刷新采样端权重
 ```
 
-**Reward 與 advantage（跑在你本機）**
+从官方客户评价可以看到调用边界（原文引用）：
 
-```python
-def compute_reward(response_text, ground_truth):
-    predicted = extract_answer(response_text)   # parse the number after "#### "
-    return 1.0 if predicted == ground_truth else 0.0
+> "The low-level API surface, direct control over the forward and backward passes, sampling, and the optimizer step gave our scientists the fine-grained control they need." — Rob Gontarek, SVP Data Science, ImagineSoftware
 
-def compute_advantages(rewards):
-    rewards = np.array(rewards)
-    advantages = rewards - rewards.mean()       # center within the group (GRPO baseline)
-    return advantages / (rewards.std() + 1e-8)  # normalize
-```
+> "With SageMaker AI Serverless Training Sessions, we fine-tuned gpt-oss-20b for agentic, multi-turn tool calling against our Amazon Neptune knowledge graph … Checkpoint-and-resume was a standout: resuming from an exact step was completely reliable." — Nitin Wagh, CEO, Karini AI
 
-**訓練迴圈本體**
-
-```python
-for step in range(NUM_STEPS):
-    datums, pending = [], []
-    # (1) sample K responses per question in one request each (GPU)
-    for question, ground_truth in draw(PROMPTS_PER_STEP):
-        prompt = tokenizer.encode(build_prompt(question), add_special_tokens=False)
-        pending.append((prompt, ground_truth, sampling_client.sample(
-            prompt, num_samples=K,
-            sampling_params=SamplingParams(max_tokens=512, temperature=0.7, top_p=0.9))))
-
-    for prompt, ground_truth, future in pending:
-        result = future.result()                # wait once the batch is in flight
-        # (2) score each response, then center rewards within the group (local)
-        rewards = [compute_reward(tokenizer.decode(s.tokens), ground_truth) for s in result.sequences]
-        advantages = compute_advantages(rewards)
-        datums += [build_training_datum(prompt, s, a) for s, a in zip(result.sequences, advantages)]
-
-    # (3) one gradient step over the batch (GPU)
-    fwd_bwd_op = training_client.forward_backward(datums, loss_fn="ppo")
-    optim_op = training_client.optim_step(AdamParams(learning_rate=1e-5))
-    fwd_bwd_op.result(), optim_op.result()
-
-    # (4) refresh the sampler so next step's rollouts come from updated policy
-    sampling_client = training_client.save_weights_and_get_sampling_client()
-
-training_client.stop()
-```
-
-**收尾：合併權重部署 + 可續訓 state**
-
-```python
-training_client.save_weights_for_sampler(merge_weights=True).result()  # merged, deployable
-training_client.save_state().result()                                  # weights + optimizer
-```
-
-> ⚠️ 官方提醒：執行中的 session 會佔用 concurrent-session quota 直到 `stop()` 或逾時，錯誤路徑也要 stop，或用 `with` block 開啟 client。
-
-**官方範例的實測數字（僅此一組，勿外推）**：10 個訓練 step、40 道題，held-out 準確率從 56% 提升到 75%。這是極小規模的 demo 驗證，不能當作生產環境的品質承諾。
-
-> TODO: 各 base model 的 region 可用性、concurrent session 配額上限、每 token 單價，需查 training session APIs 文件（docs.aws.amazon.com/sagemaker/latest/dg/customizing-models-training-sessions.html）。
+上面 `session.*` 的具体方法名以官方 cookbook 与文档为准（`docs.aws.amazon.com/sagemaker/latest/dg/customizing-models-training-sessions.html`），本文未逐一核对每个方法签名。
 
 ---
 [← Back to Deep Dives](./README.md)
