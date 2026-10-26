@@ -1456,6 +1456,11 @@
 | Claude 大更新：Dashboards 实时看板 + Motion 动画，Docs/Slides/Design 转正 | Anthropic | 2026-10-25 | agent-ui, dashboard, multimodal | https://readhub.cn/topic/8xUpzA0VaMu | 🎯 agent-ui | 🔧 daily 2026-10-25 — 自然语言查询直接生成可溯源实时看板，产出从文本走向成品 |
 | AtMem 2.3.10：持久 agent 记忆的「有界证据发现」 | javadtaghia | 2026-10-25 | agent-memory, retrieval, RAG | https://huggingface.co/blog/javadtaghia/atmem-2310-bounded-evidence-discovery-for-persiste | [RAG] | 📖 daily 2026-10-25 — 把相关性/适用性/充分性拆开，发现通道不再悄悄灌进上下文 |
 | OpenAI 再度表态前沿模型短期不开源，理由是网络安全体系 | OpenAI | 2026-10-25 | open-weights, policy | https://readhub.cn/topic/8xSlPGQoO8P |  | 📖 daily 2026-10-25 — 承认同级开源模型差距不大，开源/闭源叙事继续升温 |
+| Google Data Agent Kit 正式 GA：MCP 工具 + 37 个开源 skill，护栏拆成「技能软约束 / IAM 硬拒绝」 | GoogleCloudPlatform | 2026-10-26 | mcp, agent-skills, guardrails | https://cloud.google.com/blog/topics/developers-practitioners/data-agent-kit-is-now-ga-bring-google-data-cloud-to-any-coding-agent/ | [RAG] | ⚡ daily 2026-10-26 — 把 MCP+skills 送进别人家的 coding agent，护栏分层成为落地范式 |
+| OpenAI/Anthropic 数月内 LLM 价格最多砍 80%：真实 token 成本正在被路由与缓存重算（续报） | — | 2026-10-26 | pricing, model-routing, prompt-caching | https://minimaxir.com/2026/10/cheap-llms/ |  | ⚡ daily 2026-10-26 — Vercel 网关 token 单价降到 4 月 43%，但总支出仍在涨——单位经济学变了 |
+| OpenAI 联手数学家攻破 Siegel 零点难题，证明从 8 页压到 5 页 | OpenAI | 2026-10-26 | research-automation, math | https://readhub.cn/topic/8xVwETb1i6L |  | 📖 daily 2026-10-26 — AI 先破题、人机接力优化证明，科研长任务 agent 的可核验样本 |
+| Cognition 创始人 Steven Hao 以 58 亿美元身家成福布斯 400 最年轻成员，Devin 年化营收破 10 亿美元 | Cognition | 2026-10-26 | coding-agent, business | https://readhub.cn/topic/8xVt1IvfPBt |  | 📖 daily 2026-10-26 — coding agent 的商业天花板被打成 480 亿美元估值，赛道估值锚变了 |
+| pandacode：Tauri 2 + Rust 写的本地桌面，一个窗口统管 Claude Code / Codex / Kimi Code | — | 2026-10-26 | coding-agent, desktop-app, agent-ui | https://juejin.cn/post/7699072089819414538 | 🎯 agent-ui | 🔧 daily 2026-10-26 — 多 CLI agent 的统一外壳需求正在自下而上长成客户端 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
