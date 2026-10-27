@@ -1461,6 +1461,15 @@
 | OpenAI 联手数学家攻破 Siegel 零点难题，证明从 8 页压到 5 页 | OpenAI | 2026-10-26 | research-automation, math | https://readhub.cn/topic/8xVwETb1i6L |  | 📖 daily 2026-10-26 — AI 先破题、人机接力优化证明，科研长任务 agent 的可核验样本 |
 | Cognition 创始人 Steven Hao 以 58 亿美元身家成福布斯 400 最年轻成员，Devin 年化营收破 10 亿美元 | Cognition | 2026-10-26 | coding-agent, business | https://readhub.cn/topic/8xVt1IvfPBt |  | 📖 daily 2026-10-26 — coding agent 的商业天花板被打成 480 亿美元估值，赛道估值锚变了 |
 | pandacode：Tauri 2 + Rust 写的本地桌面，一个窗口统管 Claude Code / Codex / Kimi Code | — | 2026-10-26 | coding-agent, desktop-app, agent-ui | https://juejin.cn/post/7699072089819414538 | 🎯 agent-ui | 🔧 daily 2026-10-26 — 多 CLI agent 的统一外壳需求正在自下而上长成客户端 |
+| Google 开源 Elephant-Goldfish Model：写代码前先写设计文档，再让零上下文 subagent 攻击它 | google | 2026-10-27 | spec-driven, coding-agent, multi-agent | https://github.com/google/elephant-goldfish-model | 🎯 agent-ui | ⚡ daily 2026-10-27 — 把 spec-driven 开发做成可安装 skill：大象写规格、金鱼盲审，Google 官方开源（10-26） |
+| OpenAI GPT-6.1 Terra 发布：computer use 对标 Astra，价格再降一半 | OpenAI | 2026-10-27 | computer-use, model-release, cost | https://openai.com/index/introducing-gpt-6-1-terra |  | ⚡ daily 2026-10-27 — 标准 API 价格比 Sol 低 50%，最大 effort 下 token 效率是 Opus 5.5 的 3 倍 |
+| Scale AI AgentEnv 接入 Vercel Sandbox：agent 与任务环境各跑各的沙箱 | Vercel / Scale AI | 2026-10-27 | evals, sandbox, agent-testing | https://vercel.com/changelog/run-scale-ais-agentenv-evals-on-vercel-sandbox | [evaluation] | 🔧 daily 2026-10-27 — AgentEnv 0.9.1334+ 内置 Vercel provider，评测环境与 agent 隔离成两个 Sandbox |
+| CRM-Agent-Bench：首个在有状态企业环境里跑工具调用 agent 的基准 | — | 2026-10-27 | evals, tool-use, benchmark | https://arxiv.org/abs/2610.32004 | [evaluation] | 📖 daily 2026-10-27 — 把「多步业务流程 + 域规则」当评测对象，补上无状态 benchmark 的盲区（arXiv） |
+| Knowing When to Stop：coding agent 的「证据—行动」断层 | — | 2026-10-27 | agent-behavior, coding-agent | https://arxiv.org/abs/2610.31895 |  | 📖 daily 2026-10-27 — 环境已不可能完成时 agent 仍继续硬试，直指「该停不停」的成本浪费（arXiv） |
+| Cloudflare 与 SGLang 联合披露 GLM-5.3 跨租户 KV cache 泄漏：155 条响应串了别人的上下文 | Cloudflare / LMSYS | 2026-10-27 | inference-security, sglang, isolation | https://blog.cloudflare.com/kv-cache-exposure-remediation/ | [evaluation] | 🔧 daily 2026-10-27 — 自托管推理要核对「KV pool 容量 vs 配置上下文长度」，超限请求必须前置拒绝 |
+| Vercel Connect CLI 上线服务发现：1000+ 服务（含 MCP/OAuth 接入方式）终端可搜 | Vercel | 2026-10-27 | connectors, mcp, cli | https://vercel.com/changelog/discover-1000-services-on-vercel-connect-from-the-cli |  | 🔧 daily 2026-10-27 — vercel connect discover 可按 mcp/oauth、webhook 能力过滤，--format=json 直接喂给 agent |
+| Supabase PAT 默认改为 scoped：给 coding agent 只开单项目只读权限 | Supabase | 2026-10-27 | auth, agent-safety, permissions | https://supabase.com/blog/scope-your-personal-access-tokens |  | 🔧 daily 2026-10-27 — Dashboard 新建 token 现在默认限权，上线后近九成 token 都是 scoped |
+| AWS：Managed Bedrock Knowledge Base + CDK 搭 agentic retrieval（双知识库路由 + 七层可观测） | AWS | 2026-10-27 | rag, agentic-retrieval, bedrock | https://aws.amazon.com/blogs/machine-learning/build-agentic-retrieval-on-a-managed-amazon-bedrock-knowledge-base-with-cdk/ | [RAG] | 🔧 daily 2026-10-27 — 给出单索引 RAG 三类失败（跨库/择库/二次检索）的标准工程解法与 CDK 模板 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
