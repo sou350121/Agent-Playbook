@@ -1470,6 +1470,15 @@
 | Vercel Connect CLI 上线服务发现：1000+ 服务（含 MCP/OAuth 接入方式）终端可搜 | Vercel | 2026-10-27 | connectors, mcp, cli | https://vercel.com/changelog/discover-1000-services-on-vercel-connect-from-the-cli |  | 🔧 daily 2026-10-27 — vercel connect discover 可按 mcp/oauth、webhook 能力过滤，--format=json 直接喂给 agent |
 | Supabase PAT 默认改为 scoped：给 coding agent 只开单项目只读权限 | Supabase | 2026-10-27 | auth, agent-safety, permissions | https://supabase.com/blog/scope-your-personal-access-tokens |  | 🔧 daily 2026-10-27 — Dashboard 新建 token 现在默认限权，上线后近九成 token 都是 scoped |
 | AWS：Managed Bedrock Knowledge Base + CDK 搭 agentic retrieval（双知识库路由 + 七层可观测） | AWS | 2026-10-27 | rag, agentic-retrieval, bedrock | https://aws.amazon.com/blogs/machine-learning/build-agentic-retrieval-on-a-managed-amazon-bedrock-knowledge-base-with-cdk/ | [RAG] | 🔧 daily 2026-10-27 — 给出单索引 RAG 三类失败（跨库/择库/二次检索）的标准工程解法与 CDK 模板 |
+| Liquid AI 发布 LFM3：单主干六模态 2B 模型，1GB 内存可跑 256K 上下文 | LiquidAI | 2026-10-28 | edge-inference, multimodal, on-device | https://huggingface.co/blog/LiquidAI/lfm3 |  | 🔧 daily 2026-10-28 — 2B 级六模态同主干、单卡可微调，端侧 agent 有了可落地底座 |
+| Anthropic 正式提交 IPO 招股书（335 页），募资规模或创纪录 | Anthropic | 2026-10-28 | industry, funding | https://www.36kr.com/p/4043377845310592 |  | ⚡ daily 2026-10-28 — 模型公司进入公开市场，API 定价与开源节奏都将被财报约束 |
+| OpenAI × Oracle：Oracle AI Workspace 把 ERP 应用与受控工作流搬进 ChatGPT | OpenAI | 2026-10-28 | agent-ui, enterprise, workflow | https://openai.com/index/oracle-apps-in-chatgpt | 🎯 agent-ui | ⚡ daily 2026-10-28 — 企业 agent 从问答转向按权限执行审批流，UI 层成新战场 |
+| 蚂蚁集团发布灵光 2.0 Personal Agent：主动持续管理日常事务 | 蚂蚁集团 | 2026-10-28 | personal-agent, proactive | https://www.yicai.com/brief/103410714.html | 🎯 agent-ui | 📖 daily 2026-10-28 — 国内 Personal Agent 竞速，主动式交互的产品形态开始收敛 |
+| Google Research 提出 Sleep 框架：周期性「睡眠」把短期上下文固化进参数 | Google Research | 2026-10-28 | continual-learning, memory, agent-memory | https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/ |  | ⚡ daily 2026-10-28 — 若成立，agent 长期记忆可脱离 context 窗口，改由参数承载 |
+| AWS：SageMaker AI 训练与处理任务支持 SOCI 索引，镜像拉取上 GPU 空转降约 90% | AWS | 2026-10-28 | mlops, training, cost | https://aws.amazon.com/blogs/machine-learning/announcing-soci-indexed-images-for-faster-sagemaker-ai-jobs/ |  | 🔧 daily 2026-10-28 — 只改镜像索引即可砍掉每次任务数分钟启动开销，零代码改动 |
+| Property Finder on Bedrock：96.8% 评测标签直接继承旧模型预测，换模型全被判「更差」 | AWS | 2026-10-28 | evals, model-migration | https://aws.amazon.com/blogs/machine-learning/fix-evaluation-bias-to-unlock-better-models-on-amazon-bedrock/ | [evaluation] | 🔧 daily 2026-10-28 — 标签被现役模型污染→评测失效，换模型前必须先洗 ground truth |
+| Ai2 发布 Old Ideas, Novel Problems：LLM 新颖性评审可靠性基准与自动化构集流水线 | allenai | 2026-10-28 | evals, llm-judge, benchmark | https://huggingface.co/blog/allenai/novelty-bench | [evaluation] | 🔧 daily 2026-10-28 — 改几个 prompt 词判准移 50 个百分点，LLM-as-judge 需上线前压测 |
+| SPECMEM：用「持续更新的工具调用记忆」加速 agent 工具调用，墙钟最多快 1.74x | — | 2026-10-28 | agent-memory, latency, speculative-decoding | https://arxiv.org/abs/2610.31840 |  | 📖 daily 2026-10-28 — 把历史工具调用当草稿做投机解码，跨会话记忆成延迟优化新维度（arXiv） |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
