@@ -1479,6 +1479,14 @@
 | Property Finder on Bedrock：96.8% 评测标签直接继承旧模型预测，换模型全被判「更差」 | AWS | 2026-10-28 | evals, model-migration | https://aws.amazon.com/blogs/machine-learning/fix-evaluation-bias-to-unlock-better-models-on-amazon-bedrock/ | [evaluation] | 🔧 daily 2026-10-28 — 标签被现役模型污染→评测失效，换模型前必须先洗 ground truth |
 | Ai2 发布 Old Ideas, Novel Problems：LLM 新颖性评审可靠性基准与自动化构集流水线 | allenai | 2026-10-28 | evals, llm-judge, benchmark | https://huggingface.co/blog/allenai/novelty-bench | [evaluation] | 🔧 daily 2026-10-28 — 改几个 prompt 词判准移 50 个百分点，LLM-as-judge 需上线前压测 |
 | SPECMEM：用「持续更新的工具调用记忆」加速 agent 工具调用，墙钟最多快 1.74x | — | 2026-10-28 | agent-memory, latency, speculative-decoding | https://arxiv.org/abs/2610.31840 |  | 📖 daily 2026-10-28 — 把历史工具调用当草稿做投机解码，跨会话记忆成延迟优化新维度（arXiv） |
+| Gemini 4 Carbon：谷歌新前沿模型，主打长程 agentic + 网络安全 | Google DeepMind | 2026-10-29 | model-release, agentic, cyber | https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/ |  | ⚡ daily 2026-10-29 — AA 指数 59 登顶，长程 agentic 与安全编码双线升级 |
+| DAYJOB: Tax——50 个专业税务任务评测 agent，最高 pass 率仅 10.8% | Surge AI | 2026-10-29 | evaluation, agent-benchmark, professional | https://surgehq.ai/blog/dayjob-tax | [evaluation] | 🔧 daily 2026-10-29 — 专业判断型任务把前沿 agent 打到 10% 通过率，暴露泛化缺口 |
+| Simon Willison：2026 年 10 月是 vibe coding 游戏的拐点 | Simon Willison | 2026-10-29 | vibe-coding, capability | https://simonwillison.net/2026/Oct/28/vibe-game-development/ |  | 📖 daily 2026-10-29 — Opus 5.5 补上「游戏设计/趣味」短板，能力边界再次位移 |
+| GitHub Octoverse 2026：月合并 PR 三倍到 2.2 亿，agentic 工程重塑供给 | GitHub | 2026-10-29 | trend, agentic-engineering | https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/ |  | 📖 daily 2026-10-29 — commit 月增 3.7 倍、新仓库翻倍，平台侧首次量化 agent 影响 |
+| Cursor Agent SDK：把 agent 定义为代码，一条命令部署到自己的基础设施 | Cursor | 2026-10-29 | agent-sdk, deploy, evals | https://cursor.com/blog/agent-sdk | 🎯 agent-ui | ⚡ daily 2026-10-29 — Prompt 用 Markdown、工具用 TS，内置 evals 与事件回放，可自托管 |
+| OpenAI × ServiceNow：把企业工作流接进模型 | OpenAI / ServiceNow | 2026-10-29 | enterprise, workflow | https://openai.com/index/openai-servicenow-partnership-expansion |  | 📖 daily 2026-10-29 — 企业流程侧分发继续占位，workflow 入口之争加剧 |
+| Legora：以 GPT 系列为底座做法律工作的 agentic OS | Legora | 2026-10-29 | legal, vertical-agent | https://openai.com/index/legora |  | 📖 daily 2026-10-29 — coding agent 把 bug 到修复压到 5 分钟，垂直 agent 工程化样本 |
+| Amazon Bedrock AgentCore 上搭 agentic AI 平台实战 | AWS | 2026-10-29 | agentcore, platform | https://aws.amazon.com/blogs/machine-learning/building-an-agentic-ai-platform-on-amazon-bedrock-agentcore/ |  | 🔧 daily 2026-10-29 — 托管 agent runtime 的平台化落地路径，可直接对照自建方案 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
