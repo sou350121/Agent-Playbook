@@ -1487,6 +1487,14 @@
 | OpenAI × ServiceNow：把企业工作流接进模型 | OpenAI / ServiceNow | 2026-10-29 | enterprise, workflow | https://openai.com/index/openai-servicenow-partnership-expansion |  | 📖 daily 2026-10-29 — 企业流程侧分发继续占位，workflow 入口之争加剧 |
 | Legora：以 GPT 系列为底座做法律工作的 agentic OS | Legora | 2026-10-29 | legal, vertical-agent | https://openai.com/index/legora |  | 📖 daily 2026-10-29 — coding agent 把 bug 到修复压到 5 分钟，垂直 agent 工程化样本 |
 | Amazon Bedrock AgentCore 上搭 agentic AI 平台实战 | AWS | 2026-10-29 | agentcore, platform | https://aws.amazon.com/blogs/machine-learning/building-an-agentic-ai-platform-on-amazon-bedrock-agentcore/ |  | 🔧 daily 2026-10-29 — 托管 agent runtime 的平台化落地路径，可直接对照自建方案 |
+| Spawn：每月 300 万美元 token 养一群 agent，直接把线上代码改到生产 | Spawn | 2026-10-30 | agentic-coding, continuous-deployment, agent-swarm | https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/ |  | ⚡ daily 2026-10-30 — agent 直接改线上代码、按小时上线，1 小时没 ship 算 SEV-0。 |
+| OpenAI 发布新版 Model Spec：围绕 faithfulness/honesty 五价值观重写 | OpenAI | 2026-10-30 | model-spec, alignment, product-policy | https://openai.com/index/updated-model-spec | [evaluation] | ⚡ daily 2026-10-30 — prompt 与 system message 的行为默认值随 Spec 改，agent 行为会漂移。 |
+| ChatGPT Pro 200 美元档额度腰斩：Codex 降到 Plus 10 倍，聊天/工作入口合并 | OpenAI | 2026-10-30 | pricing, codex, chatgpt-work | https://www.36kr.com/p/4046427132744579 |  | ⚡ daily 2026-10-30 — 同日生效：编程预算直接减半，团队要把 agent 调用量重新核算。 |
+| Ben Hylak：每个产品都该是一个 headless MCP，喂给 agent | Raindrop.ai | 2026-10-30 | mcp, agent-ui, product-design | https://simonwillison.net/2026/Oct/29/ben-hylak/ | 🎯 agent-ui | 📖 daily 2026-10-30 — 一句话点明 MCP 化的产品设计取舍：无头给 agent，有头给人。 |
+| OpenAI 披露前沿模型失准监控：沙箱逃逸 15 分钟告警、回放 HF 事件提前 30 小时 | OpenAI | 2026-10-30 | agent-security, observability, monitoring | https://openai.com/index/how-we-detect-frontier-model-misalignment | [evaluation] | 🔧 daily 2026-10-30 — 首个公开的 agent 越权监控架构参照，自建 harness 可直接抄。 |
+| OpenAI Pro/Business 订阅自带 API 额度（$100/$200/$500 按档发放） | OpenAI | 2026-10-30 | pricing, api-credits, billing | https://help.openai.com/en/articles/20001626-api-credits-benefit-for-eligible-chatgpt-subscriptions |  | 🔧 daily 2026-10-30 — 订阅价直接变成 API 额度，小团队跑 demo 不必再单独充值。 |
+| Epsilon 用 Nova Act + AgentCore Browser 做 intent-driven UI 测试服务 | AWS / Epsilon | 2026-10-30 | agent-ui, browser-agent, testing | https://aws.amazon.com/blogs/machine-learning/building-intent-driven-ui-testing-with-amazon-nova-act/ | 🎯 agent-ui | 🔧 daily 2026-10-30 — 自然语言写测试、Playwright 留作回归底座，多租户可复用架构。 |
+| Kiro 做可重复的 PHP→Java 迁移引擎：发现扫描器 + 八阶段流程 | AWS | 2026-10-30 | coding-agent, migration, workflow | https://aws.amazon.com/blogs/machine-learning/build-a-repeatable-php-to-java-migration-engine-with-kiro/ |  | 📖 daily 2026-10-30 — 把一次性迁移拆成可度量八阶段，是编排长任务的现成模板。 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
