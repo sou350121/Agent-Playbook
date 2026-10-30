@@ -1,6 +1,6 @@
 ---
 auto_generated: true
-generated_at: "2026-10-30T12:00:57Z"
+generated_at: "2026-10-30T12:41:05Z"
 source_url: "https://cloud.google.com/blog/topics/developers-practitioners/data-agent-kit-is-now-ga-bring-google-data-cloud-to-any-coding-agent/"
 signal_type: "significant_update"
 ---
