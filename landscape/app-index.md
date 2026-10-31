@@ -1495,6 +1495,14 @@
 | OpenAI Pro/Business 订阅自带 API 额度（$100/$200/$500 按档发放） | OpenAI | 2026-10-30 | pricing, api-credits, billing | https://help.openai.com/en/articles/20001626-api-credits-benefit-for-eligible-chatgpt-subscriptions |  | 🔧 daily 2026-10-30 — 订阅价直接变成 API 额度，小团队跑 demo 不必再单独充值。 |
 | Epsilon 用 Nova Act + AgentCore Browser 做 intent-driven UI 测试服务 | AWS / Epsilon | 2026-10-30 | agent-ui, browser-agent, testing | https://aws.amazon.com/blogs/machine-learning/building-intent-driven-ui-testing-with-amazon-nova-act/ | 🎯 agent-ui | 🔧 daily 2026-10-30 — 自然语言写测试、Playwright 留作回归底座，多租户可复用架构。 |
 | Kiro 做可重复的 PHP→Java 迁移引擎：发现扫描器 + 八阶段流程 | AWS | 2026-10-30 | coding-agent, migration, workflow | https://aws.amazon.com/blogs/machine-learning/build-a-repeatable-php-to-java-migration-engine-with-kiro/ |  | 📖 daily 2026-10-30 — 把一次性迁移拆成可度量八阶段，是编排长任务的现成模板。 |
+| Amazon Bedrock AgentCore Session Endpoints：coding agent 边改边预览线上 Web 应用 | AWS | 2026-10-31 | agent-runtime, sandbox, preview | https://aws.amazon.com/blogs/machine-learning/preview-web-apps-live-as-your-coding-agent-builds-them-with-amazon-bedrock-agentcore-runtime/ |  | 🔧 daily 2026-10-31 — 每 session 一条鉴权 URL 直通 agent 沙箱端口，改完刷新即见，省掉部署等待 |
+| Vercel Data Cache 转正为 Runtime Cache：Next.js 缓存开始按读写计费 | Vercel | 2026-10-31 | caching, pricing, nextjs | https://vercel.com/changelog/data-cache-is-moving-to-runtime-cache |  | 🔧 daily 2026-10-31 — Pro 项目独享 8 倍容量但读取 $0.40/百万起，AI 应用缓存成本需重新算 |
+| Context Is a Pipeline, Not a Window：agent harness 截断工具输出才是准确率杀手 | — | 2026-10-31 | agent-harness, context-engineering, evals | https://arxiv.org/abs/2610.36114 |  | 📖 daily 2026-10-31 — 720 次跑测中 1/3 工具结果被按长度切断成坏 JSON，成本以 43% 额外调用体现（arXiv） |
+| CASEL：按后果与可逆性给 agent 每次工具调用分配审查等级 | — | 2026-10-31 | guardrail, agent-security, runtime | https://arxiv.org/abs/2610.36570 |  | 📖 daily 2026-10-31 — 有害副作用轨迹 14.75%→7.02%，且比纯后果排序少 45% 人工审批（arXiv） |
+| dbreunig/nesformer：把 NES 6502 模拟器焙进 Qwen3.5-4B 权重 | dbreunig | 2026-10-31 | weights-as-program, vibe-coding | https://simonwillison.net/2026/Oct/30/nesformer/ |  | 📖 daily 2026-10-31 — Opus 5.5 按提示自找一致性测试把模拟器写进权重，权重即程序的新玩法 |
+| OpenAI：让网站更容易表达 AI 训练偏好 | OpenAI | 2026-10-31 | data-governance, policy | https://openai.com/index/helping-websites-express-ai-training-preferences |  | ⚡ daily 2026-10-31 — 抓取与训练边界从 robots.txt 扩展到显式偏好声明，RAG 语料合规要跟着改 |
+| DeepSeek 第二轮融资 1055 亿元、估值 6155 亿元 | DeepSeek | 2026-10-31 | funding, industry | https://m.ithome.com/html/1020121.htm |  | ⚡ daily 2026-10-31 — 国产开源权重阵营获国资与终端厂商注资，模型选择格局重排 |
+| ChatGPT 桌面端可在 AWS GovCloud 接入 Bedrock | AWS | 2026-10-31 | enterprise, govcloud, chat-ui | https://aws.amazon.com/blogs/machine-learning/configure-the-chatgpt-desktop-app-with-amazon-bedrock-in-aws-govcloud-us/ | 🎯 agent-ui | 📖 daily 2026-10-31 — 受监管场景下桌面 AI 客户端走自家私有云，企业部署形态定型 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
