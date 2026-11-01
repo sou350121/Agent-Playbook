@@ -1,6 +1,6 @@
 ---
 auto_generated: true
-generated_at: "2026-11-01T05:45:38Z"
+generated_at: "2026-11-01T06:46:12Z"
 source_url: "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/"
 signal_type: "significant_update"
 ---
