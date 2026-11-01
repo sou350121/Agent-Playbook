@@ -1503,6 +1503,11 @@
 | OpenAI：让网站更容易表达 AI 训练偏好 | OpenAI | 2026-10-31 | data-governance, policy | https://openai.com/index/helping-websites-express-ai-training-preferences |  | ⚡ daily 2026-10-31 — 抓取与训练边界从 robots.txt 扩展到显式偏好声明，RAG 语料合规要跟着改 |
 | DeepSeek 第二轮融资 1055 亿元、估值 6155 亿元 | DeepSeek | 2026-10-31 | funding, industry | https://m.ithome.com/html/1020121.htm |  | ⚡ daily 2026-10-31 — 国产开源权重阵营获国资与终端厂商注资，模型选择格局重排 |
 | ChatGPT 桌面端可在 AWS GovCloud 接入 Bedrock | AWS | 2026-10-31 | enterprise, govcloud, chat-ui | https://aws.amazon.com/blogs/machine-learning/configure-the-chatgpt-desktop-app-with-amazon-bedrock-in-aws-govcloud-us/ | 🎯 agent-ui | 📖 daily 2026-10-31 — 受监管场景下桌面 AI 客户端走自家私有云，企业部署形态定型 |
+| DeepSeek Harness 开源 Super-agent 原型：Router/Worker 双层架构 + 事件驱动 + Watchdog | deepseek-ai | 2026-11-01 | agent-arch, multi-session, harness | https://github.com/deepseek-ai/dsh-superagent-prototype |  | ⚡ daily 2026-11-01 — 把调度/缓存/存算分离/看门狗搬进 agent 架构，Router 批处理把单决定摊到 1.6s |
+| Fastbrowse：用页面控件索引 + 小选择模型点选，替代截图式浏览器 agent | agent-labs-dev | 2026-11-01 | browser-agent, computer-use, mcp | https://github.com/agent-labs-dev/fastbrowse |  | 🔧 daily 2026-11-01 — 无法点不存在的元素、无需维护 selector；CLI/Py/Node/Go SDK + MCP server 齐发 |
+| Anthropic 上线 Claude「自评」后台机制：多生成约 10 token 自审，开销 <2% | Anthropic | 2026-11-01 | safety, guardrail, eval | https://www.indiatoday.in/technology/news/story/claude-can-now-flag-your-chats-to-anthropic-if-it-detects-indecent-behaviour-3028193-2026-10-30 | [evaluation] | ⚡ daily 2026-11-01 — Fable 5 拦下 78% 有害会话/94% 高危、误报 1%，默认全开，不拦截只记风险 |
+| Parameter Labs 披露 ChatGPT 账户接管链：HTML Preview + MathLive 越沙箱执行 JS | Parameter Labs | 2026-11-01 | sandbox, security, postMessage | https://www.parameter.ai/labs/we-found-a-gap-at-openai |  | 🔧 daily 2026-11-01 — 打开分享链接即可被接管账号；postMessage 需校验来源，$5000 赏金被认为太低 |
+| Governor：为每个 agent 发独立 API key，内置消费上限、工具调用规则与签名审计日志 | BSVKey | 2026-11-01 | gateway, agent-security, cost-control | https://governor.bsvkey.com/ | 🎯 agent-ui | 🔧 daily 2026-11-01 — 改 base URL 即可接管三家常商；调用前预留成本、跑飞检测、单点 kill switch |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
