@@ -1508,6 +1508,12 @@
 | Anthropic 上线 Claude「自评」后台机制：多生成约 10 token 自审，开销 <2% | Anthropic | 2026-11-01 | safety, guardrail, eval | https://www.indiatoday.in/technology/news/story/claude-can-now-flag-your-chats-to-anthropic-if-it-detects-indecent-behaviour-3028193-2026-10-30 | [evaluation] | ⚡ daily 2026-11-01 — Fable 5 拦下 78% 有害会话/94% 高危、误报 1%，默认全开，不拦截只记风险 |
 | Parameter Labs 披露 ChatGPT 账户接管链：HTML Preview + MathLive 越沙箱执行 JS | Parameter Labs | 2026-11-01 | sandbox, security, postMessage | https://www.parameter.ai/labs/we-found-a-gap-at-openai |  | 🔧 daily 2026-11-01 — 打开分享链接即可被接管账号；postMessage 需校验来源，$5000 赏金被认为太低 |
 | Governor：为每个 agent 发独立 API key，内置消费上限、工具调用规则与签名审计日志 | BSVKey | 2026-11-01 | gateway, agent-security, cost-control | https://governor.bsvkey.com/ | 🎯 agent-ui | 🔧 daily 2026-11-01 — 改 base URL 即可接管三家常商；调用前预留成本、跑飞检测、单点 kill switch |
+| MiniMax 开源 mcode-stack：自家 Coding Agent 团队每天在用的 skills 与工作流 | MiniMax-AI | 2026-11-02 | agent-skills, coding-agent, context-engineering | https://github.com/MiniMax-AI/mcode-stack | 🎯 agent-ui | 🔧 daily 2026-11-02 — 可直接 plugin 安装进 Claude Code / Codex / MiniMax Code 的真实生产技能栈 |
+| uncut：7 MB 单二进制 Go coding-agent harness，拒绝任何静默上下文截断 | Balanov | 2026-11-02 | agent-harness, headless, local-models | https://github.com/Balanov/uncut |  | 🔧 daily 2026-11-02 — 把「上下文被悄悄截断」当显式失败，837 行可 fork 的 CI/Shell 专用基线 |
+| stack-diagram：一句话描述技术栈，agent skill 直接产出带官方 logo 的架构图 | caru-ini | 2026-11-02 | agent-skill, diagram, artifact | https://github.com/caru-ini/stack-diagram | 🎯 agent-ui | 🔧 daily 2026-11-02 — skill 当交付物：自包含 HTML/PNG/React 三形态，可直接进 wiki 与 Claude artifact |
+| Anthropic 经 Claude Code 远程下发「禁止复刻现有游戏」提示词，开发者反馈误伤 | Anthropic | 2026-11-02 | policy, coding-agent, ip | https://www.36kr.com/p/4050382051005574 |  | ⚡ daily 2026-11-02 — 服务端下发的 prompt 级政策开关成为产品事实——用户侧无法关闭 |
+| Grok 订阅接入银联/支付宝，首月半价；xAI 官方公告尚未发布 | xAI | 2026-11-02 | pricing, payments | https://readhub.cn/topic/8xfnEHnU5CI |  | 📖 daily 2026-11-02 — 海外模型订阅正式拉中国支付通道，仅二手可核验，待官方口径 |
+| Jepsen 报告与 Kyle Kingsbury：LLM 让人怀疑文档、软件与厂商的成熟度信号 | simonwillison.net | 2026-11-02 | trust, evals, documentation | https://simonwillison.net/2026/Nov/1/kyle-kingsbury/ | [evaluation] | 📖 daily 2026-11-02 — 「成熟系统标记」被 AI 轻易伪造，评估与溯源会成为新的采购门槛 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
