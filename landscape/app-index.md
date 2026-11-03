@@ -1514,6 +1514,14 @@
 | Anthropic 经 Claude Code 远程下发「禁止复刻现有游戏」提示词，开发者反馈误伤 | Anthropic | 2026-11-02 | policy, coding-agent, ip | https://www.36kr.com/p/4050382051005574 |  | ⚡ daily 2026-11-02 — 服务端下发的 prompt 级政策开关成为产品事实——用户侧无法关闭 |
 | Grok 订阅接入银联/支付宝，首月半价；xAI 官方公告尚未发布 | xAI | 2026-11-02 | pricing, payments | https://readhub.cn/topic/8xfnEHnU5CI |  | 📖 daily 2026-11-02 — 海外模型订阅正式拉中国支付通道，仅二手可核验，待官方口径 |
 | Jepsen 报告与 Kyle Kingsbury：LLM 让人怀疑文档、软件与厂商的成熟度信号 | simonwillison.net | 2026-11-02 | trust, evals, documentation | https://simonwillison.net/2026/Nov/1/kyle-kingsbury/ | [evaluation] | 📖 daily 2026-11-02 — 「成熟系统标记」被 AI 轻易伪造，评估与溯源会成为新的采购门槛 |
+| OpenAI LifeVal：用 3,995 人调查构建的日常任务 agent 评测 | OpenAI | 2026-11-03 | evals, agent, benchmark | https://openai.com/index/lifeval | [evaluation] | ⚡ daily 2026-11-03 — 评测从行业任务转向真实生活任务，GPT-6 Astra 已到 93%（arXiv 外的一手公告） |
+| unclebob/ub-mode：把「代码好不好」交给确定性工具，不交给 agent 自己 | unclebob | 2026-11-03 | agent-skills, evals, code-quality | https://github.com/unclebob/ub-mode | [evaluation] | 🔧 daily 2026-11-03 — CRAP 复杂度 + 变异测试做闸门，一周 6.5k star |
+| OpenAI Pando：为 Codex 时代重写的 Git 后端 | OpenAI | 2026-11-03 | infra, agentic-coding, git | https://openai.com/index/scaling-git-at-openai |  | ⚡ daily 2026-11-03 — agent 提交量一年涨 2400%，push 延迟降 5 倍、日服务近 1PB |
+| vercel-labs/agent-desktop：用操作系统无障碍树替代截图来点界面 | vercel-labs | 2026-11-03 | computer-use, cli, agent | https://github.com/vercel-labs/agent-desktop |  | 🔧 daily 2026-11-03 — 返回稳定 ref ID 而非像素坐标，重试不再靠视觉模型猜 |
+| AWS 官方配方：用知识蒸馏把 agent 多步工具循环压进小模型 | AWS | 2026-11-03 | distillation, sagemaker, cost | https://aws.amazon.com/blogs/machine-learning/build-efficient-agents-with-knowledge-distillation-on-amazon-sagemaker-ai/ |  | 🔧 daily 2026-11-03 — 每个工具步都付前沿模型价格撑不到生产规模，序列级蒸馏是现成路径 |
+| Orkas：把已装的 Claude Code / Codex / OpenCode 收编成一支本地 AI 团队 | Orkas-AI | 2026-11-03 | agent-ui, orchestration, desktop | https://github.com/Orkas-AI/Orkas | 🎯 agent-ui | 🔧 daily 2026-11-03 — Commander 拆解目标 + 16 个专才 agent，还能带排程与断点补跑 |
+| AWS：Nova 多模态 Embedding + Bedrock AgentCore 做航空航天零件替代评估 | AWS | 2026-11-03 | multimodal-rag, agentcore, embedding | https://aws.amazon.com/blogs/machine-learning/agentic-engineering-intelligence-with-amazon-nova-multimodal-embeddings-and-amazon-bedrock-agentcore/ | [RAG] | 📖 daily 2026-11-03 — 多 agent + 多模态检索把数天的图纸比对压到分钟级 |
+| Weaviate Engram：给 Claude Code 加持久长期记忆的插件 | Weaviate | 2026-11-03 | agent-memory, vector-db | https://weaviate.io/blog/persistent-memory-for-claude-code | [RAG] | 📖 daily 2026-11-03 — 场景用 topic/scope 控制提取，把记忆注入 prompt 而不是堆全部历史 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
