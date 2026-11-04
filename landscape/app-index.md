@@ -1522,6 +1522,16 @@
 | Orkas：把已装的 Claude Code / Codex / OpenCode 收编成一支本地 AI 团队 | Orkas-AI | 2026-11-03 | agent-ui, orchestration, desktop | https://github.com/Orkas-AI/Orkas | 🎯 agent-ui | 🔧 daily 2026-11-03 — Commander 拆解目标 + 16 个专才 agent，还能带排程与断点补跑 |
 | AWS：Nova 多模态 Embedding + Bedrock AgentCore 做航空航天零件替代评估 | AWS | 2026-11-03 | multimodal-rag, agentcore, embedding | https://aws.amazon.com/blogs/machine-learning/agentic-engineering-intelligence-with-amazon-nova-multimodal-embeddings-and-amazon-bedrock-agentcore/ | [RAG] | 📖 daily 2026-11-03 — 多 agent + 多模态检索把数天的图纸比对压到分钟级 |
 | Weaviate Engram：给 Claude Code 加持久长期记忆的插件 | Weaviate | 2026-11-03 | agent-memory, vector-db | https://weaviate.io/blog/persistent-memory-for-claude-code | [RAG] | 📖 daily 2026-11-03 — 场景用 topic/scope 控制提取，把记忆注入 prompt 而不是堆全部历史 |
+| Mistral 放出 Le Chonk（Mistral Large 4）权重：1T 参数原生多模态，主打 agentic coding 与防御性安全 | Mistral AI | 2026-11-04 | open-weight, coding-agent, sovereign-ai | https://mistral.ai/news/mistral-large-4-oss/ |  | ⚡ daily 2026-11-04 — 1T 开源权重模型自托管可行，FrontierCode 2.0 得 19.7% 领先开放系 |
+| Ai2 StateBench：测长文档里的状态追踪，前沿模型仍随文档变长掉点 | Ai2 | 2026-11-04 | evaluation, long-context | https://huggingface.co/blog/allenai/statebench |  | 📖 daily 2026-11-04 — 长上下文 agent 的"状态是否更新"首次被单独量化 |
+| CWE-bench v2：漏洞检测基准扩容，附提交级可复现数据与透明度报告 | Collinear AI | 2026-11-04 | evaluation, security | https://huggingface.co/blog/cwe-bench |  | 🔧 daily 2026-11-04 — 安全 agent 的评测集升级，可直接跑在 Hub 上对比 |
+| Simon Willison：Qwen 3.8 27B 在笔记本上也能读权重做 Weight-Space Programming | Simon Willison | 2026-11-04 | local-model, interpretability | https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/ |  | 📖 daily 2026-11-04 — 前沿能力下沉到本地权重模型，附带可复现实验 |
+| Vercel Security Review 公测：每次 push 自动扫漏洞，Vercel Agent 直接开 PR 修复 | Vercel | 2026-11-04 | agent-security, guardrail, ci | https://vercel.com/changelog/vercel-security-review-public-beta |  | 🔧 daily 2026-11-04 — agent 修漏洞闭环进 CI，按 token 计费，11/10 前免费 |
+| Vercel MCP 支持 Client ID Metadata Documents：MCP 客户端免预注册即可 OAuth 接入 | Vercel | 2026-11-04 | mcp, oauth, auth | https://vercel.com/changelog/vercel-mcp-now-supports-client-id-metadata-documents |  | 🔧 daily 2026-11-04 — MCP 授权从逐家 allowlist 走向动态客户端注册，接第三方 agent 的门槛下降 |
+| vercel.toml 支持：项目配置可用 TOML + 注释，服务拆分可直接写在配置里 | Vercel | 2026-11-04 | deployment, config | https://vercel.com/changelog/projects-can-now-be-configured-with-vercel-toml |  | 📖 daily 2026-11-04 — agent 自动改配置时 TOML 可注释，便于人工审阅 diff |
+| AWS：ServiceNow 场景下的 on-behalf-of token exchange 接进 Bedrock AgentCore Gateway | AWS | 2026-11-04 | gateway, auth, enterprise | https://aws.amazon.com/blogs/machine-learning/servicenow-on-behalf-of-token-exchange-with-amazon-bedrock-agentcore-gateway/ |  | 🔧 daily 2026-11-04 — agent 代表用户访问企业系统的身份委派有了官方参考实现 |
+| Vercel MCP 上线首个 MCP App：部署状态/构建日志以交互卡片渲染在 ChatGPT 里 | Vercel | 2026-11-04 | mcp, agent-ui, chatgpt | https://vercel.com/changelog/monitor-vercel-deployments-in-chatgpt |  | 🔧 daily 2026-11-04 — MCP Apps 首个落地：工具返回值为交互 UI 而非纯文本 |
+| Google DeepMind：Antigravity 配 Cheminformatics Skills，1 小时完成一轮药物分子设计 | Google DeepMind | 2026-11-04 | agent-skills, science, vertical | https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/ |  | ⚡ daily 2026-11-04 — 模型做编排、RDKit 做确定性计算，垂直 agent 的分工范式样板 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
