@@ -1,6 +1,6 @@
 ---
 auto_generated: true
-generated_at: "2026-11-04T06:45:18Z"
+generated_at: "2026-11-04T09:00:24Z"
 source_url: "https://huggingface.co/blog/cwe-bench"
 signal_type: "blog_post"
 ---
