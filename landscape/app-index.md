@@ -1532,6 +1532,14 @@
 | AWS：ServiceNow 场景下的 on-behalf-of token exchange 接进 Bedrock AgentCore Gateway | AWS | 2026-11-04 | gateway, auth, enterprise | https://aws.amazon.com/blogs/machine-learning/servicenow-on-behalf-of-token-exchange-with-amazon-bedrock-agentcore-gateway/ |  | 🔧 daily 2026-11-04 — agent 代表用户访问企业系统的身份委派有了官方参考实现 |
 | Vercel MCP 上线首个 MCP App：部署状态/构建日志以交互卡片渲染在 ChatGPT 里 | Vercel | 2026-11-04 | mcp, agent-ui, chatgpt | https://vercel.com/changelog/monitor-vercel-deployments-in-chatgpt |  | 🔧 daily 2026-11-04 — MCP Apps 首个落地：工具返回值为交互 UI 而非纯文本 |
 | Google DeepMind：Antigravity 配 Cheminformatics Skills，1 小时完成一轮药物分子设计 | Google DeepMind | 2026-11-04 | agent-skills, science, vertical | https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/ |  | ⚡ daily 2026-11-04 — 模型做编排、RDKit 做确定性计算，垂直 agent 的分工范式样板 |
+| Together Compiler (TKCC)：用 agent 持续重编译推理引擎 | Together AI | 2026-11-05 | inference, agent-optimization, compiler | https://www.together.ai/blog/together-compiler-continual-compilation-for-ai-inference |  | ⚡ daily 2026-11-05 — agent 24h 内把开源模型吞吐拉到 2.6x，推理优化从人工变常驻回路 |
+| Together AI：Polymorphic Inference——面向开源模型的自我调优推理 | Together AI | 2026-11-05 | inference, llmops | https://www.together.ai/blog/polymorphic-inference |  | ⚡ daily 2026-11-05 — 80% OpenRouter 流量来自 3 个月内新模型，静态调参已不适用 |
+| datasette-llm 0.1a10：修复模型集合越权配置缺陷 | Simon Willison | 2026-11-05 | llm-gateway, config | https://simonwillison.net/2026/Nov/4/datasette-llm/ |  | 📖 daily 2026-11-05 — agent.datasette.io 上可用模型未按配置收窄，属越权面 |
+| OpenAI 收购 Pierre Computer Company（Code Storage / Trees / Diffs） | OpenAI / Pierre | 2026-11-05 | codex, git, developer-tools | https://openai.com/index/openai-to-acquire-pierre |  | ⚡ daily 2026-11-05 — Codex 拿下 diff/tree/代码存储底层，agent 版 Git 工作流成形 |
+| Bedrock AgentCore Evaluations 支持决策模型做打分后端 | AWS | 2026-11-05 | evaluation, guardrail, agentcore | https://aws.amazon.com/blogs/machine-learning/use-decision-models-with-amazon-bedrock-agentcore-evaluations/ | [evaluation] | 🔧 daily 2026-11-05 — 用校准概率替代自由文本打分，评估结果可阈值化 |
+| 生产级 agent 的四层上下文工程（Deep Insight 参考实现） | AWS | 2026-11-05 | context-engineering, multi-agent, strands | https://aws.amazon.com/blogs/machine-learning/four-layers-of-context-engineering-for-production-ai-agents-how-deep-insight-applies-them-in-working-code/ |  | 🔧 daily 2026-11-05 — write-execute 工具让脚本 token 降 95%，按需加载 skill 系统提示降 97% |
+| datasette-apps 0.3a0：agent 可在 Datasette 内建并托管 HTML 应用 | Simon Willison | 2026-11-05 | agent-ui, datasette, permissions | https://simonwillison.net/2026/Nov/4/datasette-apps/ | 🎯 agent-ui | 🔧 daily 2026-11-05 — # 标签引用 app + 写查询须用户批准，agent 生成 UI 的可控样本 |
+| Smart Approvals in Amazon Quick：把人审放在关键节点 | AWS | 2026-11-05 | human-in-the-loop, guardrail | https://aws.amazon.com/blogs/machine-learning/smart-approvals-in-amazon-quick-human-oversight-where-it-matters/ | [evaluation] | 📖 daily 2026-11-05 — 按风险分级的审批设计，可直接参照到自家 agent 流程 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
