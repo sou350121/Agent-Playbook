@@ -1540,6 +1540,12 @@
 | 生产级 agent 的四层上下文工程（Deep Insight 参考实现） | AWS | 2026-11-05 | context-engineering, multi-agent, strands | https://aws.amazon.com/blogs/machine-learning/four-layers-of-context-engineering-for-production-ai-agents-how-deep-insight-applies-them-in-working-code/ |  | 🔧 daily 2026-11-05 — write-execute 工具让脚本 token 降 95%，按需加载 skill 系统提示降 97% |
 | datasette-apps 0.3a0：agent 可在 Datasette 内建并托管 HTML 应用 | Simon Willison | 2026-11-05 | agent-ui, datasette, permissions | https://simonwillison.net/2026/Nov/4/datasette-apps/ | 🎯 agent-ui | 🔧 daily 2026-11-05 — # 标签引用 app + 写查询须用户批准，agent 生成 UI 的可控样本 |
 | Smart Approvals in Amazon Quick：把人审放在关键节点 | AWS | 2026-11-05 | human-in-the-loop, guardrail | https://aws.amazon.com/blogs/machine-learning/smart-approvals-in-amazon-quick-human-oversight-where-it-matters/ | [evaluation] | 📖 daily 2026-11-05 — 按风险分级的审批设计，可直接参照到自家 agent 流程 |
+| OpenAI 发布 GPT-6 Cyber：安全专用模型，Preparedness 升至 Critical | OpenAI | 2026-11-06 | security, agent, model-release | https://openai.com/index/introducing-gpt-6-cyber | [evaluation] | ⚡ daily 2026-11-06 — 安全 agent 从辅助转主力：Firefox 81 个新高危漏洞 + 948 个内核 exploit，仅限白名单客户 |
+| 🎯 Gemini Omni 1.2 Flash：15 秒原生视频生成并正式 GA，价格降 30% | Google DeepMind | 2026-11-06 | multimodal, api, video | https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/ | 🎯 agent-ui | ⚡ daily 2026-11-06 — 多轮改片 + Provisioned Throughput + SynthID，视频生成正式进企业产品线 |
+| Hugging Face 开源 Phonon TTS 上架：31M 端侧语音模型 Apache 2.0，登顶 Open TTS 榜 | Hugging Face / Gradium | 2026-11-06 | on-device, tts, multimodal | https://huggingface.co/blog/phonon-tts | 🎯 agent-ui | 🔧 daily 2026-11-06 — 离线语音补上语音 UI 最后一环，商用可免费用；社区已有 44MB WebGPU 115x 实时实现 |
+| 🎯 Bedrock AgentCore 新增 Web Answer：网关侧托管“带引用的回答”工具 | AWS | 2026-11-06 | mcp, rag, gateway | https://aws.amazon.com/blogs/machine-learning/getting-started-with-web-answer-on-amazon-bedrock-agentcore/ | 🎯 agent-ui | 🔧 daily 2026-11-06 — 检索管线外包给网关，每条结论自带源 URL，agent 不必自建 search+verify 循环 |
+| DeepSeek Harness 日活 154 万、日耗 92 万亿 token，官宣做官方插件市场 | DeepSeek | 2026-11-06 | agent-harness, plugins, ecosystem | https://m.ithome.com/html/1023011.htm | 🎯 agent-ui | ⚡ daily 2026-11-06 — agent harness 第一次出现平台级体量与插件市场，生态重心从模型转向 harness |
+| Claude 取消 5 小时限额：首批 Max/Ultra 用户已解封 | Anthropic | 2026-11-06 | pricing, coding-agent | https://www.woshipm.com/?p=6487179 |  | 📖 daily 2026-11-06 — 长会话型 agent 的主要成本约束松动，重度 coding 用户用量模型要重估 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
