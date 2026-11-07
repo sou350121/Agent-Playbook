@@ -1546,6 +1546,14 @@
 | 🎯 Bedrock AgentCore 新增 Web Answer：网关侧托管“带引用的回答”工具 | AWS | 2026-11-06 | mcp, rag, gateway | https://aws.amazon.com/blogs/machine-learning/getting-started-with-web-answer-on-amazon-bedrock-agentcore/ | 🎯 agent-ui | 🔧 daily 2026-11-06 — 检索管线外包给网关，每条结论自带源 URL，agent 不必自建 search+verify 循环 |
 | DeepSeek Harness 日活 154 万、日耗 92 万亿 token，官宣做官方插件市场 | DeepSeek | 2026-11-06 | agent-harness, plugins, ecosystem | https://m.ithome.com/html/1023011.htm | 🎯 agent-ui | ⚡ daily 2026-11-06 — agent harness 第一次出现平台级体量与插件市场，生态重心从模型转向 harness |
 | Claude 取消 5 小时限额：首批 Max/Ultra 用户已解封 | Anthropic | 2026-11-06 | pricing, coding-agent | https://www.woshipm.com/?p=6487179 |  | 📖 daily 2026-11-06 — 长会话型 agent 的主要成本约束松动，重度 coding 用户用量模型要重估 |
+| Kimi Hosted Agents 发布：把 Agent Harness 做成云端托管服务 | Moonshot AI | 2026-11-07 | agent-infra, sandbox, hosted | https://www.kimi.com/news/kimi-hosted-agents |  | ⚡ daily 2026-11-07 — Harness as a Service：自建底座几月工期被抽成托管层，含沙箱/权限/审计/计费 |
+| ToyBlocks：AI2 首个 FoundationWorlds 受控机器人学习与评测框架 | AllenAI | 2026-11-07 | simulation, vla, evals | https://huggingface.co/blog/allenai/toyblocks |  | 🔧 daily 2026-11-07 — 自动生成 demo、变化训练数据再复测；数据为 LeRobot 格式，可直接训 VLA |
+| AWS：Okta Cross App Access + AgentCore Gateway 管住 agent 的凭证路径（Part 2） | AWS | 2026-11-07 | agent-auth, gateway, security | https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-access-with-okta-cross-app-access-and-amazon-bedrock-agentcore-part-2/ | [evaluation] | 🔧 daily 2026-11-07 — N agent × M server 的接线矩阵收成一个 Gateway 端点 + 目标注册表 |
+| 腾讯混元 Hy4 正式版：770B/49B 激活，首次支持 Computer Use，权重近期开源 | Tencent Hunyuan | 2026-11-07 | long-running-agent, computer-use, open-weights | https://news.qq.com/rain/a/20261105A03UF800 | 🎯 agent-ui | ⚡ daily 2026-11-07 — 长程 Agent + 电脑操作进开源阵营，WorkBuddy/CodeBuddy 首发接入 |
+| OpenAI BioBasicsBench：100 个湿实验任务测 agent 能否读懂原始实验证据 | OpenAI | 2026-11-07 | evals, benchmark, science | https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science | [evaluation] | 📖 daily 2026-11-07 — 评测从论文图表转向失败实验/模糊图像，GPT-6 Astra 仅 66.7% 得分 |
+| Nilay Patel：agent「不是真的」，产品还不够好到值得它的成本 | The Verge | 2026-11-07 | industry-view, hype-check | https://simonwillison.net/2026/Nov/6/nilay-patel/ |  | 📖 daily 2026-11-07 — 主流科技媒体主编公开否定 agent 现状，直接冲 AI 商业叙事的定价基础 |
+| AWS：Amazon Quick 的 agentic 原语分类学（Trigger / Agent / Capability） | AWS | 2026-11-07 | agent-design, taxonomy | https://aws.amazon.com/blogs/machine-learning/taxonomy-of-agentic-primitives-in-amazon-quick/ | 🎯 agent-ui | 📖 daily 2026-11-07 — 把「新建 agent / 定时指令 / workflow / skill」拆成四个可回答的问题 |
+| AWS：服务端 MCP server 让 agent 统一读企业数据湖（ECS Fargate） | AWS | 2026-11-07 | mcp, gateway, data-access | https://aws.amazon.com/blogs/machine-learning/serverless-mcp-server-for-ai-agent-data-lake-access-on-amazon-ecs-fargate/ | [RAG] | 🔧 daily 2026-11-07 — 加数据集只需一个 JSON 元数据文件，权限不再散在每个 agent 里 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
