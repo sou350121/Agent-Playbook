@@ -1554,6 +1554,11 @@
 | Nilay Patel：agent「不是真的」，产品还不够好到值得它的成本 | The Verge | 2026-11-07 | industry-view, hype-check | https://simonwillison.net/2026/Nov/6/nilay-patel/ |  | 📖 daily 2026-11-07 — 主流科技媒体主编公开否定 agent 现状，直接冲 AI 商业叙事的定价基础 |
 | AWS：Amazon Quick 的 agentic 原语分类学（Trigger / Agent / Capability） | AWS | 2026-11-07 | agent-design, taxonomy | https://aws.amazon.com/blogs/machine-learning/taxonomy-of-agentic-primitives-in-amazon-quick/ | 🎯 agent-ui | 📖 daily 2026-11-07 — 把「新建 agent / 定时指令 / workflow / skill」拆成四个可回答的问题 |
 | AWS：服务端 MCP server 让 agent 统一读企业数据湖（ECS Fargate） | AWS | 2026-11-07 | mcp, gateway, data-access | https://aws.amazon.com/blogs/machine-learning/serverless-mcp-server-for-ai-agent-data-lake-access-on-amazon-ecs-fargate/ | [RAG] | 🔧 daily 2026-11-07 — 加数据集只需一个 JSON 元数据文件，权限不再散在每个 agent 里 |
+| Vercel AI Gateway 接入 DeepSeek V4.1 Flash 1017 Ultrafast：>1000 tok/s、1M 上下文 | Vercel / DeepSeek / Fireworks | 2026-11-08 | gateway, inference | https://vercel.com/changelog/deepseek-v4-1-flash-1017-ultrafast-now-available-on-ai-gateway |  | 🔧 daily 2026-11-08 — 超低延迟+1M 上下文的编码/agent 调用入口，网关侧可直接切换试点 |
+| DeepSeek 网页 / API 服务突发部分中断，约 1.5 小时后恢复 | DeepSeek | 2026-11-08 | reliability, fallback | https://m.ithome.com/html/1023697.htm |  | 📖 daily 2026-11-08 — 单点依赖风险实例：agent 生产链路需要多层模型的 failover |
+| DeepSeek Harness 插件生态：154 万 DAU、3.5 万插件，官方筹备插件市场与作者 Token 激励 | DeepSeek | 2026-11-08 | agent-harness, plugins | https://www.36kr.com/p/4057774236652417 |  | ⚡ daily 2026-11-08 — Agent harness 走向插件平台化，接口稳定性与插件治理成为选型变量 |
+| METR 对 Anthropic 的独立评估：模型能力提升速度约 2 倍，多数加速来自 AI 自身参与研发 | METR / Anthropic | 2026-11-08 | evaluation, safety | https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/ |  | ⚡ daily 2026-11-08 — AI 辅助研发可量化的加速证据，能力评测口径与安全预算都应重估 |
+| OpenAI CFO 确认正在融资谈判，估值较 3 月一轮上涨近 50% | OpenAI | 2026-11-08 | industry | https://readhub.cn/topic/8xqLSYkRqAF |  | 📖 daily 2026-11-08 — 一线厂商资本水位继续抬升，API 定价与供给策略随之偏紧 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
