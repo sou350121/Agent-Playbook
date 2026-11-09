@@ -1559,6 +1559,10 @@
 | DeepSeek Harness 插件生态：154 万 DAU、3.5 万插件，官方筹备插件市场与作者 Token 激励 | DeepSeek | 2026-11-08 | agent-harness, plugins | https://www.36kr.com/p/4057774236652417 |  | ⚡ daily 2026-11-08 — Agent harness 走向插件平台化，接口稳定性与插件治理成为选型变量 |
 | METR 对 Anthropic 的独立评估：模型能力提升速度约 2 倍，多数加速来自 AI 自身参与研发 | METR / Anthropic | 2026-11-08 | evaluation, safety | https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/ |  | ⚡ daily 2026-11-08 — AI 辅助研发可量化的加速证据，能力评测口径与安全预算都应重估 |
 | OpenAI CFO 确认正在融资谈判，估值较 3 月一轮上涨近 50% | OpenAI | 2026-11-08 | industry | https://readhub.cn/topic/8xqLSYkRqAF |  | 📖 daily 2026-11-08 — 一线厂商资本水位继续抬升，API 定价与供给策略随之偏紧 |
+| Goldman Sachs 把 Claude Code / GitHub 收回给工程师专用，交易员与投行岗被停权 | Goldman Sachs | 2026-11-09 | coding-agent, enterprise, governance | https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers | 🎯 agent-ui | ⚡ daily 2026-11-09 — 约 12000 名工程师以外的全员 vibe coding 试点被合规与信息隔离叫停 |
+| Claude Code 2.1.319：MCP 任务改后台化、denyInsteadOfPrompting、/claude-api latency-optimize | anthropics | 2026-11-09 | mcp, permissions, cli | https://code.claude.com/docs/en/changelog | 🎯 agent-ui | 🔧 daily 2026-11-09 — MCP 长任务不再堵住回合，非交互场景可把权限询问改成直接拒绝 |
+| OpenAI 完成 110 亿美元新融资，投后估值 1.25 万亿美元（低于此前寻求的 1.4 万亿） | OpenAI | 2026-11-09 | funding, market | https://forbesmiddleeast.com/innovation/artificial-intelligence-machine-learning/openai-reportedly-raises-$11b-at-$125t-valuation |  | 📖 daily 2026-11-09 — 估值首次低于自我预期，一级市场对 AI 基建的定价开始松动 |
+| Simon Willison：用 Opus 5.5 生成同名 SQLite 扩展，C 版压到 16–19 ns/行、体积 14KB | simonw | 2026-11-09 | tool-calling, codegen, benchmark | https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/ |  | 📖 daily 2026-11-09 — 自造快路径反超 strtod 两倍，agent 写底层优化代码已可跑通闭环 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
