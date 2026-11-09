@@ -1,6 +1,6 @@
 ---
 auto_generated: true
-generated_at: "2026-11-09T06:46:00Z"
+generated_at: "2026-11-09T08:01:08Z"
 source_url: "https://aws.amazon.com/blogs/machine-learning/four-layers-of-context-engineering-for-production-ai-agents-how-deep-insight-applies-them-in-working-code/"
 signal_type: "significant_update"
 ---
