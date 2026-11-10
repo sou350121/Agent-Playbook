@@ -1563,6 +1563,14 @@
 | Claude Code 2.1.319：MCP 任务改后台化、denyInsteadOfPrompting、/claude-api latency-optimize | anthropics | 2026-11-09 | mcp, permissions, cli | https://code.claude.com/docs/en/changelog | 🎯 agent-ui | 🔧 daily 2026-11-09 — MCP 长任务不再堵住回合，非交互场景可把权限询问改成直接拒绝 |
 | OpenAI 完成 110 亿美元新融资，投后估值 1.25 万亿美元（低于此前寻求的 1.4 万亿） | OpenAI | 2026-11-09 | funding, market | https://forbesmiddleeast.com/innovation/artificial-intelligence-machine-learning/openai-reportedly-raises-$11b-at-$125t-valuation |  | 📖 daily 2026-11-09 — 估值首次低于自我预期，一级市场对 AI 基建的定价开始松动 |
 | Simon Willison：用 Opus 5.5 生成同名 SQLite 扩展，C 版压到 16–19 ns/行、体积 14KB | simonw | 2026-11-09 | tool-calling, codegen, benchmark | https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/ |  | 📖 daily 2026-11-09 — 自造快路径反超 strtod 两倍，agent 写底层优化代码已可跑通闭环 |
+| Claude Fable 5.2 / Mythos 5.2 发布：同底模双 SKU，$8/$40 且输出快 30% | Anthropic | 2026-11-10 | model-release, agentic-coding, safety | https://www.anthropic.com/claude-fable-and-mythos-5-2 |  | ⚡ daily 2026-11-10 — 同一底模按安全门槛切 Fable/Mythos 两档，前端模型变体化成常态 |
+| Claude Fable 5.2 / Mythos 5.2 在 Amazon Bedrock 上架 | AWS / Anthropic | 2026-11-10 | model-release, bedrock, fallback | https://aws.amazon.com/blogs/machine-learning/introducing-claude-fable-5-2-on-aws/ |  | 🔧 daily 2026-11-10 — 被拒请求带 fallback credit token，拒绝路径变成了可编排逻辑 |
+| Vercel AI Gateway 生产指数：决策模型占 26% 请求，Anthropic 新团队 2:1 取胜 | Vercel | 2026-11-10 | gateway, production-data, model-routing | https://vercel.com/blog/ai-gateway-production-index-november-2026 |  | ⚡ daily 2026-11-10 — 真实网关流量显示生成与判断已分流，模型半衰期不到两个月 |
+| Vercel Sandbox 快照中位耗时 4.4s→0.4s，恢复 500ms→250ms | Vercel | 2026-11-10 | sandbox, latency | https://vercel.com/changelog/vercel-sandbox-snapshot-creation-is-now-up-to-10x-faster |  | 🔧 daily 2026-11-10 — 沙箱冷启动跨进亚秒级，agent 并行试验的成本结构变了 |
+| Workflow SDK 5.2：事件与流写入默认走 WebSocket，agent token 流快 4.2 倍 | Vercel | 2026-11-10 | workflow, streaming, latency | https://vercel.com/changelog/workflow-writes-now-use-websockets-on-vercel |  | 🔧 daily 2026-11-10 — 升个版本即得低延迟流式编排，无需改代码 |
+| Bedrock Managed Knowledge Base 支持单次 RAG 与 retrieval-only 三档检索 | AWS | 2026-11-10 | rag, retrieval, cost | https://aws.amazon.com/blogs/machine-learning/single-shot-and-agentic-retrieval-with-amazon-bedrock-managed-knowledge-base/ | [RAG] | 🔧 daily 2026-11-10 — 同一 API 按问题难度切换检索力度，直接砍掉简单查询成本 |
+| ChatGPT Enterprise 上架 AWS Marketplace | OpenAI | 2026-11-10 | enterprise, procurement, marketplace | https://openai.com/index/chatgpt-enterprise-aws-marketplace |  | 📖 daily 2026-11-10 — 走 AWS 云承诺额度采购，企业落地从 IT 谈判变账期动作 |
+| Simon Willison：把 agent 生成的 PR 描述塞进 <details> 折叠 | Simon Willison | 2026-11-10 | agent-ui, code-review, dx | https://simonwillison.net/2026/Nov/9/details-summary/ | 🎯 agent-ui | 📖 daily 2026-11-10 — agent 输出越准确越像噪声，问题从生成转到呈现层 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
