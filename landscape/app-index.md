@@ -1571,6 +1571,13 @@
 | Bedrock Managed Knowledge Base 支持单次 RAG 与 retrieval-only 三档检索 | AWS | 2026-11-10 | rag, retrieval, cost | https://aws.amazon.com/blogs/machine-learning/single-shot-and-agentic-retrieval-with-amazon-bedrock-managed-knowledge-base/ | [RAG] | 🔧 daily 2026-11-10 — 同一 API 按问题难度切换检索力度，直接砍掉简单查询成本 |
 | ChatGPT Enterprise 上架 AWS Marketplace | OpenAI | 2026-11-10 | enterprise, procurement, marketplace | https://openai.com/index/chatgpt-enterprise-aws-marketplace |  | 📖 daily 2026-11-10 — 走 AWS 云承诺额度采购，企业落地从 IT 谈判变账期动作 |
 | Simon Willison：把 agent 生成的 PR 描述塞进 <details> 折叠 | Simon Willison | 2026-11-10 | agent-ui, code-review, dx | https://simonwillison.net/2026/Nov/9/details-summary/ | 🎯 agent-ui | 📖 daily 2026-11-10 — agent 输出越准确越像噪声，问题从生成转到呈现层 |
+| Gemini 4 Carbon 全面开放：前沿模型 + Antigravity /swarm 多 agent 协作 | Google DeepMind | 2026-11-11 | model-release, agent-ui, multi-agent | https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/ | 🎯 agent-ui | ⚡ daily 2026-11-11 — 单 prompt 派生子 agent 团队，agent 编排直接进 IDE |
+| Meta Muse Ember 1.0：最小最高效模型，主打 agent 日常重复任务 | Meta | 2026-11-11 | model-release, tool-calling, routing | https://research.meta.ai/blog/muse-ember |  | 🔧 daily 2026-11-11 — $0.10/M 输入落在效率前沿，适合 agent 路由与工具调用 |
+| Anthropic 文档：Fable 5.2 代码归属提示词影响结构改进（约 5 倍差距） | Anthropic | 2026-11-11 | prompt-engineering, coding-agent | https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5-2#say-who-owns-the-code |  | 🔧 daily 2026-11-11 — 一句「代码是你的」可把去重合并率从 <10% 提到约 50% |
+| Google DeepMind AlphaProof Code：多 LLM agent 框架形式化验证 Signal 协议代码 | Google DeepMind | 2026-11-11 | multi-agent, verification, evaluation | https://deepmind.google/blog/introducing-alphaproof-code/ | [evaluation] | ⚡ daily 2026-11-11 — 4 周完成专家数年的密码学形式化验证 |
+| AWS：AgentCore Evaluations 评测手册 —— Built-in / DeepEval / AutoEval 三源评测器 | AWS | 2026-11-11 | evals, observability, agent | https://aws.amazon.com/blogs/machine-learning/the-agent-evaluation-playbook-built-in-deepeval-and-autoeval-on-agentcore/ | [evaluation] | 🔧 daily 2026-11-11 — 从业务结果反推 trace/session 两级评测，给出可落地骨架 |
+| OpenAI 上线 ChatGPT 内 Businesses + Business Agents（beta） | OpenAI | 2026-11-11 | business-agents, platform, commerce | https://openai.com/index/introducing-businesses-chatgpt/ |  | ⚡ daily 2026-11-11 — ChatGPT 变成企业可认领的入口，agent 直接对终端商机 |
+| llm-gemini 0.36 发布：CLI/库侧跟进 Gemini 4 Carbon | simonw | 2026-11-11 | sdk, llm-cli | https://simonwillison.net/2026/Nov/10/llm-gemini/ |  | 📖 daily 2026-11-11 — 开源 LLM CLI 第一时间支持新模型，本地可切换实验 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
