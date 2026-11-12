@@ -1578,6 +1578,16 @@
 | AWS：AgentCore Evaluations 评测手册 —— Built-in / DeepEval / AutoEval 三源评测器 | AWS | 2026-11-11 | evals, observability, agent | https://aws.amazon.com/blogs/machine-learning/the-agent-evaluation-playbook-built-in-deepeval-and-autoeval-on-agentcore/ | [evaluation] | 🔧 daily 2026-11-11 — 从业务结果反推 trace/session 两级评测，给出可落地骨架 |
 | OpenAI 上线 ChatGPT 内 Businesses + Business Agents（beta） | OpenAI | 2026-11-11 | business-agents, platform, commerce | https://openai.com/index/introducing-businesses-chatgpt/ |  | ⚡ daily 2026-11-11 — ChatGPT 变成企业可认领的入口，agent 直接对终端商机 |
 | llm-gemini 0.36 发布：CLI/库侧跟进 Gemini 4 Carbon | simonw | 2026-11-11 | sdk, llm-cli | https://simonwillison.net/2026/Nov/10/llm-gemini/ |  | 📖 daily 2026-11-11 — 开源 LLM CLI 第一时间支持新模型，本地可切换实验 |
+| JetBrains Air GA：把 coding agent 搬进 IDE，堵住 review 瓶颈 | JetBrains | 2026-11-12 | agent-ui, coding-agent, review | https://blog.jetbrains.com/ai/2026/11/air-in-jetbrains-ides-ga/ | 🎯 agent-ui | ⚡ daily 2026-11-12 — IDE 从写代码转向跟踪/审阅 agent 变更，agent UI 成新主战场 |
+| Vercel AI Gateway 上架 Gemini Decision 1：不产出 token 的决策模型 | Vercel / Google | 2026-11-12 | gateway, routing, guardrail | https://vercel.com/changelog/gemini-decision-1-now-available-on-ai-gateway | [evaluation] | 🔧 daily 2026-11-12 — 路由/策略/工具筛选可换成布尔概率决策，成本结构整个改写 |
+| AWS Emulator：整机云模拟器本体由 AI agent 写成 | Werner Vogels / AWS | 2026-11-12 | coding-agent, infra, testing | https://www.allthingsdistributed.com/2026/11/aws-emulator-and-the-engineers-job-when-agents-write-the-code.html |  | ⚡ daily 2026-11-12 — 本地跑 AWS 环境 + agent 写主代码，工程师职责边界被推到设计 |
+| GitHub: aws/aws-emulator 仓库上线 | aws | 2026-11-12 | sandbox, testing, infra | https://github.com/aws/aws-emulator |  | 🔧 daily 2026-11-12 — agent 应用可离线跑与真 AWS 一致的本地环境，测试成本骤降 |
+| OpenAI Codex 上架 Amazon Bedrock | AWS / OpenAI | 2026-11-12 | coding-agent, enterprise, model-access | https://aws.amazon.com/blogs/machine-learning/openai-codex-on-amazon-bedrock/ |  | 🔧 daily 2026-11-12 — coding agent 进企业既有云采购与权限体系，无需另开供应商 |
+| Pinky：用 MCP 让任意 agent 操作真机 iPhone/Android | DIYgod | 2026-11-12 | mcp, mobile, guardrail | https://github.com/diygod/pinky |  | 🔧 daily 2026-11-12 — 审批由 gateway 强制而非 prompt 约束，移动端 agent 有了执行层 |
+| Cloudflare 为何选 QuePaxa：给无 leader 共识做全球控制面 | Cloudflare | 2026-11-12 | infra, control-plane, reliability | https://blog.cloudflare.com/choosing-quepaxa/ |  | 📖 daily 2026-11-12 — agent 平台跨区控制面真正瓶颈是一致性延迟，不是机器数 |
+| Qwen Code 1.0 Preview：Qoder 与 Qwen Code 的 agent 能力合并开源 | QwenLM | 2026-11-12 | coding-agent, cli, multi-provider | https://github.com/QwenLM/qwen-code/releases/tag/v1.0.0-preview |  | 🔧 daily 2026-11-12 — 原生三平台包 + 会话续跑，coding agent 从 npm 壳走向正式发行 |
+| Apple ML：让 RAG 检索更快也更省的检索侧改进 | Apple | 2026-11-12 | rag, retrieval, efficiency | https://machinelearning.apple.com/research/faster-retrieval | [RAG] | 📖 daily 2026-11-12 — 检索阶段优化而非换模型，检索延迟可能成为 RAG 首要成本项 |
+| Anthropic IPO 路演视频：Mythos 三天跑通 AMD，并自写近 100% kernel | Anthropic | 2026-11-12 | infra, coding-agent, compute | https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/ |  | ⚡ daily 2026-11-12 — 移植新芯片从数十人月压到三天，agent 自改基础设施的实证案例 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
