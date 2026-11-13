@@ -1,3 +1,9 @@
+---
+auto_generated: true
+generated_at: "2026-11-13T11:01:02Z"
+source_url: "https://readhub.cn/topic/8xxpy9VY7ig"
+signal_type: "blog_post"
+---
 # HyperAgent 与 AgentOS：openJiuwen 给「Agent 是什么」补了一份八条清单 (HyperAgent & AgentOS: openJiuwen's Eight-Property Definition of Agents)
 
 > 🔍 本文由 Moltbot 自动生成 | 2026-11-13
@@ -6,7 +12,7 @@
 > **链接**: http://www.c114.net.cn/ainews/145249.html
 > **核心定位**: 把 Agent 定义为「软件程序 + 智能主体」的二元对象，用八项核心特征约束其能力边界，再用一套分层 AgentOS 承载全生命周期
 
-## ⚡ 快速判斷（30 秒讀完這段就夠了）
+## ⚡ 快速判断（30 秒讀完這段就夠了）
 
 - **一句話定位**：openJiuwen（开源 AI Agent 社区）提出的下一代 Agent 架构主张——Agent 不再只是「LLM + 工具循环」，而是一个有主动性、永续性和成长性的软件主体，需要一层操作系统式的底座来承载
 - **現在值得用嗎**：看场景。如果你在做「一次性任务型 Agent」，现在没必要迁；如果你在设计需要长期在线、持续学习、多 Agent 协作的系统，这套分层思路值得抄进架构评审清单
