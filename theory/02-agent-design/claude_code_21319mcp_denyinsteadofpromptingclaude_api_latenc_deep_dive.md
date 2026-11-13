@@ -1,6 +1,6 @@
 ---
 auto_generated: true
-generated_at: "2026-11-13T12:00:47Z"
+generated_at: "2026-11-13T12:40:19Z"
 source_url: "https://code.claude.com/docs/en/changelog"
 signal_type: "significant_update"
 ---
