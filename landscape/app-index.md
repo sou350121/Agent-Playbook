@@ -1588,6 +1588,15 @@
 | Qwen Code 1.0 Preview：Qoder 与 Qwen Code 的 agent 能力合并开源 | QwenLM | 2026-11-12 | coding-agent, cli, multi-provider | https://github.com/QwenLM/qwen-code/releases/tag/v1.0.0-preview |  | 🔧 daily 2026-11-12 — 原生三平台包 + 会话续跑，coding agent 从 npm 壳走向正式发行 |
 | Apple ML：让 RAG 检索更快也更省的检索侧改进 | Apple | 2026-11-12 | rag, retrieval, efficiency | https://machinelearning.apple.com/research/faster-retrieval | [RAG] | 📖 daily 2026-11-12 — 检索阶段优化而非换模型，检索延迟可能成为 RAG 首要成本项 |
 | Anthropic IPO 路演视频：Mythos 三天跑通 AMD，并自写近 100% kernel | Anthropic | 2026-11-12 | infra, coding-agent, compute | https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/ |  | ⚡ daily 2026-11-12 — 移植新芯片从数十人月压到三天，agent 自改基础设施的实证案例 |
+| Google 发布 Gemini 4 Hydrogen + Antigravity Orchestrator：单会话内动态换模型 | GoogleDeepMind | 2026-11-13 | model-release, orchestration, routing | https://deepmind.google/blog/introducing-gemini-4-hydrogen/ |  | ⚡ daily 2026-11-13 — Antigravity 里按轨迹阶段在 Carbon/Hydrogen 间双向交接，省 24% 配额 |
+| Anthropic 把 Opus 5.5 设为 Pro/Max/Ultra/Team 默认模型（续报） | anthropics | 2026-11-13 | model-release, pricing | https://platform.claude.com/docs/en/about-claude/models/overview |  | 📖 daily 2026-11-13 — $4/$20 每 M 成为多数套餐默认档，Fable 5.2 退为「评测不够才加钱」 |
+| Gemini 4 Hydrogen 接入 Google 搜索全球铺开（续报） | google | 2026-11-13 | search, distribution | https://readhub.cn/topic/8y0PIlgmFbd |  | 📖 daily 2026-11-13 — 同一模型从开发者 API 转到十亿级消费入口，成本压测压力随之外溢 |
+| Anthropic 上线自托管 Claude Managed Agents：agent/session/历史全在自家机房 | anthropics | 2026-11-13 | agent-runtime, self-hosted, enterprise | https://platform.claude.com/docs/en/release-notes/overview |  | ⚡ daily 2026-11-13 — 托管 agent 从「只用官方云」变成可自建，合规红线行业的可行性门槛打通 |
+| AgentRun 开源：给现成 agent harness 加自我改进、持久执行与控制面 | Parcha-ai | 2026-11-13 | agent-harness, durable-execution, control-plane | https://github.com/Parcha-ai/agentrun |  | 🔧 daily 2026-11-13 — harness 之上叠一层，宣称每次运行少 token 且更耐故障 |
+| 🎯 IBM Granite 4.1 LLMON：LLM 原生标记语言，间接 prompt 注入成功率降到近零 | ibm-granite | 2026-11-13 | agent-ui, prompt-injection, context | https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite | 🎯 agent-ui | 🔧 daily 2026-11-13 — 用结构标签+唯一 ID 绑定指令与数据，替代 JSON 塞进 agent 上下文 |
+| [RAG] AWS Bedrock 四个推理开关决定 agent 成本：缓存 TTL、服务档、推理档、maxTokens | aws | 2026-11-13 | rag, cost, prompt-caching | https://aws.amazon.com/blogs/machine-learning/four-amazon-bedrock-inference-choices-that-affect-cost/ | [RAG] | 🔧 daily 2026-11-13 — 1h 缓存写价 2x、读 0.1x；高推理档让输出 token 涨 169% 而无收益 |
+| Apple Foundation Models framework：系统级 on-device 模型开放给开发者 | apple | 2026-11-13 | on-device, sdk, privacy | https://developer.apple.com/foundation-models-framework/ |  | 📖 daily 2026-11-13 — 端侧模型有了官方 SDK 面，本地化 agent 的隐私边界可以不再自己搭 |
+| AWS AgentCore 实战：Natera 用两个 agent + 技能库把实验室工单首响从 17.4h 压下来 | aws | 2026-11-13 | agent-runtime, knowledge-base, observability | https://aws.amazon.com/blogs/machine-learning/how-natera-designed-an-agentic-ai-system-for-lab-ops-with-amazon-bedrock-agentcore/ |  | 📖 daily 2026-11-13 — 130x 首响提速、96.2% 自动覆盖，附完整四层架构与评测闭环 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
