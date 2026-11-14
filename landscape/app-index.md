@@ -1597,6 +1597,14 @@
 | [RAG] AWS Bedrock 四个推理开关决定 agent 成本：缓存 TTL、服务档、推理档、maxTokens | aws | 2026-11-13 | rag, cost, prompt-caching | https://aws.amazon.com/blogs/machine-learning/four-amazon-bedrock-inference-choices-that-affect-cost/ | [RAG] | 🔧 daily 2026-11-13 — 1h 缓存写价 2x、读 0.1x；高推理档让输出 token 涨 169% 而无收益 |
 | Apple Foundation Models framework：系统级 on-device 模型开放给开发者 | apple | 2026-11-13 | on-device, sdk, privacy | https://developer.apple.com/foundation-models-framework/ |  | 📖 daily 2026-11-13 — 端侧模型有了官方 SDK 面，本地化 agent 的隐私边界可以不再自己搭 |
 | AWS AgentCore 实战：Natera 用两个 agent + 技能库把实验室工单首响从 17.4h 压下来 | aws | 2026-11-13 | agent-runtime, knowledge-base, observability | https://aws.amazon.com/blogs/machine-learning/how-natera-designed-an-agentic-ai-system-for-lab-ops-with-amazon-bedrock-agentcore/ |  | 📖 daily 2026-11-13 — 130x 首响提速、96.2% 自动覆盖，附完整四层架构与评测闭环 |
+| ChatGPT Wallet：agent 可代付，但拿不到你的卡号 | OpenAI | 2026-11-14 | agentic-commerce, payments, security | https://openai.com/index/introducing-chatgpt-wallet |  | ⚡ daily 2026-11-14 — 首个不给 agent 真实卡号的支付原语，电商 agent 的权限边界落地 |
+| llama.cpp / ggml 双发 v1.0.0：语义化版本 + 稳定 ABI 承诺 | ggml-org | 2026-11-14 | local-inference, sdk, release | https://huggingface.co/blog/ggml-org/llama-cpp-v1 |  | ⚡ daily 2026-11-14 — 三年实验期结束，本地推理首次有 ABI 契约，下游可放心依赖 |
+| NeMo Switchyard：在 Bedrock 上把 coding agent 请求路由到对的模型 | AWS / NVIDIA | 2026-11-14 | routing, coding-agent, bedrock | https://aws.amazon.com/blogs/machine-learning/route-coding-agent-requests-to-the-right-model-on-amazon-bedrock-with-nvidia-nemo-switchyard/ |  | 🔧 daily 2026-11-14 — 官方给路由层参考实现，别再自己按首个 prompt 一刀切选模型 |
+| AgentCore runtime：会话冷启动架构模式（官方最佳实践） | AWS | 2026-11-14 | agent-runtime, latency, architecture | https://aws.amazon.com/blogs/machine-learning/architecture-patterns-for-fast-session-startup-on-amazon-bedrock-agentcore-runtime/ |  | 📖 daily 2026-11-14 — 长驻 agent 的启动延迟被拆成可复制的几套架构，直接抄 |
+| 🎯 Claude Meetings（beta）：Claude 作为可见参会者进会议 | Anthropic | 2026-11-14 | agent-ui, meetings, enterprise | https://claude.com/resources/articles/claude-meetings | 🎯 agent-ui | 🔧 daily 2026-11-14 — agent 从侧边栏变成会议里的一等参与者，可直接用已连工具改写产物 |
+| 自托管 Claude Managed Agents 私测：harness/沙箱/session 全在你机房 | Anthropic | 2026-11-14 | agent-harness, self-hosted, security | https://claude.com/es/resources/articles/self-hosted-claude-managed-agents |  | ⚡ daily 2026-11-14 — 托管 agent 平台首次整机可搬走，银行/内网场景的准入门槛消失 |
+| 腾讯混元 Hy Realtime：实时语音模型加 agentic 工具调用 | Tencent Hunyuan | 2026-11-14 | realtime, voice, tool-calling | https://www.ithome.com/1/026/825.htm |  | 🔧 daily 2026-11-14 — 语音从「能聊」到「能调工具」，实时语音成为 agent 的独立入口 |
+| Production MLOps at GS Caltex：SageMaker Canvas 落地复盘 | AWS | 2026-11-14 | llmops, case-study | https://aws.amazon.com/blogs/machine-learning/production-mlops-at-gs-caltex-with-amazon-sagemaker-canvas-part-1/ |  | 📖 daily 2026-11-14 — 制造业 MLOps 的真实组织落地路径，比 demo 更能说明边界 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
