@@ -1605,6 +1605,14 @@
 | 自托管 Claude Managed Agents 私测：harness/沙箱/session 全在你机房 | Anthropic | 2026-11-14 | agent-harness, self-hosted, security | https://claude.com/es/resources/articles/self-hosted-claude-managed-agents |  | ⚡ daily 2026-11-14 — 托管 agent 平台首次整机可搬走，银行/内网场景的准入门槛消失 |
 | 腾讯混元 Hy Realtime：实时语音模型加 agentic 工具调用 | Tencent Hunyuan | 2026-11-14 | realtime, voice, tool-calling | https://www.ithome.com/1/026/825.htm |  | 🔧 daily 2026-11-14 — 语音从「能聊」到「能调工具」，实时语音成为 agent 的独立入口 |
 | Production MLOps at GS Caltex：SageMaker Canvas 落地复盘 | AWS | 2026-11-14 | llmops, case-study | https://aws.amazon.com/blogs/machine-learning/production-mlops-at-gs-caltex-with-amazon-sagemaker-canvas-part-1/ |  | 📖 daily 2026-11-14 — 制造业 MLOps 的真实组织落地路径，比 demo 更能说明边界 |
+| Claude Managed Agents 自托管私测：harness / 沙箱 / 凭证 / session 全进自家机房 | Anthropic | 2026-11-15 | agent-runtime, self-hosted, security | https://claude.com/resources/articles/self-hosted-claude-managed-agents |  | ⚡ daily 2026-11-15 — agent 控制面可整体落地本地，模型走自选网关；企业准入的最大阻塞点被拆掉 |
+| OpenCode v2.3.0：子 agent 默认后台化，父会话不阻塞、空闲即回报 | anomalyco | 2026-11-15 | coding-agent, multi-agent, tui | https://github.com/anomalyco/opencode/releases/tag/v2.3.0 | 🎯 agent-ui | 🔧 daily 2026-11-15 — 多 agent 从「等结果」变「并发排队回报」，开源 coding agent 的编排范式跟进 |
+| Bedrock AgentCore 新一代 runtime 默认启用：会话从快照恢复，2 秒内启动 | AWS | 2026-11-15 | agent-runtime, sandbox, infra | https://aws.amazon.com/cn/about-aws/whats-new/2026/11/new-agentcore-runtime-default/ |  | ⚡ daily 2026-11-15 — 2GB 镜像启动 29.7s→<2s、空闲缩零后账单内存降 68%，长跑 agent 的单位成本模型改写 |
+| llama.cpp / ggml 双发 v1.0.0：删 35 个废弃 API，llama-server 修 SSRF/CORS/MCP 工具取消 | ggml-org | 2026-11-15 | inference, self-hosted, security | https://github.com/ggml-org/llama.cpp/releases/tag/v1.0.0 |  | 🔧 daily 2026-11-15 — MCP 工具取消与 DNS rebinding 防护进 server，本地推理开始有稳定 ABI 与安全基线 |
+| GitHub gh-aw v1.2.3：默认改为成本型模型路由，安全输出 job 与只读 agent job 彻底分离 | github | 2026-11-15 | ci, agent, security | https://github.com/github/gh-aw/releases/tag/v1.2.3 |  | 📖 daily 2026-11-15 — 「给 agent 写权限但不给整把 token」的参考实现；默认路由变更会悄悄改成本 |
+| Alibaba 开源 open-code-review：规则层打底、LLM agent 只处理需上下文的判断 | alibaba | 2026-11-15 | code-review, agent, evals | https://github.com/alibaba/open-code-review |  | 🔧 daily 2026-11-15 — 把「哪些判断该写成规则、哪些才调模型」显式拆开，反 LLM-only 审查路线 |
+| openai/codex-security 独立成 CLI + TS SDK：扫描→验证→出补丁，接 Linear/Jira/GitHub | openai | 2026-11-15 | security, ci, sdk | https://github.com/openai/codex-security |  | 🔧 daily 2026-11-15 — 安全 agent 从聊天功能变成流水线产品，可导出 SARIF/JSON 进 CI 与工单系统 |
+| MiniMax-H3-Image 开源：33.1B 单流 DiT，约 1600 万像素生成与编辑，权重已上 Hugging Face | MiniMax-AI | 2026-11-15 | open-weights, image-model, vllm | https://github.com/MiniMax-AI/MiniMax-H3-Image |  | 📖 daily 2026-11-15 — 官方宣传 0.87s 对应 2048² 画布，16MP 实为 3.84s；做本地图像 agent 前先看这条 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
