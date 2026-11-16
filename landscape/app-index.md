@@ -1613,6 +1613,13 @@
 | Alibaba 开源 open-code-review：规则层打底、LLM agent 只处理需上下文的判断 | alibaba | 2026-11-15 | code-review, agent, evals | https://github.com/alibaba/open-code-review |  | 🔧 daily 2026-11-15 — 把「哪些判断该写成规则、哪些才调模型」显式拆开，反 LLM-only 审查路线 |
 | openai/codex-security 独立成 CLI + TS SDK：扫描→验证→出补丁，接 Linear/Jira/GitHub | openai | 2026-11-15 | security, ci, sdk | https://github.com/openai/codex-security |  | 🔧 daily 2026-11-15 — 安全 agent 从聊天功能变成流水线产品，可导出 SARIF/JSON 进 CI 与工单系统 |
 | MiniMax-H3-Image 开源：33.1B 单流 DiT，约 1600 万像素生成与编辑，权重已上 Hugging Face | MiniMax-AI | 2026-11-15 | open-weights, image-model, vllm | https://github.com/MiniMax-AI/MiniMax-H3-Image |  | 📖 daily 2026-11-15 — 官方宣传 0.87s 对应 2048² 画布，16MP 实为 3.84s；做本地图像 agent 前先看这条 |
+| OpenAI 上线官方科学博客：集中公开 AI 辅助科研的方法与发现 | OpenAI | 2026-11-16 | research-workflow, official | https://openai.com/index/our-new-blog-for-science |  | ⚡ daily 2026-11-16 — 一手科研方法论公开，可复用「如何核查 AI 产出」（一手） |
+| Your Agent Will Pick the Hackable One：可替换固件成为 agent 购买判据 | — | 2026-11-16 | agent-economy, hardware | https://geoffstearns.com/blog/your-agent-will-pick-the-hackable-one/ |  | 📖 daily 2026-11-16 — 当写代码变便宜，agent 会按可改造性而非规格选设备 |
+| 李沐加入 Aimotion 任联合创始人兼 CTO，主攻产业级世界模型 + 商业 Agent | Aimotion / Boson AI | 2026-11-16 | world-model, industry | https://readhub.cn/topic/8y4JYNt9qrF |  | 📖 daily 2026-11-16 — 模型能力与长决策周期行业场景开始被官方层面对接 |
+| Vercel Workflow SDK 5：agent 运行事件日志全链路加密 | Vercel | 2026-11-16 | workflow, security, durable-execution | https://vercel.com/blog/workflow-sdk-5 |  | ⚡ daily 2026-11-16 — 每次 run 独立 AES-256-GCM 密钥，持久化 agent 状态可不暴露明文 |
+| Vercel 新增 Parallel Decisions API：AI Gateway 并行判断免费开放 | Vercel | 2026-11-16 | gateway, routing | https://vercel.com/changelog/parallel-decisions-now-available-on-ai-gateway-for-free |  | 🔧 daily 2026-11-16 — 一次请求并行多个判断，省一轮往返，适合 agent 路由/门控 |
+| Vercel Sandbox 区域缓存上线：首尔启动 3.5s → 1.05s | Vercel | 2026-11-16 | sandbox, latency | https://vercel.com/changelog/vercel-sandbox-starts-up-to-four-times-faster |  | 🔧 daily 2026-11-16 — 代码 agent 每次执行沙箱的冷启动开销直接砍掉七成 |
+| datasette-llm 0.1a11：可接任意 OpenAI 兼容端点（LM Studio / llama.cpp） | simonw | 2026-11-16 | rag, local-llm, data-agent | https://simonwillison.net/2026/Nov/14/datasette-llm/ |  | 🔧 daily 2026-11-16 — [RAG] 本地模型直连 Datasette Agent，查询型 agent 可全离线跑 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
