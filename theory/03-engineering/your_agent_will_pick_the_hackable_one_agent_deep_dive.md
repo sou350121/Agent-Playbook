@@ -1,6 +1,6 @@
 ---
 auto_generated: true
-generated_at: "2026-11-16T06:46:00Z"
+generated_at: "2026-11-16T06:46:11Z"
 source_url: "https://geoffstearns.com/blog/your-agent-will-pick-the-hackable-one/"
 signal_type: "blog_post"
 ---
