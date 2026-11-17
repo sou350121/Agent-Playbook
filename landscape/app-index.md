@@ -1620,6 +1620,14 @@
 | Vercel 新增 Parallel Decisions API：AI Gateway 并行判断免费开放 | Vercel | 2026-11-16 | gateway, routing | https://vercel.com/changelog/parallel-decisions-now-available-on-ai-gateway-for-free |  | 🔧 daily 2026-11-16 — 一次请求并行多个判断，省一轮往返，适合 agent 路由/门控 |
 | Vercel Sandbox 区域缓存上线：首尔启动 3.5s → 1.05s | Vercel | 2026-11-16 | sandbox, latency | https://vercel.com/changelog/vercel-sandbox-starts-up-to-four-times-faster |  | 🔧 daily 2026-11-16 — 代码 agent 每次执行沙箱的冷启动开销直接砍掉七成 |
 | datasette-llm 0.1a11：可接任意 OpenAI 兼容端点（LM Studio / llama.cpp） | simonw | 2026-11-16 | rag, local-llm, data-agent | https://simonwillison.net/2026/Nov/14/datasette-llm/ |  | 🔧 daily 2026-11-16 — [RAG] 本地模型直连 Datasette Agent，查询型 agent 可全离线跑 |
+| Making open models work for long-horizon agentic workloads | Together AI / Ollama | 2026-11-17 | prefix-cache, agentic, inference | https://www.together.ai/blog/making-open-models-work-for-long-horizon-agentic-workloads |  | 🔧 daily 2026-11-17 — agent 每轮全量重发，保住 prefix cache 决定长会话成本 |
+| How we make Together AI easy for coding agents to use | Together AI | 2026-11-17 | evals, coding-agent, docs | https://www.together.ai/blog/how-we-do-agent-evals-at-together-ai | [evaluation] | 🔧 daily 2026-11-17 — 改 docs/skills/报错文案把 agent 任务完成率 75%→97% |
+| Agents are users, so your software needs evals | Vercel | 2026-11-17 | evals, agent-ui, testing | https://vercel.com/blog/agent-evals | [evaluation] | 🔧 daily 2026-11-17 — 提出 agentic 测试金字塔：确定性/单轮/E2E 分层 |
+| AI Gateway now supports Private Inference | Vercel | 2026-11-17 | gateway, privacy | https://vercel.com/changelog/ai-gateway-now-supports-private-inference |  | 🔧 daily 2026-11-17 — 网关层加私有推理，敏感数据不出托管链路 |
+| Last year we built megakernels. This year we deleted them: The road to Together Compiler | Together AI | 2026-11-17 | inference, kernel, compiler | https://www.together.ai/blog/road-to-together-compiler |  | 📖 daily 2026-11-17 — AI agent 重写融合 GPU kernel，B200 上超手写 28% |
+| Build memory-aware AI agents with Agentic Retrieve on Amazon Bedrock Managed Knowledge Base | AWS | 2026-11-17 | rag, memory, bedrock | https://aws.amazon.com/blogs/machine-learning/build-memory-aware-ai-agents-with-agentic-retrieve-on-amazon-bedrock-managed-knowledge-base/ | [RAG] | 🔧 daily 2026-11-17 — 长时记忆检索并入单次 AgenticRetrieveStream 调用 |
+| Taxonomy of multi-agent design patterns, anti-patterns, and lessons from manufacturing | AWS | 2026-11-17 | multi-agent, architecture | https://aws.amazon.com/blogs/machine-learning/taxonomy-of-multi-agent-design-patterns-anti-patterns-and-lessons-from-manufacturing/ |  | 📖 daily 2026-11-17 — 多 agent 是分布式系统问题，给出何时才该上多 agent |
+| How Duco transforms financial data automation with Amazon Bedrock AgentCore | Duco / AWS | 2026-11-17 | agentcore, mcp, isolation | https://aws.amazon.com/blogs/machine-learning/how-duco-transforms-financial-data-automation-with-amazon-bedrock-agentcore/ |  | 📖 daily 2026-11-17 — 一级银行案例：租户隔离 + MCP skills 架构实操心法 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
