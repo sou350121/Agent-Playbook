@@ -1,6 +1,6 @@
 ---
 auto_generated: true
-generated_at: "2026-11-17T03:30:59Z"
+generated_at: "2026-11-17T05:45:14Z"
 source_url: "https://aws.amazon.com/blogs/machine-learning/build-memory-aware-ai-agents-with-agentic-retrieve-on-amazon-bedrock-managed-knowledge-base/"
 signal_type: "blog_post"
 ---
