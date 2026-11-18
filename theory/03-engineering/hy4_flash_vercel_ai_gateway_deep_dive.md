@@ -1,6 +1,6 @@
 ---
 auto_generated: true
-generated_at: "2026-11-18T05:45:42Z"
+generated_at: "2026-11-18T08:00:23Z"
 source_url: "https://vercel.com/changelog/hy4-flash-now-available-on-ai-gateway-for-50-off"
 signal_type: "blog_post"
 ---
