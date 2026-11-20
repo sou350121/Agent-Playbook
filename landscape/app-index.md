@@ -1644,6 +1644,14 @@
 | Airbnb 把 coding agent 的模型选择指标换成「cost per task」，并给出 CloudWatch 排查信号清单 | AWS / Airbnb | 2026-11-19 | observability, evals, cost | https://aws.amazon.com/blogs/machine-learning/how-airbnb-uses-cost-per-task-to-operate-coding-agents-on-amazon-bedrock/ |  | 🔧 daily 2026-11-19 — 上线前用自建任务跑 eval 出分+单价，上线后用 InvocationLatency 等指标回查 |
 | SageMaker JumpStart Model Leaderboard 上线：AWS 自跑 benchmark + 同样负载测成本，70+ 开源模型同表比较 | AWS | 2026-11-19 | evals, benchmark, model-selection | https://aws.amazon.com/blogs/machine-learning/introducing-the-amazon-sagemaker-jumpstart-model-leaderboard/ | [evaluation] | 📖 daily 2026-11-19 — 治「各家跑分口径不一」：BBH/GPQA-D/MMLU-Pro 同口径 + 部署实测延迟与成本 |
 | Exa 在 Inferentia2 / Trainium2 上把 embedding 吞吐提 50%，拿 agentic workflow 驱动调优 | Exa / AWS | 2026-11-19 | rag, embedding, inference-cost | https://aws.amazon.com/blogs/machine-learning/exa-boosts-embedding-throughput-by-50-to-index-billions-of-documents-on-aws-ai-chips/ | [RAG] | 🔧 daily 2026-11-19 — 300 亿文档回填场景的真实单位经济学拆解，非 NVIDIA 路线可直接参考 |
+| Onlook v2.0.2 桌面版：Claude Code / ChatGPT 驱动真实代码画布 | onlook-dev | 2026-11-20 | agent-ui, design-to-code | https://github.com/onlook-dev/onlook/releases | 🎯 agent-ui | 🔧 daily 2026-11-20 — 开源设计工具把编码 agent 塞进可视画布 |
+| AWS Bedrock AgentCore payments + AWS Marketplace x402：agent 用 AWS 账单付款 | AWS | 2026-11-20 | agent-payments, x402 | https://aws.amazon.com/blogs/machine-learning/enable-ai-agents-to-pay-for-aws-marketplace-x402-products-with-amazon-bedrock-agentcore-payments/ |  | ⚡ daily 2026-11-20 — 无需稳定币钱包/API 密钥，支出上限由 AgentCore policy 强制 |
+| SageMaker AI 推理端点默认体检：延迟漂移 / 闲置 GPU / 漏优化 | AWS | 2026-11-20 | observability, inference | https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-ai-now-detects-latency-drift-idle-gpus-and-missed-optimizations-on-your-inference-endpoints/ |  | 🔧 daily 2026-11-20 — vLLM GPU 端点免配置默认开启，仅看运维信号 |
+| Together Storage Accelerator：GPU 集群分布式缓存 | Together AI | 2026-11-20 | caching, gpu-cluster | https://www.together.ai/blog/introducing-together-storage-accelerator |  | 🔧 daily 2026-11-20 — 热读约 20 倍，随 GPU 集群免费提供 |
+| 宝马 R&D 治理数百个 agent 的实践 | BMW Group / AWS | 2026-11-20 | agent-governance | https://aws.amazon.com/blogs/machine-learning/how-the-bmw-group-governs-hundreds-of-agents-across-thousands-of-developers/ |  | ⚡ daily 2026-11-20 — 1.25 万开发者、1300 微服务规模下的治理分层 |
+| Weaviate：为 agent 重新设计 DX | Weaviate | 2026-11-20 | rag, dx | https://weaviate.io/blog/developer-experience-agentic-age | [RAG] | 📖 daily 2026-11-20 — 文档与 API 表面积要同时面向 agent |
+| Auditing a Deployed Human-in-the-Loop CV Sorter（arXiv） | — | 2026-11-20 | evaluation, hitl | https://arxiv.org/abs/2611.23359 | [evaluation] | 📖 daily 2026-11-20 — 真实上线 HITL 排序器审计结论 |
+| Chorus: Shared N-gram Embeddings（arXiv） | — | 2026-11-20 | embedding | https://arxiv.org/abs/2611.23386 |  | 📖 daily 2026-11-20 — 共享 n-gram 表 + 逐层适配 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
