@@ -1652,6 +1652,14 @@
 | Weaviate：为 agent 重新设计 DX | Weaviate | 2026-11-20 | rag, dx | https://weaviate.io/blog/developer-experience-agentic-age | [RAG] | 📖 daily 2026-11-20 — 文档与 API 表面积要同时面向 agent |
 | Auditing a Deployed Human-in-the-Loop CV Sorter（arXiv） | — | 2026-11-20 | evaluation, hitl | https://arxiv.org/abs/2611.23359 | [evaluation] | 📖 daily 2026-11-20 — 真实上线 HITL 排序器审计结论 |
 | Chorus: Shared N-gram Embeddings（arXiv） | — | 2026-11-20 | embedding | https://arxiv.org/abs/2611.23386 |  | 📖 daily 2026-11-20 — 共享 n-gram 表 + 逐层适配 |
+| OpenAI 公开对抗性蒸馏防御：GPT-6.2 保护性推理提取成功率 54% → 0.2% | OpenAI | 2026-11-21 | safety, evals, distillation | https://openai.com/index/combatting-adversarial-distillation |  | ⚡ daily 2026-11-21 — 蒸馏攻击与 CoT 提取首次给出可量化攻防基线，agent 平台要自查 API 侧防护 |
+| Amazon SageMaker HyperPod Global Inference Gateway：跨 Region/集群单端点路由 | AWS | 2026-11-21 | gateway, routing, inference | https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-global-inference-gateway-one-endpoint-across-regions-and-clusters/ |  | 🔧 daily 2026-11-21 — 在集群内 KV 缓存路由之上加跨集群层，闲置 GPU 可直接吃溢出流量 |
+| SageMaker HyperPod Slurm 托管集群扩展：可观测性与用户管理进控制台 | AWS | 2026-11-21 | observability, training, cluster | https://aws.amazon.com/blogs/machine-learning/introducing-managed-cluster-extensions-for-observability-and-user-management-in-amazon-sagemaker-hyperpod-slurm/ |  | 📖 daily 2026-11-21 — 训练集群的监控与权限从自建脚本转为托管，运维面收窄 |
+| 语言模型「自我重写权重」：27B 开源模型无梯度、无训练自改权重提升 6.6 分 | Jiajun Fan 等 | 2026-11-21 | self-improvement, inference | https://arxiv.org/abs/2611.21885 |  | 📖 daily 2026-11-21 — 把测试时收益写进权重、成本为零，重画训练/推理边界（arXiv） |
+| Together AI 上线 Qwen3 TTS：开放 TTS，首包音频 97ms、10 语言共用同一声音 | Together AI / Qwen | 2026-11-21 | tts, realtime, voice | https://www.together.ai/blog/qwen3-tts |  | 🔧 daily 2026-11-21 — 指令控制语气且跨语言保持音色，语音 agent 的可替换开源底座 |
+| Token fraud 成灾：ChatPRD 被免费试用套利跑 agent，创始人关停试用 | ChatPRD / Claire Vo | 2026-11-21 | abuse, cost, agent | https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/ |  | 📖 daily 2026-11-21 — 免费额度被当 token 批发转卖，任何 agent 产品的试用策略都要重算 |
+| Google Duplex 演进为 Gemini 内的代打电话：企业侧接入与身份声明流程公开 | Google | 2026-11-21 | voice, agent, assistant | https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini/ |  | 📖 daily 2026-11-21 — 语音 agent 从个人助理走向对外发起业务事务，含企业接入约束 |
+| OpenAI 客户案例：Hebbia 用 GPT-6 Astra 重构金融研究工作流 | Hebbia / OpenAI | 2026-11-21 | rag, enterprise | https://openai.com/business/customer-stories/hebbia |  | 📖 daily 2026-11-21 — 金融文档检索型 agent 的落地样本，可参考其评测口径 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
