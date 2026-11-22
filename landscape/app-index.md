@@ -1660,6 +1660,11 @@
 | Token fraud 成灾：ChatPRD 被免费试用套利跑 agent，创始人关停试用 | ChatPRD / Claire Vo | 2026-11-21 | abuse, cost, agent | https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/ |  | 📖 daily 2026-11-21 — 免费额度被当 token 批发转卖，任何 agent 产品的试用策略都要重算 |
 | Google Duplex 演进为 Gemini 内的代打电话：企业侧接入与身份声明流程公开 | Google | 2026-11-21 | voice, agent, assistant | https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini/ |  | 📖 daily 2026-11-21 — 语音 agent 从个人助理走向对外发起业务事务，含企业接入约束 |
 | OpenAI 客户案例：Hebbia 用 GPT-6 Astra 重构金融研究工作流 | Hebbia / OpenAI | 2026-11-21 | rag, enterprise | https://openai.com/business/customer-stories/hebbia |  | 📖 daily 2026-11-21 — 金融文档检索型 agent 的落地样本，可参考其评测口径 |
+| Qwen4-Max 上线 Together AI：65 万 token 单次调用修好 Tornado 真实 bug，成本 0.69 美元 | Together AI / Alibaba Qwen | 2026-11-22 | model-release, long-context, coding-agent | https://www.together.ai/blog/qwen4-max |  | ⚡ daily 2026-11-22 — 无工具无检索，单请求吃下整个仓库并产出通过测试的补丁 |
+| Signal 在 iPhone 禁用截图，阻止 Siri / AI 助手读取聊天内容 | Signal | 2026-11-22 | agent-security, privacy, on-device | https://9to5mac.com/2026/11/20/signal-now-blocks-screenshots-on-iphone-to-stop-siri-ai-from-seeing-chats/ | [evaluation] | 📖 daily 2026-11-22 — 系统级 agent 读屏能力开始遭遇应用层反制，权限模型需重估 |
+| AWS 发布分布式 KV 缓存 Agent Skill：自建 LLM 成本最多降 40%、首 token 降 80% | aws | 2026-11-22 | infra, kv-cache, cost, agent-skills | https://aws.amazon.com/blogs/machine-learning/cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv-caching-agent-skill/ |  | 🔧 daily 2026-11-22 — Agent Toolkit 里的 skill，能在编码 agent 内直接评估并搭起分布式 KV 缓存 |
+| Together AI 披露安全事件：2026 年 6–7 月 serverless 推理的部分 prompt 泄露 | Together AI | 2026-11-22 | security, inference, compliance | https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026 | [evaluation] | 📖 daily 2026-11-22 — 共享推理服务跨租户 prompt 泄露，托管推理的隔离假设要重新审视 |
+| AWS Quick 更新：对话里编排流程、多 agent 并行协作、web 端关掉标签页仍继续跑 | aws | 2026-11-22 | agent-ui, workflow, multi-agent | https://aws.amazon.com/blogs/machine-learning/new-in-aws-quick-more-capable-flows-an-updated-web-experience-and-agents-that-work-together/ | 🎯 agent-ui | 🔧 daily 2026-11-22 — 把个人操作固化为团队流程：新增确定性步骤与多 agent 汇总单次回答 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
