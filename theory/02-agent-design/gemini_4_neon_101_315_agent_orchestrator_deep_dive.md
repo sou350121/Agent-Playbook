@@ -1,6 +1,6 @@
 ---
 auto_generated: true
-generated_at: "2026-11-23T05:45:42Z"
+generated_at: "2026-11-23T09:01:28Z"
 source_url: "https://deepmind.google/blog/introducing-gemini-4-neon/"
 signal_type: "significant_update"
 ---
