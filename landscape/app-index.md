@@ -1665,6 +1665,13 @@
 | AWS 发布分布式 KV 缓存 Agent Skill：自建 LLM 成本最多降 40%、首 token 降 80% | aws | 2026-11-22 | infra, kv-cache, cost, agent-skills | https://aws.amazon.com/blogs/machine-learning/cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv-caching-agent-skill/ |  | 🔧 daily 2026-11-22 — Agent Toolkit 里的 skill，能在编码 agent 内直接评估并搭起分布式 KV 缓存 |
 | Together AI 披露安全事件：2026 年 6–7 月 serverless 推理的部分 prompt 泄露 | Together AI | 2026-11-22 | security, inference, compliance | https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026 | [evaluation] | 📖 daily 2026-11-22 — 共享推理服务跨租户 prompt 泄露，托管推理的隔离假设要重新审视 |
 | AWS Quick 更新：对话里编排流程、多 agent 并行协作、web 端关掉标签页仍继续跑 | aws | 2026-11-22 | agent-ui, workflow, multi-agent | https://aws.amazon.com/blogs/machine-learning/new-in-aws-quick-more-capable-flows-an-updated-web-experience-and-agents-that-work-together/ | 🎯 agent-ui | 🔧 daily 2026-11-22 — 把个人操作固化为团队流程：新增确定性步骤与多 agent 汇总单次回答 |
+| LangChain 完成 3 亿美元 C 轮（30 亿美元估值），资金全部投向 LangSmith 智能体平台 | LangChain | 2026-11-23 | agent-platform, langsmith, governance | https://www.langchain.com/blog/series-c |  | ⚡ daily 2026-11-23 — 智能体平台层被资本市场定价，LangSmith 已成企业 agent 底座 |
+| LangChain 发布 LangSmith Tool Gateway（Public Beta）：统一治理 agent 工具调用的凭证、身份与审批 | LangChain | 2026-11-23 | gateway, tool-calling, security | https://www.langchain.com/blog/langsmith-tool-gateway |  | 🔧 daily 2026-11-23 — 工具调用从配置散落走向统一网关，权限与审计一次到位 |
+| Vercel Functions 请求体上限 4.5MB → 20MiB（Public Beta，需 4GB 内存 runtime） | Vercel | 2026-11-23 | serverless, webhooks | https://vercel.com/changelog/vercel-functions-now-support-request-bodies-up-to-20mib |  | 🔧 daily 2026-11-23 — 大文件/多模态上传不再需要外挂对象存储中转 |
+| AG-UI release 2026-11-21：修掉 Continue 模式绕过权限门 + ADK 端点鉴权旁路（GHSA-jhvp-j8pf-5vh5） | ag-ui-protocol | 2026-11-23 | agent-ui, security, breaking-change | https://github.com/ag-ui-protocol/ag-ui/releases/tag/release%2F2026-11-21 | 🎯 agent-ui | 🔧 daily 2026-11-23 — agent↔前端协议修掉权限门绕过与鉴权旁路，必须尽快升级 |
+| OpenAI 发布《Perplexity and Intelligence》：公开内部预训练困惑度曲线，推动行业共享安全度量 | OpenAI | 2026-11-23 | evals, safety, frontier | https://openai.com/index/perplexity-and-intelligence | [evaluation] | ⚡ daily 2026-11-23 — 把困惑度提为跨模型可比指标，为模型能力评估提供统一基尺 |
+| Cloudflare agents@0.34.0：Pi 1.6 支持「工具挂起等人/等信号」，MCP 明确提示需重新授权 | cloudflare | 2026-11-23 | agent-runtime, mcp, durable | https://github.com/cloudflare/agents/releases |  | 🔧 daily 2026-11-23 — human-in-the-loop 与长任务等待原生化，MCP 鉴权失败可感知 |
+| Vercel AI SDK 补上 GPT-6.2 Astra / Sol 模型支持（@ai-sdk/openai 3.0.145）；@ai-sdk/mcp 保留 JSON-RPC 错误体 | vercel | 2026-11-23 | ai-sdk, mcp, provider | https://github.com/vercel/ai/releases |  | 🔧 daily 2026-11-23 — 新模型当天可用；MCP 客户端错误不再丢失响应体便于排障 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
