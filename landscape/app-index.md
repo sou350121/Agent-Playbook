@@ -1672,6 +1672,12 @@
 | OpenAI 发布《Perplexity and Intelligence》：公开内部预训练困惑度曲线，推动行业共享安全度量 | OpenAI | 2026-11-23 | evals, safety, frontier | https://openai.com/index/perplexity-and-intelligence | [evaluation] | ⚡ daily 2026-11-23 — 把困惑度提为跨模型可比指标，为模型能力评估提供统一基尺 |
 | Cloudflare agents@0.34.0：Pi 1.6 支持「工具挂起等人/等信号」，MCP 明确提示需重新授权 | cloudflare | 2026-11-23 | agent-runtime, mcp, durable | https://github.com/cloudflare/agents/releases |  | 🔧 daily 2026-11-23 — human-in-the-loop 与长任务等待原生化，MCP 鉴权失败可感知 |
 | Vercel AI SDK 补上 GPT-6.2 Astra / Sol 模型支持（@ai-sdk/openai 3.0.145）；@ai-sdk/mcp 保留 JSON-RPC 错误体 | vercel | 2026-11-23 | ai-sdk, mcp, provider | https://github.com/vercel/ai/releases |  | 🔧 daily 2026-11-23 — 新模型当天可用；MCP 客户端错误不再丢失响应体便于排障 |
+| Anthropic 发布 Claude Ship 测试版：PR Steward 修 CI、Claude Approvals 按仓库策略自动放行合并 | Anthropic | 2026-11-24 | coding-agent, code-review, agent-ui | https://claude.com/resources/articles/introducing-claude-ship |  | ⚡ daily 2026-11-24 — 从「写代码」延伸到「审→修→放行」，agent 首次接管合并决策 |
+| OpenAI 与思科开源 Shirudo：Codex 生成 eBPF shield，不重启就打补丁前的热修 | OpenAI / Cisco | 2026-11-24 | security, ebpf, coding-agent | https://openai.com/index/introducing-shirudo |  | 📖 daily 2026-11-24 — agent 输出物从「代码/文本」变成可直接加载的内核保护程序 |
+| Vercel AI Gateway 推 Audited ZDR：Baseten/Modal/Wafer 由第三方审计实测不落盘 | Vercel | 2026-11-24 | gateway, security, compliance | https://vercel.com/blog/introducing-audited-zdr-on-ai-gateway |  | 🔧 daily 2026-11-24 — 「零留存」从合同自述变成可查审计报告，企业选型多一条硬指标 |
+| Vercel AI Gateway 新增 canary ZDR 审计：投放独有 URL 抓「推理路径外读取 prompt」 | Vercel | 2026-11-24 | gateway, observability, security | https://vercel.com/changelog/ai-gateway-now-runs-canary-zdr-audits |  | 📖 daily 2026-11-24 — 一次性审计 → 持续探测，ZDR 有了运行时监测手段 |
+| Vercel AI Gateway 支持 extraction models：ScaleDown Extract-1 直接按字段结构化抽取 | Vercel / ScaleDown | 2026-11-24 | gateway, structured-output, extraction | https://vercel.com/changelog/ai-gateway-now-supports-extraction-models |  | 🔧 daily 2026-11-24 — 发票/合同抽取不用再自己拼 prompt+校验，带置信度与 offset |
+| Hugging Face：如何构建并长期维护一个 agentic evaluation（三纪元方法论） | Hugging Face | 2026-11-24 | evals, benchmark, traces | https://huggingface.co/blog/agentic-evals | [evaluation] | 📖 daily 2026-11-24 — 把 eval 从「答案对不对」推到「轨迹与多 agent 产出」，附八步流程 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
