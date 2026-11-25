@@ -1,6 +1,6 @@
 ---
 auto_generated: true
-generated_at: "2026-11-25T05:46:15Z"
+generated_at: "2026-11-25T06:46:12Z"
 source_url: "https://github.com/pydantic/pydantic-ai/releases/tag/v2.74.0"
 signal_type: "blog_post"
 ---
