@@ -1678,6 +1678,12 @@
 | Vercel AI Gateway 新增 canary ZDR 审计：投放独有 URL 抓「推理路径外读取 prompt」 | Vercel | 2026-11-24 | gateway, observability, security | https://vercel.com/changelog/ai-gateway-now-runs-canary-zdr-audits |  | 📖 daily 2026-11-24 — 一次性审计 → 持续探测，ZDR 有了运行时监测手段 |
 | Vercel AI Gateway 支持 extraction models：ScaleDown Extract-1 直接按字段结构化抽取 | Vercel / ScaleDown | 2026-11-24 | gateway, structured-output, extraction | https://vercel.com/changelog/ai-gateway-now-supports-extraction-models |  | 🔧 daily 2026-11-24 — 发票/合同抽取不用再自己拼 prompt+校验，带置信度与 offset |
 | Hugging Face：如何构建并长期维护一个 agentic evaluation（三纪元方法论） | Hugging Face | 2026-11-24 | evals, benchmark, traces | https://huggingface.co/blog/agentic-evals | [evaluation] | 📖 daily 2026-11-24 — 把 eval 从「答案对不对」推到「轨迹与多 agent 产出」，附八步流程 |
+| pydantic-ai v2.74.0：把 computer tool 契约并入核心，ComputerTool 成为原生工具 | pydantic | 2026-11-25 | agent, computer-use, sdk | https://github.com/pydantic/pydantic-ai/releases/tag/v2.74.0 |  | 🔧 daily 2026-11-25 — computer_use 进核心，agent 的屏幕操作工具不再各自造轮子 |
+| OpenAI Agents SDK v0.26.0 与 v1.0.0-alpha.2：跨 worker 恢复中断会话与待审批 | openai | 2026-11-25 | agent, checkpoint, sdk | https://github.com/openai/openai-agents-python/releases/tag/v1.0.0-alpha.2 |  | ⚡ daily 2026-11-25 — 长跑 agent 的检查点格式已改，读端必须先升级 |
+| Microsoft Foundry Ignite 2026：Insights 直连 Agent Optimizer，多轮评估 GA | microsoft | 2026-11-25 | evals, agent, observability | https://devblogs.microsoft.com/foundry/whats-new-in-microsoft-foundry-ignite-2026/ | [evaluation] | ⚡ daily 2026-11-25 — trace 里的失败样本自动变成可测优化项 |
+| Vercel Sandbox 全部切换 Managed Images：universal 镜像内置 Claude Code 与 Pi | vercel | 2026-11-25 | sandbox, runtime, agent | https://vercel.com/changelog/all-sandbox-runtimes-now-use-vercel-managed-images |  | 🔧 daily 2026-11-25 — 沙箱镜像 nightly 滚动含 coding agent，可复现需 pin digest |
+| Anthropic 66 家客户访谈：coding agent 正把软件能力带给非技术岗 | anthropic | 2026-11-25 | agent, enterprise, economics | https://www.anthropic.com/research/working-with-ai |  | 📖 daily 2026-11-25 — 企业侧瓶颈从写码转到 code review 与审批 |
+| iFood 用编码 agent 铺 15000 个仓库：单次推理 0.04 美元，漏洞修复翻倍 | openai | 2026-11-25 | coding-agent, cost, platform | https://openai.com/business/customer-stories/ifood | 🎯 agent-ui | 🔧 daily 2026-11-25 — 异步 agent 平台化的成本与验收口径可直接照抄 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
