@@ -1,6 +1,6 @@
 ---
 auto_generated: true
-generated_at: "2026-11-26T08:01:05Z"
+generated_at: "2026-11-26T08:01:26Z"
 source_url: "https://www.together.ai/blog/qwen4-max"
 signal_type: "significant_update"
 ---
