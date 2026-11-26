@@ -1684,6 +1684,15 @@
 | Vercel Sandbox 全部切换 Managed Images：universal 镜像内置 Claude Code 与 Pi | vercel | 2026-11-25 | sandbox, runtime, agent | https://vercel.com/changelog/all-sandbox-runtimes-now-use-vercel-managed-images |  | 🔧 daily 2026-11-25 — 沙箱镜像 nightly 滚动含 coding agent，可复现需 pin digest |
 | Anthropic 66 家客户访谈：coding agent 正把软件能力带给非技术岗 | anthropic | 2026-11-25 | agent, enterprise, economics | https://www.anthropic.com/research/working-with-ai |  | 📖 daily 2026-11-25 — 企业侧瓶颈从写码转到 code review 与审批 |
 | iFood 用编码 agent 铺 15000 个仓库：单次推理 0.04 美元，漏洞修复翻倍 | openai | 2026-11-25 | coding-agent, cost, platform | https://openai.com/business/customer-stories/ifood | 🎯 agent-ui | 🔧 daily 2026-11-25 — 异步 agent 平台化的成本与验收口径可直接照抄 |
+| MCP servers can now ship skills, run tasks, and more with Claude | Anthropic | 2026-11-26 | mcp, agent-skills, tool-calling | https://claude.com/resources/articles/skills-over-mcp-tasks-and-more | 🎯 agent-ui | ⚡ daily 2026-11-26 — MCP 从「调工具」升级为「发技能+派任务+要确认」，server 变成可协作 agent |
+| Claude Code v2.1.332: Skills from MCP servers (beta) + PreSkillShellCommand hook | Anthropic | 2026-11-26 | claude-code, mcp, hooks | https://github.com/anthropics/claude-code/releases | 🎯 agent-ui | 🔧 daily 2026-11-26 — 远程 server 可把内联 shell 命令带进会话，务必配 PreSkillShellCommand 白名单 |
+| OpenAI Agents SDK v0.26.0: guardrail rejection now stops queued tools | openai | 2026-11-26 | agents-sdk, guardrails, sandbox | https://github.com/openai/openai-agents-python/releases/tag/v0.26.0 |  | 🔧 daily 2026-11-26 — 此前已排队工具可在输入护栏拒绝后继续执行，安全边界型护栏要复核副作用 |
+| Google ADK Python v2.15.1 | google | 2026-11-26 | adk, a2a, migration | https://github.com/google/adk-python/releases/tag/v2.15.1 |  | 🔧 daily 2026-11-26 — 回滚 A2A 流式落盘改动，Claude sampling 兼容 1.x/2.x，升级前先看 A2A 行为 |
+| Introducing Hurdle: Run agent evals on your API, skills, and docs | Together AI | 2026-11-26 | evals, agent-runtime, guardrails | https://www.together.ai/blog/introducing-hurdle-run-agent-evals-on-your-api-skills-and-docs | [evaluation] | 🔧 daily 2026-11-26 — 护栏在运行中拦真实扣费请求，跑完再用代码检查+LLM judge 判定 |
+| Verifiable Social Reasoning for LLM Assistants | Google Research | 2026-11-26 | evals, benchmark, alignment | https://research.google/blog/verifiable-social-reasoning-for-llm-assistants/ | [evaluation] | 📖 daily 2026-11-26 — 助手比旁观者更易被用户框架带偏，开源 20K 数据可做社交推理评测 |
+| DAGGER: Deployment-Free Quality Estimation for Generative AI Workflows | — | 2026-11-26 | evals, workflow, quality-estimation | https://arxiv.org/abs/2611.31252 | [evaluation] | 📖 daily 2026-11-26 — 上线前预判工作流质量，省掉部署一轮才能测的成本（arXiv） |
+| Where scientists draw the line on AI agents | Ai2 | 2026-11-26 | agent-safety, research | https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents |  | 📖 daily 2026-11-26 — 17 位科学家访谈：科研 agent 的披露与复核规范，比准确率更早成刚需 |
+| An Indic Voice Agent with CUGA | IBM Research | 2026-11-26 | voice-agent, multilingual, agent | https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga |  | 📖 daily 2026-11-26 — 多语言语音 agent 的可复现搭建路径，覆盖印度语系低资源场景 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
