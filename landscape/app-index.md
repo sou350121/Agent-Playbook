@@ -1693,6 +1693,12 @@
 | DAGGER: Deployment-Free Quality Estimation for Generative AI Workflows | — | 2026-11-26 | evals, workflow, quality-estimation | https://arxiv.org/abs/2611.31252 | [evaluation] | 📖 daily 2026-11-26 — 上线前预判工作流质量，省掉部署一轮才能测的成本（arXiv） |
 | Where scientists draw the line on AI agents | Ai2 | 2026-11-26 | agent-safety, research | https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents |  | 📖 daily 2026-11-26 — 17 位科学家访谈：科研 agent 的披露与复核规范，比准确率更早成刚需 |
 | An Indic Voice Agent with CUGA | IBM Research | 2026-11-26 | voice-agent, multilingual, agent | https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga |  | 📖 daily 2026-11-26 — 多语言语音 agent 的可复现搭建路径，覆盖印度语系低资源场景 |
+| Claude 新增「Install as App」：对话里直接生成并安装桌面应用 | Anthropic | 2026-11-27 | agent-ui, desktop-app | https://36kr.com/p/4085949016746627 |  | ⚡ daily 2026-11-27 — 🎯 agent-ui：聊天框只是过渡，装成 App 才是交互新形态 |
+| Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems | huggingface | 2026-11-27 | multi-agent, trl, evals | https://huggingface.co/blog/training-swarms |  | ⚡ daily 2026-11-27 — 多智能体不会自动变强：协作能力必须靠 TRL 训练，附可复现实验 |
+| Distilling Kimi-K3.1-Pro into Qwen3.8-27B: Teaching a model a new language | together-ai | 2026-11-27 | post-training, distillation, lora | https://www.together.ai/blog/distilling-kimi-into-qwen |  | 🔧 daily 2026-11-27 — 260 美元训 LoRA 把大模型能力灌进 27B，cookbook 可直接复现 |
+| Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon | ggml-org | 2026-11-27 | local-inference, amd, benchmark | https://huggingface.co/blog/ggml-org/llamacpp-amd-bench |  | 📖 daily 2026-11-27 — 本地推理选型有了公开可比数据：量化×构建×上下文的 AMD 实测曲线 |
+| sqlite3_rsync: Database Remote-Copy Tool For SQLite | sqlite | 2026-11-27 | sqlite, backup, ops | https://simonwillison.net/2026/Nov/26/sqlite3-rsync/ |  | 🔧 daily 2026-11-27 — 不用先造完整本地副本就能跨机同步 SQLite，小磁盘实例的备份解法 |
+| MCP Turns Two, and Servers Now Send Instructions With Their Tools | — | 2026-11-27 | mcp, skills, protocol | https://blog.pebblous.ai/blog/mcp-turns-two-skills-over-mcp/en/ |  | 📖 daily 2026-11-27 — MCP 两周年：server 随工具下发使用说明，与 Claude Skills 路线合流 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
