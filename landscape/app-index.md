@@ -1699,6 +1699,8 @@
 | Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon | ggml-org | 2026-11-27 | local-inference, amd, benchmark | https://huggingface.co/blog/ggml-org/llamacpp-amd-bench |  | 📖 daily 2026-11-27 — 本地推理选型有了公开可比数据：量化×构建×上下文的 AMD 实测曲线 |
 | sqlite3_rsync: Database Remote-Copy Tool For SQLite | sqlite | 2026-11-27 | sqlite, backup, ops | https://simonwillison.net/2026/Nov/26/sqlite3-rsync/ |  | 🔧 daily 2026-11-27 — 不用先造完整本地副本就能跨机同步 SQLite，小磁盘实例的备份解法 |
 | MCP Turns Two, and Servers Now Send Instructions With Their Tools | — | 2026-11-27 | mcp, skills, protocol | https://blog.pebblous.ai/blog/mcp-turns-two-skills-over-mcp/en/ |  | 📖 daily 2026-11-27 — MCP 两周年：server 随工具下发使用说明，与 Claude Skills 路线合流 |
+| DeepSeek 灰度测试「本轮消耗额度」：逐维度拆解缓存命中/未命中与输出成本 | DeepSeek | 2026-11-28 | cost-observability, prompt-cache | https://m.ithome.com/html/1033157.htm |  | 🔧 daily 2026-11-28 — 对话侧首次把 token 成本透明化，也可反推 agent 成本模型 |
+| Claude Code 核心成员 Thariq Shihipar 转投 OpenAI，并反思 Vibe Coding 的下一代形态 | OpenAI / Anthropic | 2026-11-28 | coding-agent, human-in-the-loop | https://www.36kr.com/p/4087449994181000 | 🎯 agent-ui | ⚡ daily 2026-11-28 — 提出现代码农写规格、AI 写实现的分工，正对 agent 交互层设计 |
 
 ## UI/UX 工具（Agent UI / Workflow UI）
 
